@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Introduction to Digital Humanities</title>
+
+    <link rel="shortcut icon" href="http://fredgibbs.net/favicon.ico?v=2" />
+
+    <script type="text/javascript" src="/assets/tether-1.3.3/dist/js/tether.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery-3.1.1.js"></script>
+
+
+
+<link rel="stylesheet" href="/assets/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css"/>
+<script type="text/javascript" src="/assets/bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="/assets/css/pygments.css"/>
+    <link rel="stylesheet" href="/assets/css/main.css"/>
+
+  </head>
+
+
+<body data-spy="scroll" data-target="#side-nav" data-offset="50">
+
+	<nav class="navbar navbar-toggleable-sm fixed-top navbar-light ">
+  <div class="container">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <a class="navbar-brand" href="/">fred gibbs</a>
+  <div class="collapse navbar-collapse" id="navbarResponsive">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item"><a class="nav-link" href="/about">about</a></li>
+      <li><a class="nav-link" href="/projects">projects</a></li>
+      <li><a class="nav-link" href="/posts">posts</a></li>
+      <li><a class="nav-link" href="/courses">courses</a></li>
+      <li><a class="nav-link" href="/tutorials">tutorials</a></li>
+      <li><a class="nav-link" href="/cv">cv</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+
+
+	<div class="container">
+		<div id="syllabus">
+
+  <div class="row">
+
+    <div class="col-12">
+      <h1>Introduction to Digital Humanities</h1>
+      Winter 2017 • HIST 698-002
+      <br>
+      <a href="index.html">info</a> | <a href="schedule.html">readings</a>
+      <hr>
+      <h3 id="spy-on-your-colleagues">Spy on your colleagues</h3>
+<p><a href="https://sasariti.github.io/">Angelica</a>,
+<a href="https://imanico.github.io/">Imani</a>,
+<a href="https://quintj.github.io/">Jonathan</a>,
+<a href="https://joshuarrrr.github.io/">Josh</a>,
+<a href="https://k8lyn6.github.io/">Kaitlyn</a>,
+<a href="https://filamarisol.github.io/">Marisol</a>,
+<a href="https://nrholterman.github.io/">Nicholas</a>,
+<a href="https://pr-curtis.github.io/">Paula</a>,
+<a href="https://spswanz.github.io/">Sarah</a>,
+<a href="https://skirycki.github.io/">Scott</a></p>
+
+<h2 id="1-ethos-of-digital-humanities--digital-historiography">1: Ethos of Digital Humanities / Digital Historiography</h2>
+
+<h3 id="before-class">Before Class</h3>
+<p>William Cronon, <a href="http://www.historians.org/perspectives/issues/2012/1201/The-Public-Practice-of-History-in-and-for-a-Digital-Age.cfm">The Public Practice of History in and for a Digital Age</a>.</p>
+
+<p>Julia Flanders, <a href="http://digitalhumanities.org/dhq/vol/3/3/000055/000055.html">The Productive Unease of 21st-century Digital Scholarship</a>.</p>
+
+<p>Stephen Ramsay, <a href="http://stephenramsay.us/2013/05/03/dh-one-and-two/">DH Types One and Two</a>.</p>
+
+<p>Mark Sample, <a href="http://webcache.googleusercontent.com/search?q=cache:IyRYK7RWT8cJ:www.samplereality.com/2011/05/25/the-digital-humanities-is-not-about-building-its-about-sharing/+&amp;cd=1&amp;hl=en&amp;ct=clnk&amp;gl=us">The Digital Humanities Is Not About Building, It’s About Sharing</a>.</p>
+
+<p>Lisa Spiro, <a href="http://dhdebates.gc.cuny.edu/debates/text/13">“This Is Why We Fight”: Defining the Values of the Digital Humanities</a></p>
+
+<h3 id="in-class">In Class</h3>
+<ul>
+  <li>Introduction to <a href="http://zotero.org">Zotero</a>, <a href="http://github.com">GitHub</a> (+ version control with git), <a href="https://pages.github.com">GitHub Pages</a>, <a href="https://guides.github.com/features/mastering-markdown/#intro">Markdown</a>.</li>
+  <li>Connect to the Zotero Library.</li>
+  <li>Set up GitHub account, and complete the <a href="https://guides.github.com/activities/hello-world/">Hello world tutorial</a>.</li>
+</ul>
+
+<h2 id="2-the-command-line">2: The Command Line</h2>
+<p>Some of the most powerful tools you might use for digital research and publishing don’t have a GUI (Graphical User Interface) for many reasons that we’ll discuss. If you haven’t used a command line interface before, it can be disorienting, but we’ll try for a very gentle introduction.</p>
+
+<p>If you have Windows, you’ll need to use PowerShell; if you have a Mac, you’ll need to use your Terminal application. For our purposes, they are functionally equivalent.</p>
+
+<h3 id="before-class-1">Before class</h3>
+<p>Review Sample and Spiro from last week (since we didn’t get to them).</p>
+
+<p>Jim Mussell, “Doing and Making: History as Digital Practice,” in Tony Weller (ed.), <em>History in the Digital Age</em> (London: Routledge, 2013), 79–94.</p>
+
+<p>Read through (but don’t worry about completing) the in-class tutorials beforehand; we’ll go through them in class with some deviations. Please come to class with questions about the terms and concepts so we can be most efficient with our work time.</p>
+
+<h3 id="in-class-1">In class</h3>
+<p>We’ll work through some basic examples with the Command Line and Pandoc and troubleshoot any issues you run into.</p>
+
+<ul>
+  <li>Dennis Tenen and Grant Wythoff, <a href="http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown">Sustainable Authorship in Plain Text using Pandoc and Markdown</a>.</li>
+  <li>Download and install <a href="http://pandoc.org/installing.html">pandoc</a>. Work through this <a href="http://pandoc.org/getting-started.html">introduction to pandoc on the command line</a>.</li>
+  <li><a href="http://programminghistorian.org/lessons/intro-to-bash">Intro to bash</a> (Windows users: don’t use Git Bash as the tutorial indicates, use Powershell instead).</li>
+  <li>Another tool to note: <a href="http://www.imagemagick.org/script/index.php">ImageMagick</a>.</li>
+  <li>Create a simple website with GitHub Pages.</li>
+</ul>
+
+<h3 id="useful-references">Useful References</h3>
+<p><a href="https://guides.github.com/features/mastering-markdown/">GitHub Markdown Reference Guide</a> and a more <a href="https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf">stylized PDF</a>. This <a href="http://daringfireball.net/projects/markdown/dingus">Markdown sandbox</a> allows you to experiment and see what your Markdown will look like in HTML and on a webpage.</p>
+
+<p>If you haven’t found it already, I highly recommend that you use <a href="https://atom.io">Atom</a> as your text editor.</p>
+
+<h2 id="3-digital-publishing">3: Digital Publishing</h2>
+
+<p>We’ll use our new knowledge of the command line and several tutorials to help us install Jekyll (which is what GitHub uses) and manage our websites more easily. First, we’ll talk about different strategies for and reasons why you might want to be more hands on with your own digital presence.</p>
+
+<h3 id="before-class-why-you-might-care-about-your-own-website">Before class (why you might care about your own website)</h3>
+<p>It is not necessary to read each of these in great depth, but you should skim through each to take away what you find interesting. This reading list is a bit long simply to provide a number of perspectives and considerations, not because they are all absolutely essential readings.</p>
+
+<p>For your response essay: please comment on what you found attractive or repulsive about the readings in terms of professional identity? Any interesting perspectives you hadn’t considered? Particularly specious arguments? Omissions?</p>
+
+<p>Christopher P. Long, <a href="http://cplong.org/2013/09/the-googled-graduate-student/">The Googled Graduate Student</a>.</p>
+
+<p>Jentery Sayers, <a href="http://www.chronicle.com/blogs/profhacker/do-you-need-your-own-website-while-on-the-job-market/35825">Do You Need Your Own Website while on the Job Market</a>.</p>
+
+<p>Patrick Iber, <a href="https://www.insidehighered.com/advice/2016/10/19/how-academics-can-use-twitter-most-effectively-essay">A Defence of Academic Twitter</a>.</p>
+
+<p>Katrina Gulliver, <a href="http://chronicle.com/article/10-Commandments-of-Twitter-for/131813/">10 Commandments of Twitter for Academics</a>.</p>
+
+<p>Chuck Tyron, <a href="http://mediacommons.futureofthebook.org/mla2009/tryon/mla2009draft">Blogging, Scholarship, and the Networked Public Sphere</a>.</p>
+
+<p>Kim Barbour and David Marshall, <a href="http://journals.uic.edu/ojs/index.php/fm/article/view/3969/3292">The Academic Online: Constructing Persona Through the World Wide Web</a>.</p>
+
+<p>Also, read through the tutorials below so that you can start to conceptualize what we’ll be doing. Come to class with lots of questions about these, which we can address before we start and as we go. If you’d like to jump into the tutorials and do them, that’s great, but it’s more important to build familiarity with the various tools and steps to get them running.</p>
+
+<h3 id="in-class-2">In class</h3>
+<p>We’re going to set up our websites locally (that is, on our own computers) so that we don’t have to do everything via GitHub. We’ll install Jekyll, the software that GitHub Pages uses to make our websites (but first we have to install some software that Jekyll requires). The tutorials can get confusing, we’re going to go through them together with some deviations.</p>
+
+<ul>
+  <li>Zotero, Zotfile, and Dropbox</li>
+  <li>Review of previous technologies and a few related examples.</li>
+  <li>Brief introduction to GitHub Desktop and review of branches.</li>
+  <li>We are going to work through Amanda Visconti, <a href="http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages">Building a static website with Jekyll and GitHub Pages</a>. There is some review of what we did last time, so it should seem familiar, and you can skip some of the steps. Follow the relevant Mac or Windows instructions when they diverge under the “Installing Dependencies” section. - <strong>Stop at the “Setting up Jekyll” section because we’ve already got a website to connect to.</strong></li>
+  <li>We won’t be using the automatic blog feature of Jekyll for now, so you should read through that section, but don’t worry about doing it.</li>
+</ul>
+
+<p>For another perspective and for reference, see Keith Miyake, <a href="http://digitalfellows.commons.gc.cuny.edu/2016/03/21/create-your-free-website-using-github-and-jekyll/">Create Your (FREE) Website Using Github and Jekyll</a>.</p>
+
+<p>Remember: once you start using git on the command line, you can always <a href="https://github.com/blog/2019-how-to-undo-almost-anything-with-git">undo just about anything</a>.</p>
+
+<h2 id="4-typography--html--css">4: Typography + HTML + CSS</h2>
+<p>Getting a handle on the fundamentals of design and typography goes a long way in improving communication. We’re going to practice typography with our CVs.</p>
+
+<h3 id="before-class-2">Before class</h3>
+<ul>
+  <li><a href="http://thinkingwithtype.com">Thinking with Type</a></li>
+  <li><a href="http://learn.shayhowe.com/html-css/">Intro to HTML and CSS</a> (read through chapter 6)</li>
+  <li><a href="http://webtypography.net/toc/">The Elements of Typographic Style Applied to the Web</a></li>
+</ul>
+
+<h3 id="in-class-3">In class</h3>
+<ul>
+  <li>Zotero, Zotfile, and Dropbox (neglected last time)</li>
+  <li>Command line + pandoc review; ImageMagick</li>
+  <li>GitHub Desktop tour</li>
+  <li>Using branches to edit your CV</li>
+  <li>Using git on the command line</li>
+  <li>Review and clarify the HTML and CSS tutorials</li>
+  <li>Fork demo repository for sample code</li>
+  <li>Jekyll, Markdown, HTML, CSS localhost review</li>
+  <li>Introduction to <a href="https://jekyllrb.com/docs/includes/">Jekyll includes and templates</a></li>
+  <li>CSS Frameworks (like http://getskeleton.com)</li>
+  <li>Begin fleshing out and styling your own site/pages
+    <ul>
+      <li>Home (index.md)</li>
+      <li>About</li>
+      <li>698-Portfolio</li>
+      <li>CV</li>
+    </ul>
+  </li>
+  <li>Start playing with more complex web frameworks (like <a href="http://getbootstrap.com">Bootstrap</a>)</li>
+</ul>
+
+<h2 id="5-digital-spatial-history">5: Digital Spatial History</h2>
+
+<h3 id="before-class-3">Before class</h3>
+<p>Richard White, <a href="http://www.stanford.edu/group/spatialhistory/cgi-bin/site/pub.php?id=29">What is spatial history</a>?</p>
+
+<p>Anne Kelly Knowles, <a href="http://parameters.ssrc.org/2016/08/a-more-humane-approach-to-digital-scholarship/">A More Humane Approach to Digital Scholarship</a></p>
+
+<p>David J. Bodenhamer, “The Spatial Humanities: Space, Time and Place in the New Digital Age,” in Tony Weller (ed.), <em>History in the Digital Age</em> (London: Routledge, 2013), 23-38.</p>
+
+<h3 id="in-class-4">In class</h3>
+<ul>
+  <li>Zotero, Zotfile, and Dropbox (neglected last time, again)</li>
+  <li>Using branches for working copies of files</li>
+  <li>More on Jekyll layouts and themes
+    <ul>
+      <li>Default installation and <a href="https://github.com/jekyll/minima">minima theme</a>.</li>
+      <li>Creating your own layouts to minimize maintenance</li>
+    </ul>
+  </li>
+  <li>Using and learning from CSS Frameworks (like <a href="http://getskeleton.com">skeleton</a>)</li>
+  <li>Continue fleshing out and styling your own site/pages
+    <ul>
+      <li>Home (index.md)</li>
+      <li>About</li>
+      <li>698-Portfolio</li>
+      <li>CV</li>
+    </ul>
+  </li>
+  <li>Start getting familiar with more complex web frameworks (like <a href="http://getbootstrap.com">Bootstrap</a>)</li>
+</ul>
+
+<p>After we get a little more situated with our portfolios we’ll turn to the mapping articles for this week. Then, playing around with maps:</p>
+
+<ul>
+  <li><a href="http://programminghistorian.org/lessons/googlemaps-googleearth">Google Maps tutorial</a></li>
+  <li>Google Earth and Historic Maps demo</li>
+  <li><a href="https://carto.com">Carto</a></li>
+  <li><a href="https://www.mapbox.com/showcase/">MapBox</a></li>
+  <li><a href="http://story.maps.arcgis.com/home/index.html">StoryMaps</a></li>
+  <li>If you decide you love web programming: <a href="http://leafletjs.com">Leaflet</a></li>
+</ul>
+
+<h2 id="6-mapping-with-qgis">6: Mapping with QGIS</h2>
+
+<h3 id="before-class-4">Before class</h3>
+<p>I. N. Gregory and A. Hardie, “Visual GISting: Bringing Together Corpus Linguistics and Geographical Information Systems,” <em>Literary and Linguistic Computing</em> 26, no. 3 (2011): 297–314.</p>
+
+<p>Matthew Wilkens, “Geolocation Extraction and Mapping of Nineteenth-Century U.S. Fiction.”</p>
+
+<ul>
+  <li>So as not to lose your hard-earned knowledge from last time, continue fleshing out and styling your own site/pages. Don’t be afraid about breaking anything. You should break stuff. Remember, you can use branches to keep good working copies of your files as you experiment.</li>
+  <li>Complete the <a href="http://programminghistorian.org/lessons/googlemaps-googleearth">Google Maps tutorial</a>. Compared to what you’ve been doing, this is going to be SO EASY.</li>
+  <li>Download and install <a href="http://www.qgis.org/en/site/">QGIS</a>.</li>
+  <li>MAC USERS: When you open the disk image that you download, you’ll see 4 .pkg files that you must install in the order they are numbered.</li>
+</ul>
+
+<h3 id="in-class-5">In class</h3>
+<ul>
+  <li>Jekyll gems themes review</li>
+  <li>Layouts and includes review</li>
+  <li>CSS frameworks and boilerplates (like <a href="http://getskeleton.com">skeleton</a> or <a href="https://milligram.github.io">milligram</a>)</li>
+  <li>Consider the Nav Bar (like https://mobiforge.com/design-development/mobile-friendliness-101-how-to-build-a-fixed-navigation-bar).</li>
+  <li>Readings discussion</li>
+  <li>Google Maps and Earth questions</li>
+  <li>More on historic maps in Google Earth</li>
+  <li>
+    <p>Troubleshoot any installation issues and go over the QGIS interface and other basic GIS concepts.</p>
+  </li>
+  <li>Web map tools/resources to be aware of:
+    <ul>
+      <li><a href="http://mapwarper.net">MapWarper</a></li>
+      <li><a href="http://www.mapanalyst.org/index.html">MapAnalyst</a></li>
+      <li><a href="https://www.nhgis.org">Historic Census Data</a></li>
+      <li><a href="http://story.maps.arcgis.com/home/index.html">StoryMaps</a></li>
+      <li><a href="https://storymap.knightlab.com">StoryMapJS</a></li>
+      <li><a href="https://carto.com">Carto</a></li>
+      <li><a href="https://www.mapbox.com/showcase/">MapBox</a></li>
+      <li>If you decide you love web programming: <a href="http://leafletjs.com">Leaflet</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="7-gis-and-portfolio-questions">7: GIS and Portfolio Questions</h2>
+
+<h3 id="before-class-5">Before class</h3>
+<ul>
+  <li>Gergely Baics, <a href="https://globalurbanhistory.com/2016/05/17/mapping-as-process-food-access-in-nineteenth-century-new-york/">Mapping as Process: Food Access in Nineteenth-Century New York</a>.</li>
+  <li>Scan through 3-5 <a href="http://geohumanities.org/gis">Humanities GIS Projects</a>. It’s a mixed bag. They may be defunct, overly technical, totally confusing, or kind of awesome. Be prepared to highlight for everyone else the intriguing and questionable features of the sites you explored. Questions to keep in mind:
+    <ul>
+      <li>How does mapping/GIS figure into the project? Is it necessary?</li>
+      <li>What kind of data is being used? Where is it from? Is it accessible or reusable?</li>
+      <li>How much does the design of the site matter in taking it seriously?</li>
+      <li>How would you rate its usability?</li>
+    </ul>
+  </li>
+  <li>Work on your portfolios! Keep in mind the criteria below. In general, aim to do simple things well. See how simple you can make your site, but with a clear and consistent design aesthetic (and required content, of course). <strong>Bring questions to class!</strong> This is your best chance to get technical help before you are largely on your own before the portfolio review. It’s also usually the case that people benefit from hearing explanations even if they haven’t encountered or care about that particular issue at that time; so it’s good for us to do this together.</li>
+</ul>
+
+<h3 id="in-class-6">In class</h3>
+<ul>
+  <li>GIS Project critiques and discussion</li>
+  <li>Portfolio questions (includes, layouts, HTML, CSS, Markdown, typography, design, etc)</li>
+  <li>Work through 3 simple <a href="http://fredgibbs.net/tutorials/">Mapping with QGIS tutorials</a></li>
+  <li>For future reference, you get stuck or have questions, consult the <a href="http://docs.qgis.org/2.2/en/docs/training_manual/">QGIS Training Manual</a>, <a href="http://hub.qgis.org/projects/quantum-gis/wiki/How_do_I_do_that_in_QGIS">the QGIS wiki</a>, and an <a href="http://qgistutorials.com">array of tutorials</a></li>
+  <li>MapBox Demo and data movement</li>
+  <li>Start your own maps (for your portfolio). When gathering and organizing data, you might consider using <a href="https://www.google.com/sheets/about/">Google Sheets</a> or <a href="https://airtable.com">Airtable</a> (read through the <a href="https://guide.airtable.com">introductory guide</a> or watch the <a href="https://vimeo.com/album/3513053/video/165624533">12-min. intro video</a>) to organize your data. You can use Excel, but ultimately you need to get your data into CSV format, which Excel does not do well, especially with non-English characters. Airtable is especially good for helping you (and others) create normalized data (so you won’t have something like “Detroit” in some places and “detroit, MI” in other places.)</li>
+</ul>
+
+<h2 id="8-portfolio-critiques">8: Portfolio Critiques</h2>
+
+<h3 id="before-class-6">Before class</h3>
+<ul>
+  <li>Work on your portfolios! Keep in mind the criteria below. In general, aim to do simple things well. See how simple you can make your site, but with a clear and consistent design aesthetic (and required content, of course).</li>
+</ul>
+
+<h3 id="in-class-7">In class</h3>
+<ul>
+  <li>Part 3 of the QGIS tutorials (geo-rectifying and overlaying images)</li>
+  <li>MapBox Demo and data movement</li>
+  <li>Portfolio critiques. You’ll show off your portfolio for the rest of the class and explain what you’re trying to do and where you’ve had trouble. There are two main goals here: 1) to have a deadline to keep portfolios moving forward; 2) get ideas from other people (from their own sites as well as questions/comments). Questions we will address in class for each site:
+    <ul>
+      <li>Existence of basic pages and content</li>
+      <li>Is there a consistent layout and navigation scheme?</li>
+      <li>Typographic crimes? Consistency?</li>
+      <li>Where does the design help or hinder the site and content?</li>
+      <li>What is extraneous? What is missing?</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="spring-break">SPRING BREAK</h2>
+
+<div class="alert alert-info" role="alert">
+
+<h4 class="alert-heading">Websites</h4>
+
+<p>Although we won’t dedicate entire days to website technologies anymore, we will continue to discuss various techniques to enhance your websites. The topics are listed in the <strong>In Class</strong> sections for each day.</p>
+
+</div>
+
+<div class="alert alert-info" role="alert">
+
+<h4 class="alert-heading">Response Essays</h4>
+
+<p>Please keep in mind that these are are not just make-work for the course, but provide a forum for you to show off your facility with digital methods. So, the audience is not merely me or your class peers, but a general audience that wants to know what you know and can do (and is ostensibly interested in your critical engagement with these methods).</p>
+
+</div>
+
+<h2 id="9-text-mining">9: Text Mining</h2>
+<p>Under what circumstances are these techniques useful? How can they be used most effectively? We’re going to talk about the different formats of data these tools require, problems moving from one to the other, and the pros and cons of their various approaches.</p>
+
+<div class="alert alert-danger" role="alert">
+  <h4 class="alert-heading">Response essay</h4>
+  Show your application of basic text mining in your own research, or a research topic that interests you.
+</div>
+
+<h3 id="before-class-7">Before class</h3>
+<ul>
+  <li>Ted Underwood, <a href="https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/">Seven ways humanists are using computers to understand text</a></li>
+  <li>Shlomo Argamon et al., <a href="http://digitalhumanities.org/dhq/vol/3/2/000043/000043.html">Gender, Race, and Nationality in Black Drama, 1950-2006: Mining Differences in Language Use in Authors and Their Characters</a></li>
+  <li>Look through <a href="http://dsl.richmond.edu/dispatch/">Mining the Dispatch</a></li>
+  <li>Look through <a href="http://docs.voyant-tools.org/about/examples-gallery/">projects that have used Voyant</a></li>
+</ul>
+
+<h4 id="skim-through-some-ocr-readings">Skim through some OCR readings</h4>
+<p>We won’t be discussing OCR correction in great detail, but you should be aware of the various challenges it presents and how people are dealing with it.</p>
+
+<ul>
+  <li>Andrew J. Torget &amp; Jon Christensen, <a href="http://journalofdigitalhumanities.org/1-3/mapping-texts-project-by-andrew-torget-and-jon-christensen/">Mapping Texts: Visualizing American Historical Newspapers</a>.</li>
+  <li>Patrick Spedding, “‘The New Machine’: Discovering the Limits of ECCO,” <em>Eighteenth-Century Studies</em> 44, no. 4 (2011): 437–53.</li>
+  <li>OCR Correction <a href="https://usesofscale.com/gritty-details/basic-ocr-correction/">here</a> and <a href="https://tedunderwood.com/2013/12/10/a-half-decent-ocr-normalizer-for-english-texts-after-1700/">here</a>.</li>
+  <li>The <a href="http://emop.tamu.edu">Early Modern OCR Project</a>.</li>
+</ul>
+
+<h3 id="in-class-8">In class</h3>
+<ul>
+  <li>Load some of your texts into <a href="http://voyant-tools.org/">Voyant</a></li>
+  <li>Download and load texts into <a href="http://www.laurenceanthony.net/software/antconc/">AntConc</a>, following the <a href="http://programminghistorian.org/lessons/corpus-analysis-with-antconc">PH Tutorial</a> You might also consult <a href="http://research.ncl.ac.uk/decte/toon/assets/docs/AntConc_Guide.pdf">this guide</a></li>
+  <li>If you work more with structured data, consider <a href="http://openrefine.org">OpenRefine</a></li>
+</ul>
+
+<div class="alert alert-info" role="alert">
+<h4 class="alert-heading">Websites</h4>
+<ul><li>Column layouts, grids, CSS frameworks, responsive design</li></ul>
+</div>
+
+<div class="alert alert-warning" role="alert">
+
+<h4 class="alert-heading">Portfolio Benchmark</h4>
+
+
+<ul>
+  <li>Fully defined layout (margins, page width, i.e. basic typography) with header and footer (however extensive or minimal)</li>
+  <li>Functioning navigation bar (however you style it)</li>
+  <li>Separate pages for your responses essays</li>
+  <li>Essays should have compelling formatting (section headers, bold type)</li>
+</ul>
+
+</div>
+
+<h2 id="10-topic-modeling">10: Topic Modeling</h2>
+<p>The best way to get a handle on topic modeling is to read a variety of explanations. Most are pretty short, and the longest tend to be overviews of topic modeling in practice rather than technical explanations.</p>
+
+<div class="alert alert-danger" role="alert">
+  <h4 class="alert-heading">Response essay</h4>
+  Demonstrate an example of using topic modeling in your research, including how you prepared the data, how you created topics, and what they tell you about your sources.
+</div>
+
+<h3 id="before-class-8">Before class</h3>
+<ul>
+  <li>Megan R. Brett, <a href="http://journalofdigitalhumanities.org/2-1/topic-modeling-a-basic-introduction-by-megan-r-brett/">Topic Modeling: A Basic Introduction</a>.</li>
+  <li>Ted Underwood, <a href="http://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/">Topic Modeling Made Just Simple Enough</a>.</li>
+  <li>David M. Blei, <a href="http://journalofdigitalhumanities.org/2-1/topic-modeling-and-digital-humanities-by-david-m-blei/">Topic Modeling and Digital Humanities</a>.</li>
+  <li>Andrew Goldstone and Ted Underwood, <a href="http://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/">What Can Topic Models of PMLA Teach Us about the History of Literary Scholarship?</a>. For a much and longer and more nuanced development of these ideas, see Andrew Goldstone and Ted Underwood, “The Quiet Transformations of Literary Studies: What Thirteenth Thousand Scholars Could Tell Us.”</li>
+  <li>Rachel Sagner Buurma, “The Fictionality of Topic Modeling: Machine Reading Anthony Trollope’s Barsetshire Series”</li>
+  <li>Cameron Blevins, <a href="http://historying.org/martha-ballards-diary/">Topic Modeling Martha Ballard’s Diary</a>.</li>
+  <li>Want more? You’ll find plenty more links to different kinds of articles (and some of the ones above) with Scott Weingart, <a href="http://scottbot.net/topic-modeling-for-humanists-a-guided-tour/">Topic Modeling for Humanists: A Guided Tour</a>.</li>
+</ul>
+
+<h3 id="in-class-9">In class</h3>
+<ul>
+  <li>Install and use <a href="http://programminghistorian.org/lessons/topic-modeling-and-mallet">MALLET</a> to topic model some of your sources.</li>
+  <li>As you get some results, you’ll want to consult this <a href="http://miriamposner.com/blog/?p=1335">guide on interpreting results</a>.</li>
+  <li>Load up some of your sources into <a href="https://www.overviewdocs.com/">Overview</a>, and compare what you can learn from “raw” topic modeling with MALLET and Overview’s presentation of your documents.</li>
+  <li>Create a timeline with <a href="http://www.cs.ubc.ca/group/infovis/software/TimeLineCurator/">Timeline Curator</a></li>
+  <li>Create a timeline with <a href="https://timeline.knightlab.com">TimelineJS</a></li>
+  <li>Demo on structured data and <a href="http://bookworm.culturomics.org/">Bookworm</a></li>
+</ul>
+
+<div class="alert alert-info" role="alert">
+
+<h4 class="alert-heading">Websites</h4>
+
+
+<ul>
+  <li>Sass and CSS review
+    <ul>
+      <li>For more examples, tutorials, and reference, see:
+        <ul>
+          <li><a href="http://sass-lang.com/guide">Sass Guide</a></li>
+          <li><a href="http://thesassway.com">The Sass Way</a></li>
+          <li><a href="http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/">Tutorialzine</a></li>
+        </ul>
+      </li>
+      <li><a href="https://jekyllrb.com/docs/assets/">Jekyll docs on using Sass</a></li>
+    </ul>
+  </li>
+</ul>
+
+</div>
+
+<div class="alert alert-warning" role="alert">
+
+<h4 class="alert-heading">Portfolio Benchmark</h4>
+
+
+<ul>
+  <li>Clean code</li>
+  <li>Sound essay typography</li>
+</ul>
+
+</div>
+
+<h2 id="11-network-analysis">11: Network Analysis</h2>
+
+<div class="alert alert-danger" role="alert">
+  <h4 class="alert-heading">Response essay</h4>
+  Demonstrate an example of using network analysis in your research, including the kind of relationships you set out to examine, how you prepared the data to visualize them, how you could style the diagram to aid in interpretation, and how it might be useful in your research at larger scales.
+</div>
+
+<h3 id="before-class-9">Before Class</h3>
+<ul>
+  <li>Scott B. Weingart, <a href="http://journalofdigitalhumanities.org/1-1/demystifying-networks-by-scott-weingart/">Demystifying Networks, Parts I and II</a>.</li>
+  <li>Elijah Meeks and Maya Krishnan, <a href="http://dhs.stanford.edu/dh/networks/">Introduction to Network Analysis and Representation</a>.</li>
+  <li>Dmitry Paranyushkin, <a href="http://noduslabs.com/research/pathways-meaning-circulation-text-network-analysis/">Identifying the Pathways for Meaning Circulation using Text Network Analysis</a>.</li>
+  <li>Skim through the documentation for <a href="http://hdlab.stanford.edu/palladio/">Palladio</a>, especially via the <a href="http://hdlab.stanford.edu/palladio/help/">help page</a>.</li>
+  <li>Read through the <a href="http://programminghistorian.org/lessons/creating-network-diagrams-from-historical-sources"><em>PH</em> tutorial</a> that will help you think about converting historical sources into data for uploading.</li>
+</ul>
+
+<h3 id="in-class-10">In Class</h3>
+<ul>
+  <li>Create data (remember: the process, not the data is important here) and create a network graph with Palladio</li>
+  <li>Download, install, and model texts with <a href="http://gephi.org">Gephi</a>, using Martin Grandjean, <a href="http://www.martingrandjean.ch/gephi-introduction/">Introduction to Network Analysis and Visualization</a>. You might also consult <a href="https://seinecle.github.io/gephi-tutorials/">another set of tutorials</a> for additional perspectives.</li>
+  <li>As usual, our goal in surveying the tools is not methodological expertise in a week, but to understand the process of creating data, the basic functionality, and the better evaluate how it’s used in the real world.</li>
+</ul>
+
+<div class="alert alert-info" role="alert">
+<h4 class="alert-heading">Websites</h4>
+<ul>
+<li>Javascript basics and common applications</li>
+</ul>
+</div>
+
+<h2 id="12-critiquing-digital-scholarship">12: Critiquing Digital Scholarship</h2>
+<p>At least in my review, critical discourse about digital humanities projects remains impoverished compared to its analog counterparts.</p>
+
+<div class="alert alert-danger" role="alert">
+  <h4 class="alert-heading">Response essay</h4>
+  What do you consider the fundamental criteria for critiquing digital history projects? How much does the traditional peer review model need to change to accommodate new types of historical work/projects?
+</div>
+
+<ul>
+  <li>Journal of American History, <a href="http://jah.oah.org/submit/digital-history-reviews/">Digital History Reviews</a>.</li>
+  <li>Modern Language Association, <a href="https://www.mla.org/About-Us/Governance/Committees/Committee-Listings/Professional-Issues/Committee-on-Information-Technology/Guidelines-for-Evaluating-Work-in-Digital-Humanities-and-Digital-Media">Guidelines for Evaluating Work in Digital Humanities and Digital Media</a>.</li>
+  <li>
+    <p>American Historical Association, <a href="https://www.historians.org/teaching-and-learning/digital-history-resources/evaluation-of-digital-scholarship-in-history/guidelines-for-the-professional-evaluation-of-digital-scholarship-by-historians">Guidelines for the Professional Evaluation of Digital Scholarship by Historians</a>.</p>
+  </li>
+  <li>Todd Presner, <a href="http://journalofdigitalhumanities.org/1-4/how-to-evaluate-digital-scholarship-by-todd-presner/">Evaluating Digital Scholarship</a>.</li>
+  <li>Cameron Blevins, <a href="http://www.cameronblevins.org/posts/the-new-wave-of-review/">The New Wave of Review</a>.</li>
+  <li>Fred Gibbs, “The Poetics of Digital Scholarship,” 101-122.</li>
+</ul>
+
+<div class="alert alert-info" role="alert">
+<h4 class="alert-heading">Websites</h4>
+<ul>
+<li>More Javascript, slightly more complex applications, jQuery</li>
+</ul>
+</div>
+
+<div class="alert alert-warning" role="alert">
+ <h4 class="alert-heading">Portfolio check</h4>
+ <ul>
+ <li>Incorporate some Javascript functionality elements for better usability</li>
+ </ul>
+</div>
+
+<h2 id="13-digital-literaciespedagogy">13: Digital Literacies/Pedagogy</h2>
+<p>Today we’ll explore how various digital methods can be incorporated into the undergraduate classroom.</p>
+
+<div class="alert alert-danger" role="alert">
+
+<h4 class="alert-heading">The Last Push</h4>
+
+
+<ul>
+  <li>No critique essay</li>
+  <li>Instead: email 3 questions relevant to your portfolio development. These can be as specific or as broad as you’d like (including suggestions for topics to cover). Please send these by the end of Tuesday so I have time to prepare answers for class. We’ll probably spread these out over the last two weeks.</li>
+</ul>
+
+</div>
+
+<p>These readings focus on visualization, obviously, but the broader question they should help us address is: how well can visual representation (modeling, graphing, design, etc) help communicate digital literacies and fundamental concerns of the humanities? Building on last week: are these digital humanities concerns, or just humanities?</p>
+
+<ul>
+  <li>Johanna Drucker, <a href="http://digitalhumanities.org/dhq/vol/5/1/000091/000091.html">Humanities Approaches to Graphical Display</a>.</li>
+  <li>John Theibault, <a href="http://writinghistory.trincoll.edu/evidence/theibault-2012-spring/">Visualizations and Historical Arguments</a>.</li>
+  <li>John Rosinbum, <a href="http://blog.historians.org/2016/08/teaching-with-digital-history/">Teaching with #DigHist</a></li>
+  <li>John Rosinbum, <a href="http://blog.historians.org/2016/10/teaching-slave-trade-voyages-transatlantic-slave-trade-database/">Teaching the Slave Trade with Voyages: The Transatlantic Slave Trade Database</a></li>
+  <li>Elijah Meeks, <a href="https://dhs.stanford.edu/algorithmic-literacy/infoviz-and-new-literacies/">Infoviz and New Literacies</a>.</li>
+</ul>
+
+<h3 id="eye-candy">Eye Candy</h3>
+<p>But potentially useful for thinking about data? Or just critically evaluating data visualizations?</p>
+
+<ul>
+  <li><a href="http://www.viseyes.org/">Visualeyes</a></li>
+  <li><a href="http://viewshare.org">Viewshare</a></li>
+  <li><a href="http://flowingdata.com">Flowing Data</a></li>
+</ul>
+
+<h2 id="14-topics-tbd">14: Topics TBD!</h2>
+
+<div class="alert alert-danger" role="alert">
+
+<h4 class="alert-heading">The Last Assignment</h4>
+
+<p>For your final response paper, I’d like you to produce an ~800 word review of a digital humanities project of your choice. Choose one that is worth reviewing, and about which you have something interesting to say. This should review should show you engaging in the various facets of the project that we have discussed throughout the semester: design, usability, sound use of digital research methods, accessible data, and so on.</p>
+
+</div>
+
+<p>Follow the steps outlined here: <a href="https://help.github.com/articles/quick-start-setting-up-a-custom-domain/">Quick start: Setting up a custom domain - GitHub</a></p>
+
+<p>I highly recommend: <a href="https://reclaimhosting.com/">Reclaim Hosting</a></p>
+
+<p>In step 3, you’ll probably want to use the first link:  <a href="https://help.github.com/articles/setting-up-an-apex-domain/">Setting up an apex domain - GitHub</a></p>
+
+<p>In order to complete that step, you’ll want to consult the Reclaim Hosting instructions: <a href="https://community.reclaimhosting.com/t/domain-mapping-to-github/270">Domain Mapping to GitHub</a>
+https://community.reclaimhosting.com/t/domain-mapping-to-github/270</p>
+
+<h2 id="15-loose-ends-conclusions-etc">15: Loose ends, conclusions, etc.</h2>
+
+    </div>
+<!--
+    <div class="col-3">
+      <nav id="side-nav">
+        <ul class="nav nav-tabs">
+          <li class="nav-item"><a href="#1-digital-historiography">1: Digital Historiography</a></li>
+          <li><a href="#2-the-command-line">2: The Command Line</a></li>
+          <li><a href="#3-digital-publishing">3: Digital Publishing</a></li>
+          <li><a href="#4-typography--html--css">4: Typography</a></li>
+        </ul>
+      </nav>
+    </div>
+-->
+  </div>
+
+</div>
+
+		<div class="footer">
+
+	<div class="contact">
+		fred gibbs &nbsp;&lowast;&nbsp; history department &nbsp;&lowast;&nbsp; university of new mexico
+	</div>
+
+	<div style="float:right; vertical-align:middle;">
+	  <a href="http://twitter.com/fredgibbs/"><img class="footer-icon" src="/assets/images/icons/Twitter_logo_blue.png"/></a>
+		<a href="mailto:fwgibbs@gmail.com"><img class="footer-icon" style="height:26px" src="/assets/images/icons/MetroUI-Google-Gmail-icon.png"/></a>
+		<a href="http://creativecommons.org/licenses/by/3.0/"><img class="footer-icon" src="/assets/images/icons/by.png"/></a>
+	</div>
+
+</div>
+
+
+
+
+	</div> <!-- /container -->
+
+	<script>
+		$( document ).ready(function() {
+			console.log("doc ready");
+			//$('#body').scrollspy({ target: '#navbar-side' });
+			//console.log("loaded spy");
+			$('#side-nav').on('activate.bs.scrollspy', function () {
+			  	alert("spied");
+			});
+			//$('#side-nav').scrollspy();
+		});
+	</script>
+
+</body>
+
+</html>
