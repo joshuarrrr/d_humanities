@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" class="desktop-view not-mobile-device  anon">
+  <head>
+    <meta charset="utf-8">
+    <title>Domain Mapping to GitHub - Domain Management - Reclaim Hosting Community</title>
+    <meta name="description" content="A Records vs. CNAME Records
+
+When you are mapping a domain on GitHub pages (or on any site really) an important concept you want to try and wrap your head around is the difference between A Records and CNAME Records. I’m&amp;hellip;">
+    <meta name="author" content="">
+<meta name="generator" content="Discourse 1.8.0.beta8 - https://github.com/discourse/discourse version 1cd14ef3aa352a8b9d832eca049fbabdefae73e8">
+<link rel="icon" type="image/png" href="https://community.reclaimhosting.com/uploads/default/original/1X/b1f755447d85ec2d5c668cf3f4dc5ced7c4be7ca.ico">
+<link rel="apple-touch-icon" type="image/png" href="https://community.reclaimhosting.com/uploads/default/original/1X/1cfbfbaf28768bcddc0e2cfd227108487a63fd34.png">
+<link rel="icon" sizes="144x144" href="https://community.reclaimhosting.com/uploads/default/original/1X/1cfbfbaf28768bcddc0e2cfd227108487a63fd34.png">
+<meta name="theme-color" content="#ffffff">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<link rel="canonical" href="https://community.reclaimhosting.com/t/domain-mapping-to-github/270" />
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","url":"https://community.reclaimhosting.com","potentialAction":{"@type":"SearchAction","target":"https://community.reclaimhosting.com/search?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<link rel="search" type="application/opensearchdescription+xml" href="https://community.reclaimhosting.com/opensearch.xml" title="Reclaim Hosting Community Search">
+
+    
+
+<style>
+  @font-face {
+    font-family: 'FontAwesome';
+    src: url('/assets/fontawesome-webfont-ff82aeed6b9bb6701696c84d1b223d2e682eb78c89117a438ce6cfea8c498995.woff2?https://community.reclaimhosting.com&amp;2&v=4.5.0') format('woff2'),
+         url('/assets/fontawesome-webfont-c812ddc9e475d3e65d68a6b3b589ce598a2a5babb7afc55477d59215c4a38a40.woff?https://community.reclaimhosting.com&amp;2&v=4.5.0') format('woff');
+  }
+</style>
+
+      <link href="/stylesheets/desktop_c8f0055c3c88f8cf7a15511732f4afc4b449fa50.css?__ws=community.reclaimhosting.com" media="all" rel="stylesheet" />
+
+
+  <link class="custom-css" rel="stylesheet" href="/site_customizations/7e202ef2-56d7-47d5-98d8-a9c8d15e57dd.css?target=desktop&v=3649471df5ee555e1a3b476c2929502a&__ws=community.reclaimhosting.com" type="text/css" media="all">
+
+    
+
+      <meta name="fragment" content="!">
+
+
+    <script>
+      window.EmberENV = window.EmberENV || {};
+      window.EmberENV['FORCE_JQUERY'] = true;
+    </script>
+
+    <script src="/assets/locales/en-f55ee4fe5dbde4f5b79f52ec347d9461ab02f9e795706e6474deffee53c5e1d2.js"></script>
+    <script src="/assets/ember_jquery-60dedd1dca1d8b8ce48b6d0087db3b96f3149b9b5af2d0c7c6357967d29031fb.js"></script>
+    <script src="/assets/preload-store-9a5d6688476c54b0eb6e11cf444ab9dc19602f99f10114228f41fe605c31ac4d.js"></script>
+    <script src="/assets/vendor-52ed1f7ea87a692ca7ec8f3b75bb76997f730cae151edfe8f467849ef9ddde78.js"></script>
+    <script src="/assets/pretty-text-bundle-04ac5b2eae6ead3ce5d5994ccd1e264320fb14970bb0dd812e392773769b9e7f.js"></script>
+    <script src="/assets/application-c7328dca71f0db94791e83dfc421ef6620ba2bec3bfabce42e5652cde47f9587.js"></script>
+    <script src="/assets/plugin-8d25a779e2ad767ac66b0d6382de426a863319aa8ac5028a8928297962126f5f.js"></script>
+    <script src="/assets/plugin-third-party-dc976bce21ac32e3f8949f62c12fb0b4228e6103cac27deef690a4e5a6be774f.js"></script>
+
+
+      
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56422807-3', {"cookieDomain":"auto"});
+</script>
+
+    <link rel="manifest" href="/manifest.json">
+
+
+      <link rel="alternate" type="application/rss+xml" title="RSS feed of &#39;Domain Mapping to GitHub&#39;" href="https://community.reclaimhosting.com/t/domain-mapping-to-github/270.rss" />
+  <meta property="og:site_name" content="Reclaim Hosting Community" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://community.reclaimhosting.com/uploads/default/optimized/1X/394f85722e50b562d901217f28843a2359939602_1_690x247.png" />
+<meta property="og:image" content="https://community.reclaimhosting.com/uploads/default/optimized/1X/394f85722e50b562d901217f28843a2359939602_1_690x247.png" />
+<meta property="og:url" content="https://community.reclaimhosting.com/t/domain-mapping-to-github/270" />
+<meta name="twitter:url" content="https://community.reclaimhosting.com/t/domain-mapping-to-github/270" />
+<meta property="og:title" content="Domain Mapping to GitHub" />
+<meta name="twitter:title" content="Domain Mapping to GitHub" />
+<meta property="og:description" content="A Records vs. CNAME Records  When you are mapping a domain on GitHub pages (or on any site really) an important concept you want to try and wrap your head around is the difference between A Records and CNAME Records. I’m getting closer to full comprehension, but a little help never hurts so I took the following definition from DNS Simple:   The A record points a name to a specific IP. For example, if you want blog.dnsimple.com to point to the server 185.31.17.133 you will configure:   blog.dnsim..." />
+<meta name="twitter:description" content="A Records vs. CNAME Records  When you are mapping a domain on GitHub pages (or on any site really) an important concept you want to try and wrap your head around is the difference between A Records and CNAME Records. I’m getting closer to full comprehension, but a little help never hurts so I took the following definition from DNS Simple:   The A record points a name to a specific IP. For example, if you want blog.dnsimple.com to point to the server 185.31.17.133 you will configure:   blog.dnsim..." />
+
+
+  </head>
+
+  <body class="">
+    
+
+    <div class='debug-eyeline'></div>
+
+    <noscript data-path="/t/domain-mapping-to-github/270">
+      <header class="d-header">
+  <div class="wrap">
+    <div class="contents">
+      <div class="row">
+        <div class="title span13">
+          <a href="/">
+              <img src="https://community.reclaimhosting.com/uploads/default/original/1X/47d0a3f57731b3e55a4ed2d2c6e946b8ab98bbd6.png" alt="Reclaim Hosting Community" id="site-logo">
+          </a>
+        </div>
+            <div class='panel clearfix'>
+              <a href="/login" class='btn btn-primary btn-small login-button'><i class="fa fa-user"></i> Log In</a>
+            </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div id="main-outlet" class="wrap">
+        <!-- preload-content: -->
+        <h1>
+  <a href="/t/domain-mapping-to-github/270">Domain Mapping to GitHub</a>
+</h1>
+
+<div id='breadcrumbs'>
+    <div id="breadcrumb-0" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"
+        itemref="breadcrumb-1"
+      >
+      <a href="/c/docs" itemprop="url">
+        <span itemprop="title">Documentation</span>
+      </a>
+    </div>
+    <div id="breadcrumb-1" itemscope itemtype="http://data-vocabulary.org/Breadcrumb"
+>
+      <a href="/c/docs/domain-management" itemprop="url">
+        <span itemprop="title">Domain Management</span>
+      </a>
+    </div>
+</div>
+
+
+
+
+
+<hr>
+
+
+  <div itemscope itemtype='http://schema.org/DiscussionForumPosting'>
+      <div class='creator'>
+        <span>
+          <a href='/users/jimgroom'><b itemprop='author'>jimgroom</b></a>
+           
+           <time datetime='2016-08-29T16:25:55Z' itemprop='datePublished'>
+             2016-08-29 16:25:55 UTC
+           </time>
+        </span>
+        <span itemprop='position'>#1</span>
+      </div>
+      <div class='post' itemprop='articleBody'>
+        <h3>A Records vs. CNAME Records</h3>
+
+<p>When you are mapping a domain on GitHub pages (or on any site really) an important concept you want to try and wrap your head around is the difference between A Records and CNAME Records. I’m getting closer to full comprehension, but a little help never hurts so I took the following definition from <a href="https://support.dnsimple.com/articles/differences-a-cname-records/">DNS Simple</a>:</p>
+
+<p>The <a href="https://support.dnsimple.com/articles/a-record/">A record</a> points a name to a specific IP. For example, if you want blog.dnsimple.com to point to the server 185.31.17.133 you will configure:</p>
+
+<blockquote><p>blog.dnsimple.com. A 185.31.17.133</p></blockquote>
+
+<p>The <a href="https://support.dnsimple.com/articles/cname-record/">CNAME record</a> points a name to another name, instead of an IP. The CNAME source represents an alias for the target name and inherits its entire resolution chain. Let’s take our blog as example:</p>
+
+<blockquote><p>blog.dnsimple.com. CNAME aetrion.github.io.</p></blockquote>
+
+<p>To summarize, an <strong>A record</strong> points a name to an IP. <strong>CNAME record</strong> can point a name to another CNAME...</p>
+
+<p>It’s good practice to point domains using <strong>CNAME records</strong> when possible because IP addresses can change, and when they do an A Record will break because it is hardcoded. You might think of CNAME records as relative hostnames, hence the IP address can change regularly but the mapped domain will not break.</p>
+
+<p>One issue is that root domains (sometimes called “zone apex” or “naked domain”) have to be setup as an <strong>A record</strong>, not a CNAME. This means that with most DNS providers you can setup a subdomain CNAME (blog.jimgroom.me) to point to a service like GitHub, but you cannot setup your root domain (jimgroom.me) as a CNAME. That root domain would have to be an A record. Make sense? Good.</p>
+
+<h3>Mapping your Domain on GitHub</h3>
+
+<p>As you might have guessed from the above definitions, there are two methods for mapping a custom domain on GitHub: CNAME and A Records. You can get a good overview of <a href="https://help.github.com/articles/about-supported-custom-domains/">how Custom Domains work on GitHub here</a>. Mapping a subdomain using a <strong>CNAME record</strong> is recommended so the domain doesn’t break if the server IP changes, which may very well happen. That said, we understand sometimes you just need that root domain mapped, so an A Record is nice and will suffice.</p>
+
+<h3>Mapping your Root Domain with A Records</h3>
+
+<p>For this example I’ll be mapping the root domain jimgroom.me onto a Github page. In terms of getting your Github pages setup for this see GitHub’s “<a href="https://help.github.com/articles/quick-start-setting-up-a-custom-domain/">Setting Up a Custom Domain with GitHub Pages</a>.”</p>
+
+<p>First you need to find the <strong>Advanced Zone Editor</strong> under the Domains section in cPanel.</p>
+
+<p><img src="/uploads/default/original/1X/394f85722e50b562d901217f28843a2359939602.png" width="690" height="247"></p>
+
+<p>After that you need to choose the root domain you will be mapping. In the example screenshot below you’ll see I have several, but you may only have one which would be the default.</p>
+
+<p><img src="/uploads/default/original/1X/b27001077e7d68eb8004474dd0f3bb6fc60cf119.png" width="690" height="493"></p>
+
+<p>Once you select the domain you need to create two A Records for it using the below screenshot as a template, through the Name will obviously be different depending on the root domain you are mapping. The two a Records will point to the following IP addresses on GitHub: <strong>192.30.252.153</strong> and <strong>192.30.252.154</strong>. You need to create a separate A Record for each of these IPs.</p>
+
+<p><img src="/uploads/default/original/1X/e946e7d303aab9691449491f838139f3e038a403.png" width="690" height="474"></p>
+
+<p>Once you have created both A Records in the Advanced DNS Zone Editor you should be all set. GitHub has their own documentation with “<a href="https://help.github.com/articles/setting-up-an-apex-domain/">Tips for Configuring an A Record with Your DNS Provider</a>” that might also be useful. If you are having any issue see GitHub’s “<a href="https://help.github.com/articles/troubleshooting-custom-domains/">My Custom Domain Isn’t Working</a>” or contact <strong>support@reclaimhosting.com</strong>.</p>
+
+<h3>Mapping your Subdomain with CNAME Records</h3>
+
+<p>For this example I’ll be mapping the subdomain blog.jimgroom.com onto a GitHub Pages Repository using a CNAME Record. Head to Advanced DNS Settings.</p>
+
+<p><img src="/uploads/default/original/1X/3abab0dc508b4d02c55da9bc80080b24d17500ce.png" width="690" height="247"></p>
+
+<p>Once there, select the domain you will be mapping to if you have more than one.</p>
+
+<p><img src="/uploads/default/original/1X/462f5dc4e5f237e4d61d023f223741d38587c017.png" width="690" height="363"></p>
+
+<p>Now you name to add a CNAME record with the subdomain you are mapping in the Name field and the URL of your GitHub account in the CNAME field.</p>
+
+<p><img src="/uploads/default/original/1X/2c3e3347db73f61fb0a77a21bc6276d3d28e1025.png" width="690" height="423"></p>
+
+<p>After that you should be set. I found even if your repository is jimgroom.github.io/blog like mine is in this instance, you only need jimgroom.githib.io in the CNAME field.</p>
+
+<p>GitHub provides a page with “Tips for configuring a CNAME record with your DNS provider” if you need more help, comment below or put in a support ticket.</p>
+      </div>
+      <meta itemprop='interactionCount' content='UserLikes:0'>
+      <meta itemprop='interactionCount' content='UserComments:0'>
+      <meta itemprop='headline' content='Domain Mapping to GitHub'>
+      <hr>
+  </div>
+
+
+
+
+
+
+        <!-- :preload-content -->
+        <footer>
+          <nav itemscope itemtype='http://schema.org/SiteNavigationElement'>
+            <a href='/'>Home</a>
+            <a href="/categories">Categories</a>
+            <a href="/guidelines">FAQ/Guidelines</a>
+            <a href="/tos">Terms of Service</a>
+            <a href="/privacy">Privacy Policy</a>
+          </nav>
+        </footer>
+      </div>
+
+      <footer id='noscript-footer'>
+        <p>Powered by <a href="http://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled</p>
+      </footer>
+    </noscript>
+
+      
+
+    <section id='main'>
+    </section>
+
+    <div id='offscreen-content'>
+    </div>
+
+      <form id='hidden-login-form' method="post" action="/login" style="display: none;">
+        <input name="username" type="text"     id="signin_username">
+        <input name="password" type="password" id="signin_password">
+        <input name="redirect" type="hidden">
+        <input type="submit" id="signin-button" value="Log In">
+      </form>
+
+      <script>
+      (function() {
+        var ps = require('preload-store').default;
+          ps.store("site", {"default_archetype":"regular","notification_types":{"mentioned":1,"replied":2,"quoted":3,"edited":4,"liked":5,"private_message":6,"invited_to_private_message":7,"invitee_accepted":8,"posted":9,"moved_post":10,"linked":11,"granted_badge":12,"invited_to_topic":13,"custom":14,"group_mentioned":15,"group_message_summary":16,"watching_first_post":17},"post_types":{"regular":1,"moderator_action":2,"small_action":3,"whisper":4},"groups":[{"id":1,"name":"admins"},{"id":0,"name":"everyone"},{"id":2,"name":"moderators"},{"id":3,"name":"staff"},{"id":10,"name":"trust_level_0"},{"id":11,"name":"trust_level_1"},{"id":12,"name":"trust_level_2"},{"id":13,"name":"trust_level_3"},{"id":14,"name":"trust_level_4"}],"filters":["latest","unread","new","read","posted","bookmarks","votes"],"periods":["all","yearly","quarterly","monthly","weekly","daily"],"top_menu_items":["latest","unread","new","read","posted","bookmarks","category","categories","top","votes"],"anonymous_top_menu_items":["latest","top","categories","category","categories","top","votes"],"uncategorized_category_id":1,"is_readonly":false,"disabled_plugins":[],"user_field_max_length":2048,"suppressed_from_homepage_category_ids":[],"post_action_types":[{"name_key":"bookmark","name":"Bookmark","description":"Bookmark this post","long_form":"bookmarked this post","is_flag":false,"icon":null,"id":1,"is_custom_flag":false},{"name_key":"like","name":"Like","description":"Like this post","long_form":"liked this","is_flag":false,"icon":"heart","id":2,"is_custom_flag":false},{"name_key":"off_topic","name":"Off-Topic","description":"This post is not relevant to the current discussion as defined by the title and first post, and should probably be moved elsewhere.","long_form":"flagged this as off-topic","is_flag":true,"icon":null,"id":3,"is_custom_flag":false},{"name_key":"inappropriate","name":"Inappropriate","description":"This post contains content that a reasonable person would consider offensive, abusive, or a violation of <a href=\"/guidelines\">our community guidelines<\/a>.","long_form":"flagged this as inappropriate","is_flag":true,"icon":null,"id":4,"is_custom_flag":false},{"name_key":"vote","name":"Vote","description":"Vote for this post","long_form":"voted for this post","is_flag":false,"icon":null,"id":5,"is_custom_flag":false},{"name_key":"spam","name":"Spam","description":"This post is an advertisement. It is not useful or relevant to the current topic, but promotional in nature.","long_form":"flagged this as spam","is_flag":true,"icon":null,"id":8,"is_custom_flag":false},{"name_key":"notify_user","name":"Send @{{username}} a message","description":"I want to talk to this person directly and privately about their post.","long_form":"messaged user","is_flag":true,"icon":null,"id":6,"is_custom_flag":true},{"name_key":"notify_moderators","name":"Something Else","description":"This post requires staff attention for another reason not listed above.","long_form":"flagged this for staff attention","is_flag":true,"icon":null,"id":7,"is_custom_flag":true}],"topic_flag_types":[{"name_key":"inappropriate","name":"Inappropriate","description":"This topic contains content that a reasonable person would consider offensive, abusive, or a violation of <a href=\"/guidelines\">our community guidelines<\/a>.","long_form":"flagged this as inappropriate","is_flag":true,"icon":null,"id":4,"is_custom_flag":false},{"name_key":"spam","name":"Spam","description":"This topic is an advertisement. It is not useful or relevant to this site, but promotional in nature.","long_form":"flagged this as spam","is_flag":true,"icon":null,"id":8,"is_custom_flag":false},{"name_key":"notify_moderators","name":"Something Else","description":"This topic requires general staff attention based on the <a href=\"/guidelines\">guidelines<\/a>, <a href=\"/tos\">TOS<\/a>, or for another reason not listed above.","long_form":"flagged this for moderator attention","is_flag":true,"icon":null,"id":7,"is_custom_flag":true}],"can_create_tag":false,"can_tag_topics":false,"topic_featured_link_allowed_category_ids":[3,18,23,26,27,30,11,13,21,22,29,8,20,4,10,17,15,24,12,14,19,9,1,16,6,5],"categories":[{"id":6,"name":"Documentation","color":"0E76BD","text_color":"FFFFFF","slug":"docs","topic_count":9,"post_count":19,"position":0,"description":"Guides to help you with a variety of tasks related to your domain and site. From WordPress to DNS you'll find tutorials here to walk you through every step of the way. And if you don't find a tutorial you need, create a topic and write one for the community!","description_text":"Guides to help you with a variety of tasks related to your domain and site. From WordPress to DNS you'll find tutorials here to walk you through every step of the way. And if you don't find a tutorial you need, create a topic and write one for the community!","topic_url":"/t/about-the-tutorials-category/13","read_restricted":false,"permission":null,"notification_level":1,"topic_template":"","has_children":true,"sort_order":null,"sort_ascending":null,"show_subcategory_list":false,"num_featured_topics":3,"default_view":null,"subcategory_list_style":"rows_with_featured_topics","uploaded_logo":{"id":414,"url":"/uploads/default/original/1X/4b6f4af3af5092372026d954c5376bea412d31ff.jpg"},"uploaded_background":null},{"id":5,"name":"Questions","color":"3AB54A","text_color":"FFFFFF","slug":"questions","topic_count":43,"post_count":225,"position":2,"description":"Everyone has questions and most likely someone here has an answer for you. Whether it be about hosting, domains, or anything else you need help with, this is the place to ask.","description_text":"Everyone has questions and most likely someone here has an answer for you. Whether it be about hosting, domains, or anything else you need help with, this is the place to ask.","topic_url":"/t/about-the-questions-category/12","read_restricted":false,"permission":null,"notification_level":1,"topic_template":"","has_children":false,"sort_order":null,"sort_ascending":null,"show_subcategory_list":false,"num_featured_topics":3,"default_view":null,"subcategory_list_style":"rows_with_featured_topics","uploaded_logo":{"id":406,"url":"/uploads/default/original/1X/0b7fb4040064ba3ca11b7f9088b5c9b870b94b3d.jpg"},"uploaded_background":null},{"id":10,"name":"Feature Requests","color":"ED207B","text_color":"FFFFFF","slug":"feature-requests","topic_count":3,"post_count":17,"position":3,"description":"The Feature Requests area of the community is the place to post fresh ideas for things you'd like to see implemented at Reclaim Hosting. That could include:","description_text":"The Feature Requests area of the community is the place to post fresh ideas for things you'd like to see implemented at Reclaim Hosting. That could include:","topic_url":"/t/about-the-feature-requests-category/172","read_restricted":false,"permission":null,"notification_level":1,"topic_template":"","has_children":false,"sort_order":null,"sort_ascending":null,"show_subcategory_list":false,"num_featured_topics":3,"default_view":null,"subcategory_list_style":"rows_with_featured_topics","can_vote":true,"uploaded_logo":{"id":415,"url":"/uploads/default/original/1X/1be4a73579b8fc824ca3cded2f02f6d245528a5d.jpg"},"uploaded_background":null},{"id":11,"name":"Guides","color":"0E76BD","text_color":"FFFFFF","slug":"guides","topic_count":5,"post_count":6,"position":4,"description":"Tutorials and guides specific to Domain of One's Own environments can be created here.","description_text":"Tutorials and guides specific to Domain of One's Own environments can be created here.","topic_url":"/t/about-the-guides-category/177","read_restricted":false,"permission":null,"parent_category_id":9,"notification_level":1,"topic_template":"","has_children":false,"sort_order":null,"sort_ascending":null,"show_subcategory_list":false,"num_featured_topics":3,"default_view":null,"subcategory_list_style":"rows_with_featured_topics","uploaded_logo":null,"uploaded_background":null},{"id":9,"name":"Domain of One's Own","color":"BF1E2E","text_color":"FFFFFF","slug":"dooo","topic_count":10,"post_count":93,"position":4,"description":"Domain of One's Own is a program that started at the University of Mary Washington in 2012 to give every student, faculty, and staff the opportunity to get their own domain and webspace. Today Reclaim Hosting offers structured domain programs at over 40 institutions.","description_text":"Domain of One's Own is a program that started at the University of Mary Washington in 2012 to give every student, faculty, and staff the opportunity to get their own domain and webspace. Today Reclaim Hosting offers structured domain programs at over 40 institutions.","topic_url":"/t/about-the-domain-of-ones-own-category/123","read_restricted":false,"permission":null,"notification_level":1,"topic_template":"","has_children":true,"sort_order":null,"sort_ascending":null,"show_subcategory_list":false,"num_featured_topics":3,"default_view":null,"subcategory_list_style":"rows_with_featured_topics","uploaded_logo":{"id":416,"url":"/uploads/default/original/1X/b0e86f0649db181ef600376a110358d2b2fca025.jpg"},"uploaded_background":null},{"id":1,"name":"General","color":"12A89D","text_color":"FFFFFF","slug":"general","topic_count":51,"post_count":205,"position":5,"description":"Topics that don't need a category, or don't fit into any other existing category.","description_text":"","topic_url":"/t//","read_restricted":false,"permission":null,"notification_level":1,"topic_template":"","has_children":false,"sort_order":null,"sort_ascending":null,"show_subcategory_list":false,"num_featured_topics":3,"default_view":null,"subcategory_list_style":"rows_with_featured_topics","uploaded_logo":{"id":525,"url":"/uploads/default/original/1X/2c9b3b549b63cc8d8ebb09063853b9982c73aa6d.jpg"},"uploaded_background":null},{"id":8,"name":"Blog","color":"F7941D","text_color":"FFFFFF","slug":"blog","topic_count":19,"post_count":32,"position":6,"description":"Announcements from our website syndicate to this category for discussion.","description_text":"Announcements from our website syndicate to this category for discussion.","topic_url":"/t/about-the-blog-category/51","read_restricted":false,"permission":null,"notification_level":1,"topic_template":"","has_children":false,"sort_order":null,"sort_ascending":null,"show_subcategory_list":false,"num_featured_topics":3,"default_view":null,"subcategory_list_style":"rows_with_featured_topics","uploaded_logo":{"id":417,"url":"/uploads/default/original/1X/8887e9abd271e119cd1d4d3157903854612d8027.jpg"},"uploaded_background":null},{"id":12,"name":"WordPress","color":"25AAE2","text_color":"FFFFFF","slug":"wordpress","topic_count":14,"post_count":18,"position":7,"description":"<a href=\"https://wordpress.org/\">WordPress<\/a> is easily the most popular content management system run on Reclaim Hosting. In this category you'll find plenty of guides on how to use and manage your WordPress site on Reclaim Hosting.","description_text":"WordPress is easily the most popular content management system run on Reclaim Hosting. In this category you'll find plenty of guides on how to use and manage your WordPress site on Reclaim Hosting.","topic_url":"/t/about-the-wordpress-category/179","read_restricted":false,"permission":null,"parent_category_id":6,"notification_level":1,"topic_template":"","has_children":false,"sort_order":null,"sort_ascending":null,"show_subcategory_list":false,"num_featured_topics":3,"default_view":null,"subcategory_list_style":"rows_with_featured_topics","uploaded_logo":null,"uploaded_background":null},{"id":3,"name":"Meta","color":"808281","text_color":"FFFFFF","slug":"meta","topic_count":7,"post_count":25,"position":8,"description":"Discussion about this site, its organization, how it works, and how we can improve it.","description_text":"Discussion about this site, its organization, how it works, and how we can improve it.","topic_url":"/t/about-the-meta-category/2","read_restricted":false,"permission":null,"notification_level":1,"topic_template":"","has_children":false,"sort_order":null,"sort_ascending":null,"show_subcategory_list":false,"num_featured_topics":3,"default_view":null,"subcategory_list_style":"rows_with_featured_topics","uploaded_logo":{"id":418,"url":"/uploads/default/original/1X/c2be9652436ea9501bcb46fc69de18aa9569a39d.jpg"},"uploaded_background":null},{"id":14,"name":"Omeka","color":"BF1E2E","text_color":"FFFFFF","slug":"omeka","topic_count":9,"post_count":20,"position":11,"description":"<a href=\"http://omeka.org/\">Omeka<\/a> is a popular content management system developed by the Center for History and New Media at George Mason University focused on building collections utilizing Dublin Core standards and rich archival repositories.","description_text":"Omeka is a popular content management system developed by the Center for History and New Media at George Mason University focused on building collections utilizing Dublin Core standards and rich archival repositories.","topic_url":"/t/about-the-omeka-category/192","read_restricted":false,"permission":null,"parent_category_id":6,"notification_level":1,"topic_template":"","has_children":false,"sort_order":null,"sort_ascending":null,"show_subcategory_list":false,"num_featured_topics":3,"default_view":null,"subcategory_list_style":"rows_with_featured_topics","uploaded_logo":null,"uploaded_background":null},{"id":15,"name":"Account Management","color":"3AB54A","text_color":"FFFFFF","slug":"account-management","topic_count":11,"post_count":13,"position":12,"description":"As you get started with your Reclaim Hosting account, you may have questions here and there. We've written extensive tutorials and guides on getting things done in your account. Take a look around and learn more about how to get started at Reclaim Hosting.","description_text":"As you get started with your Reclaim Hosting account, you may have questions here and there. We've written extensive tutorials and guides on getting things done in your account. Take a look around and learn more about how to get started at Reclaim Hosting.","topic_url":"/t/about-the-getting-started-category/263","read_restricted":false,"permission":null,"parent_category_id":6,"notification_level":1,"topic_template":"","has_children":false,"sort_order":null,"sort_ascending":null,"show_subcategory_list":false,"num_featured_topics":3,"default_view":null,"subcategory_list_style":"rows_with_featured_topics","uploaded_logo":null,"uploaded_background":null},{"id":16,"name":"Domain Management","color":"9EB83B","text_color":"FFFFFF","slug":"domain-management","topic_count":14,"post_count":21,"position":13,"description":null,"description_text":null,"topic_url":"/t/about-the-domain-management-category/267","read_restricted":false,"permission":null,"parent_category_id":6,"notification_level":1,"topic_template":"","has_children":false,"sort_order":null,"sort_ascending":null,"show_subcategory_list":false,"num_featured_topics":3,"default_view":null,"subcategory_list_style":"rows_with_featured_topics","uploaded_logo":null,"uploaded_background":null},{"id":17,"name":"Installatron","color":"652D90","text_color":"FFFFFF","slug":"installatron","topic_count":6,"post_count":15,"position":14,"description":null,"description_text":null,"topic_url":"/t/about-the-installatron-category/272","read_restricted":false,"permission":null,"parent_category_id":6,"notification_level":1,"topic_template":"","has_children":false,"sort_order":null,"sort_ascending":null,"show_subcategory_list":false,"num_featured_topics":3,"default_view":null,"subcategory_list_style":"rows_with_featured_topics","uploaded_logo":null,"uploaded_background":null},{"id":18,"name":"Email","color":"283890","text_color":"FFFFFF","slug":"email","topic_count":6,"post_count":6,"position":15,"description":null,"description_text":null,"topic_url":"/t/about-the-email-category/277","read_restricted":false,"permission":null,"parent_category_id":6,"notification_level":1,"topic_template":"","has_children":false,"sort_order":null,"sort_ascending":null,"show_subcategory_list":false,"num_featured_topics":3,"default_view":null,"subcategory_list_style":"rows_with_featured_topics","uploaded_logo":null,"uploaded_background":null},{"id":19,"name":"cPanel","color":"ED207B","text_color":"FFFFFF","slug":"cpanel","topic_count":11,"post_count":14,"position":16,"description":null,"description_text":null,"topic_url":"/t/about-the-cpanel-category/291","read_restricted":false,"permission":null,"parent_category_id":6,"notification_level":1,"topic_template":"","has_children":false,"sort_order":null,"sort_ascending":null,"show_subcategory_list":false,"num_featured_topics":3,"default_view":null,"subcategory_list_style":"rows_with_featured_topics","uploaded_logo":null,"uploaded_background":null}],"trust_levels":[{"id":0,"name":"new user"},{"id":1,"name":"basic user"},{"id":2,"name":"member"},{"id":3,"name":"regular"},{"id":4,"name":"leader"}],"archetypes":[{"id":"regular","name":"Regular Topic","options":[]},{"id":"banner","name":"Banner Topic","options":[]}],"user_fields":[]});
+          ps.store("siteSettings", {"title":"Reclaim Hosting Community","contact_email":"info@reclaimhosting.com","contact_url":"https://portal.reclaimhosting.com/contact.php","logo_url":"https://community.reclaimhosting.com/uploads/default/original/1X/47d0a3f57731b3e55a4ed2d2c6e946b8ab98bbd6.png","logo_small_url":"https://community.reclaimhosting.com/uploads/default/original/1X/1cfbfbaf28768bcddc0e2cfd227108487a63fd34.png","mobile_logo_url":"","favicon_url":"https://community.reclaimhosting.com/uploads/default/original/1X/b1f755447d85ec2d5c668cf3f4dc5ced7c4be7ca.ico","allow_user_locale":false,"suggested_topics":5,"track_external_right_clicks":false,"ga_universal_tracking_code":"UA-56422807-3","ga_universal_domain_name":"auto","ga_tracking_code":"","ga_domain_name":"","gtm_container_id":"","top_menu":"categories|latest|new|unread|top","post_menu":"like-count|like|share|flag|edit|bookmark|delete|admin|reply","post_menu_hidden_items":"flag|bookmark|edit|delete|admin","share_links":"email|twitter|facebook|google+","desktop_category_page_style":"categories_and_latest_topics","category_colors":"BF1E2E|F1592A|F7941D|9EB83B|3AB54A|12A89D|25AAE2|0E76BD|652D90|92278F|ED207B|8C6238|231F20|808281|B3B5B4|283890","category_style":"bar","enable_mobile_theme":true,"relative_date_duration":30,"fixed_category_positions":true,"fixed_category_positions_on_create":true,"enable_badges":true,"enable_badge_sql":false,"enable_whispers":false,"invite_only":false,"login_required":false,"must_approve_users":false,"enable_local_logins":true,"allow_new_registrations":true,"enable_signup_cta":true,"enable_google_oauth2_logins":true,"enable_yahoo_logins":false,"enable_twitter_logins":true,"enable_instagram_logins":false,"enable_facebook_logins":false,"enable_github_logins":false,"enable_sso":false,"sso_overrides_avatar":false,"min_username_length":3,"max_username_length":20,"min_password_length":10,"min_admin_password_length":15,"logout_redirect":"","full_name_required":false,"enable_names":true,"invites_per_page":40,"delete_user_max_post_age":60,"delete_all_posts_max":15,"show_email_on_profile":false,"prioritize_username_in_ux":true,"enable_user_directory":true,"allow_anonymous_posting":false,"anonymous_posting_min_trust_level":1,"hide_user_profiles_from_public":false,"enable_group_directory":true,"min_post_length":20,"min_first_post_length":20,"min_private_message_post_length":10,"max_post_length":32000,"topic_featured_link_enabled":true,"min_topic_title_length":15,"max_topic_title_length":255,"min_private_message_title_length":2,"allow_uncategorized_topics":true,"min_title_similar_length":10,"min_body_similar_length":15,"enable_private_messages":true,"edit_history_visible_to_public":true,"delete_removed_posts_after":24,"traditional_markdown_linebreaks":false,"allow_html_tables":false,"suppress_reply_directly_below":true,"suppress_reply_directly_above":true,"max_reply_history":1,"newuser_max_images":1,"newuser_max_attachments":0,"show_pinned_excerpt_mobile":true,"show_pinned_excerpt_desktop":true,"display_name_on_posts":false,"show_time_gap_days":7,"short_progress_text_threshold":10000,"default_code_lang":"auto","autohighlight_all_code":false,"highlighted_languages":"apache|bash|cs|cpp|css|coffeescript|diff|xml|http|ini|json|java|javascript|makefile|markdown|nginx|objectivec|ruby|perl|php|python|sql|handlebars","censored_words":"","censored_pattern":"","enable_emoji":true,"emoji_set":"emoji_one","code_formatting_style":"4-spaces-indent","allowed_href_schemes":"","email_time_window_mins":10,"disable_digest_emails":false,"email_in":false,"disable_emails":false,"bounce_score_threshold":4,"max_image_size_kb":3072,"max_attachment_size_kb":3072,"authorized_extensions":"jpg|jpeg|png|gif|twig|yaml|ico|mp4","max_image_width":690,"max_image_height":500,"prevent_anons_from_downloading_files":false,"enable_s3_uploads":false,"allow_profile_backgrounds":true,"allow_uploaded_avatars":true,"allow_animated_avatars":false,"default_avatars":"","external_system_avatars_enabled":true,"external_system_avatars_url":"/letter_avatar_proxy/v2/letter/{first_letter}/{color}/{size}.png","tl1_requires_read_posts":30,"tl3_links_no_follow":false,"use_admin_ip_whitelist":false,"max_oneboxes_per_post":50,"alert_admins_if_errors_per_minute":0,"alert_admins_if_errors_per_hour":0,"max_prints_per_hour_per_user":5,"enable_long_polling":true,"long_polling_base_url":"/","background_polling_interval":60000,"polling_interval":3000,"anon_polling_interval":15000,"flush_timings_secs":20,"verbose_localization":false,"max_new_topics":500,"tos_url":"","privacy_policy_url":"http://reclaimhosting.com/privacy-policy/","faq_url":"","maximum_backups":30,"min_search_term_length":3,"version_checks":true,"suppress_uncategorized_badge":true,"topic_views_heat_low":1000,"topic_views_heat_medium":2000,"topic_views_heat_high":5000,"topic_post_like_heat_low":0.5,"topic_post_like_heat_medium":1.0,"topic_post_like_heat_high":2.0,"history_hours_low":12,"history_hours_medium":24,"history_hours_high":48,"cold_age_days_low":14,"cold_age_days_medium":90,"cold_age_days_high":180,"global_notice":"","show_create_topics_notice":true,"bootstrap_mode_min_users":50,"bootstrap_mode_enabled":false,"automatically_unpin_topics":true,"read_time_word_count":500,"disable_mailing_list_mode":false,"default_topics_automatic_unpin":true,"tagging_enabled":false,"tag_style":"simple","max_tags_per_topic":5,"max_tag_length":20,"min_trust_level_to_tag_topics":0,"max_tag_search_results":5,"show_filter_by_tag":false,"tags_sort_alphabetically":false,"staff_tags":"","suppress_overlapping_tags_in_list":false,"slack_enabled":true,"slack_url":"https://hooks.slack.com/services/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","slack_channel":"#community","slack_emoji":":reclaim:","slack_posts":true,"slack_full_names":true,"allow_category_slack_channel":false,"slack_category_name_in_title":false,"solved_enabled":true,"allow_solved_on_all_topics":false,"accept_all_solutions_trust_level":4,"empty_box_on_unsolved":false,"voting_enabled":true,"voting_show_who_voted":true,"voting_show_votes_on_profile":true,"poll_enabled":true,"poll_maximum_options":20,"details_enabled":true,"available_locales":"ar|bs_BA|cs|da|de|el|en|es|et|fa_IR|fi|fr|gl|he|id|it|ja|ko|nb_NO|nl|pl_PL|pt|pt_BR|ro|ru|sk|sq|sv|te|tr_TR|uk|ur|vi|zh_CN|zh_TW"});
+          ps.store("customHTML", {"top":"","footer":""});
+          ps.store("banner", {});
+          ps.store("customEmoji", []);
+          ps.store("translationOverrides", {});
+          ps.store("topic_270", {"post_stream":{"posts":[{"id":523,"name":"Jim Groom","username":"jimgroom","avatar_template":"/user_avatar/community.reclaimhosting.com/jimgroom/{size}/36_1.png","created_at":"2016-08-29T16:25:55.765Z","cooked":"<h3>A Records vs. CNAME Records<\/h3>\n\n<p>When you are mapping a domain on GitHub pages (or on any site really) an important concept you want to try and wrap your head around is the difference between A Records and CNAME Records. I’m getting closer to full comprehension, but a little help never hurts so I took the following definition from <a href=\"https://support.dnsimple.com/articles/differences-a-cname-records/\">DNS Simple<\/a>:<\/p>\n\n<p>The <a href=\"https://support.dnsimple.com/articles/a-record/\">A record<\/a> points a name to a specific IP. For example, if you want blog.dnsimple.com to point to the server 185.31.17.133 you will configure:<\/p>\n\n<blockquote><p>blog.dnsimple.com. A 185.31.17.133<\/p><\/blockquote>\n\n<p>The <a href=\"https://support.dnsimple.com/articles/cname-record/\">CNAME record<\/a> points a name to another name, instead of an IP. The CNAME source represents an alias for the target name and inherits its entire resolution chain. Let’s take our blog as example:<\/p>\n\n<blockquote><p>blog.dnsimple.com. CNAME aetrion.github.io.<\/p><\/blockquote>\n\n<p>To summarize, an <strong>A record<\/strong> points a name to an IP. <strong>CNAME record<\/strong> can point a name to another CNAME...<\/p>\n\n<p>It’s good practice to point domains using <strong>CNAME records<\/strong> when possible because IP addresses can change, and when they do an A Record will break because it is hardcoded. You might think of CNAME records as relative hostnames, hence the IP address can change regularly but the mapped domain will not break.<\/p>\n\n<p>One issue is that root domains (sometimes called “zone apex” or “naked domain”) have to be setup as an <strong>A record<\/strong>, not a CNAME. This means that with most DNS providers you can setup a subdomain CNAME (blog.jimgroom.me) to point to a service like GitHub, but you cannot setup your root domain (jimgroom.me) as a CNAME. That root domain would have to be an A record. Make sense? Good.<\/p>\n\n<h3>Mapping your Domain on GitHub<\/h3>\n\n<p>As you might have guessed from the above definitions, there are two methods for mapping a custom domain on GitHub: CNAME and A Records. You can get a good overview of <a href=\"https://help.github.com/articles/about-supported-custom-domains/\">how Custom Domains work on GitHub here<\/a>. Mapping a subdomain using a <strong>CNAME record<\/strong> is recommended so the domain doesn’t break if the server IP changes, which may very well happen. That said, we understand sometimes you just need that root domain mapped, so an A Record is nice and will suffice.<\/p>\n\n<h3>Mapping your Root Domain with A Records<\/h3>\n\n<p>For this example I’ll be mapping the root domain jimgroom.me onto a Github page. In terms of getting your Github pages setup for this see GitHub’s “<a href=\"https://help.github.com/articles/quick-start-setting-up-a-custom-domain/\">Setting Up a Custom Domain with GitHub Pages<\/a>.”<\/p>\n\n<p>First you need to find the <strong>Advanced Zone Editor<\/strong> under the Domains section in cPanel.<\/p>\n\n<p><img src=\"/uploads/default/original/1X/394f85722e50b562d901217f28843a2359939602.png\" width=\"690\" height=\"247\"><\/p>\n\n<p>After that you need to choose the root domain you will be mapping. In the example screenshot below you’ll see I have several, but you may only have one which would be the default.<\/p>\n\n<p><img src=\"/uploads/default/original/1X/b27001077e7d68eb8004474dd0f3bb6fc60cf119.png\" width=\"690\" height=\"493\"><\/p>\n\n<p>Once you select the domain you need to create two A Records for it using the below screenshot as a template, through the Name will obviously be different depending on the root domain you are mapping. The two a Records will point to the following IP addresses on GitHub: <strong>192.30.252.153<\/strong> and <strong>192.30.252.154<\/strong>. You need to create a separate A Record for each of these IPs.<\/p>\n\n<p><img src=\"/uploads/default/original/1X/e946e7d303aab9691449491f838139f3e038a403.png\" width=\"690\" height=\"474\"><\/p>\n\n<p>Once you have created both A Records in the Advanced DNS Zone Editor you should be all set. GitHub has their own documentation with “<a href=\"https://help.github.com/articles/setting-up-an-apex-domain/\">Tips for Configuring an A Record with Your DNS Provider<\/a>” that might also be useful. If you are having any issue see GitHub’s “<a href=\"https://help.github.com/articles/troubleshooting-custom-domains/\">My Custom Domain Isn’t Working<\/a>” or contact <strong>support@reclaimhosting.com<\/strong>.<\/p>\n\n<h3>Mapping your Subdomain with CNAME Records<\/h3>\n\n<p>For this example I’ll be mapping the subdomain blog.jimgroom.com onto a GitHub Pages Repository using a CNAME Record. Head to Advanced DNS Settings.<\/p>\n\n<p><img src=\"/uploads/default/original/1X/3abab0dc508b4d02c55da9bc80080b24d17500ce.png\" width=\"690\" height=\"247\"><\/p>\n\n<p>Once there, select the domain you will be mapping to if you have more than one.<\/p>\n\n<p><img src=\"/uploads/default/original/1X/462f5dc4e5f237e4d61d023f223741d38587c017.png\" width=\"690\" height=\"363\"><\/p>\n\n<p>Now you name to add a CNAME record with the subdomain you are mapping in the Name field and the URL of your GitHub account in the CNAME field.<\/p>\n\n<p><img src=\"/uploads/default/original/1X/2c3e3347db73f61fb0a77a21bc6276d3d28e1025.png\" width=\"690\" height=\"423\"><\/p>\n\n<p>After that you should be set. I found even if your repository is jimgroom.github.io/blog like mine is in this instance, you only need jimgroom.githib.io in the CNAME field.<\/p>\n\n<p>GitHub provides a page with “Tips for configuring a CNAME record with your DNS provider” if you need more help, comment below or put in a support ticket.<\/p>","post_number":1,"post_type":1,"updated_at":"2016-08-29T16:26:12.153Z","reply_count":0,"reply_to_post_number":null,"quote_count":0,"avg_time":27,"incoming_link_count":165,"reads":8,"score":792.95,"yours":false,"topic_id":270,"topic_slug":"domain-mapping-to-github","display_username":"Jim Groom","primary_group_name":null,"primary_group_flair_url":null,"primary_group_flair_bg_color":null,"primary_group_flair_color":null,"version":2,"can_edit":false,"can_delete":false,"can_recover":false,"can_wiki":false,"link_counts":[{"url":"https://help.github.com/articles/troubleshooting-custom-domains/","internal":false,"reflection":false,"title":"Troubleshooting custom domains - User Documentation","clicks":5},{"url":"https://help.github.com/articles/setting-up-an-apex-domain/","internal":false,"reflection":false,"title":"Setting up an apex domain - User Documentation","clicks":5},{"url":"https://help.github.com/articles/about-supported-custom-domains/","internal":false,"reflection":false,"title":"About supported custom domains - User Documentation","clicks":3},{"url":"https://help.github.com/articles/quick-start-setting-up-a-custom-domain/","internal":false,"reflection":false,"title":"Quick start: Setting up a custom domain - User Documentation","clicks":2},{"url":"https://community.reclaimhosting.com/uploads/default/original/1X/b27001077e7d68eb8004474dd0f3bb6fc60cf119.png","internal":true,"reflection":false,"clicks":0},{"url":"https://community.reclaimhosting.com/uploads/default/original/1X/394f85722e50b562d901217f28843a2359939602.png","internal":true,"reflection":false,"clicks":0},{"url":"https://support.dnsimple.com/articles/cname-record/","internal":false,"reflection":false,"title":"What is a CNAME record? - DNSimple Help","clicks":0},{"url":"https://support.dnsimple.com/articles/a-record/","internal":false,"reflection":false,"title":"What is an A record? - DNSimple Help","clicks":0},{"url":"https://community.reclaimhosting.com/uploads/default/original/1X/2c3e3347db73f61fb0a77a21bc6276d3d28e1025.png","internal":true,"reflection":false,"clicks":0},{"url":"https://support.dnsimple.com/articles/differences-a-cname-records/","internal":false,"reflection":false,"title":"Differences between the A and CNAME records - DNSimple Help","clicks":0},{"url":"https://community.reclaimhosting.com/uploads/default/original/1X/462f5dc4e5f237e4d61d023f223741d38587c017.png","internal":true,"reflection":false,"clicks":0},{"url":"https://community.reclaimhosting.com/uploads/default/original/1X/3abab0dc508b4d02c55da9bc80080b24d17500ce.png","internal":true,"reflection":false,"clicks":0},{"url":"https://community.reclaimhosting.com/uploads/default/original/1X/e946e7d303aab9691449491f838139f3e038a403.png","internal":true,"reflection":false,"clicks":0}],"read":true,"user_title":null,"actions_summary":[],"moderator":true,"admin":true,"staff":true,"user_id":6,"hidden":false,"hidden_reason_id":null,"trust_level":2,"deleted_at":null,"user_deleted":false,"edit_reason":"Ownership transferred from labrumfield to jimgroom","can_view_edit_history":true,"wiki":false,"can_accept_answer":false,"can_unaccept_answer":false,"accepted_answer":false}],"stream":[523]},"timeline_lookup":[[1,264]],"id":270,"title":"Domain Mapping to GitHub","fancy_title":"Domain Mapping to GitHub","posts_count":1,"created_at":"2016-08-29T16:25:55.708Z","views":446,"reply_count":0,"participant_count":1,"like_count":0,"last_posted_at":"2016-08-29T16:25:55.765Z","visible":true,"closed":false,"archived":false,"has_summary":false,"archetype":"regular","slug":"domain-mapping-to-github","category_id":16,"word_count":873,"deleted_at":null,"user_id":6,"draft":null,"draft_key":"topic_270","draft_sequence":null,"unpinned":null,"pinned_globally":false,"pinned":false,"pinned_at":null,"pinned_until":null,"details":{"auto_close_at":null,"auto_close_hours":null,"auto_close_based_on_last_post":false,"created_by":{"id":6,"username":"jimgroom","avatar_template":"/user_avatar/community.reclaimhosting.com/jimgroom/{size}/36_1.png"},"last_poster":{"id":6,"username":"jimgroom","avatar_template":"/user_avatar/community.reclaimhosting.com/jimgroom/{size}/36_1.png"},"participants":[{"id":6,"username":"jimgroom","avatar_template":"/user_avatar/community.reclaimhosting.com/jimgroom/{size}/36_1.png","post_count":1,"primary_group_name":null,"primary_group_flair_url":null,"primary_group_flair_color":null,"primary_group_flair_bg_color":null}],"suggested_topics":[{"id":355,"title":"Using External Nameservers for your Reclaim Hosting Domain","fancy_title":"Using External Nameservers for your Reclaim Hosting Domain","slug":"using-external-nameservers-for-your-reclaim-hosting-domain","posts_count":1,"reply_count":0,"highest_post_number":1,"image_url":"http://media.screensteps.me/reclaimhosting/x47rkf/accessing-your-domains.png?1474049210","created_at":"2016-09-16T18:17:59.518Z","last_posted_at":"2016-09-16T18:17:59.587Z","bumped":true,"bumped_at":"2017-05-15T20:00:12.188Z","unseen":false,"pinned":false,"unpinned":null,"visible":true,"closed":false,"archived":false,"bookmarked":null,"liked":null,"archetype":"regular","like_count":0,"views":285,"category_id":16,"featured_link":null,"posters":[{"extras":"latest single","description":"Original Poster, Most Recent Poster","user":{"id":2,"username":"timmmmyboy","avatar_template":"/user_avatar/community.reclaimhosting.com/timmmmyboy/{size}/524_1.png"}}]},{"id":266,"title":"Changing your Domain","fancy_title":"Changing your Domain","slug":"changing-your-domain","posts_count":1,"reply_count":0,"highest_post_number":1,"image_url":"/uploads/default/original/1X/897af46cd8c9fe5e090c9c94bae476125478c6c9.jpg","created_at":"2016-08-29T15:33:53.402Z","last_posted_at":"2016-08-29T15:33:53.454Z","bumped":true,"bumped_at":"2017-01-04T17:41:35.523Z","unseen":false,"pinned":false,"unpinned":null,"visible":true,"closed":false,"archived":false,"bookmarked":null,"liked":null,"archetype":"regular","like_count":0,"views":485,"category_id":16,"featured_link":null,"posters":[{"extras":"latest single","description":"Original Poster, Most Recent Poster","user":{"id":34,"username":"labrumfield","avatar_template":"/user_avatar/community.reclaimhosting.com/labrumfield/{size}/68_1.png"}}]},{"id":879,"title":"Domain Mapping to WordPress","fancy_title":"Domain Mapping to WordPress","slug":"domain-mapping-to-wordpress","posts_count":1,"reply_count":0,"highest_post_number":1,"image_url":"/uploads/default/original/1X/f36940b3246cbd79c2a37cb7ec5d7efbf3662495.png","created_at":"2017-05-15T19:58:16.227Z","last_posted_at":"2017-05-15T19:58:16.322Z","bumped":true,"bumped_at":"2017-05-15T19:58:16.322Z","unseen":false,"pinned":false,"unpinned":null,"visible":true,"closed":false,"archived":false,"bookmarked":null,"liked":null,"archetype":"regular","like_count":0,"views":18,"category_id":16,"featured_link":null,"posters":[{"extras":"latest single","description":"Original Poster, Most Recent Poster","user":{"id":34,"username":"labrumfield","avatar_template":"/user_avatar/community.reclaimhosting.com/labrumfield/{size}/68_1.png"}}]},{"id":271,"title":"Domain Mapping to Squarespace","fancy_title":"Domain Mapping to Squarespace","slug":"domain-mapping-to-squarespace","posts_count":1,"reply_count":0,"highest_post_number":1,"image_url":"/uploads/default/optimized/1X/f9215da5618dc7417fb2e153119a317c2ce3d210_1_690x247.png","created_at":"2016-08-29T16:31:00.980Z","last_posted_at":"2016-08-29T16:31:01.039Z","bumped":true,"bumped_at":"2016-08-29T18:14:55.501Z","unseen":false,"pinned":false,"unpinned":null,"visible":true,"closed":false,"archived":false,"bookmarked":null,"liked":null,"archetype":"regular","like_count":0,"views":280,"category_id":16,"featured_link":null,"posters":[{"extras":"latest single","description":"Original Poster, Most Recent Poster","user":{"id":6,"username":"jimgroom","avatar_template":"/user_avatar/community.reclaimhosting.com/jimgroom/{size}/36_1.png"}}]},{"id":268,"title":"Subdomains and Subfolders","fancy_title":"Subdomains and Subfolders","slug":"subdomains-and-subfolders","posts_count":1,"reply_count":0,"highest_post_number":1,"image_url":"/uploads/default/original/1X/9b3ea873adc8106000646e0da227ac5b724274e7.png","created_at":"2016-08-29T15:59:46.725Z","last_posted_at":"2016-08-29T15:59:46.791Z","bumped":true,"bumped_at":"2016-08-29T15:59:46.791Z","unseen":false,"pinned":false,"unpinned":null,"visible":true,"closed":false,"archived":false,"bookmarked":null,"liked":null,"archetype":"regular","like_count":0,"views":918,"category_id":16,"featured_link":null,"posters":[{"extras":"latest single","description":"Original Poster, Most Recent Poster","user":{"id":2,"username":"timmmmyboy","avatar_template":"/user_avatar/community.reclaimhosting.com/timmmmyboy/{size}/524_1.png"}}]}],"links":[{"url":"https://help.github.com/articles/setting-up-an-apex-domain/","title":"Setting up an apex domain - User Documentation","fancy_title":null,"internal":false,"attachment":false,"reflection":false,"clicks":5,"user_id":34,"domain":"help.github.com"},{"url":"https://help.github.com/articles/troubleshooting-custom-domains/","title":"Troubleshooting custom domains - User Documentation","fancy_title":null,"internal":false,"attachment":false,"reflection":false,"clicks":5,"user_id":34,"domain":"help.github.com"},{"url":"https://help.github.com/articles/about-supported-custom-domains/","title":"About supported custom domains - User Documentation","fancy_title":null,"internal":false,"attachment":false,"reflection":false,"clicks":3,"user_id":34,"domain":"help.github.com"},{"url":"https://help.github.com/articles/quick-start-setting-up-a-custom-domain/","title":"Quick start: Setting up a custom domain - User Documentation","fancy_title":null,"internal":false,"attachment":false,"reflection":false,"clicks":2,"user_id":34,"domain":"help.github.com"},{"url":"https://community.reclaimhosting.com/uploads/default/original/1X/394f85722e50b562d901217f28843a2359939602.png","title":null,"fancy_title":null,"internal":true,"attachment":true,"reflection":false,"clicks":0,"user_id":34,"domain":"community.reclaimhosting.com"},{"url":"https://support.dnsimple.com/articles/a-record/","title":"What is an A record? - DNSimple Help","fancy_title":null,"internal":false,"attachment":false,"reflection":false,"clicks":0,"user_id":34,"domain":"support.dnsimple.com"},{"url":"https://support.dnsimple.com/articles/differences-a-cname-records/","title":"Differences between the A and CNAME records - DNSimple Help","fancy_title":null,"internal":false,"attachment":false,"reflection":false,"clicks":0,"user_id":34,"domain":"support.dnsimple.com"},{"url":"https://support.dnsimple.com/articles/cname-record/","title":"What is a CNAME record? - DNSimple Help","fancy_title":null,"internal":false,"attachment":false,"reflection":false,"clicks":0,"user_id":34,"domain":"support.dnsimple.com"},{"url":"https://community.reclaimhosting.com/uploads/default/original/1X/3abab0dc508b4d02c55da9bc80080b24d17500ce.png","title":null,"fancy_title":null,"internal":true,"attachment":true,"reflection":false,"clicks":0,"user_id":34,"domain":"community.reclaimhosting.com"},{"url":"https://community.reclaimhosting.com/uploads/default/original/1X/e946e7d303aab9691449491f838139f3e038a403.png","title":null,"fancy_title":null,"internal":true,"attachment":true,"reflection":false,"clicks":0,"user_id":34,"domain":"community.reclaimhosting.com"},{"url":"https://community.reclaimhosting.com/uploads/default/original/1X/462f5dc4e5f237e4d61d023f223741d38587c017.png","title":null,"fancy_title":null,"internal":true,"attachment":true,"reflection":false,"clicks":0,"user_id":34,"domain":"community.reclaimhosting.com"},{"url":"https://community.reclaimhosting.com/uploads/default/original/1X/2c3e3347db73f61fb0a77a21bc6276d3d28e1025.png","title":null,"fancy_title":null,"internal":true,"attachment":true,"reflection":false,"clicks":0,"user_id":34,"domain":"community.reclaimhosting.com"},{"url":"https://community.reclaimhosting.com/uploads/default/original/1X/b27001077e7d68eb8004474dd0f3bb6fc60cf119.png","title":null,"fancy_title":null,"internal":true,"attachment":true,"reflection":false,"clicks":0,"user_id":34,"domain":"community.reclaimhosting.com"}],"notification_level":1,"can_flag_topic":false},"highest_post_number":1,"deleted_by":null,"actions_summary":[{"id":4,"count":0,"hidden":false,"can_act":false},{"id":7,"count":0,"hidden":false,"can_act":false},{"id":8,"count":0,"hidden":false,"can_act":false}],"chunk_size":20,"bookmarked":null,"featured_link":null,"can_vote":false,"vote_count":null,"user_voted":false});
+      })();
+      </script>
+
+    
+
+    <script>
+  Ember.RSVP.configure('onerror', function(e) {
+    // Ignore TransitionAborted exceptions that bubble up
+    if (e && e.message === "TransitionAborted") { return; }
+
+    window.onerror(e && e.message, null,null,null,e);
+  });
+
+
+</script>
+
+<script>
+
+  (function() {
+    var ps = require('preload-store').default;
+
+    Discourse.CDN = '';
+    Discourse.BaseUrl = 'community.reclaimhosting.com'.replace(/:[\d]*$/,"");
+    Discourse.BaseUri = '';
+    Discourse.Environment = 'production';
+    Discourse.SiteSettings = ps.get('siteSettings');
+    Discourse.LetterAvatarVersion = '5_c5b31cccf5394499269817ee339a84bb';
+    I18n.defaultLocale = 'en';
+    Discourse.start();
+    Discourse.set('assetVersion','75653ffafe983648927c78faed446e06');
+    Discourse.Session.currentProp("disableCustomCSS", false);
+    Discourse.HighlightJSPath = "/highlight-js/community.reclaimhosting.com/133b1767dbeecf92cad6dfc38d42cde22195db05.js";
+  })();
+</script>
+
+<script src="/assets/browser-update-f57286e74ddbc53aa899689b01ef467078911e4138050c561939955849af35dd.js"></script>
+
+
+    
+
+      
+  </body>
+</html>

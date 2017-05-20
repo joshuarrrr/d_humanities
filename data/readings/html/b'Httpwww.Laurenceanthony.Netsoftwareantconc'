@@ -1,0 +1,430 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+
+<!-- Basic Page Needs
+ââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+<meta charset="utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>Laurence Anthony's AntConc</title>
+<meta name="author" content="Laurence Anthony" />
+<meta name="description" content="The website of Laurence Anthony. Professor at Waseda University Japan, developer of AntConc, a freeware concordancer software program for Windows, Linux, and Macintosh OS X" />
+<meta name="keywords" content="freeware concordance, concordancer, windows, linux, macintosh, mac, os x, osx, antconc, AntConc, AntMover, ESP, CELESE" />
+
+<!-- Mobile Specific Metas
+ââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Scripts
+ââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+<!-- jQuery -->
+<script type="text/javascript" src="/scripts/jquery.min.js"></script>
+<script src="/scripts/lightbox.min.js"></script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-9885607-3', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+<!-- SmartMenus jQuery plugin -->
+<script type="text/javascript" src="/scripts/jquery.smartmenus.min.js"></script>
+
+<!-- SmartMenus menu button-->
+<script type="text/javascript">
+$(function() {
+$('#navbar-menu').smartmenus({
+	subMenusSubOffsetX: 1,
+	subMenusSubOffsetY: -8
+});
+
+$('#navbar-button').click(function() {
+	var $this = $(this),
+	$menu = $('#navbar-menu');
+	if (!$this.hasClass('collapsed')) {
+		$menu.addClass('collapsed');
+		$this.addClass('collapsed');
+	} else {
+		$menu.removeClass('collapsed');
+		$this.removeClass('collapsed');
+	}
+	return false;
+	}).click();
+});
+</script>
+
+<!-- FONT
+ââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+<link href='http://fonts.googleapis.com/css?family=Bubblegum+Sans' rel='stylesheet' type='text/css'><!--
+<link href="//fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+-->
+
+<!-- CSS
+ââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+<link rel="stylesheet" href="/css/reset.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+<link rel="stylesheet" href="/css/antlab.css">
+<!-- SmartMenus core CSS (required) -->
+<link href='/css/sm-core-css.css' rel='stylesheet' type='text/css' />
+<link href='/css/sm-antlab.css' rel='stylesheet' type='text/css' />
+<!-- Lightbox -->
+<link href="/css/lightbox.css" rel="stylesheet" />
+
+<!-- Favicon
+ââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+<link rel="icon" type="image/png" href="/images/favicon.png">
+
+</head>
+
+<body>
+
+<!-- Primary Page Layout
+ââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+<div class="container">
+
+<div class="row header">
+	<h4 class="navbar"><a href="/">Laurence Anthony's Website</a></h4>
+<ul id="navbar-menu" class="sm sm-antlab" class="sm collapsed">
+	<li><a href="/">Home</a></li>
+	<li><a href="/resume.html">Resume</a></li>
+	<li><a href="/publications.html">Publications</a>
+		<ul>
+			<li><a href="/publications.html#books">Books</a></li>
+			<li><a href="/publications.html#plenaries">Plenaries/Keynotes</a></li>
+			<li><a href="/publications.html#papers">Papers/Proceedings</a></li>
+			<li><a href="/publications.html#presentations">Presentations</a></li>
+			<li><a href="/publications.html#seminars">Seminars/Courses</a></li>
+			<li><a href="/publications.html#talks">Invited Talks</a></li>
+			<li><a href="/publications.html#media">Media Appearances</a></li>
+<!--			<li><a href="/publications.html#conferences">Conference Organization</a></li>
+			<li><a href="/publications.html#advisor">Advisory Roles</a></li>-->
+		</ul>
+	</li>
+	<li><a href="/software.html">Software</a>
+		<ul>
+			<li><a href="/software/antconc/">AntConc</a></li>
+			<li><a href="/software/antpconc/">AntPConc</a></li>
+			<li><a href="/software/antwordprofiler/">AntWordProfiler</a></li>
+			<li><a href="/software/antfileconverter/">AntFileConverter</a></li>
+			<li><a href="/software/antgram/">AntGram</a></li>
+			<li><a href="/software/antmover/">AntMover</a></li>
+			<li><a href="/software/antclawsgui/">AntCLAWSGUI</a></li>
+			<li><a href="/software/encodeant/">EncodeAnt</a></li>
+			<li><a href="/software/fireant/">FireAnt</a></li>
+			<li><a href="/software/pvst/">Picture Vocabulary Test (PVST)</a></li>
+			<li><a href="/software/protant/">ProtAnt</a></li>
+			<li><a href="/software/sarant/">SarAnt</a></li>
+			<li><a href="/software/segmentant/">SegmentAnt</a></li>
+			<li><a href="/software/tagant/">TagAnt</a></li>
+			<li><a href="/software/variant/">VariAnt</a></li>
+			<li><a href="/software.html#WebParaNews">WebParaNews</a></li>
+			<li><a href="/software.html#ENEJE">ENEJE</a></li>
+			<li><a href="/software.html#EXEMPRAES">EXEMPRAES</a></li>
+			<li><a href="/software.html#CASECGGTS">CASEC G/GTS</a></li>
+			<li><a href="/software.html#ALCTextToolkit">ALC Text Toolkit</a></li>
+		</ul>
+	</li>
+	<li><a href="/classes.html">Classes</a></li>
+	<li><a href="/photos.html">Photo Albums</a>
+		<ul>
+			<li><a href="/photos.html#public">Public</a></li>
+			<li><a href="/photos.html#private">Private</a></li>
+		</ul>
+	</li>
+	<li><a href="/links.html">Links</a></li>
+	<li class="last"><a href="/contact.html">Contact</a></li>
+</ul>
+<a id="navbar-button"></a>
+</div>
+
+
+<div class="row">
+	<h1 class="title">AntConc Homepage</h1>
+</div>
+
+<div class="row release">
+	<h2>Latest Release</h2>
+		<div class="row software">
+	<div class="two columns">
+		<img class="icon" alt="AntConc" src="/software/antconc/icons/AntConc.png"/>
+	</div>
+	
+	<div class="five columns">
+		<a name="AntConc"></a>
+		<h1>AntConc</h1>
+		<p>A freeware corpus analysis toolkit for concordancing and text analysis.</p>
+		<p>
+			[<a href="/software/antconc/">AntConc Homepage</a>]
+			[<a data-lightbox="image-1" rel="groupAntConc" title="AntConc Main Window" href="/software/antconc/screenshots/AntConc_1.png">Screenshots</a>]			
+			[<a href="/software/antconc/releases/AntConc344/help.pdf">Help</a>]
+		</p>
+		<div>
+			<h2>Downloads:</h2>
+			<ul>
+			  <li><a href="/software/antconc/releases/AntConc344/AntConc.exe" class="download_AntConc">Windows (3.4.4)</a></li>
+			  <li><a href="/software/antconc/releases/AntConc344/AntConc.zip" class="download_AntConc">Macintosh OS X 10.7-10.12 (3.4.4)</a></li>
+			  <li><a href="/software/antconc/releases/AntConc341/AntConc.zip" class="download_AntConc">Macintosh OS X 10.6 (3.4.1)</a></li>
+			  <li><a href="/software/antconc/releases/AntConc343/AntConc.tar.gz" class="download_AntConc">Linux (3.4.3)</a></li>
+			  <li><a href="/software/antconc/releases/">Older versions</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="five columns">
+		<div class="divcenter">
+			<a data-lightbox="image-2" rel="groupAntConc" title="AntConc Main Window" href="/software/antconc/screenshots/AntConc_1.png">
+			<img class="screenshot" src="/software/antconc/screenshots/AntConc_1.png" alt="AntConc" />
+			</a>
+		</div>
+	</div>
+	
+	
+</div>
+
+</div>
+
+<div class="row version">
+	
+	<h2>Older Versions</h2>
+	<div class="version">
+		All previous releases of AntConc can be found at the following link.
+		<.exe> files are for Windows.
+		<.zip> files are for Macintosh OS X.
+		<.tar.gz> files are for Linux.
+		<ul>
+			<li><a href="/software/antconc/releases">All previous releases</a></li>
+		</ul>
+	</div>
+
+	<h2>Development Version</h2>
+	<div class="version">
+		The latest development versions of AntConc are below. Be careful to not run these versions in a folder containing a settings file from an older version of AntConc as they are not compatible. I recommend running the new version in an empty folder and exporting a new settings file that matches your previous one.
+		<ul>
+			<li><a href="/software/antconc/releases/AntConc350/AntConc.exe" class="download_AntConc">Windows (3.5.0 Dev)</a></li>
+			<li><a href="/software/antconc/releases/AntConc350/AntConc_64bit.exe" class="download_AntConc">Windows 64-bit (3.5.0 Dev)</a></li>
+			<li><a href="/software/antconc/releases/AntConc350/AntConc.zip" class="download_AntConc">Macintosh OS X (10.7-10.10) (3.5.0 Dev)</a></li>
+			<li><a href="/software/antconc/releases/AntConc350/AntConc_64bit.tar.gz" class="download_AntConc">Linux 64-bit (3.5.0 Dev)</a></li>
+		</ul>
+	</div>
+
+	<h2>Screenshot Viewer</h2>
+	<div class="version">
+		Screenshots of different versions of AntConc.
+		<ul>
+			<li><a href="/software/antconc/screenshots.html">Version 3.2.3</a></li>
+		</ul>
+	</div>
+
+		
+	<h2>User Support</h2>
+	<div class="version">
+		<p class="list">Latest Help file</p>
+		<ul>
+			<li><a href="/software/antconc/releases/AntConc344/help.pdf">Version 3.4.4</a></li>
+		</ul>
+		<p class="list">Discussion groups</p>
+		<ul>
+			<li><a href="http://groups.google.com/group/AntConc">General Discussion (Google Groups)</a></li>
+			<li><a href="http://groups.google.com/group/AntConc-announcements">Announcements (Google Groups)</a></li>
+		</ul>
+		
+		<p class="list">Video tutorials</p>
+		<ul>
+			<li>YouTube Tutorials (by Laurence Anthony)
+				<ul>
+					<li><a href="https://www.youtube.com/playlist?list=PLiRIDpYmiC0Ta0-Hdvc1D7hG6dmiS_TZj">11-part series (Version 3.4.0)</a></li>
+					<li><a href="https://www.youtube.com/playlist?list=PLB85249F302B2372C">10-part series (Version 3.2.4)</a></li>
+				</ul>
+			</li>
+			<li>YouTube Tutorials (by Monika Bednarek)
+				<ul>
+					<li><a href="https://www.youtube.com/playlist?list=PLiRIDpYmiC0TUot9nfW2BSK0thsvAzErx">6-part series (Version 3.2.0)</a></li>
+				</ul>
+			</li>
+			<li>YouTube Tutorials (by Hyun Jung)
+				<ul>
+					<li><a href="https://www.youtube.com/playlist?list=PLiRIDpYmiC0TUot9nfW2BSK0thsvAzErx">8-part series (Version 3.2.0)</a></li>
+				</ul>
+			</li>
+			<li>Youku Tutorials (by Laurence Anthony)
+				<ul>
+					<li ><a href="http://v.youku.com/v_show/id_XNjQwMTU3ODMy.html">Getting Started (Version 3.2.0)</a></li>
+					<li ><a href="http://v.youku.com/v_show/id_XNjQwMjI3MTI0.html">Concordance Tool - Basic Features (Version 3.2.0)</a></li>
+				</ul>
+			</li>
+		</ul>
+		<p class="list">Downloadable guides</p>
+		<ul>
+			<li>Guide by Warren Tang (Hiroshima University, Japan)
+				<ul>
+					<li><a href="/software/antconc/resources/help_AntConc321_english.pdf">AntConc 3.2.1 Tutorial</a> (in English) Latest version available <a href="http://corpora.wordpress.com">here.</a></li>
+				</ul>
+			</li>
+			<li>Guide by Taku Kaneta and Akira Murakami (Tokyo University of Foreign Studies, Japan)
+				<ul>
+					<li><a href="/software/antconc/resources/help_AntConc322_japanese.pdf">AntConc3.2.2 Tutorial</a> (in Japanese)</li>
+				</ul>
+			</li>
+			<li>Help file translations
+				<ul>
+					<li ><a href="/software/antconc/resources/help_AntConc335_arabic.pdf">AntConc3.3.5 (in Arabic)</a> by Ahmad Haider (University of Canterbury, New Zealand</li>
+					<li ><a href="/software/antconc/resources/help_AntConc324_korean.pdf">AntConc3.2.4 (in Korean)</a> by Dr CK Jung (Centre for Corpus Research, Yonsei University, Korea)</li>
+					<li ><a href="/software/antconc/resources/help_AntConc321_chinese.pdf">AntConc3.2.1 (in Chinese)</a> by Xiong Qing'an (University of Electronic Science and Technology of China, Chengdu, China)</li>
+					<li ><a href="/software/antconc/resources/help_AntConc310_german.pdf">AntConc3.1.0 Readme File (in German)</a> by Regine Muller</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	<h2>Development Roadmap</h2>
+	<div class="version">
+		<p>My current tentative plans. If you would like see others, please
+		feel free to suggest them on the
+		<a href="http://groups.google.com/group/AntConc">AntConc Discussion</a> group.</p>
+	</div>
+	<div class="twocoltable_wide">
+		<table summary="This is a summary of AntConc future development">
+			<tr>
+				<th class="col1h">Status</th>
+				<th class="col2h">Description</th>
+			</tr>
+
+			<tr>
+				<td class="col1">Under development</td>
+				<td class="col2">
+					<ul class="mainlist">
+						<li>Drag and drop file handling.</li>
+						<li>Add the ability to save the results from the 'Plot' tool to an image file.</li>
+						<li>Generate sampled results (e.g., Every Nth hit in KWIC).</li>
+						<li>Add more statistical measures</li>
+						<li>Allow more file import types (e.g., PDF)</li>
+						<li>Redesign the database architecture to handle massive corpora.</li>
+						<li>Improve tag handling (XML/Part-Of-Speech/...)</li>
+						<li>Add Concgrams (Wildcard/Regex context search) option</li>
+						<li>Simplify token definition settings</li>
+						<li>Allow localization of interface</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="col1">Plans for 2015<br />and beyond</td>
+				<td class="col2">
+					<ul class="mainlist">
+						<li>Your suggestions come here...</li>
+					</ul>
+				</td>
+			</tr>
+			
+		</table>
+	</div>
+
+	<h2>Citing/Referencing AntConc</h2>
+	<div class="version">
+		<p>Use the following method to cite/reference AntConc according to the APA style guide:</p>
+		<ul><li>Anthony, L. (YEAR OF RELEASE). AntConc (Version VERSION NUMBER) [Computer Software].
+		Tokyo, Japan: Waseda University. Available from http://www.laurenceanthony.net/</li><ul>
+		<p>For example if you download AntConc 3.4.3, which was released in  2014, you would cite/reference it as follows:</p>
+		<ul><li>Anthony, L. (2014). AntConc (Version 3.4.3) [Computer Software]. Tokyo, Japan: Waseda University.
+		Available from http://www.laurenceanthony.net/</li><ul>
+		<p>Note that the APA instructions are not entirely clear about citing software, and it is debatable whether or not the "Available from ..." statement
+		is needed. See <a href="http://owl.english.purdue.edu/owl/resource/560/10/">here</a> for more details.</p>
+	</div>
+
+	<h2>Word frequency lists</h2>
+	<div class="version">
+		These lists can be imported into AntConc and used as reference corpora word lists to create keyword lists.
+		<ul>
+			<li>British National Corpus (BNC) frequency lists. 
+				<ul>
+					<li><a href="/resources/wordlists/bnc_wordlist.zip">BNC word frequency lists - written, spoken, combined (lowercase)</a></li>
+				</ul>
+			</li>
+			<li>BE06 corpus and AME06 corpus frequency lists. Developed by Paul Baker. For more information on the design of the corpora behind these lists, see <a href="http://www.ling.lancs.ac.uk/profiles/paul-baker">Paul Baker's</a> homepage.
+				<ul>
+					<li><a href="/resources/wordlists/be06_and_ame06.zip">BE06 and AME06 word frequency list</a></li>
+				</ul>
+			</li>
+			<li>Brown Corpus frequency lists.
+				<ul>
+					<li><a href="/resources/wordlists/brown_lowercase.zip">Brown Corpus word frequency list (lowercase)</a></li>
+					<li><a href="/resources/wordlists/brown_mixedcase.zip">Brown Corpus word frequency list (mixed case)</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	
+	<h2>Lemma lists</h2>
+	<div class="version">
+		Lemma list. These can be imported into AntConc to create lemma word lists.
+		<ul>
+			<li><a href="/resources/wordlists/antbnc_lemmas_ver_001.zip">AntBNC Lemma List</a>
+				<ul>
+					<li>An English lemma list based on all words in the BNC corpus (created by Laurence Anthony).</li>
+					<li>To use this list, *append* a hyphen (-) and apostrophe (') character to the AntConc token definition (see global settings).</li>
+				</ul>
+			</li>
+			
+			<li><a href="/resources/wordlists/e_lemma_no_hypen.zip">Someya Lemma List (no hypens)</a>
+				<ul>
+					<li>An edited version of the Someya English lemma list with no hypenated words (original list created by Yasumasa Someya).</li>
+				</ul>
+			</li>
+
+			<li><a href="/resources/wordlists/e_lemma.zip">Someya Lemma List</a>
+				<ul>
+					<li>The original Someya English lemma list (created by Yasumasa Someya).</li>
+					<li>To use this list, *append* a hyphen (-) and apostrophe (') character to the AntConc token definition (see global settings).</li>
+				</ul>
+			</li>
+
+			<li><a href="/resources/wordlists/lemma_list_french.zip">French Lemma List</a>
+				<ul>
+					<li>A French lemma list (created by BenoÃ®t Sagot).</li>
+				</ul>
+			</li>
+
+			<li><a href="/resources/wordlists/lemma_list_spanish.zip">Spanish Lemma List</a>
+				<ul>
+					<li>A Spanish lemma list (developed by Laurence Anthony based on the list provided <a href="http://www.lexiconista.com/datasets/lemmatization/">here</a>).</li>
+				</ul>
+			</li>
+
+		</ul>
+	</div>
+
+	<h2>Books/papers/websites related to AntConc</h2>
+	<div class="version">
+		References to works citing AntConc can by found on Google Scholar here.
+		<ul>
+			<li><a href="https://scholar.google.co.jp/citations?view_op=view_citation&hl=en&user=DS8jIxUAAAAJ&citation_for_view=DS8jIxUAAAAJ:oPLKW5k6eA4C">AntConc citation index</a></li>
+		</ul>
+	</div>
+
+	<h2>Interesting applications of AntConc</h2>
+	<div class="version">
+		Here are a random collection of projects that use AntConc in interesting ways.
+		<ul>
+			<li><a href="https://www.freidok.uni-freiburg.de/data/10845">AntConc emulation (AntConc in a browser) (Albert-Ludwigs-UniversitÃ¤t Freiburg)</a></li>
+		</ul>
+	</div>
+
+</div>
+
+<div class="row">
+	<div id="footer">	<div class="copyright">
+<a href="http://validator.w3.org/check?uri=referer"><img src="/images/w3c_xhtml_approv.png" alt="Valid XHTML 1.0 Strict" /></a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="/images/w3c_css_approv.png" alt="Valid CSS" /></a>
+<a href="http://www.w3.org/TR/WCAG20/"><img src="/images/w3c_wcag_aaa_approv.png" alt="Valid VCAG AAA" /></a>
+<span class="copyright">Copyright &copy; 2016 Laurence Anthony</span>
+</div>
+</div>
+</div>
+
+</div>
+</body>
+</html>

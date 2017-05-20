@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bookworm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bookworm: A simple and powerful way to visualize trends in repositories of digitized texts.">
+    <meta name="author" content="culturomics.org">
+    <meta property="og:image" content="http://bookworm.culturomics.org/images/war_deficit.png" />
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container-fluid">
+      <div class="navbar navbar-static-top navbar-inverse" style="position: static;">
+        <div class="navbar-inner">
+          <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="http://bookworm.culturomics.org/">Culturomics</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul class="nav">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Bookworms <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+		    <li><a href="http://bookworm.culturomics.org/OL/" target="_blank">OpenLibrary</a></li>
+                    <li><a href="http://bookworm.culturomics.org/arxiv/" target="_blank">ArXiV</a></li>
+                    <li><a href="http://bookworm.culturomics.org/ChronAm/" target="_blank">Chronicling America</a></li>
+                    <li><a href="http://bookworm.culturomics.org/congress/" target="_blank">US Congress</a></li>
+                    <li><a href="http://bookworm.culturomics.org/ssrn/" target="_blank">Social Science Research Network</a></li>
+		  </ul>
+                </li>
+                <li class="divider-vertical"></li>
+                <li><a href="create.php">Create a Bookworm</a></li>
+                <li class="divider-vertical"></li>
+                <li><a href="docs.php">Documentation</a></li>
+                <li class="divider-vertical"></li>
+                <li><a href="contact.php">Contact</a></li>
+              </ul>
+              <ul class="nav pull-right">
+                                <li><a href="login.php">Login</a></li>
+                <li class="divider"></li>
+                <li><a href="register.php">Register</a></li>
+                              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-narrow">
+
+      <div class="jumbotron">
+        <h2>Bookworm</h2>
+        <p class="lead">Bookworm is a simple and powerful way to visualize trends in repositories of digitized texts.</p>
+      </div>
+
+      <div class="row-fluid">
+        <div class="span12" align="center" style="padding-left:10%;padding-right:10%;">
+          <img src="images/war_deficit.png">
+        </div>
+      </div>
+
+      <br><br>
+
+      <div class="row-fluid">
+        <div class="span6">
+          <h4><strong>Our Bookworms</strong></h4>
+          <p>View our examples created using
+            <ul>
+	      <li><a href="http://bookworm.culturomics.org/OL/" target="_blank">OpenLibrary</a> open domain books</li>
+              <li><a href="http://bookworm.culturomics.org/arxiv/" target="_blank">ArXiV</a> science puplications</li>
+              <li><a href="http://bookworm.culturomics.org/ChronAm/" target="_blank">Chronicling America</a> historical newspapers</li>
+              <li><a href="http://bookworm.culturomics.org/congress/" target="_blank">US Congress</a> bills, amendments, and resolutions</li>
+              <li><a href="http://bookworm.culturomics.org/ssrn/" target="_blank">Social Science Research Network</a> research paper abstracts</li>
+	      <!--li><a href="http://bookworm.culturomics.org/sage/" target="_blank">Sage City</a> online community for Sage North America</li-->
+            </ul>
+          </p>
+        </div>
+        <div class="span6">
+          <h4><strong>More Bookworms!</strong></h4>
+          <p>View bookworms made by collaborators using
+            <ul>
+              <li><a href="http://benschmidt.org/profGender/" target="_blank">RateMyProfessor</a> teacher reviews by gender</li>
+	      <li><a href="http://benschmidt.org/statenames/" target="_blank">Baby Names</a> US birth records</li>
+	      <li><a href="http://bookworm.library.yale.edu/collections/vogue/" target="_blank">Vogue</a> fashion and beauty archives</li>
+              <li><a href="http://movies.benschmidt.org/" target="_blank">Movies</a> dialogues of movie and TV shows</li>
+              <li><a href="http://benschmidt.org/poli/2015-SOTU" target="_blank">Speeches</a> State of the Union addresses<br>[<a href="http://benschmidt.org/poli/SOTU" target="_blank">word cloud version</a>]</li>
+	      <li><a href="http://bookworm.htrc.illinois.edu/" target="_blank">HTRC</a> public domain texts from HathiTrust Digital Library</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      
+      <div class="row-fluid">
+        <div class="span6">
+          <h4><strong>Other Ngram Viewers</strong></h4>
+          <p>
+            <ul>
+              <li><a href="https://books.google.com/ngrams" target="_blank">Google Ngram Viewer</a> explore the Google Books public corpus</li>
+              <li><a href="http://xkcd.culturomics.org/" target="_blank">XKCD Ngram Viewer</a> stylized plotting of Google Ngram Viewer</li>
+              <li><a href="http://chronicle.nytlabs.com/" target="_blank">Chronicle</a> New York Times through its history</li>
+              <li><a href="http://www.peachnote.com/" target="_blank">Peachnote</a> musical notes</li>
+	    </ul>
+          </p>
+        </div>
+        <div class="span6">
+           <h4><strong>Get in Touch</strong></h4>
+           <p>Need help setting up a Bookworm around your collection of text? Interested in collaborating with the Culturomics team? Whatever the reason, feel free to <a href="contact.php">reach out to us</a>!</p>
+        </div>
+        <!--div class="span6">
+          <h4><strong>Neat findings!</strong></h4>
+          <p>
+            <ul>
+              <li><a href="http://ngrams.tumblr.com/" target="_blank">Tumblr thread</a></li>
+              <li><a href="http://www.emarketeers.com/e-insight/10-fascinating-charts-from-googles-ngram-viewer/" target="_blank">Emarketeers</a></li>
+            </ul>
+          </p>
+        </div-->
+      </div>
+
+      <!--<hr>
+
+      <div class="row-fluid">
+        <div class="span12" align="center">
+          <p>Do you have a collection of digitized texts? We'll create a Bookworm viewer for you!</p>
+          <br>
+          <p><a class="btn btn-larse btn-success" href="create.php">Create a Bookworm</a></p>
+          <br>
+          <p>Be sure to read the <a href="docs.php">documentation</a> to get started!</p>
+        </div>
+      </div>-->
+
+      <hr>
+
+      <div class="footer">
+        <p><a href="http://www.culturomics.org/">culturomics.org</a></p>
+      </div>
+
+    </div>
+    
+    <!--div class="modal fade in" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="false">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Apologies</h4>
+            </div>
+            <div class="modal-body">
+                <p>We're very sorry for the inconvenience. We're performing some maintenance on the site. Please <a href="mailto:#">contact us</a> with any questions. Otherwise we'll be back online shortly!</p>
+        		<p>&mdash; The Bookworm Team</p>
+          </div>
+        </div>
+      </div>
+    </div-->
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script>
+      var options = {
+      "show" : "true",
+      "overflow" : "hidden"
+      }
+      //$('#basicModal').modal(options);
+    </script>
+
+  </body>
+</html>

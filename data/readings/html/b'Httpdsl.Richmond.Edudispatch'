@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Mining the Dispatch</title>
+    <link rel="stylesheet" type="text/css" href="/dispatch/css/stylesheet.css" />    <link rel="unapi-server" type="application/xml" title="unAPI" href="http://dsl.richmond.edu/dispatch/articles/mods" />
+    <script type="text/javascript" src="http://use.typekit.com/bsu0fqu.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+     <script type="text/javascript">
+       var _gaq = _gaq || [];
+       _gaq.push(['_setAccount', 'UA-4063620-12']);
+       _gaq.push(['_trackPageview']);
+
+       (function() {
+         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+       })();
+     </script>
+
+</head>
+<body>
+    <div id='header'>
+        <h1><a href="/dispatch/pages/home">Mining the <cite>Dispatch</cite></a></h1>
+        <!-- <h4>Robert K. Nelson, <a href="http://dsl.richmond.edu">Digital Scholarship Lab</a>, <a href="http://www.richmond.edu/">University of Richmond</a></h4> -->
+    </div>
+    <div  id='nav2'>
+        <ul>
+                        <li><a href="/dispatch/pages/intro">Introduction</a></li>
+            <li><a href="/dispatch/Topics">Topics</a></li>
+            <li><a href="/dispatch/pages/about">About</a></li>
+        </ul>
+    </div>
+    <div id='content'>
+        <div id="home">
+<div><img src='http://chart.apis.google.com/chart?cht=lc&chs=700x300&chd=e:WtXpoQcKO.O4I9KvJMLAJuNgLyRPYMVEVPTeNBMFNsP2QVa0TZabyqp5aXWmUjUOTZSLT0QAR5cjw3c.WXZhPEQFL0Q3VNYaQcfTzLbnY9,GNHLHCFTIiJKGWK.JMJ8ObOoKUWJWrSoLENBSmQMXMUagIXARjQMQVRsTrT3UjPtO2O4URQcMHOEUDSLRhTZYga7XFcWR4QHQVYlUpNWKc&chdl=for+hire+and+wanted+ads|fugitive+slave+ads&chdlp=b&chds=0,17.74075&chxt=x,x,y&chxr=2,0,17.74075&chxl=0:|Jan|Apr|Jul|Oct|Jan|Apr|Jul|Oct|Jan|Apr|Jul|Oct|Jan|Apr|Jul|Oct|Jan|1:|1861|1862|1863|1864|2:|0%25|2%25|4%25|6%25|8%25|10%25|12%25|14%25|16%25|&chxp=0,3.85,9.62,15.38,21.15,26.92,32.69,38.46,44.23,50,55.77,61.54,67.31,73.08,78.85,84.62,90.38,96.15|1,14.42,37.5,60.58,83.655|2,0,2,4,6,8,10,12,14,16&chm=R,F2F2F2,0,0.028884615384615,0.25965384615385|R,F2F2F2,0,0.49038461538462,0.72115384615385|R,F2F2F2,0,0.95188461538462,1&chco=446688,4cb052' alt='graph--relative distribution of hiring ads and fugitive slave ads' /></div>
+    <p>"Mining the Dispatch," seeks to explore&#8212;and encourage exploration of&#8212;the dramatic and often traumatic changes as well as the sometimes surprising continuities in the social and political life of Civil War Richmond.  It uses as its evidence nearly the full run of the Richmond <cite>Daily Dispatch</cite> from the eve of Lincoln's election in November 1860 to the evacuation of the city in April 1865.  It uses as its principle methodology topic modeling, a computational, probabilistic technique to uncover categories and discover patterns in and among texts.  On this site you'll be able to view and generate graphs and charts that reveal some of the changing patterns in the topics that dominated the news during the Civil War in the capital of the Confederacy's newspaper of record.</p>
+</div>
+    </div>
+    <div id='footer'>
+        <p>Robert K. Nelson, <a href='mailto:rnelson2@richmond.edu'>rnelson2@richmond.edu</a>, <a href="http://digitalscholarship.richmond.edu">Digital Scholarship Lab</a>, the <a href="http://www.richmond.edu">University of Richmond</a></p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<title>Infoviz and New Literacies | Digital Humanities Specialist</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="https://dhs.stanford.edu/wp-content/themes/twentyten/style.css" />
+<link rel="pingback" href="https://dhs.stanford.edu/xmlrpc.php" />
+<link rel="alternate" type="application/rss+xml" title="Digital Humanities Specialist &raquo; Feed" href="https://dhs.stanford.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Digital Humanities Specialist &raquo; Comments Feed" href="https://dhs.stanford.edu/comments/feed/" />
+				
+	<script type="text/javascript">//<![CDATA[
+	// Google Analytics for WordPress by Yoast v4.1 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-16640656-2']);
+	_gaq.push(['_trackPageview'],['_trackPageLoadTime']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	//]]></script>
+<link rel="alternate" type="application/rss+xml" title="Digital Humanities Specialist &raquo; Infoviz and New Literacies Comments Feed" href="https://dhs.stanford.edu/algorithmic-literacy/infoviz-and-new-literacies/feed/" />
+<link rel='stylesheet' id='wpss_style-css'  href='https://dhs.stanford.edu/wp-content/plugins/wordpress-simple-survey/style.css?ver=3.1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wpss_uicore-css'  href='https://dhs.stanford.edu/wp-content/plugins/wordpress-simple-survey/css/ui.core.css?ver=3.1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wpss_uitheme-css'  href='https://dhs.stanford.edu/wp-content/plugins/wordpress-simple-survey/css/ui.theme.css?ver=3.1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wpss_probar-css'  href='https://dhs.stanford.edu/wp-content/plugins/wordpress-simple-survey/css/ui.progressbar.css?ver=3.1.3' type='text/css' media='all' />
+<script type='text/javascript' src='https://dhs.stanford.edu/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='https://dhs.stanford.edu/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<script type='text/javascript' src='https://dhs.stanford.edu/wp-includes/js/jquery/jquery.js?ver=1.4.4'></script>
+<script type='text/javascript' src='https://dhs.stanford.edu/wp-content/plugins/wordpress-simple-survey/js/jquery-ui-1.8.10.full.min.js?ver=1.8.10'></script>
+<script type='text/javascript' src='https://dhs.stanford.edu/wp-content/plugins/wordpress-simple-survey/js/custom.js?ver=1.0'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://dhs.stanford.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://dhs.stanford.edu/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Digital Humanities Specialist' href='https://dhs.stanford.edu/' />
+<link rel='start' title='Peer Review of Undergraduate Spatial History Projects' href='https://dhs.stanford.edu/hgis/hello-world/' />
+<link rel='prev' title='Why I Stopped Coding in Flash and Learned to Love the Bomb' href='https://dhs.stanford.edu/algorithmic-literacy/why-i-stopped-coding-in-flash/' />
+<link rel='next' title='Adventures in Georectification &#8211; Mobile Edition' href='https://dhs.stanford.edu/hgis/georectification-mobile-edition/' />
+<meta name="generator" content="WordPress 3.1.3" />
+<link rel='canonical' href='https://dhs.stanford.edu/algorithmic-literacy/infoviz-and-new-literacies/' />
+<link rel='shortlink' href='https://dhs.stanford.edu/?p=3769' />
+<style type="text/css">
+body { background-color: #ffffff; background-image: url('https://dhs.stanford.edu/wp-content/uploads/2011/10/long1.png'); background-repeat: repeat-y; background-position: top left; background-attachment: scroll; }
+</style>
+</head>
+
+<body class="single single-post postid-3769 single-format-standard">
+<div id="wrapper" class="hfeed">
+	<div id="header">
+		<div id="masthead">
+			<div id="branding" role="banner">
+								<div id="site-title">
+					<span>
+						<a href="https://dhs.stanford.edu/" title="Digital Humanities Specialist" rel="home">Digital Humanities Specialist</a>
+					</span>
+				</div>
+				<div id="site-description">humanities software, visualization and analysis</div>
+
+										<img src="https://dhs.stanford.edu/wp-content/uploads/2013/05/sullogo2.png" width="940" height="198" alt="" />
+								</div><!-- #branding -->
+
+			<div id="access" role="navigation">
+			  				<div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+								<div class="menu"><ul><li ><a href="https://dhs.stanford.edu/" title="Home">Home</a></li><li class="page_item page-item-3"><a href="https://dhs.stanford.edu/about/" title="About">About</a><ul class='children'><li class="page_item page-item-307"><a href="https://dhs.stanford.edu/about/tools/" title="Tools">Tools</a></li></ul></li><li class="page_item page-item-1221"><a href="https://dhs.stanford.edu/comprehending-the-digital-humanities/" title="Comprehending the Digital Humanities">Comprehending the Digital Humanities</a><ul class='children'><li class="page_item page-item-1307"><a href="https://dhs.stanford.edu/comprehending-the-digital-humanities/topology/" title="Topology">Topology</a></li><li class="page_item page-item-1289"><a href="https://dhs.stanford.edu/comprehending-the-digital-humanities/topics/" title="Topics">Topics</a></li><li class="page_item page-item-1269"><a href="https://dhs.stanford.edu/comprehending-the-digital-humanities/documents/" title="Documents">Documents</a></li><li class="page_item page-item-1345"><a href="https://dhs.stanford.edu/comprehending-the-digital-humanities/data/" title="Data">Data</a></li><li class="page_item page-item-1375"><a href="https://dhs.stanford.edu/comprehending-the-digital-humanities/further-research/" title="Further Research">Further Research</a></li><li class="page_item page-item-1423"><a href="https://dhs.stanford.edu/comprehending-the-digital-humanities/topic-deformation/" title="Topic Deformation">Topic Deformation</a></li></ul></li><li class="page_item page-item-611"><a href="https://dhs.stanford.edu/digital-humanities-at-stanford/" title="Digital Humanities at Stanford">Digital Humanities at Stanford</a><ul class='children'><li class="page_item page-item-999"><a href="https://dhs.stanford.edu/digital-humanities-at-stanford/dhstanford-gallery/" title="DH@Stanford Gallery">DH@Stanford Gallery</a></li></ul></li><li class="page_item page-item-21"><a href="https://dhs.stanford.edu/project-proposals/" title="Project Proposals">Project Proposals</a></li><li class="page_item page-item-25"><a href="https://dhs.stanford.edu/project-gallery/" title="Project Gallery">Project Gallery</a><ul class='children'><li class="page_item page-item-215"><a href="https://dhs.stanford.edu/project-gallery/authorial-london/" title="Authorial London">Authorial London</a></li><li class="page_item page-item-385"><a href="https://dhs.stanford.edu/project-gallery/mapping-the-grand-tour/" title="Mapping the Grand Tour">Mapping the Grand Tour</a></li><li class="page_item page-item-381"><a href="https://dhs.stanford.edu/project-gallery/mapping-the-republic-of-letters/" title="Mapping the Republic of Letters">Mapping the Republic of Letters</a></li></ul></li><li class="page_item page-item-33"><a href="https://dhs.stanford.edu/digital-scholarly-media/" title="Digital Scholarly Media">Digital Scholarly Media</a><ul class='children'><li class="page_item page-item-283"><a href="https://dhs.stanford.edu/digital-scholarly-media/lightweight-visualization-frameworks/" title="Lightweight Visualization Frameworks">Lightweight Visualization Frameworks</a></li><li class="page_item page-item-139"><a href="https://dhs.stanford.edu/digital-scholarly-media/location-metadata-for-historical-maps/" title="Location Metadata for Historical Maps">Location Metadata for Historical Maps</a></li><li class="page_item page-item-277"><a href="https://dhs.stanford.edu/digital-scholarly-media/modeling-place/" title="Modeling Place">Modeling Place</a></li><li class="page_item page-item-271"><a href="https://dhs.stanford.edu/digital-scholarly-media/route-density/" title="Route Density">Route Density</a></li><li class="page_item page-item-1773"><a href="https://dhs.stanford.edu/digital-scholarly-media/spatial-services-continuum/" title="Spatial Services Continuum">Spatial Services Continuum</a></li></ul></li><li class="page_item page-item-1481"><a href="https://dhs.stanford.edu/gephi-workshop/" title="Gephi Workshop">Gephi Workshop</a><ul class='children'><li class="page_item page-item-1575"><a href="https://dhs.stanford.edu/gephi-workshop/sample-graph-data/" title="Sample Graph Data">Sample Graph Data</a></li><li class="page_item page-item-2433"><a href="https://dhs.stanford.edu/gephi-workshop/twitter-network-gallery/" title="Twitter Network Gallery">Twitter Network Gallery</a></li></ul></li></ul></div>
+			</div><!-- #access -->
+		</div><!-- #masthead -->
+	</div><!-- #header -->
+
+	<div id="main">
+
+		<div id="container">
+			<div id="content" role="main">
+
+			
+
+				<div id="nav-above" class="navigation">
+					<div class="nav-previous"><a href="https://dhs.stanford.edu/algorithmic-literacy/why-i-stopped-coding-in-flash/" rel="prev"><span class="meta-nav">&larr;</span> Why I Stopped Coding in Flash and Learned to Love the Bomb</a></div>
+					<div class="nav-next"><a href="https://dhs.stanford.edu/hgis/georectification-mobile-edition/" rel="next">Adventures in Georectification &#8211; Mobile Edition <span class="meta-nav">&rarr;</span></a></div>
+				</div><!-- #nav-above -->
+
+				<div id="post-3769" class="post-3769 post type-post status-publish format-standard hentry category-algorithmic-literacy category-visualization">
+					<h1 class="entry-title">Infoviz and New Literacies</h1>
+
+					<div class="entry-meta">
+						<span class="meta-prep meta-prep-author">Posted on</span> <a href="https://dhs.stanford.edu/algorithmic-literacy/infoviz-and-new-literacies/" title="9:30 pm" rel="bookmark"><span class="entry-date">February 6, 2012</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="https://dhs.stanford.edu/author/emeeks/" title="View all posts by Elijah Meeks">Elijah Meeks</a></span>					</div><!-- .entry-meta -->
+
+					<div class="entry-content">
+									
+			<p><img class="aligncenter size-full wp-image-3781" title="Topic Shattering " src="https://dhs.stanford.edu/wp-content/uploads/2012/02/topic_deformation1.png" alt="Topic Shattering " width="1186" height="999" /></p>
+<p>Melissa Terras&#8217; recent <a href="https://dhs.stanford.edu/the-digital-humanities-as/the-digital-humanities-as-infographic/" >visual summary of the Digital Humanities</a> has brought attention to the growing vibrancy (and budgets) of the DH community.  It also feeds the cycle of debate about the efficacy, role and usefulness of visual display of information, especially the aesthetically pleasing kind.  Some scholars have responded with a criticism of the infographic as being misapplied or little more than a sales pitch.  While popular conception of digital humanities work has data visualization featured prominently, within and outside the community the value of that work is widely debated.</p>
+<p>Not so long ago, information visualization in the digital humanities rested firmly on the general principles of clarity and brevity typified by Edward Tufte and utilized not only in generic data visualization but also <a href="http://makingmaps.net/2007/08/16/how-useful-is-tufte-for-making-maps/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','makingmaps.net']);">spatial data visualization</a>.<sup>1 </sup>The problem with this conceptualization of information visualization is that works like Tufte&#8217;s are dominated by the expectation that such objects be immediately comprehensible to a lay audience.  These are the infographics of such growing popularity and are meant for busy media consumers and executive summaries.  Charlie Park, <a href="http://charliepark.org/slopegraphs/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','charliepark.org']);">in an exploration of when to use a particular visual method known as a slopegraph</a>, highlighted this issue in relation to <a href="http://blogs.ngm.com/blog_central/2010/01/the-other-health-care-debate-lines-vs-scatterplot.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','blogs.ngm.com']);">Oliver Uberti&#8217;s use of a slopegraph to represent health care spending efficacy</a>:</p>
+<blockquote><p>Uberti also gave some good reasons for drawing the graph the way he  did originally, with his first point being that “many people have  difficulty reading scatter plots. When we produce graphics for our  magazine, we consider a wide audience, many of whose members are not  versed in visualization techniques. For most people, it’s considerably  easier to understand an upward or downward line than relative spatial  positioning.”</p>
+<p>I agree with him on that. Scatterplots reveal more data, and they  reveal the relationships better (and Uberti’s scatterplot is really  good, apart from a few quibbles I have about his legend placement). But <strong>scatterplots can be tricky to parse</strong>, especially for laymen.</p></blockquote>
+<p>It&#8217;s just this kind of assumption in visual representation of data that causes humanities scholars to critique digital humanities work and also prompts digital humanities scholars to defend themselves by excoriating the visual representation of knowledge.  Michael Whitmore, in response to <a href="http://lmgtfy.com/?q=stanley+fish+doesn%27t+really+understand+digital+tools%2C+objects+or+methods" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','lmgtfy.com']);">Stanley Fish&#8217;s recent bloviating</a>, has echoed <a href="http://winedarksea.org/?p=1433" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','winedarksea.org']);">a common refrain</a> against using information visualization as anything more than a helpful illustration or exploratory tool but ultimately separate and less valuable than the linear narrative explanation of the same phenomenon:</p>
+<blockquote><p>As traditionally trained humanities scholars who use computers to study  Shakespeare’s genres, we have pointed out repeatedly that nothing in  literary studies will be settled by an algorithm or visualization,  however seductively colorful.</p></blockquote>
+<p>There&#8217;s a very real subset of digital humanities scholars who feel it necessary to maintain their bona fides with traditional scholars through the criticism of analytical and visual methods that they themselves use via language adopted from critics of the digital humanities as a whole.  It&#8217;s a way to disarm a predictable critique brought on by the aesthetic appeal of data visualization and it&#8217;s rooted in a desire to have digital humanities scholarship treated as equal to traditional scholarship.  I&#8217;ve often used the term &#8220;seductive&#8221; in my description of the various tools for analyzing and representing data and I&#8217;m also aware of the very many <a href="http://www.visualcomplexity.com/vc/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','www.visualcomplexity.com']);">opaque or chaotic but impressive-looking representations</a> of <a href="http://visual.ly/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','visual.ly']);">complex phenomena</a> that are <a href="http://www.visualisingdata.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','www.visualisingdata.com']);">growing so popular</a> today.</p>
+<p><img class="aligncenter size-full wp-image-3771" title="Amount of writing about species by class in the IUCN Red List Database" src="https://dhs.stanford.edu/wp-content/uploads/2012/02/by_species_annotated.png" alt="Amount of writing about species by class in the IUCN Red List Database" width="1041" height="1100" />It may be that nothing in literary studies will be settled by an algorithm or visualization, but if so that may be a problem for us to solve rather than an inescapable truth of existence.  Stepping away from algorithms and focusing on visual display of data reminds us that the lack of visual literacy necessitates that visual arguments cannot be sophisticated.  Just like representations in National Geographic, data visualization in the digital humanities is heavily influenced by a bottom line focused on accessibility to a lay public and assumed unsophisticated audience with little time to examine the visual argument and less education in how to examine it.  If we had same bottom line for linear narrative arguments, then it would be equally impossible for a journal article or monograph to &#8220;settle&#8221; anything in any field.</p>
+<p>To that end, I hope that the digital humanities can act as an impetus to demand better and more varied forms of literacy from our general academic (and by extension, public) audiences.  The communication of information should not start by assuming poor visual literacy, network literacy and spatial literacy but rather should foster and demand increased levels of each.  Along with turning the tables on the reader and placing an equal demand that they expend more effort to understand a non-narrative argument, we need to formalize principles of visual representation of knowledge through the development of serious standards for topics like network cartography and general visual literacy.</p>
+<p>As it stands, a &#8220;good&#8221; visualization is one that is seductive, immediately comprehensible to a wide audience, requires little explanation and takes barely any time to absorb.  These are, not coincidentally, the same standards one has for a good newspaper article.  Another definition of good needs to be developed for sophisticated visual communication that gains its inspiration not from newspaper articles but from monographs and journal articles.  This already exists for certain formalized visual expressions in particular domains, but the growing use of these methods for communicating knowledge among a larger scholarly and public community demands that we not create a few new jargons for a few new fields but forge a general literacy in the creation and appreciation of such communication.</p>
+<p><img class="aligncenter size-full wp-image-3783" title="A Socio-Environmental Model" src="https://dhs.stanford.edu/wp-content/uploads/2012/02/post-hco-flowchart-2.png" alt="A Socio-Environmental Model" width="497" height="456" /></p>
+<p>I don&#8217;t want to lose track of another piece to this puzzle.  It is particularly interesting that Whitmore includes the algorithm with  the visualization, because algorithmic visualization using model  builders is an allied subject matter.  Algorithmic literacy is not a demand that everyone learn how to program, but another step in the development of higher standards for complex, modern communication.</p>
+<p>The first step, I think, is to acknowledge a distinct category of data visualization for the sophisticated expression of complex phenomena that does not resemble the executive summaries and journalistic infographics commonly associated with data visualization.  A simple Google Image Search of &#8220;mathematica&#8221; should give enough examples of just how complex visualizations can be.  After that, it&#8217;s a matter of developing and formalizing standards for common visualization techniques by practitioners.  My current work is with spatial data, which has a long tradition of developing just such standards, though representation of dynamic and interactive elements in spatial data, along with more complex spatial phenomena, still need effort.  As a result, maps can be much more complex and sophisticated than network visualizations and general data visualizations, without much complaint about their communicative power.  As network analysis and representation becomes more common (especially among humanists, who know that aesthetics and rhetoric are not actually bad words) we should strive to develop similar standards and expectations of literacy in relation to that and other forms of data visualization.</p>
+<p><sup>1</sup> <small>I suppose some people still call this cartography, but I think of cartographers to be somewhere with philologists and alchemists in the dustbin of historical professions.  I kid, but for some reason the word feels so archaic, unless it&#8217;s used in conjunction with some unexpected modifier, like &#8220;network cartography&#8221; or &#8220;ludic cartography&#8221;, in which case it&#8217;s the archaism of cartography that draws light to the need to enjoin cartographic principles into the representation or analysis of spatial data in networks or games.</small></p>
+											</div><!-- .entry-content -->
+
+
+					<div class="entry-utility">
+						This entry was posted in <a href="https://dhs.stanford.edu/category/algorithmic-literacy/" title="View all posts in Algorithmic Literacy" rel="category tag">Algorithmic Literacy</a>, <a href="https://dhs.stanford.edu/category/visualization/" title="View all posts in Visualization" rel="category tag">Visualization</a>. Bookmark the <a href="https://dhs.stanford.edu/algorithmic-literacy/infoviz-and-new-literacies/" title="Permalink to Infoviz and New Literacies" rel="bookmark">permalink</a>.											</div><!-- .entry-utility -->
+				</div><!-- #post-## -->
+
+				<div id="nav-below" class="navigation">
+					<div class="nav-previous"><a href="https://dhs.stanford.edu/algorithmic-literacy/why-i-stopped-coding-in-flash/" rel="prev"><span class="meta-nav">&larr;</span> Why I Stopped Coding in Flash and Learned to Love the Bomb</a></div>
+					<div class="nav-next"><a href="https://dhs.stanford.edu/hgis/georectification-mobile-edition/" rel="next">Adventures in Georectification &#8211; Mobile Edition <span class="meta-nav">&rarr;</span></a></div>
+				</div><!-- #nav-below -->
+
+				
+			<div id="comments">
+
+
+			<h3 id="comments-title">2 Responses to <em>Infoviz and New Literacies</em></h3>
+
+
+			<ol class="commentlist">
+					<li class="comment even thread-even depth-1" id="li-comment-2641">
+		<div id="comment-2641">
+		<div class="comment-author vcard">
+			<img alt='' src='https://secure.gravatar.com/avatar/17c1271b4f650c8cbe4f81d75a729cd7?s=40&amp;d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' />			<cite class="fn"><a href="http://scottbot.net" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','scottbot.net']);"  rel='external nofollow' class='url'>Scott Weingart</a></cite> <span class="says">says:</span>		</div><!-- .comment-author .vcard -->
+		
+		<div class="comment-meta commentmetadata"><a href="https://dhs.stanford.edu/algorithmic-literacy/infoviz-and-new-literacies/#comment-2641">
+			February 6, 2012 at 10:43 pm</a>		</div><!-- .comment-meta .commentmetadata -->
+
+		<div class="comment-body"><p>If memory serves, there&#8217;s a great example of just this sort of pushback when geologists first started using stratification visualizations. I&#8217;ll see if I can track down some good references&#8230;</p>
+</div>
+
+		<div class="reply">
+					</div><!-- .reply -->
+	</div><!-- #comment-##  -->
+
+	</li>
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-2659">
+		<div id="comment-2659">
+		<div class="comment-author vcard">
+			<img alt='' src='https://secure.gravatar.com/avatar/8c084f81d5d1868f7c466ca9152c1c14?s=40&amp;d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' />			<cite class="fn">Gideon Burton</cite> <span class="says">says:</span>		</div><!-- .comment-author .vcard -->
+		
+		<div class="comment-meta commentmetadata"><a href="https://dhs.stanford.edu/algorithmic-literacy/infoviz-and-new-literacies/#comment-2659">
+			February 10, 2012 at 3:53 am</a>		</div><!-- .comment-meta .commentmetadata -->
+
+		<div class="comment-body"><p>Well said. I think you&#8217;ve gotten to core issues here and past the facile pushback arguments. Let&#8217;s hope those in the humanities don&#8217;t ignore the great opportunity here for deepening critical engagement and aesthetics through visualization and additional layers of literacy as you&#8217;ve laid them out.</p>
+</div>
+
+		<div class="reply">
+					</div><!-- .reply -->
+	</div><!-- #comment-##  -->
+
+	</li>
+			</ol>
+
+
+
+								
+</div><!-- #comments -->
+
+
+			</div><!-- #content -->
+		</div><!-- #container -->
+
+
+		<div id="primary" class="widget-area" role="complementary">
+			<ul class="xoxo">
+
+<li id="text-3" class="widget-container widget_text">			<div class="textwidget"><form style="border:1px solid #ccc;padding:3px;text-align:center;" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=DigitalHumanitiesSpecialist', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p>Enter your email address:</p><p><input type="text" style="width:140px" name="email"/></p><input type="hidden" value="DigitalHumanitiesSpecialist" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Subscribe" /><p>Delivered by <a href="http://feedburner.google.com" onclick="javascript:_gaq.push(['_trackEvent','outbound-widget','feedburner.google.com']);" target="_blank">FeedBurner</a></p></form></div>
+		</li><li id="categories-3" class="widget-container widget_categories"><h3 class="widget-title">Categories</h3>		<ul>
+	<li class="cat-item cat-item-11"><a href="https://dhs.stanford.edu/category/algorithmic-literacy/" title="View all posts filed under Algorithmic Literacy">Algorithmic Literacy</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="https://dhs.stanford.edu/category/amusing-historical-map-features/" title="View all posts filed under Amusing Historical Map Features">Amusing Historical Map Features</a>
+</li>
+	<li class="cat-item cat-item-59"><a href="https://dhs.stanford.edu/category/big-data/" title="View all posts filed under Big Data">Big Data</a>
+</li>
+	<li class="cat-item cat-item-71"><a href="https://dhs.stanford.edu/category/d3/" title="View all posts filed under D3">D3</a>
+</li>
+	<li class="cat-item cat-item-47"><a href="https://dhs.stanford.edu/category/dh2011/" title="View all posts filed under DH2011">DH2011</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="https://dhs.stanford.edu/category/digital-humanities-at-stanford/" title="View all posts filed under Digital Humanities at Stanford">Digital Humanities at Stanford</a>
+</li>
+	<li class="cat-item cat-item-65"><a href="https://dhs.stanford.edu/category/digital-scholarly-work/" title="View all posts filed under Digital Scholarly Work">Digital Scholarly Work</a>
+</li>
+	<li class="cat-item cat-item-61"><a href="https://dhs.stanford.edu/category/drupal/" title="View all posts filed under Drupal">Drupal</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="https://dhs.stanford.edu/category/gaming/" title="View all posts filed under Gaming">Gaming</a>
+</li>
+	<li class="cat-item cat-item-27"><a href="https://dhs.stanford.edu/category/graph-data-model/" title="View all posts filed under Graph Data Model">Graph Data Model</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="https://dhs.stanford.edu/category/hgis/" title="View all posts filed under HGIS">HGIS</a>
+</li>
+	<li class="cat-item cat-item-39"><a href="https://dhs.stanford.edu/category/interview/" title="View all posts filed under Interview">Interview</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="https://dhs.stanford.edu/category/multiscale-applications/" title="View all posts filed under Multiscale Applications">Multiscale Applications</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="https://dhs.stanford.edu/category/natural-law/" title="View all posts filed under Natural Law">Natural Law</a>
+</li>
+	<li class="cat-item cat-item-67"><a href="https://dhs.stanford.edu/category/new-aesthetic/" title="View all posts filed under New Aesthetic">New Aesthetic</a>
+</li>
+	<li class="cat-item cat-item-53"><a href="https://dhs.stanford.edu/category/new-literature/" title="View all posts filed under New Literature">New Literature</a>
+</li>
+	<li class="cat-item cat-item-69"><a href="https://dhs.stanford.edu/category/orbis/" title="View all posts filed under ORBIS">ORBIS</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="https://dhs.stanford.edu/category/pedagogy/" title="View all posts filed under Pedagogy">Pedagogy</a>
+</li>
+	<li class="cat-item cat-item-15"><a href="https://dhs.stanford.edu/category/peer-review/" title="View all posts filed under Peer Review">Peer Review</a>
+</li>
+	<li class="cat-item cat-item-55"><a href="https://dhs.stanford.edu/category/reviews/" title="View all posts filed under Reviews">Reviews</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="https://dhs.stanford.edu/category/social-media-literacy/" title="View all posts filed under Social Media Literacy">Social Media Literacy</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="https://dhs.stanford.edu/category/spatial-humanities/" title="View all posts filed under Spatial Humanities">Spatial Humanities</a>
+</li>
+	<li class="cat-item cat-item-51"><a href="https://dhs.stanford.edu/category/text-analysis/" title="View all posts filed under Text Analysis">Text Analysis</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="https://dhs.stanford.edu/category/the-digital-humanities-as/" title="View all posts filed under The Digital Humanities as&#8230;">The Digital Humanities as&#8230;</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="https://dhs.stanford.edu/category/tools/" title="View all posts filed under Tools">Tools</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://dhs.stanford.edu/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="https://dhs.stanford.edu/category/visualization/" title="View all posts filed under Visualization">Visualization</a>
+</li>
+		</ul>
+</li><li id="meta-3" class="widget-container widget_meta"><h3 class="widget-title">Meta</h3>			<ul>
+						<li><a href="https://dhs.stanford.edu/wp-login.php">Log in</a></li>
+			<li><a href="https://dhs.stanford.edu/feed/" title="Syndicate this site using RSS 2.0">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://dhs.stanford.edu/comments/feed/" title="The latest comments to all posts in RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>
+						</ul>
+</li>			</ul>
+		</div><!-- #primary .widget-area -->
+
+	</div><!-- #main -->
+
+	<div id="footer" role="contentinfo">
+		<div id="colophon">
+
+
+
+			<div id="site-info">
+				<a href="https://dhs.stanford.edu/" title="Digital Humanities Specialist" rel="home">
+					Digital Humanities Specialist				</a>
+			</div><!-- #site-info -->
+
+			<div id="site-generator">
+								<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress.</a>
+			</div><!-- #site-generator -->
+
+		</div><!-- #colophon -->
+	</div><!-- #footer -->
+
+</div><!-- #wrapper -->
+
+</body>
+</html>

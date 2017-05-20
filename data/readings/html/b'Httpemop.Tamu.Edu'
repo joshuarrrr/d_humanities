@@ -1,0 +1,458 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://emop.tamu.edu/sites/default/files/EMOPlogo%28withBackground%29_0_0.png" type="image/png" />
+  <title>eMOP | eMOP</title>
+  <style type="text/css" media="all">
+@import url("http://emop.tamu.edu/modules/system/system.base.css?oj80t6");
+@import url("http://emop.tamu.edu/modules/system/system.menus.css?oj80t6");
+@import url("http://emop.tamu.edu/modules/system/system.messages.css?oj80t6");
+@import url("http://emop.tamu.edu/modules/system/system.theme.css?oj80t6");
+</style>
+<style type="text/css" media="all">
+@import url("http://emop.tamu.edu/modules/aggregator/aggregator.css?oj80t6");
+@import url("http://emop.tamu.edu/modules/comment/comment.css?oj80t6");
+@import url("http://emop.tamu.edu/modules/field/theme/field.css?oj80t6");
+@import url("http://emop.tamu.edu/modules/node/node.css?oj80t6");
+@import url("http://emop.tamu.edu/modules/search/search.css?oj80t6");
+@import url("http://emop.tamu.edu/modules/user/user.css?oj80t6");
+@import url("http://emop.tamu.edu/modules/forum/forum.css?oj80t6");
+@import url("http://emop.tamu.edu/sites/all/modules/views/css/views.css?oj80t6");
+</style>
+<style type="text/css" media="all">
+@import url("http://emop.tamu.edu/sites/all/modules/ctools/css/ctools.css?oj80t6");
+@import url("http://emop.tamu.edu/sites/all/modules/lightbox2/css/lightbox.css?oj80t6");
+@import url("http://emop.tamu.edu/sites/all/modules/biblio/biblio.css?oj80t6");
+</style>
+<style type="text/css" media="all">
+@import url("http://emop.tamu.edu/sites/all/themes/bluemasters/style.css?oj80t6");
+</style>
+  <script type="text/javascript" src="http://emop.tamu.edu/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://emop.tamu.edu/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://emop.tamu.edu/misc/drupal.js?oj80t6"></script>
+<script type="text/javascript" src="http://emop.tamu.edu/sites/all/themes/bluemasters/js/bluemasters.js?oj80t6"></script>
+<script type="text/javascript" src="http://emop.tamu.edu/sites/all/modules/floating_block/floating_block.js?oj80t6"></script>
+<script type="text/javascript" src="http://emop.tamu.edu/sites/all/modules/lightbox2/js/lightbox.js?1495303991"></script>
+<script type="text/javascript" src="http://emop.tamu.edu/sites/all/modules/google_analytics/googleanalytics.js?oj80t6"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-44925295-3", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bluemasters","theme_token":"y22VFRYmeuVaAyKhrA2z437rAelUntRQ5CDl6dkAAnA","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/themes\/bluemasters\/js\/bluemasters.js":1,"sites\/all\/modules\/floating_block\/floating_block.js":1,"sites\/all\/modules\/lightbox2\/js\/lightbox.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/lightbox2\/css\/lightbox.css":1,"sites\/all\/modules\/biblio\/biblio.css":1,"sites\/all\/themes\/bluemasters\/style.css":1}},"floating_block":{"settings":{"#right_sidebar":[]},"minWidth":"0"},"lightbox2":{"rtl":0,"file_path":"\/(\\w\\w\/)public:\/","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":true,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":false,"disable_resize":false,"disable_zoom":false,"force_show_nav":false,"show_caption":true,"loop_items":false,"node_link_text":"View Image Details","node_link_target":false,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":false},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html front not-logged-in no-sidebars page-node page-node- page-node-5 node-type-page" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page" onload="" onscroll='document.getElementById("scroll-msg").style.visibility="hidden"'>
+
+<script>
+    window.onscroll = function() {document.getElementById("scroll-msg").style.visibility = "hidden"};
+</script>
+
+<!--header-top-->
+<div id="header-top">
+    <div id="header-top-inside" class="clearfix">
+    	
+        <!--header-top-inside-left-->
+        <div id="header-top-inside-left">  <div class="region region-header">
+    <div id="block-block-9" class="block block-block">
+
+
+<div class="content">
+<div class="tamu-logo">
+   <img src="/sites/all/themes/bluemasters/images/TAM-PrimaryMarkB-white.png" width="120px">
+</div>
+</div>
+</div>  </div>
+</div>
+        <!--EOF:header-top-inside-left-->
+        
+        <!--header-top-inside-left-feed-->
+        <div id="header-top-inside-left-feed">
+            <div id="topSocial">
+            <ul>									
+                <li><a class="twitter" href="http://twitter.com/IDHMC_Nexus" title="Follow the IDHMC on Twitter!"></a></li>
+                <li><a class="facebook" href="https://www.facebook.com/The-Early-Modern-OCR-Project-720643904637085/" title="Like the IDHMC on Facebook!"></a></li>
+                <li><a class="rss" title="RSS" href="/rss.xml" title="Subcribe to Our RSS Feed"></a></li>
+            </ul>
+            </div>
+        </div>
+        <!--EOF:header-top-inside-left-feed-->
+        
+        <!--header-top-inside-left-right-->
+        <div id="header-top-inside-right">  <div class="region region-contact-us">
+    <div id="block-menu-menu-contact" class="block block-menu">
+
+
+<div class="content">
+<ul class="menu"><li class="first last leaf"><a href="/contact">Contact Us</a></li>
+</ul></div>
+</div>  </div>
+                </div> 
+        <!--EOF:header-top-inside-left-right-->
+         
+    </div>
+</div>
+<!--EOF:header-top-->
+
+<div id="scroll-msg" class="scroll">
+    <div><img src="/sites/all/themes/bluemasters/images/scroll-msg.png"></div>
+</div>
+    
+<div id="wrapper">
+	
+    <!--header-->
+    <div id="header" class="clearfix front">
+    	
+        <!--logo-floater
+        <div id="logo-floater"> 
+			            <a href="/" title="Home">
+            <img src="http://emop.tamu.edu/sites/default/files/cropped360EMOPlogo%28withBackground%29_0.png" alt="Home" />
+            </a>
+                        
+                    </div> EOF:logo-floater-->
+        
+        <!--navigation-->
+        <div id="navigation" class="front">
+			<ul class="menu"><li class="first leaf"><a href="/" class="active">Home</a></li>
+<li class="expanded"><a href="http://emop.tamu.edu/about">About</a><ul class="menu"><li class="first leaf"><a href="/about">eMOP</a></li>
+<li class="leaf"><a href="/about/team_members" title="Brief bios of the local eMOP Team">The eMOP Team</a></li>
+<li class="leaf"><a href="/about/participating-institutions">Participating Institutions</a></li>
+<li class="last leaf"><a href="http://emop.tamu.edu/about/#more">More</a></li>
+</ul></li>
+<li class="leaf"><a href="/news">News</a></li>
+<li class="leaf"><a href="/software">OCR Instruction</a></li>
+<li class="expanded"><a href="http://emop.tamu.edu/#outcomes">Outcomes</a><ul class="menu"><li class="first leaf"><a href="/outcomes/cobre">Cobre</a></li>
+<li class="leaf"><a href="/outcomes/typewright">TypeWright</a></li>
+<li class="leaf"><a href="/outcomes/Franken-Plus">Franken+</a></li>
+<li class="last leaf"><a href="/outcomes/github">Github Repo</a></li>
+</ul></li>
+<li class="expanded"><a href="/workflows/flowcharts">Workflows</a><ul class="menu"><li class="first leaf"><a href="/workflows/flowcharts" title="">Flowcharts</a></li>
+<li class="last leaf"><a href="/workflows/eMOP-DD">Design Description</a></li>
+</ul></li>
+<li class="leaf"><a href="/presentations">Presentations</a></li>
+<li class="last leaf"><a href="/publications" title="eMOP and related publications">Publications</a></li>
+</ul>        </div><!--EOF:navigation-->
+       
+    </div><!--EOF:header-->
+
+    <div id="banner">
+        
+        <div class="main_view">
+            <img src="/sites/all/themes/bluemasters/images/eMOP_logo-big.png" class="emop-logo"/>
+        </div>
+        <div class="search">
+              <div class="region region-search-area">
+    <div id="block-search-form" class="block block-search">
+
+
+<div class="content">
+<form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-Ok7Q5APAA3wFtXb-AGErQ7rNGv2bOXt_PbqCUf3UOdU" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form></div>
+</div>  </div>
+        </div>
+<!--            <div class="window">
+                <div class="image_reel">
+                    <a href="/about">					<img src="/sites/all/themes/bluemasters/images/workflow_resized.png"></a>
+                    <a href="/news">							<img src="/sites/all/themes/bluemasters/images/Blog_F1.png"></a>
+                    <a href="/participating-institutions">	<img src="/sites/all/themes/bluemasters/images/participating.png"></a>
+                    <a href="/software">							<img src="/sites/all/themes/bluemasters/images/software-emop-logo.jpg"></a>
+                </div>
+                <div class="descriptions">
+                    <div class="desc" style="display: none;">About eMOP</div>
+                    <div class="desc" style="display: none;">eMOP News</div>
+                    <div class="desc" style="display: none;">Participating Institutions</div>
+                    <div class="desc" style="display: none;">Instruction</div>
+                </div>
+            </div>
+        
+            <div class="paging">
+                <a rel="1" href="#">1</a>
+                <a rel="2" href="#">2</a>
+                <a rel="3" href="#">3</a>
+                <a rel="4" href="#">4</a>
+            </div>
+-->
+        </div>
+    </div><!--EOF:banner-->
+    
+
+</div><!--EOF:wrapper-->
+
+<div id="home-blocks-area" class="clearfix">
+    <div class="home-block-intro">
+        <div class="intro-area">
+              <div class="region region-home-intro">
+    <div id="block-block-2" class="block block-block">
+
+
+<div class="content">
+<p>The <b>Early Modern OCR Project</b> (Lead PI, <b>Dr. Laura Mandell</b>) is an effort, on the one hand, to make access to texts more transparent and, on the other, to preserve a literary cultural heritage. The printing process in the hand-press period  (roughly 1475-1800), while systematized to a certain extent, nonetheless produced texts with fluctuating baselines, mixed fonts, and varied concentrations of ink (among many other variables). Combining these factors with the poor quality of the images in which many of these books have been preserved (in <a href="http://eebo.chadwyck.com/home" target="_blank" title="Early English Books Online. You may hit a pay wall, depending upon your institution's (or server's) relationship with this entity.">EEBO</a> and, to a lesser extent, <a href="http://gdc.gale.com/products/eighteenth-century-collections-online/" target="_blank" title="Eighteenth Century Collections Online">ECCO</a>), creates a problem for Optical Character Recognition (OCR) software that is trying to translate the images of these pages into archiveable, mineable texts. By using innovative applications of OCR technology and crowd-sourced corrections, eMOP will solve this OCR problem.</p>
+</div>
+</div>  </div>
+        </div>
+        
+        <div class="intro-foot">
+              <div class="region region-intro-foot">
+    <div id="block-block-10" class="block block-block">
+
+
+<div class="content">
+<p>Meet our <a href="about/team_members">Team</a> and <a href="about/participating-institutions">Collaborators</a></p>
+</div>
+</div>  </div>
+        </div>
+    </div>
+    
+    <a name="outcomes"></a>
+    <div class="home-block-outcomes">
+        <div class="outcome-center-block">
+            <div class="outcome-title">
+                <h2><span>eMOP Outcomes</span></h2>
+            </div>
+            
+            <div class="outcome-block-area left">
+                <div class="hidden">left</div>
+                <a href="http://emop.tamu.edu/outcomes/typewright">
+                    <div class="outcome-box">
+                          <div class="region region-outcomes-left">
+    <div id="block-block-11" class="block block-block">
+
+
+<div class="content">
+<div id="outc-title">EEBO in TypeWright</div>
+<div class="hover-text">EEBO documents editable in TypeWright at 18thConnect.com</div>
+</div>
+</div>  </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="outcome-block-area middle">
+                <div class="hidden">middle</div>
+                <a href="http://emop.tamu.edu/outcomes/cobre">
+                    <div class="outcome-box">
+                          <div class="region region-outcomes-middle">
+    <div id="block-block-12" class="block block-block">
+
+
+<div class="content">
+<div id="outc-title">Cobre</div>
+<div class="hover-text">A page image comparison and metadata editing tool.</div>
+</div>
+</div>  </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="outcome-block-area right">
+                <div class="hidden">right</div>
+                <a href="http://emop.tamu.edu/outcomes/franken-plus">
+                    <div class="outcome-box">
+                          <div class="region region-outcomes-right">
+    <div id="block-block-13" class="block block-block">
+
+
+<div class="content">
+<div id="outc-title">Franken+</div>
+<div class="hover-text">An eMOP-created tool for training Tesseract and for typeface analysis.</div>
+</div>
+</div>  </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="outcome-foot">
+                  <div class="region region-outcomes-foot">
+    <div id="block-block-14" class="block block-block">
+
+
+<div class="content">
+<p>Find all the eMOP tools, code and data in our Early-Modern-OCR <a href="http://emop.tamu.edu/outcomes/github">repo on Github</a></p>
+<p>See our <a href="http://emop.tamu.edu/software">OCR Instruction</a> pages, and the <a href="http://emop.tamu.edu/workflows/flowcharts">eMOP Workflows</a>.</p>
+</div>
+</div>  </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="home-block-center">
+		        
+        <div class="home-center-left grad-l">
+            <div class="home-block-area first">
+                  <div class="region region-home-area-2">
+    <div id="block-views-content-roll-block" class="block block-views">
+
+<h2>Recent Posts</h2>
+
+<div class="content">
+<div class="view view-content-roll view-id-content_roll view-display-id-block view-dom-id-f86efbfe3828230bc9dde53ab3022768">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/node/145">EEBO now in TypeWright</a></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/final-report">eMOP Mellon Final Report</a></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tess-training-demo-vids">Aletheia and Franken+ Demonstration Videos</a></span>  </div></li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/software-pre-processing">Pre-processing Page Images for OCR&#039;ing</a></span>  </div></li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/TesseractTraining">eMOP Releases its Full Set of Early Modern Typeface Training for Tesseract </a></span>  </div></li>
+          <li class="views-row views-row-6 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/early-modern-word-lists">More Early Modern Word Lists Released by eMOP on Github</a></span>  </div></li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/SAA-Workshop-Slides">SAA 2014 Pre-Conference Workshop - OCRing with Open-Source Tools</a></span>  </div></li>
+          <li class="views-row views-row-8 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/Installing-JuxtaCL">Juxta-CL Text Comparison Tool is Available</a></span>  </div></li>
+          <li class="views-row views-row-9 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/Aletheia-Franken%2B-QuickStart">eMOP Quick Start Guide for Aletheia and Franken+</a></span>  </div></li>
+          <li class="views-row views-row-10 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/Installing-Tesseract-Windows8">Installing/Building Tesseract for Windows 8</a></span>  </div></li>
+          <li class="views-row views-row-11 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/Installing-FrankenPlus">Installing Franken+ on Windows 8</a></span>  </div></li>
+          <li class="views-row views-row-12 views-row-even">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/Early-Modern-Word-List">Early Modern Word List with Variant Spellings</a></span>  </div></li>
+          <li class="views-row views-row-13 views-row-odd">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/cobre-tool">eMOP @ DH2014-Lausanne: eMOP and the Cobre Tool</a></span>  </div></li>
+          <li class="views-row views-row-14 views-row-even views-row-last">  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/large-project-mangement">eMOP @ DH2014-Lausanne: Navigating the Storm: eMOP, Big DH Projects, and Agile Steering Standards</a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+</div>  </div>
+ 	
+            </div>
+        </div>
+
+        <div class="home-center-right grad-r">
+            <div class="home-block-area last">
+                  <div class="region region-home-area-3">
+    <div id="block-block-7" class="block block-block">
+
+<h2>@IDHMC_Nexus</h2>
+
+<div class="content">
+<p><a class="twitter-timeline" height="360" width="300" data-theme="dark" data-chrome="noheader nofooter noborders transparent" href="https://twitter.com/IDHMC_Nexus" data-widget-id="331490643924885504" target="_blank">Tweets by @IDHMC_Nexus</a></p>
+<script>
+<!--//--><![CDATA[// ><!--
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+//--><!]]>
+</script></div>
+</div>  </div>
+ 
+                 
+            </div>
+        </div>
+    </div>
+</div>
+    
+<!--footer-->
+<div id="footer">
+    <div id="footer-inside" class="clearfix">
+    
+    	<div id="footer-left">
+    		<div id="footer-left-1">
+    			  <div class="region region-footer-left-1">
+    <div id="block-block-3" class="block block-block">
+
+<h2>About eMOP</h2>
+
+<div class="content">
+<p><a href="http://idhmc.tamu.edu/blog/2012/09/28/emop-project-to-be-funded-by-andrew-w-mellon-foundation/" target="_blank">Press Release</a><br /><a href="http://emop.tamu.edu/about#cyberinfrastructure">Cyber Infrastructure</a><br /><a href="http://emop.tamu.edu/about/participating-institutions">Participating Institutions</a><br /><a href="http://emop.tamu.edu/about/team_members">Team Members</a><br /><a href="http://emop.tamu.edu/about#grant">Mellon Grant Info</a><br /><a href="http://emop.tamu.edu/forum">eMOP Conversations</a></p>
+</div>
+</div>  </div>
+    		</div>
+    		<div id="footer-left-2">
+    			    		</div>
+        </div>
+        
+        <div id="footer-center">
+        	  <div class="region region-footer-center">
+    <div id="block-block-1" class="block block-block">
+
+
+<div class="content">
+<p>
+<img src="/sites/all/themes/bluemasters/images/TAM-PrimaryMarkB-white.png" border="0" align="center" style="max-width: 65%" /></p>
+</div>
+</div>  </div>
+        </div>
+        
+        <div id="footer-right">
+        	  <div class="region region-footer-right">
+    <div id="block-block-5" class="block block-block">
+
+<h2>LOGIN | Create an Account </h2>
+
+<div class="content">
+<p align="right" font="" color="#76b9d2">If you would like to create an account or to log in, <a href="http://emop.tamu.edu/user/login">PLEASE FOLLOW THIS LINK</a> and follow the appropriate instructions.</p>
+<p align="right">Please contact <a href="mailto:emop.tamu@tamu.edu">emop.tamu@tamu.edu</a> with any questions or concerns.</p>
+</div>
+</div>  </div>
+        </div>
+        
+    </div>
+</div>
+<!--EOF:footer-->
+
+<!--footer-bottom-->
+<div id="footer-bottom">
+    <div id="footer-bottom-inside" class="clearfix">
+    	<div id="footer-bottom-inside-left">
+    		  <div class="region region-footer">
+    <div id="block-system-powered-by" class="block block-system">
+
+
+<div class="content">
+<span>Powered by <a href="https://www.drupal.org">Drupal</a></span></div>
+</div>  </div>
+    	</div>
+    	<div id="footer-bottom-inside-right">
+		
+    	</div>
+    	<div class="credits-container" style="clear:both; padding-top:12px;">Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com">More than Themes</a></div>     
+    </div>
+    <div class="credits-container clearfix">
+        <a title="Brought To You By: www.SmashingMagazine.com" class="smashing" href="http://www.smashingmagazine.com" target="_blank">Brought to you By: www.SmashingMagazine.com</a>
+        <a title="Drupalizing" class="drupalizing" href="http://www.drupalizing.com" target="_blank">Drupalizing</a> 
+    </div>  
+</div>
+<!--EOF:footer-bottom-->
+
+</div><!--EOF:page-->
+  </body>
+</html>

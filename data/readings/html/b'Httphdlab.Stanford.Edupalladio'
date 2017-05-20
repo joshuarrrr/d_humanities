@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <!-- Canonical link to help search engines -->
+  <link rel="canonical" href="/palladio/"/>
+
+  <!-- Basic meta elements -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"/>
+
+  <!--   Dublin Core metadata for Zotero -->  
+  <meta name="DC.title" content="Home" />
+  <meta name="DC.creator" content="" />
+  <meta name="DC.contributor" content="" />
+  <meta name="DC.date" content="" />
+  <meta name="DC.rights" content="" />
+  <meta name="DC.source" content="Palladio" />
+  
+  <!-- Open Graph metadata -->
+  <meta property="og:title" content="Home"/>
+  <meta property="og:author" content=""/>
+  <meta property="og:book:release_date" content=""/>
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://hdlab.stanford.edu"/>
+  <meta property="og:image" content="/palladio/public/apple-touch-icon-precomposed.png"/>
+   
+  <title>
+    
+      Palladio
+    
+  </title>
+
+  <!-- CSS links -->
+
+  <link rel="stylesheet" href="/palladio/public/css/syntax.css"/>
+  <link rel="stylesheet" href="/palladio/public/css/cesta.css"/>
+
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,700"/>
+  <link ref="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,700,500italic,700italic,900,900italic"/>
+ 
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/palladio/public/apple-touch-icon-precomposed.png"/>
+  <link rel="shortcut icon" href="/palladio/public/favicon.ico"/>
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://hdlab.stanford.edu/atom.xml"/>
+</head>
+
+
+  <body>
+    
+    <!-- This if statement decides which sidebar to use -->
+    
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>Palladio is developed at Humanities + Design, Stanford University.</p>
+    <p>Currently v1.2.4</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/palladio/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/palladio/about/">About</a>
+        
+      
+    
+      
+    
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/palladio/credits/">Credits</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/palladio/help/">Tutorials and FAQs</a>
+        
+      
+    
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/palladio/releasenotes/">Release Notes</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/palladio/search/">Search</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/palladio/testimonials/">Testimonials</a>
+        
+      
+    
+
+    <!-- The code below is used for manually entered links  -->
+
+
+    <a class="sidebar-nav-item" href="https://github.com/humanitiesplusdesign/palladio" target="_blank">GitHub project</a>
+    <a class="sidebar-nav-item" href="https://github.com/humanitiesplusdesign/palladio/issues">Create an issue</a>
+        <a class="sidebar-nav-item" href="http://palladio.designhumanities.org">Launch Palladio App</a>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>Distributed with an MIT license.</p>
+  </div>
+</div>
+
+    
+
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the content to avoid any CSS collisions with our real content. -->
+    <div class="org"><a class="main" href="http://www.stanford.edu">Stanford</a> | <a class="lab" href="http://hdlab.stanford.edu">Humanities + Design</a></div>
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <a href="/palladio/" title="Home"><img src="/palladio/public/apple-touch-icon-120x120.png" /></a>
+          <h3 class="masthead-title">Palladio. Visualize complex historical data with ease.
+          </h3>
+          <a href="http://hdlab.stanford.edu/palladio-app"><div class="button">Start &#187;</div></a>
+        </div>
+      </div>
+
+      <div class="content">
+        <section class="first">
+    <h2>What can I do with Palladio?</h2>
+    <div class="wide-container">
+    <img src="http://hdlab.stanford.edu/palladio/assets/upload.jpg"/>
+    <h3>Create or Open Palladio projects</h3>
+    <p>Copy and paste out of your spreadsheets, drag-and-drop to upload tabular data (e.g. .csv, .tab, .tsv), or link to a file in a public Dropbox folder to create a new Palladio project.</p>
+
+    </div>
+</section>
+
+<section class="second">
+    <div class="wide-container">
+        <img src="http://hdlab.stanford.edu/palladio/assets/map-view.jpg"/>
+        <h3>Visualize your data</h3>
+
+        <p>In the Map view, you can see any coordinates data as points on a map. Relationships between distinct points can be connected by lines, with the arc of the line representing the flow of the relationship.</p>
+
+        <p>Points on the map can be sized to represent their relative magnitude within your data. With the map’s tooltip function you can select which information will be displayed when hovering over a specific point on the map. Zoom in and out using the + and – buttons. Export the nodes and links of Map visualizations (though not the Map background itself) as .svg files.</p>
+
+    </div>
+</section>
+
+<section class="first">
+    <div class="wide-container">
+        <img src="http://hdlab.stanford.edu/palladio/assets/graph-view.jpg"/>
+        <p>In the Graph view, you can visualize the relationships between any two dimensions of your data. Graph information will be displayed as nodes connected by lines. Nodes can be scaled to reflect their relative magnitude within your data. The display of links and labels can be toggled on and off. Export Graph visualizations as .svg files.</p>
+
+    </div>
+</section>
+
+<section class="second">
+    <div class="wide-container">
+        <img src="http://hdlab.stanford.edu/palladio/assets/list-view.jpg"/>
+        <p>In the List view, dimensions of your data can be arranged to make customized lists. Export List visualizations as .csv files.</p>
+
+    <div>
+</section>
+
+<section class="first">
+    <div class="wide-container">
+        <img src="http://hdlab.stanford.edu/palladio/assets/gallery-view.jpg"/>
+        <p>In the Gallery view, data can be displayed within a grid setting for quick reference. Here dimensions of your data can also be linked to outside web-based information. Sort your data according to different dimensions.</p>
+    </div>
+</section>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>

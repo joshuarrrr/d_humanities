@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en">
+<![endif]-->
+<!--[if !(IE 6) & !(IE 7) & !(IE 8)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>A half-decent OCR normalizer for English texts after 1700. | The Stone and the Shell</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="https://s0.wp.com/wp-content/themes/pub/twentyeleven/style.css" />
+<link rel="pingback" href="https://tedunderwood.com/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="https://s0.wp.com/wp-content/themes/pub/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+		<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=tedunderwood.com&amp;id=18518646&amp;t=1495303990&amp;back=https%3A%2F%2Ftedunderwood.com%2F2013%2F12%2F10%2Fa-half-decent-ocr-normalizer-for-english-texts-after-1700%2F' type="text/javascript"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		</script>
+		<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//tedunderwood.wordpress.com' />
+<link rel="alternate" type="application/rss+xml" title="The Stone and the Shell &raquo; Feed" href="https://tedunderwood.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Stone and the Shell &raquo; Comments Feed" href="https://tedunderwood.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Stone and the Shell &raquo; A half-decent OCR normalizer for English texts after&nbsp;1700. Comments Feed" href="https://tedunderwood.com/2013/12/10/a-half-decent-ocr-normalizer-for-english-texts-after-1700/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1488818651h&ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='all-css-0-1' href='https://s1.wp.com/_static/??-eJx9kdtSAyEMhl9IjM60tV44PgvQyNIGwmzY7uzbG7qeWpUbyJ/5vxwA5mI854q5QppMoSnELDAXz8lIioTLjbr3InfwN0bxhAJHrMX6k7monn1EshUPprDUG9XDPI+o+VRsbY6Eh2iRMKmth6Wy+6RaOOiI3Tbr1s6VEUWMnilOydRBG/3m1jSUyUGdNbHoQGfMIHUhNJdSKxMhc42KyVfQGyIgG2Jva+R8Jcwb2Tj2X9cRBw0DqOuH7EHWt+LOjt9Rz97+ap0EZLBj6/Vx9yhhHy3pKoGvxX/POmwgEDtLzfCaXh43zw9P+912vz2+A3BLCaE=' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var related_posts_js_options = {"post_heading":"h4"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJyFj90KwjAMhV/IrAw6xQvxWWoXS2r/bNoNfXo70At1KARCTr4cTsScgIJ2dUQWttW1Yr49W2d5I34B4MlkVbDzFF6wjqFgKAvr44kcQmXMyjStGZ3jCpciF4/MDVrZvkeiMBHOfzGLJSl9gYxM9y9XXyG5aiiwyOjaAyMsGT6mdnX0h17uh36Qcre1DyuucHk='></script>
+<link rel='stylesheet' id='all-css-0-2' href='https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621h' type='text/css' media='all' />
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563h&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://tedunderwood.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Genre, gender, and point of&nbsp;view.' href='https://tedunderwood.com/2013/09/22/genre-gender-and-point-of-view/' />
+<link rel='next' title='The imaginary conflicts disciplines&nbsp;create.' href='https://tedunderwood.com/2013/12/14/the-imaginary-conflicts-disciplines-create/' />
+<meta name="generator" content="WordPress.com" />
+<link rel="canonical" href="https://tedunderwood.com/2013/12/10/a-half-decent-ocr-normalizer-for-english-texts-after-1700/" />
+<link rel='shortlink' href='http://wp.me/p1fHxQ-1cD' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=json&amp;url=https%3A%2F%2Ftedunderwood.com%2F2013%2F12%2F10%2Fa-half-decent-ocr-normalizer-for-english-texts-after-1700%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=xml&amp;url=https%3A%2F%2Ftedunderwood.com%2F2013%2F12%2F10%2Fa-half-decent-ocr-normalizer-for-english-texts-after-1700%2F&amp;for=wpcom-auto-discovery" />
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="A half-decent OCR normalizer for English texts after 1700." />
+<meta property="og:url" content="https://tedunderwood.com/2013/12/10/a-half-decent-ocr-normalizer-for-english-texts-after-1700/" />
+<meta property="og:description" content="Perhaps not the most inspiring title. But the words are carefully chosen. Basically, I&#8217;m sharing the code I use to correct OCR in my own research. I&#8217;ve shared parts of this before, but …" />
+<meta property="article:published_time" content="2013-12-10T22:23:17+00:00" />
+<meta property="article:modified_time" content="2013-12-10T22:23:17+00:00" />
+<meta property="og:site_name" content="The Stone and the Shell" />
+<meta property="og:image" content="https://tedunderwood.files.wordpress.com/2013/12/bestocrgraph.jpg" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@wordpressdotcom" />
+<meta name="twitter:image" content="https://tedunderwood.files.wordpress.com/2013/12/bestocrgraph.jpg?w=240" />
+<meta name="twitter:card" content="summary" />
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
+<link rel="shortcut icon" type="image/x-icon" href="https://secure.gravatar.com/blavatar/5711d96c6104f89617e0747253c8acb4?s=32" sizes="16x16" />
+<link rel="icon" type="image/x-icon" href="https://secure.gravatar.com/blavatar/5711d96c6104f89617e0747253c8acb4?s=32" sizes="16x16" />
+<link rel="apple-touch-icon-precomposed" href="https://secure.gravatar.com/blavatar/5711d96c6104f89617e0747253c8acb4?s=114" />
+<link rel='openid.server' href='https://tedunderwood.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='https://tedunderwood.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="https://tedunderwood.com/osd.xml" title="The Stone and the Shell" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<meta name="theme-color" content="#F1E0D4" />
+<script type="text/javascript" id="webfont-output">
+  
+  WebFontConfig = {"typekit":{"id":"lxa3tyn"}};
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+	})();
+</script><meta name="application-name" content="The Stone and the Shell" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Using large digital libraries to advance  literary history" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://tedunderwood.com/feed/;icon-uri=https://secure.gravatar.com/blavatar/5711d96c6104f89617e0747253c8acb4?s=16" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="title" content="A half-decent OCR normalizer for English texts after&nbsp;1700. | The Stone and the Shell on WordPress.com" />
+<meta name="description" content="Perhaps not the most inspiring title. But the words are carefully chosen. Basically, I&#039;m sharing the code I use to correct OCR in my own research. I&#039;ve shared parts of this before, but this is the first time I&#039;ve made any effort to package it so that it will run on other people&#039;s machines. If&hellip;" />
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #F1E0D4; }
+</style>
+<link rel="amphtml" href="https://tedunderwood.com/2013/12/10/a-half-decent-ocr-normalizer-for-english-texts-after-1700/amp/" /><style type="text/css" id="syntaxhighlighteranchor"></style>
+</head>
+
+<body class="post-template-default single single-post postid-4627 single-format-standard custom-background mp6 customizer-styles-applied singular two-column right-sidebar highlander-enabled highlander-light">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="https://tedunderwood.com/" rel="home">The Stone and the Shell</a></span></h1>
+				<h2 id="site-description">Using large digital libraries to advance  literary history</h2>
+			</hgroup>
+
+						<a href="https://tedunderwood.com/">
+									<img src="https://tedunderwood.files.wordpress.com/2012/12/cropped-nautilus1000x288.png" width="1000" height="288" alt="" />
+							</a>
+			
+								<form method="get" id="searchform" action="https://tedunderwood.com/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search" />
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content">Skip to primary content</a></div>
+												<div class="menu"><ul>
+<li ><a href="https://tedunderwood.com/">Home</a></li><li class="page_item page-item-922"><a href="https://tedunderwood.com/18c-tree/">18c tree</a></li>
+<li class="page_item page-item-2"><a href="https://tedunderwood.com/about/">About this blog</a></li>
+<li class="page_item page-item-2465"><a href="https://tedunderwood.com/open-data/">Open data</a></li>
+<li class="page_item page-item-890"><a href="https://tedunderwood.com/tech-notes/">Tech note</a></li>
+<li class="page_item page-item-3573"><a href="https://tedunderwood.com/ted-underwood/">Ted Underwood</a></li>
+</ul></div>
+			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<div id="primary">
+			<div id="content" role="main">
+
+				
+					<nav id="nav-single">
+						<h3 class="assistive-text">Post navigation</h3>
+						<span class="nav-previous"><a href="https://tedunderwood.com/2013/09/22/genre-gender-and-point-of-view/" rel="prev"><span class="meta-nav">&larr;</span> Previous</a></span>
+						<span class="nav-next"><a href="https://tedunderwood.com/2013/12/14/the-imaginary-conflicts-disciplines-create/" rel="next">Next <span class="meta-nav">&rarr;</span></a></span>
+					</nav><!-- #nav-single -->
+
+					
+<article id="post-4627" class="post-4627 post type-post status-publish format-standard hentry category-collection-building category-ocr-correction">
+	<header class="entry-header">
+		<h1 class="entry-title">A half-decent OCR normalizer for English texts after&nbsp;1700.</h1>
+
+				<div class="entry-meta">
+						<span class="sep">Posted on </span><a href="https://tedunderwood.com/2013/12/10/a-half-decent-ocr-normalizer-for-english-texts-after-1700/" title="4:23 pm" rel="bookmark"><time class="entry-date" datetime="2013-12-10T16:23:17+00:00">December 10, 2013</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://tedunderwood.com/author/tedunderwood/" title="View all posts by tedunderwood" rel="author">tedunderwood</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>Perhaps not the most inspiring title. But the words are carefully chosen.</p>
+<p>Basically, I&#8217;m sharing the code I use to correct OCR in my own research. I&#8217;ve shared parts of this before, but this is the first time I&#8217;ve made any effort to package it so that it will run on other people&#8217;s machines. If you&#8217;ve got Python 3.x, you should be able to clone <a href="https://github.com/tedunderwood/DataMunging" target="_blank">this github repository,</a> run OCRnormalizer.py, and point it at a folder of files you want corrected. The script is designed to handle data structures from HathiTrust, so (for instance) if you have zip files contained in a pairtree structure, it will recursively walk the directories to identify all zip files, concatenate pages, and write a file with the suffix &#8220;.clean.txt&#8221; in the same folder where each zip file lives. But it can also work on files from another source. If you point it at a flat folder of generic text files, it will correct those.</p>
+<p>I&#8217;m calling this an OCR &#8220;normalizer&#8221; rather than &#8220;corrector&#8221; because it&#8217;s designed to accomplish very specific goals. </p>
+<p>In my research, I&#8217;m mainly concerned with the kinds of errors that become problems for diachronic text mining. The algorithms I use can handle a pretty high level of error as long as those errors are distributed in a more-or-less random way. If a word is mistranscribed randomly in 200 different ways, each of those errors may be rare enough to drop out of the analysis. You don&#8217;t necessarily have to catch them all.</p>
+<p><div data-shortcode="caption" id="attachment_4631" style="width: 594px" class="wp-caption aligncenter"><a href="https://tedunderwood.files.wordpress.com/2013/12/bestocrgraph.jpg"><img data-attachment-id="4631" data-permalink="https://tedunderwood.com/2013/12/10/a-half-decent-ocr-normalizer-for-english-texts-after-1700/bestocrgraph/" data-orig-file="https://tedunderwood.files.wordpress.com/2013/12/bestocrgraph.jpg?w=584&#038;h=437" data-orig-size="1138,853" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="OCR correction" data-image-description="" data-medium-file="https://tedunderwood.files.wordpress.com/2013/12/bestocrgraph.jpg?w=584&#038;h=437?w=300" data-large-file="https://tedunderwood.files.wordpress.com/2013/12/bestocrgraph.jpg?w=584&#038;h=437?w=584" src="https://tedunderwood.files.wordpress.com/2013/12/bestocrgraph.jpg?w=584&#038;h=437" alt="The percentage of tokens that are recognized as words before (red) and after (black) correction by my script. Technically this is not &quot;recall&quot; but a count of (true and false) &quot;positives.&quot;" width="584" height="437" class="size-full wp-image-4631" srcset="https://tedunderwood.files.wordpress.com/2013/12/bestocrgraph.jpg?w=584&amp;h=437 584w, https://tedunderwood.files.wordpress.com/2013/12/bestocrgraph.jpg?w=150&amp;h=112 150w, https://tedunderwood.files.wordpress.com/2013/12/bestocrgraph.jpg?w=300&amp;h=225 300w, https://tedunderwood.files.wordpress.com/2013/12/bestocrgraph.jpg?w=768&amp;h=576 768w, https://tedunderwood.files.wordpress.com/2013/12/bestocrgraph.jpg?w=1024&amp;h=768 1024w, https://tedunderwood.files.wordpress.com/2013/12/bestocrgraph.jpg 1138w" sizes="(max-width: 584px) 100vw, 584px" /></a><p class="wp-caption-text">The percentage of tokens in the HathiTrust corpus that are recognized as words before (red) and after (black) correction by my script. Technically this is not &#8220;recall&#8221; but a count of (true and false) &#8220;positives.&#8221;</p></div>The errors that become problems are the ones that cluster in particular words or periods. The notorious example is eighteenth-century &#8220;long S,&#8221; which caufes subftantial diflortions before 1820. Other errors caused by ligaturcs and worn typc also tend to cluster toward the early end of the timeline. But as you can see in the illustration above, long S is a particularly big issue; there&#8217;s a major improvement in OCR transcription shortly after 1800 as it gets phased out.</p>
+<p>The range of possible OCR errors is close to infinite. It would be impossible to catch them all, and as you can see above, my script doesn&#8217;t. For a lot of nineteenth-century texts it produces a pretty small improvement. But it does normalize major variations (like long S) that would otherwise create significant distortions. (In cases like fame/same where a word could be either an OCR error or a real word, it uses the words on either side to disambiguate.)</p>
+<p>Moreover, certain things that aren&#8217;t &#8220;errors&#8221; can be just as problematic for diachronic analysis. E.g., it&#8217;s a problem that &#8220;today&#8221; is sometimes written &#8220;to day&#8221; and sometimes &#8220;to-day,&#8221; and it&#8217;s a problem that eighteenth-century verbs get &#8220;condens&#8217;d.&#8221; A script designed to <em>correct</em> OCR might leave these variants unaltered, but in order to make meaningful diachronic comparisons, I have to produce a corpus where variations of spelling and word division are normalized.</p>
+<p>The rulesets contained in the repo standardize (roughly) to modern British practice. Some of the rules about variant spellings were originally drawn, in part, from rules associated with <a href="http://wordhoard.northwestern.edu/userman/index.html" target="_blank">the Wordhoard project, </a>and the some of the rules for OCR correction were developed in collaboration with <a href="https://twitter.com/lorettaauvil" target="_blank">Loretta Auvil.</a> Subfolders of the repo contain scripts I used to develop new rules.</p>
+<p>I&#8217;ve called this release version 0.1 because it&#8217;s very rough. You can write Python in a disciplined, object-oriented way &#8230; but I, um, tend not to. This code has grown by accretion, and I&#8217;m sure there are bugs. More importantly, as noted above, this isn&#8217;t a generic &#8220;corrector&#8221; but a script that normalizes in order to permit diachronic comparison. It won&#8217;t meet everyone&#8217;s needs. But there may be a few projects out there that would find it useful as a resource — if so, feel free to fork it and alter it to fit your project!</p>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-4627" class="share-twitter sd-button share-icon" href="https://tedunderwood.com/2013/12/10/a-half-decent-ocr-normalizer-for-english-texts-after-1700/?share=twitter" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-18518646-4627-59208736c932e' data-src='//widgets.wp.com/likes/#blog_id=18518646&amp;post_id=4627&amp;origin=tedunderwood.wordpress.com&amp;obj_id=18518646-4627-59208736c932e' data-name='like-post-frame-18518646-4627-59208736c932e'><h3 class='sd-title'>Like this:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Like</span></span> <span class="loading">Loading...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div>
+<div id='jp-relatedposts' class='jp-relatedposts' >
+	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+</div></div>			</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		This entry was posted in <a href="https://tedunderwood.com/category/collection-building/" rel="category tag">collection-building</a>, <a href="https://tedunderwood.com/category/ocr-correction/" rel="category tag">OCR correction</a> by <a href="https://tedunderwood.com/author/tedunderwood/">tedunderwood</a>. Bookmark the <a href="https://tedunderwood.com/2013/12/10/a-half-decent-ocr-normalizer-for-english-texts-after-1700/" title="Permalink to A half-decent OCR normalizer for English texts after&nbsp;1700." rel="bookmark">permalink</a>.		
+				<div id="author-info">
+			<div id="author-avatar">
+				<img alt='' src='https://1.gravatar.com/avatar/76dd28669b8c966858940eeb24cc684a?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' />			</div><!-- #author-avatar -->
+			<div id="author-description">
+				<h2>About tedunderwood</h2>
+				Ted Underwood is Professor of English at the University of Illinois, Urbana-Champaign. On Twitter he is @Ted_Underwood.				<div id="author-link">
+					<a href="https://tedunderwood.com/author/tedunderwood/" rel="author">
+						View all posts by tedunderwood <span class="meta-nav">&rarr;</span>					</a>
+				</div><!-- #author-link	-->
+			</div><!-- #author-description -->
+		</div><!-- #author-info -->
+			</footer><!-- .entry-meta -->
+</article><!-- #post-4627 -->
+
+						<div id="comments">
+	
+	
+			<h2 id="comments-title">
+			8 thoughts on &ldquo;<span>A half-decent OCR normalizer for English texts after&nbsp;1700.</span>&rdquo;		</h2>
+
+		
+		<ol class="commentlist">
+				<li class="post pingback">
+		<p>Pingback: <a href='http://digitalhumanitiesnow.org/2013/12/resource-an-ocr-normalizer-for-english-texts-after-1700/' rel='external nofollow' class='url'>Resource: An OCR normalizer for English texts after 1700 | Digital Humanities Now</a></p>
+	</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1 highlander-comment" id="li-comment-5716">
+		<article id="comment-5716" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://2.gravatar.com/avatar/e3bac5f4fcc35d98bb49d436b06be05a?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' /><span class="fn"><a href='http://www.tilburguniversity.edu/nl/webwijs/show/?uid=reynaert' rel='external nofollow' class='url'>Martin Reynaert</a></span> on <a href="https://tedunderwood.com/2013/12/10/a-half-decent-ocr-normalizer-for-english-texts-after-1700/#comment-5716"><time datetime="2013-12-13T08:30:09+00:00">December 13, 2013 at 8:30 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Dear Ted,</p>
+<p>Thank you for this blog! It is with great pleasure that I learn I am not the sole person in the world to attempt to clean up or normalize collections of digitized texts.</p>
+<p>The main paper describing my efforts is here, in Open Access: <a href="http://link.springer.com/article/10.1007%2Fs10032-010-0133-5#page-1" rel="nofollow">http://link.springer.com/article/10.1007%2Fs10032-010-0133-5#page-1</a></p>
+<p>The problem of evaluating one&#8217;s attempts has fascinated (and frustrated at times) me for years (cf. <a href="http://www.lrec-conf.org/proceedings/lrec2008/summaries/477.html" rel="nofollow">http://www.lrec-conf.org/proceedings/lrec2008/summaries/477.html</a> ).</p>
+<p>I do think you have chosen the words in your title very carefully. But for me to properly appraise them I have to ask you to elucidate a few points about the graph you provide.</p>
+<p>The caption to your graph states &#8220;The percentage of tokens in the HathiTrust corpus that are recognized as words&#8221;. </p>
+<p>What exactly does each data point in the graph represent? Is it the cumulative result of your system&#8217;s achievements on perhaps one book published in the particular year? Or is this on all the Hathi books in English? I have recently had occasion to take a closer look at the Hathi collections and a lot of books seemed not accessible.</p>
+<p>Also, how do you determine a word is correct? Is this in reference to a validated lexicon? Is this lexicon perhaps available? Sure what is correct or not depends on the coverage of the lexicon one uses?</p>
+<p>Or do you actually have OCR ground truths or OCR post-correction gold standards for so many books? I do not quite see how else one can evaluate whether a word in context (&#8216;it uses the words on either side to disambiguate&#8217;) was properly corrected. Would these ground truths then be available to others for research?</p>
+<p>Thank you for sharing your tool! I will definitely try it.</p>
+<p>Looking forward for any additional information you can give!</p>
+<p>Best regards,</p>
+<p>Martin Reynaert<br />
+Postdoc Researcher<br />
+TiCC &#8211; Tilburg University<br />
+CSLT &#8211; Radboud University<br />
+The Netherlands</p>
+</div>
+
+			<div class="reply">
+				<a rel='nofollow' class='comment-reply-link' href='https://tedunderwood.com/2013/12/10/a-half-decent-ocr-normalizer-for-english-texts-after-1700/?replytocom=5716#respond' onclick='return addComment.moveForm( "comment-5716", "5716", "respond", "4627" )' aria-label='Reply to Martin Reynaert'>Reply <span>&darr;</span></a>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-tedunderwood bypostauthor odd alt thread-odd thread-alt depth-1 highlander-comment" id="li-comment-5718">
+		<article id="comment-5718" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/76dd28669b8c966858940eeb24cc684a?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' /><span class="fn"><a href='https://tedunderwood.wordpress.com' rel='external nofollow' class='url'>tedunderwood</a></span> on <a href="https://tedunderwood.com/2013/12/10/a-half-decent-ocr-normalizer-for-english-texts-after-1700/#comment-5718"><time datetime="2013-12-13T12:56:12+00:00">December 13, 2013 at 12:56 pm</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Hi Martin &#8212; Thanks for those links. I&#8217;m collaborating with a couple of other people on the problem of OCR evaluation, and these leads will be very helpful.</p>
+<p>The graph is based on 470,000 volumes from HathiTrust 1700-1899; it&#8217;s the majority of English non-serial volumes in that period. (Illinois has signed an agreement with HathiTrust, which gives me access to public-domain works for research purposes.) So each data point is the average percentage of tokens recognized as words in a given year.</p>
+<p>It&#8217;s a pretty big corpus, but I haven&#8217;t tried to do a thorough, systematic, evaluation of accuracy yet. As you rightly note in your paper, evaluation requires attention to both &#8220;recall&#8221; and &#8220;precision,&#8221; and I&#8217;m not attempting that yet. The graph above is just &#8220;the number of tokens recognized as words,&#8221; and you&#8217;re absolutely right that this figure will depend on dictionary coverage. I use a multi-lingual dictionary, but no dictionary includes all possible languages, all possible proper nouns, etc. Moreover, by its very nature, this isn&#8217;t a metric that can be used to evaluate contextual spellchecking of pairs like &#8220;fame/same.&#8221; To evaluate that part of the workflow, you&#8217;re right, I would need to use manually-entered ground truth (e.g. the TCP-ECCO corpus.)</p>
+<p>In short, I&#8217;m not making strong claims about accuracy here. The word &#8220;half-decent&#8221; in the title is very deliberately chosen. This is not a publication: it&#8217;s a patch that I&#8217;ve created, largely on my own time, because I needed *some* patch for this problem. In research on the corrected corpus, I have found in practice that it lacks the large obvious distortions that previously made diachronic analysis impossible. But I haven&#8217;t made an effort to rigorously quantify the level of error that remains. I think some of the people I&#8217;m collaborating with will produce quantitative accuracy metrics fairly soon. But for me the key is this: even if I had a figure based on ground truth (e.g. &#8220;90% precision&#8221;), it wouldn&#8217;t tell me what I actually need to know &#8212; which is whether the errors (and accurate variants) that remain are <em>distributed in a way that becomes problematic</em> for a particular historical problem or kind of algorithmic analysis. That question is the decisive one for me, and it&#8217;s still going to require case-by-case attention.</p>
+</div>
+
+			<div class="reply">
+				<a rel='nofollow' class='comment-reply-link' href='https://tedunderwood.com/2013/12/10/a-half-decent-ocr-normalizer-for-english-texts-after-1700/?replytocom=5718#respond' onclick='return addComment.moveForm( "comment-5718", "5718", "respond", "4627" )' aria-label='Reply to tedunderwood'>Reply <span>&darr;</span></a>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1 highlander-comment" id="li-comment-6483">
+		<article id="comment-6483" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/a8b9cdc1faa1450b8a4ab989b33d786d?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' /><span class="fn">Beatrice Alex</span> on <a href="https://tedunderwood.com/2013/12/10/a-half-decent-ocr-normalizer-for-english-texts-after-1700/#comment-6483"><time datetime="2014-01-16T04:18:44+00:00">January 16, 2014 at 4:18 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>A great blog post and thanks for sharing the code.</p>
+<p>There is definitely a need for more research on quantitative accuracy metrics for OCRed text, especially when it comes to using it for any kind of text processing.  So I&#8217;ll be looking forward to see more work in this area.</p>
+<p>In your comment above you mention that each data point represents the average percentage of tokens recognised as a word in a given year.  You might just have used the wrong expression as you can&#8217;t average percentage unless the document lengths are the same.  You need to compute one percentage of words found in the dictionary for all documents in the same year.  The reason being is that averaging percentages will skew the results if the length of documents varies much across years.</p>
+<p>For example, if you have three documents for year 1: with 50/100, 300/600 and 500/1500 words in the dictionary.  The average percentage would be 44.4444444.  The percentage across all documents is 850/2200*100=38.6363636363636.  You have another three documents for year 2: with 400/800, 600/1200 and 500/1500 words in the dictionary.  The first 2 documents are longer but have the same percentage of words in the dictionary as the first two documents in year 1.  The average percentage is still 44.4444444.  However, the recall percentage across all documents is 1500/3500*100=42.8571428571429.</p>
+<p>I&#8217;d also be really interested to know what&#8217;s going on for the outliers in your graph. </p>
+<p>Beatrice Alex<br />
+School of Informatics, University of Edinburgh</p>
+</div>
+
+			<div class="reply">
+				<a rel='nofollow' class='comment-reply-link' href='https://tedunderwood.com/2013/12/10/a-half-decent-ocr-normalizer-for-english-texts-after-1700/?replytocom=6483#respond' onclick='return addComment.moveForm( "comment-6483", "6483", "respond", "4627" )' aria-label='Reply to Beatrice Alex'>Reply <span>&darr;</span></a>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment byuser comment-author-tedunderwood bypostauthor odd alt depth-2 highlander-comment" id="li-comment-6532">
+		<article id="comment-6532" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/76dd28669b8c966858940eeb24cc684a?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='https://tedunderwood.wordpress.com' rel='external nofollow' class='url'>tedunderwood</a></span> on <a href="https://tedunderwood.com/2013/12/10/a-half-decent-ocr-normalizer-for-english-texts-after-1700/#comment-6532"><time datetime="2014-01-18T05:01:48+00:00">January 18, 2014 at 5:01 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Yep &#8212; you&#8217;re quite correct that there&#8217;s a difference. The graph above is based on calculations that don&#8217;t weight documents by length; for simplicity&#8217;s sake, I&#8217;ve treated each document as an equivalent data point.</p>
+<p>But I&#8217;m really not aiming to evaluate accuracy with any finesse here: the point of the illustration is purely to show the gross difference between the way correction works in the 18th century and the way it works in the 19th century. The end of &#8220;long s&#8221; is a very significant change that dwarfs a lot of subtler issues &#8212; that&#8217;s all the illustration is meant to reveal.</p>
+</div>
+
+			<div class="reply">
+				<a rel='nofollow' class='comment-reply-link' href='https://tedunderwood.com/2013/12/10/a-half-decent-ocr-normalizer-for-english-texts-after-1700/?replytocom=6532#respond' onclick='return addComment.moveForm( "comment-6532", "6532", "respond", "4627" )' aria-label='Reply to tedunderwood'>Reply <span>&darr;</span></a>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='https://earlynovels.withknown.com/2015/possibly-helpful-for-cleaning-18th-c-ocr-ihoffman-20131210a-half-decent-ocr-normalizer-for-english-texts-after-1700' rel='external nofollow' class='url'>Possibly helpful for cleaning 18th C OCR, @ihoffman. https://tedunderwood.com/2013/12/10/a-half-decent-ocr-normalizer-for-english-texts-after-1700/</a></p>
+	</li><!-- #comment-## -->
+	<li class="comment even thread-odd thread-alt depth-1 highlander-comment" id="li-comment-21508">
+		<article id="comment-21508" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://i1.wp.com/pbs.twimg.com/profile_images/951223622/hackergotchi_normal.jpg?resize=68%2C68' class='avatar avatar-68' height='68' width='68' /><span class="fn"><a href='http://twitter.com/anterotesis' rel='external nofollow' class='url'>John Levin (@anterotesis)</a></span> on <a href="https://tedunderwood.com/2013/12/10/a-half-decent-ocr-normalizer-for-english-texts-after-1700/#comment-21508"><time datetime="2015-06-30T09:07:23+00:00">June 30, 2015 at 9:07 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Are you still maintaining this? Have just started using it and found a couple of bugs.<br />
+John</p>
+</div>
+
+			<div class="reply">
+				<a rel='nofollow' class='comment-reply-link' href='https://tedunderwood.com/2013/12/10/a-half-decent-ocr-normalizer-for-english-texts-after-1700/?replytocom=21508#respond' onclick='return addComment.moveForm( "comment-21508", "21508", "respond", "4627" )' aria-label='Reply to John Levin (@anterotesis)'>Reply <span>&darr;</span></a>			</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='https://earlynovels.withknown.com/2016/ocr-correction-script' rel='external nofollow' class='url'>OCR Correction script</a></p>
+	</li><!-- #comment-## -->
+		</ol>
+
+		
+		
+	
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2013/12/10/a-half-decent-ocr-normalizer-for-english-texts-after-1700/#respond" style="display:none;">Cancel reply</a></small></h3>			<form action="https://tedunderwood.com/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+				<input type="hidden" id="highlander_comment_nonce" name="highlander_comment_nonce" value="af9a1bd7c6" /><input type="hidden" name="_wp_http_referer" value="/2013/12/10/a-half-decent-ocr-normalizer-for-english-texts-after-1700/" />
+<input type="hidden" name="hc_post_as" id="hc_post_as" value="guest" />
+
+<div class="comment-form-field comment-textarea">
+	<label for="comment">Enter your comment here...</label>
+	<div id="comment-form-comment"><textarea id="comment" name="comment" title="Enter your comment here..."></textarea></div>
+</div>
+
+<div id="comment-form-identity">
+
+	<div id="comment-form-nascar">
+		<p>Fill in your details below or click an icon to log in:</p>
+		<ul>
+			<li class="selected" style="display:none;">
+				<a href="#comment-form-guest" id="postas-guest" title="Guest">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:WordPress.com" id="postas-wordpress" title="WordPress.com">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Twitter" id="postas-twitter" title="Twitter">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Facebook" id="postas-facebook" title="Facebook">
+					<span></span>
+				</a>
+			</li>
+			<li>
+		</ul>
+	</div>
+
+	<div id="comment-form-guest" class="comment-form-service selected">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+<a href="https://gravatar.com/site/signup/" target="_blank">				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=R" alt="Gravatar" width="25" class="no-grav" />
+</a>			</div>
+
+				<div class="comment-form-fields">
+				<div class="comment-form-field comment-form-email">
+					<label for="email">Email <span class="required">(required)</span> <span class="nopublish">(Address never made public)</span></label>
+					<div class="comment-form-input"><input id="email" name="email" type="email" value="" /></div>
+				</div>
+				<div class="comment-form-field comment-form-author">
+					<label for="author">Name <span class="required">(required)</span></label>
+					<div class="comment-form-input"><input id="author" name="author" type="text" value="" /></div>
+				</div>
+				<div class="comment-form-field comment-form-url">
+					<label for="url">Website</label>
+					<div class="comment-form-input"><input id="url" name="url" type="url" value="" /></div>
+				</div>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-wordpress" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=R" alt="WordPress.com Logo" width="25" class="no-grav" />
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="wp_avatar" id="wordpress-avatar" class="comment-meta-wordpress" value="" />
+				<input type="hidden" name="wp_user_id" id="wordpress-user_id" class="comment-meta-wordpress" value="" />
+				<input type="hidden" name="wp_access_token" id="wordpress-access_token" class="comment-meta-wordpress" value="" />
+				<p class="comment-form-posting-as pa-wordpress"><strong></strong> You are commenting using your WordPress.com account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'wordpress' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-twitter" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=R" alt="Twitter picture" width="25" class="no-grav" />
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="twitter_avatar" id="twitter-avatar" class="comment-meta-twitter" value="" />
+				<input type="hidden" name="twitter_user_id" id="twitter-user_id" class="comment-meta-twitter" value="" />
+				<input type="hidden" name="twitter_access_token" id="twitter-access_token" class="comment-meta-twitter" value="" />
+				<p class="comment-form-posting-as pa-twitter"><strong></strong> You are commenting using your Twitter account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'twitter' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-facebook" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=R" alt="Facebook photo" width="25" class="no-grav" />
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="fb_avatar" id="facebook-avatar" class="comment-meta-facebook" value="" />
+				<input type="hidden" name="fb_user_id" id="facebook-user_id" class="comment-meta-facebook" value="" />
+				<input type="hidden" name="fb_access_token" id="facebook-access_token" class="comment-meta-facebook" value="" />
+				<p class="comment-form-posting-as pa-facebook"><strong></strong> You are commenting using your Facebook account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'facebook' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-googleplus" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=R" alt="Google+ photo" width="25" class="no-grav" />
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="googleplus_avatar" id="googleplus-avatar" class="comment-meta-googleplus" value="" />
+				<input type="hidden" name="googleplus_user_id" id="googleplus-user_id" class="comment-meta-googleplus" value="" />
+				<input type="hidden" name="googleplus_access_token" id="googleplus-access_token" class="comment-meta-googleplus" value="" />
+				<p class="comment-form-posting-as pa-googleplus"><strong></strong> You are commenting using your Google+ account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'googleplus' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+
+	<div id="comment-form-load-service" class="comment-form-service">
+		<div class="comment-form-posting-as-cancel"><a href="javascript:HighlanderComments.cancelExternalWindow();">Cancel</a></div>
+		<p>Connecting to %s</p>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+var highlander_expando_javascript = function(){
+	var input = document.createElement( 'input' ),
+	    comment = jQuery( '#comment' );
+
+	if ( 'placeholder' in input ) {
+		comment.attr( 'placeholder', jQuery( '.comment-textarea label' ).remove().text() );
+	}
+
+	// Expando Mode: start small, then auto-resize on first click + text length
+	jQuery( '#comment-form-identity' ).hide();
+	jQuery( '#comment-form-subscribe' ).hide();
+	jQuery( '#commentform .form-submit' ).hide();
+
+	comment.css( { 'height':'10px' } ).one( 'focus', function() {
+		var timer = setInterval( HighlanderComments.resizeCallback, 10 )
+		jQuery( this ).animate( { 'height': HighlanderComments.initialHeight } ).delay( 100 ).queue( function(n) { clearInterval( timer ); HighlanderComments.resizeCallback(); n(); } );
+		jQuery( '#comment-form-identity' ).slideDown();
+		jQuery( '#comment-form-subscribe' ).slideDown();
+		jQuery( '#commentform .form-submit' ).slideDown();
+	});
+}
+jQuery(document).ready( highlander_expando_javascript );
+</script>
+
+<div id="comment-form-subscribe">
+	<p class="comment-subscription-form"><input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;"/> <label class="subscribe-label" id="subscribe-label" for="subscribe" style="display: inline;">Notify me of new comments via email.</label></p><p class="post-subscription-form"><input type="checkbox" name="subscribe_blog" id="subscribe_blog" value="subscribe" style="width: auto;"/> <label class="subscribe-label" id="subscribe-blog-label" for="subscribe_blog"  style="display: inline;">Notify me of new posts via email.</label></p></div>
+
+
+
+
+<p class="form-submit"><input name="submit" type="submit" id="comment-submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='4627' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="978a5124c9" /></p>
+<input type="hidden" name="genseq" value="1495303990" />
+<p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="114"/></p>			</form>
+			</div><!-- #respond -->
+	<div style="clear: both"></div>
+</div><!-- #comments -->
+
+				
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+				 				<a href="https://wordpress.com/?ref=footer_blog">Blog at WordPress.com.</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<!--  -->
+<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201720y'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	<div class="grofile-hash-map-76dd28669b8c966858940eeb24cc684a">
+	</div>
+	<div class="grofile-hash-map-e3bac5f4fcc35d98bb49d436b06be05a">
+	</div>
+	<div class="grofile-hash-map-76dd28669b8c966858940eeb24cc684a">
+	</div>
+	<div class="grofile-hash-map-a8b9cdc1faa1450b8a4ab989b33d786d">
+	</div>
+	<div class="grofile-hash-map-68f9c8d6d54cfe9e3ce0b5c8215a669d">
+	</div>
+	</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"Post Comment","connectingToText":"Connecting to %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"Log Out","loginText":"Log In","connectURL":"https:\/\/tedunderwood.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/tedunderwood.wordpress.com\/wp-login.php?action=logout&_wpnonce=7d72b00ae7","homeURL":"https:\/\/tedunderwood.com\/","postID":"4627","gravDefault":"identicon","enterACommentError":"Please enter a comment","enterEmailError":"Please enter your email address here","invalidEmailError":"Invalid email address","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"Change","changeAccount":"Change Account","comment_registration":"","userIsLoggedIn":"","isJetpack":"0","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1479964158j'></script>
+
+	<div id="carousel-reblog-box">
+		<form action="#" name="carousel-reblog">
+			<textarea id="carousel-reblog-content" name="carousel-reblog-content" placeholder="Add your thoughts here... (optional)"></textarea>
+			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Post to</label>
+			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
+						</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="#" class="cancel">Cancel</a></span>
+				<input type="submit" name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="Reblog Post" />
+				<input type="hidden" id="carousel-reblog-blog-id" value="18518646" />
+				<input type="hidden" id="carousel-reblog-blog-url" value="https://tedunderwood.com" />
+				<input type="hidden" id="carousel-reblog-blog-title" value="The Stone and the Shell" />
+				<input type="hidden" id="carousel-reblog-post-url" value="" />
+				<input type="hidden" id="carousel-reblog-post-title" value="" />
+			</div>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="bd507042d9" /><input type="hidden" name="_wp_http_referer" value="/2013/12/10/a-half-decent-ocr-normalizer-for-english-texts-after-1700/" />		</form>
+
+		<div class="arrow"></div>
+	</div>
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/tedunderwood.com\/2013\/12\/10\/a-half-decent-ocr-normalizer-for-english-texts-after-1700\/":4627};
+	</script>
+		<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-twitter' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+		});
+		</script>
+		<script type='text/javascript' src='https://s1.wp.com/wp-content/mu-plugins/akismet-3.0/_inc/form.js?m=1404442431h'></script>
+<link rel='stylesheet' id='all-css-0-3' href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel.css?m=1481571546h' type='text/css' media='all' />
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1412618825h&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var actionbardata = {"siteID":"18518646","siteName":"The Stone and the Shell","siteURL":"https:\/\/tedunderwood.com","icon":"<img alt='' src='https:\/\/secure.gravatar.com\/blavatar\/5711d96c6104f89617e0747253c8acb4?s=50&d=https%3A%2F%2Fs1.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/twentyeleven","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/tedunderwood.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Ftedunderwood.com%2F2013%2F12%2F10%2Fa-half-decent-ocr-normalizer-for-english-texts-after-1700%2F","themeURL":"https:\/\/wordpress.com\/theme\/twentyeleven\/","xhrURL":"https:\/\/tedunderwood.com\/wp-admin\/admin-ajax.php","nonce":"9cac39b10c","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"5d03b4b0a1\" \/>","referer":"https:\/\/tedunderwood.com\/2013\/12\/10\/a-half-decent-ocr-normalizer-for-english-texts-after-1700\/","canFollow":"1","statusMessage":"","customizeLink":"https:\/\/tedunderwood.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Ftedunderwood.wordpress.com%2F2013%2F12%2F10%2Fa-half-decent-ocr-normalizer-for-english-texts-after-1700%2F","postID":"4627","shortlink":"http:\/\/wp.me\/p1fHxQ-1cD","canEditPost":"","editLink":"https:\/\/wordpress.com\/post\/tedunderwood.com\/4627","statsLink":"https:\/\/wordpress.com\/stats\/post\/4627\/tedunderwood.com","i18n":{"view":"View site","follow":"Follow","following":"Following","edit":"Edit","login":"Log in","signup":"Sign up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Twenty Eleven","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editSubs":"Manage subscriptions","viewReader":"View site in the Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"Join 1,515 other followers","alreadyUser":"Already have a WordPress.com account? <a href=\"https:\/\/tedunderwood.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Ftedunderwood.com%2F2013%2F12%2F10%2Fa-half-decent-ocr-normalizer-for-english-texts-after-1700%2F\">Log in now.<\/a>","stats":"Stats"}};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/tedunderwood.com\/wp-admin\/admin-ajax.php","nonce":"89971a9d19","display_exif":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/tedunderwood.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Ftedunderwood.com%2F2013%2F12%2F10%2Fa-half-decent-ocr-normalizer-for-english-texts-after-1700%2F","blog_id":"18518646","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=18518646&v=wpcom&tz=-5&user_id=0&subd=tedunderwood","is_public":"1","reblog_enabled":""};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??-eJx9j0sOwjAMRC9E6oIQiAXiLCE14JAfdlLo7QkSLV2grmzNeJ5teCZlYsgYMliBDnsymF6NlRXMLF9UcuVKQcDRHQUeBQvedOgc8jhMwbjSVbOCTPS+BhVjckPjKSwQdVd9ddYMXktGrp2KPTLTBzZpSwSTKYYPYer+HSXpd8dct/UbHr6lmU/92WU0xyLowGJO2tzVKCxkUpSsLk4Tg9w0U7iOtYZO/rjeHjZtu1tv9vYN8xKV8g=='></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>		<iframe src='https://widgets.wp.com/likes/master.html?ver=20170206#ver=20170206' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
+		<div id='likes-other-gravatars'><div class="likes-text"><span>%d</span> bloggers like this:</div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+		<script>
+			var _comscore = _comscore || [];
+			_comscore.push({
+				c1: "2",
+				c2: "7518284"
+			});
+			(function() {
+				var s = document.createElement("script"),
+					el = document.getElementsByTagName("script")[0];
+				s.defer = true;
+				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);
+			})();
+		</script>
+		<noscript>
+			<p class="robots-nocontent"><img src="https://sb.scorecardresearch.com/p?c1=2&c2=7518284&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1" alt="" style="display:none;" width="1" height="1" /></p>
+		</noscript><script src="//stats.wp.com/w.js?56" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'18518646','blog_tz':'-5','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'18518646','v':'wpcom','tz':'-5','user_id':'0','post':'4627','subd':'tedunderwood'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1TaVhzUzFMbjdWNHpwZGhTayxPSUFCMGNrd29+Smw0TDhnZmRTK0hlRi9QSGh6bi9GXVhBJWIlZlR5U1JMLU8/MkNtblkvY1dzK3YrWW1CbjZiL2VlLnR6QkUsbDdSejJMclp1JjF8LWJsMi1MWEE1Ll83OXVBNnYtT1hfcVd0dF03U2ZTZWxuZ3h8T21rUTdidD1VMlFjRzA1S2xNKzh6fkVNVUR8LnBLeVNuQnI5K2NNVERxb35yZFRUPWtHTmY2Z0lSTVY0Y35iLG5rVnhvTThGaC1qSWRtWy1FRl1ncko0RzZlaix1PUV0aDUzRD9zPTlWdkhwN01oc2ZfOHNkaWNdQmFEOGk4cA=='}]);
+_stq.push([ 'clickTrackerInit', '18518646', '4627' ]);
+	</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
+</html>

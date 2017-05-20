@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1 "/> 
+<title> &raquo; Topic Modeling and Digital Humanities Journal of Digital Humanities</title>
+<link rel="icon" 
+      type="image/i" 
+      href="http://journalofdigitalhumanities.org/wp-content/themes/jdh/images/favicon.ico">
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" href="http://journalofdigitalhumanities.org/wp-content/themes/jdh/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://journalofdigitalhumanities.org/wp-content/themes/jdh/stylesheets/skeleton.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://journalofdigitalhumanities.org/wp-content/themes/jdh/stylesheets/layout.css" type="text/css" media="screen" />
+<link href='http://fonts.googleapis.com/css?family=Arvo:400,400italic|Ubuntu:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link rel="pingback" href="http://journalofdigitalhumanities.org/xmlrpc.php" />
+
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/journalofdigitalhumanities.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='footnote-voodoo-css'  href='http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/footnote-voodoo.css?ver=2016.1230' type='text/css' media='all' />
+<link rel='stylesheet' id='twitter-archive-style-css'  href='http://journalofdigitalhumanities.org/wp-content/plugins/twitter-search-shortcode/ta-style.css?ver=4.7.5' type='text/css' media='all' />
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/modernizr.custom.20659.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/footnote-voodoo.js?ver=2016.1230'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.hoverIntent.minified.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.cookie.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.dcjqaccordion.2.9.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/plugins/wp-mailto-links/public/js/wp-mailto-links.js?ver=4.7.5'></script>
+<link rel='https://api.w.org/' href='http://journalofdigitalhumanities.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://journalofdigitalhumanities.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://journalofdigitalhumanities.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Topic Modeling: A Basic Introduction' href='http://journalofdigitalhumanities.org/2-1/topic-modeling-a-basic-introduction-by-megan-r-brett/' />
+<link rel='next' title='The Digital Humanities Contribution to Topic Modeling' href='http://journalofdigitalhumanities.org/2-1/dh-contribution-to-topic-modeling/' />
+<meta name="generator" content="WordPress 4.7.5" />
+<link rel="canonical" href="http://journalofdigitalhumanities.org/2-1/topic-modeling-and-digital-humanities-by-david-m-blei/" />
+<link rel='shortlink' href='http://journalofdigitalhumanities.org/?p=4144' />
+<link rel="alternate" type="application/json+oembed" href="http://journalofdigitalhumanities.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fjournalofdigitalhumanities.org%2F2-1%2Ftopic-modeling-and-digital-humanities-by-david-m-blei%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://journalofdigitalhumanities.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fjournalofdigitalhumanities.org%2F2-1%2Ftopic-modeling-and-digital-humanities-by-david-m-blei%2F&#038;format=xml" />
+<style type="text/css">
+	.addw2p {
+		list-style-type: none;
+		list-style-image: none;
+	}
+</style>
+<script type="text/javascript" src="http://journalofdigitalhumanities.org/wp-content/plugins/audio-player/assets/audio-player.js?ver=2.0.4.6"></script>
+<script type="text/javascript">AudioPlayer.setup("http://journalofdigitalhumanities.org/wp-content/plugins/audio-player/assets/player.swf?ver=2.0.4.6", {width:"290",animation:"yes",encode:"yes",initialvolume:"60",remaining:"no",noinfo:"no",buffer:"5",checkpolicy:"no",rtl:"no",bg:"E5E5E5",text:"333333",leftbg:"CCCCCC",lefticon:"333333",volslider:"666666",voltrack:"FFFFFF",rightbg:"B4B4B4",rightbghover:"999999",righticon:"333333",righticonhover:"FFFFFF",track:"FFFFFF",loader:"009900",border:"CCCCCC",tracker:"DDDDDD",skip:"666666",pagebg:"FFFFFF",transparentpagebg:"yes"});</script>
+<script type="text/javascript" src="http://journalofdigitalhumanities.org/wp-content/plugins/degradable-html5-audio-and-video/incl/audio-player.js"></script>
+<script type="text/javascript">
+	AudioPlayer.setup("http://journalofdigitalhumanities.org/wp-content/plugins/degradable-html5-audio-and-video/incl/player.swf", {
+		/* Format the player by inserting lines here. See http://wpaudioplayer.com/standalone */
+		width: 290,
+		initialvolume: 80
+	});
+</script><style type="text/css">
+
+	.footnote-indicator:before {
+		content: url(http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/footnoted.png);
+		width: 10px;
+		height: 10px;
+	}
+	ol.footnotes li {
+		background: #eeeeee url(http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/note.png) 0px 0px repeat-x;
+	}
+</style>
+<script type="text/javascript">
+	// Globals
+	var tipUpUrl = 'url(http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/tip.png)';
+	var tipDownUrl = 'url(http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/tip-down.png)';
+</script>
+			<script type="text/javascript">
+		<!--Note here the \s at the begining of the regular expression here. This is to enforce that it will only select from hashtags with a space in front of them. Otherwise it may alter links to anchors.-->
+			hashtag_regexp = /\s#([a-zA-Z0-9]+)/g;
+
+			function linkHashtags(text) {
+				return text.replace(
+					hashtag_regexp,
+					' <a class="hashtag" target="_blank" href="http://twitter.com/#search?q=$1">#$1</a>'
+				);
+			}
+
+			jQuery(document).ready(function(){
+				jQuery('p').each(function() {
+					jQuery(this).html(linkHashtags(jQuery(this).html()));
+				});
+			});
+			
+			jQuery('p').html(linkHashtags(jQuery('p').html()));  
+
+			
+		</script>
+		<script type="text/javascript">
+			
+			at_regexp = /\s\u0040([a-zA-Z0-9]+)/g;
+			
+			function linkAt(text) {
+				return text.replace(
+					at_regexp,
+					' <a class="twitter-user" target="_blank" href="http://twitter.com/$1">@$1</a>'
+				);
+			}
+
+			jQuery(document).ready(function(){
+				jQuery('p').each(function() {
+					jQuery(this).html(linkAt(jQuery(this).html()));
+				});
+			});
+			
+			jQuery('p').html(linkAt(jQuery('p').html()));  			
+			
+		</script>
+	<style type="text/css" media="all">
+/* WP Mailto Links Plugin */
+span.wpml-nodis { display:none !important; }
+span.wpml-rtl { unicode-bidi:bidi-override !important; direction:rtl !important; display:inline !important; }
+.wpml-encoded { position:absolute; margin-top:-0.3em; z-index:1000; color:green; }
+.mail-link { white-space:nowrap; }
+
+a.mail-icon-1 {
+    background-image:url("http://journalofdigitalhumanities.org/wp-content/plugins/wp-mailto-links/public/images/mail-icon-1.png");
+    background-repeat:no-repeat;
+        background-position:100% 50%; padding-right:18px;
+    }
+</style>
+<!-- begin Fast Secure reCAPTCHA - page header css -->
+<style type="text/css">
+div.fs-recaptcha-comments { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-bp-comments { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-login { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-side-login { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-registration { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-bp-registration { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-ms-registration { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-lostpassword { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-wc-checkout { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-jetpack { display:block; clear:both; margin-bottom:1em; }
+.fs-recaptcha-jetpack p { color:#DC3232; }
+</style>
+<!-- end Fast Secure reCAPTCHA - page header css -->
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+  
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+    $('#menu-table-of-contents').dcAccordion({
+		eventType: 'click',
+		hoverDelay: 0,
+		menuClose: false,
+		autoClose: true,
+		saveState: false,
+		autoExpand: true,
+		classExpand: 'current-menu-item',
+		classDisable: '',
+		showCount: false,
+		disableLink: true,
+		cookie: 'dc_jqaccordion_widget-2',
+		speed: 'fast'
+    });
+});
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//chnmdev.gmu.edu/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 70]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//chnmdev.gmu.edu/piwik/piwik.php?idsite=70" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+
+</head>
+
+<body class="post-template-default single single-post postid-4144 single-format-standard">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37455097-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><div class="wrap">
+
+<header>
+
+    <div class="container">
+        
+        <a class="site-title" href="http://journalofdigitalhumanities.org">
+            <img src="http://journalofdigitalhumanities.org/wp-content/themes/jdh/images/logo.png" alt="Journal of Digital Humanities">
+        </a>
+
+        <form role="search" method="get" id="searchform" action="http://journalofdigitalhumanities.org/">
+    <div>
+        <input type="text" value="" placeholder="Search JDH"name="s" id="s" />
+        <input type="submit" value="Search JDH" name="searchsubmit" id="searchsubmit" />
+    </div>
+</form>    
+
+        <nav>        
+            <ul class="social">
+                <li><a href="http://feeds.feedburner.com/journalofdigitalhumanities" class="RSS">Subscribe to the RSS</a></li>
+            </ul>
+
+            <div class="tabs"><ul id="menu-main-menu" class="menu"><li id="menu-item-436" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-436"><a href="http://journalofdigitalhumanities.org/about/">About</a></li>
+<li id="menu-item-2267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2267"><a href="http://journalofdigitalhumanities.org/volumes/">Volumes</a></li>
+<li id="menu-item-435" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-435"><a href="http://journalofdigitalhumanities.org/submissions/">Submissions</a></li>
+</ul></div>            
+        </nav>
+        
+    </div>
+
+</header>
+
+<section id="content" class="container row ">
+
+
+
+<div class="sidebar four columns alpha">
+    
+<h3>Table of Contents for Vol. 2, No. 1 Winter 2012</h3>
+
+<ul id="menu-table-of-contents" class="menu">
+
+        <li class="parent"><a href="http://journalofdigitalhumanities.org/category/2-1/introductions-2-1/">Introductions</a>
+            <ul class="sub-menu">
+                        <li><a href="http://journalofdigitalhumanities.org/2-1/pacing-scholarly-conversations/">Pacing Scholarly Conversations</a><br>The Editors</li><li><a href="http://journalofdigitalhumanities.org/2-1/dh-contribution-to-topic-modeling/">The Digital Humanities Contribution to Topic Modeling</a><br>Scott B. Weingart and Elijah Meeks</li>            </ul>
+        </li>
+        <li class="parent"><a href="http://journalofdigitalhumanities.org/category/2-1/beginnings/">Beginnings</a>
+            <ul class="sub-menu">
+                        <li class="current-menu-item"><a href="http://journalofdigitalhumanities.org/2-1/topic-modeling-and-digital-humanities-by-david-m-blei/">Topic Modeling and Digital Humanities</a><br>David M. Blei</li><li><a href="http://journalofdigitalhumanities.org/2-1/topic-modeling-a-basic-introduction-by-megan-r-brett/">Topic Modeling: A Basic Introduction</a><br>Megan R. Brett</li><li><a href="http://journalofdigitalhumanities.org/2-1/the-details-by-david-mimno/">The Details: Training and Validating Big Models on Big Data</a><br>David Mimno</li>            </ul>
+        </li>
+        <li class="parent"><a href="http://journalofdigitalhumanities.org/category/2-1/applications-2-1/">Applications and Critiques</a>
+            <ul class="sub-menu">
+                        <li><a href="http://journalofdigitalhumanities.org/2-1/topic-modeling-and-figurative-language-by-lisa-m-rhody/">Topic Modeling and Figurative Language</a><br>Lisa M. Rhody</li><li><a href="http://journalofdigitalhumanities.org/2-1/topic-model-data-for-topic-modeling-and-figurative-language-by-lisa-m-rhody/">Topic Model Data for Topic Modeling and Figurative Language</a><br>Lisa M. Rhody</li><li><a href="http://journalofdigitalhumanities.org/2-1/what-can-topic-models-of-pmla-teach-us-by-ted-underwood-and-andrew-goldstone/">What Can Topic Models of PMLA Teach Us About the History of Literary Scholarship?</a><br>Ted Underwood and Andrew Goldstone</li><li><a href="http://journalofdigitalhumanities.org/2-1/words-alone-by-benjamin-m-schmidt/">Words Alone: Dismantling Topic Models in the Humanities</a><br>Benjamin M. Schmidt</li><li><a href="http://journalofdigitalhumanities.org/2-1/code-appendix-for-words-alone-by-benjamin-m-schmidt/">Code Appendix for "Words Alone: Dismantling Topic Models in the Humanities"</a><br>Benjamin M. Schmidt</li>            </ul>
+        </li>
+        <li class="parent"><a href="http://journalofdigitalhumanities.org/category/2-1/reviews-2-1/">Reviews</a>
+            <ul class="sub-menu">
+                        <li><a href="http://journalofdigitalhumanities.org/2-1/review-mallet-by-ian-milligan-and-shawn-graham/">Review of MALLET, produced by Andrew Kachites McCallum</a><br>Ian Milligan and Shawn Graham</li><li><a href="http://journalofdigitalhumanities.org/2-1/review-papermachines-by-adam-crymble/">Review of Paper Machines, produced by Chris Johnson-Roberson and Jo Guldi</a><br>Adam Crymble</li>            </ul>
+        </li>
+        <li class="parent"><a href="http://journalofdigitalhumanities.org/category/2-1/respond-2-1/">Respond</a>
+            <ul class="sub-menu">
+                        <li><a href="http://journalofdigitalhumanities.org/2-1/respond-to-jdh-2-1/">Respond to JDH 2.1</a><br>The Editors</li><li><a href="http://journalofdigitalhumanities.org/2-1/responses-from-twitter/">Responses from Twitter</a><br>The Editors</li>            </ul>
+        </li>
+   
+    <li><a href="http://journalofdigitalhumanities.org/authors/">Authors</a></li>
+</ul>
+</div>
+    
+<div id="article" class="ten columns offset-by-two omega">
+
+
+    <h1>Topic Modeling and Digital Humanities</h1>
+    
+            <h4 class="author-name"><a href="http://journalofdigitalhumanities.org/author/dblei/" title="Posts by David M. Blei" class="author url fn" rel="author">David M. Blei</a></h4>
+        
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Focoins.info%3Agenerator&amp;rft.type=&amp;rft.format=text&amp;rft.title=Topic+Modeling+and+Digital+Humanities&amp;rft.source=Journal+of+Digital+Humanities&amp;rft.date=2013-04-08&amp;rft.identifier=http%3A%2F%2Fjournalofdigitalhumanities.org%2F2-1%2Ftopic-modeling-and-digital-humanities-by-david-m-blei%2F&amp;rft.language=English&amp;rft.subject=Beginnings&amp;rft.subject=Vol.+2%2C+No.+1+Winter+2012&amp;rft.aulast=Blei&amp;rft.aufirst=David+M."></span><h3>Introduction</h3>
+<p>Topic modeling provides a suite of algorithms to discover hidden thematic structure in large collections of texts. The results of topic modeling algorithms can be used to summarize, visualize, explore, and theorize about a corpus.</p>
+<p>A topic model takes a collection of texts as input. It discovers a set of &#8220;topics&#8221; &#8212; recurring themes that are discussed in the collection &#8212; and the degree to which each document exhibits those topics. Figure 1 illustrates topics found by running a topic model on 1.8 million articles from the <em>New York Times</em>. The model gives us a framework in which to explore and analyze the texts, but we did not need to decide on the topics in advance or painstakingly code each document according to them. The model algorithmically finds a way of representing documents that is useful for navigating and understanding the collection.</p>
+<p>In this essay I will discuss topic models and how they relate to digital humanities. I will describe latent Dirichlet allocation, the simplest topic model. I will explain what a &#8220;topic&#8221; is from the mathematical perspective and why algorithms can discover topics from collections of texts.<sup>[<a href="#topic-modeling-and-digital-humanities-by-david-m-blei-n-1" class="footnoted" id="to-topic-modeling-and-digital-humanities-by-david-m-blei-n-1">1</a>]</sup></p>
+<p>I will then discuss the broader field of probabilistic modeling, which gives a flexible language for expressing assumptions about data and a set of algorithms for computing under those assumptions. With probabilistic modeling for the humanities, the scholar can build a statistical lens that encodes her specific knowledge, theories, and assumptions about texts. She can then use that lens to examine and explore large archives of real sources.</p>
+<h3>Topics</h3>
+<div id="attachment_4370" style="width: 310px" class="wp-caption aligncenter"><a href="http://journalofdigitalhumanities.org/wp-content/uploads/2013/02/nyt.jpg" target="_blank"><img class="size-large wp-image-4370   " title="Figure 1: Some of the topics found by analyzing 1.8 million articles from the New York Times. Each panel illustrates a set of tightly co-occurring terms in the collection. Hoffman, M., Blei, D. Wang, C. and Paisley, J. “Stochastic variational inference.” Journal of Machine Learning Research, forthcoming." alt="Figure 1: Some of the topics found by analyzing 1.8 million articles from the New York Times. Each panel illustrates a set of tightly co-occurring terms in the collection. Hoffman, M., Blei, D. Wang, C. and Paisley, J. “Stochastic variational inference.” Journal of Machine Learning Research, forthcoming." src="http://journalofdigitalhumanities.org/wp-content/uploads/2013/02/nyt-300x148.jpg" width="300" height="148" srcset="http://journalofdigitalhumanities.org/wp-content/uploads/2013/02/nyt-300x148.jpg 300w, http://journalofdigitalhumanities.org/wp-content/uploads/2013/02/nyt-1024x508.jpg 1024w, http://journalofdigitalhumanities.org/wp-content/uploads/2013/02/nyt.jpg 1167w" sizes="(max-width: 300px) 100vw, 300px" /></a><p class="wp-caption-text">Figure 1: Some of the topics found by analyzing 1.8 million articles from the <i>New York Times</i>. Each panel illustrates a set of tightly co-occurring terms in the collection. Hoffman, M., Blei, D. Wang, C. and Paisley, J. “Stochastic variational inference.” <i>Journal of Machine Learning Research</i>, forthcoming.</p></div>
+<p>The simplest topic model is latent Dirichlet allocation (LDA), which is a probabilistic model of texts. Loosely, it makes two assumptions:</p>
+<ol>
+<li>There are a fixed number of patterns of word use, groups of terms that tend to occur together in documents. Call them<em> topics</em>.</li>
+<li>Each document in the corpus exhibits the topics to varying degree.</li>
+</ol>
+<p>For example, suppose two of the topics are <em>politics</em> and <em>film</em>. LDA will represent a book like James E. Combs and Sara T. Combs&#8217; <em>Film Propaganda and American Politics: An Analysis and Filmography</em> as partly about <em>politics</em> and partly about <em>film</em>.</p>
+<p>We can use the topic representations of the documents to analyze the collection in many ways. For example, we can isolate a subset of texts based on which combination of topics they exhibit (such as <em>film</em> and <em>politics</em>). Or, we can examine the words of the texts themselves and restrict attention to the <em>politics</em> words, finding similarities between them or trends in the language. Note that this latter analysis factors out other topics (such as <em>film</em>) from each text in order to focus on the topic of interest.</p>
+<p>Both of these analyses require that we know the topics and which topics each document is about. Topic modeling algorithms uncover this structure. They analyze the texts to find a set of topics &#8212; patterns of tightly co-occurring terms &#8212; and how each document combines them. Researchers have developed fast algorithms for discovering topics; the analysis of of 1.8 million articles in Figure 1 took only a few hours on a single computer.</p>
+<p>What exactly is a topic? Formally, a topic is a probability distribution over terms. In each topic, different sets of terms have high probability, and we typically visualize the topics by listing those sets (again, see Figure 1). As I have mentioned, topic models find the sets of terms that tend to occur together in the texts.<sup>[<a href="#topic-modeling-and-digital-humanities-by-david-m-blei-n-2" class="footnoted" id="to-topic-modeling-and-digital-humanities-by-david-m-blei-n-2">2</a>]</sup> They look like &#8220;topics&#8221; because terms that frequently occur together tend to be about the same subject.</p>
+<p>But what comes after the analysis? Some of the important open questions in topic modeling have to do with how we use the output of the algorithm: How should we visualize and navigate the topical structure? What do the topics and document representations tell us about the texts? The humanities, fields where questions about texts are paramount, is an ideal testbed for topic modeling and fertile ground for interdisciplinary collaborations with computer scientists and statisticians.</p>
+<h3>The Wider World of Probabilistic Models</h3>
+<p>Topic modeling sits in the larger field of <em>probabilistic</em><em> modeling</em>, a field that has great potential for the humanities. Traditionally, statistics and machine learning gives a &#8220;cookbook&#8221; of methods, and users of these tools are required to match their specific problems to general solutions. In probabilistic modeling, we provide a language for expressing assumptions about data and generic methods for computing with those assumptions. As this field matures, scholars will be able to easily tailor sophisticated statistical methods to their individual expertise, assumptions, and theories.<sup>[<a href="#topic-modeling-and-digital-humanities-by-david-m-blei-n-3" class="footnoted" id="to-topic-modeling-and-digital-humanities-by-david-m-blei-n-3">3</a>]</sup></p>
+<p>In particular, LDA is a type of probabilistic model with hidden variables. Viewed in this context, LDA specifies a <em>generative process</em>, an imaginary probabilistic recipe that produces both the hidden topic structure and the observed words of the texts. Topic modeling algorithms perform what is called <em>probabilistic</em><em> inference</em>. Given a collection of texts, they reverse the imaginary generative process to answer the question &#8220;What is the likely hidden topical structure that generated my observed documents?&#8221;</p>
+<p>The generative process for LDA is as follows. First choose the topics, each one from a distribution over distributions. Then, for each document, choose topic weights to describe which topics that document is about. Finally, for each word in each document, choose a topic assignment &#8212; a pointer to one of the topics &#8212; from those topic weights and then choose an observed word from the corresponding topic. Each time the model generates a new document it chooses new topic weights, but the topics themselves are chosen once for the whole collection.<sup>[<a href="#topic-modeling-and-digital-humanities-by-david-m-blei-n-4" class="footnoted" id="to-topic-modeling-and-digital-humanities-by-david-m-blei-n-4">4</a>]</sup> I emphasize that this is a conceptual process. It defines the mathematical model where a set of topics describes the collection, and each document exhibits them to different degree. The inference algorithm (like the one that produced Figure 1) finds the topics that best describe the collection under these assumptions.</p>
+<p>Probabilistic models beyond LDA posit more complicated hidden structures and generative processes of the texts. As examples, we have developed topic models that include syntax, topic hierarchies, document networks, topics drifting through time, readers&#8217; libraries, and the influence of past articles on future articles. Each of these projects involved positing a new kind of topical structure, embedding it in a generative process of documents, and deriving the corresponding inference algorithm to discover that structure in real collections. Each led to new kinds of inferences and new ways of visualizing and navigating texts.</p>
+<p>What does this have to do with the humanities? Here is the rosy vision. A humanist imagines the kind of hidden structure that she wants to discover and embeds it in a model that generates her archive. The form of the structure is influenced by her theories and knowledge &#8212; time and geography, linguistic theory, literary theory, gender, author, politics, culture, history. With the model and the archive in place, she then runs an algorithm to estimate how the imagined hidden structure is realized in actual texts. Finally, she uses those estimates in subsequent study, trying to confirm her theories, forming new theories, and using the discovered structure as a lens for exploration. She discovers that her model falls short in several ways. She revises and repeats.</p>
+<p>Note that the statistical models are meant to help interpret and understand texts; it is still the scholar&#8217;s job to do the actual interpreting and understanding. A model of texts, built with a particular theory in mind, cannot provide evidence for the theory.<sup>[<a href="#topic-modeling-and-digital-humanities-by-david-m-blei-n-5" class="footnoted" id="to-topic-modeling-and-digital-humanities-by-david-m-blei-n-5">5</a>]</sup> (After all, the theory is built into the assumptions of the model.) Rather, the hope is that the model helps point us to such evidence. Using humanist texts to do humanist scholarship is the job of a humanist.</p>
+<p>In summary, researchers in probabilistic modeling separate the essential activities of designing models and deriving their corresponding inference algorithms. The goal is for scholars and scientists to creatively design models with an intuitive language of components, and then for computer programs to derive and execute the corresponding inference algorithms with real data. The research process described above &#8212; where scholars interact with their archive through iterative statistical modeling &#8212; will be possible as this field matures.</p>
+<h3>Discussion</h3>
+<p>I reviewed the simple assumptions behind LDA and the potential for the larger field of probabilistic modeling in the humanities. Probabilistic models promise to give scholars a powerful language to articulate assumptions about their data and fast algorithms to compute with those assumptions on large archives. I hope for continued collaborations between humanists and computer scientists/statisticians. With such efforts, we can build the field of probabilistic modeling for the humanities, developing modeling components and algorithms that are tailored to humanistic questions about texts.</p>
+<h3>Acknowledgments</h3>
+<p>The author thanks Jordan Boyd-Graber, Matthew Jockers, Elijah Meeks, and David Mimno for helpful comments on an earlier draft of this article.</p>
+
+<ol class="footnotes">
+	<li class="footnote" id="topic-modeling-and-digital-humanities-by-david-m-blei-n-1"><strong><sup>[1]</sup></strong>See Blei, D. 2012. “Probabilistic Topic Models.” <i>Communications of the ACM</i> 55 (4): 77–84. doi: 10.1145/2133806.2133826 for a technical review of topic modeling (and citations). Available online: <a title=" Blei, D. 2012. “Probabilistic Topic Models.” " href="http://www.cs.princeton.edu/~blei/papers/Blei2012.pdf" target="_blank">http://www.cs.princeton.edu/~blei/papers/Blei2012.pdf</a>.<a class="note-return" href="#to-topic-modeling-and-digital-humanities-by-david-m-blei-n-1">&#x21A9;</a></li>
+	<li class="footnote" id="topic-modeling-and-digital-humanities-by-david-m-blei-n-2"><strong><sup>[2]</sup></strong>Some readers may be interested in the details of why topic modeling finds tightly co-occurring sets of terms. Topic modeling algorithms search through the space of possible topics and document weights to find a good representation of the collection of documents. Mathematically, the topic model has two goals in explaining the documents. First, it wants its topics to place high probability on few terms. Second, it wants to attach documents to as few topics as possible. These goals are at odds. With few terms assigned to each topic, the model captures the observed words by using more topics per article. With few topics assigned to each article, the model captures the observed words by using more terms per topic.</p>
+<p>This trade-off arises from how model implements the two assumptions described in the beginning of the article. In particular, both the topics and the document weights are probability distributions. The topics are distributions over terms in the vocabulary; the document weights are distributions over topics. (For example, if there are 100 topics then each set of document weights is a distribution over 100 items.)</p>
+<p>Distributions must sum to one. On both topics and document weights, the model tries to make the probability mass as concentrated as possible. Thus, when the model assigns higher probability to few terms in a topic, it must spread the mass over more topics in the document weights; when the model assigns higher probability to few topics in a document, it must spread the mass over more terms in the  topics.<a class="note-return" href="#to-topic-modeling-and-digital-humanities-by-david-m-blei-n-2">&#x21A9;</a></li>
+	<li class="footnote" id="topic-modeling-and-digital-humanities-by-david-m-blei-n-3"><strong><sup>[3]</sup></strong>Technical books about this field include Bishop, C. 2006. <em>Pattern Recognition and Machine Learning. </em>Springer;  Koller, D. and Friedman, N. 2009. <em>Probabilistic Graphical Models: Principles and Techniques. </em>MIT Press; and Murphy, K. 2013. <em>Machine Learning: A Probabilistic Approach.</em> MIT Press.<a class="note-return" href="#to-topic-modeling-and-digital-humanities-by-david-m-blei-n-3">&#x21A9;</a></li>
+	<li class="footnote" id="topic-modeling-and-digital-humanities-by-david-m-blei-n-4"><strong><sup>[4]</sup></strong>The name &#8220;latent Dirichlet allocation&#8221; comes from the specification of this generative process. In particular, the document weights come from a <em>Dirichlet</em> distribution &#8212; a distribution that produces other distributions &#8212; and those weights are responsible for <em>allocating</em> the words of the document to the topics of the collection. The document weights are hidden variables, also known as <em>latent</em> variables.<a class="note-return" href="#to-topic-modeling-and-digital-humanities-by-david-m-blei-n-4">&#x21A9;</a></li>
+	<li class="footnote" id="topic-modeling-and-digital-humanities-by-david-m-blei-n-5"><strong><sup>[5]</sup></strong>There are some methods. For an excellent discussion of these issues in the context of the philosophy of science, see Gelman, A., and C.R. Shalizi. 2012. “Philosophy and the Practice of Bayesian Statistics.” <i>British Journal of Mathematical and Statistical Psychology 661</i> (2013): 8-38. doi: 10.1111/j.2044-8317.2011.02037.x.<a class="note-return" href="#to-topic-modeling-and-digital-humanities-by-david-m-blei-n-5">&#x21A9;</a></li></ol>
+
+        
+    <div class="author-bio">
+    
+        <h2>
+            About 
+            David M. Blei        </h2>
+        
+
+        <div class="gravatar"><img alt='' src='http://1.gravatar.com/avatar/4333dbbbe1beabcd503482d274470765?s=52&#038;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&#038;r=g' srcset='http://1.gravatar.com/avatar/4333dbbbe1beabcd503482d274470765?s=104&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&amp;r=g 2x' class='avatar avatar-52 photo' height='52' width='52' /></div><p class="coauthor">David M. Blei is an associate professor of Computer Science at Princeton University.   His research focuses on probabilistic topic models, Bayesian nonparametric methods, and approximate posterior inference.  He works on a variety of applications, including text, images, music, social networks, and various scientific data.</p>    
+    </div>
+	
+        
+    		
+	
+    
+		<script type="text/javascript">
+		/* <![CDATA[ */
+		(function() {
+		var s = document.createElement("script"); s.type = "text/javascript"; s.src = "https://intensedebate.com/js/wordpressTemplateLinkWrapper2.php?acct=e54add4303ff6f42f7f1f553a1f13497"; document.getElementsByTagName("head")[0].appendChild(s);
+		}());
+		/* ]]> */
+		</script>
+    </div> <!-- ends article -->
+        
+</section> <!-- ends colmask -->
+
+</div> <!-- ends wrap -->
+
+<footer>
+    <nav class="container">
+    			<div class="execphpwidget"><div class="sixteen columns alpha">
+<a href="http://www.pressforward.org" target="_blank"><img src="http://journalofdigitalhumanities.org/wp-content/themes/jdh/images/pressforward.png" alt="Press Forward"></a>
+<a href="http://www.chnm.gmu.edu" target="_blank"><img src="http://journalofdigitalhumanities.org/wp-content/themes/jdh/images/rrchnm.png" alt="Roy Rosenzweig Center for History & New Media"></a>
+<div class="creative-commons">
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+</div>
+</div></div>
+		    </nav>
+</footer>
+
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/respond.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/selectivizr-min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/jquery.cookie.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/jquery.hoverIntent.minified.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/jquery.dcjqaccordion.2.7.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-includes/js/comment-reply.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-includes/js/wp-embed.min.js?ver=4.7.5'></script>
+</body>
+</html>

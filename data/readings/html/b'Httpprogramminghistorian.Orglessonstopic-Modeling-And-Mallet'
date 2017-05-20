@@ -1,0 +1,1384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <meta name="citation_title" content="Getting Started with Topic Modeling and MALLET" />
+
+<meta name="citation_author" content="Shawn Graham" />
+
+<meta name="citation_author" content="Scott Weingart" />
+
+<meta name="citation_author" content="Ian Milligan" />
+
+<meta name="citation_publication_date" content="2012-09-02" />
+<meta name="citation_journal_title" content="Programming Historian" />
+<meta name="citation_public_url" content="http://programminghistorian.org/lessons/topic-modeling-and-mallet" />
+
+    
+    <!--https://dev.twitter.com/cards/-->
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@ProgHist" />
+<meta name="twitter:title" content="Getting Started with Topic Modeling and MALLET" />
+
+
+    <meta name="twitter:description" content="Editor's Note
+-------------
+
+This lesson requires you to use the command line. If you have no
+previous experience using the command line you may find it helpful to
+work through the Programming H..." />
+
+
+
+    <meta name="twitter:image" content="http://programminghistorian.org/gallery/topic-modeling-and-mallet.png" />
+
+
+
+
+
+
+
+    <!-- Mobile viewport optimized: h5bp.com/viewport -->
+    <meta name="viewport" content="width=device-width">
+    
+    <!--Font awesome CDN -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700|Crete+Round' rel='stylesheet' type='text/css'>
+    <link href="/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/github.css">
+    <link href='/feed.xml' rel='alternate' type='application/atom+xml'>
+    <title>Getting Started with Topic Modeling and MALLET | Programming Historian</title>
+        
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/ui.js"></script>
+    <script type="text/javascript" src="/js/ext_links.js"></script>
+    <script type="text/javascript" src="/js/header_links.js"></script>
+    <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <script>
+      $(document).ready(function(){
+        $('.slide-trigger').collapsable();
+      });
+    </script>
+
+    <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2752866-8']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+  </head>
+
+
+
+
+  <body>
+
+    <header role="banner">
+
+    <h1><a href="/">The Programming Historian</a></h1>
+
+    <div class="additional">
+<ul id="menu-main-menu" class="additional">
+
+
+            <li class="menu-item"><a href="/">About</a></li>
+            <li class="menu-item"><a href="/lessons">Lessons</a></li>
+            <li class="menu-item"><a href="/contribute">Contribute</a></li>
+            <li class="menu-item"><a href="/project-team">Project Team</a></li>
+            <li class="menu-item"><a href="/research">Research</a></li>
+            <li class="menu-item"><a href="/blog">Blog</a></li>
+	    <li class="menu-item"><a href="/es">Español</a></li>
+
+
+
+
+</ul>
+</div>
+
+
+	</header>
+
+    <div role="main">
+        <article>
+
+	        <header>
+
+    
+                
+     <p class="kicker">2012-09-02</p>
+ 
+     <h1><a href="http://programminghistorian.org/lessons/topic-modeling-and-mallet">Getting Started with Topic Modeling and MALLET</a></h1>
+
+     <p class="byline">
+
+
+
+By 
+
+      
+           
+                 Shawn Graham
+           
+      
+           
+		         , Scott Weingart
+           
+      
+           
+           and Ian Milligan
+           
+      
+
+
+</p>
+
+     <ul class="credits">
+         
+
+
+
+
+
+
+
+Reviewed by 
+
+  John Fink, Alan MacEachern, and Adam Crymble
+
+
+
+         <br/>
+         
+         
+            
+
+
+   Recommended for 
+        
+        Intermediate
+        
+   Users
+
+
+
+         
+     </ul>
+                
+     </header>
+
+     
+
+     <div class="content">
+         <h2 id="editors-note">Editor’s Note</h2>
+
+<p>This lesson requires you to use the command line. If you have no
+previous experience using the command line you may find it helpful to
+work through the Programming Historian <a href="http://programminghistorian.org/lessons/intro-to-bash">Bash Command Line</a> lesson.</p>
+
+<h2 id="lesson-goals">Lesson Goals</h2>
+
+<p>In this lesson you will first learn what <em>topic modeling</em> is and why you
+might want to employ it in your research. You will then learn how to
+install and work with the MALLET <em>natural language processing</em> toolkit
+to do so. MALLET involves modifying an <em>environment variable</em>
+(essentially, setting up a short-cut so that your computer always knows
+where to find the MALLET program) and working with the <em>command line</em>
+(ie, by typing in commands manually, rather than clicking on icons or
+menus). We will run the topic modeller on some example files, and look
+at the kinds of outputs that MALLET installed. This will give us a
+good idea of how it can be used on a corpus of texts to identify topics
+found in the documents without reading them individually.</p>
+
+<p>Please see the MALLET users’ <a href="http://mallet.cs.umass.edu/mailinglist.php">discussion list</a> for the full range of
+things one can do with the software.</p>
+
+<p>(We would like to thank Robert Nelson and Elijah Meeks for hints and
+tips in getting MALLET to run for us the first time, and for their
+examples of what can be done with this tool.)</p>
+
+<h2 id="what-is-topic-modeling-and-for-whom-is-this-useful">What is Topic Modeling And For Whom is this Useful?</h2>
+
+<p>A <em>topic modeling</em> tool takes a single text (or corpus) and looks for
+patterns in the use of words; it is an attempt to inject semantic
+meaning into vocabulary. Before you begin with topic modeling, you
+should ask yourself whether or not it is likely to be useful for your
+project. Matthew Kirschenbaum’s <em><a href="http://www.cs.umbc.edu/~hillol/NGDM07/abstracts/talks/MKirschenbaum.pdf">Distant Reading</a></em> (a talk given at the
+2009 National Science Foundation Symposium on the Next Generation of
+Data Mining and Cyber-Enabled Discovery for Innovation) and Stephen
+Ramsay’s <em><a href="http://www.worldcat.org/title/reading-machines-toward-an-algorithmic-criticism/oclc/708761605&amp;referer=brief_results">Reading Machines</a></em> are good places for beginning to
+understand in which circumstances a technique such as this could be most
+effective. As with all tools, just because you can use it, doesn’t
+necessarily mean that you should. If you are working with a small number
+of documents (or even a single document) it may well be that simple
+frequency counts are sufficient, in which case something like <a href="http://voyant-tools.org">Voyant
+Tools</a> might be appropriate. However, if you have hundreds of
+documents from an archive and you wish to understand something of what
+the archive contains without necessarily reading every document, then
+topic modeling might be a good approach.</p>
+
+<p>Topic models represent a family of computer programs that extract
+<em>topics</em> from <em>texts</em>. A topic to the computer is a list of words that
+occur in statistically meaningful ways. A text can be an email, a blog
+post, a book chapter, a journal article, a diary entry – that is, any
+kind of unstructured text. By unstructured we mean that there are no
+computer-readable annotations that tell the computer the semantic
+meaning of the words in the text.</p>
+
+<p>Topic modeling programs do not know anything about the meaning of the
+words in a text. Instead, they assume that any piece of text is composed
+(by an author) by selecting words from possible baskets of words where
+each basket corresponds to a topic. If that is true, then it becomes
+possible to mathematically decompose a text into the probable baskets
+from whence the words first came. The tool goes through this process
+over and over again until it settles on the most likely distribution of
+words into baskets, which we call topics.</p>
+
+<p>There are many different topic modeling programs available; this
+tutorial uses one called MALLET. If one used it on a series of
+political speeches for example, the program would return a list of
+topics and the keywords composing those topics. Each of these lists is a
+topic according to the algorithm. Using the example of political
+speeches, the list might look like:</p>
+
+<ol>
+  <li>Job Jobs Loss Unemployment Growth</li>
+  <li>Economy Sector Economics Stock Banks</li>
+  <li>Afghanistan War Troops Middle-East Taliban Terror</li>
+  <li>Election Opponent Upcoming President</li>
+  <li><em>et cetera</em></li>
+</ol>
+
+<p>By examining the keywords we can discern that the politician who gave
+the speeches was concerned with the economy, jobs, the Middle East, the
+upcoming election, and so on.</p>
+
+<p>As Scott Weingart warns, there are many <a href="http://www.scottbot.net/HIAL/?p=16713">dangers</a> that face those who
+use topic modeling without fully understanding it. For instance, we
+might be interested in word use as a proxy for placement along a
+political spectrum. Topic modeling could certainly help with that, but
+we have to remember that the proxy is not in itself the thing we seek to
+understand – as Andrew Gelman demonstrates in his mock study of <a href="http://arxiv.org/abs/1003.6087/">zombies
+using Google Trends</a>. Ted Underwood and Lisa Rhody (see Further
+Reading) argue that we as historians would be better to think of these
+categories as discourses; however for our purposes here we will continue
+to use the word: topic.</p>
+
+<p>Note: You will sometimes come across the term “<em>LDA</em>” when looking into
+the bibliography of topic modeling. LDA and Topic Model are often used
+synonymously, but the LDA technique is actually a special case of topic
+modeling created by <a href="http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation">David Blei and friends</a> in 2002. It was not the
+first technique now considered topic modeling, but it is by far the most
+popular. The myriad variations of topic modeling have resulted in an
+alphabet soup of techniques and programs to implement them that might be
+confusing or overwhelming to the uninitiated; ignore them for now. They
+all work in much the same way. MALLET uses LDA.</p>
+
+<h3 id="examples-of-topic-models-employed-by-historians">Examples of topic models employed by historians:</h3>
+
+<ul>
+  <li>Rob Nelson, <em><a href="http://dsl.richmond.edu/dispatch/">Mining the Dispatch</a></em></li>
+  <li>Cameron Blevins, “<a href="http://historying.org/2010/04/01/topic-modeling-martha-ballards-diary/">Topic Modeling Martha Ballard’s Diary</a>”
+<em>Historying</em>, April 1, 2010.</li>
+  <li>David J Newman and Sharon Block, “Probabilistic topic decomposition
+of an eighteenth century American newspaper,” <em>Journal of the
+American Society for Information Science and Technology</em> vol. 57,
+no. 6 (April 1, 2006): 753-767.</li>
+</ul>
+
+<h2 id="installing-mallet">Installing MALLET</h2>
+
+<p>There are many tools one could use to create topic models, but at the
+time of this writing (summer 2012) the simplest tool to run your text
+through is called MALLET. <a href="http://mallet.cs.umass.edu/index.php">MALLET</a> uses an implementation of
+<a href="http://en.wikipedia.org/wiki/Gibbs_sampling"><em>Gibbs sampling</em></a>, a statistical technique meant to quickly construct
+a sample distribution, to create its topic models. MALLET requires
+using the command line – we’ll talk about that more in a moment,
+although you typically use the same few commands over and over.</p>
+
+<p><strong>While there is currently a preview release of MALLET 2.0.8 available, this
+lesson uses the official release of MALLET 2.0.7. If you are following
+along with our instructions, please be sure to download the correct version.</strong></p>
+
+<p>The installation instructions are different for Windows and Mac. Follow
+the instructions appropriate for you below:</p>
+
+<!--figure tags without plugin: http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll -->
+
+<figure>
+<a href="/images/topic-modeling-and-mallet/windows-150x150.png">
+    <img src="/images/topic-modeling-and-mallet/windows-150x150.png" alt="" />
+	</a>
+<figcaption>
+    
+
+</figcaption>
+</figure>
+
+<h3 id="windows-instructions">Windows Instructions</h3>
+
+<ol>
+  <li>Go to the <a href="http://mallet.cs.umass.edu/index.php">MALLET</a> project page, and <a href="http://mallet.cs.umass.edu/dist/mallet-2.0.7.tar.gz"><code class="highlighter-rouge">download MALLET</code></a>. (As
+of this writing, remember, we are working with version 2.0.7.)</li>
+  <li>You will also need the <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java developer’s kit</a> – that is, not the
+regular Java that’s on every computer, but the one that lets you
+program things. Install this on your computer.</li>
+  <li>Unzip MALLET into your <code class="highlighter-rouge">C:</code> directory . This is important: it
+cannot be anywhere else. You will then have a directory called
+<code class="highlighter-rouge">C:\mallet-2.0.7</code> or similar. For simplicity’s sake, rename this
+directory just <code class="highlighter-rouge">mallet</code>.</li>
+  <li>MALLET uses an <em>environment variable</em> to tell the computer where to
+find all the various components of its processes when it is running.
+It’s rather like a shortcut for the program. A programmer cannot
+know exactly where every user will install a program, so the
+programmer creates a variable in the code that will always stand in
+for that location. We tell the computer, once, where that location
+is by setting the environment variable. If you moved the program to
+a new location, you’d have to change the variable.</li>
+</ol>
+
+<p>To create an environment variable in Windows 7, click on your
+<code class="highlighter-rouge">Start Menu -&gt; Control Panel -&gt; System -&gt; Advanced System Settings</code>
+(Figures 1,2,3). Click new and type <code class="highlighter-rouge">MALLET_HOME</code> in the variable name
+box. It must be like this – all caps, with an underscore – since that is
+the shortcut that the programmer built into the program and all of its
+subroutines. Then type the exact path (location) of where you unzipped
+MALLET in the variable value, e.g., <code class="highlighter-rouge">c:\mallet</code>.</p>
+
+<p>To see if you have been successful, please read on to the next section.</p>
+
+<!--figure tags without plugin: http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll -->
+
+<figure>
+<a href="/images/topic-modeling-and-mallet/fig1-advanced-system-settings.png">
+    <img src="/images/topic-modeling-and-mallet/fig1-advanced-system-settings.png" alt="Figure 1: Advanced System Settings on Windows" />
+	</a>
+<figcaption>
+    <p>Figure 1: Advanced System Settings on Windows</p>
+
+</figcaption>
+</figure>
+
+<!--figure tags without plugin: http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll -->
+
+<figure>
+<a href="/images/topic-modeling-and-mallet/fig2-environment-variables-location.png">
+    <img src="/images/topic-modeling-and-mallet/fig2-environment-variables-location.png" alt="Figure 2: Environment Variables Location" />
+	</a>
+<figcaption>
+    <p>Figure 2: Environment Variables Location</p>
+
+</figcaption>
+</figure>
+
+<!--figure tags without plugin: http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll -->
+
+<figure>
+<a href="/images/topic-modeling-and-mallet/fig3-environment-variable.png">
+    <img src="/images/topic-modeling-and-mallet/fig3-environment-variable.png" alt="Figure 3: Environment Variable" />
+	</a>
+<figcaption>
+    <p>Figure 3: Environment Variable</p>
+
+</figcaption>
+</figure>
+
+<h4 id="running-mallet-using-the-command-line">Running MALLET using the Command Line</h4>
+
+<p>MALLET is run from the command line, also known as <em>Command Prompt</em>
+(Figure 4). If you remember MS-DOS, or have ever played with a Unix
+computer Terminal, this will be familiar. The command line is where you
+can type commands directly, rather than clicking on icons and menus.</p>
+
+<!--figure tags without plugin: http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll -->
+
+<figure>
+<a href="/images/topic-modeling-and-mallet/fig-4-command-prompt-window.png">
+    <img src="/images/topic-modeling-and-mallet/fig-4-command-prompt-window.png" alt="Figure 4: Command Prompt on Windows" />
+	</a>
+<figcaption>
+    <p>Figure 4: Command Prompt on Windows</p>
+
+</figcaption>
+</figure>
+
+<ol>
+  <li>Click on your
+<code class="highlighter-rouge">Start Menu -&gt; All Programs -&gt; Accessories -&gt; Command Prompt</code>.\
+ You’ll get the command prompt window, which will have a cursor at
+<code class="highlighter-rouge">c:\user\user&gt;</code> (or similar; see Figure 4).</li>
+  <li>Type <code class="highlighter-rouge">cd ..</code> (That is: cd-space-period-period) to <em>change
+directory</em>. Keep doing this until you’re at the <code class="highlighter-rouge">C:\</code> . (as in
+Figure 5)</li>
+</ol>
+
+<!--figure tags without plugin: http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll -->
+
+<figure>
+<a href="/images/topic-modeling-and-mallet/fig-5-command-prompt-window-getting-to-c.png">
+    <img src="/images/topic-modeling-and-mallet/fig-5-command-prompt-window-getting-to-c.png" alt="Figure 5: Navigating to the C:\ Directory in Command Prompt" />
+	</a>
+<figcaption>
+    <p>Figure 5: Navigating to the C:\ Directory in Command Prompt</p>
+
+</figcaption>
+</figure>
+
+<ol>
+  <li>Then type <code class="highlighter-rouge">cd mallet </code>and you are in the MALLETdirectory. Anything
+you type in the command prompt window is a <em>command</em>. There are
+commands like <code class="highlighter-rouge">cd</code> (change directory) and <code class="highlighter-rouge">dir</code> (list directory
+contents) that the computer understands. You have to tell the
+computer explicitly that ‘this is a MALLET command’ when you want
+to use MALLET. You do this by telling the computer to grab its
+instructions from the MALLET <em>bin</em>, a subfolder in MALLET that
+contains the core operating routines.</li>
+  <li>Type <code class="highlighter-rouge">bin\mallet</code> as in Figure 6. If all has gone well, you should
+be presented with a list of MALLET commands – congratulations! If
+you get an error message, check your typing. Did you use the wrong
+slash? Did you set up the environment variable correctly? Is
+MALLET located at <code class="highlighter-rouge">C:\mallet</code> ?</li>
+</ol>
+
+<!--figure tags without plugin: http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll -->
+
+<figure>
+<a href="/images/topic-modeling-and-mallet/fig-6command-prompt-mallet-installed.png">
+    <img src="/images/topic-modeling-and-mallet/fig-6command-prompt-mallet-installed.png" alt="Figure 6: Command Prompt MALLET Installed" />
+	</a>
+<figcaption>
+    <p>Figure 6: Command Prompt MALLET Installed</p>
+
+</figcaption>
+</figure>
+
+<p>You are now ready to skip ahead to the next section.</p>
+
+<!--figure tags without plugin: http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll -->
+
+<figure>
+<a href="/images/topic-modeling-and-mallet/apple-150x150.png">
+    <img src="/images/topic-modeling-and-mallet/apple-150x150.png" alt="" />
+	</a>
+<figcaption>
+    
+
+</figcaption>
+</figure>
+
+<h3 id="mac-instructions">Mac Instructions</h3>
+
+<p>Many of the instructions for OS X installation are similar to Windows,
+with a few differences. In fact, it is a bit easier.</p>
+
+<ol>
+  <li>Download and <a href="http://mallet.cs.umass.edu/dist/mallet-2.0.7.tar.gz">install MALLET 2.0.7 (<em>mallet-2.0.7.tar.gaz</em> as of Summer
+2012).</a></li>
+  <li>Download the <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java Development Kit</a>.</li>
+</ol>
+
+<p>Unzip MALLET into a directory on your system (for ease of following
+along with this tutorial, your <code class="highlighter-rouge">/user/</code> directory works but anywhere is
+okay). Once it is unzipped, open up your Terminal window (in the
+<code class="highlighter-rouge">Applications</code> directory in your Finder. Navigate to the directory where
+you unzipped MALLET using the Terminal (it will be <code class="highlighter-rouge">mallet-2.0.7</code> . If
+you unzipped it into your <code class="highlighter-rouge">/user/</code> directory as was suggested in this
+lesson, you can navigate to the correct directory by typing
+<code class="highlighter-rouge">cd mallet-2.0.7</code>). cd is short for “change directory” when working in
+the Terminal.</p>
+
+<p>The same command will suffice to run commands from this directory,
+except you need to append <code class="highlighter-rouge">./</code> (period-slash) before each command. This
+needs to be done before all MALLET commands when working on a Mac.</p>
+
+<p>Going forward, the commands for MALLET on a Mac will be nearly
+identical to those on Windows, except for the direction of slashes
+(there are a few other minor differences that will be noted when they
+arise). If on Windows a command would be <code class="highlighter-rouge">\bin\mallet</code>, on a Mac you
+would instead type:</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>./bin/mallet
+</code></pre>
+</div>
+
+<p>A list of commands should appear. If it does, congratulations – you’ve
+installed it correctly!</p>
+
+<h2 id="typing-in-mallet-commands">Typing in MALLET Commands</h2>
+
+<p>Now that you have MALLET installed, it is time to learn what commands
+are available to use with the program. There are nine MALLET commands
+you can use (see Figure 6 above). Sometimes you can combine multiple
+instructions. At the Command Prompt or Terminal (depending on your
+operating system), try typing:</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>import-dir --help
+</code></pre>
+</div>
+
+<p>You are presented with the error message that <code class="highlighter-rouge">import-dir</code> is not
+recognized as an internal or external command, operable program, or
+batch file. This is because we forgot to tell the computer to look in
+the MALLET <code class="highlighter-rouge">bin</code> for it. Try again, with</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>bin\mallet import-dir --help
+</code></pre>
+</div>
+
+<p>Remember, the direction of the slash matters (See Figure 7, which
+provides an entire transcript of what we have done so far in the
+tutorial). We checked to see that we had installed MALLET by typing in
+<code class="highlighter-rouge">bin\mallet</code>. We then made the mistake with <code class="highlighter-rouge">import-dir</code> a few lines
+further down. After that, we successfully called up the help file, which
+told us what <code class="highlighter-rouge">import-dir</code> does, and it listed all of the potential
+<em>parameters</em> you can set for this tool.</p>
+
+<!--figure tags without plugin: http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll -->
+
+<figure>
+<a href="/images/topic-modeling-and-mallet/fig-7-command-prompt-typing-help.png">
+    <img src="/images/topic-modeling-and-mallet/fig-7-command-prompt-typing-help.png" alt="Figure 7: The Help Menu in MALLET" />
+	</a>
+<figcaption>
+    <p>Figure 7: The Help Menu in MALLET</p>
+
+</figcaption>
+</figure>
+
+<p>Note: there is a difference in MALLET commands between a single hyphen
+and a double hyphen. A single hyphen is simply part of the name; it
+replaces a space (e.g., <code class="highlighter-rouge">import-dir</code> rather than import dir), since
+spaces offset multiple commands or parameters. These parameters let us
+tweak the file that is created when we import our texts into MALLET. A
+double hyphen (as with <code class="highlighter-rouge">–help</code> above) modifies, adds a sub-command, or
+specifies some sort of parameter to the command.</p>
+
+<p>For Windows users, if you got the error <em>‘exception in thread “main”
+java.lang.NoClassDefFoundError:’</em> it might be because you installed
+MALLET somewhere other than in the <code class="highlighter-rouge">C:\</code> directory. For instance,
+installing MALLET at <code class="highlighter-rouge">C:\Program Files\mallet</code> will produce this error
+message. The second thing to check is that your environment variable is
+set correctly. In either of these cases, check the Windows installation
+instructions and double check that you followed them properly.</p>
+
+<h2 id="working-with-data">Working with data</h2>
+
+<p>MALLET comes pre-packaged with sample <code class="highlighter-rouge">.txt</code> files with which you can
+practice. Type <code class="highlighter-rouge">dir</code> at the <code class="highlighter-rouge">C:\mallet&gt; prompt</code>, and you are given the
+listing of the MALLET directory contents. One of those directories is
+called <code class="highlighter-rouge">sample-data</code>. You know it is a directory because it has the word
+&lt;dir&gt; beside it.</p>
+
+<p>Type <code class="highlighter-rouge">cd sample-data</code>. Type <code class="highlighter-rouge">dir</code> again. Using what you know, navigate
+to first the <code class="highlighter-rouge">web</code> then the <code class="highlighter-rouge">en</code> directories. You can look inside these
+<code class="highlighter-rouge">.txt</code> files by typing the full name of the file (with extension).</p>
+
+<p>Note that you cannot now run any MALLET commands from this directory.
+Try it:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>bin\mallet import-dir --help
+</code></pre>
+</div>
+
+<p>You get the error message. You will have to navigate back to the main
+MALLET folder to run the commands. This is because of the way MALLET
+and its components are structured.</p>
+
+<h2 id="importing-data">Importing data</h2>
+
+<p>In the <code class="highlighter-rouge">sample data</code> directory, there are a number of <code class="highlighter-rouge">.txt</code> files. Each
+one of these files is a single document, the text of a number of
+different web pages. The entire folder can be considered to be a corpus
+of data. To work with this corpus and find out what the topics are that
+compose these individual documents, we need to transform them from
+several individual text files into a single MALLET format file.
+MALLET can import more than one file at a time. We can import the
+entire directory of text files using the <code class="highlighter-rouge">import</code> command. The commands
+below import the directory, turn it into a MALLET file, keep the
+original texts in the order in which they were listed, and strip out the
+<em>stop words</em> (words such as <em>and</em>, <em>the</em>, <em>but</em>, and <em>if</em> that occur in
+such frequencies that they obstruct analysis) using the default English
+<code class="highlighter-rouge">stop-words</code> dictionary. Try the following, which will use sample data.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>bin\mallet import-dir --input sample-data\web\en --output tutorial.mallet --keep-sequence --remove-stopwords
+</code></pre>
+</div>
+
+<p>If you type <code class="highlighter-rouge">dir</code> now (or <code class="highlighter-rouge">ls</code> for Mac), you will find a file called
+<code class="highlighter-rouge">tutorial.mallet</code>. (If you get an error message, you can hit the cursor
+up key on your keyboard to recall the last command you typed, and look
+carefully for typos). This file now contains all of your data, in a
+format that MALLET can work with.</p>
+
+<p>Try running it again now with different data. For example, let’s imagine we wanted to use the German sample data instead. We would use:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>bin\mallet import-dir --input sample-data\web\de --output tutorial.mallet --keep-sequence --remove-stopwords
+</code></pre>
+</div>
+
+<p>And then finally, you could use your own data. Change <code class="highlighter-rouge">sample-data\web\de</code> to a directory that contains your own research files. Good luck!</p>
+
+<p>If you are unsure how directories work, we suggest the <em>Programming Historian</em> lesson <a href="http://programminghistorian.org/lessons/intro-to-bash">“Introduction to the Bash Command Line”</a>.</p>
+
+<h3 id="for-mac">For Mac</h3>
+
+<p>Mac instructions are similar to those above for Windows, but keep in
+mind that Unix file paths (which are used by Mac) are different: for
+example, if the directory was in one’s home directory, one would type</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>./bin/mallet import-dir --input /users/username/database/ --output tutorial.mallet --keep-sequence --remove-stopwords
+</code></pre>
+</div>
+
+<h2 id="issues-with-big-data">Issues with Big Data</h2>
+
+<p>If you’re working with extremely large file collections – or indeed,
+very large files – you may run into issues with your <em>heap space</em>, your
+computer’s working memory. This issue will initially arise during the
+import sequence, if it is relevant. By default, MALLET allows for 1GB
+of memory to be used. If you run into the following error message,
+you’ve run into your limit:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+</code></pre>
+</div>
+
+<p>If your system has more memory, you can try increasing the memory
+allocated to your <em>Java virtual machine</em>. To do so, you need to edit the
+code in the <code class="highlighter-rouge">mallet</code> file found in the <code class="highlighter-rouge">bin</code> subdirectory of your
+MALLET folder. Using Komodo Edit, (See <a href="/lessons/mac-installation">Mac</a>,
+<a href="/lessons/windows-installation">Windows</a>, <a href="/lessons/linux-installation">Linux</a> for installation instructions), open the
+<code class="highlighter-rouge">Mallet.bat</code> file (<code class="highlighter-rouge">C:\Mallet\bin\mallet.bat</code>) if you are using Windows,
+or the <code class="highlighter-rouge">mallet</code> file (<code class="highlighter-rouge">~/Mallet/bin/mallet</code>) if you are using Linux or OS X.</p>
+
+<p>Find the following line:</p>
+
+<p><code class="highlighter-rouge">MEMORY=1g</code></p>
+
+<p>You can then change the 1g value upwards – to 2g, 4g, or even higher
+depending on your system’s RAM, which you can find out by looking up the
+machine’s system information.</p>
+
+<p>Save your changes. You should now be able to avoid the error. If not,
+increase the value again.</p>
+
+<h2 id="your-first-topic-model">Your first topic model</h2>
+
+<p>At the command prompt in the MALLET directory, type:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>bin\mallet train-topics  --input tutorial.mallet
+</code></pre>
+</div>
+
+<p>This command opens your <code class="highlighter-rouge">tutorial.mallet</code> file, and runs the topic model
+routine on it using only the default settings. As it iterates through
+the routine, trying to find the best division of words into topics, your
+command prompt window will fill with output from each run. When it is
+done, you can scroll up to see what it was outputting (as in Figure 8).</p>
+
+<!--figure tags without plugin: http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll -->
+
+<figure>
+<a href="/images/topic-modeling-and-mallet/fig-8-basic-topic-model-output.png">
+    <img src="/images/topic-modeling-and-mallet/fig-8-basic-topic-model-output.png" alt="Figure 8: Basic Topic Model Output" />
+	</a>
+<figcaption>
+    <p>Figure 8: Basic Topic Model Output</p>
+
+</figcaption>
+</figure>
+
+<p>The computer is printing out the key words, the words that help define a
+statistically significant topic, per the routine. In Figure 8, the first
+topic it prints out might look like this (your key words might look a
+bit different):</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>0    5    test cricket Australian hill acting England northern leading ended innings record runs scored run team batsman played society English
+</code></pre>
+</div>
+
+<p>If you are a fan of cricket, you will recognize that all of these words
+could be used to describe a cricket match. What we are dealing with here
+is a topic related to Australian cricket. If you go to
+<code class="highlighter-rouge">C:\mallet\sample-data\web\en\hill.txt</code>, you will see that this file is
+a brief biography of the noted Australian cricketer Clem Hill. The 0 and
+the 5 we will talk about later in the lesson. Note that MALLET
+includes an element of randomness, so the keyword lists will look
+different every time the program is run, even if on the same set of
+data.</p>
+
+<p>Go back to the main MALLET directory, and type <code class="highlighter-rouge">dir</code>. You will see
+that there is no output file. While we successfully created a topic
+model, we did not save the output! At the command prompt, type</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>bin\mallet train-topics  --input tutorial.mallet --num-topics 20 --output-state topic-state.gz --output-topic-keys tutorial_keys.txt --output-doc-topics tutorial_compostion.txt 
+</code></pre>
+</div>
+
+<p>Here, we have told MALLET to create a topic model (<code class="highlighter-rouge">train-topics</code>) and
+everything with a double hyphen afterwards sets different parameters</p>
+
+<p>This command</p>
+
+<ul>
+  <li>opens your <code class="highlighter-rouge">tutorial.mallet</code> file</li>
+  <li>trains MALLET to find 20 topics</li>
+  <li>outputs every word in your corpus of materials and the topic it
+belongs to into a compressed file (<code class="highlighter-rouge">.gz</code>; see www.gzip.org on how to
+unzip this)</li>
+  <li>outputs a text document showing you what the top key words are for
+each topic (<code class="highlighter-rouge">tutorial_keys.txt</code>)</li>
+  <li>and outputs a text file indicating the breakdown, by percentage, of
+each topic within each original text file you imported
+(<code class="highlighter-rouge">tutorial_composition.txt</code>). (To see the full range of possible
+parameters that you may wish to tweak, type
+<code class="highlighter-rouge">bin\mallet train-topics –help</code> at the prompt.)</li>
+</ul>
+
+<p>Type <code class="highlighter-rouge">dir</code>. Your outputted files will be at the bottom of the list of
+files and directories in <code class="highlighter-rouge">C:\Mallet</code>. Open <code class="highlighter-rouge">tutorial_keys.txt</code> in a word
+processor (Figure 9). You are presented with a series of paragraphs. The
+first paragraph is topic 0; the second paragraph is topic 1; the third
+paragraph is topic 2; etc. (The output begins counting at 0 rather than
+1; so if you ask it to determine 20 topics, your list will run from 0 to
+19). The second number in each paragraph is the <em>Dirichlet parameter</em> for
+the topic. This is related to an option which we did not run, and so its
+default value was used (this is why every topic in this file has the
+number 2.5).</p>
+
+<!--figure tags without plugin: http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll -->
+
+<figure>
+<a href="/images/topic-modeling-and-mallet/fig-9-tutorial-key-words-in-Word.png">
+    <img src="/images/topic-modeling-and-mallet/fig-9-tutorial-key-words-in-Word.png" alt="Figure 9: Keywords Shown in a Word Processor" />
+	</a>
+<figcaption>
+    <p>Figure 9: Keywords Shown in a Word Processor</p>
+
+</figcaption>
+</figure>
+
+<p>If when you ran the topic model routine you had included</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>--optimize-interval 20
+</code></pre>
+</div>
+
+<p>as below</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>bin\mallet train-topics  --input tutorial.mallet  --num-topics 20 --optimize-interval 20 --output-state topic-state.gz  --output-topic-keys tutorial_keys.txt --output-doc-topics tutorial_composition.txt
+</code></pre>
+</div>
+
+<p>the output might look like this:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>0 0.02995 xi ness regular asia online cinema established alvida acclaim veenr commercial 
+</code></pre>
+</div>
+
+<p>That is, the first number is the topic (topic 0), and the second number
+gives an indication of the <em>weight</em> of that topic. In general, including
+<code class="highlighter-rouge">–optimize-interval</code> leads to better topics.</p>
+
+<h3 id="the-composition-of-your-documents">The composition of your documents</h3>
+
+<p>What topics compose your documents? The answer is in the
+<code class="highlighter-rouge">tutorial_composition.txt</code> file. To stay organized, import the
+<code class="highlighter-rouge">tutorial_composition.txt</code> file into a spreadsheet (Excel, Open Office,
+etc). You will have a spreadsheet with a #doc, source, topic,
+proportion columns. All subsequent columns run topic, proportion, topic,
+proportion, etc., as in figure 10.</p>
+
+<!--figure tags without plugin: http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll -->
+
+<figure>
+<a href="/images/topic-modeling-and-mallet/fig-10-topic-composition.png">
+    <img src="/images/topic-modeling-and-mallet/fig-10-topic-composition.png" alt="Figure 10: Topic Composition" />
+	</a>
+<figcaption>
+    <p>Figure 10: Topic Composition</p>
+
+</figcaption>
+</figure>
+
+<p>You can see that doc# 0 (ie, the first document loaded into MALLET),
+<code class="highlighter-rouge">elizabeth_needham.txt</code> has topic 2 as its principal topic, at about
+15%; topic 8 at 11%, and topic 1 at 8%. As we read along that first
+column of topics, we see that <code class="highlighter-rouge">zinta.txt</code> also has topic 2 as its
+largest topic, at 23%. The topic model suggests a connection between
+these two documents that you might not at first have suspected.</p>
+
+<p>If you have a corpus of text files that are arranged in chronological
+order (e.g., <code class="highlighter-rouge">1.txt</code> is earlier than <code class="highlighter-rouge">2.txt</code>), then you can graph this
+output in your spreadsheet program, and begin to see changes over time,
+as Robert Nelson has done in <a href="http://dsl.richmond.edu/dispatch/">Mining the Dispatch</a>.</p>
+
+<p>How do you know the number of topics to search for? Is there a <em>natural</em>
+number of topics? What we have found is that one has to run the
+train-topics with varying numbers of topics to see how the composition
+file breaks down. If we end up with the majority of our original texts
+all in a very limited number of topics, then we take that as a signal
+that we need to increase the number of topics; the settings were too
+coarse. There are computational ways of searching for this, including
+using MALLETs <code class="highlighter-rouge">hlda command</code>, but for the reader of this tutorial, it is
+probably just quicker to cycle through a number of iterations (but for
+more see Griffiths, T. L., &amp; Steyvers, M. (2004). Finding scientific
+topics. Proceedings of the National Academy of Science, 101, 5228-5235).</p>
+
+<h3 id="getting-your-own-texts-into-mallet">Getting your own texts into MALLET</h3>
+
+<p>The <code class="highlighter-rouge">sample data</code> folder in MALLET is your guide to how you should
+arrange your texts. You want to put everything you wish to topic model
+into a single folder within <code class="highlighter-rouge">c:\mallet</code>, ie <code class="highlighter-rouge">c:\mallet\mydata</code>. Your
+texts should be in <code class="highlighter-rouge">.txt</code> format (that is, you create them with Notepad,
+or in Word choose <code class="highlighter-rouge">Save As -&gt; MS Dos text</code>). You have to make some
+decisions. Do you want to explore topics at a paragraph by paragraph
+level? Then each <code class="highlighter-rouge">txt</code> file should contain one paragraph. Things like
+page numbers or other identifiers can be indicated in the name you give
+the file, e.g., <code class="highlighter-rouge">pg32_paragraph1.txt</code>. If you are working with a diary,
+each text file might be a single entry, e.g., <code class="highlighter-rouge">april_25_1887.txt</code>. (Note
+that when naming folders or files, do not leave spaces in the name.
+Instead use underscores to represent spaces). If the texts that you are
+interested in are on the web, you might be able to <a href="http://electricarchaeology.ca/2012/07/09/mining-a-day-of-archaeology/">automate this
+process</a>.</p>
+
+<h3 id="further-reading-about-topic-modeling">Further Reading about Topic Modeling</h3>
+
+<p>To see a fully worked out example of topic modeling with a body of
+materials culled from webpages, see <a href="http://electricarchaeology.ca/2012/06/08/mining-the-open-web-with-looted-heritage-draft/">Mining the Open Web with Looted
+Heritage Draft</a>.</p>
+
+<p>You can grab the data for yourself at <a href="http://figshare.com/articles/looted_heritage_reports_txt.zip/91828">Figshare.com</a>, which includes a
+number of <code class="highlighter-rouge">.txt</code> files. Each individual <code class="highlighter-rouge">.txt</code> file is a single news
+report.</p>
+
+<ul>
+  <li>For extensive background and bibliography on topic modeling you may
+wish to begin with Scott Weingart’s <a href="http://www.scottbot.net/HIAL/?p=19113">Guided Tour to Topic
+Modeling</a></li>
+  <li>Ted Underwood’s ‘<a href="http://tedunderwood.wordpress.com/2012/04/07/topic-modeling-made-just-simple-enough/">Topic modeling made just simple enough</a>’ is an
+important discussion on interpreting the meaning of topics.</li>
+  <li>Lisa Rhody’s post on interpreting topics is also illuminating.
+‘<a href="http://www.lisarhody.com/some-assembly-required/">Some Assembly Required</a>’ <em>Lisa @ Work</em> August 22, 2012.</li>
+  <li>Clay Templeton, ‘<a href="http://mith.umd.edu/topic-modeling-in-the-humanities-an-overview/">Topic Modeling in the Humanities: An Overview |
+Maryland Institute for Technology in the Humanities</a>’, n.d.</li>
+  <li>David Blei, Andrew Ng, and Michael Jordan, ‘<a href="http://dl.acm.org/citation.cfm?id=944937">Latent dirichlet
+allocation</a>,’ The Journal of Machine Learning Research 3 (2003).</li>
+  <li>Finally, also consult David Mimno’s <a href="http://mimno.infosci.cornell.edu/topics.html">bibliography of topic modeling
+articles</a>. They’re tagged by topic to make finding the right one
+for a particular application that much easier. Also take a look at
+his recent article on <a href="http://www.perseus.tufts.edu/publications/02-jocch-mimno.pdf">Computational Historiography</a> from ACM
+Transactions on Computational Logic which goes through a hundred
+years of Classics journals to learn something about the field. While
+the article should be read as a good example of topic modeling, his
+‘Methods’ section is especially important, in that it discusses
+preparing text for this sort of analysis.</li>
+</ul>
+
+
+     </div>
+
+     
+
+     
+
+	        <div class="author-info">
+                
+	   	            <p class="author-name">About the authors</p>
+                
+                
+			    <div class="author-description"><p>
+                
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                       Shawn Graham is associate professor of digital humanities and history at Carleton University.
+&nbsp;
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+		        
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                       Scott Weingart is a historian of science and doctoral candidate at
+Indiana University.
+&nbsp;
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+		        
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                       Ian Milligan is an assistant professor of history at the University
+of Waterloo.
+&nbsp;
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+		        </p>
+			    </div>
+	        </div>
+
+
+     
+          <div class="citation-info">
+            
+                <p class="citation-head">Suggested Citation</p>
+            
+            
+            <div class="suggested-citation">
+              <p>
+              
+
+      
+           
+                 Shawn Graham
+           
+      
+           
+		         , Scott Weingart
+           
+      
+           
+           and Ian Milligan
+           
+      
+
+, 
+              "Getting Started with Topic Modeling and MALLET," 
+              <em>Programming Historian</em>, 
+              (2012-09-02), 
+              http://programminghistorian.org/lessons/topic-modeling-and-mallet
+              </p>
+            </div>
+          </div>
+
+
+
+
+        </article>
+    </div>
+
+    <footer role="contentinfo">
+
+  <div class="additional">
+<ul id="menu-main-menu" class="additional">
+
+
+            <li class="menu-item"><a href="/">About</a></li>
+            <li class="menu-item"><a href="/lessons">Lessons</a></li>
+            <li class="menu-item"><a href="/contribute">Contribute</a></li>
+            <li class="menu-item"><a href="/project-team">Project Team</a></li>
+            <li class="menu-item"><a href="/research">Research</a></li>
+            <li class="menu-item"><a href="/blog">Blog</a></li>
+	    <li class="menu-item"><a href="/es">Español</a></li>
+
+
+
+
+</ul>
+</div>
+
+
+  
+
+<p><em>The Programming Historian</em> ISSN 2397-2068, is released under the <a href="http://creativecommons.org/licenses/by/2.0/" rel="license">CC-BY</a> license.</p>
+<p>The project is published by the <em>Editorial Board of the Programming Historian</em>, and first appeared in July 2012. It was last updated on 20 May 2017.</p>
+<p class="github">
+        <a href="https://github.com/programminghistorian/jekyll">Hosted on GitHub <img src="/images/GitHub-Mark-32px.png" title="GitHub logo"></a> 
+		<a href="https://github.com/programminghistorian/jekyll/commits/gh-pages/lessons/topic-modeling-and-mallet.md">Previous Versions</a>&nbsp;&#183;&nbsp;
+		<a href="/feedback">Give Feedback</a>
+</p>
+
+  
+
+  
+
+
+</footer>
+
+
+  </body>
+
+</html>

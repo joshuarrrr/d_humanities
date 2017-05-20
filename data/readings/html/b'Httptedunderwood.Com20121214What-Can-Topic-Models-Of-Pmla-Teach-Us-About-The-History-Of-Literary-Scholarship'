@@ -1,0 +1,1482 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en">
+<![endif]-->
+<!--[if !(IE 6) & !(IE 7) & !(IE 8)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>What can topic models of PMLA teach us about the history of literary scholarship? | The Stone and the Shell</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="https://s0.wp.com/wp-content/themes/pub/twentyeleven/style.css" />
+<link rel="pingback" href="https://tedunderwood.com/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="https://s0.wp.com/wp-content/themes/pub/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+		<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=tedunderwood.com&amp;id=18518646&amp;t=1495304024&amp;back=https%3A%2F%2Ftedunderwood.com%2F2012%2F12%2F14%2Fwhat-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship%2F' type="text/javascript"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		</script>
+		<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//tedunderwood.wordpress.com' />
+<link rel="alternate" type="application/rss+xml" title="The Stone and the Shell &raquo; Feed" href="https://tedunderwood.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Stone and the Shell &raquo; Comments Feed" href="https://tedunderwood.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Stone and the Shell &raquo; What can topic models of PMLA teach us about the history of literary&nbsp;scholarship? Comments Feed" href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1488818651h&ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='all-css-0-1' href='https://s1.wp.com/_static/??-eJx9kdtSAyEMhl9IjM60tV44PgvQyNIGwmzY7uzbG7qeWpUbyJ/5vxwA5mI854q5QppMoSnELDAXz8lIioTLjbr3InfwN0bxhAJHrMX6k7monn1EshUPprDUG9XDPI+o+VRsbY6Eh2iRMKmth6Wy+6RaOOiI3Tbr1s6VEUWMnilOydRBG/3m1jSUyUGdNbHoQGfMIHUhNJdSKxMhc42KyVfQGyIgG2Jva+R8Jcwb2Tj2X9cRBw0DqOuH7EHWt+LOjt9Rz97+ap0EZLBj6/Vx9yhhHy3pKoGvxX/POmwgEDtLzfCaXh43zw9P+912vz2+A3BLCaE=' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var related_posts_js_options = {"post_heading":"h4"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJyFj90KwjAMhV/IrAw6xQvxWWoXS2r/bNoNfXo70At1KARCTr4cTsScgIJ2dUQWttW1Yr49W2d5I34B4MlkVbDzFF6wjqFgKAvr44kcQmXMyjStGZ3jCpciF4/MDVrZvkeiMBHOfzGLJSl9gYxM9y9XXyG5aiiwyOjaAyMsGT6mdnX0h17uh36Qcre1DyuucHk='></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://tedunderwood.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Visualizing Topic Models with Force-Directed&nbsp;Graphs' href='https://tedunderwood.com/2012/12/02/visualizing-topic-models-with-force-directed-graphs/' />
+<link rel='next' title='On the novelty of &#8220;humanistic values.&#8221;' href='https://tedunderwood.com/2013/01/20/on-the-novelty-of-humanistic-values/' />
+<meta name="generator" content="WordPress.com" />
+<link rel="canonical" href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/" />
+<link rel='shortlink' href='http://wp.me/p1fHxQ-TQ' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=json&amp;url=https%3A%2F%2Ftedunderwood.com%2F2012%2F12%2F14%2Fwhat-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=xml&amp;url=https%3A%2F%2Ftedunderwood.com%2F2012%2F12%2F14%2Fwhat-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship%2F&amp;for=wpcom-auto-discovery" />
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="What can topic models of PMLA teach us about the history of literary scholarship?" />
+<meta property="og:url" content="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/" />
+<meta property="og:description" content="by Andrew Goldstone and Ted Underwood Of all our literary-historical narratives it is the history of criticism itself that seems most wedded to a stodgy history-of-ideas approach&#8212;narrating ch…" />
+<meta property="article:published_time" content="2012-12-14T12:28:08+00:00" />
+<meta property="article:modified_time" content="2014-05-09T11:35:34+00:00" />
+<meta property="og:site_name" content="The Stone and the Shell" />
+<meta property="og:image" content="https://tedunderwood.files.wordpress.com/2012/12/topic40box.png" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@wordpressdotcom" />
+<meta name="twitter:image" content="https://tedunderwood.files.wordpress.com/2012/12/sm150topics.jpg?w=240" />
+<meta name="twitter:card" content="summary" />
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
+<link rel="shortcut icon" type="image/x-icon" href="https://secure.gravatar.com/blavatar/5711d96c6104f89617e0747253c8acb4?s=32" sizes="16x16" />
+<link rel="icon" type="image/x-icon" href="https://secure.gravatar.com/blavatar/5711d96c6104f89617e0747253c8acb4?s=32" sizes="16x16" />
+<link rel="apple-touch-icon-precomposed" href="https://secure.gravatar.com/blavatar/5711d96c6104f89617e0747253c8acb4?s=114" />
+<link rel='openid.server' href='https://tedunderwood.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='https://tedunderwood.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="https://tedunderwood.com/osd.xml" title="The Stone and the Shell" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<meta name="theme-color" content="#F1E0D4" />
+<script type="text/javascript" id="webfont-output">
+  
+  WebFontConfig = {"typekit":{"id":"lxa3tyn"}};
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+	})();
+</script><meta name="application-name" content="The Stone and the Shell" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Using large digital libraries to advance  literary history" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://tedunderwood.com/feed/;icon-uri=https://secure.gravatar.com/blavatar/5711d96c6104f89617e0747253c8acb4?s=16" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="title" content="What can topic models of PMLA teach us about the history of literary&nbsp;scholarship? | The Stone and the Shell on WordPress.com" />
+<meta name="description" content="by Andrew Goldstone and Ted Underwood Of all our literary-historical narratives it is the history of criticism itself that seems most wedded to a stodgy history-of-ideas approach---narrating change through a succession of stars or contending schools. While scholars like John Guillory and Gerald Graff have produced subtler models of disciplinary history, we could still do&hellip;" />
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #F1E0D4; }
+</style>
+<link rel="amphtml" href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/amp/" /><style type="text/css" id="syntaxhighlighteranchor"></style>
+</head>
+
+<body class="post-template-default single single-post postid-3462 single-format-standard custom-background mp6 customizer-styles-applied singular two-column right-sidebar highlander-enabled highlander-light">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="https://tedunderwood.com/" rel="home">The Stone and the Shell</a></span></h1>
+				<h2 id="site-description">Using large digital libraries to advance  literary history</h2>
+			</hgroup>
+
+						<a href="https://tedunderwood.com/">
+									<img src="https://tedunderwood.files.wordpress.com/2012/12/cropped-nautilus1000x288.png" width="1000" height="288" alt="" />
+							</a>
+			
+								<form method="get" id="searchform" action="https://tedunderwood.com/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search" />
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content">Skip to primary content</a></div>
+												<div class="menu"><ul>
+<li ><a href="https://tedunderwood.com/">Home</a></li><li class="page_item page-item-922"><a href="https://tedunderwood.com/18c-tree/">18c tree</a></li>
+<li class="page_item page-item-2"><a href="https://tedunderwood.com/about/">About this blog</a></li>
+<li class="page_item page-item-2465"><a href="https://tedunderwood.com/open-data/">Open data</a></li>
+<li class="page_item page-item-890"><a href="https://tedunderwood.com/tech-notes/">Tech note</a></li>
+<li class="page_item page-item-3573"><a href="https://tedunderwood.com/ted-underwood/">Ted Underwood</a></li>
+</ul></div>
+			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<div id="primary">
+			<div id="content" role="main">
+
+				
+					<nav id="nav-single">
+						<h3 class="assistive-text">Post navigation</h3>
+						<span class="nav-previous"><a href="https://tedunderwood.com/2012/12/02/visualizing-topic-models-with-force-directed-graphs/" rel="prev"><span class="meta-nav">&larr;</span> Previous</a></span>
+						<span class="nav-next"><a href="https://tedunderwood.com/2013/01/20/on-the-novelty-of-humanistic-values/" rel="next">Next <span class="meta-nav">&rarr;</span></a></span>
+					</nav><!-- #nav-single -->
+
+					
+<article id="post-3462" class="post-3462 post type-post status-publish format-standard hentry category-19c category-20c category-bayesian-topic-modeling category-disciplinary-history category-interpretive-theory category-visualization">
+	<header class="entry-header">
+		<h1 class="entry-title">What can topic models of PMLA teach us about the history of literary&nbsp;scholarship?</h1>
+
+				<div class="entry-meta">
+						<span class="sep">Posted on </span><a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/" title="6:28 am" rel="bookmark"><time class="entry-date" datetime="2012-12-14T06:28:08+00:00">December 14, 2012</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://tedunderwood.com/author/tedunderwood/" title="View all posts by tedunderwood" rel="author">tedunderwood</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><strong>by Andrew Goldstone and Ted Underwood</strong></p>
+<p>Of all our literary-historical narratives it is the history of criticism itself that seems most wedded to a stodgy history-of-ideas approach&#8212;narrating change through a succession of stars or contending schools. While scholars like John Guillory and Gerald Graff have produced subtler models of disciplinary history, we could still do more to complicate the narratives that organize our discipline&#8217;s understanding of itself. </p>
+<p><div data-shortcode="caption" id="attachment_3541" style="width: 221px" class="wp-caption alignleft"><a href="http://pmla.site44.com"><img data-attachment-id="3541" data-permalink="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/sm150topics/" data-orig-file="https://tedunderwood.files.wordpress.com/2012/12/sm150topics.jpg" data-orig-size="250,354" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="A topic model of 150 topics." data-image-description="" data-medium-file="https://tedunderwood.files.wordpress.com/2012/12/sm150topics.jpg?w=212" data-large-file="https://tedunderwood.files.wordpress.com/2012/12/sm150topics.jpg?w=250" src="https://tedunderwood.files.wordpress.com/2012/12/sm150topics.jpg?w=211&#038;h=300" alt="A browsable network based on Underwood&#039;s model of PMLA. Click through, then mouse over or click on individual topics." width="211" height="300" class="size-medium wp-image-3541" srcset="https://tedunderwood.files.wordpress.com/2012/12/sm150topics.jpg?w=211&amp;h=300 211w, https://tedunderwood.files.wordpress.com/2012/12/sm150topics.jpg?w=106&amp;h=150 106w, https://tedunderwood.files.wordpress.com/2012/12/sm150topics.jpg 250w" sizes="(max-width: 211px) 100vw, 211px" /></a><p class="wp-caption-text">A browsable network based on Underwood&#039;s model of <em>PMLA.</em> Click through, then mouse over or click on individual topics.</p></div>The archive of scholarship is also, unlike many twentieth-century archives, digitized and available for &#8220;distant reading.&#8221; Much of what we need is available through <a href="http://about.jstor.org/service/data-for-research" target="_blank">JSTOR’s Data for Research API.</a> So last summer it occurred to a group of us that topic modeling <em>PMLA</em> might provide a new perspective on the history of literary studies. Although Goldstone and Underwood are writing this post, the impetus for the project also came from Natalia Cecire, Brian Croxall, and Roger Whitson, who may do deeper dives into specific aspects of this archive in the near future.</p>
+<p>Topic modeling is a technique that automatically identifies groups of words that tend to occur together in a large collection of documents. It was developed about a decade ago <a href="http://www.cs.princeton.edu/~blei/topicmodeling.html" target="_blank">by David Blei</a> among others.  Underwood has a blog post <a href="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/" target="_blank">explaining topic modeling,</a> and you can find a practical introduction to the technique at the <a href="http://programminghistorian.org/lessons/topic-modeling-and-mallet" target="_blank">Programming Historian.</a> Jonathan Goodwin <a href="http://www.jgoodwin.net/?p=1036" target="_blank">has explained how</a> it can be applied to the word-frequency data you get from JSTOR.</p>
+<p>Obviously, <em>PMLA</em> is not an adequate synecdoche for literary studies. But, as a generalist journal with a long history, it makes a useful test case to assess the value of topic modeling for a history of the discipline.</p>
+<p>Goldstone and Underwood each independently produced several different models of <em>PMLA,</em> using different software, stopword lists, and numbers of topics. Our results overlapped in places and diverged in places. But we&#8217;ve reached a shared sense that topic modeling can enrich the history of literary scholarship by revealing trends that are presently invisible.</p>
+<p><strong>What is a topic?</strong><br />
+A &#8220;topic model&#8221; assigns every word in every document to one of a given number of topics. Every document is modeled as a mixture of topics in different proportions. A topic, in turn, is a distribution of words&#8212;a model of how likely given words are to <em>co-occur</em> in a document. The algorithm (<a href="http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation" target="_blank">called LDA</a>) knows nothing &#8220;meta&#8221; about the articles (when they were published, say), and it knows nothing about the order of words in a given document.</p>
+<p><a href="https://tedunderwood.files.wordpress.com/2012/12/overview-ordered.png"><img data-attachment-id="3770" data-permalink="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/overview-ordered/" data-orig-file="https://tedunderwood.files.wordpress.com/2012/12/overview-ordered.png" data-orig-size="1325,938" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="overview-ordered" data-image-description="" data-medium-file="https://tedunderwood.files.wordpress.com/2012/12/overview-ordered.png?w=300" data-large-file="https://tedunderwood.files.wordpress.com/2012/12/overview-ordered.png?w=584" src="https://tedunderwood.files.wordpress.com/2012/12/overview-ordered.png?w=584&#038;h=413" alt="100 topics from PMLA."   class="aligncenter size-large wp-image-3770" srcset="https://tedunderwood.files.wordpress.com/2012/12/overview-ordered.png?w=584&amp;h=413 584w, https://tedunderwood.files.wordpress.com/2012/12/overview-ordered.png?w=1168&amp;h=826 1168w, https://tedunderwood.files.wordpress.com/2012/12/overview-ordered.png?w=150&amp;h=106 150w, https://tedunderwood.files.wordpress.com/2012/12/overview-ordered.png?w=300&amp;h=212 300w, https://tedunderwood.files.wordpress.com/2012/12/overview-ordered.png?w=768&amp;h=544 768w, https://tedunderwood.files.wordpress.com/2012/12/overview-ordered.png?w=1024&amp;h=725 1024w" sizes="(max-width: 584px) 100vw, 584px" /></a><br />
+This is a picture of 5940 articles from <em>PMLA</em>, showing the changing presence of each of 100 &quot;topics&quot; in <em>PMLA</em> over time. (Click through to enlarge; a longer list of topic keywords is <a href="http://andrewgoldstone.com/pmla-lda/vara100/keys.txt">here</a>.) For example, the most probable words in the topic arbitrarily numbered 59 in the model visualized above are, in descending order:</p>
+<blockquote><p>che gli piu nel lo suo sua sono io delle perche questo quando ogni mio quella loro cosi dei</p></blockquote>
+<p>This is not a &#8220;topic&#8221; in the sense of a theme or a rhetorical convention. What these words have in common is simply that they&#8217;re basic Italian words, which appear together whenever an extended Italian text occurs. And this is the point: a &#8220;topic&#8221; is neither more nor less than a pattern of co-occurring words.</p>
+<p>Nonetheless, a topic like topic 59 does tell us about the history of <em>PMLA</em>. The articles where this topic achieved its highest proportion were:</p>
+<blockquote><p>
+Antonio Illiano, &#8220;Momenti e problemi di critica pirandelliana: L&#8217;umorismo, Pirandello e Croce, Pirandello e Tilgher,&#8221; <em>PMLA</em> 83 no. 1 (1968): pp. 135-143  <br />
+Domenico Vittorini, &#8220;I Dialogi ad Petrum Histrum di Leonardo Bruni Aretino (Per la Storia del Gusto Nell&#8217;Italia del Secolo XV),&#8221; <em>PMLA</em> 55 no. 3 (1940): pp. 714-720  <br />
+Vincent Luciani, &#8220;Il Guicciardini E La Spagna,&#8221; <em>PMLA</em> 56 no. 4 (1941): pp. 992-1006  
+</p></blockquote>
+<p>And here&#8217;s a plot of the changing proportions of this topic over time, showing moving 1-year and 5-year averages:</p>
+<p><a href="https://tedunderwood.files.wordpress.com/2012/12/topic59line.png"><img data-attachment-id="3607" data-permalink="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/topic59line/" data-orig-file="https://tedunderwood.files.wordpress.com/2012/12/topic59line.png" data-orig-size="2958,2191" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="topic59line" data-image-description="" data-medium-file="https://tedunderwood.files.wordpress.com/2012/12/topic59line.png?w=300" data-large-file="https://tedunderwood.files.wordpress.com/2012/12/topic59line.png?w=584" src="https://tedunderwood.files.wordpress.com/2012/12/topic59line.png?w=584&#038;h=432" alt="topic59line"   class="aligncenter size-large wp-image-3607" srcset="https://tedunderwood.files.wordpress.com/2012/12/topic59line.png?w=584&amp;h=432 584w, https://tedunderwood.files.wordpress.com/2012/12/topic59line.png?w=1166&amp;h=864 1166w, https://tedunderwood.files.wordpress.com/2012/12/topic59line.png?w=150&amp;h=111 150w, https://tedunderwood.files.wordpress.com/2012/12/topic59line.png?w=300&amp;h=222 300w, https://tedunderwood.files.wordpress.com/2012/12/topic59line.png?w=768&amp;h=569 768w, https://tedunderwood.files.wordpress.com/2012/12/topic59line.png?w=1024&amp;h=758 1024w" sizes="(max-width: 584px) 100vw, 584px" /></a>We see something about <em>PMLA</em> that is worth remembering for the history of criticism, namely, that it has embedded Italian less and less frequently in its language since midcentury. (The model shows that the same thing is true of French and German.)</p>
+<p><strong>What can topics tell us about the history of theory?</strong><br />
+Of course a topic can also be a subject category&#8212;modeling <em>PMLA,</em> we have found topics that are primarily &#8220;about Beowulf&#8221; or &#8220;about music.&#8221; Or a topic can be a group of words that tend to co-occur because they&#8217;re associated with a particular critical approach.</p>
+<p>Here, for instance, we have a topic from Underwood&#8217;s 150-topic model associated with discussions of pattern and structure in literature. We can characterize it by listing words that occur more commonly in the topic than elsewhere, or by graphing the frequency of the topic over time, or by listing a few articles where it’s especially salient.</p>
+<p><a href="https://tedunderwood.files.wordpress.com/2012/12/109.jpg"><img data-attachment-id="3496" data-permalink="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/attachment/109/" data-orig-file="https://tedunderwood.files.wordpress.com/2012/12/109.jpg" data-orig-size="1493,814" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Topic 109 from Underwood&#8217;s model of 150 topics." data-image-description="" data-medium-file="https://tedunderwood.files.wordpress.com/2012/12/109.jpg?w=300" data-large-file="https://tedunderwood.files.wordpress.com/2012/12/109.jpg?w=584" src="https://tedunderwood.files.wordpress.com/2012/12/109.jpg?w=584&#038;h=318" alt="Topic 109 from Underwood&#039;s model of 150 topics."   class="aligncenter size-large wp-image-3496" srcset="https://tedunderwood.files.wordpress.com/2012/12/109.jpg?w=584&amp;h=318 584w, https://tedunderwood.files.wordpress.com/2012/12/109.jpg?w=1168&amp;h=636 1168w, https://tedunderwood.files.wordpress.com/2012/12/109.jpg?w=150&amp;h=82 150w, https://tedunderwood.files.wordpress.com/2012/12/109.jpg?w=300&amp;h=164 300w, https://tedunderwood.files.wordpress.com/2012/12/109.jpg?w=768&amp;h=419 768w, https://tedunderwood.files.wordpress.com/2012/12/109.jpg?w=1024&amp;h=558 1024w" sizes="(max-width: 584px) 100vw, 584px" /></a><br />
+At first glance this topic might seem to fit neatly into a familiar story about critical history. We know that there was a mid-twentieth-century critical movement called “structuralism,” and the prominence of “structure” here might suggest that we’re looking at the rise and fall of that movement. In part, perhaps, we are. But the articles where this topic is most prominent are not specifically “structuralist.” In the top four articles, Ferdinand de Saussure, Claude Lévi-Strauss, and Northrop Frye are nowhere in evidence. Instead these articles appeal to general notions of symmetry, or connect literary patterns to Neoplatonism and Renaissance numerology.</p>
+<p>By forcing us to attend to concrete linguistic practice, topic modeling gives us a chance to bracket our received assumptions about the connections between concepts. While there is a distinct mid-century vogue for structure, it does not seem strongly associated with the concepts that are supposed to have motivated it (myth, kinship, language, archetype). And it begins in the 1940s, a decade or more before “structuralism” is supposed to have become widespread in literary studies. We might be tempted to characterize the earlier part of this trend as “New Critical interest in formal unity” and the latter part of it as “structuralism.” But the dividing line between those rationales for emphasizing pattern is not evident in critical vocabulary (at least not at this scale of analysis).</p>
+<p>This evidence doesn&#8217;t necessarily disprove theses about the history of structuralism. Topic modeling might not reveal varying “rationales” for using a word even if those rationales did vary. The strictly linguistic character of this technique is a limitation as well as a strength: it’s not designed to reveal motivation or conflict. But since our histories of criticism are already very intellectual and agonistic, foregrounding the conscious beliefs of contending critical “schools,” topic modeling may offer a useful corrective. This technique can reveal shifts of emphasis that are more gradual and less conscious than the ones we tend to celebrate.</p>
+<p>It may even reveal shifts of emphasis of which we were entirely unaware. “Structure” is a familiar critical theme, but what are we to make of this?</p>
+<p><a href="https://tedunderwood.files.wordpress.com/2012/12/79.jpg"><img data-attachment-id="3499" data-permalink="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/attachment/79/" data-orig-file="https://tedunderwood.files.wordpress.com/2012/12/79.jpg" data-orig-size="1493,814" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Topic 79 from Underwood&#8217;s 150-topic model." data-image-description="" data-medium-file="https://tedunderwood.files.wordpress.com/2012/12/79.jpg?w=300" data-large-file="https://tedunderwood.files.wordpress.com/2012/12/79.jpg?w=584" src="https://tedunderwood.files.wordpress.com/2012/12/79.jpg?w=584&#038;h=318" alt="Topic 79 from Underwood&#039;s 150-topic model."   class="aligncenter size-large wp-image-3499" srcset="https://tedunderwood.files.wordpress.com/2012/12/79.jpg?w=584&amp;h=318 584w, https://tedunderwood.files.wordpress.com/2012/12/79.jpg?w=1168&amp;h=636 1168w, https://tedunderwood.files.wordpress.com/2012/12/79.jpg?w=150&amp;h=82 150w, https://tedunderwood.files.wordpress.com/2012/12/79.jpg?w=300&amp;h=164 300w, https://tedunderwood.files.wordpress.com/2012/12/79.jpg?w=768&amp;h=419 768w, https://tedunderwood.files.wordpress.com/2012/12/79.jpg?w=1024&amp;h=558 1024w" sizes="(max-width: 584px) 100vw, 584px" /></a>A fuller list of terms included in this topic would include “character”, “fact,” “choice,” “effect,” and “conflict.” Reading some of the articles where the topic is prominent, it appears that in this topic “point” is rarely the sort of point one makes in an argument. Instead it&#8217;s a moment in a literary work (e.g., “at the point where the rain occurs,” in Robert apRoberts 379). Apparently, critics in the 1960s developed a habit of describing literature in terms of problems, questions, and significant moments of action or choice; the habit intensified through the early 1980s and then declined. This habit may not have a name; it may not line up neatly with any recognizable school of thought. But it’s a fact about critical history worth knowing.</p>
+<p>Note that this concern with problem-situations is embodied in common words like “way” and “cannot” as well as more legible, abstract terms. Since common words are often difficult to interpret, it can be tempting to exclude them from the modeling process. It&#8217;s true that a word like “the” isn’t likely to reveal much. But subtle, interesting rhetorical habits can be encoded in common words. (E.g. “itself” is especially common in late-20c theoretical topics.)</p>
+<p>We don&#8217;t imagine that this brief blog post has significantly contributed to the history of criticism. But we do want to suggest that topic modeling could be a useful resource for that project. It has the potential to reveal shifts in critical vocabulary that aren&#8217;t well described, and that don&#8217;t fit our received assumptions about the history of the discipline.</p>
+<p><strong>Why browse topics as a network?</strong><br />
+The fact that a word is prominent in topic A doesn&#8217;t prevent it from also being prominent in topic B. So certain generalizations we might make about an individual topic (for instance, that Italian words decline in frequency after midcentury) will be true only if there&#8217;s not some other &#8220;Italian&#8221; topic out there, picking up where the first one left off.</p>
+<p>For that reason, interpreters really need to survey a topic model as a whole, instead of considering single topics in isolation. But how can you browse a whole topic model? We&#8217;ve chosen relatively small numbers of topics, but it would not be unreasonable to divide literary scholarship into, say, 500 topics. Information overload becomes a problem.</p>
+<p><div data-shortcode="caption" id="attachment_3485" style="width: 221px" class="wp-caption alignright"><a href="http://pmla.site44.com"><img data-attachment-id="3485" data-permalink="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/rage_css_imagemap/" data-orig-file="https://tedunderwood.files.wordpress.com/2012/12/rage_css_imagemap.jpg" data-orig-size="1240,1755" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="150 topics from PMLA." data-image-description="" data-medium-file="https://tedunderwood.files.wordpress.com/2012/12/rage_css_imagemap.jpg?w=212" data-large-file="https://tedunderwood.files.wordpress.com/2012/12/rage_css_imagemap.jpg?w=584" src="https://tedunderwood.files.wordpress.com/2012/12/rage_css_imagemap.jpg?w=211&#038;h=300" alt="A browsable image map of 150 topics from PMLA. After you click through you can mouseover (or click) individual topics for more information." width="211" height="300" class="size-medium wp-image-3485" srcset="https://tedunderwood.files.wordpress.com/2012/12/rage_css_imagemap.jpg?w=211&amp;h=300 211w, https://tedunderwood.files.wordpress.com/2012/12/rage_css_imagemap.jpg?w=422&amp;h=597 422w, https://tedunderwood.files.wordpress.com/2012/12/rage_css_imagemap.jpg?w=106&amp;h=150 106w" sizes="(max-width: 211px) 100vw, 211px" /></a><p class="wp-caption-text">A browsable image map of 150 topics from PMLA. After you click through you can mouseover (or click) individual topics for more information.</p></div>We&#8217;ve found network graphs useful here. Click on the image of the network on the right to browse Underwood’s 150-topic model. The size of each node (roughly) indicates the number of words in the topic; color indicates the average date of words. (Blue topics are older; yellow topics are more recent.) Topics are linked to each other if they tend to appear in the same articles. Topics have been labeled with their most salient word&#8212;unless that word was already taken for another topic, or seemed misleading. Mousing over a topic reveals a list of words associated with it; with most topics it&#8217;s also possible to click through for more information.</p>
+<p>The structure of the network makes a loose kind of sense. Topics in French and German form separate networks floating free of the main English structure. Recent topics tend to cluster at the bottom of the page. And at the bottom, historical and pedagogical topics tend to be on the left, while formal, phenomenological, and aesthetic categories tend to be on the right.</p>
+<p>But while it’s a little eerie to see patterns like this emerge automatically, we don’t advise readers to take the network structure too seriously.  A topic model isn’t a network, and <a href="https://tedunderwood.com/2012/11/11/visualizing-topic-models/" target="_blank">mapping one onto a network can be misleading.</a> For instance, topics that are physically distant from each other in this visualization are not necessarily unrelated. Connections below a certain threshold go unrepresented.</p>
+<p><div data-shortcode="caption" id="attachment_3558" style="width: 260px" class="wp-caption alignleft"><a href="https://dl.dropbox.com/u/4713959/pmla/Goldstone100.jpg"><img data-attachment-id="3558" data-permalink="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/thumbnail/" data-orig-file="https://tedunderwood.files.wordpress.com/2012/12/thumbnail.jpg?w=584" data-orig-size="250,244" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="100-topic model of PMLA." data-image-description="" data-medium-file="https://tedunderwood.files.wordpress.com/2012/12/thumbnail.jpg?w=584?w=250" data-large-file="https://tedunderwood.files.wordpress.com/2012/12/thumbnail.jpg?w=584?w=250" src="https://tedunderwood.files.wordpress.com/2012/12/thumbnail.jpg?w=584" alt="Goldstone&#039;s 100-topic model of PMLA; click through to enlarge."   class="size-full wp-image-3558" srcset="https://tedunderwood.files.wordpress.com/2012/12/thumbnail.jpg 250w, https://tedunderwood.files.wordpress.com/2012/12/thumbnail.jpg?w=150 150w" sizes="(max-width: 250px) 100vw, 250px" /></a><p class="wp-caption-text">Goldstone&#8217;s 100-topic model of <em>PMLA</em>; click through to enlarge.</p></div>Moreover, as you can see by comparing illustrations in this post, a little fiddling with dials can turn the same data into networks with rather different shapes. It’s probably best to view network visualization as a convenience. It may help readers browse a model by loosely organizing topics&#8212;but there can be other equally valid ways to organize the same material.</p>
+<p><strong>How did our models differ?</strong><br />
+The two models we&#8217;ve examined so far in this post differ in several ways at once. They&#8217;re based on different spans of <em>PMLA</em>&#8216;s print run (1890–1999 and 1924–2006). They were produced with different software. Perhaps most importantly, we chose different numbers of topics (100 and 150).</p>
+<p>But the models we&#8217;re presenting are only samples. Goldstone and Underwood each produced several models of <em>PMLA</em>, changing one variable at a time, and we have made some closer apples-to-apples comparisons.</p>
+<p>Broadly, the conclusion we&#8217;ve reached is that there&#8217;s both a great deal of fluidity and a great deal of consistency in this process. The algorithm has to estimate parameters that are impossible to calculate exactly. So the results you get will be slightly different every time. If you run the algorithm on the same corpus with the same number of topics, the changes tend to be fairly minor. But if you change the number of topics, you can get results that look substantially different.</p>
+<p>On the other hand, to say that two models &#8220;look substantially different&#8221; isn&#8217;t to say that they&#8217;re incompatible. A jigsaw puzzle cut into 100 pieces looks different from one with 150 pieces. If you examine them piece by piece, no two pieces are the same&#8212;but once you put them together you&#8217;re looking at the same picture. In practice, there was a lot of overlap between our models; on the older end of the spectrum you often see a topic like &#8220;evidence fact,&#8221; while the newer end includes topics that foreground narrative, rhetoric, and gender. Some of the more surprising details turned out to be consistent as well. For instance, you might expect the topic &#8220;literary literature&#8221; to skew toward the older end of the print run. But in fact this is a relatively recent topic in both of our models, associated with discussion of canonicity. (Perhaps the owl of Minerva flies only at dusk?)</p>
+<p><strong>Contrasting models: a short example</strong><br />
+While some topics look roughly the same in all of our models, it&#8217;s not always possible to identify close correlates of that sort. As you vary the overall number of topics, some topics seem to simply disappear. Where do they go?  For example, there is no exact counterpart in Goldstone&#8217;s model to that &#8220;structure&#8221; topic in Underwood&#8217;s model. Does that mean it is a figment? Underwood isolated the following article as the most prominent exemplar:</p>
+<p>Robert E. Burkhart, <a href="http://jstor.org/stable/460794">The Structure of Wuthering Heights</a>, Letter to the Editor, PMLA 87 no. 1 (1972): 104–5. (Incidentally, jstor has miscategorized this as a &#8220;full-length article.&#8221;)</p>
+<p>Goldstone&#8217;s model puts more than half of Burkhart&#8217;s comment in three topics:</p>
+<p>0.24 topic 38 time experience reality work sense form present point world human process structure concept individual reader meaning order real relationship </p>
+<p>0.13 topic 46 novels fiction poe gothic cooper characters richardson romance narrator story novelist reader plot novelists character reade hero heroine drf </p>
+<p>0.12 topic 13 point reader question interpretation meaning make reading view sense argument words word problem makes evidence read clear text readers </p>
+<p>The other prominent documents in Underwood&#8217;s 109 are connected to similar topics in Goldstone&#8217;s model. The keywords for Goldstone&#8217;s topic 38, the top topic here, immediately suggest an affinity with Underwood&#8217;s topic 109. Now compare the time course of Goldstone&#8217;s 38 with Underwood&#8217;s 109 (the latter is above):<br />
+<img src="https://tedunderwood.files.wordpress.com/2012/12/topic38line.png?w=584" title="Topic 38 from Goldstone's model, moving averages"></p>
+<p>It is reasonable to infer that some portion of the words in Underwood&#8217;s &#8220;structure&#8221; topic are absorbed in Goldstone&#8217;s &#8220;time experience&#8221; topic. But &#8220;time experience reality work sense&#8221; looks less like vocabulary for describing form (although &#8220;form&#8221; and &#8220;structure&#8221; are included in it, further down the list; cf.&nbsp;<a href="http://andrewgoldstone.com/pmla-lda/vara100/keys.txt">the top words for all 100 topics</a>), and more like vocabulary for talking about experience in generalized ways&#8212;as is also suggested by the titles of some articles in which that topic is substantially present:</p>
+<blockquote><p>
+&#8220;The Vanishing Subject: Empirical Psychology and the Modern Novel&#8221;<br />
+&#8220;Metacommentary&#8221;<br />
+&#8220;Toward a Modern Humanism&#8221;<br />
+&#8220;Wordsworth&#8217;s Inscrutable Workmanship and the Emblems of Reality&#8221;
+</p></blockquote>
+<p>This version of the topic is no less &#8220;right&#8221; or &#8220;wrong&#8221; than the one in Underwood&#8217;s model. They both reveal the same underlying evidence of word use, segmented in different but overlapping ways. Instead of focusing our vision on affinities between &#8220;form&#8221; and &#8220;structure&#8221;, Goldstone&#8217;s 100-topic model shows a broader connection between the critical vocabulary of form and structure and the keywords of &#8220;humanistic&#8221; reflection on experience. </p>
+<p>The most striking contrast to these postwar themes is provided by a topic which dominates in the prewar period, then gives way before &#8220;time experience&#8221; takes hold. Here are box plots by ten-year intervals of the proportions of another topic, Goldstone&#8217;s topic 40, in <em>PMLA</em> articles:</p>
+<p><img src="https://tedunderwood.files.wordpress.com/2012/12/topic40box.png?w=584" title="Document proportions of topic 40 from Goldstone's model, binned in ten year-intervals" /></p>
+<p>Underwood&#8217;s model shows a similar cluster of topics centering on questions of evidence and textual documentation, which similarly decrease in frequency. The language of <em>PMLA</em> has shown a consistently declining interest in &#8220;evidence found fact&#8221; in the era of the postwar research university.</p>
+<p>So any given topic model of a corpus is not definitive. Each variation in the modeling parameters can produce a new model. But although topic models vary, models of the same corpus remain fundamentally consistent with each other.</p>
+<p><strong>Using LDA as evidence</strong><br />
+It&#8217;s true that a &#8220;topic model&#8221; is simply a model of how often words occur together in a corpus. But information of that kind has a deeper significance than we might at first assume. A topic model doesn&#8217;t just show you what people are writing <em>about</em> (a list of &#8220;topics&#8221; in our ordinary sense of the word). It can also show you <em>how</em> they&#8217;re writing. And that &#8220;how&#8221; seems to us a strong clue to social affinities&#8212;perhaps especially for scholars, who often identify with a methodology or critical vocabulary. To put this another way, topic modeling can identify discourses as well as subject categories and embedded languages. Naturally we also need other kinds of evidence to produce a history of the discipline, including social and institutional evidence that may not be fully manifest in discourse. But the evidence of topic modeling should be taken seriously.</p>
+<p>As you change the number of topics (and other parameters), models provide different pictures of the same underlying collection. But this doesn&#8217;t mean that topic modeling is an indeterminate process, unreliable as evidence. All of those pictures will be valid. They are taken (so to speak) at different distances, and with different levels of granularity. But they&#8217;re all pictures of the same evidence and are by definition compatible. Different models may support different interpretations of the evidence, but not interpretations that absolutely conflict. Instead the multiplicity of models presents us with a familiar choice between &#8220;lumping&#8221; or &#8220;splitting&#8221; cultural phenomena&#8212;a choice where we have long known that multiple levels of analysis can coexist. This multiplicity of perspective should be understood as a strength rather than a limitation of the technique; it is part of the reason why an analysis using topic modeling can afford a richly detailed picture of an archive like <em>PMLA</em>.</p>
+<p><strong>Appendix: How did we actually do this?</strong><br />
+The <em>PMLA</em> data obtained from JSTOR was independently processed by Goldstone and Underwood for their different LDA tools. This created some quantitative subtleties that we&#8217;ve saved for this appendix to keep this post accessible to a broad audience. If you read closely, you&#8217;ll notice that we sometimes talk about the &#8220;probability&#8221; of a term in a topic, and sometimes about its &#8220;salience.&#8221; Goldstone used <a href="http://mallet.cs.umass.edu/">MALLET</a> for topic modeling, whereas Underwood used his own Java implementation of LDA. As a result, we also used slightly different formulas for ranking words within a topic. MALLET reports the raw probability of terms in each topic, whereas Underwood&#8217;s code uses a slightly more complex formula for term salience drawn from <a href="http://www.cs.cmu.edu/~lafferty/publications.html" target="_blank">Blei &amp; Lafferty (2009)</a>. In practice, this did not make a huge difference.</p>
+<p>MALLET also has a &#8220;hyperparameter optimization&#8221; option which Goldstone&#8217;s 100-topic model above made use of. Before you run screaming, &#8220;hyperparameters&#8221; are just dials that control how much fuzziness is allowed in a topic&#8217;s distribution across words (beta) or across documents (alpha). Allowing alpha to vary allows greater differentiation between the sizes of large topics (often with common words), and smaller (often more specialized) topics. (See <a href="http://people.cs.umass.edu/~mimno/publications.html" target="_blank">&#8220;Why Priors Matter,&#8221; Wallach, Mimno, and McCallum, 2009.</a>) In any event, Goldstone&#8217;s 100-topic model used hyperparameter optimization; Underwood&#8217;s 150-topic model did not. A comparison with several other models suggests that the difference between symmetric and asymmetric (optimized) alpha parameters explains much of the difference between their structures when visualized as networks.</p>
+<p>Goldstone&#8217;s processing scripts are online in a <a href="http://github.com/agoldst/dfr-analysis">github repository</a>. The same repository includes R code for making the plots from Goldstone&#8217;s model. Goldstone would also like to thank Bob Gerdes of Rutgers&#8217;s <a href="http://oirt.rutgers.edu">Office of Instructional and Research Technology</a> for support for running mallet on the university&#8217;s apps.rutgers.edu server, Ben Schmidt for helpful comments at a THATCamp Theory session, and Jon Goodwin for discussion and his <a href="http://www.jgoodwin.net/?p=1068" target="_blank">excellent blog posts on topic-modeling jstor data</a>.</p>
+<p>Underwood&#8217;s network graphs were produced by measuring Pearson correlations between topic distributions (across documents) and then selecting the strongest correlations as network edges using <a href="https://tedunderwood.com/2012/11/11/visualizing-topic-models/#technote" target="_blank">an algorithm Underwood has described previously.</a> That data structure was sent to Gephi. Underwood&#8217;s <a href="https://github.com/tedunderwood/Parallel-LDA" target="_blank">Java implementation of LDA,</a> as well as his <a href="https://github.com/tedunderwood/pmla-scripts" target="_blank"><em>PMLA</em> model, and code for translating a model into a network,</a> are on github, although at this point he can&#8217;t promise a plug-and-play workflow. Underwood would like to thank Matt Jockers for convincing him to try topic modeling (see <a href="http://www.matthewjockers.net/macroanalysisbook/macro-themes/" target="_blank">Matt&#8217;s impressive, detailed model of the nineteenth-century novel</a>) and Michael Simeone for convincing him to try force-directed network graphs. David Mimno kindly answered some questions about the innards of MALLET.</p>
+<p>[Cross-posted: <a href="http://andrewgoldstone.com/blog/2012/12/13/pmla/">andrewgoldstone.com</a>, <a href="http://arcade.stanford.edu">Arcade (to appear)</a>.]</p>
+<p>[Edit (AG) 12/12/16: 10&#215;10 grid image now with topics in numerical order. Original version still available: <a href="https://tedunderwood.files.wordpress.com/2012/12/overview.png">overview.png</a>.]</p>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-3462" class="share-twitter sd-button share-icon" href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/?share=twitter" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-18518646-3462-5920875840acc' data-src='//widgets.wp.com/likes/#blog_id=18518646&amp;post_id=3462&amp;origin=tedunderwood.wordpress.com&amp;obj_id=18518646-3462-5920875840acc' data-name='like-post-frame-18518646-3462-5920875840acc'><h3 class='sd-title'>Like this:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Like</span></span> <span class="loading">Loading...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div>
+<div id='jp-relatedposts' class='jp-relatedposts' >
+	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+</div></div>			</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		This entry was posted in <a href="https://tedunderwood.com/category/19c/" rel="category tag">19c</a>, <a href="https://tedunderwood.com/category/20c/" rel="category tag">20c</a>, <a href="https://tedunderwood.com/category/methodology/topic-modeling/bayesian-topic-modeling/" rel="category tag">Bayesian topic modeling</a>, <a href="https://tedunderwood.com/category/disciplinary-history/" rel="category tag">disciplinary history</a>, <a href="https://tedunderwood.com/category/interpretive-theory/" rel="category tag">interpretive theory</a>, <a href="https://tedunderwood.com/category/visualization/" rel="category tag">visualization</a> by <a href="https://tedunderwood.com/author/tedunderwood/">tedunderwood</a>. Bookmark the <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/" title="Permalink to What can topic models of PMLA teach us about the history of literary&nbsp;scholarship?" rel="bookmark">permalink</a>.		
+				<div id="author-info">
+			<div id="author-avatar">
+				<img alt='' src='https://1.gravatar.com/avatar/76dd28669b8c966858940eeb24cc684a?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' />			</div><!-- #author-avatar -->
+			<div id="author-description">
+				<h2>About tedunderwood</h2>
+				Ted Underwood is Professor of English at the University of Illinois, Urbana-Champaign. On Twitter he is @Ted_Underwood.				<div id="author-link">
+					<a href="https://tedunderwood.com/author/tedunderwood/" rel="author">
+						View all posts by tedunderwood <span class="meta-nav">&rarr;</span>					</a>
+				</div><!-- #author-link	-->
+			</div><!-- #author-description -->
+		</div><!-- #author-info -->
+			</footer><!-- .entry-meta -->
+</article><!-- #post-3462 -->
+
+						<div id="comments">
+	
+	
+			<h2 id="comments-title">
+			64 thoughts on &ldquo;<span>What can topic models of PMLA teach us about the history of literary&nbsp;scholarship?</span>&rdquo;		</h2>
+
+		
+		<ol class="commentlist">
+				<li class="comment even thread-even depth-1 highlander-comment" id="li-comment-2722">
+		<article id="comment-2722" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/17c1271b4f650c8cbe4f81d75a729cd7?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' /><span class="fn"><a href='http://scottbot.net' rel='external nofollow' class='url'>Scott B. Weingart</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2722"><time datetime="2012-12-14T08:25:02+00:00">December 14, 2012 at 8:25 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>You two did an absolutely phenomenal job on this, and it will become one of my new go-to examples of easily understandable yet nuanced approaches to interpreting topic models. I do have two questions for Ted regarding the graphs: 1) How exactly did you &#8220;count words&#8221; to create the node sizes, and what did you do to calculate the &#8220;age&#8221; of a topic?</p>
+<p>Also, a suggestion: It would be great to see a comparison of topics that are not correlated across documents, but correlated across time, comparing correlations in the time series between both of your topic model outputs. Thanks again for a great post.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment byuser comment-author-tedunderwood bypostauthor odd alt depth-2 highlander-comment" id="li-comment-2724">
+		<article id="comment-2724" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/76dd28669b8c966858940eeb24cc684a?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='https://tedunderwood.wordpress.com' rel='external nofollow' class='url'>tedunderwood</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2724"><time datetime="2012-12-14T09:41:07+00:00">December 14, 2012 at 9:41 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Thanks for the kind words, Scott. The counting-words part itself is straightforward. Each token in the corpus is actually assigned to some topic, so just add em up and &#8230; you have something that is in a real sense a &#8220;size.&#8221; In my model it ranged from 17198 to 561844. I then normalized by dividing them by the size of the biggest, so it became a scale from .03 to 1. (I think normalizing made no difference, but, whatever.) </p>
+<p>Then, for visualizing, I arbitrarily mapped that scale onto a range of node sizes in Gephi (15 to 40, I think). You will rapidly observe that 1/.03 ≠ 40/15, which is why I say node sizes are <em>loosely</em> proportional to topic sizes. <em>Very</em> loosely, esp. at the bottom. But I just didn&#8217;t think people wanted to be looking at a pinhead-sized node. It would also complicate labeling.</p>
+<p>With age, it&#8217;s literally the mean date of an average word in the topic. Or to put that more algorithmically: take the vector of a topic&#8217;s distribution across documents (the number of words in that topic for each of D documents). Divide the whole vector by the total size of the topic, so now you&#8217;ve got a normalized unit vector saying what percentage of words in the topic come from each document. Now multiply each element of that vector by the date of the corresponding document, and add &#8217;em up. You&#8217;ve got a weighted average date for the topic.</p>
+<p>Correlation across time would be interesting. It&#8217;s visually apparent that topics are clustering in a way strongly inflected by time. How strongly, I don&#8217;t know.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment byuser comment-author-agoldst even depth-3 highlander-comment" id="li-comment-2754">
+		<article id="comment-2754" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/44acef4a637da5c1e1328f67826eecae?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn">Andrew Goldstone</span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2754"><time datetime="2012-12-15T09:50:32+00:00">December 15, 2012 at 9:50 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>I&#8217;ve thought about the correlation-across-time idea too, Scott. Just didn&#8217;t get round to running numbers for this post. With both correlation across documents and corr. across time, I think the large negatives would be as interesting as the large positives: the large positives seem to me likely to tell you which topics might &#8220;fuse&#8221; if you lowered the number of topics in the model. In that sense you could just as well keep turning the dial marked &#8220;N.&#8221; But negative correlations might expose antinomies like the one we conjectured in talking about the difference between pre-WW2 &#8220;philology&#8221; topics and post-WW2 &#8220;literary interpretation&#8221; topics. Let me try some numbers and see if I can get a quick-and-dirty time-correlation network going.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-agoldst odd alt depth-3 highlander-comment" id="li-comment-2756">
+		<article id="comment-2756" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/44acef4a637da5c1e1328f67826eecae?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn">Andrew Goldstone</span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2756"><time datetime="2012-12-15T10:09:32+00:00">December 15, 2012 at 10:09 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Factoid: in my hundred-topic model, the average yearly proportions of topic 40 &#8220;evidence found fact time note part early professor&#8221; and topic 13 &#8220;point reader question interpretation meaning&#8221; have r = -0.85</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-tedunderwood bypostauthor even depth-3 highlander-comment" id="li-comment-2757">
+		<article id="comment-2757" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/76dd28669b8c966858940eeb24cc684a?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='https://tedunderwood.wordpress.com' rel='external nofollow' class='url'>tedunderwood</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2757"><time datetime="2012-12-15T10:27:13+00:00">December 15, 2012 at 10:27 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Wow, that&#8217;s a negative correlation. If it&#8217;s even a third as strong as that on an article-to-article basis &#8230; Or, heck, at n=5940, it might not even have to be remotely that strong to be interesting.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment odd alt depth-3 highlander-comment" id="li-comment-2758">
+		<article id="comment-2758" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/17c1271b4f650c8cbe4f81d75a729cd7?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='http://scottbot.net' rel='external nofollow' class='url'>Scott B. Weingart</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2758"><time datetime="2012-12-15T10:33:31+00:00">December 15, 2012 at 10:33 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>This sounds like one of those correlations in the category of &#8220;shockingly unsurprising.&#8221;</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-tedunderwood bypostauthor even depth-2 highlander-comment" id="li-comment-2759">
+		<article id="comment-2759" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/76dd28669b8c966858940eeb24cc684a?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='https://tedunderwood.wordpress.com' rel='external nofollow' class='url'>tedunderwood</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2759"><time datetime="2012-12-15T10:37:23+00:00">December 15, 2012 at 10:37 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>If you give full weight to both &#8220;shocking&#8221; and &#8220;unsurprising,&#8221; I&#8217;d agree. This is not actually something that lit people know about our history. We tend to imagine that the constitution of our discipline as &#8220;interpretive&#8221; rather than &#8220;evidentiary&#8221; is a time-honored &#8220;humanistic value.&#8221;</p>
+<p>E.g., just try introducing quantitative methods and listen to what people say. They don&#8217;t say &#8220;hey, we just spent the last century convincing people that humanists talk about interpretation <em>rather than</em> evidence.&#8221; They pretend that you&#8217;re introducing some unheard-of innovation.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment byuser comment-author-tedunderwood bypostauthor odd alt depth-3 highlander-comment" id="li-comment-2760">
+		<article id="comment-2760" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/76dd28669b8c966858940eeb24cc684a?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='https://tedunderwood.wordpress.com' rel='external nofollow' class='url'>tedunderwood</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2760"><time datetime="2012-12-15T10:38:06+00:00">December 15, 2012 at 10:38 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>And boy, I can&#8217;t for the life of me figure out how to nest comments in my own WordPress site. 🙂</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-agoldst even depth-3 highlander-comment" id="li-comment-2762">
+		<article id="comment-2762" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/44acef4a637da5c1e1328f67826eecae?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn">Andrew Goldstone</span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2762"><time datetime="2012-12-15T11:35:11+00:00">December 15, 2012 at 11:35 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Having trouble with the nesting myself here. Doing everything seat-of-pants, so this could all be GIGO. So per-document correlations are funny because they are so heavily weighted into the origin: most docs have very little of either topic. For my topics 40 and 13 that we&#8217;re discussing, the scatterplot looks like a right triangle. The per-doc correlation is r = -0.06. I don&#8217;t know whether to say this means we shouldn&#8217;t pay too much attention to the per-doc correlation or whether my &#8220;factoid&#8221; turns out to be misleading. Anyway, need more time to think about the best way to present and interpret.</p>
+<p>Also: I am doing correlations of doc proportions, not of feature counts assigned to topics (which is how the networks visualized above are done).</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-tedunderwood bypostauthor odd alt depth-3 highlander-comment" id="li-comment-2764">
+		<article id="comment-2764" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/76dd28669b8c966858940eeb24cc684a?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='https://tedunderwood.wordpress.com' rel='external nofollow' class='url'>tedunderwood</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2764"><time datetime="2012-12-15T11:43:55+00:00">December 15, 2012 at 11:43 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Interesting. It could be that time is the way to do this. E.g., if &#8220;point reader interpretation&#8221; was replacing &#8220;evidence found&#8221; <em>within</em> some semi-thematic subset of the corpus, thinking article-by-article would be misleading. Both topics would be associated with the same articles, in a sense. (Let&#8217;s say, articles that are kind of argue-y or epistemolog-ish.) But they&#8217;d be negatively correlated over time. Cool lead, anyway.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-agoldst even depth-3 highlander-comment" id="li-comment-2774">
+		<article id="comment-2774" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/44acef4a637da5c1e1328f67826eecae?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='http://andrewgoldstone.com' rel='external nofollow' class='url'>Andrew Goldstone</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2774"><time datetime="2012-12-16T11:50:02+00:00">December 16, 2012 at 11:50 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Here&#8217;s what those topics whose series of yearly average proportions in documents have r &gt; 0.5 look like as a network: <a href="http://andrewgoldstone.com/pmla-lda/vara100/time-corr.png" rel="nofollow">time-corr.png</a>. That&#8217;s my 100-topic model, edges weighted by r. Need help thinking about how to visualize large negative r relationships.</p>
+<p>Nothing leaps out as strikingly different from the document-by-document correlations used in the networks in the post, but there&#8217;s definitely variation. One thing the visualization suggests is a striking periodization of the model, reflected in the two large disconnected components of the network, which, on first glace, look like topics that are prominent either in the 1890-1940 period or in the 1970-1999 period.</p>
+<p>Though I sometimes wonder whether LDA is sensitive enough to language change that this kind of thing might emerge even with thematically and generically varying texts.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-tedunderwood bypostauthor odd alt depth-3 highlander-comment" id="li-comment-2775">
+		<article id="comment-2775" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/76dd28669b8c966858940eeb24cc684a?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='https://tedunderwood.wordpress.com' rel='external nofollow' class='url'>tedunderwood</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2775"><time datetime="2012-12-16T13:21:38+00:00">December 16, 2012 at 1:21 pm</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>That&#8217;s a pretty cool visualization. I&#8217;ll have to try similar kinds of correlation on other corpora (containing multiples genres) to see whether we get the same periodization effect. My guess is that we don&#8217;t, and that the division in your viz. is telling us something substantive about 20c literary scholarship.</p>
+<p>What&#8217;s interesting to me is what *doesn&#8217;t* change as well as what does. It&#8217;s dramatic that you end up with two completely separate networks, but honestly your first network already sort of looked like it was about to undergo mitosis. It&#8217;s actually even more surprising to me that so much of the associative structure is retained when we subtract so much document info. E.g. &#8220;moral character&#8221; and &#8220;god paradise&#8221; are still associated with each other &#8212; now purely on the basis of their temporal profiles.</p>
+<p>But actually this shouldn&#8217;t surprise me, because it&#8217;s a consequence of what Ryan Heuser and I discovered last year, which is that conceptually related words do actually track each other over time. In fact I demonstrated in my paper for the 2011 Chicago Colloquium that if you topic-model words in one century, words in that are the same topic tend to correlate with each other on the time axis &#8212; significantly &#8212; even in the <em>next</em> century.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment even depth-2 highlander-comment" id="li-comment-2763">
+		<article id="comment-2763" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://2.gravatar.com/avatar/b2141ccd75cf734d1db729a81dab740f?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='http://jgoodwin.net' rel='external nofollow' class='url'>Jonathan</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2763"><time datetime="2012-12-15T11:42:39+00:00">December 15, 2012 at 11:42 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>There is a correlated topic model variant of the LDA algorithm. I believe it&#8217;s implemented in either the &#8220;lda&#8221; or &#8220;topicmodels&#8221; R packages. I have only experimented with dynamic topic modeling, which I think is interesting to compare with time-series data from regular LDA models (that&#8217;s what John Laudun, Clai Rice, and I are doing with folklore journals in a similar project we&#8217;re working on at the moment). But I haven&#8217;t tried correlated topic modeling, which seems like it might add something to what is being discussed here.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment byuser comment-author-tedunderwood bypostauthor odd alt depth-3 highlander-comment" id="li-comment-2765">
+		<article id="comment-2765" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/76dd28669b8c966858940eeb24cc684a?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='https://tedunderwood.wordpress.com' rel='external nofollow' class='url'>tedunderwood</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2765"><time datetime="2012-12-15T11:50:45+00:00">December 15, 2012 at 11:50 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Yes. Or dynamic topic modeling could help. If my hypothesis above (about &#8220;argue-y articles&#8221;) was right, DTM might actually show &#8220;evidence found&#8221; evolving into &#8220;point reader.&#8221; It&#8217;s designed to do that. On the other hand, I have to confess I&#8217;m wary of specialized topic modeling algorithms. This might also be a place where it makes sense to let go of numbers and use our eyes. Sometimes I feel we&#8217;re like kids who just got a new pair of rollerskates and are so thrilled with them that we also want to wear them inside the house and use them to walk upstairs.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment even depth-3 highlander-comment" id="li-comment-2766">
+		<article id="comment-2766" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/17c1271b4f650c8cbe4f81d75a729cd7?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='http://scottbot.net' rel='external nofollow' class='url'>Scott B. Weingart</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2766"><time datetime="2012-12-15T12:00:31+00:00">December 15, 2012 at 12:00 pm</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>@Ted, a point I&#8217;ve made before, I know, so at risk of belaboring a point: There is no epistemological ground to value one instantiation of topic modeling over another, unless there&#8217;s some situational performance-based evidence underlying it. The reasons I can see to prefer vanilla LDA are two: Temporal (it came first), and Parsimonious (it&#8217;s less complex). I&#8217;m not convinced that either of those are good enough reasons to value it over any other model. </p>
+<p>A downside of specialized models is the risk of weighing one element (time, correlation, authorship, etc.) over other equally valid elements. However, it seems like an incomplete view via specialized topic models is still legitimate compared to an <em>even more</em> incomplete view via the vanilla implementation.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment odd alt depth-3 highlander-comment" id="li-comment-2767">
+		<article id="comment-2767" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/17c1271b4f650c8cbe4f81d75a729cd7?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='http://scottbot.net' rel='external nofollow' class='url'>Scott B. Weingart</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2767"><time datetime="2012-12-15T12:04:50+00:00">December 15, 2012 at 12:04 pm</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>That being said, I very much agree with your point about it being time to use your eyes. The algorithms themselves are uncertain enough, and still incomplete proxies, that a difference of .2 in the r values really doesn&#8217;t say anything. It&#8217;s enough to point out something interesting and, as you&#8217;ve mentioned before, that&#8217;s when it&#8217;s time to start using your eyes and your brain to make more nuanced connections.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-tedunderwood bypostauthor even depth-3 highlander-comment" id="li-comment-2768">
+		<article id="comment-2768" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/76dd28669b8c966858940eeb24cc684a?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='https://tedunderwood.wordpress.com' rel='external nofollow' class='url'>tedunderwood</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2768"><time datetime="2012-12-15T12:26:02+00:00">December 15, 2012 at 12:26 pm</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>I think we&#8217;re in agreement, Scott, because I don&#8217;t pretend to have any epistemological basis for my wariness of specialized algorithms. It&#8217;s a rhetorical/practical rather than algorithmic wariness. I just suspect I won&#8217;t be able to convince readers to stay with me through the kinds of explanation and argument that would be required. Natalia Cecire said something similar <a href="http://www.trevorowens.org/2012/11/discovery-and-justification-are-different-notes-on-sciencing-the-humanities/#comment-5818" rel="nofollow">on another thread.</a></p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1 highlander-comment" id="li-comment-2723">
+		<article id="comment-2723" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://2.gravatar.com/avatar/b2141ccd75cf734d1db729a81dab740f?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' /><span class="fn"><a href='http://jgoodwin.net' rel='external nofollow' class='url'>Jonathan</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2723"><time datetime="2012-12-14T09:35:52+00:00">December 14, 2012 at 9:35 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Lots of things here to respond to. I think that disciplinary change is often explained through post hoc generalizations that smooth over a highly contingent and chaotic process and that topic modeling would be likely to reveal this. Your structuralist topic illustrates this in an interesting way, and it also reminds me of my suspicion that most literary critics&#8217; practice is largely unaffected by larger disciplinary trends (except, perhaps, in rote citations and token gestures that topic modeling would be unlikely to detect).</p>
+<p>How about your stop-words? Did you use the default MALLET list (Andrew) or one of your own devising (Ted)? Did you try stop-lists in French, German, Norwegian, Italian, etc.? I haven&#8217;t done that with mine yet, but I have included a long list of common prepositions and articles in other languages.</p>
+<p>Also, Scott, I&#8217;m not quite sure I understand your suggestion about correlating topics over time. Are you referring to a network graph?</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment even depth-2 highlander-comment" id="li-comment-2725">
+		<article id="comment-2725" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/17c1271b4f650c8cbe4f81d75a729cd7?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='http://scottbot.net' rel='external nofollow' class='url'>Scott B. Weingart</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2725"><time datetime="2012-12-14T09:44:50+00:00">December 14, 2012 at 9:44 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>I&#8217;m referring to correlations solely of the time-series frequency data of one topic to the time-series frequency data of another, such that you can see which topics seem to rise and fall together, or which tend to precede which others.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment odd alt depth-3 highlander-comment" id="li-comment-2728">
+		<article id="comment-2728" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://2.gravatar.com/avatar/b2141ccd75cf734d1db729a81dab740f?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='http://jgoodwin.net' rel='external nofollow' class='url'>Jonathan</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2728"><time datetime="2012-12-14T10:14:36+00:00">December 14, 2012 at 10:14 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>So, a superimposed graph in which your brain does the correlation and not some functional comparison? The big faceted graph isn&#8217;t superimposed, but it does allow you to compare trends in topics over time, if that&#8217;s what you have in mind.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment even depth-3 highlander-comment" id="li-comment-2729">
+		<article id="comment-2729" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/17c1271b4f650c8cbe4f81d75a729cd7?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='http://scottbot.net' rel='external nofollow' class='url'>Scott B. Weingart</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2729"><time datetime="2012-12-14T10:17:55+00:00">December 14, 2012 at 10:17 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>@Jonathan Doesn&#8217;t need to be your brain, it can be a functional comparison, but yes. Algorithmic methods would make it easier to account for differences in scale or slight transpositions across time.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-tedunderwood bypostauthor odd alt depth-2 highlander-comment" id="li-comment-2727">
+		<article id="comment-2727" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/76dd28669b8c966858940eeb24cc684a?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='https://tedunderwood.wordpress.com' rel='external nofollow' class='url'>tedunderwood</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2727"><time datetime="2012-12-14T10:01:05+00:00">December 14, 2012 at 10:01 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Andrew has included the stoplist he used in his github repository (linked above). It&#8217;s not a standard one; e.g., we include a lot of personal names but I believe we were less aggressive in subtracting common/function words than is sometimes the practice in other disciplines. I would put my stoplist up in github, except I actually made this model 4 months ago, and I&#8217;ve been adding to the stoplist since then, so it&#8217;s no longer totally accurate. E.g., you&#8217;ll see &#8220;univ.&#8221; and &#8220;trans.&#8221; in some topics, which I have since decided to stoplist-out.</p>
+<p>Our stoplists were very close except that I believe Andrew did include common words in French and German, etc., in his stoplist. I didn&#8217;t. I&#8217;ve since decided that Andrew&#8217;s approach is preferable. In a multilingual corpus you want multilingual stopwords.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment even depth-2 highlander-comment" id="li-comment-2750">
+		<article id="comment-2750" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://2.gravatar.com/avatar/e01704aab56a6abc54ecaa750f98e7b5?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='http://new-savanna.blogspot.com/' rel='external nofollow' class='url'>Bill Benzon</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2750"><time datetime="2012-12-15T09:23:48+00:00">December 15, 2012 at 9:23 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>@Jonathan: &#8220;my suspicion that most literary critics’ practice is largely unaffected by larger disciplinary trends &#8230;&#8221;</p>
+<p>My suspicion too.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-mattwilkens odd alt thread-even depth-1 highlander-comment" id="li-comment-2726">
+		<article id="comment-2726" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/12b5810f600c29cd1608ad22d2890148?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' /><span class="fn"><a href='http://mattwilkens.com' rel='external nofollow' class='url'>Matthew Wilkens</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2726"><time datetime="2012-12-14T09:58:56+00:00">December 14, 2012 at 9:58 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>This is lovely. I assume you&#8217;re writing it for PMLA? FWIW, I&#8217;d beg you not to bury it in one of the specialist journals.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment byuser comment-author-tedunderwood bypostauthor even depth-2 highlander-comment" id="li-comment-2730">
+		<article id="comment-2730" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/76dd28669b8c966858940eeb24cc684a?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='https://tedunderwood.wordpress.com' rel='external nofollow' class='url'>tedunderwood</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2730"><time datetime="2012-12-14T10:24:08+00:00">December 14, 2012 at 10:24 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Thanks, Matt. It actually hadn&#8217;t occurred to me to publish in print at all, though it&#8217;s conceivable. With a problem of this scale, browsing can be more fun than argument. And for browsing, it&#8217;s awfully nice to be able to use color, scroll, click to enlarge, and so on. But I suppose one could pull out a lot of specific examples to support a specific argument and refer people to the web for the rest. Andrew and I should obviously confer about it.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment byuser comment-author-mattwilkens odd alt depth-3 highlander-comment" id="li-comment-2733">
+		<article id="comment-2733" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/12b5810f600c29cd1608ad22d2890148?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='http://mattwilkens.com' rel='external nofollow' class='url'>Matthew Wilkens</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2733"><time datetime="2012-12-14T13:08:53+00:00">December 14, 2012 at 1:08 pm</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Certainly lots of things here that work well as an interactive project; maybe you could make those available as a kind of super appendix to an article?</p>
+<p>I like projects, I really do, but it seems me that they&#8217;re not a replacement for formal writeups. *Someone* needs to pore over the thing and see what&#8217;s there; if not you guys, who? A good article could also serve as a catalyst for others to spend more time with the data. And of course it would bring more attention to this sort of work among our less methodologically progressive colleagues. My guess would be that PMLA is dying to publish stuff like this.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-tedunderwood bypostauthor even depth-3 highlander-comment" id="li-comment-2736">
+		<article id="comment-2736" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/76dd28669b8c966858940eeb24cc684a?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='https://tedunderwood.wordpress.com' rel='external nofollow' class='url'>tedunderwood</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2736"><time datetime="2012-12-14T14:24:13+00:00">December 14, 2012 at 2:24 pm</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>I agree that we need articles, in mainstream journals, and that&#8217;s basically my agenda for the next six months. I&#8217;ve started thinking about how to frame them.</p>
+<p>My own feeling is that &#8220;exploring a topic model&#8221; turns out to be a fairly weak frame for an article. Too broad, and too easy for people to fix their attention on parts of the model that aren&#8217;t actually surprising. I think I&#8217;m more inclined to take a particular strand or two (or three) of a model (like the &#8220;problem-question-situation&#8221; topic I highlight above) and actually pursue that historical phenomenon in depth, with a thesis that ends up being primarily about <em>that in particular</em>. The article might only spend about 30% of its time pointing out that the original lead came from topic modeling. Anyway, that&#8217;s the direction I&#8217;m leaning at the moment.</p>
+<p>One thing I&#8217;m definitely not going to do is spend a lot of time polishing an interactive version of the model (a &#8220;project,&#8221; as you say). Our visualizations here are rough-edged and have stone-age kinds of interactivity. But I agree with you 100%; DH already has a lot of projects. We need articles.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment odd alt depth-3 highlander-comment" id="li-comment-2740">
+		<article id="comment-2740" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://2.gravatar.com/avatar/e01704aab56a6abc54ecaa750f98e7b5?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='http://new-savanna.blogspot.com/' rel='external nofollow' class='url'>Bill Benzon</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2740"><time datetime="2012-12-15T00:55:53+00:00">December 15, 2012 at 12:55 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Looking over the rest of your conversation with Matt, here’s what I see when I put on my Utopian Spectacles of Prophesy: A bunch of scholars of varying skills working together on a given corpus. Some are doing topics models and such on the whole corpus and place results in a common (online) repository. Folks look things over and “matters of concern” are identified (to use a phrase from Bruno Latour) and others investigate them by reading a bunch of texts to see what’s actually there. Depending on this that and the other some of this joint work will prove really interesting and articles will be written that combine the corpus computational work with the more traditional sleuthing; those articles will be signed by two, three, a half-dozen on so authors, whatever it takes to get the work done. These articles will be discussed by the wider community etc etc more corpus work more actual reading etc etc and in time some of these matters of concern will make their way toward becoming what Latour calls “matters of fact” (everyone else simply calls them facts).</p>
+<p>Meanwhile, still other folks will be developing computational tools that are more fine-grained (‘smart’) than corpus tools, but not so sophisticated as, you know, actual human readers.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-agoldst even depth-2 highlander-comment" id="li-comment-2744">
+		<article id="comment-2744" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/44acef4a637da5c1e1328f67826eecae?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn">Andrew Goldstone</span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2744"><time datetime="2012-12-15T07:33:51+00:00">December 15, 2012 at 7:33 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Thank you, Matt! Part of the reason we did this was to get some ways to think about a whole topic model out there, because we believe you need to know about a whole model in order to make arguments based on some part of it. So for me any open-ended browsing possibilities are a side benefit; like Ted, I think arguments within a major scholarly conversation are where it&#8217;s at. But that also means this post isn&#8217;t yet there, and we see multiple possible arguments emerging from this, focused on smaller subgroups of topics. There may be a larger methodological argument like the one Jonathan sketched in his comment (similar to what we say at the start of the post) that could be refined into something that stands on its own.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment byuser comment-author-tedunderwood bypostauthor odd alt depth-3 highlander-comment" id="li-comment-2745">
+		<article id="comment-2745" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/76dd28669b8c966858940eeb24cc684a?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='https://tedunderwood.wordpress.com' rel='external nofollow' class='url'>tedunderwood</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2745"><time datetime="2012-12-15T07:53:42+00:00">December 15, 2012 at 7:53 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>I think Jonathan is right on about the big point here, and probably in other forms of text mining &#8212;  it reveals that our histories have been relying on &#8220;post hoc generalizations that smooth over a highly contingent and chaotic process.&#8221;</p>
+<p>Beyond the history of criticism, I might say the same thing about literary history itself. For me the issue is especially that we haven&#8217;t had any way of representing/arguing about continuous change. We rely on a discretized rhetoric, most obviously by organizing history into &#8220;periods&#8221;. But our insistence on discontinuity goes beyond period boundaries to a whole rhetoric of &#8220;turns,&#8221; &#8220;movements,&#8221; &#8220;formations,&#8221; &#8220;case studies,&#8221; etc. Because we just haven&#8217;t had any way to represent continuous change.</p>
+<p>E.g. that long slow trend of decline in Andrew&#8217;s &#8220;evidence found&#8221; graph, spanning more than a century. That&#8217;s not going to line up with any of the &#8220;movements&#8221; or &#8220;schools&#8221; we like to invoke as explanations for change.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-odd thread-alt depth-1 highlander-comment" id="li-comment-2731">
+		<article id="comment-2731" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://2.gravatar.com/avatar/e01704aab56a6abc54ecaa750f98e7b5?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' /><span class="fn"><a href='http://new-savanna.blogspot.com/' rel='external nofollow' class='url'>Bill Benzon</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2731"><time datetime="2012-12-14T10:58:36+00:00">December 14, 2012 at 10:58 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Fascinating work, guys. A couple of anecdotal comments.</p>
+<p>First, about Underwood’s “structure” topic (109). Forgetting about Goldstone’s (38) for a moment I think that, yes, that’s mostly about New Critical interest in formal matters. The fact is, the structuralist moment was rather brief, a decade at most spanning the later 60s and early 70s, at which time it passed over into deconstruction, post-structuralism, and post-modernism. And, despite a handful of detailed analytical cases (by Jakobson, Barthes, Ruwet, and others) it was never really about close textual analysis. It was more of a philosophical stance.</p>
+<p>I’m quite familiar with the Peterson article (“Critical Calculations: Measure and Symmetry in Literature”) because it discusses one of my hobby horses, ring form. Ring form is a kind of parallelism in which items are ordered in the text as follows: A, B, C &#8230; C’, B’, A’. In the small it gives you a figure like chiasmus and in the large it gives you a pattern of the sort that people wonder whether it’s really there or whether it’s a critical hallucination. The anthropologist Mary Douglas devoted the last decade of her career to it and discussed it’s workings in the <i>Old Testament</i>, the <i>Iliad</i>, but also in <i>Tristram Shandy</i> (<i>Thinking in Circles</i>, Yale 2007). That is, it is about temporal experience, and that, I believe, puts us in Goldstone’s 38.</p>
+<p>We’ll find <i>Wuthering Heights</i> there as well. As you’ll recall, it’s told through a complex double narration in which Nelly Dean tells the story to Lockwood who, in turn, tells it to us. The result is that the reader’s temporal experience of the events in the story is quite at variance from the order in which they happened. The novel opens quite late in the sequence of events, then goes back to the relatively distant past and brings us back to a &#8216;present&#8217;, from which it then marches to the conclusion of the story. Once again, temporal order.</p>
+<p>The temporal nature of literary experience makes temporal order an obvious focus for formal analysis.</p>
+<p>A final observation. Perhaps the pre-war interest in evidence reflects the rise of New Criticism, with its emphasis on providing textual evidence for arguments. Once the point had been made and the method had become routine it was no longer necessary to hammer home the methodological point.</p>
+<p>As I said, fascinating stuff. I’m looking forward to reading more.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment byuser comment-author-tedunderwood bypostauthor odd alt depth-2 highlander-comment" id="li-comment-2737">
+		<article id="comment-2737" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/76dd28669b8c966858940eeb24cc684a?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='https://tedunderwood.wordpress.com' rel='external nofollow' class='url'>tedunderwood</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2737"><time datetime="2012-12-14T17:54:45+00:00">December 14, 2012 at 5:54 pm</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Hi Bill, Thanks for the comment! Having looked at the Wuthering Heights article, your predictions are exactly right about the direction it goes.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment even depth-3 highlander-comment" id="li-comment-2739">
+		<article id="comment-2739" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://2.gravatar.com/avatar/e01704aab56a6abc54ecaa750f98e7b5?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='http://new-savanna.blogspot.com/' rel='external nofollow' class='url'>Bill Benzon</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2739"><time datetime="2012-12-15T00:25:58+00:00">December 15, 2012 at 12:25 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Hi Ted: Your comment seems a bit truncated from the one that arrived in email, and so the stuff I wanted to respond to is missing. If you don’t mind, I’ll respond to the missing material.</p>
+<p>You mentioned that you and Andrew had tossed around “philology” in thinking about the pre-war emphasis on philology. I think you should keep tossing it around, as it is apt. Every once in awhile I ask myself: When did the profession become obsessed with scouting out the meanings of texts? The last time I did that I called up my old undergraduate mentor, Dick Macksey at Hopkins, and asked him what you’d find in PMLA before WWII and going back into the 19th century. His answer: philology and history, which is the other thing that was in your initial reply and has now disappeared.</p>
+<p>It’s really only in the last half-century or so that linguistics has become firmly established as an independent intellectual discipline, and, love them or not, Chomsky’s ideas had a lot to do with that. Before that linguists were philologists or anthropologists. And the discipline of English was philologically oriented, so Macksey told me. I’ve got a book of essays by Leo Spitzer (alas, in storage) where he reviews an early book by Earl Wasserman. The review came out, I believe, in the mid to later 50s. He talks of Wasserman as one of those younger scholars on the cutting edge of combining critical perspectives with philology.</p>
+<p>A disciplinary history that focuses, as you say, on successive waves of interpretive methodologies, simply misses a lot of what the discipline was about pre-WWII.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment odd alt depth-3 highlander-comment" id="li-comment-2743">
+		<article id="comment-2743" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://2.gravatar.com/avatar/e01704aab56a6abc54ecaa750f98e7b5?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='http://new-savanna.blogspot.com/' rel='external nofollow' class='url'>Bill Benzon</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2743"><time datetime="2012-12-15T05:53:07+00:00">December 15, 2012 at 5:53 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>On philology and linguistics, a data point. I ran a Google ngram query on <a href="http://books.google.com/ngrams/graph?content=philology%2Clinguistics&amp;year_start=1850&amp;year_end=2000&amp;corpus=15&amp;smoothing=1&amp;share=" rel="nofollow">&#8220;philology&#8221; and &#8220;linguistics&#8221; (smoothing = 1)</a> from 1850 to 2000. &#8220;Philology&#8221; is pretty flat the whole period, but a bit higher from 1860 to 1895. &#8220;Linguistics&#8221; starts at the bottom and comes up rapidly after 1950, peaks a bit after 1970, and then tapers off.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment even depth-3 highlander-comment" id="li-comment-2746">
+		<article id="comment-2746" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/17c1271b4f650c8cbe4f81d75a729cd7?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='http://scottbot.net' rel='external nofollow' class='url'>Scott B. Weingart</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2746"><time datetime="2012-12-15T08:09:50+00:00">December 15, 2012 at 8:09 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>@Bill, regarding the ngrams comment. I was curious how &#8216;philology&#8217; played out over the years in Literature studies in particular, using JSTOR&#8217;s DfR Literature sub-category, which is available here: <a href="http://scottbot.net/uploads/PhilLitWeingart.png" rel="nofollow">Philology ratio per year</a>. Though it&#8217;s quite a slow decline, it seems to fit your narrative.</p>
+<p>It&#8217;s odd how there&#8217;s still this pervasive implicit assumption of &#8216;revolutions&#8217; (or at least punctuated equilibria) in disciplinary histories, even though slow growths and declines appear every bit as frequently. Those are harder to pack up neatly in narratives, I suppose.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-mattwilkens odd alt depth-3 highlander-comment" id="li-comment-2747">
+		<article id="comment-2747" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/12b5810f600c29cd1608ad22d2890148?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='http://mattwilkens.com' rel='external nofollow' class='url'>Matthew Wilkens</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2747"><time datetime="2012-12-15T08:20:38+00:00">December 15, 2012 at 8:20 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>On the question of periodization, I don&#8217;t disagree with the renewed emphasis on continuity. But I&#8217;d add that small and/or gradual shifts aren&#8217;t a priori incompatible with models of punctuated equilibrium. Sometimes small absolute differences really matter. And then there&#8217;s what Marx or Jameson would call the reality of the illusion; standing narratives about eras and schools affect the kinds of work we do, even when they don&#8217;t line up with the objects they&#8217;re supposed to organize.</p>
+<p>But none of this is to disagree with the original point, which was that we&#8217;re getting a much better feel for the kinds and magnitudes of changes that have happened in past literature and scholarship. W00t!</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment even depth-3 highlander-comment" id="li-comment-2749">
+		<article id="comment-2749" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://2.gravatar.com/avatar/e01704aab56a6abc54ecaa750f98e7b5?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='http://new-savanna.blogspot.com/' rel='external nofollow' class='url'>Bill Benzon</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2749"><time datetime="2012-12-15T09:20:16+00:00">December 15, 2012 at 9:20 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>@Scott and Matthew. Yes.</p>
+<p>Back in the middle 70s Rene Thom made a splash with catastrophe theory, which was quickly swamped by chaos and complex dynamics. Catastrophe theory is about how gradual continuous change can, under certain circumstances, have discontinuous manifestations. I recently saw an application to the 2008 financial collapse and other things: <a href="http://opinionator.blogs.nytimes.com/2012/10/08/dangerous-intersection/" rel="nofollow">http://opinionator.blogs.nytimes.com/2012/10/08/dangerous-intersection/</a></p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment odd alt depth-3 highlander-comment" id="li-comment-2752">
+		<article id="comment-2752" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://2.gravatar.com/avatar/e01704aab56a6abc54ecaa750f98e7b5?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='http://new-savanna.blogspot.com/' rel='external nofollow' class='url'>Bill Benzon</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2752"><time datetime="2012-12-15T09:41:23+00:00">December 15, 2012 at 9:41 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>A philological anecdote from Hopkins: I was at some function at Hopkins and someone pointed to an old man and said, in hushed tones, “that’s Kemp Malone.” Who’s he? From his <a href="http://en.wikipedia.org/wiki/Kemp_Malone" rel="nofollow">Wikipedia bio</a>:</p>
+<blockquote><p>
+Born in an academic family, Kemp Malone graduated from Emory College as it then was in 1907, with the ambition of mastering all the languages that impinged upon the development of Middle English. He spent several years in Germany, Denmark and Iceland. When World War I broke out he served two years in the United States Army and was discharged with the rank of Captain.</p>
+<p>Malone served as President of the Modern Language Association, and other philological associations (see link) and was etymology editor of the American College Dictionary, 1947.
+</p></blockquote>
+<p>Who&#8217;d have thought the MLA was a philological organization?</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment even depth-3 highlander-comment" id="li-comment-2755">
+		<article id="comment-2755" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/17c1271b4f650c8cbe4f81d75a729cd7?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='http://scottbot.net' rel='external nofollow' class='url'>Scott B. Weingart</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2755"><time datetime="2012-12-15T10:04:03+00:00">December 15, 2012 at 10:04 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>@Bill and Matthew</p>
+<p>Yes, your points are well taken about how slow changes can manifest as punctuations, and it fits fairly neatly in the complex systems language we&#8217;ve been using. There&#8217;s plenty of literature out there showing how even a slight shift in quantity can lead to a shift in quality, as long as the quantity shift is across a phase change point, or a critical mass of some sort. </p>
+<p>It seems that not only do these narratives not fit the evolution/revolution and continuous/discontinuous binaries that are often attributed to them, but the binaries themselves are not particularly useful frameworks within which these narratives fit. Perhaps it is because all of these words are metaphors drawn from the natural sciences and mathematical sciences.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-tedunderwood bypostauthor odd alt depth-2 highlander-comment" id="li-comment-2753">
+		<article id="comment-2753" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/76dd28669b8c966858940eeb24cc684a?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='https://tedunderwood.wordpress.com' rel='external nofollow' class='url'>tedunderwood</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2753"><time datetime="2012-12-15T09:44:23+00:00">December 15, 2012 at 9:44 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Heh. I appreciate that anecdote, Bill, because it illuminates something I didn&#8217;t understand about the model. Kemp Malone (whom I had never heard of) darn near gets his own topic: <a href="https://dl.dropbox.com/u/4713959/pmla/41.jpg" rel="nofollow">https://dl.dropbox.com/u/4713959/pmla/41.jpg</a></p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment even depth-3 highlander-comment" id="li-comment-2779">
+		<article id="comment-2779" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://2.gravatar.com/avatar/e01704aab56a6abc54ecaa750f98e7b5?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='http://new-savanna.blogspot.com/' rel='external nofollow' class='url'>Bill Benzon</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2779"><time datetime="2012-12-17T13:41:05+00:00">December 17, 2012 at 1:41 pm</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>@Scott “It’s odd how there’s still this pervasive implicit assumption of ‘revolutions’ (or at least punctuated equilibria) in disciplinary histories, even though slow growths and declines appear every bit as frequently. Those are harder to pack up neatly in narratives, I suppose.”</p>
+<p>I wonder. I wonder how long the profession’s talked that way about itself? Certainly when structuralism and post-structuralism came roaring through there was a sense of radical change. I can imagine that that rhetoric just settled in and became the standard for talking about the profession. Anything new had to be revolutionary, otherwise it wouldn’t register. But did people talk that way before then? I don’t know.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='https://chronicle.com/blogs/profhacker/weekend-reading-14/45055' rel='external nofollow' class='url'>Weekend Reading - ProfHacker - The Chronicle of Higher Education</a></p>
+	</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-agoldst odd alt thread-even depth-1 highlander-comment" id="li-comment-2738">
+		<article id="comment-2738" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/44acef4a637da5c1e1328f67826eecae?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' /><span class="fn">Andrew Goldstone</span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2738"><time datetime="2012-12-14T19:10:02+00:00">December 14, 2012 at 7:10 pm</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Just want to add my thanks to all for such thoughtful comments&#8211;more replies from me tomorrow&#8211;regrets to Ted that he&#8217;s had to do all the talking on the thread! As for the stoplist for my model, it&#8217;s at <a href="https://github.com/agoldst/dfr-analysis/blob/master/stoplist/long.txt" rel="nofollow">https://github.com/agoldst/dfr-analysis/blob/master/stoplist/long.txt</a> .</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://www.merolog.com/models/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary/' rel='external nofollow' class='url'>What can topic models of PMLA teach us about the history of literary &#8230; | Merolog Web Host</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://replicatedtypo.com/literary-history-the-future-kemp-malone-corpus-linguistics-digital-archaeology-and-cultural-evolution/5834.html' rel='external nofollow' class='url'>Literary History, the Future: Kemp Malone, Corpus Linguistics, Digital Archaeology, and Cultural Evolution | Replicated Typo</a></p>
+	</li><!-- #comment-## -->
+	<li class="comment even thread-odd thread-alt depth-1 highlander-comment" id="li-comment-2780">
+		<article id="comment-2780" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://2.gravatar.com/avatar/e01704aab56a6abc54ecaa750f98e7b5?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' /><span class="fn"><a href='http://new-savanna.blogspot.com/' rel='external nofollow' class='url'>Bill Benzon</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2780"><time datetime="2012-12-17T13:42:43+00:00">December 17, 2012 at 1:42 pm</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>I spent time over the weekend writing a very long post centered on this work:</p>
+<p>Literary History, the Future: Kemp Malone, Corpus Linguistics, Digital Archaeology, and Cultural Evolution</p>
+<p>I’ve posted it at my personal blog:</p>
+<p><a href="http://new-savanna.blogspot.com/2012/12/literary-history-future-kemp-malone.html" rel="nofollow">http://new-savanna.blogspot.com/2012/12/literary-history-future-kemp-malone.html</a></p>
+<p>and at a group blog for linguistics and language evolution:</p>
+<p><a href="http://replicatedtypo.com/literary-history-the-future-kemp-malone-corpus-linguistics-digital-archaeology-and-cultural-evolution/5834.html" rel="nofollow">http://replicatedtypo.com/literary-history-the-future-kemp-malone-corpus-linguistics-digital-archaeology-and-cultural-evolution/5834.html</a></p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment odd alt thread-even depth-1 highlander-comment" id="li-comment-2791">
+		<article id="comment-2791" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://i1.wp.com/a0.twimg.com/profile_images/2337271233/image_normal.jpg?resize=68%2C68' class='avatar avatar-68' height='68' width='68' /><span class="fn"><a href='http://twitter.com/fellowsra' rel='external nofollow' class='url'>Richard Fellows (@fellowsra)</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2791"><time datetime="2012-12-18T11:36:02+00:00">December 18, 2012 at 11:36 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>As an aside I&#8217;d be curious to see network analysis used to investigate citation drift.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment even depth-2 highlander-comment" id="li-comment-2793">
+		<article id="comment-2793" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://2.gravatar.com/avatar/e01704aab56a6abc54ecaa750f98e7b5?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='http://new-savanna.blogspot.com/' rel='external nofollow' class='url'>Bill Benzon</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2793"><time datetime="2012-12-18T12:52:11+00:00">December 18, 2012 at 12:52 pm</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Yes.</p>
+<p>I’d assume that citation analysis is pretty sophisticated. Some years ago (1981)  I visited the Institute for  Scientific Information (now owned by Thomson Reuters) in Philadelphia. They’d just developed what they called co-citation analysis. The idea was to associate scholars according to their patterns of citation. In particular, they were looking for scholars who cited many of the same sources but didn’t necessarily cite one another. They figured this might indicate a direction for future research. That is, these independent groups of scholars would discover one another and boom! a new research community is born.</p>
+<p>Something like that.</p>
+<p>I have no idea what, if anything, came of that.</p>
+<p>But, get the whole lit crit literature in a database and do a co-citation analysis to identify groups of scholars who are interacting with one another through the literature. Do a topic analysis of the literature as a whole and now superimpose the co-citation analysis and the topic analysis and see what you get. Do the topic nets and the co-citation nets track one another? Who knows.</p>
+<p>Since we’re dealing with literary criticism we probably want to pay particular attention to primary texts. So we have a mapping between primary texts and the co-citation graph and another mapping between primary texts and the topic graph.</p>
+<p>Now what?</p>
+<p>Of course we want to track time through the whole thing.</p>
+<p>Etc.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://mith.umd.edu/topic-modeling-round-up-and-some-new-software/' rel='external nofollow' class='url'>Topic Modeling: New Software and a Wrap-up of our NEH-Sponsored Workshop | Maryland Institute for Technology in the Humanities</a></p>
+	</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1 highlander-comment" id="li-comment-2893">
+		<article id="comment-2893" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://2.gravatar.com/avatar/e01704aab56a6abc54ecaa750f98e7b5?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' /><span class="fn"><a href='http://new-savanna.blogspot.com' rel='external nofollow' class='url'>Bill Benzon</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-2893"><time datetime="2012-12-27T11:16:33+00:00">December 27, 2012 at 11:16 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>However, I’ve been thinking. One of my main hobbyhorses these days is description. Literary studies has to get a lot more sophisticated about description, which is mostly taken for granted and so is not done very rigorously. There isn’t even a sense that there’s something there to be rigorous about. Perhaps corpus linguistics is a way to open up that conversation.</p>
+<p>Why? Because corpus techniques ARE descriptive. They tell you what’s there, but it’s up to you to make sense of it. And to do that you have to know something about how the description is done. And if we can get THAT going, then, who knows, maybe grammar’s next. For a grammar is a description of a language, but it’s very different from ‘ordinary’ description, whatever that is. Grammars tend to look like explanations rather than descriptions, but . . . There’s Chomsky’s old stuff on descriptive vs. explanatory adequacy in Aspects of a Theory of Syntax, which still seems relevant to me. Is that kind of discussion still kicking around?</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://replicatedtypo.com/corpus-linguistics-literary-studies-and-description/5846.html' rel='external nofollow' class='url'>Corpus Linguistics, Literary Studies, and Description | Replicated Typo</a></p>
+	</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1 highlander-comment" id="li-comment-3155">
+		<article id="comment-3155" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://2.gravatar.com/avatar/e01704aab56a6abc54ecaa750f98e7b5?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' /><span class="fn"><a href='http://new-savanna.blogspot.com/' rel='external nofollow' class='url'>Bill Benzon</a></span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-3155"><time datetime="2013-01-10T15:21:51+00:00">January 10, 2013 at 3:21 pm</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>I&#8217;ve made a perhaps odd attempt to explain topic modeling, certainly to myself, but to others as well: <a href="http://new-savanna.blogspot.com/2013/01/topic-models-strange-objects-new-worlds.html" rel="nofollow">Topic Models: Strange Objects, New Worlds</a>. Does it make sense? Does it seem useful? Thanks.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://mith-dev.umd.edu/topic-modeling-round-up-and-some-new-software/' rel='external nofollow' class='url'>Post: Topic Modeling: New Software and a Wrap-up of our NEH-Sponsored Workshop | Maryland Institute for Technology in the Humanities</a></p>
+	</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1 highlander-comment" id="li-comment-3485">
+		<article id="comment-3485" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://2.gravatar.com/avatar/b9e2fa2e43206b2ee711d4b9483e2230?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' /><span class="fn">RiniaTile</span> on <a href="https://tedunderwood.com/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/#comment-3485"><time datetime="2013-02-10T11:23:14+00:00">February 10, 2013 at 11:23 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p><a href="http://cloudcomputig.com" rel="nofollow">cloud computing Services</a></p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://digitalscholars.wordpress.com/2013/02/11/intro-to-topic-modeling/' rel='external nofollow' class='url'>Intro to Topic Modeling | FSU Digital Scholars</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://chrisbourg.wordpress.com/2013/03/11/the-great-librarian-identity-crisis-of-2013/' rel='external nofollow' class='url'>The great librarian identity crisis of 2013 | Feral Librarian</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://aelang.net/wordpress/2013/04/on-metadata/' rel='external nofollow' class='url'>On metadata &raquo; | Anouk Lang |</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://www.modmaps.net/tcllp/on-metadata/' rel='external nofollow' class='url'>&raquo; On metadata Twentieth-Century Literary Letters</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://www.replicatedtypo.com/literary-history-the-future-kemp-malone-corpus-linguistics-digital-archaeology-and-cultural-evolution/5834.html' rel='external nofollow' class='url'>Literary History, the Future: Kemp Malone, Corpus Linguistics, Digital Archaeology, and Cultural Evolution | Replicated Typo</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://pagetectonics.com/2014/03/16/and-how/' rel='external nofollow' class='url'>and how | page tectonics</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://blog.pterodactilo.com/?p=1583' rel='external nofollow' class='url'>New Digital Tools from TXDHC</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://www.uncomputing.org/?p=206' rel='external nofollow' class='url'>Building and (Not) Using Tools in Digital Humanities</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://www.lagado.name/blog/?p=342' rel='external nofollow' class='url'>Directed Probabilistic Topic Networks | The Frame of Lagado</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://introdh.djwrisley.com/index.php/2015/09/11/hello-world/' rel='external nofollow' class='url'>Introduction to Digital Humanities | Intro to DH</a></p>
+	</li><!-- #comment-## -->
+		</ol>
+
+		
+				<p class="nocomments">Comments are closed.</p>
+		
+	
+	
+</div><!-- #comments -->
+
+				
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+				 				<a href="https://wordpress.com/?ref=footer_blog">Blog at WordPress.com.</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<!--  -->
+<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201720y'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	<div class="grofile-hash-map-76dd28669b8c966858940eeb24cc684a">
+	</div>
+	<div class="grofile-hash-map-17c1271b4f650c8cbe4f81d75a729cd7">
+	</div>
+	<div class="grofile-hash-map-76dd28669b8c966858940eeb24cc684a">
+	</div>
+	<div class="grofile-hash-map-44acef4a637da5c1e1328f67826eecae">
+	</div>
+	<div class="grofile-hash-map-b2141ccd75cf734d1db729a81dab740f">
+	</div>
+	<div class="grofile-hash-map-e01704aab56a6abc54ecaa750f98e7b5">
+	</div>
+	<div class="grofile-hash-map-12b5810f600c29cd1608ad22d2890148">
+	</div>
+	<div class="grofile-hash-map-19cd5cd02ba1adb583db3df4baad6fc6">
+	</div>
+	<div class="grofile-hash-map-b9e2fa2e43206b2ee711d4b9483e2230">
+	</div>
+	</div>
+
+	<div id="carousel-reblog-box">
+		<form action="#" name="carousel-reblog">
+			<textarea id="carousel-reblog-content" name="carousel-reblog-content" placeholder="Add your thoughts here... (optional)"></textarea>
+			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Post to</label>
+			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
+						</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="#" class="cancel">Cancel</a></span>
+				<input type="submit" name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="Reblog Post" />
+				<input type="hidden" id="carousel-reblog-blog-id" value="18518646" />
+				<input type="hidden" id="carousel-reblog-blog-url" value="https://tedunderwood.com" />
+				<input type="hidden" id="carousel-reblog-blog-title" value="The Stone and the Shell" />
+				<input type="hidden" id="carousel-reblog-post-url" value="" />
+				<input type="hidden" id="carousel-reblog-post-title" value="" />
+			</div>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="bd507042d9" /><input type="hidden" name="_wp_http_referer" value="/2012/12/14/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/" />		</form>
+
+		<div class="arrow"></div>
+	</div>
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/tedunderwood.com\/2012\/12\/14\/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship\/":3462};
+	</script>
+		<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-twitter' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+		});
+		</script>
+		<link rel='stylesheet' id='all-css-0-2' href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel.css?m=1481571546h' type='text/css' media='all' />
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1412618825h&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var actionbardata = {"siteID":"18518646","siteName":"The Stone and the Shell","siteURL":"https:\/\/tedunderwood.com","icon":"<img alt='' src='https:\/\/secure.gravatar.com\/blavatar\/5711d96c6104f89617e0747253c8acb4?s=50&d=https%3A%2F%2Fs1.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/twentyeleven","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/tedunderwood.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Ftedunderwood.com%2F2012%2F12%2F14%2Fwhat-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship%2F","themeURL":"https:\/\/wordpress.com\/theme\/twentyeleven\/","xhrURL":"https:\/\/tedunderwood.com\/wp-admin\/admin-ajax.php","nonce":"9cac39b10c","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"5d03b4b0a1\" \/>","referer":"https:\/\/tedunderwood.com\/2012\/12\/14\/what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship\/","canFollow":"1","statusMessage":"","customizeLink":"https:\/\/tedunderwood.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Ftedunderwood.wordpress.com%2F2012%2F12%2F14%2Fwhat-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship%2F","postID":"3462","shortlink":"http:\/\/wp.me\/p1fHxQ-TQ","canEditPost":"","editLink":"https:\/\/wordpress.com\/post\/tedunderwood.com\/3462","statsLink":"https:\/\/wordpress.com\/stats\/post\/3462\/tedunderwood.com","i18n":{"view":"View site","follow":"Follow","following":"Following","edit":"Edit","login":"Log in","signup":"Sign up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Twenty Eleven","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editSubs":"Manage subscriptions","viewReader":"View site in the Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"Join 1,515 other followers","alreadyUser":"Already have a WordPress.com account? <a href=\"https:\/\/tedunderwood.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Ftedunderwood.com%2F2012%2F12%2F14%2Fwhat-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship%2F\">Log in now.<\/a>","stats":"Stats"}};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/tedunderwood.com\/wp-admin\/admin-ajax.php","nonce":"89971a9d19","display_exif":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/tedunderwood.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Ftedunderwood.com%2F2012%2F12%2F14%2Fwhat-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship%2F","blog_id":"18518646","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=18518646&v=wpcom&tz=-5&user_id=0&subd=tedunderwood","is_public":"1","reblog_enabled":""};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??-eJx9j0sOwjAMRC9E6oIQiAXiLCE14JAfdlLo7QkSLV2grmzNeJ5teCZlYsgYMliBDnsymF6NlRXMLF9UcuVKQcDRHQUeBQvedOgc8jhMwbjSVbOCTPS+BhVjckPjKSwQdVd9ddYMXktGrp2KPTLTBzZpSwSTKYYPYer+HSXpd8dct/UbHr6lmU/92WU0xyLowGJO2tzVKCxkUpSsLk4Tg9w0U7iOtYZO/rjeHjZtu1tv9vYN8xKV8g=='></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>		<iframe src='https://widgets.wp.com/likes/master.html?ver=20170206#ver=20170206' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
+		<div id='likes-other-gravatars'><div class="likes-text"><span>%d</span> bloggers like this:</div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+		<script>
+			var _comscore = _comscore || [];
+			_comscore.push({
+				c1: "2",
+				c2: "7518284"
+			});
+			(function() {
+				var s = document.createElement("script"),
+					el = document.getElementsByTagName("script")[0];
+				s.defer = true;
+				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);
+			})();
+		</script>
+		<noscript>
+			<p class="robots-nocontent"><img src="https://sb.scorecardresearch.com/p?c1=2&c2=7518284&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1" alt="" style="display:none;" width="1" height="1" /></p>
+		</noscript><script src="//stats.wp.com/w.js?56" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'18518646','blog_tz':'-5','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'18518646','v':'wpcom','tz':'-5','user_id':'0','post':'3462','subd':'tedunderwood'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1TaVhzUzFMbjdWNHpwZGhTayxPSUFCMGNrd29+Smw0TDhnZmRTK0hlRi9QSGh6bi9GXVhBJWIlZlR5U1JMLU8/MkNtblkvY1dzK3YrWW1CbjZiL2VlLnR6QkUsbDdSejJMclp1JjF8LWJsMi1MWEE1Ll83OXVBNnYtT1hfcVd0dF03U2ZTUF1Ben56dS9yN3NLZzMmaytucWtqfEtaOWsmQS5EeXNHNWdYMSs1LzQtOTVdXVombXh+VUQ3QSxSejAzY3F8c10sV3hYQU9oL2ZULSxXMHZIS1haNlZubjl1aHBobGtjZTNnJS5hLEY2LSZdQWlEVkp0LTlrbXhsM1FSXUcueVtYXVZ8UQ=='}]);
+_stq.push([ 'clickTrackerInit', '18518646', '3462' ]);
+	</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
+</html>

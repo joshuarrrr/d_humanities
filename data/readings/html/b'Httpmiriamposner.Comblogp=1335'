@@ -1,0 +1,649 @@
+<!doctype html>
+<!--[if !IE]>
+<html class="no-js non-ie" lang="en-US"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="no-js ie7" lang="en-US"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="no-js ie8" lang="en-US"> <![endif]-->
+<!--[if IE 9 ]>
+<html class="no-js ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+
+<title>Very basic strategies for interpreting results from the Topic Modeling Tool &#8211; Miriam Posner&#039;s Blog</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Miriam Posner&#039;s Blog &raquo; Feed" href="http://miriamposner.com/blog/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Miriam Posner&#039;s Blog &raquo; Comments Feed" href="http://miriamposner.com/blog/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Miriam Posner&#039;s Blog &raquo; Very basic strategies for interpreting results from the Topic Modeling Tool Comments Feed" href="http://miriamposner.com/blog/very-basic-strategies-for-interpreting-results-from-the-topic-modeling-tool/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/miriamposner.com\/blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='sparkling-bootstrap-css'  href='http://miriamposner.com/blog/wp-content/themes/sparkling/inc/css/bootstrap.min.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='sparkling-icons-css'  href='http://miriamposner.com/blog/wp-content/themes/sparkling/inc/css/font-awesome.min.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='sparkling-fonts-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A400italic%2C400%2C600%2C700%7CRoboto+Slab%3A400%2C300%2C700&#038;ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='sparkling-style-css'  href='http://miriamposner.com/blog/wp-content/themes/sparkling/style.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='zotpress.shortcode.css-css'  href='http://miriamposner.com/blog/wp-content/plugins/zotpress/css/zotpress.shortcode.css?ver=4.7.5' type='text/css' media='all' />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v6.1.7 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script type="text/javascript" data-cfasync="false">
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	var disableStr = 'ga-disable-UA-17854659-1';
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+	__gaTracker('create', 'UA-17854659-1', 'auto');
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('send','pageview');
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+<script type='text/javascript' src='http://miriamposner.com/blog/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://miriamposner.com/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://miriamposner.com/blog/wp-content/plugins/fd-footnotes/fdfootnotes.js?ver=1.34'></script>
+<script type='text/javascript' src='http://miriamposner.com/blog/wp-content/themes/sparkling/inc/js/modernizr.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://miriamposner.com/blog/wp-content/themes/sparkling/inc/js/bootstrap.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://miriamposner.com/blog/wp-content/themes/sparkling/inc/js/functions.min.js?ver=4.7.5'></script>
+<link rel='https://api.w.org/' href='http://miriamposner.com/blog/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://miriamposner.com/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://miriamposner.com/blog/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Flesh made light: investigating X-ray films' href='http://miriamposner.com/blog/flesh-made-light-investigating-x-ray-films/' />
+<link rel='next' title='Notes on DH and sharing your work' href='http://miriamposner.com/blog/notes-on-dh-and-sharing-your-work/' />
+<meta name="generator" content="WordPress 4.7.5" />
+<link rel="canonical" href="http://miriamposner.com/blog/very-basic-strategies-for-interpreting-results-from-the-topic-modeling-tool/" />
+<link rel='shortlink' href='http://miriamposner.com/blog/?p=1335' />
+<link rel="alternate" type="application/json+oembed" href="http://miriamposner.com/blog/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fmiriamposner.com%2Fblog%2Fvery-basic-strategies-for-interpreting-results-from-the-topic-modeling-tool%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://miriamposner.com/blog/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fmiriamposner.com%2Fblog%2Fvery-basic-strategies-for-interpreting-results-from-the-topic-modeling-tool%2F&#038;format=xml" />
+<!-- WP Favicon -->
+<link rel="shortcut icon" href="http://miriamposner.com/blog/favicon.ico" type="image/x-icon" />
+<link rel="icon"          href="http://miriamposner.com/blog/favicon.gif" type="image/gif"    />
+<!-- /WP Favicon -->
+		<style type="text/css">
+						ol.footnotes li {list-style-type:decimal;}
+						ol.footnotes{font-size:0.8em; color:#666666;}		</style>
+		<style type="text/css">#secondary .widget { color: #a5a3a3; } #secondary .widget a { color: #585858; }</style><link rel="pingback" href="http://miriamposner.com/blog/xmlrpc.php"><!-- All in one Favicon 4.5 --><link rel="shortcut icon" href="http://miriamposner.com/blog/wp-content/uploads/2011/02/favicon.ico" />
+
+</head>
+
+<body class="post-template-default single single-post postid-1335 single-format-standard">
+<a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+<div id="page" class="hfeed site">
+
+	<header id="masthead" class="site-header" role="banner">
+		<nav class="navbar navbar-default " role="navigation">
+			<div class="container">
+				<div class="row">
+					<div class="site-navigation-inner col-sm-12">
+						<div class="navbar-header">
+							<button type="button" class="btn navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+
+							
+							
+							<div id="logo">
+								<p class="site-name">									<a class="navbar-brand" href="http://miriamposner.com/blog/" title="Miriam Posner&#039;s Blog" rel="home">Miriam Posner&#039;s Blog</a>
+								</p>							</div><!-- end of #logo -->
+
+							
+						</div>
+						<div class="collapse navbar-collapse navbar-ex1-collapse"><ul id="menu-wp-nav-menu" class="nav navbar-nav"><li id="menu-item-458" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-458"><a href="http://www.miriamposner.com/about.html" onclick="__gaTracker('send', 'event', 'outbound-menu', 'http://www.miriamposner.com/about.html', 'About Miriam');" title="About Miriam">About Miriam</a></li>
+<li id="menu-item-459" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-459"><a href="http://www.miriamposner.com/cv.html" onclick="__gaTracker('send', 'event', 'outbound-menu', 'http://www.miriamposner.com/cv.html', 'CV');" title="CV">CV</a></li>
+<li id="menu-item-460" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-460"><a href="http://www.miriamposner.com/projects.html" onclick="__gaTracker('send', 'event', 'outbound-menu', 'http://www.miriamposner.com/projects.html', 'Projects');" title="Projects">Projects</a></li>
+</ul></div>					</div>
+				</div>
+			</div>
+		</nav><!-- .site-navigation -->
+	</header><!-- #masthead -->
+
+	<div id="content" class="site-content">
+
+		<div class="top-section">
+								</div>
+
+		<div class="container main-content-area">
+            			<div class="row side-pull-left">
+				<div class="main-content-inner col-sm-12 col-md-8">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+<article id="post-1335" class="post-1335 post type-post status-publish format-standard hentry category-digital-humanities category-research category-tools tag-dh201 tag-topic-model tag-topic-modeling tag-tutorials">
+		<div class="post-inner-content">
+		<header class="entry-header page-header">
+
+			<h1 class="entry-title ">Very basic strategies for interpreting results from the Topic Modeling Tool</h1>
+
+			<div class="entry-meta">
+				<span class="posted-on"><i class="fa fa-calendar"></i> <a href="http://miriamposner.com/blog/very-basic-strategies-for-interpreting-results-from-the-topic-modeling-tool/" rel="bookmark"><time class="entry-date published" datetime="2012-10-29T11:48:23+00:00">October 29, 2012</time><time class="updated" datetime="2014-03-10T13:48:27+00:00">March 10, 2014</time></a></span><span class="byline"> <i class="fa fa-user"></i> <span class="author vcard"><a class="url fn n" href="http://miriamposner.com/blog/author/admin/">Miriam</a></span></span>
+								<span class="cat-links"><i class="fa fa-folder-open-o"></i>
+					 <a href="http://miriamposner.com/blog/category/digital-humanities/" rel="category tag">Digital Humanities</a>, <a href="http://miriamposner.com/blog/category/research/" rel="category tag">research</a>, <a href="http://miriamposner.com/blog/category/tools/" rel="category tag">Tools</a>				</span>
+								
+			</div><!-- .entry-meta -->
+		</header><!-- .entry-header -->
+
+		<div class="entry-content">
+				
+	<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Focoins.info%3Agenerator&amp;rft.title=Very+basic+strategies+for+interpreting+results+from+the+Topic+Modeling+Tool&amp;rft.aulast=Posner&amp;rft.aufirst=Miriam&amp;rft.subject=Digital+Humanities&amp;rft.subject=research&amp;rft.subject=Tools&amp;rft.source=Miriam+Posner%26%23039%3Bs+Blog&amp;rft.date=2012-10-29&amp;rft.type=blogPost&amp;rft.format=text&amp;rft.identifier=http://miriamposner.com/blog/very-basic-strategies-for-interpreting-results-from-the-topic-modeling-tool/&amp;rft.language=English"></span>
+<p><em>Written with <a href="http://andrewbenedictwallace.com/">Andy Wallace</a></em><em>, with methods and ideas borrowed from <a href="http://ucla.academia.edu/ZoeBorovsky">Zoe Borovsky</a></em></p>
+<figure id="attachment_1339" class="thumbnail wp-caption alignleft" style="width: 310px"><a href="http://miriamposner.com/blog/wp-content/uploads/2012/10/play-doh.jpeg"><img class="size-medium wp-image-1339" title="play-doh" alt="Many plastic tubs of Play-Doh, each a different color." src="http://miriamposner.com/blog/wp-content/uploads/2012/10/play-doh-300x199.jpeg" width="300" height="199" srcset="http://miriamposner.com/blog/wp-content/uploads/2012/10/play-doh-300x199.jpeg 300w, http://miriamposner.com/blog/wp-content/uploads/2012/10/play-doh.jpeg 500w" sizes="(max-width: 300px) 100vw, 300px" /></a><figcaption class="caption wp-caption-text">As Zoe Borovsky brilliantly demonstrated when she visited my DH grad class, topic modeling starts with the assumption that each document is made up of multiple topics — like lumps of Play-Doh. Photo: &#8220;Play-Doh&#8221; by dbrekke.</figcaption></figure>
+<p>If you&#8217;re reading this, you may know that topic modeling is a method for finding and tracing clusters of words (called &#8220;topics&#8221; in shorthand) in large bodies of texts. Topic modeling has achieved some popularity with digital humanities scholars, partly because it offers some meaningful improvements to simple word-frequency counts, and partly because of the arrival of some relatively easy-to-use tools for topic modeling.</p>
+<p><a href="http://mallet.cs.umass.edu/topics.php">MALLET</a>, a package of Java code, is one of those tools. It&#8217;s <a href="http://programminghistorian.org/lessons/topic-modeling-and-mallet">not hard to run</a>, but you do need to use the command line. For those who aren&#8217;t quite ready for that, there&#8217;s the <a href="http://code.google.com/p/topic-modeling-tool/">Topic Modeling Tool</a>, which implements MALLET in a graphical user interface (GUI), meaning you can plug files in and receive output without entering a line of code.</p>
+<p><a href="http://www.ics.uci.edu/~newman/">David Newman</a> and <a href="http://www.linkedin.com/pub/arun-balagopalan/50/34b/672">Arun Balagopalan</a>, who developed the TMT, have done us all a great service. But they may also have created a monster. The barrier for running the TMT is so low that it&#8217;s entirely possible to run a topic modeling test and produce results without having much idea what you&#8217;re doing or what the results mean.</p>
+<p>So is it still worth doing? I think so. Playing with the results by altering variables and rerunning the test can be a useful way to get your head around what topic modeling is and isn&#8217;t. And, as I recently tried to convince my graduate DH class, <a href="http://www.playingwithhistory.com/wp-content/uploads/2010/04/hermeneutics.pdf">screwing around with texts</a> — even if you&#8217;re not totally sure what you&#8217;re doing — can be a surprisingly effective way of getting a new perspective on a body of work. Finally, seeing how many decisions need to be made about  texts and variables is a great way to understand that topic modeling is not a way of revealing any objective &#8220;truth&#8221; about a text; instead, it&#8217;s a way of deriving a certain kind of meaning — which still needs to be interpreted and interrogated.</p>
+<p>But in order to get any of these benefits from the Topic Modeling Tool, you need to be able to make some sense of your results, which is no easy task. The TMT generates some decidedly cryptic-looking files, and as far as I can tell, there aren&#8217;t many resources out there to help you make sense of them.</p>
+<p>Once you survey the results of the Topic Modeling Tool, it becomes clear why topic modeling often goes hand-in-hand with visualization. The format of the results makes it difficult for a human being to discern patterns in them, and the files aren&#8217;t easy to visualize without doing some custom coding.</p>
+<p><strong>But say you&#8217;re a non-coder using the Topic Modeling Tool to screw around. You feed it some text, you get some files; now what? </strong></p>
+<p><strong></strong>What follows are some very basic ways you might begin looking at the results you&#8217;ve generated.</p>
+<p><span id="more-1335"></span>For the purposes of demonstration, I&#8217;ve used a set of 3,584 emails that constitute the years 2008–2012 of the <a href="http://dhhumanist.org/">Humanist listserv</a>. We originally downloaded the emails <a href="http://dhhumanist.org/Archives/Current/">here</a> and then divided each volume into individual emails. You can find the dataset I used <a href="https://www.dropbox.com/s/rcdlh4fusllv6zq/Humanist%20emails%202008-20012.zip" target="_blank">here,</a> and the files that comprise my TMT results <a href="https://www.dropbox.com/s/jawu1nhve667ime/humanist%20new%2050%20topics.zip">here</a>.</p>
+<p>For further reading (and viewing) on topic modeling, I&#8217;ve listed my favorite resources <a href="http://dh201.humanities.ucla.edu/?page_id=183">here</a>. For more on the Topic Modeling Tool in particular, I recommend <a href="http://clc.yale.edu/2011/10/07/how-to-do-your-own-topic-modeling/">this summary and video</a> of a talk by David Newman, along with the accompanying <a href="http://odai.yale.edu/node/362/attachment">slides</a> (PDF).</p>
+<div class="LessonStep top">
+<h3 class="StepTitle">What are these files?</h3>
+<div class="StepImage"><img alt="media_1351529128083.png" src="http://miriamposner.com/blog/wp-content/uploads/2012/10/media_1351529128083.png" width="540" height="80" /></div>
+<div class="StepInstructions">
+<p>When you feed a body of text to the TMT, you get two folders: <strong>output_csv</strong> and <strong>output_html</strong>.</p>
+<p><strong>CSV</strong> stands for <strong>comma-separated values</strong>. The documents inside your <strong>output_csv</strong> folder are spreadsheet documents that usually open in something like Excel. <strong>HTML</strong> documents will open in a web browser.</p>
+<p>You have three CSV spreadsheets:</p>
+<ul>
+<li><strong>DocsinTopics.csv, </strong>which provides you a list of topics and shows you which documents they&#8217;re likely to appear in;</li>
+<li><strong>Topics_Words.csv, </strong>which offers you a numbered list of &#8220;topics&#8221;; and</li>
+<li><strong>TopicsinDocs.csv, </strong>which provides a list of documents, along with the topics that appear most prominently in each.</li>
+</ul>
+<p>You have one main HTML document, called <strong>all_topics.html</strong>. As we&#8217;ll see, this offers a numbered list of topics, along with a way of drilling down into each topic&#8217;s associated documents. Also inside your <strong>output_html</strong> folder are a folder called <strong>Docs</strong>, which contains an HTML page for each document; a folder called <strong>Topics</strong>, which provides an HTML page for each topic you&#8217;ve generated; and a document called <strong>malletgui.css,</strong> which provides your web browser with some instructions for displaying each HTML page.</p>
+</div>
+</div>
+<div class="LessonStep top">
+<h3 class="StepTitle">Start with TopicsinDocs</h3>
+<div class="StepImage"><img alt="media_1351530126749.png" src="http://miriamposner.com/blog/wp-content/uploads/2012/10/media_1351530126749.png" width="540" height="93" /></div>
+<div class="StepInstructions">
+<p>I find it useful to start with the TopicinDocs.csv file. But the file requires a bit of explanation. For one thing, it&#8217;s helpful to know that each row is meant to be read <em>across</em>.</p>
+<ul>
+<li>In the image here, <strong>Column A</strong> gives each document a number.</li>
+<li><strong>Column B</strong> provides that document&#8217;s filename. (We&#8217;ll make that easier to read in the next step.)</li>
+<li><strong>Column C </strong>tells you which topic (from a separate numbered list, which we&#8217;ll find in a different document) is represented most prominently in that particular document.</li>
+<li><strong>Column D</strong> tells you what contribution that topic makes to the document in question. For example, for document 1, we can see that Topic 9 makes a contribution of 0.384 —or 38.4% — to the document&#8217;s contents.</li>
+<li><strong>Column E</strong> provides the next-most prominent topic in the document (in this case number 27).</li>
+<li><strong>Column F</strong> tells you what contribution that topic makes to the document&#8217;s contents.</li>
+<li><strong>Column G</strong> provides the next-most prominent topic &#8230;</li>
+</ul>
+<p>&#8230; and so on.</p>
+</div>
+</div>
+<div class="LessonStep top">
+<h3 class="StepTitle">Make filenames easier to read</h3>
+<div class="StepImage"><img alt="media_1351530387183.png" src="http://miriamposner.com/blog/wp-content/uploads/2012/10/media_1351530387183.png" width="540" height="147" /></div>
+<div class="StepInstructions">
+<p>Your spreadsheet is trying to be helpful by providing you with the entire path to each document in Column B; that is, by showing you how to navigate to each document. But that&#8217;s hard to read. I find it helpful to get rid of most of the path information — in this case <strong><span style="color: #000000;">/Users/miriamposner/Dropbox/UCLA/DH 201/Topic Modeling/Datasets/Humanist emails 2008-20012/By individual email/</span></strong><span style="color: #000000;"> — by selecting Column B and using Excel&#8217;s <strong>Find and Replace</strong> function (in the <strong>Edit</strong> menu) to get rid of every occurrence of that path.</span></p>
+<p><span style="color: #000000;">Once you do this, you should be left with just the filename of each document, which is much easier to read.</span></p>
+</div>
+</div>
+<div class="LessonStep top">
+<h3 class="StepTitle">Get a sense of what each row means by making a pie chart.</h3>
+<div class="StepImage"><img alt="media_1351531451258.png" src="http://miriamposner.com/blog/wp-content/uploads/2012/10/media_1351531451258.png" width="540" height="235" /></div>
+<div class="StepInstructions">
+<p>The kind of topic modeling that we&#8217;re doing assumes that every document contains multiple topics. That&#8217;s why each row lists multiple topics for each document. To get our heads around this, let&#8217;s make a simple pie chart. Copy a row from your document — I&#8217;ll choose <strong>Row 2</strong> — and paste it into a new Excel sheet.</p>
+<p>Now you need to reformat this data a little bit so that Excel can make it into a pie chart. Delete the first two columns, which provide the document number and filename. Then, make one column called <strong>Topic</strong> and one column called <strong>Contribution</strong>. Put each topic in the <strong>Topic</strong> column, and put each topic&#8217;s contribution right next to it, in the <strong>Contribution</strong> column.</p>
+<p>The Contribution values may not add up to 1 (meaning 100%), because the TMT is only showing you those contributions beyond a certain threshold. So in the last row, create a topic called <strong>Other</strong>. For its contribution, type in this function: <strong>=1-SUM(B2:B4)</strong>. (Replace B2 and B4 with the first and last cell numbers of each of your contributions.)</p>
+<p>Once you&#8217;ve got a grid that looks similar to the one above, highlight the cell values, and from Excel&#8217;s <strong>Charts</strong> menu, select <strong>Pie</strong>. Now you have a visual representation of the contribution of each topic to the document.</p>
+<p>I can&#8217;t do this for each of my documents, because I have more than 3,000 of them. But now I have a better understanding of what each row is telling me.</p>
+</div>
+</div>
+<div class="LessonStep top">
+<h3 class="StepTitle">But what are these topics? (1)</h3>
+<div class="StepImage"><img alt="media_1351532131705.png" src="http://miriamposner.com/blog/wp-content/uploads/2012/10/media_1351532131705.png" width="540" height="403" /></div>
+<div class="StepInstructions">
+<p>Now we sort of understand that each topic contains multiple topics in different proportions. But what do the numbered topics refer to?</p>
+<p>That information is contained in a different document, and this next step requires a lot of toggling back and forth between our <strong>TopicsinDocs.csv</strong> file and our <strong>all_topics.html </strong>file.</p>
+<p>Start by double-clicking <strong>all_topics.html</strong>. It should open in a web browser. You&#8217;ve got a list of topics (or, more properly, word clusters).</p>
+<p>It&#8217;s important to realize that these topics are listed in no particular order. But the number of each topic corresponds to the topic&#8217;s number in your <strong>TopicsinDocs.csv </strong>spreadsheet. It&#8217;s also important to realize that there are more words in this topic than we&#8217;re being shown. By default the Topic Modeling Tool just shows us the top 10 words associated with each topic.</p>
+<p>So the topic modeling algorithm thinks these are meaningful. We have to figure out why.</p>
+<p>In the document we were looking at in the previous step, we saw that Topic 9 made the most prominent contribution. So I&#8217;ll click on that topic — here, it&#8217;s <strong>uk ac london kcl www king http college research centre</strong> — and see what it&#8217;s all about.</p>
+</div>
+</div>
+<div class="LessonStep top">
+<h3 class="StepTitle">But what are these topics? (2)</h3>
+<div class="StepImage"><img alt="media_1351532466939.png" src="http://miriamposner.com/blog/wp-content/uploads/2012/10/media_1351532466939.png" width="478" height="362" /></div>
+<div class="StepInstructions">
+<p>When we click on an individual topic, we get a webpage that shows us another way of looking at it: a list telling us which documents feature that particular document most prominently. Here, we see that the file called <strong>3276.txt</strong> contains the most words associated with this particular topic.</p>
+</div>
+</div>
+<div class="LessonStep top">
+<h3 class="StepTitle">But what are these topics? (3)</h3>
+<div class="StepImage"><img alt="media_1351532843469.png" src="http://miriamposner.com/blog/wp-content/uploads/2012/10/media_1351532843469.png" width="540" height="278" /></div>
+<div class="StepInstructions">
+<p>We know that we&#8217;re interested in Topic 9, and we know that it&#8217;s featured most prominently in this list of documents. Now we can try to start figuring out what it refers to. We might start by just taking a guess. I have a basic familiarity with the corpus in question, and my hunch is that this word cluster is associated with King&#8217;s College London, and particularly its research activity. To confirm my hunch, I&#8217;ll drill down into the top-ranked documents in our <strong>Topic</strong> list, as shown in the image above.</p>
+<p>Unfortunately, my data doesn&#8217;t tell me which words are associated with which topic, but by surveying a number of documents, I should be able to either confirm or question my hunch.</p>
+</div>
+</div>
+<div class="LessonStep top">
+<h3 class="StepTitle">Name your topics</h3>
+<div class="StepImage"><img alt="media_1351533044510.png" src="http://miriamposner.com/blog/wp-content/uploads/2012/10/media_1351533044510.png" width="540" height="223" /></div>
+<div class="StepInstructions">
+<p>I find that it&#8217;s a useful exercise to try to name the topics in my list. Doing so requires me to alternate between reading individual documents and looking for patterns, and it&#8217;s an interesting way to look for clusters of meaning that surprise or confuse me. When a topic doesn&#8217;t make sense to me, it&#8217;s a good excuse to investigate!</p>
+<p>If I&#8217;m able to name my topics, I&#8217;ll have a quick-and-dirty concordance of sorts to the Humanist emails.</p>
+<p>By now it should be abundantly clear that no part of this process is &#8220;scientific&#8221;; it&#8217;s just one way of getting your head around a large body of text. So there&#8217;s no right or wrong topic name, just schemas that do and don&#8217;t help you find interesting features of the text you&#8217;re looking at.</p>
+</div>
+</div>
+<div class="LessonStep top">
+<h3 class="StepTitle">Look for patterns</h3>
+<div class="StepImage"><img alt="media_1351534010353.png" src="http://miriamposner.com/blog/wp-content/uploads/2012/10/media_1351534010353.png" width="489" height="245" /></div>
+<div class="StepInstructions">
+<p>Topic modeling is generally very useful for, say, learning about change over time. And if you&#8217;re running the TMT on a small enough set of documents, you might be able to glean that information from your spreadsheet. But if you, like me, have a bunch of documents, it&#8217;s quite a bit harder for a human being to suss out patterns without visualization tools.</p>
+<p>But you can try. Using Excel&#8217;s Sort and Filter functions, you can, for example, show only those documents for which Topic 9 makes the greatest contribution. You can look for documents that seem to have a similar distribution of topics. It&#8217;s challenging, but it&#8217;s worth doing, if only to get a better sense of how topic modeling works.</p>
+</div>
+</div>
+<div class="LessonStep top">
+<h3 class="StepTitle">Alter variables and try again</h3>
+<div class="StepImage"><img alt="media_1351534826955.png" src="http://miriamposner.com/blog/wp-content/uploads/2012/10/media_1351534826955.png" width="540" height="90" /></div>
+<div class="StepInstructions">
+<p>The results of any topic modeling test will change a great deal depending on some important decisions that you make. For one thing, the way you divide up documents makes a big difference to your results. In the preceding example, I chose to divide the Humanist emails into 3,584 separate documents. So the TMT is determining topics by looking for clusters in each individual email.</p>
+<p>But instead of thousands of individual emails, I could have chosen to feed the TMT five separate chunks of emails, one chunk per year. In that case, the TMT would look for the clusters of words that characterize each year of emails. The image above is my <strong>TopicsinDocs</strong> spreadsheet for this scenario. You can see that it&#8217;s easier to discern gross patterns, but I lose a lot of the nuance I got in the preceding example. And why should a year be the interval at stake here? Might there be a more meaningful way to divide time — perhaps a series of events that I think might be watershed moments for DH? But then again, would that division just tend to confirm my bias?</p>
+<p>In the scenario I described here, I chose to ask the TMT for 50 topics. But I could have chosen to ask for fewer, which would tend to make each topic more broad, or more, which would tend to make each topic more specific.</p>
+<p>Which set of variables is best? I&#8217;m not sure. It depends on what interests you. For me at the moment, what&#8217;s &#8220;best&#8221; is trying multiple strategies, comparing them to each other, and making a list of things that surprise or confuse me.</p>
+</div>
+</div>
+					</div><!-- .entry-content -->
+
+		<footer class="entry-meta">
+
+	    		      <!-- tags -->
+	      <div class="tagcloud">
+
+	          <a href="http://miriamposner.com/blog/tag/dh201/">dh201</a> <a href="http://miriamposner.com/blog/tag/topic-model/">Topic model</a> <a href="http://miriamposner.com/blog/tag/topic-modeling/">topic modeling</a> <a href="http://miriamposner.com/blog/tag/tutorials/">tutorials</a> 
+	      </div>
+	      <!-- end tags -->
+	      
+		</footer><!-- .entry-meta -->
+	</div>
+
+	
+</article><!-- #post-## -->
+
+<div id="comments" class="comments-area">
+
+			<h2 class="comments-title">
+			21 thoughts on &ldquo;<span>Very basic strategies for interpreting results from the Topic Modeling Tool</span>&rdquo;		</h2>
+
+		
+		<ol class="comment-list">
+					<li id="comment-114568" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://meglit.wordpress.com/2012/10/30/the-art-of-topic-modeling/' rel='external nofollow' class='url'>The Art of Topic Modeling &laquo; MegLit</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-115723" class="pingback odd alt thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://dhmusings.wordpress.com/2012/10/31/screwing-around-with-topic-modeling/' rel='external nofollow' class='url'>Screwing around with topic modeling &laquo; dh musings</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-121767" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://miriamposner.com/blog/?p=1350' rel='external nofollow' class='url'>Notes on DH and sharing your work | Miriam Posner&#039;s Blog</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-124255" class="pingback odd alt thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://www.fredgibbs.net/clio3workspace/blog/topic-modeling-a-basic-introduction/' rel='external nofollow' class='url'>Topic Modeling: A Basic Introduction | clio 3 blog</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-124814" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://www.urbanoasis.org/twitter/youve-heard-of-topic-modeling-whats-it-about-t/' rel='external nofollow' class='url'>You&#8217;ve heard of Topic Modeling. What&#8217;s it about? T&#8230; | Twitter</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-172269" class="pingback odd alt thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://www.fredgibbs.net/clio3workspace/blog/topic-modeling/' rel='external nofollow' class='url'>Topic Modeling: A Basic Introduction | clio 3 blog</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-351585" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://www.thomaspadilla.org/2013/04/27/tmtoolsresources/' rel='external nofollow' class='url'>Thomas Padilla</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-510101" class="pingback odd alt thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://miriamposner.com/blog/?p=1571' rel='external nofollow' class='url'>How did they make that? | Miriam Posner&#039;s Blog</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-2939237" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://1916letteranalysis.wordpress.com/2014/05/23/topic-modelling-tools/' rel='external nofollow' class='url'>Topic modelling Tools | Text Analysis of the 1916 Letters</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-3001282" class="comment odd alt thread-odd thread-alt depth-1">
+			<article id="div-comment-3001282" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='http://1.gravatar.com/avatar/db1deddf7c31ed6b7a20819556c4e38e?s=60&#038;d=mm&#038;r=pg' srcset='http://1.gravatar.com/avatar/db1deddf7c31ed6b7a20819556c4e38e?s=120&amp;d=mm&amp;r=pg 2x' class='avatar avatar-60 photo' height='60' width='60' />						<b class="fn"><a href='http://tripkirkpatrick.commons.yale.edu' rel='external nofollow' class='url'>Trip Kirkpatrick</a></b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="http://miriamposner.com/blog/very-basic-strategies-for-interpreting-results-from-the-topic-modeling-tool/#comment-3001282">
+							<time datetime="2014-10-06T10:15:39+00:00">
+								October 6, 2014 at 10:15 am							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Came back here after all this time to note that TMT is for Latin character sets only, and only for unaccented Latin at that. Without careful testing (or picking into the code), my guess is that it&#8217;s just for ASCII, but that might be more restrictive than it actually is.</p>
+				</div><!-- .comment-content -->
+
+							</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+		<li id="comment-3001283" class="comment even thread-even depth-1">
+			<article id="div-comment-3001283" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='http://1.gravatar.com/avatar/db1deddf7c31ed6b7a20819556c4e38e?s=60&#038;d=mm&#038;r=pg' srcset='http://1.gravatar.com/avatar/db1deddf7c31ed6b7a20819556c4e38e?s=120&amp;d=mm&amp;r=pg 2x' class='avatar avatar-60 photo' height='60' width='60' />						<b class="fn"><a href='http://tripkirkpatrick.commons.yale.edu' rel='external nofollow' class='url'>Trip Kirkpatrick</a></b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="http://miriamposner.com/blog/very-basic-strategies-for-interpreting-results-from-the-topic-modeling-tool/#comment-3001283">
+							<time datetime="2014-10-06T10:16:33+00:00">
+								October 6, 2014 at 10:16 am							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Oh, and there&#8217;s an open question in the TMT repo at Google about this: <a href="https://code.google.com/p/topic-modeling-tool/issues/detail?id=3" rel="nofollow">https://code.google.com/p/topic-modeling-tool/issues/detail?id=3</a></p>
+				</div><!-- .comment-content -->
+
+							</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+		<li id="comment-3114216" class="pingback odd alt thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://e603fall2014.wordpress.com/2014/10/21/131/' rel='external nofollow' class='url'>Computers &amp; Composition: E603 Fall 2014</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-3241073" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href='https://coledcrawford.wordpress.com/2015/03/21/links-dh-posts-i-find-useful/' rel='external nofollow' class='url'>Links: DH Posts I Find Useful | Plans Gone Awry</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-3241094" class="pingback odd alt thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://www.lagado.name/blog/?p=239' rel='external nofollow' class='url'>The Markov Chains of La Grande Jatte | The Frame of Lagado</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-3241103" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://www.lagado.name/blog/?p=342' rel='external nofollow' class='url'>Directed Probabilistic Topic Networks | The Frame of Lagado</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-3270518" class="pingback odd alt thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://katiefaull.com/2015/09/29/tools-for-dh-humanities-in-action/' rel='external nofollow' class='url'>Tools for DH&#8211;Humanities in Action | Katie Faull</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-3287326" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href='https://hendromim581.wordpress.com/2015/12/04/harvesting-the-social-media/' rel='external nofollow' class='url'>Harvesting the social media | hendromim581</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-3300903" class="pingback odd alt thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://www.theportus.com/classroom/topic-modeling-6/' rel='external nofollow' class='url'>Topic Modeling &#8211; Portus Classroom</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-3305606" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://www.theportus.com/classroom/final-project-tutorial-make-topic-modeling-work-for-you/' rel='external nofollow' class='url'>Final Project Tutorial: Make Topic Modeling work for you. &#8211; Portus Classroom</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-3305692" class="pingback odd alt thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://www.theportus.com/classroom/integrating-digital-humanities-tools-in-the-history-classroom/' rel='external nofollow' class='url'>Integrating Digital Humanities tools in the History Classroom &#8211; Portus Classroom</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-3311724" class="comment even thread-even depth-1">
+			<article id="div-comment-3311724" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='http://1.gravatar.com/avatar/d6f3ffa27ef6cef958bd6b62e603101d?s=60&#038;d=mm&#038;r=pg' srcset='http://1.gravatar.com/avatar/d6f3ffa27ef6cef958bd6b62e603101d?s=120&amp;d=mm&amp;r=pg 2x' class='avatar avatar-60 photo' height='60' width='60' />						<b class="fn"><a href='http://hengchen.net' rel='external nofollow' class='url'>Simon Hengchen</a></b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="http://miriamposner.com/blog/very-basic-strategies-for-interpreting-results-from-the-topic-modeling-tool/#comment-3311724">
+							<time datetime="2016-07-05T04:28:48+00:00">
+								July 5, 2016 at 4:28 am							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>@Trip Kirkpatrick</p>
+<p>If you&#8217;re interested (even though this comment comes two years later), I&#8217;ve forked TMT to allow for UTF-8 characters. It also generates UTF-8 HTML and CSV files, and has by default a RegEx option that allows for accented characters and diacritics. It&#8217;s available on GitHub, source and compiled version (in the &#8220;target&#8221; folder).</p>
+<p>Link: <a href="https://github.com/ulbstic/topic-modeling-tool-FR/" rel="nofollow">https://github.com/ulbstic/topic-modeling-tool-FR/</a></p>
+				</div><!-- .comment-content -->
+
+							</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+		</ol><!-- .comment-list -->
+
+			<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/blog/very-basic-strategies-for-interpreting-results-from-the-topic-modeling-tool/#respond" style="display:none;">Cancel reply</a></small></h3>			<form action="http://miriamposner.com/blog/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+				<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" aria-required="true" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name</label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" /></p>
+<p class="comment-form-email"><label for="email">Email</label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='1335' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="7bf16f2047" /></p><div class="g-recaptcha" data-sitekey="6LfO7ggTAAAAANbu2uYcSvdnx3tbZ6LS2VSM5PER" data-theme="standard"></div><script type="text/javascript"src="https://www.google.com/recaptcha/api.js?hl=en"></script>            <div id="recaptcha-submit-btn-area">&nbsp;</div>
+            <noscript>
+            <style type='text/css'>#submit {display:none;}</style>
+            <input name="submit" type="submit" id="submit-alt" tabindex="6"
+                value="Submit Comment"/> 
+            </noscript><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="178"/></p>			</form>
+			</div><!-- #respond -->
+	
+</div><!-- #comments -->
+
+	<nav class="navigation post-navigation" role="navigation">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="http://miriamposner.com/blog/flesh-made-light-investigating-x-ray-films/" rel="prev"><i class="fa fa-chevron-left"></i> <span class="post-title">Flesh made light: investigating X-ray films</span></a></div><div class="nav-next"><a href="http://miriamposner.com/blog/notes-on-dh-and-sharing-your-work/" rel="next"><span class="post-title">Notes on DH and sharing your work <i class="fa fa-chevron-right"></i></span></a></div></div>
+	</nav>
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+</div>
+	<div id="secondary" class="widget-area col-sm-12 col-md-4" role="complementary">
+		<div class="well">
+						<aside id="text-3" class="widget widget_text"><h3 class="widget-title">About me</h3>			<div class="textwidget">My name is Miriam Posner, and I coordinate and teach in the Digital Humanities program at the University of California, Los Angeles. You can read more about me <a href="http://miriamposner.com/about.html">here</a>. </div>
+		</aside><aside id="text-7" class="widget widget_text"><h3 class="widget-title">Meet with me</h3>			<div class="textwidget">UCLA people are welcome to book a meeting with me by grabbing a time <a href="https://miriamposner.youcanbook.me/">here</a>.</div>
+		</aside><aside id="search-3" class="widget widget_search">
+<form role="search" method="get" class="form-search" action="http://miriamposner.com/blog/">
+  <div class="input-group">
+  	<label class="screen-reader-text" for="s">Search for:</label>
+    <input type="text" class="form-control search-query" placeholder="Search&hellip;" value="" name="s" title="Search for:" />
+    <span class="input-group-btn">
+      <button type="submit" class="btn btn-default" name="submit" id="searchsubmit" value="Search"><span class="glyphicon glyphicon-search"></span></button>
+    </span>
+  </div>
+</form></aside><aside id="text-9" class="widget widget_text"><h3 class="widget-title">Course Sites</h3>			<div class="textwidget"><ul>
+<li><a href="http://miriamposner.com/dh101f15/">DH101: Introduction to Digital Humanities</a></li>
+<li><a href="http://digitalmateriallabor.org/">DH150: Digital Labor and Materiality</a></li>
+<li><a href="http://miriamposner.com/dh150w15/">DH150: Selfies, Snapchat, and Cyberbullies: Coming of Age Online</a></li>
+</ul></div>
+		</aside><aside id="text-10" class="widget widget_text"><h3 class="widget-title">Workshops &#038; Tutorials</h3>			<div class="textwidget"><ul>
+<li><a href="https://github.com/miriamposner/palladio_workshop/blob/master/Getting_Started_with_Palladio.md">Getting Started with Palladio</a></li>
+<li><a href="https://github.com/miriamposner/fusion_tables/blob/master/fusiontables.md">Google Fusion Table Basics</a></li>
+<li><a href="https://github.com/miriamposner/downloadmhljournals">Download journals in bulk with wget</a></li>
+<li><a href="http://miriamposner.com/classes/medimages/">Working with Medical Images</a></li>
+<li><a href="https://github.com/miriamposner/cytoscape_tutorials">Network Analysis with Cytoscape</a></li>
+<li><a href="https://docs.google.com/document/d/1Z-14hgZPMIiAzT6vx1mVg5l60zkRVU9EHgZgK9HHdU4/edit?usp=sharing">My highly opinionated guide to DH tools & tutorials</a></li></div>
+		</aside><aside id="text-8" class="widget widget_text"><h3 class="widget-title">Travel &#038; Talks</h3>			<div class="textwidget"><h4>April 6-7</h4>
+Rochester Institute of Technology
+<h4>April 14</h4>
+Stanford University
+<h4>April 19-20</h4>
+<a href="https://www.asis.org/rdap/">Research Data Access and Preservation Summit</a>, Seattle (participating virtually!)
+<h4>April 21</h4>
+Dartmouth College
+<h4>April 27-29</h4>
+Western Association of Women Historians, San Diego
+<h4>May 2-3</h4>
+<a href="https://csvconf.com/">csv,conf,v3</a>, Portland, Oregon
+<h4>May 4-5</h4>
+<a href="http://pwp.gatech.edu/dhdesign/">DH+Design Symposium</a>, Georgia Tech, Atlanta
+<h4>June 13-15</h4>
+University of Texas, Austin
+<h4>September 14-15</h4>
+George Mason University, Fairfax, VA
+<h4>September 18</h4>
+University of Richmond
+<h4>October 20</h4>
+Librarians’ Association of the University of California, Berkeley 
+<h4>November</h4>
+Fondazione Levi and Fondazione Cini, Venice, Italy
+</div>
+		</aside><aside id="archives-3" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<ul>
+			<li><a href='http://miriamposner.com/blog/2016/07/'>July 2016</a></li>
+	<li><a href='http://miriamposner.com/blog/2016/06/'>June 2016</a></li>
+	<li><a href='http://miriamposner.com/blog/2016/04/'>April 2016</a></li>
+	<li><a href='http://miriamposner.com/blog/2016/03/'>March 2016</a></li>
+	<li><a href='http://miriamposner.com/blog/2015/12/'>December 2015</a></li>
+	<li><a href='http://miriamposner.com/blog/2015/10/'>October 2015</a></li>
+	<li><a href='http://miriamposner.com/blog/2015/09/'>September 2015</a></li>
+	<li><a href='http://miriamposner.com/blog/2015/08/'>August 2015</a></li>
+	<li><a href='http://miriamposner.com/blog/2015/07/'>July 2015</a></li>
+	<li><a href='http://miriamposner.com/blog/2015/06/'>June 2015</a></li>
+	<li><a href='http://miriamposner.com/blog/2015/05/'>May 2015</a></li>
+	<li><a href='http://miriamposner.com/blog/2015/04/'>April 2015</a></li>
+	<li><a href='http://miriamposner.com/blog/2015/01/'>January 2015</a></li>
+	<li><a href='http://miriamposner.com/blog/2014/12/'>December 2014</a></li>
+	<li><a href='http://miriamposner.com/blog/2014/11/'>November 2014</a></li>
+	<li><a href='http://miriamposner.com/blog/2014/10/'>October 2014</a></li>
+	<li><a href='http://miriamposner.com/blog/2014/09/'>September 2014</a></li>
+	<li><a href='http://miriamposner.com/blog/2014/04/'>April 2014</a></li>
+	<li><a href='http://miriamposner.com/blog/2014/03/'>March 2014</a></li>
+	<li><a href='http://miriamposner.com/blog/2014/01/'>January 2014</a></li>
+	<li><a href='http://miriamposner.com/blog/2013/12/'>December 2013</a></li>
+	<li><a href='http://miriamposner.com/blog/2013/11/'>November 2013</a></li>
+	<li><a href='http://miriamposner.com/blog/2013/08/'>August 2013</a></li>
+	<li><a href='http://miriamposner.com/blog/2013/04/'>April 2013</a></li>
+	<li><a href='http://miriamposner.com/blog/2013/03/'>March 2013</a></li>
+	<li><a href='http://miriamposner.com/blog/2013/02/'>February 2013</a></li>
+	<li><a href='http://miriamposner.com/blog/2013/01/'>January 2013</a></li>
+	<li><a href='http://miriamposner.com/blog/2012/11/'>November 2012</a></li>
+	<li><a href='http://miriamposner.com/blog/2012/10/'>October 2012</a></li>
+	<li><a href='http://miriamposner.com/blog/2012/09/'>September 2012</a></li>
+	<li><a href='http://miriamposner.com/blog/2012/08/'>August 2012</a></li>
+	<li><a href='http://miriamposner.com/blog/2012/07/'>July 2012</a></li>
+	<li><a href='http://miriamposner.com/blog/2012/05/'>May 2012</a></li>
+	<li><a href='http://miriamposner.com/blog/2012/03/'>March 2012</a></li>
+	<li><a href='http://miriamposner.com/blog/2012/02/'>February 2012</a></li>
+	<li><a href='http://miriamposner.com/blog/2012/01/'>January 2012</a></li>
+	<li><a href='http://miriamposner.com/blog/2011/12/'>December 2011</a></li>
+	<li><a href='http://miriamposner.com/blog/2011/11/'>November 2011</a></li>
+	<li><a href='http://miriamposner.com/blog/2011/10/'>October 2011</a></li>
+	<li><a href='http://miriamposner.com/blog/2011/09/'>September 2011</a></li>
+	<li><a href='http://miriamposner.com/blog/2011/08/'>August 2011</a></li>
+	<li><a href='http://miriamposner.com/blog/2011/07/'>July 2011</a></li>
+	<li><a href='http://miriamposner.com/blog/2011/05/'>May 2011</a></li>
+	<li><a href='http://miriamposner.com/blog/2011/04/'>April 2011</a></li>
+	<li><a href='http://miriamposner.com/blog/2011/03/'>March 2011</a></li>
+	<li><a href='http://miriamposner.com/blog/2011/02/'>February 2011</a></li>
+	<li><a href='http://miriamposner.com/blog/2011/01/'>January 2011</a></li>
+	<li><a href='http://miriamposner.com/blog/2010/11/'>November 2010</a></li>
+	<li><a href='http://miriamposner.com/blog/2010/08/'>August 2010</a></li>
+	<li><a href='http://miriamposner.com/blog/2010/07/'>July 2010</a></li>
+	<li><a href='http://miriamposner.com/blog/2010/05/'>May 2010</a></li>
+	<li><a href='http://miriamposner.com/blog/2010/02/'>February 2010</a></li>
+	<li><a href='http://miriamposner.com/blog/2010/01/'>January 2010</a></li>
+	<li><a href='http://miriamposner.com/blog/2009/12/'>December 2009</a></li>
+	<li><a href='http://miriamposner.com/blog/2009/11/'>November 2009</a></li>
+	<li><a href='http://miriamposner.com/blog/2009/09/'>September 2009</a></li>
+	<li><a href='http://miriamposner.com/blog/2009/07/'>July 2009</a></li>
+	<li><a href='http://miriamposner.com/blog/2009/06/'>June 2009</a></li>
+	<li><a href='http://miriamposner.com/blog/2009/05/'>May 2009</a></li>
+	<li><a href='http://miriamposner.com/blog/2009/04/'>April 2009</a></li>
+	<li><a href='http://miriamposner.com/blog/2009/03/'>March 2009</a></li>
+		</ul>
+		</aside><aside id="text-6" class="widget widget_text">			<div class="textwidget"><a href="http://miriamposner.com/blog/?feed=rss2">Subscribe to this blog via RSS</a></div>
+		</aside><aside id="pages-3" class="widget widget_pages"><h3 class="widget-title">Reading Lists</h3>		<ul>
+			<li class="page_item page-item-515"><a href="http://miriamposner.com/blog/orals-reading-list-culture-and-capitalism/">Capitalism and American Culture</a></li>
+<li class="page_item page-item-1033"><a href="http://miriamposner.com/blog/digital-humanities-and-the-library/">Digital Humanities and the Library</a></li>
+<li class="page_item page-item-528"><a href="http://miriamposner.com/blog/oral-examination-list-early-american-silent-film/">Early American Silent Film</a></li>
+<li class="page_item page-item-1030"><a href="http://miriamposner.com/blog/labor-and-materiality-in-the-digital-age/">Labor and Materiality in the Digital Age</a></li>
+<li class="page_item page-item-521"><a href="http://miriamposner.com/blog/oral-examination-reading-list-major-theories-of-spectatorship/">Major Theories of Spectatorship</a></li>
+<li class="page_item page-item-525"><a href="http://miriamposner.com/blog/oral-examination-list-medicine-and-visual-culture/">Medicine and Visual Culture</a></li>
+<li class="page_item page-item-574"><a href="http://miriamposner.com/blog/psychiatry-photography-and-lobotomy-a-bibliography/">Psychiatry, Photography, and Lobotomy: A Bibliography</a></li>
+		</ul>
+		</aside>		</div>
+	</div><!-- #secondary -->
+		</div><!-- close .row -->
+	</div><!-- close .container -->
+</div><!-- close .site-content -->
+
+	<div id="footer-area">
+		<div class="container footer-inner">
+			<div class="row">
+				
+				</div>
+		</div>
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+			<div class="site-info container">
+				<div class="row">
+										<nav role="navigation" class="col-md-6">
+											</nav>
+					<div class="copyright col-md-6">
+						sparkling						Theme by <a href="http://colorlib.com/" target="_blank">Colorlib</a> Powered by <a href="http://wordpress.org/" target="_blank">WordPress</a>					</div>
+				</div>
+			</div><!-- .site-info -->
+			<div class="scroll-to-top"><i class="fa fa-angle-up"></i></div><!-- .scroll-to-top -->
+		</footer><!-- #colophon -->
+	</div>
+</div><!-- #page -->
+
+  <script type="text/javascript">
+    jQuery( document ).ready( function( $ ){
+      if ( $( window ).width() >= 767 ){
+        $( '.navbar-nav > li.menu-item > a' ).click( function(){
+            if( $( this ).attr('target') !== '_blank' ){
+                window.location = $( this ).attr( 'href' );
+            }else{
+                var win = window.open($( this ).attr( 'href' ), '_blank');
+                win.focus();
+            }
+        });
+      }
+    });
+  </script>
+            <script type="text/javascript">
+            var sub = document.getElementById('submit');
+            document.getElementById('recaptcha-submit-btn-area').appendChild (sub);
+            document.getElementById('submit').tabIndex = 6;
+            if ( typeof _recaptcha_wordpress_savedcomment != 'undefined') {
+                document.getElementById('comment').value = 
+                    _recaptcha_wordpress_savedcomment;
+            }
+            </script><script type='text/javascript' src='http://miriamposner.com/blog/wp-content/plugins/akismet/_inc/form.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://miriamposner.com/blog/wp-content/themes/sparkling/inc/js/skip-link-focus-fix.js?ver=20140222'></script>
+<script type='text/javascript' src='http://miriamposner.com/blog/wp-includes/js/wp-embed.min.js?ver=4.7.5'></script>
+
+</body>
+</html>

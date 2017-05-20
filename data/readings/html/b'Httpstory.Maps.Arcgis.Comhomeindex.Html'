@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link type="application/rss+xml" rel="alternate" title="ArcGIS.com News Feed" href="http://feeds.feedburner.com/arcgiscomnewsfeed" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="//cdn.arcgis.com/cdn/20557/js/arcgisonline/css/common.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.arcgis.com/cdn/20557/js/arcgisonline/css/esri.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.arcgis.com/cdn/20557/css/esri/home.css">
+    <script type="text/javascript" src="//cdn.arcgis.com/cdn/20557/js/arcgisonline/config.js"></script>
+    <script type="text/javascript" src="//cdn.arcgis.com/cdn/20557/js/jsapi/dojo/dojo.js"></script>
+    <script type="text/javascript" src="//cdn.arcgis.com/cdn/20557/js/arcgisonline/base.js"></script>
+    <script type="text/javascript">
+      dojo.addOnLoad(function() {
+        arcgisonline.init.initialize();
+      });
+    </script>
+    <style type="text/css">
+      .center.center960 .footer {
+        border-top: none;
+      }
+    </style>
+  </head>
+  <body class="soria esri">
+    <div id="headerBanner" dojotype="arcgisonline.sharing.dijit.ClassificationBanner">
+    </div>
+    <div id="page-border" class="center center960" style="height:auto; overflow: hidden;">
+      <div class="clearfix">
+        <div id="header" class="grid_16_0" dojotype="arcgisonline.sharing.dijit.SiteHeader">
+        </div>
+      </div>
+      <div class="container_12">
+        <!-- Header Title and Logo -->
+        <!--<div id="headerTitle" class="clearfix">-->
+          <!--<a href="http://www.esri.com"><img class="logoRight" id="logoImg"/></a><h1 id="headerH1Tag"></h1>-->
+        <!--</div>-->
+        <!-- End of Header Title and Logo -->
+        <div>
+          <!-- Content Rotator -->
+          <div id="homeRotate" class="homeRotatorPanel">
+            <div id="details">
+              <div id="matrixLayout">
+                <div id="imgRotator" class="imgRotator">
+                </div>
+                <div id="categories" class="dots">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of rotator --><!-- Featured Maps Gallery -->
+          <div id="featuredMaps" class="clearfix">
+            <div id="fHeader">
+              <h2 id="galleryTitle"></h2>
+            </div>
+            <div class="featuredMapsContainer">
+              <div class="clearfix container_16 zindexfix">
+                <div class="clearfix galleryContainer" style="position:relative;">
+                  <span id="prev" class="prevButton"></span>
+                  <div id="gallery" class="grid_16">
+                  </div>
+                  <span id="next" class="nextButton"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of Featured Maps --><!-- Bottom Content -->
+          <div id="bottomContent" class="clearfix">
+            <div id="organizationSection" style="display:none;" class="clearfix">
+              <div class="grid_1">
+                <div class="content last">
+                  <!--<h2><span id="orgName"></span></h2>-->
+                  <div id="orgDetails" class="esriItemLinks">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="clear">
+            </div>
+            <!--<div id="topSection" class="clearfix">-->
+              <!--<div class="grid_6 alpha">-->
+                <!--<div id='topRow1' class="content1">-->
+                  <!--<h2><a href="webmap/viewer.html" id="viewerLink"></a></h2>-->
+                  <!--<p id="viewerDescription">-->
+                  <!--</p>-->
+                <!--</div>-->
+              <!--</div>-->
+              <!--<div class="grid_6 omega ieMoveLeft">-->
+                <!--<div id='topRow2' class="content2">-->
+                  <!--&lt;!&ndash;content here is dynamically created either RSS feed or ArcGIS Explorer Online&ndash;&gt;-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</div>-->
+            <div class="clear">
+            </div>
+
+            <div id="bottomSection" class="clearfix container" style="width: 960px;">
+              <div id="bottom1Grid" class="grid-25 alpha">
+                <div id="bottomRow1" class="content first clearfix">
+                  <h2><img src="images/calcite_icon_signup.png" width="19" height="19" id="signUpImg" class="calcite_icon ico_signup" /> <a href="signin.html" id="signUpLink"></a></h2>
+                  <!--<a class="medium button blue" href="signin.html" id="signUpLink"></a>-->
+                  <p id="signUpDescription">
+                  </p>
+                </div>
+              </div>
+              <div id="bottom2Grid" class="grid-25">
+                <div id='bottomRow2' class="content middle">
+                  <h2><img src="images/calcite_icon_map.png" width="19" height="19" id="mapImg" class="calcite_icon ico_map" /> <a href="webmap/viewer.html" id="viewerLink"></a></h2>
+                  <p id="viewerDescription">
+                  </p>
+                </div>
+              </div>
+              <div id="bottom3Grid" class="grid-25">
+                <div id="appDiv" class="content last">
+                  <h2 id="h2Explore"><img src="images/calcite_icon_developers.png" width="19" height="19" id="developersImg" class="calcite_icon ico_developers" /> <a id="lnkExplore" class="explorerLink" target="_blank" href="http://developers.arcgis.com"></a></h2>
+                  <p id="pExplore">
+                  </p>
+                </div>
+              </div>
+              <div id="bottom4Grid" class="grid-25 omega">
+                <div id="bottomRow3" class="content middle">
+                  <h2><img src="images/calcite_icon_lessons.png" width="19" height="19" id="videosImg" class="calcite_icon ico_video" /> <a href="" id="featuredVideosLink" target="_blank"></a></h2>
+                  <p id="featuredVideosDescription">
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="clear:both; width:100%;">
+          </div>
+        </div>
+      </div>
+      <div class="footer" dojotype="arcgisonline.sharing.dijit.SiteFooter" style="width:100%">
+      </div>
+    </div>
+    <div id="footerBanner" dojotype="arcgisonline.sharing.dijit.ClassificationBanner">
+    </div>
+  </body>
+</html>

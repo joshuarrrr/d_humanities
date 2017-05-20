@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#" xmlns:fb="http://ogp.me/ns/fb#">
+	<head prefix="og: http://ogp.me/ns# object: http://ogp.me/ns/object#">
+<script type='text/javascript'>
+var ct_ajaxurl = 'http://noduslabs.com/wp-admin/admin-ajax.php';
+ var ct_info_flag=false;
+ </script>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Identifying the Pathways for Meaning Circulation using Text Network Analysis</title>
+		<!-- Setup OpenGraph support-->
+					<meta property="og:title" content="Identifying the Pathways for Meaning Circulation using Text Network Analysis"/>
+			<meta property="og:description" content="In this work we propose a method and algorithm for identifying the pathways for meaning circulation within a text. This is done by visualizing normalized textual data as a graph and deriving the key metrics for the concepts and for the text as a whole using network analysis. The resulting data and graph representation are then used to detect the key concepts, which function as junctions for meaning circulation within a text, contextual clusters comprised of word communities (themes), as well as the most often used pathways for meaning circulation. "/>
+			<meta property="og:url" content="http://noduslabs.com/research/pathways-meaning-circulation-text-network-analysis/"/>
+			<meta property="og:image" content="http://noduslabs.com/wp-content/uploads/2011/12/figure-1-meaning-circulation-510x466.png"/>
+			<meta property="og:type" content="article"/>
+			<meta property="og:site_name" content="Nodus Labs"/>
+		
+		<title>Identifying the Pathways for Meaning Circulation using Text Network Analysis</title>
+<script type="text/javascript">var _eab_data={"ajax_url":"http:\/\/noduslabs.com\/wp-admin\/admin-ajax.php","root_url":"http:\/\/noduslabs.com\/wp-content\/plugins\/events-and-bookings\/img\/","fb_scope":"email"};if (!("ontouchstart" in document.documentElement)) document.documentElement.className += " no-touch";</script>
+<script type='text/javascript'>
+var ct_ajaxurl = 'http://noduslabs.com/wp-admin/admin-ajax.php';
+ var ct_info_flag=false;
+ </script>
+	<meta name="description" content="In this work we propose a method and algorithm for identifying the pathways for meaning circulation within a text. This is done by visualizing normalized textual data as a graph and deriving the key metrics for the concepts and for the text as a whole using network analysis. The resulting data and graph representation are then used to detect the key concepts, which function as junctions for meaning circulation within a text, contextual clusters comprised of word communities (themes), as well as the most often used pathways for meaning circulation." />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Identifying the Pathways for Meaning Circulation using Text Network Analysis" />
+	<meta property="og:description" content="In this work we propose a method and algorithm for identifying the pathways for meaning circulation within a text. This is done by visualizing normalized textual data as a graph and deriving the key metrics for the concepts and for the text as a whole using network analysis. The resulting data and graph representation are then used to detect the key concepts, which function as junctions for meaning circulation within a text, contextual clusters comprised of word communities (themes), as well as the most often used pathways for meaning circulation." />
+	<meta property="og:url" content="http://noduslabs.com/research/pathways-meaning-circulation-text-network-analysis/" />
+	<meta property="article:published_time" content="2011-12-25" />
+	<meta property="article:modified_time" content="2012-04-10" />
+	<meta property="article:author" content="http://noduslabs.com/author/dmitry/" />
+	<meta property="article:section" content="Research and Articles" />
+	<meta property="article:tag" content="analysis" />
+	<meta property="article:tag" content="meaning" />
+	<meta property="article:tag" content="narrative" />
+	<meta property="article:tag" content="networks" />
+	<meta property="article:tag" content="text" />
+	<meta property="article:tag" content="visualization" />
+	<meta property="og:site_name" content="Nodus Labs" />
+	<meta name="twitter:card" content="summary" />
+<link rel="alternate" type="application/rss+xml" title="Nodus Labs &raquo; Feed" href="http://noduslabs.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Nodus Labs &raquo; Comments Feed" href="http://noduslabs.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Nodus Labs &raquo; Identifying the Pathways for Meaning Circulation using Text Network Analysis Comments Feed" href="http://noduslabs.com/research/pathways-meaning-circulation-text-network-analysis/feed/" />
+<link rel='stylesheet' id='Puritan-css'  href='//fonts.googleapis.com/css?family=Puritan%3Aregular%2Citalic%2Cbold%2Cbolditalic&#038;subset=latin&#038;ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='Allerta-css'  href='//fonts.googleapis.com/css?family=Allerta&#038;subset=latin&#038;ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='Molengo-css'  href='//fonts.googleapis.com/css?family=Molengo&#038;subset=latin&#038;ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='Old-Standard-TT-css'  href='//fonts.googleapis.com/css?family=Old+Standard+TT%3Aregular%2Citalic%2Cbold&#038;subset=latin&#038;ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://noduslabs.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='font_awesome-css'  href='http://noduslabs.com/wp-content/plugins/coursepress/css/font-awesome.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='front_general-css'  href='http://noduslabs.com/wp-content/plugins/coursepress/css/front_general.css?ver=1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='front_enrollment_process-css'  href='http://noduslabs.com/wp-content/plugins/coursepress/css/front-enrollment-process.css?ver=1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='capital-style-css'  href='http://noduslabs.com/wp-content/themes/capital/style.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='capital-responsive-css'  href='http://noduslabs.com/wp-content/themes/capital/responsive.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='capital-jplayer-css'  href='http://noduslabs.com/wp-content/themes/capital/ocmx/jplayer.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='capital-customizer-css'  href='http://noduslabs.com/?stylesheet=custom&#038;ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='capital-montserrat-css'  href='//fonts.googleapis.com/css?family=Montserrat%3A400%2C700&#038;ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='capital-merriweather-css'  href='//fonts.googleapis.com/css?family=Merriweather%3A400%2C700%2C400italic%2C700italic&#038;ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='capital-fontawesome-css'  href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='colorbox-css'  href='http://noduslabs.com/wp-content/plugins/marketpress/ui/css/colorbox.css?ver=3.0.0.7' type='text/css' media='all' />
+<link rel='stylesheet' id='mp-select2-css'  href='http://noduslabs.com/wp-content/plugins/marketpress/ui/select2/select2.css?ver=3.0.0.7' type='text/css' media='all' />
+<link rel='stylesheet' id='mp-base-css'  href='http://noduslabs.com/wp-content/plugins/marketpress/ui/css/marketpress.css?ver=3.0.0.7' type='text/css' media='all' />
+<link rel='stylesheet' id='mp-theme-css'  href='http://noduslabs.com/wp-content/plugins/marketpress/ui/themes/default.css?ver=3.0.0.7' type='text/css' media='all' />
+<link rel='stylesheet' id='slb_core-css'  href='http://noduslabs.com/wp-content/plugins/simple-lightbox/client/css/app.css?ver=2.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='eab-upcoming_calendar_widget-style-css'  href='http://noduslabs.com/wp-content/plugins/events-and-bookings/css/upcoming_calendar_widget.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='sccss_style-css'  href='http://noduslabs.com?sccss=1&#038;ver=4.1.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://noduslabs.com/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ThemeAjax = {"ajaxurl":"http:\/\/noduslabs.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/themes/capital/ocmx/includes/upgrade.js?ver=4.1.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var cp_vars = {"admin_ajax_url":"http:\/\/noduslabs.com\/wp-admin\/admin-ajax.php","message_all_fields_are_required":"All fields are required.","message_username_minimum_length":"Username must be at least 4 characters in length","message_username_exists":"Username already exists or invalid. Please choose another one.","message_email_exists":"E-mail already exists or invalid. Please choose another one.","message_emails_dont_match":"E-mails mismatch.","message_passwords_dont_match":"Passwords mismatch.","message_password_minimum_length":"Password must be at least 6 characters in length.","minimum_password_lenght":"6","message_login_error":"Username and\/or password is not valid.","message_passcode_invalid":"Passcode is not valid.","message_tos_invalid":"You must agree to the Terms of Service in order to signup.","debug":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/plugins/coursepress/js/front-enrollment-process.js?ver=1.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var front_vars = {"withdraw_alert":"Please confirm that you want to withdraw from the course. If you withdraw, you will no longer be able to see your records for this course.","units_archive_url":"http:\/\/noduslabs.com\/research\/pathways-meaning-circulation-text-network-analysis\/units\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/plugins/coursepress/js/coursepress-front.js?ver=1.3'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/plugins/coursepress/js/coursepress-calendar.js?ver=1.3'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/plugins/coursepress/js/coursepress-front-elements.js?ver=1.3'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/themes/capital/scripts/menus.js?ver=4.1.1'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/themes/capital/scripts/fitvid.js?ver=4.1.1'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/themes/capital/scripts/theme.js?ver=4.1.1'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/themes/capital/scripts/portfolio.js?ver=4.1.1'></script>
+<script type='text/javascript' src='//s7.addthis.com/js/300/addthis_widget.js?ver=4.1.1#pubid=ra-539072aa132cc69d'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/plugins/marketpress/ui/js/ajaxq.min.js?ver=3.0.0.7'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/plugins/marketpress/ui/js/jquery.colorbox-min.js?ver=3.0.0.7'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/plugins/marketpress/ui/js/jquery.validate.min.js?ver=3.0.0.7'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mp_cart_i18n = {"ajaxurl":"http:\/\/noduslabs.com\/wp-admin\/admin-ajax.php","ajax_loader":"<span class=\"mp_ajax_loader\"><img src=\"http:\/\/noduslabs.com\/wp-content\/plugins\/marketpress\/ui\/images\/ajax-loader.gif\" alt=\"\"> Adding...<\/span>","cart_updated_error_limit":"Cart update notice: this item has a limit per order.","is_cart_page":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/plugins/marketpress/ui/js/mp-cart.js?ver=3.0.0.7'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-includes/js/jquery/ui/position.min.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-includes/js/jquery/ui/tooltip.min.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/plugins/marketpress/ui/js/hoverintent.min.js?ver=3.0.0.7'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/plugins/marketpress/ui/select2/select2.min.js?ver=3.0.0.7'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mp_i18n = {"ajaxurl":"http:\/\/noduslabs.com\/wp-admin\/admin-ajax.php","loadingImage":"http:\/\/noduslabs.com\/wp-content\/plugins\/marketpress\/ui\/images\/loading.gif","productsURL":"http:\/\/noduslabs.com\/store\/products\/","productCats":[]};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/plugins/marketpress/ui/js/frontend.js?ver=3.0.0.7'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/plugins/events-and-bookings/js/upcoming_calendar_widget.js?ver=1.8.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://noduslabs.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://noduslabs.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Network Analysis of Russian Protest Groups on Facebook using Gephi and Netvizz' href='http://noduslabs.com/cases/russian-protest-network-analysis-facebook-gephi-netvizz/' />
+<link rel='next' title='Pluto Bleibt Campaign' href='http://noduslabs.com/radar/pluto-bleibt-campaign/' />
+<meta name="generator" content="WordPress 4.1.1" />
+<link rel='canonical' href='http://noduslabs.com/research/pathways-meaning-circulation-text-network-analysis/' />
+<link rel='shortlink' href='http://noduslabs.com/?p=328' />
+				<meta name="generator" content="CoursePress Pro 1.3"/>
+			<script data-cfasync="false" src="//load.sumome.com/" data-sumo-site-id="4c07c0378cf8649d46a8202ef39cadce8ecfec4b13585a905ad38b7045d03460" async></script><style>body{font-family: Puritan; } 
+ul#nav li a{font-family: Allerta; font-size: 15px; } 
+.title-block h2{font-family: Molengo; font-size: 50px; } 
+.date{font-family: Allerta; } 
+.post-title, .post-title a{font-family: Molengo; font-size: 33px; } 
+p, .copy{font-family: Old Standard TT; font-size: 18px; } 
+.widgettitle, .widgettitle a, .section-title, .section-title a{font-family: Allerta; font-size: 50px; } 
+</style>
+
+</head>
+
+<body class="single single-post postid-328 single-format-standard post-pathways-meaning-circulation-text-network-analysis">
+
+<div id="wrapper" class="fullwidth ">
+
+	<div id="header-container">
+			<div id="header-contact-container" class="clearfix">
+		<div id="header-contacts" class="clearfix">
+							<div class="header-search">
+					<form action="http://noduslabs.com" method="get" class="header-form">
+						<input type="text" name="s" id="s" class="search-form" maxlength="50" value="" placeholder="Search" />
+						<input type="submit" class="search_button" value="" />
+						<span class="icon-search"><i class="fa fa-search fa-2x"></i></span>
+					</form>
+				</div>
+										<ul class="header-contact">
+					<li class="header-number"><i class="fa fa-phone fa-2x"></i><a href="tel:+33620284480">+33620284480</a></span></li>					<li class="header-email"><i class="fa fa-envelope fa-2x"></i><a href="mailto:info@noduslabs.com" target="_blank">info@noduslabs.com</a></span></li>				</ul>
+									<div class="header-social">
+							<span class="header-facebook"><a href="http://facebook.com/noduslabs" target="_blank" alt="Facebook"><i class="fa fa-facebook-square fa-lg"></i></a></span>							<span class="header-twitter"><a href="http://twitter.com/noduslabs" target="_blank" alt="Twitter"><i class="fa fa-twitter fa-lg"></i></a></span>																					                                                        <span class="header-tumblr"><a href="http://polysingularity.tumblr.com" target="_blank" alt="tumblr"><i class="fa fa-tumblr fa-lg"></i></a></span>                            <span class="header-vimeo"><a href="http://vimeo.com/thisislike" target="_blank" alt="vimeo"><i class="fa fa-vimeo-square fa-lg"></i></a></span>                            						</div>
+					
+					                    
+					<div id="top-navigation-container">
+                    	
+											</div>
+		</div>
+	</div>
+
+		<div id="header" class="clearfix">
+			<div class="logo">
+				<h1>
+					<a href="http://noduslabs.com">
+													<img src="/wp-content/uploads/2015/03/nodus-labs2.png" alt="Nodus Labs" />
+											</a>
+				</h1>
+			</div>
+			<a id="menu-drop-button" href="#">
+				Menu			</a>
+			<div id="navigation-container" class="clearfix">
+				<ul id="nav" class="clearfix"><li id="menu-item-8" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-8"><a title="About" href="http://noduslabs.com/about/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-1160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1160"><a href="http://noduslabs.com/contact/">Contact</a></li>
+</ul>
+</li>
+<li id="menu-item-1591" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1591"><a href="/our-services/">Services</a></li>
+<li id="menu-item-2478" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2478"><a href="http://noduslabs.com/coursesa/">Courses</a>
+<ul class="sub-menu">
+	<li id="menu-item-2479" class="coursepress-menu-item coursepress-menu-item-course menu-item menu-item-type-custom menu-item-object-custom menu-item-2479"><a href="http://noduslabs.com/courses/network-visualization-and-analysis-with-gephi/">Network Visualization with Gephi</a></li>
+	<li id="menu-item-2480" class="coursepress-menu-item coursepress-menu-item-course menu-item menu-item-type-custom menu-item-object-custom menu-item-2480"><a href="http://noduslabs.com/courses/developing-extrasensory-abilities-polysingularity-approach/">Network Thinking: Polysingularity Framework</a></li>
+	<li id="menu-item-2481" class="coursepress-menu-item coursepress-menu-item-course menu-item menu-item-type-custom menu-item-object-custom menu-item-2481"><a href="http://noduslabs.com/courses/8os-bodymind-operating-system-learning-to-modulate-conflict-dynamics/">Learning to Modulate Conflict Dynamics</a></li>
+</ul>
+</li>
+<li id="menu-item-496" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-496"><a href="http://noduslabs.com/category/cases/">Case Studies</a>
+<ul class="sub-menu">
+	<li id="menu-item-1834" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1834"><a href="http://noduslabs.com/category/cases/algorithms-frameworks-tools/">Algorithms, Frameworks and Tools</a></li>
+	<li id="menu-item-1835" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1835"><a href="http://noduslabs.com/category/cases/network-learning-strategies/">Network Learning Strategies</a></li>
+	<li id="menu-item-1836" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1836"><a href="http://noduslabs.com/category/cases/network-visualization/">Network Visualization</a></li>
+	<li id="menu-item-1837" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1837"><a href="http://noduslabs.com/category/cases/networked-narrative-design/">Networked Narrative Design</a></li>
+	<li id="menu-item-1838" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1838"><a href="http://noduslabs.com/category/cases/search-engine-optimization/">Search Engine Optimization</a></li>
+	<li id="menu-item-1839" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1839"><a href="http://noduslabs.com/category/cases/social-network-analysis/">Social Network Analysis</a></li>
+	<li id="menu-item-1840" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1840"><a href="http://noduslabs.com/category/cases/text-network-analysis/">Text Network Analysis</a></li>
+	<li id="menu-item-82" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-82"><a href="http://noduslabs.com/category/radar/">ON THE RADAR</a></li>
+</ul>
+</li>
+<li id="menu-item-68" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-68"><a href="http://noduslabs.com/category/research/">Research</a></li>
+<li id="menu-item-1601" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1601"><a href="/infranodus/">InfraNodus</a>
+<ul class="sub-menu">
+	<li id="menu-item-1624" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1624"><a href="/network-graphs/">Example Graphs</a></li>
+</ul>
+</li>
+</ul>			</div>   
+		</div>
+	</div>
+	<div id="content-container" class="sidebarright clearfix">			<div id="title-container">
+			<div class="title-block">
+				<h2>Research and Articles</h2>
+							</div>
+		</div>
+	
+<div id="crumbs-container">
+	
+	<ul id="crumbs">
+
+				<li><a href="http://noduslabs.com">Home</a></li>
+
+		
+				<li>/</li>
+				<li><a href="http://noduslabs.com/category/research/">Research and Articles</a></li>
+
+			
+		
+			<li>/</li>
+			<li><span class="current"><a href="http://noduslabs.com/research/pathways-meaning-circulation-text-network-analysis/">Identifying the Pathways for Meaning Circulation using Text Network Analysis</a></span></li>
+
+			</ul>
+</div>
+	<div id="content" class="clearfix">
+		<div id="left-column">
+			<ul class="post-list">
+			
+				<li id="post-328" class="post-328 post type-post status-publish format-standard hentry category-research tag-analysis tag-meaning tag-narrative tag-networks tag-text tag-visualization">
+	<div class="post-content clearfix">
+		<div class="post-title-block">
+				<h5 class="post-date">
+		Posted by  <a href="http://noduslabs.com/author/dmitry/" title="Posts by Nodus Labs" rel="author">Nodus Labs</a>		 | December 25, 2011	</h5>
+
+							<h3 class="post-title"><a href="http://noduslabs.com/research/pathways-meaning-circulation-text-network-analysis/">Identifying the Pathways for Meaning Circulation using Text Network Analysis</a></h3>
+					</div>
+
+		
+		<div class="copy">
+			<p>By Dmitry Paranyushkin, Nodus Labs. Published October 2011, Berlin.</p>
+<p>
+<strong>Abstract:</strong></p>
+<p>In this work we propose a method and algorithm for identifying the pathways for meaning circulation within a text. This is done by visualizing normalized textual data as a graph and deriving the key metrics for the concepts and for the text as a whole using network analysis. The resulting data and graph representation are then used to detect the key concepts, which function as junctions for meaning circulation within a text, contextual clusters comprised of word communities (themes), as well as the most often used pathways for meaning circulation. We then discuss several practical applications of our method ranging from automatic recovery of hidden agendas within a text and intertextual navigation graph-interfaces, to enhancing reading and writing, quick text summarization, as well as group sentiment profiling and text diagramming. We also make a quick overview of the existing computer-assisted text analysis (and, specifically, network text analysis), and text visualization methods in order to position our research in relation to the other available approaches.</p>
+<p><strong>Keywords:</strong> network text analysis, text, network, meaning, narrative, discourse, language understanding, semantics, structure, system, semantic networks, context, cognition, interpretation, graph, diagram, visualization, interface, reading, writing, image<br />
+</p>
+<div>
+<p><object id="71cef0e1-b2c5-4cae-59ce-f2c4463deb34" style="width: 500px; height: 350px;" width="320" height="240" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowfullscreen" value="true" /><param name="menu" value="false" /><param name="wmode" value="transparent" /><param name="src" value="http://static.issuu.com/webembed/viewers/style1/v2/IssuuReader.swf" /><param name="flashvars" value="mode=mini&amp;proSidebarEnabled=true&amp;backgroundColor=%23222222&amp;logo=http%3A%2F%2Fnoduslabs.com%2Fwp-content%2Fuploads%2F2011%2F07%2Fnodus-logo.png&amp;documentId=111225203526-4c8b2cf1bfa64d5d83f06ae91e195934" /><embed id="71cef0e1-b2c5-4cae-59ce-f2c4463deb34" style="width: 500px; height: 350px;" width="320" height="240" type="application/x-shockwave-flash" src="http://static.issuu.com/webembed/viewers/style1/v2/IssuuReader.swf" allowfullscreen="true" menu="false" wmode="transparent" flashvars="mode=mini&amp;proSidebarEnabled=true&amp;backgroundColor=%23222222&amp;logo=http%3A%2F%2Fnoduslabs.com%2Fwp-content%2Fuploads%2F2011%2F07%2Fnodus-logo.png&amp;documentId=111225203526-4c8b2cf1bfa64d5d83f06ae91e195934" /></object></p>
+<div style="width: 500px; text-align: left;"><a href="http://noduslabs.com/publications/Pathways-Meaning-Text-Network-Analysis.pdf" target="_blank">Download PDF</a></div>
+</div>
+<p></p>
+<h3>1. INTRODUCTION</h3>
+<p>Any text can be represented as a network. At a basic level,<strong> the words, or the concepts are the nodes, and their relations are the edges of the network</strong>. Once a text is represented as a network, a wide range of tools from network and graph analysis can be used to perform quantitive analysis and categorization of textual data, detect communities of closely related concepts, identify the most influential concepts that produce meaning, and perform comparative analysis of several texts.</p>
+<p>In this paper we will introduce a<strong> method for text network analysis that allows one to visualize a readable graph from any text</strong>, identify its <strong>structural properties</strong> along with some quantitive metrics, detect <strong>central concepts</strong> present within the text, and, finally, identify <strong>the most influential pathways for the production of meaning</strong> within the text, which we call<strong> <em>the pathways for meaning circulation</em></strong>. This method can have a variety of practical applications: from increasing the speed and quality of text cognition, to getting a better insight into the hidden agendas present within a text and better understanding of its narrative structure. The fields where it can be applied range from media monitoring to comparative literary analysis to creative writing.</p>
+<p>The use of<strong> diagrammatic approach to better understand text and analyze its narrative structures</strong> is not new. There has been a lot of research on this subject. For instance, “Interacting Plans” (Bruce et al., 1978) focused on uncovering social interaction structures from semantic structures of texts using visual and graphic analysis. “Plot Units and Narrative Summarization” (Lehnert, 1981) focused on identifying so-called “plot units” within a text. These plot units were graphical representations of “affect states”, which were not focussing on complex emotional reactions or states, but, rather, on gross distinctions between “negative” and “positive” events and “mental events” with zero emotionality. “The Role of Affect in Narrative” (Dyer, 1983) established affect &#8211; and goal-seeking behavior &#8211; as a moving force behind narrative structures.</p>
+<p>Later work, most notably “Coding Choices for Textual Analysis” (Carley, 1993) focused on using map analysis to extract the main concepts from the texts and relations between them. In their research on spatial analysis of text documents (Wise et al., 1995) proposes spatial visualization techniques for various texts based on their similarity, reducing the workload when performing text analysis.</p>
+<p>In “Knowledge Graphs and Network Text Analysis” (Popping, 2003) the author advocates the use of schemes, and specifically knowledge graphs, to represent texts in order to gain a better understanding of textual data and to tackle the dynamic nature of knowledge. Her other work “Computer-Assisted Text Analysis” (Popping, 2000) has a good overview of network text analysis techniques that use graphs to represent text visually and graph analysis tools in order to obtain quantitive data for later analysis.</p>
+<p>Later research, for instance “Diagramming Narratives” (Ryan, 2007) proposes to think of diagram as an heuristic device, which can represent a narrative in a spatial, temporal, and mental plane. There is also work by the scientists involved in computer game creation (Loewe et al 2009), where formal representations of narrative structures are used to detect similarities between different stories.</p>
+<p>Thus, there’s a long history of diagrammatically representing textual data as graphs and applying network text analysis in order to gain a better understanding of the text’s meaning and structure.</p>
+<p>Many of the approaches presented above focused on semantic relations between the words when representing texts as networks. While this is definitely helpful in gaining a better understanding of text, such approach is also adding an extra layer of ontologies and complexity on top of the textual data. The decisions regarding which concepts are related together are based on their affective affinity (Lehnert, 1981 and Dyer, 1983), their causal relations (Bruce, 1978), chronological sequence (Loewe, 2009), and semantic analysis (Van Atteveldt, 2008). All these approaches introduce a strong subjective (and even cultural) bias into the structure of the resulting text graphs. When the basis for connectivity is an external system of rules and logic, the resulting structure will be a result of negotiation between the text itself, the representational system used, and these external systems that define the basis for connectivity.</p>
+<p>An interesting <strong>relation between the “meaning” and text network analysis</strong> can be found in a paper on meaning as sociological concept (Leydesdorff, 2011) where he writes:</p>
+<p>“Meaning is generated in a system when different pieces of information are related as messages to one another, for example, as words in sentences (Hesse, 1980; Law &amp; Lodge, 1984). The information is then positioned in a network with an emerging (and continuously reconstructed) structure. This positioning can be done by an individual who – as a system of reference – can provide personal meaning to the events; but meaning can also be provided at the supra-individual level, for example, in a discourse. In the latter case, meaning is discursive, and its dynamics can therefore be expected to be different from those of psychological meaning.”</p>
+<p><strong>The difference in our approach</strong> is that we propose to avoid as much subjective and cultural influence as possible during the process of translating the textual data into a text network and visualizing it into a graph. We will only use the proximity of concepts and the density of their connections to encode the relations between the words, not their meanings or affective relations. We will then apply various graph visualization techniques, community detection mechanisms, and quantitative metrics in order to get a better insight into resulting structures without imposing any other external semantic structures on top. The resulting visual representation of text will thus be a translation of textual data into a graph where we attempt to avoid any filtering, generalization and distortion that may result from interfering into that process with an external ontology. After the textual network is visually represented as a graph of interconnected concepts it is finally open to interpretation by the observer.</p>
+<p>Our approach can inform<strong> the existing methods of finding structure within text</strong> that employ <strong>graphical models</strong> and <strong>topic modeling:</strong> <strong>latent semantic analysis or LSA</strong> (Landauer et al 1998), <strong>pLSA</strong> (Hofmann 1999), <strong>Pachinco allocation</strong> (Li &amp; McCallum 2006), <strong>latent dirichlet allocation or LDA</strong> (Blei et al 2003), and <strong>relational topic models</strong> (Chang &amp; Blei 2010). These methods are based on retrieving the topics from text by identifying the clusters of co-occurrent words within them. This data can then be used to classify similar documents,  improve text indexing and retrieval methods, and to identify evolution of certain topics overs a period of time within a specific text corpus (Blei 2004). Combined with hyperlinking data between texts it can also be used to find similar texts, find relations between different topics, or to predict citations based on the presence of similar topics in a text corpus (Chang &amp; Blei 2010).</p>
+<p>The difference of our method is that it doesn&#8217;t only take into account the probabilistic co-occurrence of words in a text to identify the topics, but also the structural properties of the text itself, using graph analysis methods along with qualitative and quantitive metrics.</p>
+<p>While it is yet to be seen how this approach specifically compares to the methods outlined above, we believe that it will definitely be useful for the researchers in this field. Italo Calvino once said that reading is “a way of exercising the potentialities contained in the system of signs” (Calvino, 1987). Therefore what we want to achieve with our approach is to simply propose a different way of reading a text through representing it as an image. And while the specific algorithm behind the image formation is described, it is the actual interpretation of the external observer that interests us the most and the possibility to fold the temporal aspect of a text onto a two-dimensional plane – thus giving a global overview of local chronological phenomena.</p>
+<p>Following Victor Shklovsky’s words when talking about a plot and a story, “Energy of delusion [&#8230;] means a search for truth in its multiplicity. This is the truth that must not be the only one, it must not be simple. Truth that changes; it recreates itself through a repetitive pattern.” (Shklovsky, 2007). The pathways for meaning circulation that we attempt to discover through our methodology are these repetitive patterns derived from the text’s structure, using their connectivity and the intensity of interactions between them as the only criteria for their belonging together. It is then through interpretation and comparative analysis that their semantic relations can be established, but we want to leave this out of the picture to allow the text to speak for itself.</p>
+<p>“Time prevents everything from being given at once” (Bergson, 2002). Visualizing text as a network we remove the variable of time and let the history of the text appear through the diagram.</p>
+<p>&nbsp;</p>
+<h3>2. DATA EXTRACTION METHODOLOGY</h3>
+<p>In order to demonstrate the proposed methodology for identifying the pathways for meaning circulation within a text, <strong>we will use the introduction chapter above</strong> as an example.</p>
+<p>The <strong>first step</strong> is to <strong>remove the most frequently used words (stopwords)</strong> from the text that participate in binding the text together, but do not specifically relate to the content (see Appendix A). These are the articles, conjunctions, auxiliary verbs, and some frequently used words, which do not directly affect the context. The choice of the latter should be very considerate, because, for instance, the word “becoming” could be very important in Gilles Deleuze’s writing, but carries much less contextual significance in most newspaper articles. Moreover, it’s better to use the same delete list for several texts when doing comparative analysis in order to ensure that the differences in these delete lists do not affect the possible divergences between the different texts analyzed. Applying delete list helps to remove unnecessary content from the text and reduce the amount of noise. It also makes it more likely that the distribution of words’ frequency will not necessarily follow Zipf’s power law distribution (Zipf, 1935), as most of the simple, short words are removed. This allows one to more easily detect abnormal distribution patterns within some texts, which may be particularly useful for their comparative analysis.</p>
+<p>The <strong>second step</strong> is to stem the remaining words in the text, in order to transform them to their appropriate <strong>morphemes</strong>. The two major algorithms for this process are the Krovets Stemmer &#8211; also called KStemmer &#8211; (Krovets, 1993) and the Porter Stemmer (Porter, 1980). We will use KStemmer as it’s less aggressive than Popper Stemmer. The stemming algorithm allows to simplify the further processing of the text and make it much more efficient. Stemming can be seen as clustering related words around a certain morpheme (Krovets, 1993), thus enabling one to reduce the complexity of the resulting network and provide a clearer starting point for further analysis.</p>
+<p>One important detail here is that both stemming and word deletion may affect named entities. For instance, the word “Lynch” in the proper name “David Lynch” will be considered as “lynch” morpheme, and thus David Lynch will mistakenly be closer to the cluster of words such as “lynched” or “lynching”. It is important at this stage to identify what the purpose of the analysis is. If the task is to uncover the key structural properties of a text, then the aspect above may be not so important. However, if the goal is, for instance, to uncover the social network (Diesner &amp; Carley, 2004) or a network of named entities that underly the text and integrate it into the resulting visualization (which may be useful when analyzing the interviews for example), it could be necessary to modify the stemming algorithm, so it wouldn’t affect these important semantic units. Such modification could be done using Thompson Reuters Calais system, which provides an API that detects and categorizes semantic units within the text, which could then be appropriately marked, so that the stemming algorithm doesn’t apply to them.</p>
+<p><strong>The third step</strong> is to further normalize the text by transforming all capital letters to lowercase (thus, avoiding that the same word is seen as two different ones by the encoding software), remove unnecessary spaces, remove the symbols and punctuation (parenthesis, dashes, dots, commas, semicolons, colons and other auxiliary signs), and numbers (unless their presence in the text crucially affects the meaning and the context).</p>
+<p>The resulting text would look like this:</p>
+<address>text represent network basic level word concept node relation edge network text represent network wide range tool network graph analysis perform quantitive analysis categorization textual data detect community closely relate concept identify influential concept produce mean perform comparative analysis text</address>
+<address>paper introduce method text network analysis visualize readable graph text identify structural property quantitive metric detect central concept present text  finally identify influential pathway production mean text call loop mean circulation method variety practical applications increase speed quality text cognition insight hide agenda present text understand narrative structure field apply range media monitor comparative literary analysis creative write</address>
+<address>diagrammatic approach understand text analyze narrative structure  lot research subject instance interacting plan  bruce newman  focus uncover social interaction structure semantic structure text visual graphic analysis plot unit narrative summarization  lehnert  focus identify socal plot unit text plot unit graphical representation affect state focus complex emotional reaction state   gross distinction negative positive event mental event emotionality the role affect narrative  dyer  establish affect  goalseeking behavior  move force narrative structure</address>
+<address>work notably coding choice textual analysis  carley  focus map analysis extract main concept text relation  spatial analysis text document  wise thoma crow  propose spatial visualization technique text base similarity reduce workload perform text analysis</address>
+<address>knowledge graph network text analysis  pop  author advocate scheme specifically knowledge graph represent text order gain understand textual data tackle dynamic nature knowledge work computerassisted text analysis  pop  good overview network text analysis technique graph represent text visually graph analysis tool order obtain quantitive data analysis</address>
+<address>research instance diagram narrative  ryan  propose diagram heuristic device represent narrative spatial temporal mental plane work scientist involve computer game creation  loewe al formal representation narrative structure detect similarity story</address>
+<address>there long history diagrammatically represent textual data graph apply network text analysis order gain understand text mean structure</address>
+<address>approach present focus semantic relation word represent text network helpful gain understand text approach ad extra layer ontology complexity top textual data decision concept relate base affective affinity  lehnert dyer  causal relation  bruce  chronological sequence  loewe  semantic analysis van atteveldt  approach introduce strong subjective  cultural bias structure result text graph basis connectivity external system rule logic result structure result negotiation text  representational system  external system define basis connectivity</address>
+<address>interest relation meaning text network analysis find meaning sociological concept  leydesdorff  writes</address>
+<address>meaning generate system piece information relate message word sentence  hesse  law  lodge  information position network emerge  continuously reconstruct structure position individual  system reference  provide personal mean event mean provide supraindividual level  discourse case mean discursive dynamic expect psychological mean</address>
+<address>difference approach propose avoid subjective cultural influence process translate textual data text network visualize graph proximity concept density connection encode relation word mean affective relation apply graph visualization technique community detection mechanism quantitative metric order insight result structure impose external semantic structure top result visual representation text translation textual data graph attempt avoid filter generalization distortion result interfere process external ontology textual network visually represent graph interconnect concept finally open interpretation observer approach specifically compare semantic network analysis researcher field italo calvino read a exercise potentiality contain system sign  calvino  achieve approach simply propose read text represent image specific algorithm image formation  actual interpretation external observer interest possibility fold temporal aspect text twodimensional plane  give global overview local chronological phenomena victor shklovsky word talk plot story energy delusion  mean search truth multiplicity truth  simple truth  recreate repetitive pattern  shklovsky  loop mean circulation attempt discover methodology repetitive pattern derive text structure connectivity intensity interaction criteria belong  interpretation comparative analysis semantic relation establish leave picture text speak</address>
+<address>time prevent bergson visualize text network remove variable time history text diagram</address>
+<p><strong>The next step</strong> is to <strong>convert this text into the graph data</strong>, which could later be used in order to represent it visually as a graph using various software, for example, a popular graph visualization and analysis tool <strong>Gephi</strong> (Bastian et al., 2009; <a href="http://www.gephi.org" target="_blank">www.gephi.org</a>). One of the more common formats is GraphML (Brandes et al, 2002). It is a type of XML file for graph data. In our case the structure is such that the words (or the nodes) are listed first, and then their connections (or edges) are listed after along with the special metrics, which measure the weight for each edge. The graph type is undirected.</p>
+<p>It’s important to save all intermediary data in common formats, so that the data could later be used by other researchers who are using different software (Brandes, 2002). Also, transparent and open formats allow a higher traceability of the algorithm and possible modifications to the process in case the researcher is interested in a different approach or in modifying some detail parameters. The steps below, for example, were found to be particularly useful for our local research situation, however, if the parameters need to be amended the clear format of the text file above and the XML structure of the resulting file will allow one to quickly identify the algorithm in order to modify it if necessary.</p>
+<p>It is also possible to use the algorithms described below to record the data directly into a relational or graph database, such as the popular MySQL or Java-based Neo4j. Using a graph database can be more efficient when it’s needed to query this data online and retrieve it much faster, especially for text network databases (Vicknair et al., 2010).</p>
+<p>During our research we found that the best results for encoding textual data into a graph structure are achieved with a two-pass process described below.</p>
+<p>First, the <strong>normalized text above is scanned using a 2-word gap</strong>. For each word, if it appears the first time in the text, it’s recorded as a new node with the id that equals the name of the node. When two words appear within the gap, the algorithm first checks if the pair exists already. If the pair does not exist yet, a new connection (an edge) is recorded where the first word is the source and the second word is the target, the weight equals 1. If the pair exists already, the weight of the corresponding edge is incremented by 1. This way we trace the narrative and create a concept graph from the text. Each connection is based on the words’ proximity to each other. The more frequent the combination of words, the higher is the weight of connection between them. When the scanner reaches the end of the paragraph, it jumps to the next one in order to avoid that the last word from the previous paragraph is linked to the first word from the next one. This helps us to somewhat translate the spatial structure of the text into the graph. A modification of this scanning algorithm can allow it to make connections between different paragraphs, so that the last word of a paragraph is connected to the first word of the next one. This will create a more interconnected graph and the decision as to which particular version of the algorithm to use should depend on the importance of text paragraph structure for the researcher.</p>
+<p><strong>The second pass uses a 5-word gap</strong> and follows a similar procedure. For each combination of 5 words, starting from the beginning of the text, the algorithm first checks whether each word pair exists. If it does already (as a result of the 2-word gap pass before), the weight of the connection (or the edge) between the pair is incremented by one. If it does not exist, the new pair is recorded as the new edge (the weight equals 1), where the source is the word to the left of the gap and the target is the word to the right of the gap. The words adjacent to the words in the beginning and in the end of each paragraph will have a slightly less intense connection (as the 5-word gap starts at the first word of a paragraph and terminates when it reaches the last word of the paragraph, then jumping to the next paragraph and starting again from the first word). Such approach allows us to accommodate further for the spatial structure already utilized within the text. It also allows us to increase the intensity of connections between the words that are more proximate to each other. If the first 2-word gap scan is sketching a general structure of the text intensifying repetitions of adjacent words within the text and outlining its paragraph structure, then the 5-word gap scan is a kind of zooming in tool into the local areas of the text, which allows us to intensify the local clusters of meaning overlaying them on the general structure created before.</p>
+<p>It is also possible to add additional parameters to this data. For example, each edge can be recorded with a timestamp, so that a d<strong>ynamical graph can be generated instead of a static one.</strong> That would allow to observe the formation of text as a graph in time and provide very interesting insights on its structural properties. While this is a direction for our further research, we will focus on static graphs for the purposes of this particular paper.</p>
+<p>After the resulting data is recorded in XML-compatible format (e.g. GraphML) or into the database, it can be retrieved to be <strong>visualized directly or using one of graph visualization and analysis software</strong>, for instance, Gephi.</p>
+<p>&nbsp;</p>
+<h3>3. TEXT GRAPH VISUALIZATION</h3>
+<p>If the data above is directly represented as a graph, the nodes will be aligned randomly in a two-dimensional space and such image will not give a clear idea about the text’s structure. In order to produce a more readable representation of the text, we will apply an Force Atlas algorithm (Jacomy, 2009), which is itself derived from force-layout algorithm for graph clustering (Noack, 2007). This algorithm pushes the most connected nodes (hubs) away from each other, while aligning the nodes that are connected to the hubs in clusters around them. This provides a much more readable representation of the graph.</p>
+<p>Figures 1 and 2 below show a graph representation of the 2-word gap text network and the 5-word gap text network respectively.</p>
+<div id="attachment_329" style="width: 520px" class="wp-caption alignnone"><a href="http://noduslabs.com/research/pathways-meaning-circulation-text-network-analysis/attachment/figure-1-meaning-circulation/" rel="attachment wp-att-329" data-slb-group="328" data-slb-active="1" data-slb-internal="329"><img class="size-medium wp-image-329" title="Force-atlas layout of 2-word gap graph" src="http://noduslabs.com/wp-content/uploads/2011/12/figure-1-meaning-circulation-510x466.png" alt="Force-atlas layout of 2-word gap graph" width="510" height="466" /></a><p class="wp-caption-text">Fig. 1: Force-atlas layout of 2-word gap graph</p></div>
+<p>&nbsp;</p>
+<div id="attachment_330" style="width: 515px" class="wp-caption alignnone"><a href="http://noduslabs.com/research/pathways-meaning-circulation-text-network-analysis/attachment/figure-2-meaning-circulation/" rel="attachment wp-att-330" data-slb-group="328" data-slb-active="1" data-slb-internal="330"><img class="size-medium wp-image-330" title="Force-atlas layout of 5-word gap graph" src="http://noduslabs.com/wp-content/uploads/2011/12/figure-2-meaning-circulation-505x510.png" alt="Force-atlas layout of 5-word gap graph" width="505" height="510" /></a><p class="wp-caption-text">Fig. 2: Force-atlas layout of 5-word gap graph</p></div>
+<p>We show these intermediary graphs in order to illustrate the points from the previous chapter. It can clearly be seen that while the first text scan produces a general interconnected structure, the second scan with a bigger word gap makes it much easier to produce a more meaningful visualization, as it e<strong>mphasizes not only the most frequently mentioned concepts, but also takes into account their local contextual relevance.</strong></p>
+<p>Figure 3 below shows the graph that results from putting together the both networks above: the 2-word gap and the 5-word gap one.</p>
+<div id="attachment_331" style="width: 520px" class="wp-caption alignnone"><a href="http://noduslabs.com/research/pathways-meaning-circulation-text-network-analysis/attachment/figure-3-meaning-circulation/" rel="attachment wp-att-331" data-slb-group="328" data-slb-active="1" data-slb-internal="331"><img class="size-medium wp-image-331" title="Force-atlas layout of both 2-word gap and 5-word gap text graphs " src="http://noduslabs.com/wp-content/uploads/2011/12/figure-3-meaning-circulation-510x492.png" alt="Force-atlas layout of both 2-word gap and 5-word gap text graphs " width="510" height="492" /></a><p class="wp-caption-text">Fig. 3: Force-atlas layout of both 2-word gap and 5-word gap text graphs</p></div>
+<p>&nbsp;</p>
+<p>The visualizations are made using Gephi software and the parameters we use for the Force Atlas layout are the following (Table 1):</p>
+<p><strong>Table 1:<br />
+</strong>Repulsion strength: 10000<br />
+Attraction strength: 10<br />
+Maximum displacement: 10<br />
+Austostabilization strength: 80.0<br />
+Austrabilization sensitivity: 0.2<br />
+Gravity: 400<br />
+In order to provide a more meaningful visualization, we will <strong>range the sizes of the nodes according to their betweenness centrality.</strong> Betweenness centrality measure for each node indicates <strong>how often it appears on the shortest path between any two random nodes in the network</strong>. The higher it is, the more influential is the node because it functions as a junction for communication within the network (Freeman, 1977; Brandes, 2001). Betweenness centrality is different from the node’s degree (or the number of edges it has). For instance, it’s possible that a node is connected to a lot of other nodes within a certain cluster (i.e. it has high degree), but has few connections to the other clusters in the network. It will then be influential within its cluster, but will have less influence than a node, which has fewer connections, but links different communities together. This is different from tag clouds or other text network visualizations, which often use the node’s frequency (or degree in our case) to emphasize the hubs in the network (Kaser, 2007).</p>
+<p>Betweenness centrality shows <strong>the variety of contexts where the word appears</strong>, while high degree shows the variety of words next to which the word appears. In our approach we emphasize the word with the highest betweenness centrality, because they are the most important junctions for meaning circulation within the network. and in that way it’s</p>
+<p>After running some basic metrics for this network (see Appendix B) and then ranging both the nodes and their edges by their betweenness centrality we obtain the following graph (Figure 4):</p>
+<div id="attachment_332" style="width: 520px" class="wp-caption alignnone"><a href="http://noduslabs.com/research/pathways-meaning-circulation-text-network-analysis/attachment/figure-4-meaning-circulation/" rel="attachment wp-att-332" data-slb-group="328" data-slb-active="1" data-slb-internal="332"><img class="size-medium wp-image-332" title="Force-atlas layout, emphasis on the nodes with a higher BC" src="http://noduslabs.com/wp-content/uploads/2011/12/figure-4-meaning-circulation-510x472.png" alt="Force-atlas layout, emphasis on the nodes with a higher BC" width="510" height="472" /></a><p class="wp-caption-text">Fig. 4: Force-atlas layout, emphasis on the nodes with a higher BC</p></div>
+<p>&nbsp;</p>
+<p>This representation already shows us that the central junctions for meaning circulation within the introductory part of this article are:</p>
+<address><strong>text &#8211; structure &#8211; mean &#8211; analysis &#8211; narrative &#8211; network</strong></address>
+<p>The data below provides a clearer idea about these concepts:</p>
+<p><strong>Table 2:<br />
+</strong>Label Betweenness Centrality Degree<br />
+analysis 3795.93348067254 74<br />
+mean 4018.56122275846 54<br />
+narrative 2311.92367170237 49<br />
+network 2258.33733816798 65<br />
+structure 4051.30522587258 65<br />
+text 13149.4837285632 138</p>
+<p>As we can see, “text” is the central term in this text and it’s also adjacent to the most words in the network.</p>
+<p>The term “analysis” has a high degree, but lower betweenness centrality than the words “structure” and “mean”, which have a lower degree measure. This indicates that the this word “analysis” is an important local hub that binds together a cluster of terms that form a specific context, but it’s not as central as other important terms to the text as a whole.</p>
+<p>The term “network” also has the lowest betweenness centrality, but a relatively high degree among the most influential words in the text. This could indicate another contextual cluster around that term within the text.</p>
+<p>The term “mean” (morpheme of “meaning”), on the contrary, has a relatively low degree for its high betweenness centrality. That could indicate that just like the term “text” it is used more to connect different contextual clusters together rather than define a certain context within the text.</p>
+<p>Thus, so far, we have the two terms “text” and “mean” (or “meaning”), which are the central junctions for meaning circulation within the text, and the terms “analysis” and “network” as the major hubs of two distinct contextual clusters. Finally, the words “structure” and “narrative” function both as the local hubs for contextual clusters and as important junctions for meaning circulation within the whole text. The text could therefore be seen as a tension field between “network” and “analysis” on one side, and “structure” and “narrative” on the other side – mediated by the terms “meaning” and “text”.</p>
+<p><strong>The next step</strong> is to <strong>detect the community structure</strong>, in order to be able to see the contextual clusters within the text more precisely. We will use the community detection mechanism (Fortunato, 2010; Blondel, 2008) based on modularity, where the nodes that are mode densely connected together than with the rest of the network are considered to belong to the same community.</p>
+<p>The image below shows the community structure for this text – each community has a particular color (Figure 5 and Figure 6 below).</p>
+<div id="attachment_333" style="width: 520px" class="wp-caption alignnone"><a href="http://noduslabs.com/research/pathways-meaning-circulation-text-network-analysis/attachment/figure-5-meaning-circulation/" rel="attachment wp-att-333" data-slb-group="328" data-slb-active="1" data-slb-internal="333"><img class="size-medium wp-image-333" title="Community structure of the text network" src="http://noduslabs.com/wp-content/uploads/2011/12/figure-5-meaning-circulation-510x487.png" alt="Community structure of the text network" width="510" height="487" /></a><p class="wp-caption-text">Fig. 5: Community structure of the text network</p></div>
+<p>&nbsp;</p>
+<div id="attachment_334" style="width: 520px" class="wp-caption alignnone"><a href="http://noduslabs.com/research/pathways-meaning-circulation-text-network-analysis/attachment/figure-6-meaning-circulation/" rel="attachment wp-att-334" data-slb-group="328" data-slb-active="1" data-slb-internal="334"><img class="size-medium wp-image-334" title="Community-only view text graph" src="http://noduslabs.com/wp-content/uploads/2011/12/figure-6-meaning-circulation-510x415.png" alt="Community-only view text graph" width="510" height="415" /></a><p class="wp-caption-text">Fig. 6: Community-only view text graph</p></div>
+<p>&nbsp;</p>
+<p>We can clearly see from these images that there are <strong>three main contextual clusters within this text.</strong> The largest community (context) is comprised of 10.4% of the total nodes and contains the words <em>“mean”, “concept” and “word”</em>. The second largest community (6.8% of the nodes) is the cluster around <em>“narrative”</em> at the top left part of the graph. The third largest community (6.2% of the nodes) is the cluster around <em>“network”, “textual” and “graph”</em>. The fourth largest community (5.2%) is the cluster around <em>“structure” and “system”</em>. The community around the words <em>“text”</em> and <em>“analysis-semantic”</em> are not that large, but the nodes that are contained within them are quite central, which means that these terms function more as junctions rather than hubs for contextual clusters.</p>
+<p>&nbsp;</p>
+<h3>4. DATA AND GRAPH INTERPRETATION</h3>
+<p>Putting together the data calculated for the text graph, we can now attempt to identify the pathways for meaning circulation within this text. It is important to provide the global metrics for the graph (Figure 5) before making analysis in order to also have a quantitive insight on its structural properties.</p>
+<p>Nodes (Words): 45<br />
+Edges (Connections): 241<br />
+Average path length: 2.5<br />
+Average degree: 5.9<br />
+Distance: 5<br />
+Graph density: 0.039<br />
+Modularity: 0.397<br />
+Connected components: 18<br />
+Clustering: 0.588</p>
+<p><strong>Average path length</strong> indicates the number of steps one needs to make on average in the graph in order to connect two randomly selected nodes (Newman, 2010). The lower the number, the more interconnected is the text network, meaning that certain combinations of words occur quite often within the text and that several central concepts appear quite often within contextual clusters, thus contributing to their connectivity. In case of this graph 2.5 is relatively close to the possible minimum (which is 0) and quite far from the possible maximum (which could equal 42 / 4 = 10.5 if all the words were unique), so we can safely say that this particular text graph is quite interconnected.</p>
+<p><strong>Graph distance</strong> is the longest path between the nodes that exists in the network (Newman, 2010). The maximum with the 2- and 5-word gap we’re using equals the number of nodes divided by 4, which is 10.5 in this case. The lowest is 0. High distance value could indicate that there are deviations in the text, which do not have so much to do with the central concepts – for instance, the use of metaphors or elaborate storytelling. In case of this text the distance has average measure that is not so far from the average path length, so it can be said that the whole text (and even its periphery) is quite well connected to the central concepts and to the main contextual clusters.</p>
+<p><strong>Average degree</strong> is obtained by dividing the total number of edges by the number of nodes (Newman, 2010), showing how many connections (on average) each word has to other unique words in the text. The higher the number, the more there are frequent words within the text and the more diverse and elaborate is the text itself. A lower number could indicate the presence of many repetitions within the text. A lower number could also be obtained if the algorithm used for text scanning does not make connections between the paragraphs and the paragraphs are short (thus indicating dispersed paragraph structure within a text). For this text network we use a 5-word gap scanning, so the minimum possible degree (given that each paragraph contains at least 5 morphemes) is 4. Maximum degree that exists within the text is 138 (see Table 2 above). The distribution of nodes is close to exponential distribution following a power law (see Figure 7 where the X axis is the degree and the Y axis is the number of nodes), most of the nodes (at least 150) have between 5 and 10 edges and only a few have more. So it can be safely said that this text’s connectivity is relatively medium and a few but significant number of concepts function as the central, more frequently used ones.</p>
+<div id="attachment_335" style="width: 520px" class="wp-caption alignnone"><a href="http://noduslabs.com/research/pathways-meaning-circulation-text-network-analysis/attachment/figure-7-meaning-circulation/" rel="attachment wp-att-335" data-slb-group="328" data-slb-active="1" data-slb-internal="335"><img class="size-medium wp-image-335" title="Node degree distribution" src="http://noduslabs.com/wp-content/uploads/2011/12/figure-7-meaning-circulation-510x315.png" alt="Node degree distribution" width="510" height="315" /></a><p class="wp-caption-text">Fig. 7: Node degree distribution</p></div>
+<p>&nbsp;</p>
+<p><strong>The modularity measure</strong> that is more than 0.4 (Blondel, 2008) indicates that the partition produced by the modularity algorithm can be used in order to detect distinct communities within the network. It indicates that there are nodes in the network that are more densely connected between each other than with the rest of the network and that their density is noticeably higher than the graph’s average.</p>
+<p>Now, taking these considerations about the structure of the text into account, we can interpret the data and its visual graph representation (Figures 5 and 6), identify the contextual clusters, and finally identify the pathways of meaning circulation within the text.</p>
+<p>First, the <strong><em>central concepts</em></strong>, the words (nodes) with the <em>highest betweenness centrality </em>(which we also call the <em>junctions for meaning circulation</em>) are</p>
+<address><strong>text &#8211; structure &#8211; mean &#8211; analysis &#8211; narrative &#8211; network</strong></address>
+<p>We can see from the community structure (Figure 6) that each of these terms is a central node in its own “community”, forming what we call <em>contextual clusters</em> around them.</p>
+<p>Both these central terms and their contextual clusters are the backbone for meaning circulation within the text. Each time this text is read it is most likely that they will play the most important role in establishing the meaning for the text and its interpretation.</p>
+<p>The nodes “text” and “mean” (as well as their respective communities) play a more conducive role in the text than other concepts because the relation of their influence to the total number of connections they have is the highest. These terms and their respective contextual clusters act as <em>mediators</em> within the discursive field of the textual graph.</p>
+<p>The meaning is generated through the dialectics between the remaining major contextual clusters (represented by their respective terms), which are quite distinct from each other:  “narrative” and “network textual graph” as well as “structure-system” and “analysis-semantic”. The resulting field of tension (Asvatsaturov, 2007) or dispositif (Deleuze, 1989) is a sum total of these forces that are present at the same time and they form the major loop of meaning circulation within the text.</p>
+<p>We could now identify <em>dispositif</em> of the text we are seeing as an interaction between two major themes (contextual clusters): “narrative” on one hand, and “network textual graph” on another. This interaction is mediated through the term “text” and the contextual cluster “meaning-concept-word-relation”.</p>
+<p>In other words (and that is only one possible interpretation), the text is presenting us with a question of how a narrative could be represented as a network through deconstructing the text into meaningful concept-word relations. The concepts of systems and structure as well as semantic analysis are evoked as the tools that can be used to interpret the resulting textual graph and to offer a different way of reading the text.</p>
+<p>There could be many other readings of the resulting structure, of course. The emphasis in our research, however, is on identifying the backbone of meaning circulation, so that it can be visually clear what the main themes of the text in fact are.</p>
+<p>When we read a text, we follow a narrative guided by the author, rules of grammar, logic, and common sense. When we read a network, we follow the affirmative drive of contingent associative flow.</p>
+<p>“A qualitative multiplicity is not an aggregate of parts with an apparent unity constituted by the relation of separate numerical or physical existents (the Galilean world of purely external relations) but an event, an actual occasion of experience” (Whitehead, 1938)</p>
+<p>It is this occasion of experience that text network visualization allows: after all, it is just one more possibility to read any text again and to get new insights about its structure.</p>
+<p>&nbsp;</p>
+<h3>5. CONCLUSION AND FUTURE WORK</h3>
+<p>We have here presented a formal approach to identifying the pathways for meaning circulation in textual data. To summarize, the steps are the following:</p>
+<ol>
+<li>Process the initial textual data in order to convert it into the kind of data that can be represented as a graph, so that network analysis tools can be applied to it and that certain metrics can be calculated;</li>
+<li>Represent this data visually as a graph and identify<br />
+a) the most<em> </em><strong><em>influential nodes</em></strong> (words) that function as <strong><em>junctions</em></strong> for meaning circulation;<br />
+b) the <strong><em>contextual clusters</em></strong> or distinct word <strong><em>communities</em></strong> (or <strong><em>themes</em></strong>) that are present within the text;<br />
+c) the main quantitive properties of the graph as a whole and of the most influential nodes;</li>
+<li>Using the data from 2) explore the relations between the contextual clusters (communities) and the role of junctions in linking these clusters together. This will identify the<strong><em> pathways for meaning circulation</em></strong> within the text</li>
+<li>Find <strong><em>alternative pathways </em></strong>through which these communities connect bypassing the main loop for meaning circulation – these will usually exemplify the main agenda, but in different terms;</li>
+<li>Interpret the data.</li>
+</ol>
+<p>The method we propose has several practical implications.</p>
+<p>First, our approach can help one<strong> identify the text’s main agenda</strong> very quickly. The purpose is similar to that of identifying the plot units within text for narrative summarization (Lehnert, 1981) or to uncovering the text’s dispositif (Deleuze, 1989). However, our approach is different in the way that the connectivity is calculated based on the graph’s properties rather than on affective or semantic relations between the terms. This allows us to postpone the intrusion of subjective cognitive processes into the fabric of the text, which can be especially useful for comparative analysis of several texts or for avoiding overlaying semantic, affective, and ideological layers over the textual structure.</p>
+<p>Second, our approach helps to <strong>unlock the potentialities present within the text</strong> (Calvino, 1987) by presenting a text in a non-linear fashion, opening it up for interpretations that are not so readily available via standard sequential reading. It allows the text to speak in its multiplicity or to use Bakhtin’s term multiglossia (Bakhtin, 1981).</p>
+<p>Third, our approach allows to see the <strong>plot structure within a story</strong> much easier. In this way it’s somewhat related to formalist analysis (Shklovsky, 2007) as it allows one to see the form of a text much clearer. It also allows us to see psychological and affective variations in text and uncover the underlying psychological structure for the text’s narrative (Rudnev, 2000).</p>
+<p>Fourth, our approach can be useful for <strong>group sentiment analysis</strong>. It is possible to conduct interviews with the group members and bring the resulting graphs together in order to reveal the key concepts that bring the group together as well as the peripheral concepts that indicate each member’s particular area of expertise and interest. Some attempts in this direction have been done before (for example, Diesner, 2004), however our approach does not require semantic processing of the resulting text and it focuses more on revealing the potential areas for group collaboration rather than uncovering its social structure through text analysis. Besides, it’s much less computation-heavy.</p>
+<p>Fifth, our approach can be useful for <strong>comparative analysis of different texts </strong>or to detect a certain similarity between different types of textual data. Given that the same processing algorithm is applied to different texts the resulting metrics could be used to categorize these texts according to their structural properties or to automatically detect their formal similarities and dissimilarities.</p>
+<p>Sixth, our approach is a way to <strong>visually represent a text as a Gestalt.</strong>  This can be especially useful for writers, editors, and copywriters. A text represented as a Gestalt or a diagram allows for a more holistic perception of its interconnectedness (Wertheimer, 1997) and opening up more possibilities for interpretation (Ryan, 2007).</p>
+<p>Seventh, our approach allows to create a whole range of <strong>navigational, archival and search tools for textual data </strong>if the resulting visual representations are translated into easy-to-use interfaces. The difference from the existing tag clouds that serve this function (Kaser, 2007) is that the focus is made on interconnectivity between the different concepts and texts, as well as the contextual data, rather than on the terms’ frequency of occurrence.</p>
+<p>Finally, there are possibilities for <strong>dynamic analysis of textual data</strong> where the resulting graph is visualized in a spatio-temporal frame, allowing one to observe the formation of meaning that is more closely related to the process of reading or listening. This can be especially useful for creating interfaces for navigating related content (the graph representing only the part of the text that is currently read) or for creating a live audio-visual cross-content navigational system where speech recognition mechanisms could provide an immediate graphical representation of the speech and show how it relates to other audio-visual content both within the same context and outside of it.</p>
+<p>&nbsp;</p>
+<h3>APPENDIX A</h3>
+<p>A list of stopwords used for text modification:</p>
+<address>a, a&#8217;s, able, about, above, according, accordingly, across, actually, after, afterwards, again, against, ain&#8217;t, all, allow, allows, almost, alone, along, already, also, although, always, am, among, amongst, an, and, another, any, anybody, anyhow, anyone, anything, anyway, anyways, anywhere, apart, appear, appreciate, appropriate, are, aren&#8217;t, around, as, aside, ask, asking, associated, at, available, away, awfully, be, became, because, become, becomes, becoming, been, before, beforehand, behind, being, believe, below, beside, besides, best, better, between, beyond, both, brief, but, by, c&#8217;mon, c&#8217;s, came, can, can&#8217;t, cannot, cant, cause, causes, certain, certainly, changes, clearly, co, com, come, comes, concerning, consequently, consider, considering, contain, containing, contains, corresponding, could, couldn&#8217;t, course, currently, definitely, described, despite, did, didn&#8217;t, different, do, does, doesn&#8217;t, doing, don&#8217;t, done, down, downwards, during, each, edu, eg, eight, either, else, elsewhere, enough, entirely, especially, et, etc, even, ever, every, everybody, everyone, everything, everywhere, ex, exactly, example, except, far, few, fifth, first, five, followed, following, follows, for, former, formerly, forth, four, from, further, furthermore, get, gets, getting, given, gives, go, goes, going, gone, got, gotten, greetings, had, hadn&#8217;t, happens, hardly, has, hasn&#8217;t, have, haven&#8217;t, having, he, he&#8217;s, hello, help, hence, her, here, here&#8217;s, hereafter, hereby, herein, hereupon, hers, herself, hi, him, himself, his, hither, hopefully, how, howbeit, however, , i, i&#8217;d, i&#8217;ll, i&#8217;m, i&#8217;ve, ie, if, ignored, immediate, in, inasmuch, inc, indeed, indicate, indicated, indicates, inner, insofar, instead, into, inward, is, isn&#8217;t, it, it&#8217;d, it&#8217;ll, it&#8217;s, its, itself, just, keep, keeps, kept, know, knows, known, last, lately, later, latter, latterly, least, less, lest, let, let&#8217;s, like, liked, likely, little, look, looking, looks, ltd, mainly, many, may, maybe, me, mean, meanwhile, merely, might, mine, more, moreover, most, mostly, much, must, my, myself, name, namely, nd, near, nearly, necessary, need, needs, neither, never, nevertheless, new, next, nine, no, nobody, non, none, noone, nor, normally, not, nothing, novel, now, nowhere, obviously, of, off, often, oh, ok, okay, old, on, once, one, ones, only, onto, or, other, others, otherwise, ought, our, ours, ourselves, out, outside, over, overall, own, particular, particularly, per, perhaps, placed, please, plus, possible, presumably, probably, provides, que, quite, qv, rather, rd, re, really, reasonably, regarding, regardless, regards, relatively, respectively, right, said, same, saw, say, saying, says, second, secondly, see, seeing, seem, seemed, seeming, seems, seen, self, selves, sensible, sent, serious, seriously, seven, several, shall, she, should, shouldn&#8217;t, since, six, so, some, somebody, somehow, someone, something, sometime, sometimes, somewhat, somewhere, soon, sorry, specified, specify, specifying, still, s, sub, such, sup, sure, t&#8217;s, take, taken, tell, tends, th, than, thank, thanks, thanx, that, that&#8217;s, thats, the, their, theirs, them, themselves, then, thence, there, there&#8217;s, thereafter, thereby, therefore, therein, theres, thereupon, these, they, they&#8217;d, they&#8217;ll, they&#8217;re, they&#8217;ve, think, third, this, thorough, thoroughly, those, though, three, through, throughout, thru, thus, to, together, too, took, toward, towards, tried, tries, truly, try, trying, twice, two, un, under, unfortunately, unless, unlikely, until, unto, up, upon, us, use, used, useful, uses, using, usually, value, various, very, via, viz, vs, want, wants, was, wasn&#8217;t, way, we, we&#8217;d, we&#8217;ll, we&#8217;re, we&#8217;ve, welcome, well, went, were, weren&#8217;t, what, what&#8217;s, whatever, when, whence, whenever, where, where&#8217;s, whereafter, whereas, whereby, wherein, whereupon, wherever, whether, which, while, whither, who, who&#8217;s, whoever, whole, whom, whose, why, will, willing, wish, with, within, without, won&#8217;t, wonder, would, would, wouldn&#8217;t, yes, yet, you, you&#8217;d, you&#8217;ll, you&#8217;re, you&#8217;ve, your, yours, yourself, yourselves, zero</address>
+<p>&nbsp;</p>
+<h3>APPENDIX B:</h3>
+<p>Data table for network textual data</p>
+<p><strong>Label<strong> </strong>Betweenness Centrality Degree</strong></p>
+<p>analysis 3795.93348067254 74<br />
+approach 1099.57632490571 38<br />
+concept 1376.92248622351 51<br />
+data 710.66286544905 39<br />
+dynamic 323.476497293674 14<br />
+event 453.081493372521 14<br />
+external 735.228174789833 31<br />
+focus 1587.27835035067 35<br />
+graph 1627.36553278749 54<br />
+identify 354.642930420184 26<br />
+level 382.275733471347 15<br />
+loewe 372.910451466497 16<br />
+mean 4018.56122275846 54<br />
+narrative 2311.92367170237 49<br />
+network 2258.33733816798 65<br />
+order 392.077647539612 25<br />
+plot 328.356068507915 15<br />
+propose 524.097981741999 27<br />
+relate 421.673692511309 21<br />
+relation 1211.34678647754 42<br />
+represent 1490.02452614555 47<br />
+representation 635.30909225652 22<br />
+result 562.411474518848 31<br />
+semantic 837.221737993167 36<br />
+structure 4051.30522587258 65<br />
+system 1627.89395686862 32<br />
+text 13149.4837285632 138<br />
+textual 1501.31450722844 49<br />
+understand 302.798453505203 25<br />
+word 1550.70795210806 35<br />
+work 676.446245489501 20</p>
+<h3>APPENDIX C</h3>
+<p>Datasets used in this research can be downloaded here as GraphML files:<br />
+<a href="http://noduslabs.com/research/pathways-meaning-circulation-text-network-analysis/attachment/meaning-text-graphml-files/" rel="attachment wp-att-357">GraphML files used for text network analysis in this paper</a></p>
+<h3>REFERENCES:</h3>
+<p>Asvatsaturov, A. (2007). <em>Phenomenology of Text: Game and Repression. Moscow: New Literary Review, XLII</em></p>
+<p>Bakhtin, M.M. (1981). The Dialogic Imagination: Four Essays by M.M. Bakhtin. <em>Austin: University of Texas Press.</em></p>
+<p>Bastian, M.; Heymann, S.; Jacomy, M.; (2009). Gephi: An Open Source Software for Exploring and Manipulating Networks. <em>Association for the Advancement of Artificial Intelligence</em></p>
+<p>Bergson, H. (2002). The Possible and the Real. <em>Continuum.</em></p>
+<p>Blei, D. Ng, A. Jordan, M. (2003) Latent Dirichlet Allocation.<em> In Journal of Machine Learning Research, 1/03, 993-1022</em></p>
+<p>Blei, D. (2004). Probabilistic Models of Text and Images. <em>Disseration, University of California, Berkeley</em></p>
+<p>Blondel, V.; Guillaume, J-L; Lambiotte, R; Lefebvre, E; (2008). Fast Unfolding of Communities in Large Networks. <em>In Journal of Statistical Mechanics: Theory and Experiment, Volume 2008</em></p>
+<p>Brandes, A. (2001). Faster Algorithm for Betweenness Centrality.<em> In Journal of Mathematical Sociology 25(2):163-177</em></p>
+<p>Brandes, U.; Eiglsperger, M.; Herman. I., Himsolt, M.; and Marshall M.S. (2002). GraphML Progress Report: Structural Layer Proposal. <em>Proc. 9th Intl. Symp. Graph Drawing (GD &#8217;01), LNCS 2265, pp. 501-512. Springer-Verlag, </em></p>
+<p>Bruce, D; Newman, D. (1978). Interacting Plans. In <em>Cognitive Science, Volume 2, Issue 3, July-September: 195-233</em></p>
+<p>Calvino, I. (1987). The Uses of Literature: Essays. <em>Mariner Books.</em></p>
+<p>Carley, K. (1993). Coding Choices for Textual Analysis: A Comparison of Content Analysis and Map Analysis. In <em>Social Methodology, Vol. 23: 75-126</em></p>
+<p>Chang, J. &amp; Blei, D. (2010). Hierarchical Relational Models for Document Networks.<em> Annals of Applied Statistics, Vol. 4, No. 1, 124–150 </em></p>
+<p>Deleuze, G. (1989). Qu’est-ce qu’un dispositif. <em>In Michel Foucault Philosophe: Rencontre internationale,  Paris: Seuil, 185-95. </em></p>
+<p>Diesner, J; Carley, K. (2004). Using Network Text Analysis to Detect the Organizational Structure of Covert Networks,<em> Center for Computational Analysis of Social and Organizational Systems (CASOS), Institute for Software Research International (ISRI) School of Computer Science Carnegie Mellon University</em>.</p>
+<p>Dyer, G. (1983). The Role of Affect in Narratives. <em>In Cognitive Science 7: 211-242,</em></p>
+<p>Fortunato, S. (2010). Community Detection in Graphs. <em>In Complex Networks and Systems Lagrange Laboratory, Torino.</em></p>
+<p>Freeman, L. (1977). A Set of Measures of Centrality Based on Betweenness. <em>Sociometry </em><em>Vol. 40, No. 1 (Mar., 1977): 35-41 </em></p>
+<p>Gephi. An Open Source Software for Exploring and Manipulating Networks. Gephi Consortsium. <em>URL: </em><em><a href="http://www.gephi.org">http://www.gephi.org</a></em></p>
+<p>Hesse, M. (1980). Revolutions and Reconstructions in the Philosophy of Science. <em>London: Harvester Press.</em></p>
+<p>Hofmann, G. (1999). Probabilistic latent semantic indexing.<em> In Proceedings of the 22nd annual international ACM SIGIR conference on Research and development in information retrieval</em></p>
+<p>Jacomy, M. (2009). Force-Atlas Graph Layout Algorithm. <em>URL: </em><em><a href="http://gephi.org/2011/forceatlas2-the-new-version-of-our-home-brew-layout/">http://gephi.org/2011/forceatlas2-the-new-version-of-our-home-brew-layout/</a></em></p>
+<p>Kaser, O. &amp; Lemire, D. (2007). Tag-Cloud Drawing: Algorithms for Cloud Visualization. In <em>Proceedings of Tagging and Metadata for Social Information Organization (WWW 2007)</em></p>
+<p>Krovetz, R. (1993). Viewing Morphology as an Inference Process. <em>SIGIR &#8217;93 Proceedings of the 16th annual international ACM SIGIR conference on Research and development in information retrieval</em></p>
+<p>Landauer, T. K., Foltz, P. W., &amp; Laham, D. (1998). <em>An introduction to latent semantic analysis. Discourse Processes, 25, 259-284</em></p>
+<p>Law, J; Lodge, P; (1984). Science for Social Scientists.<em> London: Macmillan.</em></p>
+<p>Lehrnert, W. (1981). Plot Units and Narrative Summarization. In <em>Cognitive Science, Volume 5, Issue 4: 293–331</em></p>
+<p>Leydesdorff, L. (2011). ‘Meaning’ as a sociological concept: A review of the modeling, mapping and simulation of the communication of knowledge and meaning. In <em>Social Science Information 50(3–4) 391–413</em></p>
+<p>Li, W. &amp; McCallum, A. (2006). Pachinko Allocation: DAG-Structured Mixture Models of Topic Correlations. <em>In Proceedings of the 23rd International Conference on Machine Learning</em></p>
+<p>Loewe, B. (2010). Comparing Formal Frameworks of Narrative Structure.  In <em>Association for the Advancement of Artificial Intelligence,</em></p>
+<p>Loewe, B.; Pacuit, E.; and Saraf, S. (2009). Identifying the structure of a narrative via an agent-based logic of preferences and beliefs: Formalizations of episodes from CSI: Crime Scene Investigation. In <em>Duvigneau, M., and Moldt, D., eds., Proceedings of the Fifth International Workshop on Modelling of Objects, Components and Agents. MOCA’09, FBI-HH-B-290/09, 45–63.</em></p>
+<p>MySQL. An Open Source Database. <em>URL: </em><em><a href="http://www.mysql.com">http://www.mysql.com</a></em></p>
+<p>Neo4j. An Open Source NoSQL Graph Database. <em>URL: </em><em><a href="http://www.neo4j.org">http://www.neo4j.org</a></em></p>
+<p>Newman, M. (2010). Networks: An Introduction. <em>Oxford: Oxford University Press</em></p>
+<p>Noack, A. (2007). Energy Models for Graph Clustering. In<em> Journal of Graph Algorithms and Applications, vol 11, no 2: 453-480</em></p>
+<p>Shklovsky, V; (2007). Energy of Delusion: A Book on Plot. <em>Dalkey Archive Press.</em></p>
+<p>Popping, R. (2003). Knowledge Graphs and Network Text Analysis. In <em>Social Science Information</em></p>
+<p>Popping, R. (2000). Computer-assisted Text Analysis. <em>SAGE</em>.</p>
+<p>Porter, M.F. (1980). An algorithm for suffix stripping. <em>Program: electronic library and information systems, Vol. 14 Iss: 3, pp.130 &#8211; 137</em></p>
+<p>Rudnev, V.P. (2000). Away from Reality: Study of Text Philosophy. <em>Moscow: Agraph</em></p>
+<p>Ryan, M-L. (2007). Diagramming Narrative. In <em>Semiotica 165–1/4: 11–40.</em></p>
+<p>ThisIsLike. An online mnemonic network. Nodus Labs. <em>URL: </em><em><a href="http://www.thisislike.com">http://www.thisislike.com</a></em></p>
+<p>Van Atteveldt, W. (2008). Semantic Network Analysis: Techniques for Extracting, Representing, and Querying Media Content. <em>Booksurge LLC</em></p>
+<p>Vicknair, C.; Macias, M.; Zhao, Z.; Nan, X.; Chen, Y.; and Wilkins, D; (2010). A comparison of a graph database and a relational database: a data provenance perspective. <em>In Proceedings of the 48th Annual Southeast Regional Conference (ACM SE &#8217;10). ACM, New York, NY, USA, , Article 42 , 6 pages. DOI=10.1145/1900008.1900067 </em><em><a href="http://doi.acm.org/10.1145/1900008.1900067">http://doi.acm.org/10.1145/1900008.1900067</a></em></p>
+<p>Wertheimer, M. (1997). Gestalt Theory. <em>New York: Gestalt Journal Press</em></p>
+<p>Whitehead, A.N. (1938). Modes of Thought. <em>New York: Macmillan</em></p>
+<p>Wise, J; Thomas, J; Pennock, K.; Lantrip, D.; Pottier, M.; Schur, A.; and Crow, V. (1995). Visualizing the non-visual: spatial analysis and interaction with information from text documents. From  <em>Information Visualization 1995 Proceedings: 51-58,</em> 1995</p>
+<p>Zipf, G. K. (1935). The psycho-biology of language. <em>Oxford, England: Houghton, Mifflin. ix, 336 pp.</em></p>
+					</div>
+
+			<ul class="post-meta">
+					<li class="meta-block tags">
+				<ul>
+					<li>Tags &raquo;</li><li><a href="http://noduslabs.com/tag/analysis/" rel="tag">analysis</a></li><li><a href="http://noduslabs.com/tag/meaning/" rel="tag">meaning</a></li><li><a href="http://noduslabs.com/tag/narrative/" rel="tag">narrative</a></li><li><a href="http://noduslabs.com/tag/networks/" rel="tag">networks</a></li><li><a href="http://noduslabs.com/tag/text/" rel="tag">text</a></li><li><a href="http://noduslabs.com/tag/visualization/" rel="tag">visualization</a></li>				</ul>
+			</li>
+							<li class="meta-block social">
+				<!-- AddThis Button BEGIN : Customize at http://www.addthis.com -->
+				<div class="addthis_toolbox addthis_default_style ">
+					<a class="addthis_button_facebook_like"></a>
+					<a class="addthis_button_tweet"></a>
+					<a class="addthis_counter addthis_pill_style"></a>
+				</div>
+				<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-507462e4620a0fff"></script>
+				<!-- AddThis Button END -->
+			</li>
+		  
+	</ul>
+	            
+		<ul class="next-prev-post-nav">
+            <li>
+                                    &larr;  <span><a href="http://noduslabs.com/cases/russian-protest-network-analysis-facebook-gephi-netvizz/" rel="prev">Network Analysis of Russian Protest Groups on Facebook using Gephi and Netvizz</a></span>
+                            </li>
+            <li>
+                                    <span><a href="http://noduslabs.com/radar/pluto-bleibt-campaign/" rel="next">Pluto Bleibt Campaign</a></span> &rarr;
+                    
+            </li>
+        </ul>
+    	</div>
+</li>					
+			</ul>
+			<div id="comments" class="comments-area">
+
+	
+	
+									<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/research/pathways-meaning-circulation-text-network-analysis/#respond" style="display:none;">Cancel reply</a></small></h3>
+									<p class="must-log-in">You must be <a href="http://noduslabs.com/wp-login.php?redirect_to=http%3A%2F%2Fnoduslabs.com%2Fresearch%2Fpathways-meaning-circulation-text-network-analysis%2F">logged in</a> to post a comment.</p>												</div><!-- #respond -->
+			
+</div><!-- #comments .comments-area -->		</div>
+		
+					<div id="right-column">
+	<ul class="widget-list sidebar">
+		<li id="text-3" class="widget widget_text"><h4 class="widgettitle">Doing a Research?</h4>			<div class="textwidget"><b>Grab a bookmarklet from <a href="http://infranodus.com" target="_blank">InfraNodus</a> and visualize your text highlights as a graph to discover new connections.</b></div>
+		</li><li id="tag_cloud-3" class="widget widget_tag_cloud"><h4 class="widgettitle">Explore Nodus Labs:</h4><div class="tagcloud"><a href='http://noduslabs.com/tag/activism/' class='tag-link-26' title='6 topics' style='font-size: 12.666666666667pt;'>activism</a>
+<a href='http://noduslabs.com/tag/alexis-jacomy/' class='tag-link-51' title='2 topics' style='font-size: 8pt;'>alexis jacomy</a>
+<a href='http://noduslabs.com/tag/analysis/' class='tag-link-24' title='2 topics' style='font-size: 8pt;'>analysis</a>
+<a href='http://noduslabs.com/tag/ant/' class='tag-link-41' title='2 topics' style='font-size: 8pt;'>ANT</a>
+<a href='http://noduslabs.com/tag/blogs/' class='tag-link-49' title='2 topics' style='font-size: 8pt;'>blogs</a>
+<a href='http://noduslabs.com/tag/business/' class='tag-link-34' title='3 topics' style='font-size: 9.5135135135135pt;'>business</a>
+<a href='http://noduslabs.com/tag/cognition/' class='tag-link-55' title='13 topics' style='font-size: 16.45045045045pt;'>cognition</a>
+<a href='http://noduslabs.com/tag/community/' class='tag-link-11' title='14 topics' style='font-size: 16.828828828829pt;'>community</a>
+<a href='http://noduslabs.com/tag/coworking/' class='tag-link-52' title='2 topics' style='font-size: 8pt;'>coworking</a>
+<a href='http://noduslabs.com/tag/diffusion/' class='tag-link-39' title='3 topics' style='font-size: 9.5135135135135pt;'>diffusion</a>
+<a href='http://noduslabs.com/tag/education/' class='tag-link-88' title='3 topics' style='font-size: 9.5135135135135pt;'>education</a>
+<a href='http://noduslabs.com/tag/facebook/' class='tag-link-64' title='4 topics' style='font-size: 10.774774774775pt;'>facebook</a>
+<a href='http://noduslabs.com/tag/gephi/' class='tag-link-43' title='7 topics' style='font-size: 13.297297297297pt;'>gephi</a>
+<a href='http://noduslabs.com/tag/gestalt/' class='tag-link-9' title='2 topics' style='font-size: 8pt;'>gestalt</a>
+<a href='http://noduslabs.com/tag/google/' class='tag-link-71' title='4 topics' style='font-size: 10.774774774775pt;'>google</a>
+<a href='http://noduslabs.com/tag/health/' class='tag-link-46' title='2 topics' style='font-size: 8pt;'>health</a>
+<a href='http://noduslabs.com/tag/infranodus/' class='tag-link-83' title='14 topics' style='font-size: 16.828828828829pt;'>infranodus</a>
+<a href='http://noduslabs.com/tag/interfaces/' class='tag-link-31' title='16 topics' style='font-size: 17.459459459459pt;'>interfaces</a>
+<a href='http://noduslabs.com/tag/internet/' class='tag-link-17' title='9 topics' style='font-size: 14.558558558559pt;'>internet</a>
+<a href='http://noduslabs.com/tag/interviews/' class='tag-link-20' title='4 topics' style='font-size: 10.774774774775pt;'>interviews</a>
+<a href='http://noduslabs.com/tag/marketing/' class='tag-link-48' title='5 topics' style='font-size: 11.783783783784pt;'>marketing</a>
+<a href='http://noduslabs.com/tag/meaning/' class='tag-link-8' title='11 topics' style='font-size: 15.567567567568pt;'>meaning</a>
+<a href='http://noduslabs.com/tag/narrative/' class='tag-link-25' title='9 topics' style='font-size: 14.558558558559pt;'>narrative</a>
+<a href='http://noduslabs.com/tag/negotiation/' class='tag-link-53' title='3 topics' style='font-size: 9.5135135135135pt;'>negotiation</a>
+<a href='http://noduslabs.com/tag/networks/' class='tag-link-7' title='38 topics' style='font-size: 22pt;'>networks</a>
+<a href='http://noduslabs.com/tag/organization/' class='tag-link-44' title='5 topics' style='font-size: 11.783783783784pt;'>organization</a>
+<a href='http://noduslabs.com/tag/people/' class='tag-link-19' title='17 topics' style='font-size: 17.837837837838pt;'>people</a>
+<a href='http://noduslabs.com/tag/philosophy/' class='tag-link-69' title='3 topics' style='font-size: 9.5135135135135pt;'>philosophy</a>
+<a href='http://noduslabs.com/tag/politics/' class='tag-link-12' title='10 topics' style='font-size: 15.063063063063pt;'>politics</a>
+<a href='http://noduslabs.com/tag/polysingularity/' class='tag-link-30' title='18 topics' style='font-size: 18.09009009009pt;'>polysingularity</a>
+<a href='http://noduslabs.com/tag/products-2/' class='tag-link-15' title='4 topics' style='font-size: 10.774774774775pt;'>products</a>
+<a href='http://noduslabs.com/tag/promotion/' class='tag-link-50' title='2 topics' style='font-size: 8pt;'>promotion</a>
+<a href='http://noduslabs.com/tag/psychology/' class='tag-link-27' title='13 topics' style='font-size: 16.45045045045pt;'>psychology</a>
+<a href='http://noduslabs.com/tag/publications/' class='tag-link-40' title='4 topics' style='font-size: 10.774774774775pt;'>publications</a>
+<a href='http://noduslabs.com/tag/research-2/' class='tag-link-18' title='8 topics' style='font-size: 13.927927927928pt;'>research</a>
+<a href='http://noduslabs.com/tag/rhetorics/' class='tag-link-67' title='4 topics' style='font-size: 10.774774774775pt;'>rhetorics</a>
+<a href='http://noduslabs.com/tag/sociology/' class='tag-link-42' title='8 topics' style='font-size: 13.927927927928pt;'>sociology</a>
+<a href='http://noduslabs.com/tag/software/' class='tag-link-16' title='13 topics' style='font-size: 16.45045045045pt;'>software</a>
+<a href='http://noduslabs.com/tag/synchronization/' class='tag-link-45' title='2 topics' style='font-size: 8pt;'>synchronization</a>
+<a href='http://noduslabs.com/tag/technology/' class='tag-link-29' title='3 topics' style='font-size: 9.5135135135135pt;'>technology</a>
+<a href='http://noduslabs.com/tag/text/' class='tag-link-13' title='20 topics' style='font-size: 18.594594594595pt;'>text</a>
+<a href='http://noduslabs.com/tag/tna/' class='tag-link-32' title='17 topics' style='font-size: 17.837837837838pt;'>TNA</a>
+<a href='http://noduslabs.com/tag/video/' class='tag-link-38' title='4 topics' style='font-size: 10.774774774775pt;'>video</a>
+<a href='http://noduslabs.com/tag/visualization/' class='tag-link-14' title='20 topics' style='font-size: 18.594594594595pt;'>visualization</a>
+<a href='http://noduslabs.com/tag/writing/' class='tag-link-109' title='3 topics' style='font-size: 9.5135135135135pt;'>writing</a></div>
+</li><li id="text-9" class="widget widget_text"><h4 class="widgettitle">Connect on Twitter: </h4>			<div class="textwidget"><a class="twitter-timeline" href="https://twitter.com/noduslabs" data-widget-id="553951040316641280">Tweets by @noduslabs</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+		</li><li id="text-8" class="widget widget_text"><h4 class="widgettitle">Connect on Facebook:</h4>			<div class="textwidget"><iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fnoduslabs&amp;width=280&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=false&amp;appId=301949576509759" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:280px; height:258px;" allowTransparency="true"></iframe></div>
+		</li><li id="text-4" class="widget widget_text"><h4 class="widgettitle">RSS Feeds:</h4>			<div class="textwidget"><a href='http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Fnoduslabs.com%2Ffeed%2F'  target='blank'><img id='feedlyFollow' src='http://s3.feedly.com/img/follows/feedly-follow-rectangle-flat-small_2x.png' alt='follow us in feedly' width='66' height='20'></a>
+<br>
+ <a href="http://noduslabs.com/feed/" target="_blank"><img src="http://thisislike.com/view/imgs/share/feed-icon_orange-16px.png" border=0></a>
+</div>
+		</li>	</ul>
+</div>				
+	</div>
+	
+		</div><!--End Content Container -->
+	
+		
+		<div id="site-wide-container">
+			<span class="arrow"></span>
+			<div class="site-wide-cta">
+									<span>Try InfraNodus - the Tool for Learning and Discovering</span>
+													<a class="action-link" href="/infranodus/">Sign Up</a>
+							</div>
+		</div>
+				 
+	<div id="footer-container">
+		
+		<div id="footer" class="clearfix">
+			<ul class="footer-widgets four-column clearfix">
+				<li id="text-11" class="widget widget_text column"><h4 class="widgettitle">Nodus Labs</h4>			<div class="textwidget">Exploring society and cognition through the framework of network science.
+
+<a href="/contact/">Contact Us</a></div>
+		</li>
+		<li id="obox_social_widget-2" class="widget widget_obox_social_widget column">			<h4 class="widgettitle">Stay in Touch</h4>
+						
+							<ul class="social-icons clearfix">
+					<li><a target="_blank" class="facebook" href="http://facebook.com/noduslabs" title="Facebook"></a></li><li><a target="_blank" class="twitter" href="http://twitter.com/noduslabs" title="Twitter"></a></li><li><a target="_blank" class="vimeo" href="http://vimeo.com/thisislike" title="Vimeo"></a></li><li><a target="_blank" class="skype" href="dmitryparanyushkin" title="Skype"></a></li><li><a target="_blank" class="tumblr" href="http://polysingularity.tumblr.com" title="Tumblr"></a></li><li><a target="_blank" class="emailz" href="info@noduslabs.com" title="Email"></a></li><li><a target="_blank" class="github" href="http://github.com/noduslabs" title="Github"></a></li><li><a target="_blank" class="quora" href="http://www.quora.com/NODUS-LABS-Network-Analysis-and-Visualization" title="Quora"></a></li>				</ul>
+					</li>		<li id="recent-posts-3" class="widget widget_recent_entries column">		<h4 class="widgettitle">Recent Posts</h4>		<ul>
+					<li>
+				<a href="http://noduslabs.com/cases/social-network-dynamics-game-pick-up-artists/">&#8220;The Game&#8221; and Social Dynamics of Pick-Up Artists</a>
+							<span class="post-date">August 23, 2016</span>
+						</li>
+					<li>
+				<a href="http://noduslabs.com/research/8os-bodymind-operating-system/">8OS &#8211; Body/Mind Operating System</a>
+							<span class="post-date">August 17, 2016</span>
+						</li>
+					<li>
+				<a href="http://noduslabs.com/cases/conference-talks-content-profiling-text-network-analysis/">Conference Talks Content Profiling Using Text Network Analysis</a>
+							<span class="post-date">July 24, 2015</span>
+						</li>
+					<li>
+				<a href="http://noduslabs.com/research/network-centric-warfare-practice-non-destruction/">Network Centric Hybrid Warfare and the Dynamics of War</a>
+							<span class="post-date">June 17, 2015</span>
+						</li>
+					<li>
+				<a href="http://noduslabs.com/cases/efficient-search-methods-content-structuring/">Using Efficient Search Methods for Content Structuring</a>
+							<span class="post-date">May 8, 2015</span>
+						</li>
+				</ul>
+		</li>			</ul>
+		</div> <!--End footer -->
+		
+	</div> <!--end Footer Container -->
+	
+	<div id="footer-base-container">
+		<div class="footer-text">
+			<div id="footer-navigation-container">
+							</div>
+			
+			<p>Special Agency Nodus Labs | 2015 Creative Commons BY-NC-SA </p>
+					</div>        
+	</div> <!--end Footer Base Container -->
+	
+</div><!--end Wrapper -->
+
+	<div id="back-top">
+		<a href="#top"></a>
+	</div>
+
+<!--Get Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-379928-16', 'auto', {'allowLinker': true});
+  ga('require', 'linker');
+  ga('linker:autoLink', ['dpdcart.com']);
+  ga('send', 'pageview');
+</script>
+
+
+<!-- Hotjar Tracking Code for http://noduslabs.com -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:174742,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<script async type='text/javascript' src='http://noduslabs.com/wp-content/plugins/cleantalk-spam-protect/inc/cleantalk_nocache.js?random=5.35'></script>
+<div class="cp_popup_overall"></div>
+<div class="cp_popup_window">
+	<div class="cp_popup_window_inner">
+		<div class="cp_popup_close_button"></div>
+		<div class="cp_popup_loading"></div>
+		<div class="cp_popup_content">
+			<!--ajax step content goes here-->
+		</div>
+	</div>
+</div>
+<!-- Highlight Search Terms 1.3.9 ( RavanH - http://status301.net/wordpress-plugins/highlight-search-terms/ ) -->
+<script type="text/javascript">
+var hlst_query = new Array();
+var hlst_areas = new Array("article","#groups-dir-list","#members-dir-list","li.bbp-body","div.hentry","div.post","#content","#main","div.content","#middle","#container","div.container","div.page","#wrapper","body");
+</script>
+<div id="su-footer-links" style="text-align: center;"></div><script type='text/javascript' src='http://noduslabs.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/noduslabs.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/plugins/coursepress/js/jquery.knob.js?ver=1.3'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/plugins/highlight-search-terms/hlst-extend.js?ver=1.3.9'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-includes/js/comment-reply.min.js?ver=4.1.1'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/plugins/simple-lightbox/client/js/prod/lib.core.js?ver=2.3.1'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/plugins/simple-lightbox/client/js/prod/lib.view.js?ver=2.3.1'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/plugins/simple-lightbox/themes/baseline/js/prod/client.js?ver=2.3.1'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/plugins/simple-lightbox/themes/default/js/prod/client.js?ver=2.3.1'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/plugins/simple-lightbox/template-tags/item/js/prod/tag.item.js?ver=2.3.1'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/plugins/simple-lightbox/template-tags/ui/js/prod/tag.ui.js?ver=2.3.1'></script>
+<script type='text/javascript' src='http://noduslabs.com/wp-content/plugins/simple-lightbox/content-handlers/image/js/prod/handler.image.js?ver=2.3.1'></script>
+<script type="text/javascript" id="slb_footer">/* <![CDATA[ */if ( !!window.jQuery ) {(function($){$(document).ready(function(){if ( !!window.SLB && SLB.has_child('View.init') ) { SLB.View.init({"ui_autofit":true,"ui_animate":true,"slideshow_autostart":true,"slideshow_duration":"6","group_loop":true,"ui_overlay_opacity":"0.8","ui_title_default":false,"theme_default":"slb_default","ui_labels":{"loading":"Loading","close":"Close","nav_next":"Next","nav_prev":"Previous","slideshow_start":"Start slideshow","slideshow_stop":"Stop slideshow","group_status":"Item %current% of %total%"}}); }
+if ( !!window.SLB && SLB.has_child('View.assets') ) { {$.extend(SLB.View.assets, {"http:\/\/noduslabs.com\/wp-content\/uploads\/2011\/12\/figure-1-meaning-circulation.png":{"id":329,"_entries":["http:\/\/noduslabs.com\/research\/pathways-meaning-circulation-text-network-analysis\/attachment\/figure-1-meaning-circulation\/"],"type":"image","source":"http:\/\/noduslabs.com\/wp-content\/uploads\/2011\/12\/figure-1-meaning-circulation.png","internal":true,"sizes":{"thumbnail":{"file":"figure-1-meaning-circulation-150x150.png","width":"150","height":"150"},"medium":{"file":"figure-1-meaning-circulation-510x466.png","width":"510","height":"466"},"original":{"file":"2011\/12\/figure-1-meaning-circulation.png","width":"774","height":"708"}},"image_meta":{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""},"description":"Force-atlas layout of 2-word gap graph","title":"Force-atlas layout of 2-word gap graph","caption":"Fig. 1: Force-atlas layout of 2-word gap graph"},"http:\/\/noduslabs.com\/wp-content\/uploads\/2011\/12\/figure-2-meaning-circulation.png":{"id":330,"_entries":["http:\/\/noduslabs.com\/research\/pathways-meaning-circulation-text-network-analysis\/attachment\/figure-2-meaning-circulation\/"],"type":"image","source":"http:\/\/noduslabs.com\/wp-content\/uploads\/2011\/12\/figure-2-meaning-circulation.png","internal":true,"sizes":{"thumbnail":{"file":"figure-2-meaning-circulation-150x150.png","width":"150","height":"150"},"medium":{"file":"figure-2-meaning-circulation-505x510.png","width":"505","height":"510"},"original":{"file":"2011\/12\/figure-2-meaning-circulation.png","width":"713","height":"719"}},"image_meta":{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""},"description":"Force-atlas layout of 5-word gap graph","title":"Force-atlas layout of 5-word gap graph","caption":"Fig. 2: Force-atlas layout of 5-word gap graph"},"http:\/\/noduslabs.com\/wp-content\/uploads\/2011\/12\/figure-3-meaning-circulation.png":{"id":331,"_entries":["http:\/\/noduslabs.com\/research\/pathways-meaning-circulation-text-network-analysis\/attachment\/figure-3-meaning-circulation\/"],"type":"image","source":"http:\/\/noduslabs.com\/wp-content\/uploads\/2011\/12\/figure-3-meaning-circulation.png","internal":true,"sizes":{"thumbnail":{"file":"figure-3-meaning-circulation-150x150.png","width":"150","height":"150"},"medium":{"file":"figure-3-meaning-circulation-510x492.png","width":"510","height":"492"},"original":{"file":"2011\/12\/figure-3-meaning-circulation.png","width":"728","height":"703"}},"image_meta":{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""},"description":"Force-atlas layout of both 2-word gap and 5-word gap text graphs ","title":"Force-atlas layout of both 2-word gap and 5-word gap text graphs ","caption":"Fig. 3: Force-atlas layout of both 2-word gap and 5-word gap text graphs "},"http:\/\/noduslabs.com\/wp-content\/uploads\/2011\/12\/figure-4-meaning-circulation.png":{"id":332,"_entries":["http:\/\/noduslabs.com\/research\/pathways-meaning-circulation-text-network-analysis\/attachment\/figure-4-meaning-circulation\/"],"type":"image","source":"http:\/\/noduslabs.com\/wp-content\/uploads\/2011\/12\/figure-4-meaning-circulation.png","internal":true,"sizes":{"thumbnail":{"file":"figure-4-meaning-circulation-150x150.png","width":"150","height":"150"},"medium":{"file":"figure-4-meaning-circulation-510x472.png","width":"510","height":"472"},"original":{"file":"2011\/12\/figure-4-meaning-circulation.png","width":"751","height":"696"}},"image_meta":{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""},"description":"Force-atlas layout, emphasis on the nodes with a higher BC","title":"Force-atlas layout, emphasis on the nodes with a higher BC","caption":"Fig. 4: Force-atlas layout, emphasis on the nodes with a higher BC"},"http:\/\/noduslabs.com\/wp-content\/uploads\/2011\/12\/figure-5-meaning-circulation.png":{"id":333,"_entries":["http:\/\/noduslabs.com\/research\/pathways-meaning-circulation-text-network-analysis\/attachment\/figure-5-meaning-circulation\/"],"type":"image","source":"http:\/\/noduslabs.com\/wp-content\/uploads\/2011\/12\/figure-5-meaning-circulation.png","internal":true,"sizes":{"thumbnail":{"file":"figure-5-meaning-circulation-150x150.png","width":"150","height":"150"},"medium":{"file":"figure-5-meaning-circulation-510x487.png","width":"510","height":"487"},"original":{"file":"2011\/12\/figure-5-meaning-circulation.png","width":"737","height":"704"}},"image_meta":{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""},"description":"Community structure of the text network","title":"Community structure of the text network","caption":"Fig. 5: Community structure of the text network"},"http:\/\/noduslabs.com\/wp-content\/uploads\/2011\/12\/figure-6-meaning-circulation.png":{"id":334,"_entries":["http:\/\/noduslabs.com\/research\/pathways-meaning-circulation-text-network-analysis\/attachment\/figure-6-meaning-circulation\/"],"type":"image","source":"http:\/\/noduslabs.com\/wp-content\/uploads\/2011\/12\/figure-6-meaning-circulation.png","internal":true,"sizes":{"thumbnail":{"file":"figure-6-meaning-circulation-150x150.png","width":"150","height":"150"},"medium":{"file":"figure-6-meaning-circulation-510x415.png","width":"510","height":"415"},"original":{"file":"2011\/12\/figure-6-meaning-circulation.png","width":"793","height":"646"}},"image_meta":{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""},"description":"Community-only view text graph","title":"Community-only view text graph","caption":"Fig. 6: Community-only view text graph"},"http:\/\/noduslabs.com\/wp-content\/uploads\/2011\/12\/figure-7-meaning-circulation.png":{"id":335,"_entries":["http:\/\/noduslabs.com\/research\/pathways-meaning-circulation-text-network-analysis\/attachment\/figure-7-meaning-circulation\/"],"type":"image","source":"http:\/\/noduslabs.com\/wp-content\/uploads\/2011\/12\/figure-7-meaning-circulation.png","internal":true,"sizes":{"thumbnail":{"file":"figure-7-meaning-circulation-150x150.png","width":"150","height":"150"},"medium":{"file":"figure-7-meaning-circulation-510x315.png","width":"510","height":"315"},"original":{"file":"2011\/12\/figure-7-meaning-circulation.png","width":"606","height":"375"}},"image_meta":{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""},"description":"Node degree distribution","title":"Node degree distribution","caption":"Fig. 7: Node degree distribution"},"http:\/\/noduslabs.com\/research\/pathways-meaning-circulation-text-network-analysis\/attachment\/figure-1-meaning-circulation\/":{"_parent":"http:\/\/noduslabs.com\/wp-content\/uploads\/2011\/12\/figure-1-meaning-circulation.png"},"http:\/\/noduslabs.com\/research\/pathways-meaning-circulation-text-network-analysis\/attachment\/figure-2-meaning-circulation\/":{"_parent":"http:\/\/noduslabs.com\/wp-content\/uploads\/2011\/12\/figure-2-meaning-circulation.png"},"http:\/\/noduslabs.com\/research\/pathways-meaning-circulation-text-network-analysis\/attachment\/figure-3-meaning-circulation\/":{"_parent":"http:\/\/noduslabs.com\/wp-content\/uploads\/2011\/12\/figure-3-meaning-circulation.png"},"http:\/\/noduslabs.com\/research\/pathways-meaning-circulation-text-network-analysis\/attachment\/figure-4-meaning-circulation\/":{"_parent":"http:\/\/noduslabs.com\/wp-content\/uploads\/2011\/12\/figure-4-meaning-circulation.png"},"http:\/\/noduslabs.com\/research\/pathways-meaning-circulation-text-network-analysis\/attachment\/figure-5-meaning-circulation\/":{"_parent":"http:\/\/noduslabs.com\/wp-content\/uploads\/2011\/12\/figure-5-meaning-circulation.png"},"http:\/\/noduslabs.com\/research\/pathways-meaning-circulation-text-network-analysis\/attachment\/figure-6-meaning-circulation\/":{"_parent":"http:\/\/noduslabs.com\/wp-content\/uploads\/2011\/12\/figure-6-meaning-circulation.png"},"http:\/\/noduslabs.com\/research\/pathways-meaning-circulation-text-network-analysis\/attachment\/figure-7-meaning-circulation\/":{"_parent":"http:\/\/noduslabs.com\/wp-content\/uploads\/2011\/12\/figure-7-meaning-circulation.png"}});} }
+/* THM */
+if ( !!window.SLB && SLB.has_child('View.extend_theme') ) { SLB.View.extend_theme('slb_baseline',{"name":"Baseline","parent":"","styles":[{"handle":"base","uri":"http:\/\/noduslabs.com\/wp-content\/plugins\/simple-lightbox\/themes\/baseline\/css\/style.css","deps":[]}],"layout_raw":"<div class=\"slb_container\"><div class=\"slb_content\">{{item.content}}<div class=\"slb_nav\"><span class=\"slb_prev\">{{ui.nav_prev}}<\/span><span class=\"slb_next\">{{ui.nav_next}}<\/span><\/div><div class=\"slb_controls\"><span class=\"slb_close\">{{ui.close}}<\/span><span class=\"slb_slideshow\">{{ui.slideshow_control}}<\/span><\/div><div class=\"slb_loading\">{{ui.loading}}<\/div><\/div><div class=\"slb_details\"><div class=\"inner\"><div class=\"slb_data\"><div class=\"slb_data_content\"><span class=\"slb_data_title\">{{item.title}}<\/span><span class=\"slb_group_status\">{{ui.group_status}}<\/span><div class=\"slb_data_desc\">{{item.description}}<\/div><\/div><\/div><div class=\"slb_nav\"><span class=\"slb_prev\">{{ui.nav_prev}}<\/span><span class=\"slb_next\">{{ui.nav_next}}<\/span><\/div><\/div><\/div><\/div>"}); }if ( !!window.SLB && SLB.has_child('View.extend_theme') ) { SLB.View.extend_theme('slb_default',{"name":"Default (Light)","parent":"slb_baseline","styles":[{"handle":"font","uri":"http:\/\/fonts.googleapis.com\/css?family=Yanone+Kaffeesatz","deps":[]},{"handle":"base","uri":"http:\/\/noduslabs.com\/wp-content\/plugins\/simple-lightbox\/themes\/default\/css\/style.css","deps":[]}]}); }})})(jQuery);}/* ]]> */</script>
+<script type="text/javascript" id="slb_context">/* <![CDATA[ */if ( !!window.jQuery ) {(function($){$(document).ready(function(){if ( !!window.SLB ) { {$.extend(SLB, {"context":["public","user_guest"]});} }})})(jQuery);}/* ]]> */</script>
+<script async type='text/javascript' src='http://noduslabs.com/wp-content/plugins/cleantalk-spam-protect/inc/cleantalk_nocache.js?random=5.35'></script>
+</body>
+</html>
+

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en-US" class=" html_stretched responsive av-default-lightbox  html_header_top html_logo_left html_main_nav_header html_menu_right html_slim html_header_sticky html_header_shrinking html_header_topbar_active html_mobile_menu_phone html_disabled html_header_searchicon html_content_align_center html_header_unstick_top_disabled html_header_stretch_disabled html_entry_id_22 ">
+<head>
+<meta charset="UTF-8" />
+<meta name="google-site-verification" content="pmNudwcl4Kn5Fx6iAP4NNut_5ifVt_1fdmjECKFmlQs" />
+<!-- page title, displayed in your browser bar -->
+<title>Reclaim Hosting | Take Control of your Digital Identity</title>
+
+<meta name="robots" content="index, follow" />
+
+
+<!-- mobile setting -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- Scripts/CSS and wp_head hook -->
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Reclaim Hosting &raquo; Feed" href="https://reclaimhosting.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Reclaim Hosting &raquo; Comments Feed" href="https://reclaimhosting.com/comments/feed/" />
+
+<!-- google webfont font replacement -->
+<link rel='stylesheet' id='avia-google-webfont' href='//fonts.googleapis.com/css?family=Open+Sans:400,600' type='text/css' media='all'/> 
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/reclaimhosting.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=a4401d5a52b3b2ef7c982aeacc7b88aa"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='avia-grid-css'  href='https://reclaimhosting.com/wp-content/themes/enfold/css/grid.css?ver=2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-base-css'  href='https://reclaimhosting.com/wp-content/themes/enfold/css/base.css?ver=2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-layout-css'  href='https://reclaimhosting.com/wp-content/themes/enfold/css/layout.css?ver=2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-scs-css'  href='https://reclaimhosting.com/wp-content/themes/enfold/css/shortcodes.css?ver=2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-popup-css-css'  href='https://reclaimhosting.com/wp-content/themes/enfold/js/aviapopup/magnific-popup.css?ver=1' type='text/css' media='screen' />
+<link rel='stylesheet' id='avia-media-css'  href='https://reclaimhosting.com/wp-content/themes/enfold/js/mediaelement/skin-1/mediaelementplayer.css?ver=1' type='text/css' media='screen' />
+<link rel='stylesheet' id='avia-print-css'  href='https://reclaimhosting.com/wp-content/themes/enfold/css/print.css?ver=1' type='text/css' media='print' />
+<link rel='stylesheet' id='avia-dynamic-css'  href='https://reclaimhosting.com/wp-content/uploads/dynamic_avia/enfold_child.css?ver=571e7fe4cc958' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-custom-css'  href='https://reclaimhosting.com/wp-content/themes/enfold/css/custom.css?ver=2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-style-css'  href='https://reclaimhosting.com/wp-content/themes/enfold-child/style.css?ver=2' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://reclaimhosting.com/wp-content/themes/enfold/config-layerslider/LayerSlider/static/css/layerslider.css?ver=5.6.5' type='text/css' media='all' />
+<script type='text/javascript' src='https://reclaimhosting.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://reclaimhosting.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://reclaimhosting.com/wp-content/themes/enfold/js/avia-compat.js?ver=2'></script>
+<script type='text/javascript' src='https://reclaimhosting.com/wp-content/themes/enfold/config-layerslider/LayerSlider/static/js/greensock.js?ver=1.11.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"5.6.5"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://reclaimhosting.com/wp-content/themes/enfold/config-layerslider/LayerSlider/static/js/layerslider.kreaturamedia.jquery.js?ver=5.6.5'></script>
+<script type='text/javascript' src='https://reclaimhosting.com/wp-content/themes/enfold/config-layerslider/LayerSlider/static/js/layerslider.transitions.js?ver=5.6.5'></script>
+<link rel='https://api.w.org/' href='https://reclaimhosting.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://reclaimhosting.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://reclaimhosting.com/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://reclaimhosting.com/" />
+<link rel='shortlink' href='https://reclaimhosting.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://reclaimhosting.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Freclaimhosting.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://reclaimhosting.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Freclaimhosting.com%2F&#038;format=xml" />
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//reclaimhosting.com/?wordfence_logHuman=1&hid=F04F58AB83B335D58E96534C242CBE2B');
+</script><link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="alternate" type="application/rss+xml" title="Reclaim Hosting RSS2 Feed" href="https://reclaimhosting.com/feed/" />
+<link rel="pingback" href="https://reclaimhosting.com/xmlrpc.php" />
+<!--[if lt IE 9]><script src="https://reclaimhosting.com/wp-content/themes/enfold/js/html5shiv.js"></script><![endif]--><!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//stats.reclaimhosting.com/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+
+<!-- BEGIN GADWP v4.9.6.2 Universal Tracking - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-56422807-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<!-- END GADWP Universal Tracking -->
+
+
+
+<!--
+Debugging Info for Theme support: 
+
+Theme: Enfold
+Version: 3.5.3
+Installed: enfold
+AviaFramework Version: 4.5.1
+AviaBuilder Version: 0.8
+- - - - - - - - - - -
+ChildTheme: Enfold Child
+ChildTheme Version: 1.0
+ChildTheme Installed: enfold
+
+ML:256-PU:16-PLA:17
+WP:4.7.5
+Updates: disabled
+-->
+
+<style type='text/css'>
+@font-face {font-family: 'entypo-fontello'; font-weight: normal; font-style: normal;
+src: url('https://reclaimhosting.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.eot?v=3');
+src: url('https://reclaimhosting.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.eot?v=3#iefix') format('embedded-opentype'), 
+url('https://reclaimhosting.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.woff?v=3') format('woff'), 
+url('https://reclaimhosting.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.ttf?v=3') format('truetype'), 
+url('https://reclaimhosting.com/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.svg?v=3#entypo-fontello') format('svg');
+} #top .avia-font-entypo-fontello, body .avia-font-entypo-fontello, html body [data-av_iconfont='entypo-fontello']:before{ font-family: 'entypo-fontello'; }
+</style>
+</head>
+
+
+
+
+<body id="top" class="home page-template-default page page-id-22 stretched open_sans " itemscope="itemscope" itemtype="https://schema.org/WebPage" >
+
+	
+	<div id='wrap_all'>
+
+	
+<header id='header' class=' header_color light_bg_color  av_header_top av_logo_left av_main_nav_header av_menu_right av_slim av_header_sticky av_header_shrinking av_header_stretch_disabled av_mobile_menu_phone av_header_searchicon av_header_unstick_top_disabled av_bottom_nav_disabled  av_header_border_disabled'  role="banner" itemscope="itemscope" itemtype="https://schema.org/WPHeader" >
+
+<a id="advanced_menu_toggle" href="#" aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'></a><a id="advanced_menu_hide" href="#" 	aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'></a>		<div id='header_meta' class='container_wrap container_wrap_meta  av_icon_active_left av_extra_header_active av_secondary_right av_entry_id_22'>
+		
+			      <div class='container'>
+			      <ul class='noLightbox social_bookmarks icon_count_4'><li class='social_bookmarks_twitter av-social-link-twitter social_icon_1'><a target='_blank' href='http://twitter.com/reclaimhosting' aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello' title='Twitter'><span class='avia_hidden_link_text'>Twitter</span></a></li><li class='social_bookmarks_gplus av-social-link-gplus social_icon_2'><a target='_blank' href='https://plus.google.com/+ReclaimhostingOnline' aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello' title='Gplus'><span class='avia_hidden_link_text'>Gplus</span></a></li><li class='social_bookmarks_rss av-social-link-rss social_icon_3'><a  href='https://reclaimhosting.com/feed/' aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello' title='Rss'><span class='avia_hidden_link_text'>Rss</span></a></li><li class='social_bookmarks_mail av-social-link-mail social_icon_4'><a target='_blank' href='https://portal.reclaimhosting.com/contact.php' aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello' title='Mail'><span class='avia_hidden_link_text'>Mail</span></a></li></ul><nav class='sub_menu'  role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" ><ul id="avia2-menu" class="menu"><li id="menu-item-448" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-448"><a href="https://portal.reclaimhosting.com">Client Area Login</a></li>
+<li id="menu-item-578" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-578"><a href="https://community.reclaimhosting.com">Support</a></li>
+</ul></nav>			      </div>
+		</div>
+
+		<div  id='header_main' class='container_wrap container_wrap_logo'>
+	
+        <div class='container av-logo-container'><div class='inner-container'><strong class='logo'><a href='https://reclaimhosting.com/'><img height='100' width='300' src='https://reclaimhosting.com/wp-content/uploads/2016/04/rh-record-trans2-1.png' alt='Reclaim Hosting' /></a></strong><nav class='main_menu' data-selectname='Select a page'  role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" ><div class="avia-menu av-main-nav-wrap"><ul id="avia-menu" class="menu av-main-nav"><li id="menu-item-655" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-top-level menu-item-top-level-1"><a href="#" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Products</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
+
+
+<ul class="sub-menu">
+	<li id="menu-item-658" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://reclaimhosting.com/shared-hosting/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Shared Hosting</span></a></li>
+	<li id="menu-item-657" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://reclaimhosting.com/managed-software-hosting/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Managed Software Hosting</span></a></li>
+	<li id="menu-item-659" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://reclaimhosting.com/domain-of-ones-own/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Domain of One&#8217;s Own</span></a></li>
+</ul>
+</li>
+<li id="menu-item-259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-top-level menu-item-top-level-2"><a href="https://reclaimhosting.com/about/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">About Us</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
+
+
+<ul class="sub-menu">
+	<li id="menu-item-429" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://reclaimhosting.com/faq/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">FAQ</span></a></li>
+	<li id="menu-item-31423" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://reclaimhosting.com/migrations/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Migration Assistance</span></a></li>
+	<li id="menu-item-430" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://reclaimhosting.com/refund-policy/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Refund Policy</span></a></li>
+	<li id="menu-item-431" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://reclaimhosting.com/privacy-policy/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Privacy Policy</span></a></li>
+	<li id="menu-item-393" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://reclaimhosting.com/what-people-are-saying/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">What People are Saying</span></a></li>
+</ul>
+</li>
+<li id="menu-item-9449" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-top-level menu-item-top-level-3"><a href="https://community.reclaimhosting.com" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Community Forums</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li id="menu-item-258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-4"><a href="https://reclaimhosting.com/blog/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Blog</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li id="menu-item-331" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-top-level menu-item-top-level-5"><a href="https://portal.reclaimhosting.com/contact.php" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Contact Us</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li id="menu-item-search" class="noMobile menu-item menu-item-search-dropdown">
+							<a href="?s=" rel="nofollow" data-avia-search-tooltip="
+
+&lt;form action=&quot;https://reclaimhosting.com/&quot; id=&quot;searchform&quot; method=&quot;get&quot; class=&quot;&quot;&gt;
+	&lt;div&gt;
+		&lt;input type=&quot;submit&quot; value=&quot;&quot; id=&quot;searchsubmit&quot; class=&quot;button avia-font-entypo-fontello&quot; /&gt;
+		&lt;input type=&quot;text&quot; id=&quot;s&quot; name=&quot;s&quot; value=&quot;&quot; placeholder='Search' /&gt;
+			&lt;/div&gt;
+&lt;/form&gt;" aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'><span class="avia_hidden_link_text">Search</span></a>
+	        		   </li></ul></div></nav></div> </div> 
+		<!-- end container_wrap-->
+		</div>
+		
+		<div class='header_bg'></div>
+
+<!-- end header -->
+</header>
+		
+	<div id='main' data-scroll-offset='88'>
+
+	<div id='layer_slider_1' class='avia-layerslider main_color avia-shadow  avia-builder-el-0  el_before_av_promobox  avia-builder-el-first  container_wrap fullsize'    style='height: 326px;' ><script data-cfasync="false" type="text/javascript">var lsjQuery = jQuery;</script><script data-cfasync="false" type="text/javascript">
+lsjQuery(document).ready(function() {
+if(typeof lsjQuery.fn.layerSlider == "undefined") { lsShowNotice('layerslider_5','jquery'); }
+else {
+lsjQuery("#layerslider_5").layerSlider({startInViewport: false, skin: 'fullwidth', navStartStop: false, showCircleTimer: false, thumbnailNavigation: 'disabled', skinsPath: 'https://reclaimhosting.com/wp-content/themes/enfold/config-layerslider/LayerSlider/static/skins/'})
+}
+});
+</script><div id="layerslider_5" class="ls-wp-container" style="width:1230px;height:325px;margin:0 auto;margin-bottom: 0px;"><div class="ls-slide" data-ls=" transition2d: all;"><img class="ls-l" style="top:-21px;left:-245px;font-size:45px;white-space: nowrap;" data-ls="offsetxin:0;durationin:0;easingin:easeInElastic;scalexin:0.5;scaleyin:0.5;scalexout:2;" src="https://reclaimhosting.com/wp-content/uploads/2016/04/record-stack-1024x3841-1.png" alt=""><h1 class="ls-l" style="top:29px;left:335px;font-size:35px;color:#f5f5f5;white-space: nowrap;">Take Control of your Digital Identity</h1><h2 class="ls-l" style="top:78px;left:338px;width:50%;font-size:20px;color:#f5f5f5;">Reclaim Hosting provides educators and institutions with an easy way to offer their students domains and web hosting that they own and control.</h2></div></div></div><div id='after_layer_slider_1' class='main_color av_default_container_wrap container_wrap fullsize'   ><div class='container' ><div class='template-page content  av-content-full alpha units'><div class='post-entry post-entry-type-page post-entry-22'><div class='entry-content-wrapper clearfix'>
+	<div  class='av_promobox avia-button-yes  avia-builder-el-1  el_after_av_layerslider  el_before_av_hr  avia-builder-el-first '>		<div class='avia-promocontent'><p>
+Get started today and take control of your digital identity!</p>
+</div><div class='avia-button-wrap avia-button-right '><a href='https://reclaimhosting.com/shared-hosting/' class='avia-button  avia-icon_select-no avia-color-theme-color avia-size-large avia-position-right '   ><span class='avia_iconbox_title' >Sign Up</span></a></div>	</div>
+<div  class='hr hr-short hr-center  avia-builder-el-2  el_after_av_promobox  el_before_av_one_third '><span class='hr-inner ' ><span class='hr-inner-style'></span></span></div>
+<div class="flex_column av_one_third  flex_column_div first  avia-builder-el-3  el_after_av_hr  el_before_av_one_third  " ><article class="iconbox iconbox_left   avia-builder-el-4  avia-builder-el-no-sibling "  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><div class="iconbox_content"><header class="entry-content-header"><div class="iconbox_icon heading-color" aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'  ></div><h3 class='iconbox_content_title'  itemprop="headline"  >Tech Forward</h3></header><div class='iconbox_content_container '  itemprop="text"  ><p>Our servers use fast and redundant hard drives with plenty of memory and CPU power to make your sites fly. Built on an open source LAMP framework with the industry-standard cPanel management console, you have all the tools you need to build great things.</p>
+</div></div><footer class="entry-footer"></footer></article></div>
+<div class="flex_column av_one_third  flex_column_div av-zero-column-padding   avia-builder-el-5  el_after_av_one_third  el_before_av_one_third  " style='border-radius:0px; '><article class="iconbox iconbox_left   avia-builder-el-6  avia-builder-el-no-sibling "  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><div class="iconbox_content"><header class="entry-content-header"><div class="iconbox_icon heading-color" aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'  ></div><h3 class='iconbox_content_title'  itemprop="headline"  >100+ Apps</h3></header><div class='iconbox_content_container '  itemprop="text"  ><p>You don&#8217;t have to be a programmer to build your own site. With a software library of over 100 applications including WordPress, Omeka, Drupal and more, our automated installer makes it dead simple to experiment and build out amazing websites.</p>
+</div></div><footer class="entry-footer"></footer></article></div>
+<div class="flex_column av_one_third  flex_column_div av-zero-column-padding   avia-builder-el-7  el_after_av_one_third  el_before_av_hr  " style='border-radius:0px; '><p style="text-align: left;"><article class="iconbox iconbox_left   avia-builder-el-8  avia-builder-el-no-sibling "  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><div class="iconbox_content"><header class="entry-content-header"><div class="iconbox_icon heading-color" aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'  ></div><h3 class='iconbox_content_title'  itemprop="headline"  >Real Support</h3></header><div class='iconbox_content_container '  itemprop="text"  ><p>Too often you&#8217;re a number in a queue when it comes to getting help. At Reclaim Hosting you get to talk to real people that are willing to help you out with any aspect of your website.</p>
+</div></div><footer class="entry-footer"></footer></article></div>
+<div  class='hr hr-short hr-center  avia-builder-el-9  el_after_av_one_third  el_before_av_heading '><span class='hr-inner ' ><span class='hr-inner-style'></span></span></div>
+<div style='padding-bottom:10px;' class='av-special-heading av-special-heading-h3  blockquote classic-quote  avia-builder-el-10  el_after_av_hr  el_before_av_partner  '><h3 class='av-special-heading-tag'  itemprop="headline"  >Supporting over 100 institutions including</h3><div class='special-heading-border'><div class='special-heading-inner-border' ></div></div></div>
+<div  data-autoplay='false'  data-interval='5'  data-animation='slide'  class='avia-logo-element-container av-border-deactivate avia-logo-grid avia-content-slider avia-smallarrow-slider avia-content-grid-active noHover avia-content-slider1 avia-content-slider-odd  avia-builder-el-11  el_after_av_heading  avia-builder-el-last ' ><div class='avia-smallarrow-slider-heading  no-logo-slider-heading '><div class='new-special-heading'>&nbsp;</div></div><div class='avia-content-slider-inner'><div class='slide-entry-wrap'  itemscope="itemscope" itemtype="https://schema.org/ImageObject" ><div data-avia-tooltip="University of Oklahoma" class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-1 slide-parity-odd  av_one_third first real-thumbnail'><a href='http://create.ou.edu' data-rel='slide-1' class='slide-image' title=''  ><img  itemprop="contentURL"  width="341" height="128" src="https://reclaimhosting.com/wp-content/uploads/2013/07/oulogoweb.jpg" class="attachment-featured size-featured" alt="" srcset="https://reclaimhosting.com/wp-content/uploads/2013/07/oulogoweb.jpg 341w, https://reclaimhosting.com/wp-content/uploads/2013/07/oulogoweb-300x113.jpg 300w" sizes="(max-width: 341px) 100vw, 341px" /></a></div><div data-avia-tooltip="Brigham Young Unviersity" class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-2 slide-parity-even  av_one_third  real-thumbnail'><a href='http://byu.domains' data-rel='slide-1' class='slide-image' title=''  ><img  itemprop="contentURL"  width="175" height="175" src="https://reclaimhosting.com/wp-content/uploads/2016/01/BYU_Medallion_Logo.jpg" class="attachment-featured size-featured" alt="" srcset="https://reclaimhosting.com/wp-content/uploads/2016/01/BYU_Medallion_Logo.jpg 175w, https://reclaimhosting.com/wp-content/uploads/2016/01/BYU_Medallion_Logo-80x80.jpg 80w, https://reclaimhosting.com/wp-content/uploads/2016/01/BYU_Medallion_Logo-36x36.jpg 36w, https://reclaimhosting.com/wp-content/uploads/2016/01/BYU_Medallion_Logo-120x120.jpg 120w" sizes="(max-width: 175px) 100vw, 175px" /></a></div><div data-avia-tooltip="Virginia Commonwealth University" class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-3 slide-parity-odd  av_one_third  real-thumbnail'><a href='http://rampages.us' data-rel='slide-1' class='slide-image' title=''  ><img  itemprop="contentURL"  width="650" height="218" src="https://reclaimhosting.com/wp-content/uploads/2013/07/VCU-Logo-Seal-Virginia-Commonwealth-University.png" class="attachment-featured size-featured" alt="" srcset="https://reclaimhosting.com/wp-content/uploads/2013/07/VCU-Logo-Seal-Virginia-Commonwealth-University.png 650w, https://reclaimhosting.com/wp-content/uploads/2013/07/VCU-Logo-Seal-Virginia-Commonwealth-University-620x208.png 620w, https://reclaimhosting.com/wp-content/uploads/2013/07/VCU-Logo-Seal-Virginia-Commonwealth-University-450x151.png 450w" sizes="(max-width: 650px) 100vw, 650px" /></a></div></div><div class='slide-entry-wrap'  itemscope="itemscope" itemtype="https://schema.org/ImageObject" ><div data-avia-tooltip="Davidson College" class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-4 slide-parity-odd  av_one_third first real-thumbnail'><a href='http://davidson.domains' data-rel='slide-1' class='slide-image' title=''  ><img  itemprop="contentURL"  width="1229" height="430" src="https://reclaimhosting.com/wp-content/uploads/2013/07/davidson-1229x430.jpg" class="attachment-featured size-featured" alt="" srcset="https://reclaimhosting.com/wp-content/uploads/2013/07/davidson-1229x430.jpg 1229w, https://reclaimhosting.com/wp-content/uploads/2013/07/davidson-1210x423.jpg 1210w" sizes="(max-width: 1229px) 100vw, 1229px" /></a></div><div data-avia-tooltip="Emory University" class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-5 slide-parity-even  av_one_third  real-thumbnail'><a href='http://emorydomains.org' data-rel='slide-1' class='slide-image' title=''  ><img  itemprop="contentURL"  width="341" height="128" src="https://reclaimhosting.com/wp-content/uploads/2013/07/emorylogoweb.jpg" class="attachment-featured size-featured" alt="" srcset="https://reclaimhosting.com/wp-content/uploads/2013/07/emorylogoweb.jpg 341w, https://reclaimhosting.com/wp-content/uploads/2013/07/emorylogoweb-300x113.jpg 300w" sizes="(max-width: 341px) 100vw, 341px" /></a></div><div data-avia-tooltip="CSU Channel Islands" class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-6 slide-parity-odd  av_one_third  real-thumbnail'><a href='http://cikeys.com' data-rel='slide-1' class='slide-image' title=''  ><img  itemprop="contentURL"  width="341" height="128" src="https://reclaimhosting.com/wp-content/uploads/2013/07/csulogoweb.jpg" class="attachment-featured size-featured" alt="" srcset="https://reclaimhosting.com/wp-content/uploads/2013/07/csulogoweb.jpg 341w, https://reclaimhosting.com/wp-content/uploads/2013/07/csulogoweb-300x113.jpg 300w" sizes="(max-width: 341px) 100vw, 341px" /></a></div></div><div class='slide-entry-wrap'  itemscope="itemscope" itemtype="https://schema.org/ImageObject" ><div data-avia-tooltip="Saint Joseph’s University" class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-7 slide-parity-odd  av_one_third first real-thumbnail'><a href='http://www.sju.edu/int/academics/cas/commstudies/' data-rel='slide-1' class='slide-image' title=''  ><img  itemprop="contentURL"  width="341" height="128" src="https://reclaimhosting.com/wp-content/uploads/2013/07/sjulogoweb.jpg" class="attachment-featured size-featured" alt="" srcset="https://reclaimhosting.com/wp-content/uploads/2013/07/sjulogoweb.jpg 341w, https://reclaimhosting.com/wp-content/uploads/2013/07/sjulogoweb-300x113.jpg 300w" sizes="(max-width: 341px) 100vw, 341px" /></a></div><div data-avia-tooltip="Muhlenberg College" class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-8 slide-parity-even  av_one_third  real-thumbnail'><a href='https://bergbuilds.domains/' data-rel='slide-1' class='slide-image' title=''  ><img  itemprop="contentURL"  width="445" height="87" src="https://reclaimhosting.com/wp-content/uploads/2013/07/a5dLAfMn.png" class="attachment-featured size-featured" alt="" /></a></div><div data-avia-tooltip="Georgetown University" class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-9 slide-parity-odd  av_one_third  real-thumbnail'><a href='http://georgetown.domains' data-rel='slide-1' class='slide-image' title=''  ><img  itemprop="contentURL"  width="325" height="151" src="https://reclaimhosting.com/wp-content/uploads/2013/07/Georgetown-Logo-Header.jpg" class="attachment-featured size-featured" alt="" /></a></div></div><div class='slide-entry-wrap'  itemscope="itemscope" itemtype="https://schema.org/ImageObject" ><div data-avia-tooltip="University of Wisconsin, Green Bay" class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-10 slide-parity-odd  av_one_third first real-thumbnail'><a href='https://uwgb.org/' data-rel='slide-1' class='slide-image' title=''  ><img  itemprop="contentURL"  width="249" height="168" src="https://reclaimhosting.com/wp-content/uploads/2016/01/University-of-Wisconsin-Greenbay-logo.jpg" class="attachment-featured size-featured" alt="" /></a></div><div data-avia-tooltip="Emerson College" class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-11 slide-parity-even  av_one_third  real-thumbnail'><a href='http://emerson.build' data-rel='slide-1' class='slide-image' title=''  ><img  itemprop="contentURL"  width="300" height="119" src="https://reclaimhosting.com/wp-content/uploads/2013/07/emerson-college-logo.png" class="attachment-featured size-featured" alt="" /></a></div><div data-avia-tooltip="Whittier College" class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-12 slide-parity-odd  av_one_third  real-thumbnail'><a href='https://whittier.domains/' data-rel='slide-1' class='slide-image' title=''  ><img  itemprop="contentURL"  width="225" height="156" src="https://reclaimhosting.com/wp-content/uploads/2013/07/WhittierCollege-e1452444542104.jpg" class="attachment-featured size-featured" alt="" /></a></div></div><div class='slide-entry-wrap'  itemscope="itemscope" itemtype="https://schema.org/ImageObject" ><div data-avia-tooltip="St. Edward’s University" class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-13 slide-parity-odd  av_one_third first real-thumbnail'><a href='https://create.stedwards.edu/' data-rel='slide-1' class='slide-image' title='https://create.stedwards.edu/'  ><img  itemprop="contentURL"  width="172" height="147" src="https://reclaimhosting.com/wp-content/uploads/2013/07/images.jpg" class="attachment-featured size-featured" alt="" /></a></div><div data-avia-tooltip="Michigan State University" class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-14 slide-parity-even  av_one_third  real-thumbnail'><a href='http://domains.cal.msu.edu' data-rel='slide-1' class='slide-image' title=''  ><img  itemprop="contentURL"  width="300" height="78" src="https://reclaimhosting.com/wp-content/uploads/2013/07/MSU-Green-Logo.png" class="attachment-featured size-featured" alt="" /></a></div><div data-avia-tooltip="Maryville University" class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-15 slide-parity-odd  av_one_third  real-thumbnail'><a href='http://musites.org/' data-rel='slide-1' class='slide-image' title=''  ><img  itemprop="contentURL"  width="368" height="137" src="https://reclaimhosting.com/wp-content/uploads/2013/07/imgres.png" class="attachment-featured size-featured" alt="" /></a></div></div><div class='slide-entry-wrap'  itemscope="itemscope" itemtype="https://schema.org/ImageObject" ><div data-avia-tooltip="Middlebury College" class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-16 slide-parity-odd  av_one_third first real-thumbnail'><a href='https://middcreate.net/' data-rel='slide-1' class='slide-image' title=''  ><img  itemprop="contentURL"  width="300" height="121" src="https://reclaimhosting.com/wp-content/uploads/2013/07/MDL_College_Left_Blue.png" class="attachment-featured size-featured" alt="" /></a></div><div data-avia-tooltip="Agnes Scott College" class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-17 slide-parity-even  av_one_third  real-thumbnail'><a href='http://agnesscott.org' data-rel='slide-1' class='slide-image' title=''  ><img  itemprop="contentURL"  width="150" height="150" src="https://reclaimhosting.com/wp-content/uploads/2016/02/agnesscott.png" class="attachment-featured size-featured" alt="" srcset="https://reclaimhosting.com/wp-content/uploads/2016/02/agnesscott.png 150w, https://reclaimhosting.com/wp-content/uploads/2016/02/agnesscott-80x80.png 80w, https://reclaimhosting.com/wp-content/uploads/2016/02/agnesscott-36x36.png 36w, https://reclaimhosting.com/wp-content/uploads/2016/02/agnesscott-120x120.png 120w" sizes="(max-width: 150px) 100vw, 150px" /></a></div><div data-avia-tooltip="NYU Libraries" class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-18 slide-parity-odd  av_one_third  real-thumbnail'><a href='http://hosting.nyu.edu' data-rel='slide-1' class='slide-image' title=''  ><img  itemprop="contentURL"  width="640" height="122" src="https://reclaimhosting.com/wp-content/uploads/2013/07/81561039193971.u0dNJK9dvdtKyyiaaafs_height640.png" class="attachment-featured size-featured" alt="" srcset="https://reclaimhosting.com/wp-content/uploads/2013/07/81561039193971.u0dNJK9dvdtKyyiaaafs_height640.png 640w, https://reclaimhosting.com/wp-content/uploads/2013/07/81561039193971.u0dNJK9dvdtKyyiaaafs_height640-620x118.png 620w, https://reclaimhosting.com/wp-content/uploads/2013/07/81561039193971.u0dNJK9dvdtKyyiaaafs_height640-450x86.png 450w" sizes="(max-width: 640px) 100vw, 640px" /></a></div></div><div class='slide-entry-wrap'  itemscope="itemscope" itemtype="https://schema.org/ImageObject" ><div data-avia-tooltip="Gettysburg College" class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-19 slide-parity-odd  av_one_third first real-thumbnail'><a href='https://sites.gettysburg.edu/' data-rel='slide-1' class='slide-image' title=''  ><img  itemprop="contentURL"  width="640" height="166" src="https://reclaimhosting.com/wp-content/uploads/2013/07/81561039193975.kMkIQ2GifZjDN654rXni_height640.png" class="attachment-featured size-featured" alt="" srcset="https://reclaimhosting.com/wp-content/uploads/2013/07/81561039193975.kMkIQ2GifZjDN654rXni_height640.png 640w, https://reclaimhosting.com/wp-content/uploads/2013/07/81561039193975.kMkIQ2GifZjDN654rXni_height640-620x161.png 620w, https://reclaimhosting.com/wp-content/uploads/2013/07/81561039193975.kMkIQ2GifZjDN654rXni_height640-450x117.png 450w" sizes="(max-width: 640px) 100vw, 640px" /></a></div><div data-avia-tooltip="Rutgers Unviersity" class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-20 slide-parity-even  av_one_third  real-thumbnail'><a href='https://rutgers-sci.domains' data-rel='slide-1' class='slide-image' title=''  ><img  itemprop="contentURL"  width="640" height="297" src="https://reclaimhosting.com/wp-content/uploads/2013/07/81561039193983.SjiV2dPWWtFF2agCaWur_height640.png" class="attachment-featured size-featured" alt="" srcset="https://reclaimhosting.com/wp-content/uploads/2013/07/81561039193983.SjiV2dPWWtFF2agCaWur_height640.png 640w, https://reclaimhosting.com/wp-content/uploads/2013/07/81561039193983.SjiV2dPWWtFF2agCaWur_height640-620x288.png 620w, https://reclaimhosting.com/wp-content/uploads/2013/07/81561039193983.SjiV2dPWWtFF2agCaWur_height640-450x209.png 450w" sizes="(max-width: 640px) 100vw, 640px" /></a></div><div data-avia-tooltip="Grinnell College" class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-21 slide-parity-odd  av_one_third  real-thumbnail'><a href='http://sites.grinnell.edu/' data-rel='slide-1' class='slide-image' title=''  ><img  itemprop="contentURL"  width="180" height="192" src="https://reclaimhosting.com/wp-content/uploads/2013/07/imgres-e1455096336931.jpg" class="attachment-featured size-featured" alt="" /></a></div></div><div class='slide-entry-wrap'  itemscope="itemscope" itemtype="https://schema.org/ImageObject" ><div data-avia-tooltip="University of the Pacific" class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-22 slide-parity-odd  av_one_third first real-thumbnail'><a href='http://tigerdomains.pacific.edu/' data-rel='slide-1' class='slide-image' title=''  ><img  itemprop="contentURL"  width="150" height="150" src="https://reclaimhosting.com/wp-content/uploads/2016/02/uofpacific.png" class="attachment-featured size-featured" alt="" srcset="https://reclaimhosting.com/wp-content/uploads/2016/02/uofpacific.png 150w, https://reclaimhosting.com/wp-content/uploads/2016/02/uofpacific-80x80.png 80w, https://reclaimhosting.com/wp-content/uploads/2016/02/uofpacific-36x36.png 36w, https://reclaimhosting.com/wp-content/uploads/2016/02/uofpacific-120x120.png 120w" sizes="(max-width: 150px) 100vw, 150px" /></a></div><div data-avia-tooltip="Minerva Schools at KGI" class='slide-entry flex_column no_margin post-entry slide-entry-overview slide-loop-23 slide-parity-even  post-entry-last  av_one_third  real-thumbnail'><a href='http://minerva.community/' data-rel='slide-1' class='slide-image' title=''  ><img  itemprop="contentURL"  width="394" height="128" src="https://reclaimhosting.com/wp-content/uploads/2013/07/81561039193985.FD0HQ6L8MTNXHhnULXPs_height640.png" class="attachment-featured size-featured" alt="" /></a></div></div></div></div>
+</div></div></div><!-- close content main div --> <!-- section close by builder template -->		</div><!--end builder template--></div><!-- close default .container_wrap element -->						<div class='container_wrap footer_color' id='footer'>
+
+					<div class='container'>
+
+						<div class='flex_column av_one_fourth  first el_before_av_one_fourth'><section id="text-4" class="widget clearfix widget_text"><h3 class="widgettitle">Reclaim Hosting</h3>			<div class="textwidget">Founded in 2013, Reclaim Hosting provides hosting support for individuals and institutions that want to build out spaces online for personal portfolios, digital projects, and more.</div>
+		<span class="seperator extralight-border"></span></section></div><div class='flex_column av_one_fourth  el_after_av_one_fourth  el_before_av_one_fourth '><section id="nav_menu-2" class="widget clearfix widget_nav_menu"><h3 class="widgettitle">Quick Menu</h3><div class="menu-default-container"><ul id="menu-default" class="menu"><li id="menu-item-655" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-655"><a href="#">Products</a>
+<ul class="sub-menu">
+	<li id="menu-item-658" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-658"><a href="https://reclaimhosting.com/shared-hosting/">Shared Hosting</a></li>
+	<li id="menu-item-657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-657"><a href="https://reclaimhosting.com/managed-software-hosting/">Managed Software Hosting</a></li>
+	<li id="menu-item-659" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-659"><a href="https://reclaimhosting.com/domain-of-ones-own/">Domain of One&#8217;s Own</a></li>
+</ul>
+</li>
+<li id="menu-item-259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-259"><a href="https://reclaimhosting.com/about/">About Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-429" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-429"><a href="https://reclaimhosting.com/faq/">FAQ</a></li>
+	<li id="menu-item-31423" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31423"><a href="https://reclaimhosting.com/migrations/">Migration Assistance</a></li>
+	<li id="menu-item-430" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-430"><a href="https://reclaimhosting.com/refund-policy/">Refund Policy</a></li>
+	<li id="menu-item-431" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-431"><a href="https://reclaimhosting.com/privacy-policy/">Privacy Policy</a></li>
+	<li id="menu-item-393" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-393"><a href="https://reclaimhosting.com/what-people-are-saying/">What People are Saying</a></li>
+</ul>
+</li>
+<li id="menu-item-9449" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9449"><a href="https://community.reclaimhosting.com">Community Forums</a></li>
+<li id="menu-item-258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-258"><a href="https://reclaimhosting.com/blog/">Blog</a></li>
+<li id="menu-item-331" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-331"><a href="https://portal.reclaimhosting.com/contact.php">Contact Us</a></li>
+</ul></div><span class="seperator extralight-border"></span></section></div><div class='flex_column av_one_fourth  el_after_av_one_fourth  el_before_av_one_fourth '><section id="avia_socialcount-2" class="widget clearfix avia_socialcount"><a href='http://twitter.com/reclaimhosting/' class='asc_twitter asc_multi_count'><span class='social_widget_icon' aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'></span><strong class='asc_count'>Follow</strong><span>on Twitter</span></a><a href='/feed' class='asc_rss asc_multi_count'><span class='social_widget_icon' aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'></span><strong class='asc_count'>Subscribe</strong><span>to RSS Feed</span></a><span class="seperator extralight-border"></span></section></div><div class='flex_column av_one_fourth  el_after_av_one_fourth  el_before_av_one_fourth '><section id="newsbox-2" class="widget clearfix newsbox"><h3 class="widgettitle">Latest News</h3><ul class="news-wrap image_size_widget"><li class="news-content post-format-standard"><a class='news-link' title='We Like to Wear Hats: Overview of Projects' href='https://labrumfield.com/we-like-to-wear-hats-overview-of-projects/'><span class='news-thumb no-news-thumb'></span><strong class='news-headline'>We Like to Wear Hats: Overview of Projects<span class='news-time'>May 18, 2017 - 1:35 pm</span></strong></a></li><li class="news-content post-format-standard"><a class='news-link' title='Make Some Noise' href='https://bavatuesdays.com/make-some-noise/'><span class='news-thumb no-news-thumb'></span><strong class='news-headline'>Make Some Noise<span class='news-time'>May 5, 2017 - 9:19 am</span></strong></a></li><li class="news-content post-format-standard"><a class='news-link' title='CoWork Conference Room' href='https://labrumfield.com/cowork-conference-room/'><span class='news-thumb no-news-thumb'></span><strong class='news-headline'>CoWork Conference Room<span class='news-time'>May 3, 2017 - 1:46 pm</span></strong></a></li></ul><span class="seperator extralight-border"></span></section></div>
+
+					</div>
+
+
+				<!-- ####### END FOOTER CONTAINER ####### -->
+				</div>
+
+	
+
+
+			
+
+			
+				<footer class='container_wrap socket_color' id='socket'  role="contentinfo" itemscope="itemscope" itemtype="https://schema.org/WPFooter" >
+                    <div class='container'>
+
+                        <span class='copyright'>&copy; 2015 Reclaim Hosting L.L.C. </span>
+
+                        <nav class='sub_menu_socket'  role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" ><div class="avia3-menu"><ul id="avia3-menu" class="menu"><li id="menu-item-315" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-1"><a href="https://reclaimhosting.com/faq/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">FAQ</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li id="menu-item-313" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-2"><a href="https://reclaimhosting.com/refund-policy/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Refund Policy</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li id="menu-item-314" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-3"><a href="https://reclaimhosting.com/privacy-policy/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Privacy Policy</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li id="menu-item-31545" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-4"><a href="https://reclaimhosting.com/legal/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Legal</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+</ul></div></nav>
+                    </div>
+
+	            <!-- ####### END SOCKET CONTAINER ####### -->
+				</footer>
+
+
+					<!-- end main -->
+		</div>
+		
+		<!-- end wrap_all --></div>
+
+<img alt='css.php' src="https://reclaimhosting.com/wp-content/plugins/cookies-for-comments/css.php?k=173e17a719d283cd175c581519718d92&amp;o=i&amp;t=698007776" width='1' height='1' />
+ <script type='text/javascript'>
+ /* <![CDATA[ */  
+var avia_framework_globals = avia_framework_globals || {};
+    avia_framework_globals.frameworkUrl = 'https://reclaimhosting.com/wp-content/themes/enfold/framework/';
+    avia_framework_globals.installedAt = 'https://reclaimhosting.com/wp-content/themes/enfold/';
+    avia_framework_globals.ajaxurl = 'https://reclaimhosting.com/wp-admin/admin-ajax.php';
+/* ]]> */ 
+</script>
+ 
+ <script type='text/javascript' src='https://reclaimhosting.com/wp-content/themes/enfold/js/avia.js?ver=3'></script>
+<script type='text/javascript' src='https://reclaimhosting.com/wp-content/themes/enfold/js/shortcodes.js?ver=3'></script>
+<script type='text/javascript' src='https://reclaimhosting.com/wp-content/themes/enfold/js/aviapopup/jquery.magnific-popup.min.js?ver=2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Download File":"Download File","Download Video":"Download Video","Play":"Play","Pause":"Pause","Captions\/Subtitles":"Captions\/Subtitles","None":"None","Time Slider":"Time Slider","Skip back %1 seconds":"Skip back %1 seconds","Video Player":"Video Player","Audio Player":"Audio Player","Volume Slider":"Volume Slider","Mute Toggle":"Mute Toggle","Unmute":"Unmute","Mute":"Mute","Use Up\/Down Arrow keys to increase or decrease volume.":"Use Up\/Down Arrow keys to increase or decrease volume.","Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds."}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://reclaimhosting.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.22.0'></script>
+<script type='text/javascript' src='https://reclaimhosting.com/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=a4401d5a52b3b2ef7c982aeacc7b88aa'></script>
+<script type='text/javascript' src='https://reclaimhosting.com/wp-includes/js/comment-reply.min.js?ver=a4401d5a52b3b2ef7c982aeacc7b88aa'></script>
+<script type='text/javascript' src='https://reclaimhosting.com/wp-includes/js/wp-embed.min.js?ver=a4401d5a52b3b2ef7c982aeacc7b88aa'></script>
+<a href='#top' title='Scroll to top' id='scroll-top-link' aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'><span class="avia_hidden_link_text">Scroll to top</span></a>
+
+<div id="fb-root"></div>
+</body>
+</html>

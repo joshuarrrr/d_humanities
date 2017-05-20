@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+		<link rel="pingback" href="http://scottbot.net/xmlrpc.php">
+		<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>Topic Modeling for Humanists: A Guided Tour &#8211; the scottbot irregular</title>
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//s.gravatar.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="the scottbot irregular &raquo; Feed" href="http://scottbot.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="the scottbot irregular &raquo; Comments Feed" href="http://scottbot.net/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="the scottbot irregular &raquo; Topic Modeling for Humanists: A Guided Tour Comments Feed" href="http://scottbot.net/topic-modeling-for-humanists-a-guided-tour/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/scottbot.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='twentysixteen-jetpack-css'  href='http://scottbot.net/wp-content/plugins/jetpack/modules/theme-tools/compat/twentysixteen.css?ver=4.9' type='text/css' media='all' />
+<link rel='stylesheet' id='twentysixteen-fonts-css'  href='https://fonts.googleapis.com/css?family=Merriweather%3A400%2C700%2C900%2C400italic%2C700italic%2C900italic%7CMontserrat%3A400%2C700%7CInconsolata%3A400&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://scottbot.net/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='twentysixteen-style-css'  href='http://scottbot.net/wp-content/themes/twentysixteen/style.css?ver=4.7.5' type='text/css' media='all' />
+<style id='twentysixteen-style-inline-css' type='text/css'>
+
+		/* Custom Link Color */
+		.menu-toggle:hover,
+		.menu-toggle:focus,
+		a,
+		.main-navigation a:hover,
+		.main-navigation a:focus,
+		.dropdown-toggle:hover,
+		.dropdown-toggle:focus,
+		.social-navigation a:hover:before,
+		.social-navigation a:focus:before,
+		.post-navigation a:hover .post-title,
+		.post-navigation a:focus .post-title,
+		.tagcloud a:hover,
+		.tagcloud a:focus,
+		.site-branding .site-title a:hover,
+		.site-branding .site-title a:focus,
+		.entry-title a:hover,
+		.entry-title a:focus,
+		.entry-footer a:hover,
+		.entry-footer a:focus,
+		.comment-metadata a:hover,
+		.comment-metadata a:focus,
+		.pingback .comment-edit-link:hover,
+		.pingback .comment-edit-link:focus,
+		.comment-reply-link,
+		.comment-reply-link:hover,
+		.comment-reply-link:focus,
+		.required,
+		.site-info a:hover,
+		.site-info a:focus {
+			color: #dd8500;
+		}
+
+		mark,
+		ins,
+		button:hover,
+		button:focus,
+		input[type="button"]:hover,
+		input[type="button"]:focus,
+		input[type="reset"]:hover,
+		input[type="reset"]:focus,
+		input[type="submit"]:hover,
+		input[type="submit"]:focus,
+		.pagination .prev:hover,
+		.pagination .prev:focus,
+		.pagination .next:hover,
+		.pagination .next:focus,
+		.widget_calendar tbody a,
+		.page-links a:hover,
+		.page-links a:focus {
+			background-color: #dd8500;
+		}
+
+		input[type="date"]:focus,
+		input[type="time"]:focus,
+		input[type="datetime-local"]:focus,
+		input[type="week"]:focus,
+		input[type="month"]:focus,
+		input[type="text"]:focus,
+		input[type="email"]:focus,
+		input[type="url"]:focus,
+		input[type="password"]:focus,
+		input[type="search"]:focus,
+		input[type="tel"]:focus,
+		input[type="number"]:focus,
+		textarea:focus,
+		.tagcloud a:hover,
+		.tagcloud a:focus,
+		.menu-toggle:hover,
+		.menu-toggle:focus {
+			border-color: #dd8500;
+		}
+
+		@media screen and (min-width: 56.875em) {
+			.main-navigation li:hover > a,
+			.main-navigation li.focus > a {
+				color: #dd8500;
+			}
+		}
+	
+</style>
+<!--[if lt IE 10]>
+<link rel='stylesheet' id='twentysixteen-ie-css'  href='http://scottbot.net/wp-content/themes/twentysixteen/css/ie.css?ver=20160816' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentysixteen-ie8-css'  href='http://scottbot.net/wp-content/themes/twentysixteen/css/ie8.css?ver=20160816' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='twentysixteen-ie7-css'  href='http://scottbot.net/wp-content/themes/twentysixteen/css/ie7.css?ver=20160816' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='social-logos-css'  href='http://scottbot.net/wp-content/plugins/jetpack/_inc/social-logos/social-logos.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='http://scottbot.net/wp-content/plugins/jetpack/css/jetpack.css?ver=4.9' type='text/css' media='all' />
+<script type='text/javascript' src='http://scottbot.net/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://scottbot.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var related_posts_js_options = {"post_heading":"h4"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://scottbot.net/wp-content/plugins/jetpack/modules/related-posts/related-posts.js?ver=20150408'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='http://scottbot.net/wp-content/themes/twentysixteen/js/html5.js?ver=3.7.3'></script>
+<![endif]-->
+<link rel='https://api.w.org/' href='http://scottbot.net/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://scottbot.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://scottbot.net/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Networks Demystified 3: The Power Law Rant' href='http://scottbot.net/networks-demystified-3-the-power-law-rant/' />
+<link rel='next' title='Another Step in Keeping Pledges' href='http://scottbot.net/another-step-in-keeping-pledges/' />
+<meta name="generator" content="WordPress 4.7.5" />
+<link rel="canonical" href="http://scottbot.net/topic-modeling-for-humanists-a-guided-tour/" />
+<link rel='shortlink' href='http://wp.me/p7mQ6O-4Yh' />
+<link rel="alternate" type="application/json+oembed" href="http://scottbot.net/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fscottbot.net%2Ftopic-modeling-for-humanists-a-guided-tour%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://scottbot.net/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fscottbot.net%2Ftopic-modeling-for-humanists-a-guided-tour%2F&#038;format=xml" />
+
+<link rel='dns-prefetch' href='//v0.wordpress.com'>
+<link rel='dns-prefetch' href='//i0.wp.com'>
+<link rel='dns-prefetch' href='//i1.wp.com'>
+<link rel='dns-prefetch' href='//i2.wp.com'>
+<link rel='dns-prefetch' href='//jetpack.wordpress.com'>
+<link rel='dns-prefetch' href='//s0.wp.com'>
+<link rel='dns-prefetch' href='//s1.wp.com'>
+<link rel='dns-prefetch' href='//s2.wp.com'>
+<link rel='dns-prefetch' href='//public-api.wordpress.com'>
+<link rel='dns-prefetch' href='//0.gravatar.com'>
+<link rel='dns-prefetch' href='//1.gravatar.com'>
+<link rel='dns-prefetch' href='//2.gravatar.com'>
+<style type='text/css'>img#wpstats{display:none}</style>		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #422600; }
+</style>
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Topic Modeling for Humanists: A Guided Tour" />
+<meta property="og:url" content="http://scottbot.net/topic-modeling-for-humanists-a-guided-tour/" />
+<meta property="og:description" content="It&#8217;s that time again! Somebody else posted a really clear and enlightening description of topic modeling on the internet. This time it was Allen Riddell, and it&#8217;s so good that it inspir…" />
+<meta property="article:published_time" content="2012-07-25T17:23:34+00:00" />
+<meta property="article:modified_time" content="2012-07-25T17:23:34+00:00" />
+<meta property="og:site_name" content="the scottbot irregular" />
+<meta property="og:image" content="http://www.scottbot.net/HIAL/wp-content/uploads/2011/11/weak_topic_paper.png" />
+<meta name="twitter:card" content="summary" />
+</head>
+
+<body class="post-template-default single single-post postid-19113 single-format-standard custom-background">
+<div id="page" class="site">
+	<div class="site-inner">
+		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		<header id="masthead" class="site-header" role="banner">
+			<div class="site-header-main">
+				<div class="site-branding">
+					
+											<p class="site-title"><a href="http://scottbot.net/" rel="home">the scottbot irregular</a></p>
+											<p class="site-description">data are everywhen</p>
+									</div><!-- .site-branding -->
+
+									<button id="menu-toggle" class="menu-toggle">Menu</button>
+
+					<div id="site-header-menu" class="site-header-menu">
+													<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Primary Menu">
+								<div class="menu-top-menu-container"><ul id="menu-top-menu" class="primary-menu"><li id="menu-item-41548" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41548"><a href="http://scottbot.net/i-am/">i am</a></li>
+<li id="menu-item-41546" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41546"><a href="http://scottbot.net/pledges/">pledges</a></li>
+<li id="menu-item-41670" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41670"><a href="http://scottbot.net/dh-quantified/">dh quantified</a></li>
+<li id="menu-item-41543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41543"><a href="http://scottbot.net/hired-gun/">hired gun</a></li>
+<li id="menu-item-41547" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41547"><a href="http://scottbot.net/curated-syllabi/">curated syllabi</a></li>
+<li id="menu-item-41544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41544"><a href="http://scottbot.net/knowledge/">knowledge diagrams</a></li>
+<li id="menu-item-41545" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41545"><a href="http://scottbot.net/curriculum-vitae/">curriculum vitae</a></li>
+</ul></div>							</nav><!-- .main-navigation -->
+						
+											</div><!-- .site-header-menu -->
+							</div><!-- .site-header-main -->
+
+					</header><!-- .site-header -->
+
+		<div id="content" class="site-content">
+
+<div id="primary" class="content-area">
+	<main id="main" class="site-main" role="main">
+		
+<article id="post-19113" class="post-19113 post type-post status-publish format-standard hentry category-method tag-digital-humanities tag-methodologies tag-text-analysis tag-topic-modeling">
+	<header class="entry-header">
+		<h1 class="entry-title">Topic Modeling for Humanists: A Guided Tour</h1>	</header><!-- .entry-header -->
+
+	
+	
+	<div class="entry-content">
+		<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Focoins.info%3Agenerator&amp;rft.type=&amp;rft.format=text&amp;rft.title=Topic+Modeling+for+Humanists%3A+A+Guided+Tour&amp;rft.source=the+scottbot+irregular&amp;rft.date=2012-07-25&amp;rft.identifier=http%3A%2F%2Fscottbot.net%2Ftopic-modeling-for-humanists-a-guided-tour%2F&amp;rft.language=English&amp;rft.subject=method&amp;rft.au=scott+b.+weingart"></span><p>It&#8217;s that time again! Somebody else posted a <a href="https://ariddell.org/simple-topic-model.html">really clear and enlightening description of topic modeling</a> on the internet. This time it was Allen Riddell, and it&#8217;s so good that it inspired me to write this post about topic modeling that includes no actual new information, but combines a lot of old information in a way that will hopefully be useful. If there&#8217;s anything I&#8217;ve missed, by all means let me know and I&#8217;ll update accordingly.</p>
+<h1>Introducing Topic Modeling</h1>
+<p>Topic models represent a class of computer programs that automagically extracts topics from texts. What a topic actually <em>is</em> will be revealed shortly, but the crux of the matter is that if I feed the computer, say, the last few speeches of President Barack Obama, it&#8217;ll come back telling me that the president mainly talks about the economy, jobs, the Middle East, the upcoming election, and so forth. It&#8217;s a fairly clever and exceptionally versatile little algorithm that can be customized to all sorts of applications, and a tool that many digital humanists would do well to have in their toolbox.</p>
+<p>From the outset it&#8217;s worth clarifying some vocabulary, and mentioning what topic models can and cannot do. &#8220;LDA&#8221; and &#8220;Topic Model&#8221; are often thrown around synonymously, but <a href="http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation">LDA is actually a special case of topic modeling in general produced by David Blei and friends  in 2002</a>. It was not the first topic modeling tool, but is by far the most popular, and has enjoyed copious extensions and revisions in the years since. The myriad variations of topic modeling have resulted in an alphabet soup of names that might be confusing or overwhelming to the uninitiated; ignore them for now. They all pretty much work the same way.</p>
+<p>When you run your text through a standard topic modeling tool, what comes out the other end first is several lists of words. Each of these lists is supposed to be a &#8220;topic.&#8221; Using the example from before of presidential addresses, the list might look like:</p>
+<ol>
+<li>Job Jobs Loss Unemployment Growth</li>
+<li>Economy Sector Economics Stock Banks</li>
+<li>Afghanistan War  Troops Middle-East Taliban Terror</li>
+<li>Election Romney Upcoming President</li>
+<li>&#8230; etc.</li>
+</ol>
+<p>The computer gets a bunch of texts and spits out several lists of words, and we are meant to think those lists represent the relevant &#8220;topics&#8221; of a corpus. The algorithm is constrained by the words used in the text; if Freudian psychoanalysis is your thing, and you feed the algorithm a transcription of your dream of bear-fights and big caves, the algorithm will tell you nothing about your father and your mother; it&#8217;ll only tell you things about bears and caves. It&#8217;s all text and no subtext. Ultimately, LDA is an attempt to inject semantic meaning into vocabulary; it&#8217;s a bridge, and often a helpful one. Many <a href="http://www.scottbot.net/HIAL/?p=16713">dangers face those who use this bridge without fully understanding it</a>, which is exactly what the rest of this post will help you avoid.</p>
+<figure id="attachment_237" style="width: 1485px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.scottbot.net/HIAL/wp-content/uploads/2011/11/weak_topic_paper.png"><img class="size-full wp-image-237" title="Topic-Paper Similarity" src="https://i0.wp.com/www.scottbot.net/HIAL/wp-content/uploads/2011/11/weak_topic_paper.png?resize=840%2C576" alt="" data-recalc-dims="1" /></a><figcaption class="wp-caption-text">Network generated by <a href="https://dhs.stanford.edu/comprehending-the-digital-humanities/">Elijah Meeks</a> to show how digital humanities documents relate to one another via the topics they share.</figcaption></figure>
+<h1>Learning About Topic Modeling</h1>
+<p>The pathways to topic modeling are many and more, and those with different backgrounds and different expertise will start at different places. This guide is for those who&#8217;ve started out in traditional humanities disciplines and have little background in programming or statistics, although the path becomes more strenuous as we get closer Blei&#8217;s original paper on LDA (as that is our goal.) I will try to point to relevant training assistance where appropriate. A lot of the following posts repeat information, but there are often little gems in each which make them all worth reading.</p>
+<h2>No Experience Necessary</h2>
+<p>The following posts, read in order, should be completely understandable to pretty much everyone.</p>
+<h3>The Fable</h3>
+<p>Perhaps the most interesting place to start is <a href="http://www.matthewjockers.net/2011/09/29/the-lda-buffet-is-now-open-or-latent-dirichlet-allocation-for-english-majors/">the stylized account of topic modeling by Matt Jockers</a>, who weaves a tale of authors sitting around the LDA buffet, taking from it topics with which to write their novels. According to Jockers, the story begins in a quaint town, . . .</p>
+<blockquote><p><em>somewhere in New England perhaps. The town is a writer’s retreat, a place they come in the summer months to seek inspiration. Melville is there, Hemingway, Joyce, and Jane Austen just fresh from across the pond. In this mythical town there is spot popular among the inhabitants; it is a little place called the “LDA Buffet.” Sooner or later all the writers go there to find themes for their novels. . .</em></p></blockquote>
+<p>The blog post is a fun read, and gets at the general idea behind the process of a topic model without delving into any of the math involved. Start here if you are a humanist who&#8217;s never had the chance to interact with topic models.</p>
+<h3>A Short Overview</h3>
+<p><a href="http://mith.umd.edu/topic-modeling-in-the-humanities-an-overview/">Clay Templeton over at MITH wrote a short, less-stylized overview of topic modeling</a> which does a good job discussing the trio of issues currently of importance: the process of the model, the software itself, and applications in the humanities.</p>
+<blockquote><p>In this post I map out a basic genealogy of topic modeling in the humanities, from the highly cited paper that first articulated Latent Dirichlet Allocation (LDA) to recent work at MITH.</p></blockquote>
+<p>Templeton&#8217;s piece is concise, to the point, and offers good examples of topic models used for applications you&#8217;ll actually care about. It won&#8217;t tell you any more about the process of topic modeling than Jockers&#8217; article did, but it&#8217;ll get you further into the world of topic modeling as it is applied in the humanities.</p>
+<h3>An Example: The American Political Science Review</h3>
+<p>Now that you know the basics of what a topic model actually is, perhaps the best thing is to look at an actual example to ground these abstract concepts. David Blei&#8217;s team shoved all of the journal articles from <em>The American Political Science </em><em>Review</em> into a topic model, <a href="http://topics.cs.princeton.edu/polisci-review/">resulting in a list of 20 topics</a> that represent the content of that journal. Click around on the page; when you click one of the topics, it sends you to a page listing many of the words in that topic, and many of the documents associated with it. When you click on one of the document titles, you&#8217;ll get a list of topics related to that document, as well as a list of other documents that share similar topics.</p>
+<p>This page is indicative of the sort of output topic modeling will yield on a corpus. It is a simple and powerful tool, but notice that none of the automated topics have labels associated with them. The model requires us to make meaning out of them, they require interpretation, and without fully understanding the underlying algorithm, one cannot hope to properly interpret the results.</p>
+<h3>First Foray into Formal Description</h3>
+<p>Written by yours truly, <a href="http://www.scottbot.net/HIAL/?p=221">this next description of topic modeling</a> begins to get into the formal process the computer goes through to create the topic model, rather than simply the conceptual process behind it. The blog post begins with a discussion of the predecessors to LDA in an attempt to show a simplified version of how LDA works, and then uses those examples to show what LDA does differently. There&#8217;s no math or programming, but the post does attempt to bring up relevant vocabulary and define them in terms familiar to those without programming experiencing.</p>
+<blockquote><p>With this matrix, LSA uses <a href="http://en.wikipedia.org/wiki/Singular_value_decomposition">singular value decomposition</a> to figure out how each word is related to every other word. Basically, the more often words are used together within a document, the more related they are to one another. It’s worth noting that a “document” is defined somewhat flexibly. For example, we can call every paragraph in a book its own “document,” and run LSA over the individual paragraphs.</p></blockquote>
+<p>Only the first half of this post is relevant to our topic modeling guided tour. The second half, a section on topic modeling and network analysis, discusses various extended uses that are best left for later.</p>
+<h3>Computational Process</h3>
+<p>Ted Underwood provides the <a href="http://tedunderwood.wordpress.com/2012/04/07/topic-modeling-made-just-simple-enough/">next step in understanding what the computer goes through</a> when topic modeling a text.</p>
+<blockquote><p>. . . it’s a long step up from those posts to the computer-science articles that explain “Latent Dirichlet Allocation” mathematically. My goal in this post is to provide a bridge between those two levels of difficulty.</p>
+<p>Computer scientists make LDA seem complicated because they care about proving that their algorithms work. And the proof is indeed brain-squashingly hard. But the <em>practice</em> of topic modeling makes good sense on its own, without proof, and does not require you to spend even a second thinking about “Dirichlet distributions.” When the math is approached in a practical way, I think humanists will find it easy, intuitive, and empowering. This post focuses on LDA as shorthand for a broader family of “probabilistic” techniques. I’m going to ask how they work, what they’re for, and what their limits are.</p></blockquote>
+<p>His is the first post that talks in any detail about the iterative process going into algorithms like LDA, as well as some of the assumptions those algorithms make. He also shows the first formula appearing in this guided tour, although those uncomfortable with formulas need not fret. The formula is not essential to understanding the post, but for those curious, later posts will explicate it. And really, Underwood does a great job of explaining a bit about it there.</p>
+<p>Be sure to read to the very end of the post. It discusses some of the important limitations of topic modeling, and trepidations that humanists would be wise to heed.  He also recommends reading Blei&#8217;s recent article on Probabilistic Topic Models, which will be coming up shortly in this tour.</p>
+<h3>Computational Process From Another Angle</h3>
+<p>It may not matter whether you read this or the last article by Underwood first; they&#8217;re both first passes to what the computer goes through to generate topics, and they explain the process in slightly different ways. The highlight of <a href="http://blog.echen.me/2011/08/22/introduction-to-latent-dirichlet-allocation/">Edwin Chen&#8217;s blog post</a> is his section on &#8220;Learning,&#8221; followed a section expanding that concept.</p>
+<blockquote><p>And for each topic t, compute two things: 1) p(topic t | document d) = the proportion of words in document d that are currently assigned to topic t, and 2) p(word w | topic t) = the proportion of assignments to topic t over all documents that come from this word w. Reassign w a new topic, where we choose topic t with probability p(topic t | document d) * p(word w | topic t) (according to our generative model, this is essentially the probability that topic t generated word w, so it makes sense that we resample the current word’s topic with this probability).</p></blockquote>
+<p>This post both explains the meaning of these statistical notations, and tries to actually step the reader through the process using a metaphor as an example, a bit like Jockers&#8217; post from earlier but more closely resembling what the computer is going through. It&#8217;s also worth reading through the comments on this post if there are parts that are difficult to understand.</p>
+<p>This ends the list of articles and posts that require pretty much no prior knowledge. Reading all of these should give you a great overview of topic modeling, but you should by no means stop here. The following section requires a very little bit of familiarity with statistical notation, most of which can be found at <a href="http://en.wikipedia.org/wiki/Bayes'_theorem">this Wikipedia article on Bayesian Statistics</a>.</p>
+<h2>Some Experience Required</h2>
+<p>Not much experience! You can even probably ignore most of the formulae in these posts and still get quite a great deal out of them. Still, you&#8217;ll get the most out of the following articles if you can read signs related to probability and summation, both of which are fairly easy to look up on Wikipedia. The dirty little secret of most papers that include statistics is that you don&#8217;t actually need to understand all of the formulae to get the gist of the article. If you want to <em> fully</em> understand everything below, however, I&#8217;d highly suggest taking an introductory course or reading a textbook on Bayesian statistics. I second Allen Riddell in suggesting Hoff&#8217;s <em>A First Course in Bayesian Statistical Methods</em> (2009), Kruschke&#8217;s <em>Doing Bayesian Data Analysis</em> (2010), or Lee&#8217;s <em>Bayesian Statistics: An Introduction </em>(2004). My own favorite is Kruschke&#8217;s; there are puppies on the cover.</p>
+<h3>Return to Blei</h3>
+<p>David Blei co-wrote the original LDA article, and his descriptions are always informative. He recently published a <a href="http://www.cs.princeton.edu/~blei/papers/Blei2012.pdf">great introduction to probabilistic topic models</a> for those not terribly familiar with it, and although it has a few formulae, it is the fullest computational description of the algorithm, gives a brief overview of Bayesian statistics, and provides a great framework with which to read the following posts in this series. Of particular interest are the sections on &#8220;LDA and Probabilistic Models&#8221; and &#8220;Posterior Computation for LDA.&#8221;</p>
+<blockquote><p>LDA and other topic models are part of the larger field of <em>probabilistic modeling</em>. In generative probabilistic modeling, we treat our data as arising from a generative process that includes <em>hidden variables</em>. This generative process defines a <em>joint probability distribution</em> over both the observed and hidden random variables. We perform data analysis by using that joint distribution to compute the <em>conditional distribution</em> of the hidden variables given the observed variables. This conditional distribution is also called the <em>posterior distribution</em>.</p></blockquote>
+<p>Really, read this first. Even if you don&#8217;t understand all of it, it will make the following reads easier to understand.</p>
+<h3>Back to Basics</h3>
+<p>The post that inspired this one, by Allen Riddell, <a href="https://ariddell.org/simple-topic-model.html">explains the <em>mixture of unigrams</em> model</a> rather than the LDA model, which allows Riddell to back up and explain some important concepts. The intended audience of the post is those with an introductory background in Bayesian statistics but it offers a lot even to those who do not have that. Of particular interest is the concrete example he uses, articles from German Studies journals, and how he actually walks you through the updating procedure of the algorithm as it infers topic and document distributions.</p>
+<blockquote><p>The second move swaps the position of our ignorance. Now we guess which documents are associated with which topics, making the assumption that we know both the makeup of each topic distribution and the overall prevalence of topics in the corpus. If we continue with our example from the previous paragraph, in which we had guessed that “literary” was more strongly associated with topic two than topic one, we would likely guess that the seventh article, with ten occurrences of the word “literary”, is probably associated with topic two rather than topic one (of course we will consider all the words, not just “literary”). This would change our topic assignment vector to z=(1,1,1,1,1,1,2,1,1,1,2,2,2,2,2,2,2,2,2,2). We take each article in turn and guess a new topic assignment (in many cases it will keep its existing assignment).</p></blockquote>
+<p>The last section, discussing the choice of number of topics, is not essential reading but is really useful for those who want to delve further.</p>
+<h3>Some Necessary Concepts in Text Mining</h3>
+<p>Both a case study and a helpful description, David Mimno&#8217;s <a href="http://www.perseus.tufts.edu/publications/02-jocch-mimno.pdf">recent article on Computational Historiography</a> from <em>ACM Transactions on Computational Logic</em> goes through a hundred years of Classics journals to learn something about the field (very similar Riddell&#8217;s article on German Studies). While the article should be read as a good example of topic modeling in the wild, of specific interest to this guide is his &#8220;Methods&#8221; section, which includes an important discussion about preparing text for this sort of analysis.</p>
+<blockquote><p>In order for computational methods to be applied to text collections, it is ﬁrst necessary to represent text in a way that is understandable to the computer. The fundamental unit of text is the word, which we here deﬁne as a sequence of (unicode) letter characters. It is important to distinguish two uses of word: a word type is a distinct sequence of characters, equivalent to a dictionary headword or lemma; while a word token is a speciﬁc instance of a word type in a document. For example, the string “dog cat dog” contains three tokens, but only two types (dog and cat).</p></blockquote>
+<p>What follows is a description of the primitive objects of a text analysis, and how to deal with variations in words, spelling, various languages, and so forth. Mimno also discusses smoothed distributions and word distance, both important concepts when dealing with these sorts of analyses.</p>
+<h3>Further Reading</h3>
+<p>By now, those who managed to get through all of this can probably understand most of <a href="http://jmlr.csail.mit.edu/papers/volume3/blei03a/blei03a.pdf">the original LDA paper by Blei, Ng, and Jordan</a> (most of it will be review!), but there&#8217;s a lot more out there than that original article. Mimno has a <a href="http://www.cs.princeton.edu/~mimno/topics.html">wonderful bibliography of topic modeling articles</a>, and they&#8217;re tagged by topic to make finding the right one for a particular application that much easier.</p>
+<h1>Applications: How To Actually Do This Yourself</h1>
+<p>David Blei&#8217;s website on topic modeling has a <a href="http://www.cs.princeton.edu/~blei/topicmodeling.html">list of available software</a>, as does a section of <a href="http://www.cs.princeton.edu/~mimno/topics.html">Mimno&#8217;s Bibliography</a>. Unfortunately, almost everything in those lists requires some knowledge of programming, and as yet I know of no <em>really </em><em>simple</em> implementation of topic modeling. There are a few implementations for humanists that are supposed to be released soon, but to my knowledge, at the time of this writing the simplest tool to run your text through is called <a href="http://mallet.cs.umass.edu/index.php">MALLET</a>.</p>
+<p>MALLET is a tool that does require a bit of comfort with the command-line, though it&#8217;s really just the same four commands or so over and over again. It&#8217;s a fairly simply software to run once you&#8217;ve gotten the hang of it, but that first part of the learning curve could be a bit more like a learning cliff.</p>
+<p>On their website, MALLET has a link called &#8220;Tutorial&#8221; &#8211; don&#8217;t click it. Instead, <a href="http://mallet.cs.umass.edu/download.php">after downloading and installing the software</a>, follow the directions on the &#8220;<a href="http://mallet.cs.umass.edu/import.php">Importing Data</a>&#8221; page. Then, follow the directions on the &#8220;<a href="http://mallet.cs.umass.edu/topics.php">Topic Modeling</a>&#8221; page. If you&#8217;re a Windows user, <a href="http://programminghistorian.org/lessons/topic-modeling-and-mallet">Shawn Graham, Ian Milligan, and I wrote a tutorial</a> on how to get it running when you run into a problem (and if this is your first time, you will), and it also includes directions for Macs. Unfortunately, a more detailed tutorial is beyond the scope of this tour, but between these links you&#8217;ve got a good chance of getting your first topic model up and running.</p>
+<h1>Examples in the DH World</h1>
+<p>There are a lot of examples of topic modeling out there, and here are some that I feel are representative of the various uses it can be put to. I&#8217;ve already mentioned <a href="http://www.perseus.tufts.edu/publications/02-jocch-mimno.pdf">David Mimno&#8217;s computational historiography of classics journals</a>, as well as <a href="http://ariddell.org/weblog/2012/07/18/german-studies-topic-model/">Allen Riddell&#8217;s similar study of German Studies publications</a>. Both papers are good examples of using topic modeling as a meta-analysis of a discipline. Turning the gaze towards our collective navels, Matt Jockers used LDA to find <a href="http://www.matthewjockers.net/2010/03/19/whos-your-dh-blog-mate-match-making-the-day-of-dh-bloggers-with-topic-modeling/">what&#8217;s hot in the Digital Humanities</a>, and Elijah Meeks has a <a href="https://dhs.stanford.edu/comprehending-the-digital-humanities/">great process piece</a> looking at topics in definitions of digital humanities and humanities computing.</p>
+<p>Lisa Rhody has an <a href="http://lisa.therhodys.net/2012/04/why-use-visualizations-to-study-poetry/">interesting exploratory topical analysis of poetry</a>, and Rob Nelson as well discusses (briefly) making an argument via <a href="http://dayofdh2012.artsrn.ualberta.ca/rnelson2/2012/03/27/poetry-and-topic-modeling/">topic modeling applied to poetry</a>, which he expands in <a href="http://opinionator.blogs.nytimes.com/2011/05/29/of-monsters-men-and-topic-modeling/">this New York Times blog post</a>. Continuing in the literary vein, Ted Underwood talks a bit about <a href="http://tedunderwood.wordpress.com/2012/04/01/what-kinds-of-topics-does-topic-modeling-actually-produce/">the relationship of words to topics</a>, as well as a curious find <a href="http://tedunderwood.wordpress.com/2012/03/25/a-touching-detail-produced-by-lda/">linking topic models and family relations</a>.</p>
+<p>One of the great and oft-cited examples of topic modeling in the humanities is Rob Nelson&#8217;s <a href="http://dsl.richmond.edu/dispatch/pages/home">Mining the <em>Dispatch</em></a>, which looks at the changing discussion during the American Civil War through an analysis of primary texts. Just as Nelson looks at changing topics in the news over time, so too does Newman and Block  in an <a href="http://www.ics.uci.edu/~newman/pubs/JASIST_Newman.pdf">analysis of eighteenth century newspapers</a>, as well as Yang, Torget, and Mihalcea in a <a href="http://www.aclweb.org/anthology/W/W11/W11-15.pdf#page=108">more general look at topic modeling and newspapers</a>. In another application using primary texts, Cameron Blevins uses MALLET to run an <a href="http://historying.org/2010/04/01/topic-modeling-martha-ballards-diary/">in-depth analysis of an eighteenth century diary</a>.</p>
+<h1>Future Directions</h1>
+<p>This is not actually another section of the post. This is your conscience telling you to go try topic modeling for yourself.</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-19113" class="share-twitter sd-button share-icon no-text" href="http://scottbot.net/topic-modeling-for-humanists-a-guided-tour/?share=twitter" target="_blank" title="Click to share on Twitter"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter (Opens in new window)</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-19113" class="share-facebook sd-button share-icon no-text" href="http://scottbot.net/topic-modeling-for-humanists-a-guided-tour/?share=facebook" target="_blank" title="Click to share on Facebook"><span></span><span class="sharing-screen-reader-text">Click to share on Facebook (Opens in new window)</span></a></li><li class="share-google-plus-1"><a rel="nofollow" data-shared="sharing-google-19113" class="share-google-plus-1 sd-button share-icon no-text" href="http://scottbot.net/topic-modeling-for-humanists-a-guided-tour/?share=google-plus-1" target="_blank" title="Click to share on Google+"><span></span><span class="sharing-screen-reader-text">Click to share on Google+ (Opens in new window)</span></a></li><li class="share-end"></li></ul></div></div></div>
+<div id='jp-relatedposts' class='jp-relatedposts' >
+	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+</div>	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<span class="byline"><span class="author vcard"><img alt='' src='http://0.gravatar.com/avatar/c2c3f37244ba2c8146a1ddfbaf9aa197?s=49&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/c2c3f37244ba2c8146a1ddfbaf9aa197?s=98&amp;d=mm&amp;r=g 2x' class='avatar avatar-49 photo' height='49' width='49' /><span class="screen-reader-text">Author </span> <a class="url fn n" href="http://scottbot.net/author/admin/">scott b. weingart</a></span></span><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="http://scottbot.net/topic-modeling-for-humanists-a-guided-tour/" rel="bookmark"><time class="entry-date published updated" datetime="2012-07-25T17:23:34+00:00">July 25, 2012</time></a></span><span class="cat-links"><span class="screen-reader-text">Categories </span><a href="http://scottbot.net/category/method/" rel="category tag">method</a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="http://scottbot.net/tag/digital-humanities/" rel="tag">digital humanities</a>, <a href="http://scottbot.net/tag/methodologies/" rel="tag">methodologies</a>, <a href="http://scottbot.net/tag/text-analysis/" rel="tag">text analysis</a>, <a href="http://scottbot.net/tag/topic-modeling/" rel="tag">topic modeling</a></span>			</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+<div id="comments" class="comments-area">
+
+			<h2 class="comments-title">
+			24 thoughts on &ldquo;Topic Modeling for Humanists: A Guided Tour&rdquo;		</h2>
+
+		
+		<ol class="comment-list">
+					<li id="comment-156" class="comment even thread-even depth-1">
+			<article id="div-comment-156" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='http://1.gravatar.com/avatar/4d5f9924eddf83f499c9c8017e0a5764?s=42&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/4d5f9924eddf83f499c9c8017e0a5764?s=84&amp;d=mm&amp;r=g 2x' class='avatar avatar-42 photo' height='42' width='42' />						<b class="fn"><a href='http://mininghumanities.com' rel='external nofollow' class='url'>Aditi Muralidharan</a></b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="http://scottbot.net/topic-modeling-for-humanists-a-guided-tour/#comment-156">
+							<time datetime="2012-07-26T16:27:05+00:00">
+								July 26, 2012 at 4:27 pm							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Scott! You write an excellent introduction to the subject. I&#8217;m linking to it from my blog, and pointing everyone who wants to get started in topic modeling to it from now.</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://scottbot.net/topic-modeling-for-humanists-a-guided-tour/?replytocom=156#respond' onclick='return addComment.moveForm( "div-comment-156", "156", "respond", "19113" )' aria-label='Reply to Aditi Muralidharan'>Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+		<li id="comment-157" class="pingback odd alt thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://mininghumanities.com/2010/07/23/tools-2-nlp/' rel='external nofollow' class='url'>Tools for Exploring Text: Natural Language Processing &laquo; Text Mining and the Digital Humanities</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-158" class="comment even thread-even depth-1">
+			<article id="div-comment-158" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='http://0.gravatar.com/avatar/9f65f3e4bab863af08ecfd62d3ddc6c1?s=42&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/9f65f3e4bab863af08ecfd62d3ddc6c1?s=84&amp;d=mm&amp;r=g 2x' class='avatar avatar-42 photo' height='42' width='42' />						<b class="fn"><a href='https://dhs.stanford.edu' rel='external nofollow' class='url'>Elijah Meeks</a></b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="http://scottbot.net/topic-modeling-for-humanists-a-guided-tour/#comment-158">
+							<time datetime="2012-07-26T23:18:08+00:00">
+								July 26, 2012 at 11:18 pm							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Aditi is right, this is really good, Scott, and required reading for anyone in DH.</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://scottbot.net/topic-modeling-for-humanists-a-guided-tour/?replytocom=158#respond' onclick='return addComment.moveForm( "div-comment-158", "158", "respond", "19113" )' aria-label='Reply to Elijah Meeks'>Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+		<li id="comment-159" class="comment odd alt thread-odd thread-alt depth-1">
+			<article id="div-comment-159" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='http://2.gravatar.com/avatar/5fe8f62bd571a372fdde444f376c4740?s=42&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/5fe8f62bd571a372fdde444f376c4740?s=84&amp;d=mm&amp;r=g 2x' class='avatar avatar-42 photo' height='42' width='42' />						<b class="fn">Rosvita Rauch</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="http://scottbot.net/topic-modeling-for-humanists-a-guided-tour/#comment-159">
+							<time datetime="2012-08-01T17:09:59+00:00">
+								August 1, 2012 at 5:09 pm							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Yes, thank you! This is a very useful overview. Rosvita</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://scottbot.net/topic-modeling-for-humanists-a-guided-tour/?replytocom=159#respond' onclick='return addComment.moveForm( "div-comment-159", "159", "respond", "19113" )' aria-label='Reply to Rosvita Rauch'>Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+		<li id="comment-160" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://lisa.therhodys.net/2012/08/some-assembly-required/' rel='external nofollow' class='url'>Some Assembly Required: Understanding and Interpreting Topics in LDA Models of Figurative Language | Lisa @ Work</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-161" class="pingback odd alt thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://socal2012.thatcamp.org/2012/09/05/text-mining-workshop/' rel='external nofollow' class='url'>Text Mining Workshop &#187; THATCamp Southern California 2012</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-162" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://kathycarbone.wordpress.com/2012/10/14/mcgann-weingart-and-forsythe/' rel='external nofollow' class='url'>McGann, Weingart, and Forsythe &laquo; Kathy Carbone&#039;s Digital Humanities Blog</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-163" class="pingback odd alt thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://www.fredgibbs.net/clio3workspace/blog/topic-modeling/' rel='external nofollow' class='url'>Topic Modeling: A Basic Introduction | clio 3 blog</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-164" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://digitalscholars.wordpress.com/2013/02/11/intro-to-topic-modeling/' rel='external nofollow' class='url'>Intro to Topic Modeling | FSU Digital Scholars</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-165" class="pingback odd alt thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://digitalpublichistory.wordpress.com/2013/03/02/are-we-entering-the-age-of-big-data/' rel='external nofollow' class='url'>Are We Entering The Age of Big Data? | Digital History</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-166" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://mblack.us/wp/2013/05/28/mozilla-study-the-curious-case-of-topic21/' rel='external nofollow' class='url'>Mozilla Study: The Curious Case of topic21 | Reverse Engineering</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-167" class="pingback odd alt thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://www.dmdh.org/2013/09/what-digital-humanists-do/' rel='external nofollow' class='url'>What Digital Humanists Do |</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-168" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://www.dmdh.org/2013/09/things-digital-humanists-do/' rel='external nofollow' class='url'>Things Digital Humanists Do |</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-169" class="comment odd alt thread-odd thread-alt depth-1">
+			<article id="div-comment-169" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='http://0.gravatar.com/avatar/6c6e53c16588430f386270938fbcb888?s=42&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/6c6e53c16588430f386270938fbcb888?s=84&amp;d=mm&amp;r=g 2x' class='avatar avatar-42 photo' height='42' width='42' />						<b class="fn">Dario</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="http://scottbot.net/topic-modeling-for-humanists-a-guided-tour/#comment-169">
+							<time datetime="2013-10-18T07:07:27+00:00">
+								October 18, 2013 at 7:07 am							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>&#8220;as yet I know of no really simple implementation of topic modeling.&#8221;<br />
+There is one software implementing topic modeling entirely on a GUI. However it is a commercial software, and for an educational license you need to get more than 600$ out of your pockets. The software is T-Lab (www.tlab.it/en), and among several other things it implements topic modeling using LDA and Gibbs.</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://scottbot.net/topic-modeling-for-humanists-a-guided-tour/?replytocom=169#respond' onclick='return addComment.moveForm( "div-comment-169", "169", "respond", "19113" )' aria-label='Reply to Dario'>Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+		<li id="comment-170" class="comment even thread-even depth-1">
+			<article id="div-comment-170" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='http://0.gravatar.com/avatar/6a8783ad33f0c21f3a6f80ba56aceeaa?s=42&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/6a8783ad33f0c21f3a6f80ba56aceeaa?s=84&amp;d=mm&amp;r=g 2x' class='avatar avatar-42 photo' height='42' width='42' />						<b class="fn">Lakshmi Murthy</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="http://scottbot.net/topic-modeling-for-humanists-a-guided-tour/#comment-170">
+							<time datetime="2013-12-17T05:36:42+00:00">
+								December 17, 2013 at 5:36 am							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>This is an excellent introduction to Topic Modeling. I am trying to use Topic Modeling for my project at NYU Stern and this article is a great starting point. Thank you.</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://scottbot.net/topic-modeling-for-humanists-a-guided-tour/?replytocom=170#respond' onclick='return addComment.moveForm( "div-comment-170", "170", "respond", "19113" )' aria-label='Reply to Lakshmi Murthy'>Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+		<li id="comment-171" class="comment odd alt thread-odd thread-alt depth-1">
+			<article id="div-comment-171" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='http://0.gravatar.com/avatar/34a20d70b2757446f73541212fde35b1?s=42&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/34a20d70b2757446f73541212fde35b1?s=84&amp;d=mm&amp;r=g 2x' class='avatar avatar-42 photo' height='42' width='42' />						<b class="fn">Pete</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="http://scottbot.net/topic-modeling-for-humanists-a-guided-tour/#comment-171">
+							<time datetime="2013-12-27T12:26:01+00:00">
+								December 27, 2013 at 12:26 pm							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>There&#8217;s also a nice implementation called &#8220;Gensim: topic modeling for humans&#8221;.</p>
+<p>It has lucid tutorials and uses the Python language (IMO the easiest language for tech novices).</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://scottbot.net/topic-modeling-for-humanists-a-guided-tour/?replytocom=171#respond' onclick='return addComment.moveForm( "div-comment-171", "171", "respond", "19113" )' aria-label='Reply to Pete'>Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+		<li id="comment-172" class="comment even thread-even depth-1">
+			<article id="div-comment-172" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='http://1.gravatar.com/avatar/7226d5c7f2e68992a03e5057932292ae?s=42&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/7226d5c7f2e68992a03e5057932292ae?s=84&amp;d=mm&amp;r=g 2x' class='avatar avatar-42 photo' height='42' width='42' />						<b class="fn"><a href='http://gravatar.com/csteelatgburg' rel='external nofollow' class='url'>csteelatgburg</a></b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="http://scottbot.net/topic-modeling-for-humanists-a-guided-tour/#comment-172">
+							<time datetime="2014-08-26T19:49:01+00:00">
+								August 26, 2014 at 7:49 pm							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>I found a GUI that sits on top of MALLET that has worked well for me:<br />
+<a href="https://code.google.com/p/topic-modeling-tool/" rel="nofollow">https://code.google.com/p/topic-modeling-tool/</a></p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://scottbot.net/topic-modeling-for-humanists-a-guided-tour/?replytocom=172#respond' onclick='return addComment.moveForm( "div-comment-172", "172", "respond", "19113" )' aria-label='Reply to csteelatgburg'>Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+		<li id="comment-173" class="comment odd alt thread-odd thread-alt depth-1">
+			<article id="div-comment-173" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='https://i2.wp.com/pbs.twimg.com/profile_images/475502273255456768/yicT-x0L_normal.jpeg?resize=42%2C42' srcset='http://1.gravatar.com/avatar/d725952ea06acc49d9a85aa3995dc2a1?s=84&amp;d=mm&amp;r=g 2x' class='avatar avatar-42 photo' height='42' width='42' />						<b class="fn"><a href='http://twitter.com/newstaircase' rel='external nofollow' class='url'>Ffion (@newstaircase)</a></b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="http://scottbot.net/topic-modeling-for-humanists-a-guided-tour/#comment-173">
+							<time datetime="2014-09-24T13:29:30+00:00">
+								September 24, 2014 at 1:29 pm							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Fantastic introduction, thank you &#8211; I have lots of new tabs open with the articles you summarized in, ready to be enjoyed and hopefully understood! I must also say, the formatting of this post was very nice indeed.</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://scottbot.net/topic-modeling-for-humanists-a-guided-tour/?replytocom=173#respond' onclick='return addComment.moveForm( "div-comment-173", "173", "respond", "19113" )' aria-label='Reply to Ffion (@newstaircase)'>Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+		<li id="comment-174" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://www.lisarhody.com/some-assembly-required/' rel='external nofollow' class='url'>Some Assembly Required: Understanding and Interpreting Topics in LDA Models of Figurative Language | Lisa @ Work | Lisa Marie Rhody</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-175" class="pingback odd alt thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href='https://myjourneyasadatascientist.wordpress.com/2014/09/19/topic-modeling-lda-lsi-oh-my/' rel='external nofollow' class='url'>Topic Modeling: LDA&#8230; LSI.. Oh My! | MyJourneyAsaDataScientist</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-176" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://thetimelesshistorian.com/?p=93' rel='external nofollow' class='url'>The Wonderful World of Topic Modeling | The Timeless Historian</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-177" class="pingback odd alt thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://politbistro.hypotheses.org/2737' rel='external nofollow' class='url'>Hypothesosphère : le réseau des blogs d&#8217;Hypothèses, (presque) cinq ans plus tard | Polit&#039;bistro : des politiques, du café</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-178" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href='https://preservingorlando.wordpress.com/2015/09/22/big-data-and-distant-reading-no-its-not-the-band-or-reading-from-afar/' rel='external nofollow' class='url'>Big Data and Distant Reading (no it&#8217;s not the band or reading from afar&#8230;) | preservingorlando</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-179" class="pingback odd alt thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href='https://garrettatfhq.wordpress.com/2015/09/22/reading-with-algorithms-an-introduction-to-topic-modeling-text-mining-and-distant-reading/' rel='external nofollow' class='url'>Reading with Algorithms: An Introduction to Topic Modeling, Text Mining, and Distant Reading | Digital Tools for Historians</a> 			</div>
+</li><!-- #comment-## -->
+		</ol><!-- .comment-list -->
+
+		
+	
+	
+	
+		<div id="respond" class="comment-respond">
+							<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/topic-modeling-for-humanists-a-guided-tour/#respond" style="display:none;">Cancel reply</a></small></h3>
+						<form id="commentform" class="comment-form">
+				<iframe src="https://jetpack.wordpress.com/jetpack-comment/?blogid=108877878&#038;postid=19113&#038;comment_registration=0&#038;require_name_email=1&#038;stc_enabled=1&#038;stb_enabled=1&#038;show_avatars=1&#038;avatar_default=mystery&#038;greeting=Leave+a+Reply&#038;greeting_reply=Leave+a+Reply+to+%25s&#038;color_scheme=light&#038;lang=en&#038;jetpack_version=4.9&#038;sig=326ba9c34ce8f4ca9211e87d0e3523ad2b1219ae#parent=http%3A%2F%2Fscottbot.net%2Ftopic-modeling-for-humanists-a-guided-tour%2F" style="width:100%; height: 430px; border:0;" name="jetpack_remote_comment" class="jetpack_remote_comment" id="jetpack_remote_comment"></iframe>
+				<!--[if !IE]><!-->
+				<script>
+					document.addEventListener( 'DOMContentLoaded', function () {
+						var commentForms = document.getElementsByClassName( 'jetpack_remote_comment' );
+						for ( var i = 0; i < commentForms.length; i++ ) {
+							commentForms[i].allowTransparency = false;
+							commentForms[i].scrolling = 'no';
+						}
+					} );
+				</script>
+				<!--<![endif]-->
+			</form>
+		</div>
+
+		
+		<input type="hidden" name="comment_parent" id="comment_parent" value="" />
+
+		
+</div><!-- .comments-area -->
+
+	<nav class="navigation post-navigation" role="navigation">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="http://scottbot.net/networks-demystified-3-the-power-law-rant/" rel="prev"><span class="meta-nav" aria-hidden="true">Previous</span> <span class="screen-reader-text">Previous post:</span> <span class="post-title">Networks Demystified 3: The Power Law Rant</span></a></div><div class="nav-next"><a href="http://scottbot.net/another-step-in-keeping-pledges/" rel="next"><span class="meta-nav" aria-hidden="true">Next</span> <span class="screen-reader-text">Next post:</span> <span class="post-title">Another Step in Keeping Pledges</span></a></div></div>
+	</nav>
+	</main><!-- .site-main -->
+
+	
+</div><!-- .content-area -->
+
+
+	<aside id="secondary" class="sidebar widget-area" role="complementary">
+		<section id="text-3" class="widget widget_text"><h2 class="widget-title">scott b. weingart</h2>			<div class="textwidget"><img src="https://i0.wp.com/scottbot.net/wp-content/uploads/2016/03/20081619522_b6947a66d9_o.jpg?w=840" data-recalc-dims="1">
+<br/><br/>historian of science, juggler, OA advocate, & carnegie mellon university's DH specialist.</div>
+		</section><section id="wpcom_social_media_icons_widget-3" class="widget widget_wpcom_social_media_icons_widget"><h2 class="widget-title">scottbot elsewhere</h2><ul><li><a href="https://www.facebook.com/scottbot/" class="genericon genericon-facebook" target="_blank"><span class="screen-reader-text">View scottbot&#8217;s profile on Facebook</span></a></li><li><a href="https://twitter.com/scott_bot/" class="genericon genericon-twitter" target="_blank"><span class="screen-reader-text">View scott_bot&#8217;s profile on Twitter</span></a></li><li><a href="https://www.linkedin.com/in/scott-weingart-419b8316/" class="genericon genericon-linkedin" target="_blank"><span class="screen-reader-text">View scott-weingart-419b8316&#8217;s profile on LinkedIn</span></a></li><li><a href="https://github.com/scottbot/" class="genericon genericon-github" target="_blank"><span class="screen-reader-text">View scottbot&#8217;s profile on GitHub</span></a></li><li><a href="https://plus.google.com/u/0/+ScottWeingart0/" class="genericon genericon-googleplus" target="_blank"><span class="screen-reader-text">View ScottWeingart0&#8217;s profile on Google+</span></a></li></ul></section>		<section id="recent-posts-4" class="widget widget_recent_entries">		<h2 class="widget-title">Recent Posts</h2>		<ul>
+					<li>
+				<a href="http://scottbot.net/teaching-yourself-to-code-in-dh/">Teaching Yourself to Code in DH</a>
+						</li>
+					<li>
+				<a href="http://scottbot.net/submissions-to-dh2017-pt-1/">Submissions to DH2017 (pt. 1)</a>
+						</li>
+					<li>
+				<a href="http://scottbot.net/lessons-from-digital-historys-antecedents/">Lessons From Digital History&#8217;s Antecedents</a>
+						</li>
+					<li>
+				<a href="http://scottbot.net/cetus/">[f-s d] Cetus</a>
+						</li>
+					<li>
+				<a href="http://scottbot.net/experience/">Experience</a>
+						</li>
+				</ul>
+		</section>		<section id="archives-4" class="widget widget_archive"><h2 class="widget-title">archives</h2>		<label class="screen-reader-text" for="archives-dropdown-4">archives</label>
+		<select id="archives-dropdown-4" name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'>
+			
+			<option value="">Select Month</option>
+				<option value='http://scottbot.net/2017/02/'> February 2017 &nbsp;(1)</option>
+	<option value='http://scottbot.net/2016/11/'> November 2016 &nbsp;(1)</option>
+	<option value='http://scottbot.net/2016/10/'> October 2016 &nbsp;(1)</option>
+	<option value='http://scottbot.net/2016/06/'> June 2016 &nbsp;(2)</option>
+	<option value='http://scottbot.net/2016/05/'> May 2016 &nbsp;(1)</option>
+	<option value='http://scottbot.net/2016/04/'> April 2016 &nbsp;(2)</option>
+	<option value='http://scottbot.net/2016/03/'> March 2016 &nbsp;(4)</option>
+	<option value='http://scottbot.net/2015/12/'> December 2015 &nbsp;(1)</option>
+	<option value='http://scottbot.net/2015/11/'> November 2015 &nbsp;(2)</option>
+	<option value='http://scottbot.net/2015/08/'> August 2015 &nbsp;(1)</option>
+	<option value='http://scottbot.net/2015/07/'> July 2015 &nbsp;(2)</option>
+	<option value='http://scottbot.net/2015/06/'> June 2015 &nbsp;(4)</option>
+	<option value='http://scottbot.net/2015/03/'> March 2015 &nbsp;(2)</option>
+	<option value='http://scottbot.net/2015/01/'> January 2015 &nbsp;(1)</option>
+	<option value='http://scottbot.net/2014/12/'> December 2014 &nbsp;(1)</option>
+	<option value='http://scottbot.net/2014/11/'> November 2014 &nbsp;(3)</option>
+	<option value='http://scottbot.net/2014/09/'> September 2014 &nbsp;(1)</option>
+	<option value='http://scottbot.net/2014/04/'> April 2014 &nbsp;(3)</option>
+	<option value='http://scottbot.net/2014/03/'> March 2014 &nbsp;(1)</option>
+	<option value='http://scottbot.net/2014/02/'> February 2014 &nbsp;(3)</option>
+	<option value='http://scottbot.net/2014/01/'> January 2014 &nbsp;(1)</option>
+	<option value='http://scottbot.net/2013/12/'> December 2013 &nbsp;(1)</option>
+	<option value='http://scottbot.net/2013/11/'> November 2013 &nbsp;(2)</option>
+	<option value='http://scottbot.net/2013/10/'> October 2013 &nbsp;(2)</option>
+	<option value='http://scottbot.net/2013/09/'> September 2013 &nbsp;(3)</option>
+	<option value='http://scottbot.net/2013/08/'> August 2013 &nbsp;(2)</option>
+	<option value='http://scottbot.net/2013/07/'> July 2013 &nbsp;(2)</option>
+	<option value='http://scottbot.net/2013/06/'> June 2013 &nbsp;(1)</option>
+	<option value='http://scottbot.net/2013/04/'> April 2013 &nbsp;(6)</option>
+	<option value='http://scottbot.net/2012/12/'> December 2012 &nbsp;(3)</option>
+	<option value='http://scottbot.net/2012/11/'> November 2012 &nbsp;(2)</option>
+	<option value='http://scottbot.net/2012/10/'> October 2012 &nbsp;(3)</option>
+	<option value='http://scottbot.net/2012/09/'> September 2012 &nbsp;(6)</option>
+	<option value='http://scottbot.net/2012/08/'> August 2012 &nbsp;(1)</option>
+	<option value='http://scottbot.net/2012/07/'> July 2012 &nbsp;(1)</option>
+	<option value='http://scottbot.net/2012/06/'> June 2012 &nbsp;(1)</option>
+	<option value='http://scottbot.net/2012/05/'> May 2012 &nbsp;(2)</option>
+	<option value='http://scottbot.net/2012/03/'> March 2012 &nbsp;(3)</option>
+	<option value='http://scottbot.net/2012/02/'> February 2012 &nbsp;(5)</option>
+	<option value='http://scottbot.net/2012/01/'> January 2012 &nbsp;(4)</option>
+	<option value='http://scottbot.net/2011/12/'> December 2011 &nbsp;(3)</option>
+	<option value='http://scottbot.net/2011/11/'> November 2011 &nbsp;(6)</option>
+	<option value='http://scottbot.net/2011/10/'> October 2011 &nbsp;(6)</option>
+	<option value='http://scottbot.net/2011/01/'> January 2011 &nbsp;(1)</option>
+
+		</select>
+		</section><section id="tag_cloud-3" class="widget widget_tag_cloud"><h2 class="widget-title">Tags</h2><div class="tagcloud"><a href='http://scottbot.net/tag/abms/' class='tag-link-9 tag-link-position-1' title='3 topics' style='font-size: 1em;'>ABMs</a>
+<a href='http://scottbot.net/tag/academia/' class='tag-link-10 tag-link-position-2' title='4 topics' style='font-size: 1em;'>academia</a>
+<a href='http://scottbot.net/tag/alt-ac/' class='tag-link-12 tag-link-position-3' title='2 topics' style='font-size: 1em;'>alt-ac</a>
+<a href='http://scottbot.net/tag/appreciability/' class='tag-link-13 tag-link-position-4' title='2 topics' style='font-size: 1em;'>appreciability</a>
+<a href='http://scottbot.net/tag/archives/' class='tag-link-14 tag-link-position-5' title='3 topics' style='font-size: 1em;'>archives</a>
+<a href='http://scottbot.net/tag/bias/' class='tag-link-16 tag-link-position-6' title='6 topics' style='font-size: 1em;'>bias</a>
+<a href='http://scottbot.net/tag/big-data/' class='tag-link-17 tag-link-position-7' title='14 topics' style='font-size: 1em;'>big data</a>
+<a href='http://scottbot.net/tag/blogging/' class='tag-link-18 tag-link-position-8' title='4 topics' style='font-size: 1em;'>blogging</a>
+<a href='http://scottbot.net/tag/complexity/' class='tag-link-23 tag-link-position-9' title='14 topics' style='font-size: 1em;'>complexity</a>
+<a href='http://scottbot.net/tag/data-analysis/' class='tag-link-26 tag-link-position-10' title='48 topics' style='font-size: 1em;'>data analysis</a>
+<a href='http://scottbot.net/tag/dhconf/' class='tag-link-28 tag-link-position-11' title='15 topics' style='font-size: 1em;'>dhconf</a>
+<a href='http://scottbot.net/tag/diffusion/' class='tag-link-29 tag-link-position-12' title='5 topics' style='font-size: 1em;'>diffusion</a>
+<a href='http://scottbot.net/tag/digital-humanities/' class='tag-link-30 tag-link-position-13' title='56 topics' style='font-size: 1em;'>digital humanities</a>
+<a href='http://scottbot.net/tag/disciplinarity/' class='tag-link-31 tag-link-position-14' title='12 topics' style='font-size: 1em;'>disciplinarity</a>
+<a href='http://scottbot.net/tag/diversity/' class='tag-link-33 tag-link-position-15' title='4 topics' style='font-size: 1em;'>diversity</a>
+<a href='http://scottbot.net/tag/gender/' class='tag-link-37 tag-link-position-16' title='5 topics' style='font-size: 1em;'>gender</a>
+<a href='http://scottbot.net/tag/gephi/' class='tag-link-39 tag-link-position-17' title='4 topics' style='font-size: 1em;'>gephi</a>
+<a href='http://scottbot.net/tag/gis/' class='tag-link-40 tag-link-position-18' title='3 topics' style='font-size: 1em;'>GIS</a>
+<a href='http://scottbot.net/tag/history/' class='tag-link-42 tag-link-position-19' title='24 topics' style='font-size: 1em;'>history</a>
+<a href='http://scottbot.net/tag/history-of-science/' class='tag-link-43 tag-link-position-20' title='16 topics' style='font-size: 1em;'>history of science</a>
+<a href='http://scottbot.net/tag/human-dynamics/' class='tag-link-44 tag-link-position-21' title='9 topics' style='font-size: 1em;'>human dynamics</a>
+<a href='http://scottbot.net/tag/humnets/' class='tag-link-45 tag-link-position-22' title='3 topics' style='font-size: 1em;'>humnets</a>
+<a href='http://scottbot.net/tag/interdisciplinarity/' class='tag-link-46 tag-link-position-23' title='9 topics' style='font-size: 1em;'>interdisciplinarity</a>
+<a href='http://scottbot.net/tag/literary-history/' class='tag-link-48 tag-link-position-24' title='4 topics' style='font-size: 1em;'>literary history</a>
+<a href='http://scottbot.net/tag/macroanalysis/' class='tag-link-49 tag-link-position-25' title='7 topics' style='font-size: 1em;'>macroanalysis</a>
+<a href='http://scottbot.net/tag/methodologies/' class='tag-link-52 tag-link-position-26' title='38 topics' style='font-size: 1em;'>methodologies</a>
+<a href='http://scottbot.net/tag/network-analysis/' class='tag-link-55 tag-link-position-27' title='28 topics' style='font-size: 1em;'>network analysis</a>
+<a href='http://scottbot.net/tag/networks-demystified/' class='tag-link-56 tag-link-position-28' title='8 topics' style='font-size: 1em;'>networks demystified</a>
+<a href='http://scottbot.net/tag/open-access/' class='tag-link-58 tag-link-position-29' title='9 topics' style='font-size: 1em;'>open access</a>
+<a href='http://scottbot.net/tag/pedagogy/' class='tag-link-59 tag-link-position-30' title='2 topics' style='font-size: 1em;'>pedagogy</a>
+<a href='http://scottbot.net/tag/philosophy-of-science/' class='tag-link-60 tag-link-position-31' title='3 topics' style='font-size: 1em;'>philosophy of science</a>
+<a href='http://scottbot.net/tag/republic-of-letters/' class='tag-link-67 tag-link-position-32' title='6 topics' style='font-size: 1em;'>republic of letters</a>
+<a href='http://scottbot.net/tag/review/' class='tag-link-68 tag-link-position-33' title='8 topics' style='font-size: 1em;'>review</a>
+<a href='http://scottbot.net/tag/scholarly-communication/' class='tag-link-69 tag-link-position-34' title='38 topics' style='font-size: 1em;'>scholarly communication</a>
+<a href='http://scottbot.net/tag/sci2/' class='tag-link-70 tag-link-position-35' title='7 topics' style='font-size: 1em;'>sci2</a>
+<a href='http://scottbot.net/tag/scientonomy/' class='tag-link-71 tag-link-position-36' title='26 topics' style='font-size: 1em;'>scientonomy</a>
+<a href='http://scottbot.net/tag/social-networks/' class='tag-link-73 tag-link-position-37' title='15 topics' style='font-size: 1em;'>social networks</a>
+<a href='http://scottbot.net/tag/social-science/' class='tag-link-74 tag-link-position-38' title='7 topics' style='font-size: 1em;'>social science</a>
+<a href='http://scottbot.net/tag/statistics/' class='tag-link-76 tag-link-position-39' title='11 topics' style='font-size: 1em;'>statistics</a>
+<a href='http://scottbot.net/tag/text-analysis/' class='tag-link-77 tag-link-position-40' title='15 topics' style='font-size: 1em;'>text analysis</a>
+<a href='http://scottbot.net/tag/theory/' class='tag-link-78 tag-link-position-41' title='3 topics' style='font-size: 1em;'>theory</a>
+<a href='http://scottbot.net/tag/topic-modeling/' class='tag-link-80 tag-link-position-42' title='5 topics' style='font-size: 1em;'>topic modeling</a>
+<a href='http://scottbot.net/tag/two-cultures/' class='tag-link-81 tag-link-position-43' title='5 topics' style='font-size: 1em;'>two cultures</a>
+<a href='http://scottbot.net/tag/visualizations/' class='tag-link-83 tag-link-position-44' title='23 topics' style='font-size: 1em;'>visualizations</a>
+<a href='http://scottbot.net/tag/zotero/' class='tag-link-86 tag-link-position-45' title='3 topics' style='font-size: 1em;'>zotero</a></div>
+</section>	</aside><!-- .sidebar .widget-area -->
+
+		</div><!-- .site-content -->
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+							<nav class="main-navigation" role="navigation" aria-label="Footer Primary Menu">
+					<div class="menu-top-menu-container"><ul id="menu-top-menu-1" class="primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41548"><a href="http://scottbot.net/i-am/">i am</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41546"><a href="http://scottbot.net/pledges/">pledges</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41670"><a href="http://scottbot.net/dh-quantified/">dh quantified</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41543"><a href="http://scottbot.net/hired-gun/">hired gun</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41547"><a href="http://scottbot.net/curated-syllabi/">curated syllabi</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41544"><a href="http://scottbot.net/knowledge/">knowledge diagrams</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41545"><a href="http://scottbot.net/curriculum-vitae/">curriculum vitae</a></li>
+</ul></div>				</nav><!-- .main-navigation -->
+			
+			
+			<div class="site-info">
+								<span class="site-title"><a href="http://scottbot.net/" rel="home">the scottbot irregular</a></span>
+				<a href="https://wordpress.org/">Proudly powered by WordPress</a>
+			</div><!-- .site-info -->
+		</footer><!-- .site-footer -->
+	</div><!-- .site-inner -->
+</div><!-- .site -->
+
+<img alt='css.php' src="http://scottbot.net/wp-content/plugins/cookies-for-comments/css.php?k=1fe92ca8bad962b3c7985c97f4a4ff85&amp;o=i&amp;t=1582269561" width='1' height='1' />	<div style="display:none">
+	<div class="grofile-hash-map-c2c3f37244ba2c8146a1ddfbaf9aa197">
+	</div>
+	<div class="grofile-hash-map-4d5f9924eddf83f499c9c8017e0a5764">
+	</div>
+	<div class="grofile-hash-map-9f65f3e4bab863af08ecfd62d3ddc6c1">
+	</div>
+	<div class="grofile-hash-map-5fe8f62bd571a372fdde444f376c4740">
+	</div>
+	<div class="grofile-hash-map-6c6e53c16588430f386270938fbcb888">
+	</div>
+	<div class="grofile-hash-map-6a8783ad33f0c21f3a6f80ba56aceeaa">
+	</div>
+	<div class="grofile-hash-map-34a20d70b2757446f73541212fde35b1">
+	</div>
+	<div class="grofile-hash-map-7226d5c7f2e68992a03e5057932292ae">
+	</div>
+	<div class="grofile-hash-map-d725952ea06acc49d9a85aa3995dc2a1">
+	</div>
+	</div>
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"http:\/\/scottbot.net\/topic-modeling-for-humanists-a-guided-tour\/":19113};
+	</script>
+<script type='text/javascript' src='http://scottbot.net/wp-content/plugins/akismet/_inc/form.js?ver=3.3.2'></script>
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='http://scottbot.net/wp-content/plugins/jetpack/modules/carousel/jetpack-carousel-ie8fix.css?ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='http://scottbot.net/wp-content/plugins/jetpack/modules/photon/photon.js?ver=20130122'></script>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201720'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2017Mayaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://scottbot.net/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://scottbot.net/wp-content/themes/twentysixteen/js/skip-link-focus-fix.js?ver=20160816'></script>
+<script type='text/javascript' src='http://scottbot.net/wp-includes/js/comment-reply.min.js?ver=4.7.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var screenReaderText = {"expand":"expand child menu","collapse":"collapse child menu"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://scottbot.net/wp-content/themes/twentysixteen/js/functions.js?ver=20160816'></script>
+<script type='text/javascript' src='http://scottbot.net/wp-includes/js/wp-embed.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://scottbot.net/wp-content/plugins/jetpack/_inc/spin.js?ver=1.3'></script>
+<script type='text/javascript' src='http://scottbot.net/wp-content/plugins/jetpack/_inc/jquery.spin.js?ver=1.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"http:\/\/scottbot.net\/wp-admin\/admin-ajax.php","nonce":"1815e17858","display_exif":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"0","require_name_email":"1","login_url":"http:\/\/scottbot.net\/wp-login.php?redirect_to=http%3A%2F%2Fscottbot.net%2Ftopic-modeling-for-humanists-a-guided-tour%2F","blog_id":"1","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://scottbot.net/wp-content/plugins/jetpack/modules/carousel/jetpack-carousel.js?ver=20170209'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://scottbot.net/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js?ver=4.9'></script>
+<script type='text/javascript'>
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-twitter', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-facebook', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-google-plus-1', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomgoogle-plus-1', 'menubar=1,resizable=1,width=480,height=550' );
+				return false;
+			});
+</script>
+
+		<!--[if IE]>
+		<script type="text/javascript">
+		if ( 0 === window.location.hash.indexOf( '#comment-' ) ) {
+			// window.location.reload() doesn't respect the Hash in IE
+			window.location.hash = window.location.hash;
+		}
+		</script>
+		<![endif]-->
+		<script type="text/javascript">
+			var comm_par_el = document.getElementById( 'comment_parent' ),
+			    comm_par = (comm_par_el && comm_par_el.value) ? comm_par_el.value : '',
+			    frame = document.getElementById( 'jetpack_remote_comment' ),
+			    tellFrameNewParent;
+
+			tellFrameNewParent = function() {
+				if ( comm_par ) {
+					frame.src = "https://jetpack.wordpress.com/jetpack-comment/?blogid=108877878&postid=19113&comment_registration=0&require_name_email=1&stc_enabled=1&stb_enabled=1&show_avatars=1&avatar_default=mystery&greeting=Leave+a+Reply&greeting_reply=Leave+a+Reply+to+%25s&color_scheme=light&lang=en&jetpack_version=4.9&sig=326ba9c34ce8f4ca9211e87d0e3523ad2b1219ae#parent=http%3A%2F%2Fscottbot.net%2Ftopic-modeling-for-humanists-a-guided-tour%2F" + '&replytocom=' + parseInt( comm_par, 10 ).toString();
+				} else {
+					frame.src = "https://jetpack.wordpress.com/jetpack-comment/?blogid=108877878&postid=19113&comment_registration=0&require_name_email=1&stc_enabled=1&stb_enabled=1&show_avatars=1&avatar_default=mystery&greeting=Leave+a+Reply&greeting_reply=Leave+a+Reply+to+%25s&color_scheme=light&lang=en&jetpack_version=4.9&sig=326ba9c34ce8f4ca9211e87d0e3523ad2b1219ae#parent=http%3A%2F%2Fscottbot.net%2Ftopic-modeling-for-humanists-a-guided-tour%2F";
+				}
+			};
+
+	
+			if ( 'undefined' !== typeof addComment ) {
+				addComment._Jetpack_moveForm = addComment.moveForm;
+
+				addComment.moveForm = function( commId, parentId, respondId, postId ) {
+					var returnValue = addComment._Jetpack_moveForm( commId, parentId, respondId, postId ), cancelClick, cancel;
+
+					if ( false === returnValue ) {
+						cancel = document.getElementById( 'cancel-comment-reply-link' );
+						cancelClick = cancel.onclick;
+						cancel.onclick = function() {
+							var cancelReturn = cancelClick.call( this );
+							if ( false !== cancelReturn ) {
+								return cancelReturn;
+							}
+
+							if ( !comm_par ) {
+								return cancelReturn;
+							}
+
+							comm_par = 0;
+
+							tellFrameNewParent();
+
+							return cancelReturn;
+						};
+					}
+
+					if ( comm_par == parentId ) {
+						return returnValue;
+					}
+
+					comm_par = parentId;
+
+					tellFrameNewParent();
+
+					return returnValue;
+				};
+			}
+
+	
+			if ( window.postMessage ) {
+				if ( document.addEventListener ) {
+					window.addEventListener( 'message', function( event ) {
+						if ( "https:\/\/jetpack.wordpress.com" !== event.origin ) {
+							return;
+						}
+
+						jQuery( frame ).height( event.data );
+					} );
+				} else if ( document.attachEvent ) {
+					window.attachEvent( 'message', function( event ) {
+						if ( "https:\/\/jetpack.wordpress.com" !== event.origin ) {
+							return;
+						}
+
+						jQuery( frame ).height( event.data );
+					} );
+				}
+			}
+		</script>
+
+	<script type='text/javascript' src='https://stats.wp.com/e-201720.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:4.9',blog:'108877878',post:'19113',tz:'0',srv:'scottbot.net'} ]);
+	_stq.push([ 'clickTrackerInit', '108877878', '19113' ]);
+</script>
+</body>
+</html>

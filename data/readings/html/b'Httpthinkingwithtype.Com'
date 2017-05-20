@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" href="http://wf.typotheque.com/WF-001231-000790" type="text/css" />
+<link rel="stylesheet" href="http://wf.typotheque.com/WF-001231-000789" type="text/css" />
+<link rel="stylesheet" href="http://wf.typotheque.com/WF-001231-000713" type="text/css" />
+<link rel="stylesheet" href="http://wf.typotheque.com/WF-001231-000714" type="text/css" />
+<link rel="stylesheet" type="text/css" href="http://thinkingwithtype.com/wp-content/themes/thinkingwithtype/style.css" />
+<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js" type="text/javascript"></script>
+<script src="/wp-content/themes/thinkingwithtype/javascript/jquery.flash.js" type="text/javascript"></script>
+
+<title>Thinking With Type</title>
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Thinking With Type &raquo; Feed" href="http://thinkingwithtype.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Thinking With Type &raquo; Comments Feed" href="http://thinkingwithtype.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/thinkingwithtype.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<script type='text/javascript' src='http://thinkingwithtype.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://thinkingwithtype.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://thinkingwithtype.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://thinkingwithtype.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://thinkingwithtype.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7.5" />
+</head>
+<body class="home blog">
+<div id="topbar" role="navigation">
+  <h4><a href="/">Thinking with Type</a></h4>
+  <ul>
+    <div id="move">
+                    <li><a href="http://thinkingwithtype.com/letter/">Letter</a>  |</li>
+              <li><a href="http://thinkingwithtype.com/text/">Text</a>  |</li>
+              <li><a href="http://thinkingwithtype.com/grid/">Grid</a>  |</li>
+              <li><a href="http://thinkingwithtype.com/extras/">Extras</a>  |</li>
+            <li><a href="http://elupton.com"><i>elupton.com</i></a>  |</li>
+      <li><a href="http://www.papress.com/"><i>papress.com</i></a>  |</li>
+      <li>
+        <div id="topsearch">
+          <div id="searchformcontainer"><form role="search" method="get" id="searchform" class="searchform" action="http://thinkingwithtype.com/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form></div>
+        </div>
+      </li>
+    </div>
+  </ul>
+</div>
+<div id="home">
+<div id="banner">
+  <div class="slideboard">
+    <li class="banner1" style="left: 0px"><div id="book"></div>
+      <p>
+        <b><em>Praise for Ellen Lupton’s book</em></b><br>
+      </p>
+      <p>
+        <big>Thinking <i>with</i> Type</big><br><br>
+        “Type is the
+        <b>foundation of print and web design.</b>
+        Everything you need to know about thinking with type, you will find here.
+        This richly detailed update to the classic text belongs on the shelf of
+        <b>every designer, writer, editor, publisher, and client.</b>”<br>
+        <em>-Jefferey Zeldman-</em>
+      </p>
+      <div class="slab"></div>
+    </li>
+
+    <li class="banner2" style="left: 1000px">
+      <p>
+        <b><em>“This beautifully designed book on understanding typography</em></b><br>
+      </p>
+
+      <p>
+        <big>Fills A Big Void</big><br><br>
+        It enables the reader to grasp the
+        <b>principles of typography</b>
+        through
+        <b>inspiring examples</b>
+        with
+        <b>warm, straightforward explanations</b>
+        ”<br>
+        <em>-Paula Scher-</em>
+      </p>
+      <div class="slab"></div>
+    </li>
+
+    <li class="banner3" style="left: 2000px">
+      <p>
+        <b><em>“This engaging book offers principles without dogma and</em></b>
+        <br>
+      </p>
+      <p>
+        <big> History<br> Without Arcana</big><br>
+        In short, it is a compendium for
+        <b>literate typographic practice</b>
+        ”<br>
+        <em>-Andrew Blauvelt-</em>
+      </p>
+      <div class="slab"></div>
+    </li>
+
+    <li class="banner4" style="left: 3000px">
+      <p>
+        <b><em>“This book is essential reading for the design student and the perfect</em></b><br>
+      </p>
+      <p>
+        <big>Wake Up Drug</big>
+        <br><br>
+        for the most
+        <b>stodgy of design experts</b>
+        ”<br>
+        <em>-John Maeda-</em>
+      </p>
+      <div class="slab"></div>
+    </li>
+  </div>
+</div>
+<div id="left" class="bannernav"><a>{</a></div>
+<div id="right" class="bannernav"><a>}</a></div>
+<div class="section" id="contents">
+            <div class="part" style="background-image: url('http://thinkingwithtype.com/wp-content/uploads/2017/04/letter.gif');">
+      <h2><a href="http://thinkingwithtype.com/letter/">Letter</a></h2>
+      <p>the only good letter is a red letter</p>
+      <ul class="col1">
+                  <li>
+            <a href="http://thinkingwithtype.com/letter/#anatomy">
+                              Anatomy                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/letter/#size">
+                              Size                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/letter/#scale">
+                              Scale                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/letter/#type-classification">
+                              <i>Type Classification</i>
+                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/letter/#type-families">
+                              Type Families                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/letter/#superfamilies">
+                              Superfamilies                          </a>
+          </li>
+              </ul>
+      <ul class="col2">
+                  <li>
+            <a href="http://thinkingwithtype.com/letter/#caps-and-small-caps">
+                              Caps and Small Caps                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/letter/#mixing-typefaces">
+                              Mixing Typefaces                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/letter/#punctuation">
+                              Punctuation                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/letter/#typeface-design">
+                              Typeface Design                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/letter/#project-letterforms">
+                              <i>Project: Letterforms</i>
+                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/letter/#font-formats">
+                              Font Formats                          </a>
+          </li>
+              </ul>
+    </div>
+          <div class="part" style="background-image: url('http://thinkingwithtype.com/wp-content/uploads/2017/04/text.gif');">
+      <h2><a href="http://thinkingwithtype.com/text/">Text</a></h2>
+      <p>Sometimes more than 140 characters</p>
+      <ul class="col1">
+                  <li>
+            <a href="http://thinkingwithtype.com/text/#kerning">
+                              Kerning                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/text/#tracking">
+                              Tracking                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/text/#project-space-and-meaning">
+                              <i>Project: Space and Meaning</i>
+                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/text/#line-spacing">
+                              Line Spacing                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/text/#alignment">
+                              Alignment                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/text/#project-alignment">
+                              <i>Project: Alignment</i>
+                          </a>
+          </li>
+              </ul>
+      <ul class="col2">
+                  <li>
+            <a href="http://thinkingwithtype.com/text/#vertical-text">
+                              Vertical Text                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/text/#making-paragraphs">
+                              Making Paragraphs                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/text/#enlarged-capitals">
+                              Enlarged Capitals                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/text/#heirarchy">
+                              Heirarchy                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/text/#project-heirarchy">
+                              <i>Project: Heirarchy</i>
+                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/text/#project-long-lists">
+                              <i>Project: Long Lists</i>
+                          </a>
+          </li>
+              </ul>
+    </div>
+          <div class="part" style="background-image: url('http://thinkingwithtype.com/wp-content/uploads/2017/04/grid.gif');">
+      <h2><a href="http://thinkingwithtype.com/grid/">Grid</a></h2>
+      <p>It's hip to be a square</p>
+      <ul class="col1">
+                  <li>
+            <a href="http://thinkingwithtype.com/grid/#golden-section">
+                              Golden Section                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/grid/#multicolumn-grid">
+                              Multicolumn Grid                          </a>
+          </li>
+              </ul>
+      <ul class="col2">
+                  <li>
+            <a href="http://thinkingwithtype.com/grid/#modular-grid">
+                              Modular Grid                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/grid/#project-modular-grid">
+                              <i>Project: Modular Grid</i>
+                          </a>
+          </li>
+              </ul>
+    </div>
+          <div class="part" style="background-image: url('http://thinkingwithtype.com/wp-content/uploads/2017/04/extras.gif');">
+      <h2><a href="http://thinkingwithtype.com/extras/">Extras</a></h2>
+      <p>The french fries at the bottom of the bag</p>
+      <ul class="col1">
+                  <li>
+            <a href="http://thinkingwithtype.com/extras/#type-crimes">
+                              Type Crimes                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/extras/#tools-for-teachers">
+                              Tools for Teachers                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/extras/#editing">
+                              Editing                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/extras/#editing-hard-copy">
+                              Editing Hard Copy                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/extras/#editing-soft-copy">
+                              Editing Soft Copy                          </a>
+          </li>
+              </ul>
+      <ul class="col2">
+                  <li>
+            <a href="http://thinkingwithtype.com/extras/#proofreading">
+                              Proofreading                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/extras/#bibliography">
+                              Bibliography                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/extras/#about-the-author">
+                              About the Author                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/extras/#about-the-website">
+                              About the Website                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/extras/#events-ellen-lupton">
+                              Events: Ellen Lupton                          </a>
+          </li>
+              </ul>
+    </div>
+  </div>
+<div class="section" id="feeds">
+  <!-- you can find some of the tweet templating in functons.php -->
+  <h2 style="margin-bottom: .5em;"><a href="http://twitter.com/ellenlupton">Tweets@EllenLupton</a></h2>
+    <li id="latest_tweets_widget-2" class="widget-container widget_latest_tweets_widget"><h3 class="widget-title">Tweets@ellenlupton</h3><div class="latest-tweets">
+    <ul id="news">
+      
+    <li class="my-tweet">
+      <p>Not your grandma&#039;s exhibition labels. Design by <a class="twitter-screen-name" href="https://twitter.com/projectprojects" target="_blank" rel="nofollow">&#x40;projectprojects</a> for Walter B show @thejewishmuseum… <a href="https://twitter.com/i/web/status/865339577162235904" target="_blank" rel="nofollow">twitter.com/i/web/status/86533&hellip;</a><a href="http://twitter.com/ellenLupton/status/865339577162235904"> — posted <time datetime="2017-05-18 22:53:27+0000">May 18, 2017 10:53 pm</time></a>
+    </p>
+    <li class="my-tweet">
+      <p>Fabulous exhibition design by <a class="twitter-screen-name" href="https://twitter.com/projectprojects" target="_blank" rel="nofollow">&#x40;projectprojects</a> Walter Benjamin show @thejewishmuseum <a href="http://ift.tt/2qwDdQU" target="_blank" rel="nofollow">ift.tt/2qwDdQU</a> <a href="https://pic.twitter.com/duAe9YlpmV" target="_blank" rel="nofollow">pic.twitter.com/duAe9YlpmV</a><a href="http://twitter.com/ellenLupton/status/865338609645301760"> — posted <time datetime="2017-05-18 22:49:36+0000">May 18, 2017 10:49 pm</time></a>
+    </p>
+    <li class="my-tweet">
+      <p>Cooper Hewitt&#039;s top curatorial minds meet Nelly Ben Hayoun <a class="twitter-screen-name" href="https://twitter.com/cooperhewitt" target="_blank" rel="nofollow">&#x40;cooperhewitt</a> <a href="http://ift.tt/2qyBJ9d" target="_blank" rel="nofollow">ift.tt/2qyBJ9d</a> <a href="https://pic.twitter.com/6QNguxeGeM" target="_blank" rel="nofollow">pic.twitter.com/6QNguxeGeM</a><a href="http://twitter.com/ellenLupton/status/865334090567909376"> — posted <time datetime="2017-05-18 22:31:38+0000">May 18, 2017 10:31 pm</time></a>
+    </p>
+    </ul>
+    <ul id="tweets">
+      
+    <li class="my-tweet">
+      <p>Exciting to welcome Nelly Ben Hayoun to The Jazz Age! <a class="twitter-screen-name" href="https://twitter.com/cooperhewitt" target="_blank" rel="nofollow">&#x40;cooperhewitt</a> @baumstagram @nellybenhayoun… <a href="https://twitter.com/i/web/status/865332063171481601" target="_blank" rel="nofollow">twitter.com/i/web/status/86533&hellip;</a><a href="http://twitter.com/ellenLupton/status/865332063171481601"> — posted <time datetime="2017-05-18 22:23:35+0000">May 18, 2017 10:23 pm</time></a>
+    </p>
+    <li class="my-tweet">
+      <p>Thanks @rgd for tonite&#039;s online book club chat. Behind me, Self-Portrait w/Choc Cske, 1982. @papress @mica_gd… <a href="https://twitter.com/i/web/status/864638097019023360" target="_blank" rel="nofollow">twitter.com/i/web/status/86463&hellip;</a><a href="http://twitter.com/ellenLupton/status/864638097019023360"> — posted <time datetime="2017-05-17 00:26:01+0000">May 17, 2017 12:26 am</time></a>
+    </p>
+    </ul>
+  </div></li>  <div class="clear"></div>
+</div>
+  <div class="clear"></div>
+  <div class="section" id="map">
+    <h2>Site Map</h2>
+              <ul class="mapcolumn" style="margin-left: 0px;">
+                <li><a href="http://thinkingwithtype.com/letter/"><b>Letter</b></a></li>
+                  <li>
+            <a href="http://thinkingwithtype.com/letter/#anatomy">
+                              Anatomy                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/letter/#size">
+                              Size                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/letter/#scale">
+                              Scale                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/letter/#type-classification">
+                              <i>Type Classification</i>
+                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/letter/#type-families">
+                              Type Families                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/letter/#superfamilies">
+                              Superfamilies                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/letter/#caps-and-small-caps">
+                              Caps and Small Caps                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/letter/#mixing-typefaces">
+                              Mixing Typefaces                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/letter/#punctuation">
+                              Punctuation                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/letter/#typeface-design">
+                              Typeface Design                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/letter/#project-letterforms">
+                              <i>Project: Letterforms</i>
+                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/letter/#font-formats">
+                              Font Formats                          </a>
+          </li>
+              </ul>
+          <ul class="mapcolumn" style="margin-left: 240px;">
+                <li><a href="http://thinkingwithtype.com/text/"><b>Text</b></a></li>
+                  <li>
+            <a href="http://thinkingwithtype.com/text/#kerning">
+                              Kerning                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/text/#tracking">
+                              Tracking                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/text/#project-space-and-meaning">
+                              <i>Project: Space and Meaning</i>
+                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/text/#line-spacing">
+                              Line Spacing                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/text/#alignment">
+                              Alignment                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/text/#project-alignment">
+                              <i>Project: Alignment</i>
+                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/text/#vertical-text">
+                              Vertical Text                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/text/#making-paragraphs">
+                              Making Paragraphs                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/text/#enlarged-capitals">
+                              Enlarged Capitals                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/text/#heirarchy">
+                              Heirarchy                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/text/#project-heirarchy">
+                              <i>Project: Heirarchy</i>
+                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/text/#project-long-lists">
+                              <i>Project: Long Lists</i>
+                          </a>
+          </li>
+              </ul>
+          <ul class="mapcolumn" style="margin-left: 480px;">
+                <li><a href="http://thinkingwithtype.com/grid/"><b>Grid</b></a></li>
+                  <li>
+            <a href="http://thinkingwithtype.com/grid/#golden-section">
+                              Golden Section                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/grid/#multicolumn-grid">
+                              Multicolumn Grid                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/grid/#modular-grid">
+                              Modular Grid                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/grid/#project-modular-grid">
+                              <i>Project: Modular Grid</i>
+                          </a>
+          </li>
+              </ul>
+          <ul class="mapcolumn" style="margin-left: 720px;">
+                <li><a href="http://thinkingwithtype.com/extras/"><b>Extras</b></a></li>
+                  <li>
+            <a href="http://thinkingwithtype.com/extras/#type-crimes">
+                              Type Crimes                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/extras/#tools-for-teachers">
+                              Tools for Teachers                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/extras/#editing">
+                              Editing                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/extras/#editing-hard-copy">
+                              Editing Hard Copy                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/extras/#editing-soft-copy">
+                              Editing Soft Copy                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/extras/#proofreading">
+                              Proofreading                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/extras/#bibliography">
+                              Bibliography                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/extras/#about-the-author">
+                              About the Author                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/extras/#about-the-website">
+                              About the Website                          </a>
+          </li>
+                  <li>
+            <a href="http://thinkingwithtype.com/extras/#events-ellen-lupton">
+                              Events: Ellen Lupton                          </a>
+          </li>
+              </ul>
+      </div>
+  <div id="footer">
+    <p></p>
+      <p>
+        Copyright 2009. All content property of Ellen Lupton unless otherwise noted.
+        <a href="/contents/extras/#about_the_website">About this website</a>
+      </p>
+    <p></p>
+    <div id="bottomsearch">
+      <form role="search" method="get" id="searchform" class="searchform" action="http://thinkingwithtype.com/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form>    </div>
+  </div>
+</div>
+<div id="footbar"></div>
+<script type='text/javascript' src='http://thinkingwithtype.com/wp-includes/js/wp-embed.min.js?ver=4.7.5'></script>
+</body>
+<script src="/wp-content/themes/thinkingwithtype/javascript/scripts.js" type="text/javascript"></script>
+<script src="/wp-content/themes/thinkingwithtype/javascript/flash-handler.js" type="text/javascript"></script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18724694-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</html>

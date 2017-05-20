@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="OpenRefine : A free, open source, power tool for working with messy data" />
+
+    <link rel="stylesheet" href="http://www.openrefine.org/css/screen.css" type="text/css" media="screen">
+  <!--[if lte IE 9]>
+    <script src="http://www.openrefine.orgjs/respond.min.js" type="text/javascript"</script>
+  <![endif]-->
+    <title>OpenRefine</title>
+
+<script type="text/javascript">
+  (function() {
+    var cx = '015379524541736921826:xdityt6werw'; // OpenRefine ID for Google Custom Search
+    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+  })();
+  
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35838111-1']); // openrefine.org tracker for new OpenRefine account
+  _gaq.push(['_setDomainName', 'openrefine.org']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['b._setAccount', 'UA-18609474-2']); // openrefine.org tracker for old Google Refine account
+  _gaq.push(['b._setDomainName', 'openrefine.org']);
+  _gaq.push(['b._trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </head>
+
+<body>
+  
+  <div id="header">
+  <div class="inner-content">
+    <div id="social">
+      <span>Follow us on:</span>
+      <a class="github" href="https://github.com/OpenRefine/OpenRefine">Github</a>
+      <a class="twitter" href="http://twitter.com/openrefine">Twitter</a>
+    </div>
+    <div>
+      <gcse:searchbox-only newWindow="true" ></gcse:searchbox-only>
+    </div>
+  </div>
+</div>
+
+  
+<div id="banner">
+  <div class="inner-content">
+    <div class="copy">
+      <h1></h1>
+      <p class="intro">A free, open source, powerful tool for working with messy data</p>
+    </div>
+  </div>
+</div>  
+
+<div class="page-type-subnav">
+  <div id="subnav">
+      <h2><a href="http://www.openrefine.org/index.html">Home</a><h2>
+    <h2><a href="http://www.openrefine.org/download.html">Download</a></h2>
+    <h2><a href="http://www.openrefine.org/documentation.html">Documentation</a><h2>
+    <h2><a href="http://www.openrefine.org/community.html">Community</a><h2>
+    <h2><a href="http://www.openrefine.org/blog.html">Post archive</a></h2>
+    <ul class="bordered-list">
+      
+      <li>
+        <a href="http://www.openrefine.org/2016/03/21/OpenRefine-20News-253A-20Spring-202016.html">OpenRefine News: Spring 2016</a>
+      </li>
+      
+      <li>
+        <a href="http://www.openrefine.org/2016/01/08/OpenRefine-News-3A-December-2015.html">OpenRefine News: December 2015</a>
+      </li>
+      
+      <li>
+        <a href="http://www.openrefine.org/2015/12/04/OpenRefine-News-November-2015.html">OpenRefine News: November 2015</a>
+      </li>
+      
+      <li>
+        <a href="http://www.openrefine.org/2015/11/11/OpenRefine-News-October-2015.html">OpenRefine News: October 2015</a>
+      </li>
+      
+      <li>
+        <a href="http://www.openrefine.org/2015/10/13/OpenRefine-News-September-2015.html">OpenRefine News: September 2015</a>
+      </li>
+      
+      <li>
+        <a href="http://www.openrefine.org/2015/09/04/OpenRefine-News-August-2015.html">OpenRefine News: August 2015</a>
+      </li>
+      
+      <li>
+        <a href="http://www.openrefine.org/2015/08/07/OpenRefine-News-July-2015.html">OpenRefine News: July 2015</a>
+      </li>
+      
+      <li>
+        <a href="http://www.openrefine.org/2015/07/01/OpenRefine-News-June-2015.html">OpenRefine News: June 2015</a>
+      </li>
+      
+      <li>
+        <a href="http://www.openrefine.org/2015/01/26/Mapping-OpenRefine-ecosystem.html">Mapping OpenRefine Ecosystem</a>
+      </li>
+      
+      <li>
+        <a href="http://www.openrefine.org/2014/08/29/2014-survey-results.html">2014 survey results</a>
+      </li>
+      
+      <li>
+        <a href="http://www.openrefine.org/2014/04/27/a_governance_model_for_OpenRefine.html">A Governance Model for OpenRefine</a>
+      </li>
+      
+      <li>
+        <a href="http://www.openrefine.org/2013/11/05/using_openrefine.html">Using OpenRefine: a manual</a>
+      </li>
+      
+      <li>
+        <a href="http://www.openrefine.org/2013/10/12/openrefine-history.html">OpenRefine History</a>
+      </li>
+      
+    </ul>
+    <!-- Twitter timeline from @tfmorris account? -->
+<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/search?q=OpenRefine+OR+%22Open+Refine%22+OR+%22Google+Refine%22+OR+googlerefine" data-widget-id="309777825588711424">Tweets about OpenRefine</a>
+<a class="jprofiler" href="http://www.ej-technologies.com/products/jprofiler/overview.html">Enhanced with Java profiler<img alt="Java profiler" src="https://www.ej-technologies.com/images/product_banners/jprofiler_large.png"></a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  
+  </div>  
+
+
+<div id="content">
+  <div class="inner-content">
+
+  <h1 id="welcome">Welcome!</h1>
+
+<p>OpenRefine (formerly Google Refine) is a powerful tool for working with messy data: 
+cleaning it; transforming it from one format into another; and extending it with 
+web services and external data.</p>
+
+<p>Please note that since October 2nd, 2012, Google is not actively supporting 
+this project, which has now been rebranded to OpenRefine. Project development,
+ documentation and promotion is now fully supported by volunteers. Find out
+ more about the
+ <a href="http://www.openrefine.org/2013/10/12/openrefine-history.html">history of OpenRefine</a> 
+and how you can <a href="http://www.openrefine.org/community">help the community</a>.</p>
+
+<h1 id="using-openrefine---the-book">Using OpenRefine - The Book</h1>
+<div style="float: left ; margin-right: 10px"><img src="https://raw.github.com/OpenRefine/openrefine.github.com/master/images/using-openrefine.jpg" width="150" /></div>
+
+<p><strong><a href="http://www.packtpub.com/openrefine-guide-for-data-analysis-and-linking-dataset-to-the-web/book">Using OpenRefine</a></strong>, by Ruben Verborgh and Max De Wilde, offers a great introduction to OpenRefine. Organized by recipes with hands on examples, the book covers the following topics:</p>
+
+<ol>
+  <li>Import data in various formats</li>
+  <li>Explore datasets in a matter of seconds</li>
+  <li>Apply basic and advanced cell transformations</li>
+  <li>Deal with cells that contain multiple values</li>
+  <li>Create instantaneous links between datasets</li>
+  <li>Filter and partition your data easily with regular expressions</li>
+  <li>Use named-entity extraction on full-text fields to automatically identify topics</li>
+  <li>Perform advanced data operations with the General Refine Expression Language</li>
+</ol>
+
+<h1 id="introduction-to-openrefine">Introduction to OpenRefine</h1>
+
+<h2 id="1-explore-data">1. Explore Data</h2>
+
+<p>OpenRefine can help you explore large data sets with ease. You can find out 
+more about this functionality by watching the video below and going through 
+<a href="http://googlerefine.blogspot.ca/search/label/data%20exploration">these articles</a></p>
+
+<div class="video-wrapper">
+ <iframe width="500" height="400" src="http://www.youtube.com/embed/B70J_H_zAWM" frameborder="0"> </iframe>
+</div>
+
+<h2 id="2-clean-and-transform-data">2. Clean and Transform Data</h2>
+
+<div class="video-wrapper">
+ <iframe width="500" height="400" src="http://www.youtube.com/embed/cO8NVCs_Ba0" frameborder="0"> </iframe>
+</div>
+
+<h2 id="3-reconcile-and-match-data">3. Reconcile and Match Data</h2>
+
+<p>OpenRefine can be used to link and extend your dataset with various webservices. 
+Some services also allow OpenRefine to upload your cleaned data to a central database.
+A growing list of extensions and plugins is
+<a href="https://github.com/OpenRefine/OpenRefine/wiki/Reconcilable-Data-Sources">available on the wiki</a>.</p>
+
+<div class="video-wrapper">
+ <iframe width="500" height="400" src="http://www.youtube.com/embed/5tsyz3ibYzk" frameborder="0"> </iframe>
+</div>
+
+
+  </div>
+</div>
+</div>
+
+  <footer id="footer">
+<div class="inner-content">
+    <p class="first-child">Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+    <p class="last-child"><a href="https://github.com/Wolfr/cactus-jekyll-theme">Cactus Theme</a> by <a href="http://www.wolfslittlestore.be">Wolf's Little Store</a></p>
+</div>
+</footer>
+
+
+</body>

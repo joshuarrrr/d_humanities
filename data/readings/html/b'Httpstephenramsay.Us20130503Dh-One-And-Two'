@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="author" content="Stephen Ramsay">
+  <meta name="description" content="The reasons 'DH-ers' and their detractors talk past each other, is because they're operating with two different versions of DH">
+  <meta name="keywords" content=
+  "Stephen Ramsay, blog, digital humanities">
+
+  <title>DH Types One and Two</title>
+	<link href='http://fonts.googleapis.com/css?family=Lekton:400,700|Source+Sans+Pro|Source+Code+Pro|Alegreya:400italic,700italic,400,700|Alegreya+SC:400,700,700italic|Molengo' rel='stylesheet' type='text/css'>
+  <link rel="icon" type="image/png" href="/favicon.ico">
+  <link href="/atom.xml" type="application/atom+xml" rel=
+  "alternate" title="Sitewide ATOM Feed">
+  <link rel="stylesheet" media="screen" href="/css/screen.css" type="text/css">
+	<script src="/js/html5shiv.js" type="text/javascript"></script>
+	<script src="/js/analytics.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <div id="container">
+    <header>
+	<span id="title_string"><a href="/">Stephen Ramsay</a></span>&nbsp;&nbsp;&nbsp; <span id="nav"><a href="/">Home</a></span><br>
+</header>
+
+<article>
+	<h1 class="page_title">DH Types One and Two</h1>
+	<p><span class="sc">I just got done</span> with a good twenty-four hours of arguing with people online about digital humanities.  It’s not the first time I’ve done this.  I’ve been caught up in what some call “the <span class="sc">dh</span> meta-discussion” before, and since my own work is mostly devoted to that discussion, I fully expect to be caught up in it again.</p>
+
+<p>But I never feel good about it afterward, and when I reflect on why there is so much rancor (on both sides, a good deal of it coming from me), I sense that we are all talking past one another.</p>
+
+<p>The reason for this, I think, is that there are really two definitions of <span class="sc">dh</span> being bandied about.</p>
+
+<p>What I will call Type I <span class="sc">dh</span> is the community (and yes, it is a community) of people who formed around the <abbr title="Text Encoding Initiative"><span class="sc">tei</span></abbr> Consortium, the Association for Literary and Linguistic Computing, the Association for Computers in the Humanities, and the Consortium for Computing in the Humanities in the early nineties.  The organizations (and the communities) are all much older than that, and some of them have been re-named.  There have also been a few organizations added to the list, and all of them have been placed under the umbrella of <span class="sc">adho</span> (the Alliance of Digital Humanities Organizations).  There were other groups, too, that were clearly engaged in cognate pursuits.  “Digital history,” for example, had perhaps less of an organizational identity, but was no less vibrant.  There were other (very strong) areas like “digital archeology,” and while there was perhaps less communication and cross-fertilization among some of these groups, most of the people I knew lamented that fact.  But most people in this general line of work acknowledged that we were fellow travelers, and accepted the term “humanities computing” as an accurate way to describe their related endeavors.  There were different terms used in languages other than English, of course, but since the yearly conferences were mainly conducted in English, that was the term everyone used.</p>
+
+<p>This community was strongly (I would even say admirably) multi-disciplinary.  They were united not by objects of study, per se, but by a set of practices that most regarded as intimately related: text encoding, archive creation, text analysis, historical <abbr title="Geographical Information System"><span class="sc">gis</span></abbr>, <abbr title="Three Dimensional">3<span class="sc">d</span></abbr> modeling of archaeological sites, art historical cataloging, visualization, and general meditation on what all of these new affordances might mean for the study of the human record.  This is the community that I’ve identified with throughout my entire career.</p>
+
+<p>Some time in early 2001, this community fatefully decided to call itself “digital humanities.”  The reasons for that were fairly quotidian – “humanities computing” was thought to be too evocative of campus technical support groups, and a publisher had suggested that an early edited volume of essays by long-time members of the community (what became the <em>Blackwell Companion)</em> might be better off with a different title.  But the term was also thought to be useful because it distinguished our activity from media studies, which was very obviously a different thing entirely (even if it was, at the same time, a subject of enduring interest to us – as it is today).  Some time around 2003 or so, we all stopped calling it <span class="sc">hc</span> and started calling it <span class="sc">dh</span>.</p>
+
+<p>For most of the history of <span class="sc">hc</span>/<span class="sc">dh</span>, there was an incredible amount of anxiety over whether our activities would be accepted in the academy.  Two of my advisers were adamant; I should only be doing this as a sideline.  But at some point – again around 2003 – jobs started to appear in the area.  To my astonishment, I got one (at the University of Georgia).</p>
+
+<p>I don’t know exactly how it happened (I suspect the creation of the Office of Digital Humanities at <abbr title="National Endowment for the Humanities"><span class="sc">neh</span></abbr> played a role), but at some point “digital humanities” broke free of its status as a community label, and became a signifier both for a very broad constellation of scholarly endeavors, and for a certain revolutionary disposition that had overtaken the academy.  Media studies practitioners were digital humanists; people who had devoted several decades to digital pedagogy were digital humanists; cultural critics who were interested in Internet culture were digital humanists; and digital artists of a certain variety were digital humanists.  In these latter days, things like <abbr title="Massive Open Online Course"><span class="sc">mooc</span></abbr>s (which, from the standpoint of most of the Type I <span class="sc">dh</span>-ers I know is both a disquieting development and one completely outside their historical concerns) is also “digital humanities.”  And in some sense, all of this makes perfect sense to me.  “Digital humanities” doesn’t sound like a set of practices; it sounds like the recreation of the humanities itself after some technological event horizon.  Or, less grandly, it sounds like what one unacquainted with the whole issue might think it is: humanistic inquiry that in some way relates to the digital.</p>
+
+<p>I would like to call this latter form of <span class="sc">dh</span> Type II <span class="sc">dh</span> (without meaning to imply that it is secondary).  And since that second variety emerged, practitioners of <span class="sc">dh</span> I and II (and detractors of both) have been fighting a bitter ideological war.</p>
+
+<p>I think this explains most of the fights we’ve had over the last few years.  I – really, with a startling lack of forethought – got up (at <abbr title="Modern Language Association"><span class="sc">mla</span></abbr>) and said that <span class="sc">dh</span> is mostly about building things.  That is, I think, true if you are talking about Type I <span class="sc">dh</span>.  But it is certainly not true if you’re talking about Type II.  Richard Grusin (whose work I have admired since grad school) was, I think, quite insulted by my assertions.  In his remarks at a panel entitled “The Dark Side of <span class="sc">dh</span>,” he (somewhat sarcastically) noted that he had “learned (during <span class="sc">mla</span>11) that he was not a digital humanist because he didn’t code.”  But, of course, he was talking about <span class="sc">dh</span> II (of which he is obviously a member).</p>
+
+<p>That whole panel, in fact, was about <span class="sc">dh</span> II.  They might have had their quibbles with <span class="sc">dh</span> I, but I don’t think that was what occasioned the panel (they spoke, for example, about the way a certain revolutionary fervor was leading administrators into highly questionable territory).  But the result was, in retrospect, entirely predictable.  I am told that Amanda French got up and said something like, “I don’t recognize <span class="sc">dh</span> in what you are describing.”  Of course not.  She was thinking of <span class="sc">dh</span> I; the panelists were (mostly) critiquing <span class="sc">dh</span> II.</p>
+
+<p>But to be honest, it’s hard for those of us who have been “doing <span class="sc">dh</span>” (I) for a long time to hear our field being declared the downfall of the humanities as we know it.  We are blamed for <span class="sc">mooc</span>s.  We are blamed for the corporatization of the academy.  We are accused of being neo-liberals.  We are consistently told that we are hostile to “theory” and cultural studies.</p>
+
+<p>As this torrent of abuse is coming down upon our heads, “<span class="sc">dh</span> I-ers” are thinking of the Perseus Digital Library; of the <span class="sc">tei</span>; of Ted Underwood and Matt Jocker’s work on large text corpora; of the Rome Reborn project and the Orlando Project; of Race and Place and of the Codex Sinaiticus Project; of the Blake, Dickinson, Whitman, Wittgenstein, Ibsen, and Rossetti archives; of Voice of the Shuttle; of Neatline, Zotero, Voyant, <abbr title="Computer-Aided Textual Markup and Analysis"><span class="sc">catma</span></abbr>, <abbr title="Text Analysis Portal for Research">TAP<span class="sc">o</span>R</abbr>, and TokenX; of author attribution studies and computational stylometry; of the quest to discover a “humanities visualization” as distinct from scientific visualization.  I hope you’ll forgive me for not adding 400 items to this list.  We are also wondering how any of this is hostile toward what Brian Lennon – one of the most brutal critics of <span class="sc">dh</span> (II, I think, though he might hate both) I’ve ever encountered – once characterized as “intellectual history and its human languages.”  Really?</p>
+
+<p>But then, I suspect he and others aren’t reacting so much to these specific works as they are to the boosterism and enthusiasm (if not outright mania) that has enveloped the entire academy over “digital humanities.”  Certainly, most of the people doing “digital humanities” have taken full advantage of these developments, and I can see why that would seem to some . . . unseemly.  But people who do, say, text analysis, are both astonished and pleased to see their work in the <em>New York Times</em>.  Would a medievalist not experience both sensations if medieval studies were declared the “hot thing?”</p>
+
+<p>Of course, most of us see no possibility of that, and that too is a source of great indignation.  I am also a humanist; I also find it dispiriting to think that most of what goes on in the humanities is barely noticed by anyone, and I am as worried as anyone else about shrinking budgets and declining enrollments.  But here’s one thing of which I am certain: DH I, II, III, V, and whatever comes after it will pass away.  So too will the discourses in which I was trained: critical theory, gender studies, New Historicism, and the like.  None of them will disappear, of course, but they will all cease to be the white hot center of the academy.  These approaches to the study of human culture all forcefully displaced the approaches that dominated before them.  They too will be displaced (I severely doubt that <span class="sc">dh</span> I will be the force that does this, but others will surely disagree).  It’s not clear to me that English Studies (which is one of the younger academic disciplines) will survive for another hundred years.  The modern academy is nothing like it was a hundred years ago, and we would do well to remember that for most of the last three-hundred years, the now-dominant discourses of Science were not considered appropriate university subjects at all.  The academy isn’t even like it was fifty years ago.  To think that what we have done in the last twenty or thirty years has established the intellectual content of the humanities forever is to commit a rather severe form of the modernist fallacy, even if most of us (myself included) would find the demise of cultural studies (for example) in all its ramified forms immensely distressing.  But I have a book on my shelf from the 1950s on what we would now call literary theory.  It talks with great moment and certainty about “existential criticism” as one of the major areas of study.  I don’t know anyone who does that.</p>
+
+<p>I also don’t know that I’ve done anything to calm the warring states period of <span class="sc">dh</span>.  But I would very much like to know what I’m being criticized for when I’m being attacked, and I would like to know what it is I am attacking when I am moved to respond.  As long as the term “digital humanities” continues to mean several different (sometimes contradictory) things, I think we are doomed to vent at each other in a way that probably isn’t very intellectually productive in the long run.</p>
+
+</article>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'stephenramsay'; // required: replace example with your forum shortname
+
+    // The following are highly recommended additional parameters. Remove the slashes in front to use.
+    // var disqus_identifier = "dh-one-and-two"
+    // var disqus_url = 'http://example.com/permalink-to-page.html';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script');
+				dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+		<footer>
+    <small>
+        <br>
+        <a id="atomfeed" href="/atom.xml" rel="alternate" type=
+        "application/atom+xml"><img id="feed-badge" src="/images/feed-icon-14x14.png" alt=""></a>&nbsp;<a href=
+        "/atom.xml" rel="alternate" type=
+        "application/atom+xml"><span class=
+        "bullet">Subscribe</span></a><br class="clear">
+        <a href=
+        "http://creativecommons.org/licenses/by/3.0/us/"><img class="badge"
+        src="/images/cc-badge.png" alt=""></a>
+
+			<p>This blog is the work of Stephen Ramsay, and, unless
+        otherwise indicated, is licensed under a Creative Commons
+        Attribution 3.0 United States license <a href=
+        "http://creativecommons.org/licenses/by/3.0/us/">(CC-BY
+				3.0)</a></p>
+    </small>
+	</footer>
+		<br>
+  </div>
+</body>
+</html>

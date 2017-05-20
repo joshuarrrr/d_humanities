@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://guide.airtable.com/xmlrpc.php" />
+		<link rel="icon" href="https://guide.airtable.com/wp-content/uploads/2016/05/favicon.png" type="image/x-icon"/>
+	
+	<!-- For some reason the webfont in theme.css wasn't loading, so I'm going to just dump this CDN'd version here -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+	<!--[if lt IE 9]>
+	<script src="https://guide.airtable.com/wp-content/themes/cedar/assets/js/html5shiv.min.js"></script>
+	<![endif]-->
+
+	<title>Airtable Guide</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v2.3.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://guide.airtable.com/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Airtable Guide" />
+<meta property="og:url" content="https://guide.airtable.com/" />
+<meta property="og:site_name" content="Airtable Guide" />
+<meta property="og:image" content="https://guide.airtable.com/wp-content/uploads/2015/09/iconsNoBg-01.png" />
+<meta property="og:image" content="https://guide.airtable.com/wp-content/uploads/2015/09/iconsNoBg-02.png" />
+<meta property="og:image" content="https://guide.airtable.com/wp-content/uploads/2015/09/iconsNoBg-03.png" />
+<meta property="og:image" content="https://guide.airtable.com/wp-content/uploads/2015/09/iconsNoBg-04.png" />
+<meta property="og:image" content="https://guide.airtable.com/wp-content/uploads/2015/08/iconsNobg-04.png" />
+<meta property="og:image" content="https://guide.airtable.com/wp-content/uploads/2015/09/iconsNoBg-05.png" />
+<meta property="og:image" content="https://guide.airtable.com/wp-content/uploads/2015/09/iconsNoBg-06.png" />
+<meta property="og:image" content="https://guide.airtable.com/wp-content/uploads/2015/09/iconsNoBg-07.png" />
+<meta property="og:image" content="https://guide.airtable.com/wp-content/uploads/2015/09/iconsNoBg-08.png" />
+<meta property="og:image" content="https://guide.airtable.com/wp-content/uploads/2015/09/header-images-142.png" />
+<meta property="og:image" content="https://guide.airtable.com/wp-content/uploads/2015/09/header-images-152.png" />
+<meta property="og:image" content="https://guide.airtable.com/wp-content/uploads/2015/09/header-images-162.png" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Airtable Guide"/>
+<meta name="twitter:site" content="@airtable"/>
+<meta name="twitter:domain" content="Airtable Guide"/>
+<meta name="twitter:image" content="/wp-content/uploads/2015/09/iconsNoBg-01.png"/>
+<meta name="twitter:creator" content="@airtable"/>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"https:\/\/guide.airtable.com\/","name":"Airtable","potentialAction":{"@type":"SearchAction","target":"https:\/\/guide.airtable.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Organization","url":"https:\/\/guide.airtable.com\/","sameAs":["https:\/\/www.facebook.com\/airtableapp","https:\/\/www.linkedin.com\/company\/airtable\/","https:\/\/www.youtube.com\/channel\/UCHH6_KYYWUYaWzD5CPNQ6ng","https:\/\/twitter.com\/airtable"],"name":"Airtable","logo":"https:\/\/guide.airtable.com\/wp-content\/uploads\/2015\/09\/logo_with_words.png"}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Airtable Guide &raquo; Feed" href="https://guide.airtable.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Airtable Guide &raquo; Comments Feed" href="https://guide.airtable.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Airtable Guide &raquo; Guide to Airtable Comments Feed" href="https://guide.airtable.com/sample-page/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/guide.airtable.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='ecko_plugin_css-css'  href='https://guide.airtable.com/wp-content/plugins/eckoplugin/assets/css/eckoplugin.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='pc_google_analytics-frontend-css'  href='https://guide.airtable.com/wp-content/plugins/pc-google-analytics/assets/css/frontend.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-lightbox-nivo_lightbox-css-css'  href='https://guide.airtable.com/wp-content/plugins/responsive-lightbox-lite/assets/nivo-lightbox/nivo-lightbox.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-lightbox-nivo_lightbox-css-d-css'  href='https://guide.airtable.com/wp-content/plugins/responsive-lightbox-lite/assets/nivo-lightbox/themes/default/default.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='tt-easy-google-fonts-css'  href='https://fonts.googleapis.com/css?family=%3A&#038;subset=latin%2Call&#038;ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='ecko_css-css'  href='https://guide.airtable.com/wp-content/themes/cedar/style.css?ver=2.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='cedar_fonts-css'  href='//fonts.googleapis.com/css?family=Noto+Serif%3A400%2C700%7CMontserrat%7CVarela+Round%7COxygen&#038;ver=cedar' type='text/css' media='all' />
+<link rel='stylesheet' id='sccss_style-css'  href='https://guide.airtable.com?sccss=1&#038;ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='MWM-AAL-FRONT-CSS-css'  href='https://guide.airtable.com/wp-content/plugins/better-anchor-links/css/mwm-aal.css?ver=1.2.0' type='text/css' media='screen' />
+<script type='text/javascript' src='https://guide.airtable.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://guide.airtable.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://guide.airtable.com/wp-content/plugins/pc-google-analytics/assets/js/frontend.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://guide.airtable.com/wp-content/plugins/responsive-lightbox-lite/assets/nivo-lightbox/nivo-lightbox.min.js?ver=4.7.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var rllArgs = {"script":"nivo_lightbox","selector":"lightbox","custom_events":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://guide.airtable.com/wp-content/plugins/responsive-lightbox-lite/assets/inc/script.js?ver=4.7.5'></script>
+<link rel='https://api.w.org/' href='https://guide.airtable.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://guide.airtable.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://guide.airtable.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7.5" />
+<link rel='shortlink' href='https://guide.airtable.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://guide.airtable.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fguide.airtable.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://guide.airtable.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fguide.airtable.com%2F&#038;format=xml" />
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+		ga('create', 'UA-55182693-1', 'auto');
+		ga('send', 'pageview');
+		
+		</script>
+ 
+			<meta property="fb:app_id" content="" /> 
+			<meta property="fb:admins" content="" /> 
+			 
+			<meta property="og:site_name" content="Airtable Guide" /> 
+			<meta property="og:description" content="" /> 
+			<meta property="og:type" content="website" /> 
+			<meta property="og:image" content="https://guide.airtable.com/wp-content/uploads/2015/09/guide-logo.png" /> 
+			 
+					<style type="text/css">
+
+				
+													body.home .cover{ height: 77vh; }
+													body.home .cover .background{ opacity: 1; }
+													body.home .cover .blogtitle{ text-align:center; }
+					body.home .cover hr{ margin:0 auto; }
+													body.home .cover .mouse { visibility: hidden !important; }
+								
+																	nav.main ul li.searchnav{ display:none; }
+													nav.main ul li.drawernav{ display:none; }
+				
+								
+													.postlist article .author{ display:none; }
+					.postlist article .excerpt{ margin-bottom:0; }
+													.postlist article .meta .date{ display:none; }
+					.postitem .meta .readtime:before{ content:''; }
+																					.postlist article .excerpt{ display:none; }
+													.postlist article .category{ display:none; }
+													.pagination .page-numbers{ display:none; }
+				
+																	body.single .postbottom .shareoptions .sharebuttons{ display:none; }
+													body.single .postbottom .info .tags{ display:none; }
+													body.single .postbottom .shareoptions .permalink{ display:none; }
+													body.single .info .category{ display:none; }
+													body.single .pagewrapper .widget.authorprofile{ display:none; }
+													body.single .comments{ display:none; }
+				
+																	body.page .postbottom .shareoptions .sharebuttons{ display:none; }
+													body.page .postbottom .info .tags{ display:none; }
+													body.page .postbottom .shareoptions .permalink{ display:none; }
+													body.page .info .category{ display:none; }
+													body.page .pagewrapper .widget.authorprofile{ display:none; }
+													body.page .comments{ display:none; }
+				
+													body.single .pagewrapper{ padding-bottom:0; }
+					footer.main{ padding-bottom:100px; }
+						
+																	footer.main .social{ display:none; }
+				
+													footer.postinfo{ display:none !important; }
+					body.single .pagewrapper { padding-bottom: 0; }
+													footer.postinfo .authorinfo .authorname{ display:none; }
+													footer.postinfo .authordate{ display:none; }
+													footer.postinfo .postoptions .showcomments{ display:none; }
+													footer.postinfo .postoptions .showsocial{ display:none; }
+				
+																	.copyright .wordpress{ display:none !important; }
+													.copyright .ecko{ display:none !important; }
+				
+								
+			 </style>
+				<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<link rel="icon" href="https://guide.airtable.com/wp-content/uploads/2016/09/cropped-logo@512-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://guide.airtable.com/wp-content/uploads/2016/09/cropped-logo@512-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://guide.airtable.com/wp-content/uploads/2016/09/cropped-logo@512-180x180.png" />
+<meta name="msapplication-TileImage" content="https://guide.airtable.com/wp-content/uploads/2016/09/cropped-logo@512-270x270.png" />
+			
+							<style id="tt-easy-google-font-styles" type="text/css">
+			
+																						.postcontents, .postcontents p, .postcontents ul, .postcontents ol, .postcontents .annotation .main p, .postlist article.format-status .content > p:first-child, .postitem .excerpt, .widget p {
+													}
+								
+																										 {
+													}
+								
+																										li.comment .body p, .comment-respond textarea, footer.postinfo .authorinfo, body, textarea, .widget.twitter .text  {
+													}
+								
+																										.altpageheader, .authortitle h3, header.bloginfo .title, .blogtitle h1, .blogtitle .description, .categorytitle .name, .categorytitle p, .commentheader, li.comment h4, footer.main .copyright .main, footer.postinfo .relatedposts .title, .postcontents h1, .postcontents h2, .postcontents h3, .postcontents .annotation .main h5, .posttitle .excerpt, .searchoverlay form input, .widget.blog_info h1, .widget.latestposts h5, .widget.copyright .main, .drawer .widget.authorprofile .meta h3 a {
+													}
+								
+																										.altpageheader .postcount, .commentheader .commentcount, .commentitems .notification, li.comment .meta .info, li.comment .buttons a, li.comment .buttons span, .comment-respond, footer.main .copyright .alt, footer.postinfo .postoptions , footer.postinfo .relatedposts span , .tags a, .tagcloud a, nav.main ul a, nav.main ul span , nav.pagination .previous, nav.pagination .next, nav.pagination ul.page-numbers li, body.single-post .widget.authorprofile .meta .title, body.page .widget.authorprofile .meta .title, .authortitle .meta .title, body.single-post .widget.authorprofile .meta .twittertag, body.page .widget.authorprofile .meta .twittertag, .authortitle .meta .twittertag, body.single-post .widget.authorprofile .meta h3 a, body.page .widget.authorprofile .meta h3 a, .authortitle .meta .meta h3 a, body.single-post .widget.authorprofile p, body.page .widget.authorprofile p, .authortitle .meta p, .postbottom .category, .postbottom .permalink, .postbottom .sharebuttons .li:first-child, .postcontents h4, .postcontents h5, .postcontents h6, .wide blockquote, blockquote, .postlist article.format-quote .content > blockquote:first-child, .postlist article.format-quote .content > blockquote:first-child cite, .postitem .meta .category a, .postitem .meta .date a, .postitem .meta .readtime a, .postitem .meta .issticky a, .postitem h1, .postitem h2, .postitem .author, .alert, .shortbutton, .shorttabs .shorttabsheader, .shortprogress .percentage, .widget .widget-title, .widget li a, .widget.navigation, .widget.twitter .author, .widget.twitter .date, .widget .searchform input, .widget.latestposts .category, .widget.relatedposts .feature:after, .widget.relatedposts h4 , .widget.subscribe input[type="email"], .widget.subscribe input[type="submit"], .widget.copyright .alt, .drawer .widget.authorprofile .meta .title, .drawer .widget.authorprofile .meta .twittertag, #wp-calendar  {
+													}
+								
+										
+							</style>
+						<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55182693-10', 'auto');
+  ga('send', 'pageview');
+</script>
+</head>
+
+<body class="home page-template-default page page-id-2" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+
+	
+	<header class="bloginfo headroom">
+		<div class="title">
+							<a href="https://guide.airtable.com"><img src="https://guide.airtable.com/wp-content/uploads/2016/09/guide_color.png" class="retina" alt="Airtable Guide"></a>
+					</div>
+		<nav class="main">
+			<div class="menu-contents-container"><ul id="menu-contents" class="menu"><li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-has-children menu-item-60"><a href="https://guide.airtable.com/">Table of Contents</a>
+<ul class="sub-menu">
+	<li id="menu-item-51" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51"><a href="https://guide.airtable.com/introduction-to-databases/">Overview</a></li>
+	<li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="https://guide.airtable.com/how-to-create-a-database/">Creating A Base</a></li>
+	<li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53"><a href="https://guide.airtable.com/columns-and-fields/">Setting Up Field Types</a></li>
+	<li id="menu-item-54" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-54"><a href="https://guide.airtable.com/creating-database-records/">Adding Records</a></li>
+	<li id="menu-item-544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-544"><a href="https://guide.airtable.com/linking-tables/">Linking Between Tables</a></li>
+	<li id="menu-item-56" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56"><a href="https://guide.airtable.com/collaborative-database/">Collaborating</a></li>
+	<li id="menu-item-324" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-324"><a href="https://guide.airtable.com/filtering-and-sorting-views/">Filtering &#038; Sorting</a></li>
+	<li id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a href="https://guide.airtable.com/public-web-database/">Publishing Views</a></li>
+	<li id="menu-item-58" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58"><a href="https://guide.airtable.com/advanced-database-management/">Advanced Tips</a></li>
+</ul>
+</li>
+</ul></div>			<ul>
+				<li class="option searchnav"><span class="showsearch"><i class="fa fa-search"></i></span></li>
+				<li class="option drawernav"><span class="showdrawer"><i class="fa fa-navicon"></i></span></li>
+			</ul>
+		</nav>
+	</header>	
+	<section class="searchoverlay">
+		<i class="fa fa-times closesearch"></i>
+		<form role="search" method="get" class="searchform" action="https://guide.airtable.com/">
+			<input type="text" value="" name="s" class="query" placeholder="Enter Search Query...">
+			<i class="fa fa-search submit"></i>
+		</form>
+	</section>	
+	<section class="drawer">
+		<i class="fa fa-times closedrawer"></i>
+						<section class="widget navigation">
+											<h3 class="widget-title">Contents</h3>
+						<hr>
+										<ul id="menu-contents-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-has-children menu-item-60"><a href="https://guide.airtable.com/">Table of Contents</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51"><a href="https://guide.airtable.com/introduction-to-databases/">Overview</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="https://guide.airtable.com/how-to-create-a-database/">Creating A Base</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53"><a href="https://guide.airtable.com/columns-and-fields/">Setting Up Field Types</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-54"><a href="https://guide.airtable.com/creating-database-records/">Adding Records</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-544"><a href="https://guide.airtable.com/linking-tables/">Linking Between Tables</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56"><a href="https://guide.airtable.com/collaborative-database/">Collaborating</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-324"><a href="https://guide.airtable.com/filtering-and-sorting-views/">Filtering &#038; Sorting</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a href="https://guide.airtable.com/public-web-database/">Publishing Views</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58"><a href="https://guide.airtable.com/advanced-database-management/">Advanced Tips</a></li>
+</ul>
+</li>
+</ul>				</section>
+			<section class="widget"><h3 class="widget-title">Categories</h3><hr>		<ul>
+<li class="cat-item-none">No categories</li>		</ul>
+</section>				<section class="widget subscribe">
+					<div class="inner">
+												<p></p>
+						<i class="fa fa-envelope-o"></i>
+											</div>
+				</section>
+							
+
+	<section class="widget copyright">
+		<p class="main">
+			 		</p>
+		<p class="alt">
+						<span class="ecko"><a target="_blank" href="http://ecko.me/themes/wordpress/cedar/">Cedar WordPress Theme</a> by <a target="_blank" href="http://ecko.me">EckoThemes</a>.</span>
+			<span class="wordpress">Published with <a target="_blank" href="http://wordpress.org">WordPress</a>.</span>
+					</p>
+	</section>	</section>
+	<main class="pagewrapper">
+		
+		
+	<section class="cover" style="background-color:#008EE6; height:50vh;" data-height="50" data-opacity="0.2">
+		<div class="background" style="background-image:url('');"></div>
+		
+	<header class="bloginfo transparent">
+		<div class="title">
+							<a href="https://guide.airtable.com"><img src="https://guide.airtable.com/wp-content/uploads/2016/09/guide_mono.png" class="retina" alt="Airtable Guide"></a>
+					</div>
+		<nav class="main light">
+			<div class="menu-contents-container"><ul id="menu-contents-2" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-has-children menu-item-60"><a href="https://guide.airtable.com/">Table of Contents</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51"><a href="https://guide.airtable.com/introduction-to-databases/">Overview</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="https://guide.airtable.com/how-to-create-a-database/">Creating A Base</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53"><a href="https://guide.airtable.com/columns-and-fields/">Setting Up Field Types</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-54"><a href="https://guide.airtable.com/creating-database-records/">Adding Records</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-544"><a href="https://guide.airtable.com/linking-tables/">Linking Between Tables</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56"><a href="https://guide.airtable.com/collaborative-database/">Collaborating</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-324"><a href="https://guide.airtable.com/filtering-and-sorting-views/">Filtering &#038; Sorting</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a href="https://guide.airtable.com/public-web-database/">Publishing Views</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58"><a href="https://guide.airtable.com/advanced-database-management/">Advanced Tips</a></li>
+</ul>
+</li>
+</ul></div>			<ul>
+				<li class="option searchnav"><span class="showsearch"><i class="fa fa-search"></i></span></li>
+				<li class="option drawernav"><span class="showdrawer"><i class="fa fa-navicon"></i></span></li>
+			</ul>
+		</nav>
+	</header>		<section class="postitem posttitle center wrapper middle">
+			<ul class="meta">
+								<li class="readtime"><a href="https://guide.airtable.com/">1 Min Read</a></li>
+				<li class="date"><a href="https://guide.airtable.com/"><time datetime="2015-08-13" itemprop="datePublished">13th August 2015</time></a></li>
+			</ul>
+			<h1 class="title" itemprop="name headline">Guide to Airtable</h1>
+							<p class="excerpt">Now that there’s a database you can actually use, here’s how you use it.</p>
+						<a href="https://guide.airtable.com/author/wpadmin/" class="author"><img src="//0.gravatar.com/avatar/de1b6c2a12c8361673e8b36591a72b1d?s=24" alt="wpadmin">wpadmin</a>
+		</section>
+		<div>
+			<div class="scroll"></div>
+		</div>
+	</section>
+
+
+		<section class="postcontents wrapper" itemprop="mainContentOfPage">
+			<div class="wide">
+
+<p style="text-align: center;">The comprehensive guide on how to use Airtable to organize anything.<br>(If you'd rather watch something, check out <a href="https://vimeo.com/165624533/472b9dcc9c">our overview video on getting started with Airtable</a>!)</p>
+
+<div class="grid">
+    <a id="overview" class="gridIcon" href="/introduction-to-databases/">
+        <img src="/wp-content/uploads/2015/09/iconsNoBg-01.png"/> 
+        <div class="iconText">Overview</div>
+    </a>
+    <a id="createDatabase" class="gridIcon" href="/how-to-create-a-database/">
+        <img src="/wp-content/uploads/2015/09/iconsNoBg-02.png"/>
+        <div class="iconText">Creating A Database</div>
+    </a>
+    <a id="fields" class="gridIcon" href="/columns-and-fields/">
+        <img src="/wp-content/uploads/2015/09/iconsNoBg-03.png"/>
+        <div class="iconText">Setting Up Field Types</div>
+    </a>
+    <a id="records" class="gridIcon" href="/creating-database-records/">
+        <img src="/wp-content/uploads/2015/09/iconsNoBg-04.png"/>
+        <div class="iconText">Adding Records</div>
+    </a>
+    <a id="linkingTables" class="gridIcon" href="/linking-tables/">
+        <img src="/wp-content/uploads/2015/08/iconsNobg-04.png" />
+        <div class="iconText">Linking Between Tables</div>
+    </a>
+    <a id="collaborate" class="gridIcon" href="/collaborative-database/">
+        <img src="/wp-content/uploads/2015/09/iconsNoBg-05.png"/>
+        <div class="iconText">Collaborating With A Team</div>
+    </a>
+    <a id="views" class="gridIcon" href="/filtering-and-sorting-views/">
+        <img src="/wp-content/uploads/2015/09/iconsNoBg-06.png"/>
+        <div class="iconText">Filtering And Sorting</div>
+    </a>
+    <a id="publish" class="gridIcon" href="/public-web-database/">
+        <img src="/wp-content/uploads/2015/09/iconsNoBg-07.png" />
+        <div class="iconText">Publishing Views</div>
+    </a>
+    <a id="advanced" class="gridIcon" href="/advanced-database-management/">
+        <img src="/wp-content/uploads/2015/09/iconsNoBg-08.png" />
+        <div class="iconText">Advanced Tips And Tricks</div>
+    </a>
+</div>
+
+<!-- 
+<h2 style="text-align: center;">Ways to use Airtable</h2>
+<p style="text-align: center;">Find out how to set up Airtable for exactly you want to do.</p>
+
+<div class="grid">
+    <a id="contacts" class="gridIcon" href="#">
+        <img src="/wp-content/uploads/2015/09/header-images-142.png" />
+        <div class="iconText">Managing Contacts</div>
+    </a>
+    <a id="trackingTasks" class="gridIcon" href="/project-management/">
+        <img src="/wp-content/uploads/2015/09/header-images-152.png" />
+        <div class="iconText">Tracking Tasks</div>
+    </a>
+    <a id="things" class="gridIcon" href="/#">
+        <img src="/wp-content/uploads/2015/09/header-images-162.png" />
+        <div class="iconText">Organizing Stuff</div>
+    </a>
+</div>
+-->
+<p>Not finding what you're looking for? Try <a href="http://support.airtable.com" target="_BLANK">searching the knowledgebase</a>, <a href="https://community.airtable.com/" target="_BLANK">visiting our community forum</a>, <a href="https://vimeo.com/airtable/collections" target="_BLANK">exploring our video gallery</a>, or <a target="_BLANK" href="mailto:support@airtable.com">ask us a question directly</a>.</p>
+
+</div>
+			<div class="post-numbers">
+							</div>
+		</section>
+
+		
+	<section class="postbottom wrapper">
+		<div class="info">
+			<div class="tags">
+							</div>
+					</div>
+		<div class="shareoptions">
+			<a href="https://guide.airtable.com/" class="permalink">Permalink: https://guide.airtable.com/</a>
+			<ul class="sharebuttons">
+				<li>Share:</li>
+				<li><a href="http://twitter.com/share?text=Guide+to+Airtable&amp;url=https://guide.airtable.com/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" class="socialdark twitter"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="https://www.facebook.com/sharer/sharer.php?u=https://guide.airtable.com/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" class="socialdark facebook"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://plus.google.com/share?url=https://guide.airtable.com/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" class="socialdark google"><i class="fa fa-google-plus"></i></a></li>
+				<li><a href="mailto:?body=https://guide.airtable.com/" class="socialdark email"><i class="fa fa-envelope"></i></a></li>
+			</ul>
+		</div>
+	</section>		
+	<section class="widget authorprofile">
+		<div class="wrapper">
+			<div class="info" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+								<a href="https://guide.airtable.com/author/wpadmin/" class="profile gravatar"><img src="//0.gravatar.com/avatar/de1b6c2a12c8361673e8b36591a72b1d?s=80" itemprop="image" alt="wpadmin" ></a>
+								<div class="meta">
+					<span class="title">Author</span>
+					<h3 itemprop="name">
+												<a href="https://guide.airtable.com/author/wpadmin/" itemprop="url" rel="author">wpadmin</a>
+											</h3>
+									</div>
+			</div>
+			<p></p>
+			<ul class="authorsocial">
+																																																																																			</ul>
+		</div>
+	</section>		
+		
+	
+	<section class="comments">
+
+		
+		<section id="comments" class="commentheader">
+			<div class="wrapper">
+				<i class="fa fa-comments-o"></i>
+				<span class="commenttitle">Comments</span>
+				<span class="commentcount">0</span>
+			</div>
+		</section>
+
+		<section class="commentitems">
+			<div class="wrapper">
+
+												<div class="notification"><i class="fa fa-info"></i> There are currently no comments.</div>
+							
+				<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title"> <small><a rel="nofollow" id="cancel-comment-reply-link" href="/#respond" style="display:none;">Cancel Reply</a></small></h3>			<form action="https://guide.airtable.com/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+				<textarea placeholder="Add your comment here..." name="comment" class="commentbody" id="comment" rows="5" tabindex="4"></textarea><input type="text" placeholder="Name (Required)" name="author" id="author" value="" size="22" tabindex="1" aria-required='true' />
+<input type="text" placeholder="Email (Required)" name="email" id="email" value="" size="22" tabindex="1" aria-required='true' />
+<input type="text" placeholder="Website URL" name="url" id="url" value="" size="22" tabindex="1" />
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='2' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p>			</form>
+			</div><!-- #respond -->
+	
+			</div>
+		</section>
+
+	</section>
+
+
+	
+	
+	</main>
+
+		
+	<footer class="main">
+
+<div id="footer" class="section fullWidth">
+    <div class="links">
+        <a href="https://www.airtable.com/features">Features</a>
+        <a href="https://www.airtable.com/templates">Templates</a>
+        <a href="https://www.airtable.com/pricing">Pricing</a>
+        <a href="https://www.airtable.com/integrations">Integrations</a>
+        <a href="https://www.airtable.com/api">API</a>
+        <a href="https://support.airtable.com">Support</a> <br>
+        <a href="https://www.airtable.com/about">About</a>
+        <a href="https://www.airtable.com/jobs">Jobs</a>
+        <a href="http://blog.airtable.com">Blog</a>
+        <a href="https://twitter.com/airtable" rel="nofollow">Twitter</a>
+        <a href="https://www.airtable.com/tos" rel="nofollow">Terms</a>
+        <a href="https://www.airtable.com/privacy" rel="nofollow">Privacy</a>
+    </div>
+</div>
+
+				
+
+	<section class="widget copyright">
+		<p class="main">
+			 		</p>
+		<p class="alt">
+						<span class="ecko"><a target="_blank" href="http://ecko.me/themes/wordpress/cedar/">Cedar WordPress Theme</a> by <a target="_blank" href="http://ecko.me">EckoThemes</a>.</span>
+			<span class="wordpress">Published with <a target="_blank" href="http://wordpress.org">WordPress</a>.</span>
+					</p>
+	</section>		<ul class="social">
+																																																											</ul>
+	</footer>	
+	<script type='text/javascript' src='https://guide.airtable.com/wp-content/plugins/eckoplugin/assets/js/eckoplugin.js?ver=2.2.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ecko_theme_vars = {"general_hidecomments":"false","general_disable_syntax_highlighter":"false","videocover_mp4":"","videocover_webm":"","localization_viewcomments":"View Comments","localization_comments":"Comments"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://guide.airtable.com/wp-content/themes/cedar/assets/js/theme.min.js?ver=2.1.1'></script>
+<script type='text/javascript' src='https://guide.airtable.com/wp-includes/js/comment-reply.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='https://guide.airtable.com/wp-includes/js/wp-embed.min.js?ver=4.7.5'></script>
+</body>
+</html>

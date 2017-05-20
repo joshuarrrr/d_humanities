@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js"> 
+    <head> 
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="verify-v1" content="IwMu0wZAlDVdRyYXR2iE6fy68J75yL4ZExOpoyPDHdw="/>
+        <meta name="keywords" content="Zotero, research, tool, firefox, extension"/>
+        <meta name="description" content="Zotero is a powerful, easy-to-use research tool that 
+                                          helps you gather, organize, and analyze sources and then 
+                                          share the results of your research."/>
+                
+        <title>Zotero | Home</title>
+        <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+        
+        <!-- css -->
+        <link rel="stylesheet" href="/static/css/style.1485925499.css" 
+            type="text/css" media="screen" charset="utf-8"/>
+        <link rel="stylesheet" href="/static/css/zotero_icons_sprite.1473223288.css" 
+            type="text/css" media="screen" charset="utf-8"/>
+        <link rel="stylesheet" href="/static/css/jquery-ui-1.8.12.custom.1473223288.css" 
+            type="text/css" media="screen" charset="utf-8"/>
+                <!-- auto discovery links -->
+        <link rel="openid2.provider" href="https://www.zotero.org/user/openidprovider/" />
+        <link rel="openid.server" href="https://www.zotero.org/user/openidprovider/" />
+        <script src="/static/library/modernizr/modernizr-1.7.min.js"></script>
+                <script type="text/javascript" charset="utf-8" src="/static/library/jquery/jquery-all.js"></script>
+        <script type="text/javascript" charset="utf-8" src="/static/library/bootstrap/js/bootstrap.js"></script>
+        <script type="text/javascript">
+            var bootstrapButton = $.fn.button.noConflict() // return $.fn.button to previously assigned value
+            $.fn.bootstrapBtn = bootstrapButton
+        </script>
+            </head>
+    <body >
+        <!-- Header -->
+        <header role="banner" class="container">
+            <div class="center container">
+                                                
+                                <h1 id="logohead">
+                    <a href="/"><img src="/static/images/theme/zotero.png" alt="Zotero"></a>
+                </h1>
+            
+            <div id="login-links">
+                                    <a href="https://www.zotero.org/user/login/" title="Log In">Log In</a>
+                    <a href="https://www.zotero.org/user/register/" title="Register">Register</a>
+                            </div>
+            
+            <a href="/settings/storage?ref=usb" class="button" id="purchase-storage-link"><img src="/static/images/theme/archive.png" /> Upgrade Storage</a>
+            
+            <div id="navbar" class="container">
+                <nav id="sitenav">
+                    <ul>
+                                        <li class='selected'><a href="/">Home</a></li>
+                                        <li ><a href="/groups/">Groups</a></li>
+                    <li ><a href="/people/">People</a></li>
+                    <li ><a href="/support/">Documentation</a></li>
+                    <li ><a href="https://forums.zotero.org">Forums</a></li>
+                    <li ><a href="/getinvolved/">Get Involved</a></li>
+                    </ul>
+                </nav>
+                                <form action="https://www.zotero.org/search/" class="zform zsearch" id="simple-search">
+                    <div>
+                        <input type="text" name="q" size="20" id="header-search-query"/>
+                        <button class="button clear-field-button" type="reset"><span class="ui-icon ui-icon-circle-close">&nbsp;</span></button>
+                        <input class="button" type="submit" value="Search">
+                    </div>
+                </form>
+                            </div>
+        </div>
+        </header>
+        <div id="content">
+            <div class="center container">
+            <!-- Output the breadcrumb if it's set -->
+                        
+            <!-- Output any stored messages -->
+                                                                                                            
+            <!-- hidden area for possible JS messages -->
+            <div id="js-message">
+                <ul id="js-message-list">
+                </ul>
+            </div>
+
+            <!-- Output content -->
+            <div id="primary">
+    <div id="zotero-banner">
+        <strong>Zotero</strong> [zoh-TAIR-oh] is a free, easy-to-use tool to
+        help you <strong>collect, organize, cite, and share</strong> your
+        research sources.
+    </div>
+    
+    <div id="download-container">
+		<a href="/download" id="download" class="button">Download Now</a>
+		<p>Available for Mac, Windows, and Linux</p>
+	</div>
+    
+    <div id="features" class="container">
+        <ul id="features-tabs">
+            <li id="features-collect"><a href="#features-1"><img src="/static/images/index/icons/library_bookmarked.1473223289.png" /> Collect</a></li>
+            <li id="features-organize"><a href="#features-2"><img src="/static/images/index/icons/folder.1473223289.png" /> Organize</a></li>
+            <li id="features-cite"><a href="#features-3"><img src="/static/images/index/icons/notebook.1473223289.png" /> Cite</a></li>
+            <li id="features-sync"><a href="#features-4"><img src="/static/images/index/icons/refresh.1473223289.png" /> Sync</a></li>
+            <li id="features-collaborate"><a href="#features-5"><img src="/static/images/index//icons/users_green.1473223289.png" /> Collaborate</a></li>
+        </ul>
+        <div id="features-lists">
+            <div id="features-1">    
+                <h3>Grab your research with a single click.</h3>
+                <div class="container feature">
+                <img src="/static/images/index/features/capture-research-data.1473223289.png" style="width:150px;">
+                <h4>A personal research assistant.</h4>
+                <p>Zotero is the only research tool that automatically senses content in your web
+                browser, allowing you to add it to your personal library with a single click.
+                Whether you're searching for a preprint on arXiv.org, a journal article from JSTOR,
+                a news story from the <em>New York Times</em>, or a book from your university
+                library catalog, Zotero has you covered with support for thousands of sites.<p>
+                </div>
+                
+                <div class="container feature">
+                <img src="/static/images/index/features/store-anything.1473223289.png">
+                
+                <h4>Store anything.</h4> 
+                <p>Zotero collects all your research in a single, searchable interface. You can add 
+                PDFs, images, audio and video files, snapshots of web pages, and really anything 
+                else. Zotero automatically indexes the full-text content of your library, enabling 
+                you to find exactly what you're looking for with just a few keystrokes.</p>
+                </div>
+            </div>
+            <div id="features-2">
+                <h3>It has never been easier to sort your research.</h3>
+                <div class="container feature">
+                <img src="/static/images/index/features/collections.1473223289.png">    
+                <h4>Say goodbye to folders.</h4> 
+                <p>Zotero organizes your research into collections that act like iTunes playlists. 
+                Research items can be added to any number of named collections and subcollections, 
+                which in turn can be organized however you like. With saved searches, you can 
+                create smart collections that automatically fill with relevant materials as you add 
+                them to your library.</p> 
+                </div>
+                <div class="container feature">
+                 <img src="/static/images/index/features/tags.1473223289.png">    
+                <h4>Tag it.</h4> 
+                <p>Assign tags to your library items to organize your research using your own 
+                keywords. The tag selector enables you to filter your library instantly to view 
+                matching items. Zotero can even use database and library data to tag items 
+                automatically as you add them.</p> 
+                </div>
+            </div>
+            <div id="features-3">
+                <h3>You’re never more than a click away from a bibliography.</h3>
+                <div class="container feature">
+                <img src="/static/images/index/features/word-and-openoffice-integration.1473223289.png">    
+                <h4>Cite perfectly.</h4>
+     			<p>Whether you need to create footnotes, endnotes, in-text citations, or 
+                bibliographies, Zotero will do all the dirty work for you, leaving you free to 
+                focus on your writing. Create citations in Word and OpenOffice without ever leaving 
+                your word processor and add references to an email, a Google Doc, or some other 
+                editor simply by dragging one or more references out of Zotero.</p>
+                </div>
+                
+                <div class="container feature">
+                <img src="/static/images/index/features/cite-in-style.1473223289.png">                
+                <h4>Always in style.</h4>
+                <p>Ready to submit your manuscript to <em>Tropical Doctor</em> or <em>French 
+                Historical Studies</em>? We've got you covered: with native integration of the 
+                powerful and flexible Citation Style Language (CSL), Zotero supports thousands of 
+                publication formats with more styles added daily.</p>
+                </div>               
+            </div>
+            <div id="features-4">
+                <h3>Your data is always where you need it.</h3>
+                <div class="container feature">
+                    <h4>Research everywhere.</h4>
+                    <p>Zotero automatically synchronizes your data across as many devices as you 
+                    choose. Add to your research library on your work PC, and organize your 
+                    collections on your home laptop. All of your notes, files, and bibliographic 
+                    data remain seamlessly and silently up to date. Returning from field work? Your 
+                    data will be waiting for you when you get home.</p> 
+                </div>
+                <div class="container feature">
+                    <img src="/static/images/index/features/sync.1473223289.png">
+                    <h4>Painless data transfer.</h4> 
+                    <p>Upgrading to a new computer? Zotero will automatically pull down a complete 
+                    copy of your research library from our server network. Even if you don't yet 
+                    have Zotero installed, you can always access your research from any web browser 
+                    in the world.</p>
+                </div>
+            </div>
+            <div id="features-5">
+                <h3>Work together and share with the world.</h3>
+                <div class="container feature">
+                <h4>Works well with others.</h4>
+                <p>Create and join research groups to focus on any topic you choose. Each group can 
+                share its own research library, complete with files, bibliographic data, notes, and 
+                discussion threads. Tag and analyze your research together with others. Work with a 
+                single colleague or an entire class: Zotero groups can include as many members 
+                as you please.</p>
+            </div>
+            <div class="container feature">
+            	<img src="/static/images/index/features/share-group-libraries.1473223289.png">    
+                    
+                <h4>Share with the world. Or not.</h4> 
+                <p>Zotero groups can be private or public, open or closed. You decide. For example, 
+                you and a few colleagues might initially work on a research project in private. After 
+                publication, why not share your research notes and library with the world?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="media" class="group">
+    <div id="connect">
+    <ul>
+        <li><a href="http://twitter.com/zotero" id="twitter-link"><img src="/static/images/index/connect/twitter_32.png"/> Follow Zotero on Twitter</a></li>
+        <li><a href="http://www.facebook.com/pages/Zotero/118155314876217" id="facebook-link"><img src="/static/images/index/connect/facebook_32.png"/> Find Zotero on Facebook</a></li>
+        <li><a href="/blog/"><img src="/static/images/index/rss_32.png"/> Subscribe to the Zotero blog</a></li>
+    </ul>
+    </div>
+    <div id="news">
+        <h2>Zotero News</h2>
+        <ul class="news-list">
+                        <li>
+                <a href="/blog/indiana-university-survey-of-zotero-users/">Indiana University Survey of Zotero Users </a>
+            </li>
+                        <li>
+                <a href="/blog/a-better-save-to-zotero-button-in-chrome/">A Better “Save to Zotero” Button in Chrome</a>
+            </li>
+                        <li>
+                <a href="/blog/studying-the-altmetrics-of-zotero-data/">Studying the Altmetrics of Zotero Data </a>
+            </li>
+                    </ul>
+        <p class="read-more">
+            <a href="/blog">More Zotero news...</a>
+        </p>
+    </div>
+    <div id="get-involved">
+        <h2>Get Involved</h2>
+        <p>Zotero wouldn't be the powerful, flexible tool it is today without the tireless efforts of all our community members. Find out how to <a href="/getinvolved/">get involved</a>.</p>
+    </div>
+</div>
+<script type="text/javascript" charset="utf-8">
+    var zoterojsClass = "index_index";
+    var zoterojsSearchContext = "support";
+</script>
+
+            </div>
+        </div>
+        <footer>
+            <div class="center container">
+                    <img id="chnm-logo" src="/static/images/theme/rrchnmlogo-gray.png" alt="Zotero">
+                <nav role="secondary">                 
+                    <ul>
+                        <!-- <li><a href="#">Give Us Feedback</a></li> -->
+                        <li><a href="/blog/">Blog</a></li>
+                        <li><a href="https://forums.zotero.org">Forums</a></li>
+                        <li><a href="/support/dev/start">Developers</a></li>
+                        <li><a href="/support/">Documentation</a></li>
+                        <li><a href="/support/terms/privacy">Privacy</a></li>
+                        <li><a href="/getinvolved/">Get Involved</a></li>
+                        <li><a href="/jobs">Jobs</a></li>
+                        <li><a href="/about/">About</a></li>
+                        <li class="last"><a href="?fullsite=0">Mobile Site</a></li>
+                    </ul>
+                </nav>
+                <p>
+                    Zotero is a project of the <a href="http://chnm.gmu.edu">Roy
+                    Rosenzweig Center for History and New Media</a>, and was initially funded
+                     by the <a href="http://mellon.org">Andrew W. Mellon
+                    Foundation</a>, the <a href="http://imls.gov">Institute of
+                    Museum and Library Services</a>, and the <a
+                    href="http://sloan.org">Alfred P. Sloan Foundation</a>.
+                </p>
+
+            </div>
+        </footer>
+                        <script type="text/javascript" charset="utf-8" src="/static/library/globalize/globalize.js"></script>
+                                        <script type="text/javascript" charset="utf-8" src="/static/library/globalize/cultures/globalize.culture.es-ES.js"></script>
+                                            <script type="text/javascript" charset="utf-8" src="/static/library/globalize/cultures/globalize.culture.es.js"></script>
+                                            <script type="text/javascript" charset="utf-8" src="/static/library/globalize/cultures/globalize.culture.en-US.js"></script>
+                                                        <script type="text/javascript" charset="utf-8">
+            if(typeof zoteroData == 'undefined'){
+                var zoteroData = {};
+            }
+            var baseURL = "";
+            var baseDomain = "https://www.zotero.org";
+            var staticPath = "/static";
+        </script>
+        
+        <script type="text/javascript" charset="utf-8" src="/static/js/_zoterowwwAll.bugly.1473223289.js"></script>
+        
+        <script type="text/javascript" src="/static/library/flowplayer/flowplayer-3.1.1.min.1473223289.js"></script>                        
+               
+                <!-- End zoteroLibrary modules. -->
+                    <script type="text/javascript" charset="utf-8">
+                                    Zotero.prefs.server_javascript_enabled = false;
+                                            </script>
+         
+        <!-- TOS CHANGE NOTIFICATION -->
+                <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+        try {
+        var pageTracker = _gat._getTracker("UA-6354803-1");
+        pageTracker._trackPageview();
+        } catch(err) {}</script>
+    </body>
+</html>

@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Pandoc - Installing pandoc</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--[if lt IE 9]>
+       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+       <![endif]-->
+  <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/screen.css">
+  <link rel="stylesheet" type="text/css" media="print" href="css/print.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"
+            type="text/javascript"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script src="js/nav.js"></script>
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2234613-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  <script type="text/javascript">
+  /* <![CDATA[ */
+    (function() {
+        var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
+        t.parentNode.insertBefore(s, t);
+    })();
+  /* ]]> */
+  </script>
+</head>
+<body>
+  <div id="doc" class="container-fluid">
+    <header>
+      <div id="flattr">
+        <a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="http://johnmacfarlane.net/pandoc"></a>
+        <noscript><a href="http://flattr.com/thing/936364/Pandoc" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
+      </div>
+        <div id="paypal">
+         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+      </div>
+
+        <span class="big">Pandoc</span>
+        &nbsp;
+        <span class="small">a universal document converter</span>
+    </header>
+    <div id="bd">
+      <nav id="navbar" class="navbar nav navbar-default col-md-3 col-sm-4">
+        <div class="navbar-header">
+  <button type="button" class="navbar-toggle"
+          data-toggle="collapse"
+          data-target=".navbar-collapse">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+</div>
+<div class="navbar-collapse collapse">
+  <ul class="nav tree">
+    <li><a href="index.html">About</a></li>
+    <li><a href="installing.html">Installing</a></li>
+    <li><a href="getting-started.html">Getting started</a></li>
+    <li><a class="tree-toggle nav-header">Demos</a>
+    <ul class="nav tree">
+      <li><a href="try">Try pandoc online</a></li>
+      <li><a href="demos.html">Examples</a></li>
+    </ul>
+    </li>
+    <li><a class="tree-toggle nav-header">Documentation</a>
+    <ul class="nav tree">
+      <li><a class="tree-toggle nav-header">User's Guide</a>
+        <ul class="nav tree">
+          <li><a href="MANUAL.html">HTML</a></li>
+          <li><a href="MANUAL.pdf">PDF</a></li>
+        </ul>
+      <li><a href="faqs.html">FAQ</a></li>
+      <li><a href="press.html">Press</a></li>
+      <li><a href="http://hackage.haskell.org/package/pandoc">API documentation</a></li>
+      <li><a href="CONTRIBUTING.html">Contributing</a></li>
+      <li><a href="scripting.html">Scripting</a></li>
+      <li><a href="epub.html">Making an ebook</a></li>
+    </ul>
+    </li>
+    <li><a href="help.html">Help</a></li>
+    <li><a href="https://github.com/jgm/pandoc/wiki/Pandoc-Extras">Extras</a></li>
+    <li><a href="releases.html">Releases</a></li>
+  </ul>
+</div>
+        <div id="toc">
+<ul>
+<li><a href="#windows">Windows</a></li>
+<li><a href="#mac-os-x">Mac OS X</a></li>
+<li><a href="#linux">Linux</a></li>
+<li><a href="#bsd">BSD</a></li>
+<li><a href="#compiling-from-source">Compiling from source</a><ul>
+<li><a href="#getting-the-pandoc-source-code">Getting the pandoc source code</a></li>
+<li><a href="#quick-stack-method">Quick stack method</a></li>
+<li><a href="#quick-cabal-method">Quick cabal method</a></li>
+<li><a href="#custom-cabal-method">Custom cabal method</a></li>
+<li><a href="#creating-a-relocatable-binary">Creating a relocatable binary</a></li>
+<li><a href="#running-tests">Running tests</a></li>
+<li><a href="#running-benchmarks">Running benchmarks</a></li>
+<li><a href="#building-the-whole-pandoc-ecosystem">Building the whole pandoc ecosystem</a></li>
+</ul></li>
+</ul>
+        </div>
+      </nav>
+      <main class="col-md-9 col-sm-8">
+        <div class="row">
+          <h1 class="title">Installing pandoc</h1>
+<h2 id="windows">Windows</h2>
+<ul>
+<li><p>There is a package installer at pandoc’s <a href="https://github.com/jgm/pandoc/releases/latest">download page</a>.</p></li>
+<li><p>For PDF output, you’ll also need to install LaTeX. We recommend <a href="http://miktex.org/">MiKTeX</a>.</p></li>
+<li><p>If you’d prefer, you can extract the pandoc and pandoc-citeproc executables from the MSI and copy them directly to any directory, without running the installer. Here is an example showing how to extract the executables from the pandoc-1.19.1 installer and copy them to <code>C:\Utils\Console\</code>:</p>
+<pre><code>mkdir &quot;%TEMP%\pandoc\&quot;
+start /wait msiexec.exe /a pandoc-1.19.1-windows.msi /qn targetdir=&quot;%TEMP%\pandoc\&quot;
+copy /y &quot;%TEMP%\pandoc\pandoc.exe&quot; C:\Utils\Console\
+copy /y &quot;%TEMP%\pandoc\pandoc-citeproc.exe&quot; C:\Utils\Console\
+rmdir /s /q &quot;%TEMP%\pandoc\&quot;</code></pre></li>
+</ul>
+<h2 id="mac-os-x">Mac OS X</h2>
+<ul>
+<li><p>There is a package installer at pandoc’s <a href="https://github.com/jgm/pandoc/releases/latest">download page</a>. If you later want to uninstall the package, you can do so by downloading <a href="https://raw.githubusercontent.com/jgm/pandoc/master/osx/uninstall-pandoc.pl">this script</a> and running it with <code>perl uninstall-pandoc.pl</code>.</p></li>
+<li><p>It is possible to extract the pandoc and pandoc-citeproc executables from the osx pkg file, if you’d rather not run the installer. To do this (for the version 1.19.1 package):</p>
+<pre><code>mkdir pandoc-extract
+cd pandoc-extract
+xar -x ../pandoc-1.19.1-osx.pkg
+cat pandoc.pkg/Payload | gunzip -dc | cpio -i
+# executables are now in ./usr/bin/, man pages in ./usr/share/man</code></pre></li>
+<li><p>You can also install pandoc using <a href="http://brew.sh">homebrew</a>: <code>brew install pandoc</code>.</p></li>
+<li><p>For PDF output, you’ll also need LaTeX. Because a full <a href="https://tug.org/mactex/">MacTeX</a> installation takes more than a gigabyte of disk space, we recommend installing <a href="http://www.tug.org/mactex/morepackages.html">BasicTeX</a> (64M) and using the <code>tlmgr</code> tool to install additional packages as needed. If you get errors warning of fonts not found, try</p>
+<pre><code>tlmgr install collection-fontsrecommended</code></pre></li>
+</ul>
+<h2 id="linux">Linux</h2>
+<ul>
+<li><p>First, try your package manager. Pandoc is in the <a href="http://packages.debian.org/lenny/pandoc">Debian</a>, <a href="http://www.ubuntu.com">Ubuntu</a>, <a href="http://www.linuxpackages.net/search_view.php?by=name&amp;name=pandoc&amp;ver=">Slackware</a>, <a href="https://www.archlinux.org/packages/community/x86_64/pandoc/">Arch</a>, <a href="https://apps.fedoraproject.org/packages/pandoc">Fedora</a>, <a href="http://nixos.org/nixos/">NiXOS</a>, <a href="https://software.opensuse.org/package/pandoc">openSUSE</a>, and <a href="http://packages.gentoo.org/package/app-text/pandoc">gentoo</a> repositories. Note, however, that versions in the repositories are often old.</p></li>
+<li><p>For 64-bit <a href="http://packages.debian.org/lenny/pandoc">Debian</a> and <a href="http://www.ubuntu.com">Ubuntu</a>, we provide a debian package on the <a href="https://github.com/jgm/pandoc/releases/latest">download page</a>.</p>
+<pre><code>sudo dpkg -i $DEB</code></pre>
+<p>where <code>$DEB</code> is the path to the downloaded deb, will install the <code>pandoc</code> and <code>pandoc-citeproc</code> executables and man pages. If you use an RPM-based distro, you may be able to install this deb using <code>alien</code>, or try</p>
+<pre><code>ar p $DEB data.tar.gz | sudo tar xvz --strip-components 2 -C /usr/local</code></pre></li>
+<li><p>If you’d rather install pandoc in your home directory, say in <code>$HOME/.local</code>, then you can extract the files manually from the deb:</p>
+<pre><code>ar p $DEB data.tar.gz | tar xvz --strip-components 2 -C $HOME/.local/</code></pre>
+<p>where, again, <code>$DEB</code> is the path to the downloaded deb.</p></li>
+<li><p>If the version in your repository is too old and you cannot use the deb we provide, you can install from source, using the instructions below under <a href="#compiling-from-source">Compiling from source</a>. Note that most distros have the Haskell platform in their package repositories. For example, on Debian/Ubuntu, you can install it with <code>apt-get install haskell-platform</code>.</p></li>
+<li><p>For PDF output, you’ll need LaTeX. We recommend installing <a href="http://www.tug.org/texlive/">TeX Live</a> via your package manager. (On Debian/Ubuntu, <code>apt-get install texlive</code>.)</p></li>
+</ul>
+<h2 id="bsd">BSD</h2>
+<ul>
+<li>Pandoc is in the <a href="http://pkgsrc.se/wip/pandoc">NetBSD</a> and <a href="http://www.freshports.org/textproc/pandoc/">FreeBSD ports</a> repositories.</li>
+</ul>
+<h2 id="compiling-from-source">Compiling from source</h2>
+<p>If for some reason a binary package is not available for your platform, or if you want to hack on pandoc or use a non-released version, you can install from source.</p>
+<h3 id="getting-the-pandoc-source-code">Getting the pandoc source code</h3>
+<p>Source tarballs can be found at <a href="https://hackage.haskell.org/package/pandoc" class="uri">https://hackage.haskell.org/package/pandoc</a>. For example, to fetch the source for version 1.17.0.3:</p>
+<pre><code>wget https://hackage.haskell.org/package/pandoc-1.17.0.3/pandoc-1.17.0.3.tar.gz
+tar xvzf pandoc-1.17.0.3.tar.gz
+cd pandoc-1.17.0.3</code></pre>
+<p>Or you can fetch the development code by cloning the repository:</p>
+<pre><code>git clone https://github.com/jgm/pandoc
+cd pandoc
+git submodule update --init   # to fetch the templates</code></pre>
+<p>Note: there may be times when the development code is broken or depends on other libraries which must be installed separately. Unless you really know what you’re doing, install the last released version.</p>
+<h3 id="quick-stack-method">Quick stack method</h3>
+<p>The easiest way to build pandoc from source is to use <a href="http://docs.haskellstack.org/en/stable/install_and_upgrade.html">stack</a>:</p>
+<ol type="1">
+<li><p>Install <a href="http://docs.haskellstack.org/en/stable/install_and_upgrade.html">stack</a>.</p></li>
+<li><p>Change to the pandoc source directory and issue the following commands:</p>
+<pre><code>stack setup
+stack install --test</code></pre>
+<p><code>stack setup</code> will automatically download the ghc compiler if you don’t have it. <code>stack install</code> will install the <code>pandoc</code> executable into <code>~/.local/bin</code>, which you should add to your <code>PATH</code>. This process will take a while, and will consume a considerable amount of disk space.</p></li>
+</ol>
+<h3 id="quick-cabal-method">Quick cabal method</h3>
+<ol type="1">
+<li><p>Install the <a href="http://hackage.haskell.org/platform/">Haskell platform</a>. This will give you <a href="http://www.haskell.org/ghc/">GHC</a> and the <a href="http://hackage.haskell.org/trac/hackage/wiki/CabalInstall">cabal-install</a> build tool. Note that pandoc requires GHC &gt;= 7.8.</p></li>
+<li><p>Update your package database:</p>
+<pre><code>cabal update</code></pre></li>
+<li><p>Use <code>cabal</code> to install pandoc and its dependencies:</p>
+<pre><code>cabal install pandoc --enable-tests</code></pre>
+<p>This procedure will install the released version of pandoc, which will be downloaded automatically from HackageDB.</p>
+<p>If you want to install a modified or development version of pandoc instead, switch to the source directory and do as above, but without the ‘pandoc’:</p>
+<pre><code>cabal install</code></pre>
+<p>Note: If you obtained the source from the git repository (rather than a release tarball), you’ll need to do</p>
+<pre><code>git submodule update --init</code></pre>
+<p>to fetch the contents of <code>data/templates</code> before <code>cabal install</code>.</p></li>
+<li><p>Make sure the <code>$CABALDIR/bin</code> directory is in your path. You should now be able to run <code>pandoc</code>:</p>
+<pre><code>pandoc --help</code></pre>
+<p><a href="http://www.haskell.org/haskellwiki/Cabal-Install#The_cabal-install_configuration_file">Not sure where <code>$CABALDIR</code> is?</a></p></li>
+<li><p>If you want to process citations with pandoc, you will also need to install a separate package, <code>pandoc-citeproc</code>. This can be installed using cabal:</p>
+<pre><code>cabal install pandoc-citeproc</code></pre>
+<p>By default <code>pandoc-citeproc</code> uses the “i;unicode-casemap” method to sort bibliography entries (RFC 5051). If you would like to use the locale-sensitive unicode collation algorithm instead, specify the <code>unicode_collation</code> flag:</p>
+<pre><code>cabal install pandoc-citeproc -funicode_collation</code></pre>
+<p>Note that this requires the <code>text-icu</code> library, which in turn depends on the C library <code>icu4c</code>. Installation directions vary by platform. Here is how it might work on OSX with homebrew:</p>
+<pre><code>brew install icu4c
+cabal install --extra-lib-dirs=/usr/local/Cellar/icu4c/51.1/lib \
+  --extra-include-dirs=/usr/local/Cellar/icu4c/51.1/include \
+  -funicode_collation text-icu pandoc-citeproc</code></pre></li>
+<li><p>The <code>pandoc.1</code> man page will be installed automatically. cabal shows you where it is installed: you may need to set your <code>MANPATH</code> accordingly. If <code>MANUAL.txt</code> has been modified, the man page can be rebuilt: <code>make man/pandoc.1</code>.</p>
+<p>The <code>pandoc-citeproc.1</code> man page will also be installed automatically.</p></li>
+</ol>
+<h3 id="custom-cabal-method">Custom cabal method</h3>
+<p>This is a step-by-step procedure that offers maximal control over the build and installation. Most users should use the quick install, but this information may be of use to packagers. For more details, see the <a href="http://www.haskell.org/cabal/release/latest/doc/users-guide/builders.html#setup-configure-paths">Cabal User’s Guide</a>. These instructions assume that the pandoc source directory is your working directory.</p>
+<ol type="1">
+<li><p>Install dependencies: in addition to the <a href="http://hackage.haskell.org/platform/">Haskell platform</a>, you will need a number of additional libraries. You can install them all with</p>
+<pre><code>cabal update
+cabal install --only-dependencies</code></pre></li>
+<li><p>Configure:</p>
+<pre><code>cabal configure --prefix=DIR --bindir=DIR --libdir=DIR \
+  --datadir=DIR --libsubdir=DIR --datasubdir=DIR --docdir=DIR \
+  --htmldir=DIR --program-prefix=PREFIX --program-suffix=SUFFIX \
+  --mandir=DIR --flags=FLAGSPEC --enable-tests</code></pre>
+<p>All of the options have sensible defaults that can be overridden as needed.</p>
+<p><code>FLAGSPEC</code> is a list of Cabal configuration flags, optionally preceded by a <code>-</code> (to force the flag to <code>false</code>), and separated by spaces. Pandoc’s flags include:</p>
+<ul>
+<li><p><code>embed_data_files</code>: embed all data files into the binary (default no). This is helpful if you want to create a relocatable binary. Note: if this option is selected, you need to install the <code>hsb2hs</code> preprocessor: <code>cabal install hsb2hs</code> (version 0.3.1 or higher is required).</p></li>
+<li><p><code>https</code>: enable support for downloading resources over https (using the <code>http-client</code> and <code>http-client-tls</code> libraries).</p></li>
+</ul></li>
+<li><p>Build:</p>
+<pre><code>cabal build
+cabal test</code></pre></li>
+<li><p>Build API documentation:</p>
+<pre><code>cabal haddock --html-location=URL --hyperlink-source</code></pre></li>
+<li><p>Copy the files:</p>
+<pre><code>cabal copy --destdir=PATH</code></pre>
+<p>The default destdir is <code>/</code>.</p></li>
+<li><p>Register pandoc as a GHC package:</p>
+<pre><code>cabal register</code></pre>
+<p>Package managers may want to use the <code>--gen-script</code> option to generate a script that can be run to register the package at install time.</p></li>
+</ol>
+<h3 id="creating-a-relocatable-binary">Creating a relocatable binary</h3>
+<p>It is possible to compile pandoc such that the data files pandoc uses are embedded in the binary. The resulting binary can be run from any directory and is completely self-contained. With cabal, add <code>-fembed_data_files</code> to the <code>cabal configure</code> or <code>cabal install</code> commands.</p>
+<p>With stack, use <code>--flag pandoc:embed_data_files</code>.</p>
+<h3 id="running-tests">Running tests</h3>
+<p>Pandoc comes with an automated test suite. To run with cabal, <code>cabal test</code>; to run with stack, <code>stack test</code>.</p>
+<p>To run particular tests (pattern-matching on their names), use the <code>-t</code> option:</p>
+<pre><code>cabal test --test-options=&#39;-t markdown&#39;</code></pre>
+<p>If you add a new feature to pandoc, please add tests as well, following the pattern of the existing tests. The test suite code is in <code>tests/test-pandoc.hs</code>. If you are adding a new reader or writer, it is probably easiest to add some data files to the <code>tests</code> directory, and modify <code>tests/Tests/Old.hs</code>. Otherwise, it is better to modify the module under the <code>tests/Tests</code> hierarchy corresponding to the pandoc module you are changing.</p>
+<h3 id="running-benchmarks">Running benchmarks</h3>
+<p>To build and run the benchmarks:</p>
+<pre><code>cabal configure --enable-benchmarks &amp;&amp; cabal build
+cabal bench</code></pre>
+<p>or with stack:</p>
+<pre><code>stack bench</code></pre>
+<p>To use a smaller sample size so the benchmarks run faster:</p>
+<pre><code>cabal bench --benchmark-options=&#39;-s 20&#39;</code></pre>
+<p>To run just the markdown benchmarks:</p>
+<pre><code>cabal bench --benchmark-options=&#39;markdown&#39;</code></pre>
+<h3 id="building-the-whole-pandoc-ecosystem">Building the whole pandoc ecosystem</h3>
+<p>Sometimes pandoc’s development code depends on unreleased versions of dependent libraries. You’ll need to build these as well. A maximal build method would be</p>
+<pre><code>mkdir pandoc-build
+cd pandoc-build
+git clone https://github.com/jgm/pandoc-types
+git clone https://github.com/jgm/texmath
+git clone https://github.com/jgm/pandoc-citeproc
+git clone https://github.com/jgm/pandoc
+git clone https://github.com/jgm/cmark-hs
+git clone https://github.com/jgm/zip-archive
+cd pandoc
+git submodule update --init
+stack install --test --install-ghc --stack-yaml stack.full.yaml</code></pre>
+<p>To pull in the latest changes, after you’ve done this and there have been changes in the repositories: Visit each repository in pandoc-build (pandoc-types, texmath, pandoc-citeproc, pandoc, zip-archive, cmark-hs) and do <code>git pull</code>. In the pandoc repo, also do <code>git submodule update</code> and <code>stack install --test --stack-yaml stack.full.yaml</code>.</p>
+        </div>
+      </main>
+    </div>
+    <footer>
+    </footer>
+  </div>
+</body>
+</html>

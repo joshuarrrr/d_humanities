@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1 "/> 
+<title> &raquo; How to Evaluate Digital Scholarship Journal of Digital Humanities</title>
+<link rel="icon" 
+      type="image/i" 
+      href="http://journalofdigitalhumanities.org/wp-content/themes/jdh/images/favicon.ico">
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" href="http://journalofdigitalhumanities.org/wp-content/themes/jdh/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://journalofdigitalhumanities.org/wp-content/themes/jdh/stylesheets/skeleton.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://journalofdigitalhumanities.org/wp-content/themes/jdh/stylesheets/layout.css" type="text/css" media="screen" />
+<link href='http://fonts.googleapis.com/css?family=Arvo:400,400italic|Ubuntu:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link rel="pingback" href="http://journalofdigitalhumanities.org/xmlrpc.php" />
+
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/journalofdigitalhumanities.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='footnote-voodoo-css'  href='http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/footnote-voodoo.css?ver=2016.1230' type='text/css' media='all' />
+<link rel='stylesheet' id='twitter-archive-style-css'  href='http://journalofdigitalhumanities.org/wp-content/plugins/twitter-search-shortcode/ta-style.css?ver=4.7.5' type='text/css' media='all' />
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/modernizr.custom.20659.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/footnote-voodoo.js?ver=2016.1230'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.hoverIntent.minified.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.cookie.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.dcjqaccordion.2.9.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/plugins/wp-mailto-links/public/js/wp-mailto-links.js?ver=4.7.5'></script>
+<link rel='https://api.w.org/' href='http://journalofdigitalhumanities.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://journalofdigitalhumanities.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://journalofdigitalhumanities.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Tenure, Promotion, and the Publicly Engaged Historian' href='http://journalofdigitalhumanities.org/1-4/tenure-promotion-and-the-publicly-engaged-historian/' />
+<link rel='next' title='Closing the Evaluation Gap' href='http://journalofdigitalhumanities.org/1-4/closing-the-evaluation-gap/' />
+<meta name="generator" content="WordPress 4.7.5" />
+<link rel="canonical" href="http://journalofdigitalhumanities.org/1-4/how-to-evaluate-digital-scholarship-by-todd-presner/" />
+<link rel='shortlink' href='http://journalofdigitalhumanities.org/?p=3445' />
+<link rel="alternate" type="application/json+oembed" href="http://journalofdigitalhumanities.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fjournalofdigitalhumanities.org%2F1-4%2Fhow-to-evaluate-digital-scholarship-by-todd-presner%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://journalofdigitalhumanities.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fjournalofdigitalhumanities.org%2F1-4%2Fhow-to-evaluate-digital-scholarship-by-todd-presner%2F&#038;format=xml" />
+<style type="text/css">
+	.addw2p {
+		list-style-type: none;
+		list-style-image: none;
+	}
+</style>
+<script type="text/javascript" src="http://journalofdigitalhumanities.org/wp-content/plugins/audio-player/assets/audio-player.js?ver=2.0.4.6"></script>
+<script type="text/javascript">AudioPlayer.setup("http://journalofdigitalhumanities.org/wp-content/plugins/audio-player/assets/player.swf?ver=2.0.4.6", {width:"290",animation:"yes",encode:"yes",initialvolume:"60",remaining:"no",noinfo:"no",buffer:"5",checkpolicy:"no",rtl:"no",bg:"E5E5E5",text:"333333",leftbg:"CCCCCC",lefticon:"333333",volslider:"666666",voltrack:"FFFFFF",rightbg:"B4B4B4",rightbghover:"999999",righticon:"333333",righticonhover:"FFFFFF",track:"FFFFFF",loader:"009900",border:"CCCCCC",tracker:"DDDDDD",skip:"666666",pagebg:"FFFFFF",transparentpagebg:"yes"});</script>
+<script type="text/javascript" src="http://journalofdigitalhumanities.org/wp-content/plugins/degradable-html5-audio-and-video/incl/audio-player.js"></script>
+<script type="text/javascript">
+	AudioPlayer.setup("http://journalofdigitalhumanities.org/wp-content/plugins/degradable-html5-audio-and-video/incl/player.swf", {
+		/* Format the player by inserting lines here. See http://wpaudioplayer.com/standalone */
+		width: 290,
+		initialvolume: 80
+	});
+</script><style type="text/css">
+
+	.footnote-indicator:before {
+		content: url(http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/footnoted.png);
+		width: 10px;
+		height: 10px;
+	}
+	ol.footnotes li {
+		background: #eeeeee url(http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/note.png) 0px 0px repeat-x;
+	}
+</style>
+<script type="text/javascript">
+	// Globals
+	var tipUpUrl = 'url(http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/tip.png)';
+	var tipDownUrl = 'url(http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/tip-down.png)';
+</script>
+			<script type="text/javascript">
+		<!--Note here the \s at the begining of the regular expression here. This is to enforce that it will only select from hashtags with a space in front of them. Otherwise it may alter links to anchors.-->
+			hashtag_regexp = /\s#([a-zA-Z0-9]+)/g;
+
+			function linkHashtags(text) {
+				return text.replace(
+					hashtag_regexp,
+					' <a class="hashtag" target="_blank" href="http://twitter.com/#search?q=$1">#$1</a>'
+				);
+			}
+
+			jQuery(document).ready(function(){
+				jQuery('p').each(function() {
+					jQuery(this).html(linkHashtags(jQuery(this).html()));
+				});
+			});
+			
+			jQuery('p').html(linkHashtags(jQuery('p').html()));  
+
+			
+		</script>
+		<script type="text/javascript">
+			
+			at_regexp = /\s\u0040([a-zA-Z0-9]+)/g;
+			
+			function linkAt(text) {
+				return text.replace(
+					at_regexp,
+					' <a class="twitter-user" target="_blank" href="http://twitter.com/$1">@$1</a>'
+				);
+			}
+
+			jQuery(document).ready(function(){
+				jQuery('p').each(function() {
+					jQuery(this).html(linkAt(jQuery(this).html()));
+				});
+			});
+			
+			jQuery('p').html(linkAt(jQuery('p').html()));  			
+			
+		</script>
+	<style type="text/css" media="all">
+/* WP Mailto Links Plugin */
+span.wpml-nodis { display:none !important; }
+span.wpml-rtl { unicode-bidi:bidi-override !important; direction:rtl !important; display:inline !important; }
+.wpml-encoded { position:absolute; margin-top:-0.3em; z-index:1000; color:green; }
+.mail-link { white-space:nowrap; }
+
+a.mail-icon-1 {
+    background-image:url("http://journalofdigitalhumanities.org/wp-content/plugins/wp-mailto-links/public/images/mail-icon-1.png");
+    background-repeat:no-repeat;
+        background-position:100% 50%; padding-right:18px;
+    }
+</style>
+<!-- begin Fast Secure reCAPTCHA - page header css -->
+<style type="text/css">
+div.fs-recaptcha-comments { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-bp-comments { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-login { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-side-login { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-registration { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-bp-registration { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-ms-registration { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-lostpassword { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-wc-checkout { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-jetpack { display:block; clear:both; margin-bottom:1em; }
+.fs-recaptcha-jetpack p { color:#DC3232; }
+</style>
+<!-- end Fast Secure reCAPTCHA - page header css -->
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+  
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+    $('#menu-table-of-contents').dcAccordion({
+		eventType: 'click',
+		hoverDelay: 0,
+		menuClose: false,
+		autoClose: true,
+		saveState: false,
+		autoExpand: true,
+		classExpand: 'current-menu-item',
+		classDisable: '',
+		showCount: false,
+		disableLink: true,
+		cookie: 'dc_jqaccordion_widget-2',
+		speed: 'fast'
+    });
+});
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//chnmdev.gmu.edu/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 70]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//chnmdev.gmu.edu/piwik/piwik.php?idsite=70" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+
+</head>
+
+<body class="post-template-default single single-post postid-3445 single-format-standard">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37455097-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><div class="wrap">
+
+<header>
+
+    <div class="container">
+        
+        <a class="site-title" href="http://journalofdigitalhumanities.org">
+            <img src="http://journalofdigitalhumanities.org/wp-content/themes/jdh/images/logo.png" alt="Journal of Digital Humanities">
+        </a>
+
+        <form role="search" method="get" id="searchform" action="http://journalofdigitalhumanities.org/">
+    <div>
+        <input type="text" value="" placeholder="Search JDH"name="s" id="s" />
+        <input type="submit" value="Search JDH" name="searchsubmit" id="searchsubmit" />
+    </div>
+</form>    
+
+        <nav>        
+            <ul class="social">
+                <li><a href="http://feeds.feedburner.com/journalofdigitalhumanities" class="RSS">Subscribe to the RSS</a></li>
+            </ul>
+
+            <div class="tabs"><ul id="menu-main-menu" class="menu"><li id="menu-item-436" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-436"><a href="http://journalofdigitalhumanities.org/about/">About</a></li>
+<li id="menu-item-2267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2267"><a href="http://journalofdigitalhumanities.org/volumes/">Volumes</a></li>
+<li id="menu-item-435" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-435"><a href="http://journalofdigitalhumanities.org/submissions/">Submissions</a></li>
+</ul></div>            
+        </nav>
+        
+    </div>
+
+</header>
+
+<section id="content" class="container row ">
+
+
+
+<div class="sidebar four columns alpha">
+    
+<h3>Table of Contents for Vol. 1, No. 4 Fall 2012</h3>
+
+<ul id="menu-table-of-contents" class="menu">
+
+        <li class="parent"><a href="http://journalofdigitalhumanities.org/category/1-4/introduction-1-4/">Introduction</a>
+            <ul class="sub-menu">
+                        <li><a href="http://journalofdigitalhumanities.org/1-4/closing-the-evaluation-gap/">Closing the Evaluation Gap</a><br>The Editors</li>            </ul>
+        </li>
+        <li class="parent"><a href="http://journalofdigitalhumanities.org/category/1-4/problem-1-4/">The Problem Stated</a>
+            <ul class="sub-menu">
+                        <li><a href="http://journalofdigitalhumanities.org/1-4/living-in-a-digital-world-by-sheila-cavanagh/">Living in a Digital World: Rethinking Peer Review, Collaboration, and Open Access</a><br>Sheila Cavanagh</li><li><a href="http://journalofdigitalhumanities.org/1-4/evaluating-collaborative-digital-scholarship-by-bethany-nowviskie/">Evaluating Collaborative Digital Scholarship (or, Where Credit is Due)</a><br>Bethany Nowviskie</li><li><a href="http://journalofdigitalhumanities.org/1-4/a-call-to-redefine-historical-scholarship-in-the-digital-turn/">A Call to Redefine Historical Scholarship in the Digital Turn</a><br>Jason Heppler, Douglas Seefeldt and Alex Galarza</li>            </ul>
+        </li>
+        <li class="parent"><a href="http://journalofdigitalhumanities.org/category/1-4/approaches-1-4/">Approaches</a>
+            <ul class="sub-menu">
+                        <li class="current-menu-item"><a href="http://journalofdigitalhumanities.org/1-4/how-to-evaluate-digital-scholarship-by-todd-presner/">How to Evaluate Digital Scholarship</a><br>Todd Presner</li><li><a href="http://journalofdigitalhumanities.org/1-4/short-guide-to-evaluation-of-digital-work-by-geoffrey-rockwell/">Short Guide To Evaluation Of Digital Work</a><br>Geoffrey Rockwell</li><li><a href="http://journalofdigitalhumanities.org/1-4/promotion-and-tenure-for-digital-scholarship-by-laura-mandell/">Promotion and Tenure for Digital Scholarship</a><br>Laura Mandell</li><li><a href="http://journalofdigitalhumanities.org/1-4/evaluating-scholarly-digital-outputs-by-james-smithies/">Evaluating Scholarly Digital Outputs: The Six Layers Approach</a><br>James Smithies</li><li><a href="http://journalofdigitalhumanities.org/1-4/evaluating-multimodal-work-revisited-by-shannon-mattern/">Evaluating Multimodal Work, Revisited</a><br>Shannon Christine Mattern</li><li><a href="http://journalofdigitalhumanities.org/1-4/evaluating-digital-humanities-work-guidelines-for-librarians-by-zach-coble/">Evaluating Digital Humanities Work: Guidelines for Librarians</a><br>Zach Coble</li><li><a href="http://journalofdigitalhumanities.org/1-4/let-the-grant-do-the-talking-by-sheila-brennan/">Let the Grant Do the Talking</a><br>Sheila Brennan</li><li><a href="http://journalofdigitalhumanities.org/1-4/tenure-as-a-risk-taking-venture-by-mark-sample/">Tenure as a Risk-Taking Venture</a><br>Mark Sample</li><li><a href="http://journalofdigitalhumanities.org/1-4/explaining-digital-humanities-in-promotion-documents-by-katherine-harris/">Explaining Digital Humanities in Promotion Documents</a><br>Katherine D. Harris</li><li><a href="http://journalofdigitalhumanities.org/1-4/evaluating-digital-scholarship-experiences-in-new-programmes-at-an-irish-university/">Evaluating Digital Scholarship: Experiences in New Programmes at an Irish University</a><br>Michael Cosgrave, Anna Dowling, Lynn Harding, Róisín O’Brien and Olivia Rohan</li>            </ul>
+        </li>
+        <li class="parent"><a href="http://journalofdigitalhumanities.org/category/1-4/guidelines-1-4/">Institutional Guidelines</a>
+            <ul class="sub-menu">
+                        <li><a href="http://journalofdigitalhumanities.org/1-4/tenure-promotion-and-the-publicly-engaged-historian/">Tenure, Promotion, and the Publicly Engaged Historian</a><br>American Historical Association, National Council on Public History, and Organization of American Historians Working Group on Evaluating Public History Scholarship</li><li><a href="http://journalofdigitalhumanities.org/1-4/guidelines-for-evaluating-work-in-digital-humanities-and-digital-media-from-the-mla/">Guidelines for Evaluating Work in Digital Humanities and Digital Media</a><br>Modern Language Association</li><li><a href="http://journalofdigitalhumanities.org/1-4/documenting-a-new-media-case-evaluation-wiki-from-the-mla/">Documenting a New Media Case</a><br>Evaluation Wiki of the Committee on Information Technology, Modern Language Association</li>            </ul>
+        </li>
+        <li class="parent"><a href="http://journalofdigitalhumanities.org/category/1-4/resources/">Resources</a>
+            <ul class="sub-menu">
+                        <li><a href="http://journalofdigitalhumanities.org/1-4/bibliography/">Bibliography</a><br>The Editors</li>            </ul>
+        </li>
+   
+    <li><a href="http://journalofdigitalhumanities.org/authors/">Authors</a></li>
+</ul>
+</div>
+    
+<div id="article" class="ten columns offset-by-two omega">
+
+
+    <h1>How to Evaluate Digital Scholarship</h1>
+    
+            <h4 class="author-name"><a href="http://journalofdigitalhumanities.org/author/tpresner/" title="Posts by Todd Presner" class="author url fn" rel="author">Todd Presner</a></h4>
+        
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Focoins.info%3Agenerator&amp;rft.type=&amp;rft.format=text&amp;rft.title=How+to+Evaluate+Digital+Scholarship&amp;rft.source=Journal+of+Digital+Humanities&amp;rft.date=2012-12-19&amp;rft.identifier=http%3A%2F%2Fjournalofdigitalhumanities.org%2F1-4%2Fhow-to-evaluate-digital-scholarship-by-todd-presner%2F&amp;rft.language=English&amp;rft.subject=Approaches&amp;rft.subject=Vol.+1%2C+No.+4+Fall+2012&amp;rft.aulast=Presner&amp;rft.aufirst=Todd"></span><p>The purpose of this document is to provide a set of guidelines for the evaluation of digital scholarship in the Humanities, Social Sciences, Arts, and related disciplines. The document is aimed, foremost, at Academic Review Committees, Chairs, Deans, and Provosts who want to know how to assess and evaluate digital scholarship in the hiring, tenure, and promotion process. Secondarily, the document is intended to inform the development of university-wide policies for supporting and evaluating such scholarship.</p>
+<p>1. <strong>Fundamentals for Initial Review</strong>: The work must be evaluated in the medium in which it was produced and published. If it’s a website, that means viewing it in a browser with the appropriate plug-ins necessary for the site to work. If it’s a virtual simulation model, that may mean going to a laboratory outfitted with the necessary software and projection systems to view the model. Work that is time based — like videos — will often be represented by stills, but reviewers also need to devote attention to clips in order to fully evaluate the work. The same can be said for interface development, since still images cannot fully demonstrate the interactive nature of interface research. Authors of digital works should provide a list of system requirements (both hardware and software, including compatible browsers, versions, and plug-ins) for viewing the work. It is incumbent upon academic personnel offices to verify that the appropriate technologies are available and installed on the systems that will be used by the reviewers before they evaluate the digital work.</p>
+<p>2. <strong>Crediting</strong>: Digital projects are often collaborative in nature, involving teams of scholars who work together in different venues over various periods of time. Authors of digital works should provide a clear articulation of the role or roles that they have played in the genesis, development, and execution of the digital project. It is impractical — if not impossible — to separate out every micro-contribution made by team members since digital projects are often synergistic, iterative, experimental, and even dynamically generated through ongoing collaborations. Nevertheless, authors should indicate the roles that they played (and time commitments) at each phase of the project development. Who conceptualized the project and designed the initial specifications (functional and technical)? Who created the mock-ups? Who wrote the grants or secured the funding that supported the project? What role did each contributor play in the development and execution of the project? Who authored the content? Who decided how that content would be accessed, displayed, and stored? What is the “public face” of the project and who represents it and how?</p>
+<p>3. <strong>Intellectual Rigor</strong>: Digital projects vary tremendously and may not “look” like traditional academic scholarship; at the same time, scholarly rigor must be assessed by examining how the work contributes to and advances the state of knowledge of a given field or fields. What is the nature of the new knowledge created? What is the methodology used to create this knowledge? It is important for review committees to recognize that new knowledge is not just new content but also new ways of organizing, classifying, and interacting with content. This means that part of the intellectual contribution of a digital project is the design of the interface, the database, and the code, all of which govern the form of the content. Digital scholars are not only in the position of doing original research but also of inventing new scholarly platforms after 500+ years of print so fully naturalized the “look” of knowledge that it may be difficult for reviewers to understand these new forms of documentation and the intellectual effort that goes into developing them. This is the dual burden — and the dual opportunity — for creativity in the digital domain.</p>
+<p>4. <strong>Crossing Research, Teaching, and Service</strong>: Digital projects almost always have multiple applications and uses that enhance—at the same time—research, teaching, and service. Digital research projects can make transformative contributions in the classroom and sometimes even have an impact on the public-at-large. This ripple effect should not be diminished. Review committees need to be attentive to colleagues who dismiss the research contributions of digital work by cavalierly characterizing it as a mere “tool” for teaching or service. Tools shape knowledge, and knowledge shapes tools. But it is also important that review committees focus on the research contributions of the digital work by asking questions such as the following: How is the work engaged with a problem specific to a scholarly discipline or group of disciplines? How does the work reframe that problem or contribute a new way of understanding the problem? How does the work advance an argument through both the content and the way the content is presented? How is the design of the platform an argument? To answer this last question, review committees might ask for documentation describing the development process and design of the platform or software, such as database schema, interface designs, modules of code (and explanations of what they do), as well as sample data types. If the project is, in fact, primarily for teaching, how has it transformed the learning environment? What contributions has it made to learning and how have these contributions been assessed?</p>
+<p>5. <strong>Peer Review</strong>: Digital projects should be peer reviewed by scholars in fields who are able to assess the project’s contribution to knowledge and situate it within the relevant intellectual landscape. Peer review can happen formally through letters of solicitation but also be assessed through online forums, citations and discussions in scholarly venues, grants received from foundations and other sources of funding, and public presentations of the project at conferences and symposia. Has the project given rise to publications in peer-reviewed journals or won prizes by professional associations? How does it measure up to comparable projects in the field that use or develop similar technologies or similar kinds of data? Finally, grants received are often significant indicators of peer review. It is important that reviewers familiarize themselves with grant organizations across schools and disciplines, including the Humanities, the Social Sciences, the Arts, Information Studies and Library Sciences, and the Natural Sciences, since these are indicators of prestige and impact.</p>
+<p>6. <strong>Impact</strong>: Digital projects can have an impact on numerous fields in the academy as well as across institutions and even the general public. They often cross the divide between research, teaching, and service in innovative ways that should be remarked. Impact can be measured in many ways, including the following: support by granting agencies or foundations, number of viewers or contributors to a site and what they contribute, citations in both traditional literature and online (blogs, social media, links, and trackbacks), use or adoption of the project by other scholars and institutions, conferences and symposia featuring the project, and resonance in public and community outreach (such as museum exhibitions, impact on public policy, adoption in curricula, and so forth).</p>
+<p>7. <strong>Approximating Equivalencies</strong>: Is a digital research project “equivalent” to a book published by a university press, an edited volume, a research article, or something else? These sorts of questions are often misguided since they are predicated on comparing fundamentally different knowledge artifacts and, perhaps more problematically, consider print publications as the norm and benchmark from which to measure all other work. Reviewers should be able to assess the <em>significance</em> of the digital work based on a number of factors: the quality and quantity of the research that contributed to the project; the length of time spent and the kind of intellectual investment of the creators and contributors; the range, depth, and forms of the content types and the ways in which this content is presented; and the nature of the authorship and publication process. Large-scale projects with major funding, multiple collaborators, and a wide-range of scholarly outputs may justifiably be given more weight in the review and promotion process than smaller scale or short-term projects.</p>
+<p>8. <strong>Development Cycles, Sustainability, and Ethics</strong>: It is important that review committees recognize the iterative nature of digital projects, which may entail multiple reviews over several review cycles, as projects grow, change, and mature. Given that academic review cycles are generally several years apart (while digital advances occur more rapidly), reviewers should consider individual projects in their specific contexts. At what “stage” is the project in its current form? Is it considered “complete” by the creators, or will it continue in new iterations, perhaps through spin-off projects and further development? Has the project followed the best practices, as they have been established in the field, in terms of data collection and content production, the use of standards, and appropriate documentation? How will the project “live” and be accessible in the future, and what sort of infrastructure will be necessary to support it? Here, project specific needs and institutional obligations come together at the highest levels and should be discussed openly with Deans and Provosts, Library and IT staff, and project leaders. Finally, digital projects may raise critical ethical issues about the nature and value of cultural preservation, public history, participatory culture and accessibility, digital diversity, and collection curation, which should be thoughtfully considered by project leaders and review committees.</p>
+<p>9. <strong>Experimentation and Risk-Taking</strong>: Digital projects in the Humanities, Social Sciences, and Arts share with experimental practices in the Sciences a willingness to be open about iteration and negative results. As such, experimentation and trial-and-error are inherent parts of digital research and must be recognized to carry risk. The processes of experimentation can be documented and prove to be essential in the long-term development process of an idea or project. White papers, sets of best practices, new design environments, and publications can result from such projects and these should be considered in the review process. Experimentation and risk-taking in scholarship represent the best of what the university, in all its many disciplines, has to offer society. To treat scholarship that takes on risk and the challenge of experimentation as an activity of secondary (or no) value for promotion and advancement, can only serve to reduce innovation, reward mediocrity, and retard the development of research.</p>
+<p>&nbsp;</p>
+<p>Originally published by Todd Presner in <a title="Todd Presner, &quot;How to Evaluate Digital Scholarship&quot; original post" href="http://humanitiesblast.com/Evaluating_digital_scholarship.pdf" target="_blank">September 2011</a>.</p>
+<hr />
+<p><em>This document was authored by Todd Presner, with contributions, feedback, and language provided by John Dagenais, Johanna Drucker, Diane Favro, Peter Lunenfeld, and Willeke Wendrich. At this point, it has not been “approved” or “adopted” by any institutional body and does not reflect university policies; instead, it is meant to be a discussion document for establishing best practices in the changing academic review process. The authors named above are all affiliated faculty with UCLA’s Digital Humanities program. <a title="UCLA Digital Humanities program website" href="http://www.digitalhumanities.ucla.edu" target="_blank">http://www.digitalhumanities.ucla.edu</a></em></p>
+<p><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US" rel="license"><img style="border-width: 0;" alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />
+<em>This work is licensed under a <a title="Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US" target="_blank" rel="license">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>. Please feel free to copy and share this document in accordance with the Creative Commons license above. Among other places, a version is available in the collaborative and open access book, <a title="Open Access Version of &quot;Digital_Humanities&quot; book" href="http://mitpress.mit.edu/books/digitalhumanities-0" target="_blank">Digital_Humanities</a> (Cambridge: MIT Press, 2012), co-authored by Anne Burdick, Johanna Drucker, Peter Lunenfeld, Todd Presner, and Jeffrey Schnapp. “How to Evaluate Digital Scholarship” is reproduced on pages 128-29.</em></p>
+
+
+        
+    <div class="author-bio">
+    
+        <h2>
+            About 
+            Todd Presner        </h2>
+        
+
+        <div class="gravatar"><img alt='' src='http://2.gravatar.com/avatar/21c9ef109b7436bdcea0fa7ff505a1d0?s=52&#038;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&#038;r=g' srcset='http://2.gravatar.com/avatar/21c9ef109b7436bdcea0fa7ff505a1d0?s=104&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&amp;r=g 2x' class='avatar avatar-52 photo' height='52' width='52' /></div><p class="coauthor">Todd Presner is Professor of Germanic Languages, Comparative Literature, and Jewish Studies at the University of California Los Angeles. He is the Sady and Ludwig Kahn Director of the UCLA Center for Jewish Studies, and the Chair of the Digital Humanities Program (undergraduate minor and graduate certificate) (<a href="http://www.digitalhumanities.ucla.edu">http://www.digitalhumanities.ucla.edu</a>). Presner also is the founder, director, and editor-in-chief  of <a href="http://hypercities.com">HyperCities</a>, a collaborative, digital mapping platform that explores the layered histories of city spaces. His research focuses on European intellectual history, the history of media, visual culture, digital humanities, and cultural geography. His most recent book, co-authored with Anne Burdick, Johanna Drucker, Peter Lunenfeld, and Jeffrey Schnapp, is <i>Digital_Humanities</i> (MIT Press, 2012), a critical-theoretical exploration of this complex, emerging field. A fourth book is under contract, <i>HyperCities: Thick Mapping in the Digital Humanities</i> (Harvard UP, 2013).</p>    
+    </div>
+	
+        
+    		
+	
+    
+		<script type="text/javascript">
+		/* <![CDATA[ */
+		(function() {
+		var s = document.createElement("script"); s.type = "text/javascript"; s.src = "https://intensedebate.com/js/wordpressTemplateLinkWrapper2.php?acct=e54add4303ff6f42f7f1f553a1f13497"; document.getElementsByTagName("head")[0].appendChild(s);
+		}());
+		/* ]]> */
+		</script>
+    </div> <!-- ends article -->
+        
+</section> <!-- ends colmask -->
+
+</div> <!-- ends wrap -->
+
+<footer>
+    <nav class="container">
+    			<div class="execphpwidget"><div class="sixteen columns alpha">
+<a href="http://www.pressforward.org" target="_blank"><img src="http://journalofdigitalhumanities.org/wp-content/themes/jdh/images/pressforward.png" alt="Press Forward"></a>
+<a href="http://www.chnm.gmu.edu" target="_blank"><img src="http://journalofdigitalhumanities.org/wp-content/themes/jdh/images/rrchnm.png" alt="Roy Rosenzweig Center for History & New Media"></a>
+<div class="creative-commons">
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+</div>
+</div></div>
+		    </nav>
+</footer>
+
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/respond.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/selectivizr-min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/jquery.cookie.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/jquery.hoverIntent.minified.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/jquery.dcjqaccordion.2.7.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-includes/js/comment-reply.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-includes/js/wp-embed.min.js?ver=4.7.5'></script>
+</body>
+</html>

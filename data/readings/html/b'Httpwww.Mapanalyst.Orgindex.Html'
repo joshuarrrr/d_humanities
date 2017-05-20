@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>MapAnalyst - MapAnalyst</title>
+		<link rel="stylesheet" type="text/css" media="print" href="rw_common/themes/mapanalyst/consolidated-print-33.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="rw_common/themes/mapanalyst/consolidated-screen-33.css" />
+		
+		
+		<script type="text/javascript" src="rw_common/themes/mapanalyst/javascript.js"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<meta name="name" content="content" />
+		<link rel="icon" href="http://mapanalyst.org/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="http://mapanalyst.org/favicon.ico" type="image/x-icon" />
+		
+	</head>
+	
+	<!-- 
+	This page was created with RapidWeaver from Realmac Software. http://www.realmacsoftware.com
+	It may not be used unless you own a license for RapidWeaver 3.1 or newer.
+	
+	The template was tested on Safari, Firefox, IE for Mac, and IE 6 for Windows.
+	It is 100% valid XHTML & CSS and renders correctly on all tested browsers.
+	
+	Enjoy!
+	
+	Copyright Realmac Software 2005.
+	-->
+	
+<body>
+	<div id="container">
+<!-- Start the header -->
+		<div id="pageHeader">
+			
+			<h1>MapAnalyst</h1>
+			<h2>The Map Historian's Tool for the Analysis of Old Maps</h2>
+		</div>
+<!-- End the header -->
+<!-- Start the side content -->
+		<div id="sidebarContainer">
+			<div id="navcontainer">
+				<ul><li><a href="index.html" rel="self" id="current">MapAnalyst</a></li><li><a href="screenshot/screenshot.html" rel="self">Screenshot</a></li><li><a href="examples/example.html" rel="self">Examples</a></li><li><a href="about.html" rel="self">About</a></li><li><a href="faq.html" rel="self">FAQ</a></li><li><a href="press.html" rel="self">Publications & Applications</a></li><li><a href="download.html" rel="self">Download</a></li><li><a href="prerelease.html" rel="self">1.4 Pre-Release</a></li><li><a href="whatsnew.html" rel="self">What's New</a></li><li><a href="tutorial/tutorial.html" rel="self">Short Tutorial</a></li><li><a href="man/man.html" rel="self">Manual</a></li><li><a href="background.html" rel="self">Background</a></li><li><a href="literature.html" rel="self">Literature</a></li><li><a href="contact.html" rel="self">Contact</a></li><li><a href="sitemap.html" rel="self">Site Map</a></li></ul>
+			</div>
+			<div class="sidebar">	
+				
+			</div>
+			<div class="sidebar">
+				
+			</div>
+		</div>
+<!-- End sidebar content -->
+<!-- Start the main content -->
+		<div id="contentContainer">
+			<div id="content">
+				<h1>Welcome to MapAnalyst</h1><strong><br /></strong><br />MapAnalyst is a software application for the accuracy analysis of old maps. Its main purpose is to compute distortion grids and other types of visualizations that illustrate the geometrical accuracy and distortion of old maps.<br /><br />MapAnalyst uses pairs of control points on an old map and on a new reference map. The control points are used to construct distortion grids, vectors of displacement, accuracy circles, and isolines of local scale and rotation. As a by-product, MapAnalyst also computes the old map's scale, rotation and statistical indicators.<strong><br /></strong><br />MapAnalyst is free and open-source software. When you publish scholarly articles that make use of MapAnalyst, you are kindly asked to cite our <a href="press.html" rel="self" title="In the Press">publications about MapAnalyst</a>.<br /> <br /><a href="about.html" rel="self" title="About">Read more</a> about the reasons for the development of MapAnalyst, its main characteristics and the authors. <strong><a href="about.html" rel="self" title="About">>></a></strong><strong><br /></strong><br /><img class="imageStyle" alt="" src="index_files/page33_1.jpg" width="480" height="304" /><br />"Die Landschaft Basel und das Frickthal" by W. Haas, 1798, with a distortion grid with a mesh size of 5000 meters.
+				<div id="breadcrumbcontainer"></div>
+			</div>
+		</div>
+<!-- End Main content -->
+		<br style="clear: both;" />
+	</div>
+	
+	<div id="footer">
+		&copy; 2005-2017 <a href="mailto:bernie.jenny@monash.edu"><a href="http://berniejenny.info">Bernhard Jenny</a>, Monash University, Clayton, Australia</a>.<br>Last site update: 15 May 2017
+	</div>
+</body>
+</html>

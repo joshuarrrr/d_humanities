@@ -1,0 +1,221 @@
+
+
+
+
+
+  
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Overview — Visualize your documents</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/main.css" />
+    
+      
+        <script>
+          window.csrfTokenName = "csrfToken";
+          window.csrfToken = "a20780ae325c0a352f62ac8311bab69ae2019943-1495304028353-b6078f04d9b0c0bca910f7f6";
+          window.csrfTokenHtml = '<input type="hidden" name="csrfToken" value="a20780ae325c0a352f62ac8311bab69ae2019943-1495304028353-b6078f04d9b0c0bca910f7f6" />';
+          window.csrfTokenData = { "csrfToken": "a20780ae325c0a352f62ac8311bab69ae2019943-1495304028353-b6078f04d9b0c0bca910f7f6" };
+          window.csrfTokenQueryString = "csrfToken=a20780ae325c0a352f62ac8311bab69ae2019943-1495304028353-b6078f04d9b0c0bca910f7f6";
+        </script>
+      
+    
+    
+      <script>
+        window.documentCloudUrl = "https://www.documentcloud.org";
+      </script>
+    
+  </head>
+  <body class="welcome-show">
+    <!--[if lte IE 9]>
+      <div id="ie9-not-supported" style="padding: 2em 10%; background: white; border: 1em solid #ed1c24; font-size: 1.75em; line-height: 1.75;">
+        <p>Overview does not support your version of Internet Explorer.</p><p>Please <a href="http://browsehappy.com/">upgrade to a newer web browser</a> and return here.</p><p style="font-size: small;">In 2013, only four per cent of all visits to Overview came from outdated versions of Internet Explorer (like yours). It takes much longer to develop and debug each Overview feature when we must support older web browsers for a small number of people. We apologize for the inconvenience and hope you will return once you have installed a faster, more secure and more intuitive web browser.</p>
+      </div>
+    <![endif]-->
+
+    
+
+  <nav class="navbar navbar-static-top">
+    <h1 class="navbar-header">
+      <a class="logo" href="/">Overview</a>
+    </h1>
+    <ul class="nav navbar-nav">
+      <li><a href="https://blog.overviewdocs.com/help" target="_blank">Help</a></li>
+      <li class="contact-link">
+      
+          <a href="https://blog.overviewdocs.com/contact/" target="_blank">Contact us</a>
+        
+      </li>
+      
+          <li><a href="https://blog.overviewdocs.com/" target="_blank">Blog</a></li>
+        
+    </ul>
+    
+        
+          
+        
+      
+  </nav>
+  
+
+
+
+    
+
+    <div class="container">
+      
+
+      
+    
+
+    <article>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="splash">
+              <img class="big-logo" src="/assets/images/logo-large.png" alt="Overview — Visualize your documents" />
+              <p class="text">Search, visualize, and review your documents. Up to hundreds of thousands of them, in any format.</p>
+              <p class="learn"><a href="/help">Learn more</a></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="intro-video-wrapper">
+              <iframe class="intro-video"
+                src="https://player.vimeo.com/video/129776851?byline=0&amp;portrait=0&amp;color=ffffff"
+                width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6">
+            
+
+
+  <form method="post" action="/login" class="session-form form-horizontal login-form">
+    <h3>Log in to your account</h3>
+    
+    <fieldset class="control-group">
+           <label for="email" class="control-label">Email</label>
+           <div class="controls">
+             <input placeholder="user@example.org" required="required" id="email" type="email" name="email" class="form-control"/>
+             
+             
+           </div>
+         </fieldset>
+    <fieldset class="control-group">
+           <label for="password" class="control-label">Password</label>
+           <div class="controls">
+             <input id="password" type="password" name="password" class="form-control"/>
+             
+             
+           </div>
+         </fieldset>
+    <fieldset class="form-actions">
+      <div>
+        <input type="hidden" name="csrfToken" value="a20780ae325c0a352f62ac8311bab69ae2019943-1495304028353-b6078f04d9b0c0bca910f7f6"/>
+        <input type="submit" class="btn btn-primary" value="Log in" />
+        <p class="help-block muted forgot-password">Forgot your password? <a href="/reset-password">Reset it</a>.</p>
+      </div>
+    </fieldset>
+  </form>
+
+
+          </div>
+
+          <div class="col-lg-6">
+            
+
+
+  <form method="post" action="/register" class="user-form form-horizontal login-form" autocomplete="off">
+    <h3>Create an account</h3>
+    <input type="hidden" name="csrfToken" value="a20780ae325c0a352f62ac8311bab69ae2019943-1495304028353-b6078f04d9b0c0bca910f7f6"/>
+    
+    <div>
+      <fieldset class="control-group">
+           <label for="email" class="control-label">Email</label>
+           <div class="controls">
+             <input placeholder="user@example.org" required="required" id="email" type="email" name="email" class="form-control"/>
+             <p class="help-block">We will send a confirmation email to this address</p>
+             
+           </div>
+         </fieldset>
+    </div>
+    <div>
+      <fieldset class="control-group">
+           <label for="password" class="control-label">Password</label>
+           <div class="controls">
+             <input data-minlength-password-min-length="7" class="minlength-password form-control" required="required" data-minlength-password-error-too-short="Please use a password at least seven characters long." id="password" type="password" name="password"/>
+             
+             
+           </div>
+         </fieldset>
+      <fieldset class="control-group">
+           <label for="password2" class="control-label">Password (again)</label>
+           <div class="controls">
+             <input data-confirm-password-error-does-not-match="This password doesn’t match what you typed in above. Please correct it." class="confirm-password form-control" required="required" id="password2" type="password" name="password2"/>
+             
+             
+           </div>
+         </fieldset>
+    </div>
+    <fieldset class="control-group">
+           <div class="controls">
+             <div class="checkbox">
+               <label>
+                 <input checked="checked" class="checkbox" value="true" id="subscribe" type="checkbox" name="subscribe"/>
+                 Email me tips and news about Overview
+               </label>
+             </div>
+             <p class="help-block">We will never share your email address</p>
+           </div>
+         </fieldset>
+    <fieldset class="form-actions">
+        <div>
+          <input data-feedback="Registering…" type="submit" class="btn btn-primary" value="Register and send confirmation email"/>
+        </div>
+      </fieldset>
+  </form>
+
+
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+    </div>
+
+    
+
+    
+  <script src="/assets/javascripts/vendor/require.js" data-main="/assets/javascripts/bundle/Welcome/show.js"></script>
+
+
+    
+      
+        <script>
+          window._gaq = window._gaq || [];
+          _gaq.push(['_setAccount', 'UA-34992611-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+        <script src="/assets/javascripts/tracking.js"></script>
+      
+    
+
+    
+  </body>
+</html>
+
+

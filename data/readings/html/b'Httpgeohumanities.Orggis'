@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head>
+<meta charset="utf-8" />
+<link rel="shortcut icon" href="http://geohumanities.org/sites/geohumanities.org/files/favicon2_0.ico" type="image/vnd.microsoft.icon" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Humanities GIS Projects | GeoHumanities</title>
+<style type="text/css" media="all">
+@import url("http://geohumanities.org/modules/system/system.base.css?oq7obe");
+@import url("http://geohumanities.org/modules/system/system.menus.css?oq7obe");
+@import url("http://geohumanities.org/modules/system/system.messages.css?oq7obe");
+@import url("http://geohumanities.org/modules/system/system.theme.css?oq7obe");
+</style>
+<style type="text/css" media="all">
+@import url("http://geohumanities.org/modules/book/book.css?oq7obe");
+@import url("http://geohumanities.org/modules/comment/comment.css?oq7obe");
+@import url("http://geohumanities.org/sites/all/modules/date/date_api/date.css?oq7obe");
+@import url("http://geohumanities.org/modules/field/theme/field.css?oq7obe");
+@import url("http://geohumanities.org/sites/all/modules/mollom/mollom.css?oq7obe");
+@import url("http://geohumanities.org/modules/node/node.css?oq7obe");
+@import url("http://geohumanities.org/modules/search/search.css?oq7obe");
+@import url("http://geohumanities.org/modules/user/user.css?oq7obe");
+@import url("http://geohumanities.org/modules/forum/forum.css?oq7obe");
+@import url("http://geohumanities.org/sites/all/modules/views/css/views.css?oq7obe");
+@import url("http://geohumanities.org/sites/all/modules/ckeditor/css/ckeditor.css?oq7obe");
+</style>
+<style type="text/css" media="all">
+@import url("http://geohumanities.org/sites/all/modules/ctools/css/ctools.css?oq7obe");
+@import url("http://geohumanities.org/sites/geohumanities.org/modules/panels/css/panels.css?oq7obe");
+@import url("http://geohumanities.org/sites/all/modules/tagclouds/tagclouds.css?oq7obe");
+</style>
+<style type="text/css" media="all">
+@import url("http://geohumanities.org/sites/geohumanities.org/themes/impact_theme/style.css?oq7obe");
+</style>
+<style type="text/css" media="all">
+@import url("http://geohumanities.org/sites/geohumanities.org/files/css_injector/css_injector_1.css?oq7obe");
+@import url("http://geohumanities.org/sites/geohumanities.org/files/css_injector/css_injector_2.css?oq7obe");
+@import url("http://geohumanities.org/sites/geohumanities.org/files/css_injector/css_injector_3.css?oq7obe");
+</style>
+<script type="text/javascript" src="http://geohumanities.org/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://geohumanities.org/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://geohumanities.org/misc/drupal.js?oq7obe"></script>
+<script type="text/javascript" src="http://geohumanities.org/sites/geohumanities.org/modules/google_analytics/googleanalytics.js?oq7obe"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-50822131-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://geohumanities.org/sites/geohumanities.org/themes/impact_theme/js/main-menu.js?oq7obe"></script>
+<script type="text/javascript" src="http://geohumanities.org/sites/geohumanities.org/themes/impact_theme/js/pngfix.min.js?oq7obe"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"impact_theme","theme_token":"zFBbux8xaI0ZqHXHothSDIsFquzp3hosvSwzB7GOj1Q","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/geohumanities.org\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/geohumanities.org\/themes\/impact_theme\/js\/main-menu.js":1,"sites\/geohumanities.org\/themes\/impact_theme\/js\/pngfix.min.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/book\/book.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/geohumanities.org\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/tagclouds\/tagclouds.css":1,"sites\/geohumanities.org\/themes\/impact_theme\/style.css":1,"public:\/\/css_injector\/css_injector_1.css":1,"public:\/\/css_injector\/css_injector_2.css":1,"public:\/\/css_injector\/css_injector_3.css":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/gis":true}});
+//--><!]]>
+</script>
+<!--[if lt IE 9]><script src="/sites/geohumanities.org/themes/impact_theme/js/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-gis i18n-en">
+    <div id="wrapper">
+  <header id="header" class="clearfix">
+          <div id="site-logo"><a href="/" title="Home">
+        <img src="http://geohumanities.org/sites/geohumanities.org/files/siglogo-horiz_03.jpg" alt="Home" />
+      </a></div>                      <div class="social-profile">
+        <ul>
+                    <li class="twitter">
+            <a target="_blank" title=" in Twitter" href="http://www.twitter.com/GeoHum_SIG"> Twitter </a>
+          </li>                    <li class="rss">
+            <a target="_blank" title=" in RSS" href="/rss.xml"> RSS </a>
+          </li>
+        </ul>
+      </div>
+        <nav id="navigation" role="navigation">
+      <div id="main-menu">
+        <ul class="menu"><li class="first leaf"><a href="/">Home</a></li>
+<li class="leaf active-trail"><a href="/gis" title="Imported from the John Levin list" class="active-trail active">Humanities GIS Projects</a></li>
+<li class="leaf"><a href="/forum" title="Discussion forums for working groups">Working Groups</a></li>
+<li class="leaf"><a href="/geodirt" title="Imported from DiRT Directory">GeoDiRT Resources</a></li>
+<li class="leaf"><a href="/about">About the SIG</a></li>
+<li class="leaf"><a href="/user" title="">My profile</a></li>
+<li class="last leaf"><a href="/user/login" title="">Login</a></li>
+</ul>      </div>
+    </nav>
+  </header>
+
+  
+  <div id="main" class="clearfix">
+    <div id="primary">
+      <section id="content" role="main">
+        
+        <div id="breadcrumbs"><h2 class="element-invisible">You are here</h2><nav class="breadcrumb"><a href="/">Home</a> » Humanities GIS Projects</nav></div>                        <div id="content-wrap">
+                    <h1 class="page-title">Humanities GIS Projects</h1>                                                  <div class="region region-content">
+  <div id="block-system-main" class="block block-system">
+
+      
+  <div class="content">
+    <div class="view view-v-gis view-id-v_gis view-display-id-page_1 view-dom-id-5de42fd9cd4c1d068b09aa3ba8c6779c">
+            <div class="view-header">
+      <p>This catalog was seeded from <a href="http://anterotesis.com" target="_blank">John Levin's <em>Anterotesis</em></a> <b>DH GIS Projects</b> list. We would like to improve the interface and functionality in 2016. Please <a href="mailto://karl.geog@gmail.com">contact us</a> if you are able to help! </p>
+    </div>
+  
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-2">
+  
+  <tbody>
+          <tr class="row-first">
+                  <td class="col-first">
+              
+  <div class="views-field views-field-title">        <h2 class="field-content">Addressing History</h2>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Scottish Post Office directories and contemporary maps. The execution of this project is excellent.</p>
+</div>  </div>  
+  <div class="views-field views-field-term-node-tid">    <span class="views-label views-label-term-node-tid">Where: </span>    <span class="field-content"><a href="/taxonomy/term/43">Scotland</a></span>  </div>  
+  <div class="views-field views-field-field-gis-url">    <span class="views-label views-label-field-gis-url">Site: </span>    <span class="field-content"><a href="http://addressinghistory.edina.ac.uk/" target="_blank">http://addressinghistory.edina.ac.uk/</a></span>  </div>          </td>
+                  <td class="col-last">
+              
+  <div class="views-field views-field-title">        <h2 class="field-content">AfricaMap</h2>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Part of the Harvard World Map project.</p>
+</div>  </div>  
+  <div class="views-field views-field-term-node-tid">    <span class="views-label views-label-term-node-tid">Where: </span>    <span class="field-content"><a href="/taxonomy/term/2">Africa</a></span>  </div>  
+  <div class="views-field views-field-field-gis-url">    <span class="views-label views-label-field-gis-url">Site: </span>    <span class="field-content"><a href="http://africamap.harvard.edu/" target="_blank">http://africamap.harvard.edu/</a></span>  </div>          </td>
+              </tr>
+          <tr >
+                  <td class="col-first">
+              
+  <div class="views-field views-field-title">        <h2 class="field-content">Animated Atlas of African History</h2>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Flash-based map of Africa, available on the web as downloadable executables for Mac and Windows.</p>
+</div>  </div>  
+  <div class="views-field views-field-term-node-tid">    <span class="views-label views-label-term-node-tid">Where: </span>    <span class="field-content"><a href="/taxonomy/term/2">Africa</a></span>  </div>  
+  <div class="views-field views-field-field-gis-url">    <span class="views-label views-label-field-gis-url">Site: </span>    <span class="field-content"><a href="http://www.brown.edu/Research/AAAH/index.htm" target="_blank">http://www.brown.edu/Research/AAAH/index.htm</a></span>  </div>          </td>
+                  <td class="col-last">
+              
+  <div class="views-field views-field-title">        <h2 class="field-content">Archivo Memorias de la Patagonia Austral</h2>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>En el año 2010 se crea el proyecto Archivo Memorias de la Patagonia Austral que comienza a reubicar y organizar conjuntos de documentos a partir de la digitalización y el específico tratamiento de los mismos para su puesta en consulta pública.</p>
+</div>  </div>  
+  <div class="views-field views-field-term-node-tid">    <span class="views-label views-label-term-node-tid">Where: </span>    <span class="field-content"><a href="/taxonomy/term/83">Argentina</a> :: <a href="/taxonomy/term/85">Chile</a></span>  </div>  
+  <div class="views-field views-field-field-gis-url">    <span class="views-label views-label-field-gis-url">Site: </span>    <span class="field-content"><a href="http://www.koluel.org/" target="_blank">http://www.koluel.org/</a></span>  </div>          </td>
+              </tr>
+          <tr >
+                  <td class="col-first">
+              
+  <div class="views-field views-field-title">        <h2 class="field-content">Atlantic Networks Project</h2>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Maps and data relating to trans-atlantic shipping, including the slave trade.</p>
+</div>  </div>  
+  <div class="views-field views-field-term-node-tid">    <span class="views-label views-label-term-node-tid">Where: </span>    <span class="field-content"></span>  </div>  
+  <div class="views-field views-field-field-gis-url">    <span class="views-label views-label-field-gis-url">Site: </span>    <span class="field-content"><a href="https://sites.google.com/site/atlanticnetworksproject/" target="_blank">https://sites.google.com/site/atlanticnetworksproject/</a></span>  </div>          </td>
+                  <td class="col-last">
+              
+  <div class="views-field views-field-title">        <h2 class="field-content">Atlas Cartografia Histórica</h2>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Mapping the historic local administrations of Portugal, in Portuguese and English.</p>
+</div>  </div>  
+  <div class="views-field views-field-term-node-tid">    <span class="views-label views-label-term-node-tid">Where: </span>    <span class="field-content"><a href="/taxonomy/term/18">Portugal</a></span>  </div>  
+  <div class="views-field views-field-field-gis-url">    <span class="views-label views-label-field-gis-url">Site: </span>    <span class="field-content"><a href="http://atlas.fcsh.unl.pt/cartoweb35/atlas.php?lang=en" target="_blank">http://atlas.fcsh.unl.pt/cartoweb35/atlas.php?lang=en</a></span>  </div>          </td>
+              </tr>
+          <tr >
+                  <td class="col-first">
+              
+  <div class="views-field views-field-title">        <h2 class="field-content">Atlas das Paisagens Literárias de Portugal Continental</h2>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Atlas of Literary Landscapes of Mainland Portugal is a project that aims to study literary representations of mainland Portugal and to explore their connections with social and environmental realities both in the past and in the present.</p>
+</div>  </div>  
+  <div class="views-field views-field-term-node-tid">    <span class="views-label views-label-term-node-tid">Where: </span>    <span class="field-content"><a href="/taxonomy/term/18">Portugal</a></span>  </div>  
+  <div class="views-field views-field-field-gis-url">    <span class="views-label views-label-field-gis-url">Site: </span>    <span class="field-content"><a href="http://litescape.ielt.fcsh.unl.pt" target="_blank">http://litescape.ielt.fcsh.unl.pt</a></span>  </div>          </td>
+                  <td class="col-last">
+              
+  <div class="views-field views-field-title">        <h2 class="field-content">Atlas of Digital Humanities and Social Science / Atlas de Ciencias Sociales y Humanidades Digitales</h2>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-term-node-tid">    <span class="views-label views-label-term-node-tid">Where: </span>    <span class="field-content"><a href="/taxonomy/term/1">Global</a></span>  </div>  
+  <div class="views-field views-field-field-gis-url">    <span class="views-label views-label-field-gis-url">Site: </span>    <span class="field-content"><a href="http://grinugr.org/mapa/" target="_blank">http://grinugr.org/mapa/</a></span>  </div>          </td>
+              </tr>
+          <tr >
+                  <td class="col-first">
+              
+  <div class="views-field views-field-title">        <h2 class="field-content">Atlas of Early Printing</h2>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Printing in Europe, circa 1450 to 1500.</p>
+</div>  </div>  
+  <div class="views-field views-field-term-node-tid">    <span class="views-label views-label-term-node-tid">Where: </span>    <span class="field-content"><a href="/taxonomy/term/16">Europe</a></span>  </div>  
+  <div class="views-field views-field-field-gis-url">    <span class="views-label views-label-field-gis-url">Site: </span>    <span class="field-content"><a href="http://atlas.lib.uiowa.edu/" target="_blank">http://atlas.lib.uiowa.edu/</a></span>  </div>          </td>
+                  <td class="col-last">
+              
+  <div class="views-field views-field-title">        <h2 class="field-content">Atlas of Sources and Materials for History of Old Poland</h2>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p><span style="color: rgb(51, 51, 51); font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 13.0080003738403px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20.0063037872314px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none; background-color: rgb(255, 255, 255);">A uniform system for gathering, analysing, and making available information and sources for research in the field of historical geography of Polish lands within borders prior to 1772</span></p>
+</div>  </div>  
+  <div class="views-field views-field-term-node-tid">    <span class="views-label views-label-term-node-tid">Where: </span>    <span class="field-content"><a href="/taxonomy/term/105">Poland</a></span>  </div>  
+  <div class="views-field views-field-field-gis-url">    <span class="views-label views-label-field-gis-url">Site: </span>    <span class="field-content"><a href="http://hgisb.kul.lublin.pl/azm/pmapper-4.2.0/map_default.phtml?resetsession=ALL&amp;config=korona&amp;language=en" target="_blank">http://hgisb.kul.lublin.pl/azm/pmapper-4.2.0/map_default.phtml?resetsession=ALL&amp;...</a></span>  </div>          </td>
+              </tr>
+          <tr class="row-last">
+                  <td class="col-first">
+              
+  <div class="views-field views-field-title">        <h2 class="field-content">Authorial London</h2>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The Authorial London project is compiling and mapping references to London places found in the works and biographies of writers who have lived there.  You can explore and analyze these curated passages from literary, geographical, and biographical perspectives, on dimensions of genre, form, period, social standing, and neighborhood. The site's underlying software platform, "Authorial {X}," will be made available soon, permitting creation of similar sites for other locales.</p>
+</div>  </div>  
+  <div class="views-field views-field-term-node-tid">    <span class="views-label views-label-term-node-tid">Where: </span>    <span class="field-content"><a href="/taxonomy/term/45">England</a> :: <a href="/taxonomy/term/50">London</a> :: <a href="/taxonomy/term/42">United Kingdom</a></span>  </div>  
+  <div class="views-field views-field-field-gis-url">    <span class="views-label views-label-field-gis-url">Site: </span>    <span class="field-content"><a href="https://authorial.stanford.edu" target="_blank">https://authorial.stanford.edu</a></span>  </div>          </td>
+                  <td class="col-last">
+              
+  <div class="views-field views-field-title">        <h2 class="field-content">Batanes Islands Cultural Atlas</h2>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>A Cultural Atlas that includes maps, a timeline, and images of Batanes, the northern most province of the Philippines.</p>
+</div>  </div>  
+  <div class="views-field views-field-term-node-tid">    <span class="views-label views-label-term-node-tid">Where: </span>    <span class="field-content"><a href="/taxonomy/term/87">Philippines</a></span>  </div>  
+  <div class="views-field views-field-field-gis-url">    <span class="views-label views-label-field-gis-url">Site: </span>    <span class="field-content"><a href="http://ecai.org/batanesatlas/index.html" target="_blank">http://ecai.org/batanesatlas/index.html</a></span>  </div>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+      <h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a title="Go to page 2" href="/gis?page=1">2</a></li>
+<li class="pager-item"><a title="Go to page 3" href="/gis?page=2">3</a></li>
+<li class="pager-item"><a title="Go to page 4" href="/gis?page=3">4</a></li>
+<li class="pager-item"><a title="Go to page 5" href="/gis?page=4">5</a></li>
+<li class="pager-item"><a title="Go to page 6" href="/gis?page=5">6</a></li>
+<li class="pager-item"><a title="Go to page 7" href="/gis?page=6">7</a></li>
+<li class="pager-item"><a title="Go to page 8" href="/gis?page=7">8</a></li>
+<li class="pager-item"><a title="Go to page 9" href="/gis?page=8">9</a></li>
+<li class="pager-ellipsis">…</li>
+<li class="pager-next"><a title="Go to next page" href="/gis?page=1">next ›</a></li>
+<li class="pager-last last"><a title="Go to last page" href="/gis?page=14">last »</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>  </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+        </div>
+      </section> <!-- /#main -->
+    </div>
+
+          <aside id="sidebar" role="complementary">
+       <div class="region region-sidebar-first">
+  <div id="block-search-form" class="block block-search">
+
+      
+  <div class="content">
+    <form action="/gis" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-HoqBI2aazqvYDoWiZdGiF2go4wZ6XlJ3yjChZ-ObVeo" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+  
+</div> <!-- /.block -->
+<div id="block-block-1" class="block block-block">
+
+      
+  <div class="content">
+    <p><a href="suggest-resource">Suggest a Humanities GIS project for the list</a></p>
+  </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+      </aside> 
+      </div>
+
+  <footer id="footer-bottom">
+    <div id="footer-area" class="clearfix">
+            
+      <div class="region region-footer">
+  <div id="block-system-powered-by" class="block block-system">
+
+      
+  <div class="content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+    </div>
+
+    <div id="bottom" class="clearfix">
+      <div class="copyright">Copyright &copy; 2017, <a href="/"></a></div>
+      <div class="credit">Theme by  <a href="http://www.devsaran.com" target="_blank">Devsaran</a></div>
+    </div>
+  </footer>
+
+</div>
+
+
+
+
+
+
+  </body>
+</html>

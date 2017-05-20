@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en">
+<![endif]-->
+<!--[if !(IE 6) & !(IE 7) & !(IE 8)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Topic modeling made just simple enough. | The Stone and the Shell</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="https://s0.wp.com/wp-content/themes/pub/twentyeleven/style.css" />
+<link rel="pingback" href="https://tedunderwood.com/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="https://s0.wp.com/wp-content/themes/pub/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+		<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=tedunderwood.com&amp;id=18518646&amp;t=1495304022&amp;back=https%3A%2F%2Ftedunderwood.com%2F2012%2F04%2F07%2Ftopic-modeling-made-just-simple-enough%2F' type="text/javascript"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		</script>
+		<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//tedunderwood.wordpress.com' />
+<link rel="alternate" type="application/rss+xml" title="The Stone and the Shell &raquo; Feed" href="https://tedunderwood.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Stone and the Shell &raquo; Comments Feed" href="https://tedunderwood.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Stone and the Shell &raquo; Topic modeling made just simple&nbsp;enough. Comments Feed" href="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1488818651h&ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='all-css-0-1' href='https://s1.wp.com/_static/??-eJx9kdtSAyEMhl9IjM60tV44PgvQyNIGwmzY7uzbG7qeWpUbyJ/5vxwA5mI854q5QppMoSnELDAXz8lIioTLjbr3InfwN0bxhAJHrMX6k7monn1EshUPprDUG9XDPI+o+VRsbY6Eh2iRMKmth6Wy+6RaOOiI3Tbr1s6VEUWMnilOydRBG/3m1jSUyUGdNbHoQGfMIHUhNJdSKxMhc42KyVfQGyIgG2Jva+R8Jcwb2Tj2X9cRBw0DqOuH7EHWt+LOjt9Rz97+ap0EZLBj6/Vx9yhhHy3pKoGvxX/POmwgEDtLzfCaXh43zw9P+912vz2+A3BLCaE=' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var related_posts_js_options = {"post_heading":"h4"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJyFj90KwjAMhV/IrAw6xQvxWWoXS2r/bNoNfXo70At1KARCTr4cTsScgIJ2dUQWttW1Yr49W2d5I34B4MlkVbDzFF6wjqFgKAvr44kcQmXMyjStGZ3jCpciF4/MDVrZvkeiMBHOfzGLJSl9gYxM9y9XXyG5aiiwyOjaAyMsGT6mdnX0h17uh36Qcre1DyuucHk='></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://tedunderwood.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='What kinds of &#8220;topics&#8221; does topic modeling actually&nbsp;produce?' href='https://tedunderwood.com/2012/04/01/what-kinds-of-topics-does-topic-modeling-actually-produce/' />
+<link rel='next' title='Why DH has no&nbsp;future.' href='https://tedunderwood.com/2012/04/14/why-dh-has-no-future/' />
+<meta name="generator" content="WordPress.com" />
+<link rel="canonical" href="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/" />
+<link rel='shortlink' href='http://wp.me/p1fHxQ-HI' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=json&amp;url=https%3A%2F%2Ftedunderwood.com%2F2012%2F04%2F07%2Ftopic-modeling-made-just-simple-enough%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=xml&amp;url=https%3A%2F%2Ftedunderwood.com%2F2012%2F04%2F07%2Ftopic-modeling-made-just-simple-enough%2F&amp;for=wpcom-auto-discovery" />
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Topic modeling made just simple enough." />
+<meta property="og:url" content="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/" />
+<meta property="og:description" content="Right now, humanists often have to take topic modeling on faith. There are several good posts out there that introduce the principle of the thing (by Matt Jockers, for instance, and Scott Weingart)…" />
+<meta property="article:published_time" content="2012-04-07T14:17:23+00:00" />
+<meta property="article:modified_time" content="2014-05-09T11:36:04+00:00" />
+<meta property="og:site_name" content="The Stone and the Shell" />
+<meta property="og:image" content="https://tedunderwood.files.wordpress.com/2012/04/austen.png" />
+<meta property="og:image:width" content="1050" />
+<meta property="og:image:height" content="1050" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@wordpressdotcom" />
+<meta name="twitter:image" content="https://tedunderwood.files.wordpress.com/2012/04/shapeart.png?w=240" />
+<meta name="twitter:card" content="summary" />
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
+<link rel="shortcut icon" type="image/x-icon" href="https://secure.gravatar.com/blavatar/5711d96c6104f89617e0747253c8acb4?s=32" sizes="16x16" />
+<link rel="icon" type="image/x-icon" href="https://secure.gravatar.com/blavatar/5711d96c6104f89617e0747253c8acb4?s=32" sizes="16x16" />
+<link rel="apple-touch-icon-precomposed" href="https://secure.gravatar.com/blavatar/5711d96c6104f89617e0747253c8acb4?s=114" />
+<link rel='openid.server' href='https://tedunderwood.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='https://tedunderwood.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="https://tedunderwood.com/osd.xml" title="The Stone and the Shell" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<meta name="theme-color" content="#F1E0D4" />
+<script type="text/javascript" id="webfont-output">
+  
+  WebFontConfig = {"typekit":{"id":"lxa3tyn"}};
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+	})();
+</script><meta name="application-name" content="The Stone and the Shell" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Using large digital libraries to advance  literary history" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://tedunderwood.com/feed/;icon-uri=https://secure.gravatar.com/blavatar/5711d96c6104f89617e0747253c8acb4?s=16" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="title" content="Topic modeling made just simple&nbsp;enough. | The Stone and the Shell on WordPress.com" />
+<meta name="description" content="Right now, humanists often have to take topic modeling on faith. There are several good posts out there that introduce the principle of the thing (by Matt Jockers, for instance, and Scott Weingart). But it&#039;s a long step up from those posts to the computer-science articles that explain &quot;Latent Dirichlet Allocation&quot; mathematically. My goal in&hellip;" />
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #F1E0D4; }
+</style>
+<link rel="amphtml" href="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/amp/" /><style type="text/css" id="syntaxhighlighteranchor"></style>
+</head>
+
+<body class="post-template-default single single-post postid-2710 single-format-standard custom-background mp6 customizer-styles-applied singular two-column right-sidebar highlander-enabled highlander-light">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="https://tedunderwood.com/" rel="home">The Stone and the Shell</a></span></h1>
+				<h2 id="site-description">Using large digital libraries to advance  literary history</h2>
+			</hgroup>
+
+						<a href="https://tedunderwood.com/">
+									<img src="https://tedunderwood.files.wordpress.com/2012/12/cropped-nautilus1000x288.png" width="1000" height="288" alt="" />
+							</a>
+			
+								<form method="get" id="searchform" action="https://tedunderwood.com/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search" />
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content">Skip to primary content</a></div>
+												<div class="menu"><ul>
+<li ><a href="https://tedunderwood.com/">Home</a></li><li class="page_item page-item-922"><a href="https://tedunderwood.com/18c-tree/">18c tree</a></li>
+<li class="page_item page-item-2"><a href="https://tedunderwood.com/about/">About this blog</a></li>
+<li class="page_item page-item-2465"><a href="https://tedunderwood.com/open-data/">Open data</a></li>
+<li class="page_item page-item-890"><a href="https://tedunderwood.com/tech-notes/">Tech note</a></li>
+<li class="page_item page-item-3573"><a href="https://tedunderwood.com/ted-underwood/">Ted Underwood</a></li>
+</ul></div>
+			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<div id="primary">
+			<div id="content" role="main">
+
+				
+					<nav id="nav-single">
+						<h3 class="assistive-text">Post navigation</h3>
+						<span class="nav-previous"><a href="https://tedunderwood.com/2012/04/01/what-kinds-of-topics-does-topic-modeling-actually-produce/" rel="prev"><span class="meta-nav">&larr;</span> Previous</a></span>
+						<span class="nav-next"><a href="https://tedunderwood.com/2012/04/14/why-dh-has-no-future/" rel="next">Next <span class="meta-nav">&rarr;</span></a></span>
+					</nav><!-- #nav-single -->
+
+					
+<article id="post-2710" class="post-2710 post type-post status-publish format-standard hentry category-19c category-bayesian-topic-modeling category-discovery-strategies category-topic-modeling">
+	<header class="entry-header">
+		<h1 class="entry-title">Topic modeling made just simple&nbsp;enough.</h1>
+
+				<div class="entry-meta">
+						<span class="sep">Posted on </span><a href="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/" title="9:17 am" rel="bookmark"><time class="entry-date" datetime="2012-04-07T09:17:23+00:00">April 7, 2012</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://tedunderwood.com/author/tedunderwood/" title="View all posts by tedunderwood" rel="author">tedunderwood</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>Right now, humanists often have to take topic modeling on faith. There are several good posts out there that introduce the principle of the thing (by <a href="http://www.stanford.edu/~mjockers/cgi-bin/drupal/node/61" target="_blank">Matt Jockers</a>, for instance, and <a href="http://www.scottbot.net/HIAL/?p=221" target="_blank">Scott Weingart</a>). But it&#8217;s a long step up from those posts to the computer-science articles that explain &#8220;Latent Dirichlet Allocation&#8221; mathematically. My goal in this post is to provide a bridge between those two levels of difficulty. </p>
+<p>Computer scientists make LDA seem complicated because they care about proving that their algorithms work. And the proof is indeed brain-squashingly hard. But the <em>practice</em> of topic modeling makes good sense on its own, without proof, and does not require you to spend even a second thinking about &#8220;Dirichlet distributions.&#8221; When the math is approached in a practical way, I think humanists will find it easy, intuitive, and empowering. This post focuses on LDA as shorthand for a broader family of &#8220;probabilistic&#8221; techniques. I&#8217;m going to ask how they work, what they&#8217;re for, and what their limits are.</p>
+<p><strong>How does it work?</strong> Say we&#8217;ve got a collection of documents, and we want to identify underlying &#8220;topics&#8221; that organize the collection. Assume that each document contains a mixture of different topics. Let&#8217;s also assume that a &#8220;topic&#8221; can be understood as a collection of words that have different probabilities of appearance in passages discussing the topic. One topic might contain many occurrences of &#8220;organize,&#8221; &#8220;committee,&#8221; &#8220;direct,&#8221; and &#8220;lead.&#8221; Another might contain a lot of &#8220;mercury&#8221; and &#8220;arsenic,&#8221; with a few occurrences of &#8220;lead.&#8221; (Most of the occurrences of &#8220;lead&#8221; in this second topic, incidentally, are nouns instead of verbs; part of the value of LDA will be that it implicitly sorts out the different contexts/meanings of a written symbol.)</p>
+<p><a href="https://tedunderwood.files.wordpress.com/2012/04/shapeart.png"><img data-attachment-id="2842" data-permalink="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/shapeart/" data-orig-file="https://tedunderwood.files.wordpress.com/2012/04/shapeart.png?w=584" data-orig-size="553,437" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="ShapeArt" data-image-description="" data-medium-file="https://tedunderwood.files.wordpress.com/2012/04/shapeart.png?w=584?w=300" data-large-file="https://tedunderwood.files.wordpress.com/2012/04/shapeart.png?w=584?w=553" src="https://tedunderwood.files.wordpress.com/2012/04/shapeart.png?w=584" alt="The assumptions behind topic modeling." title="ShapeArt"   class="aligncenter size-full wp-image-2842" srcset="https://tedunderwood.files.wordpress.com/2012/04/shapeart.png 553w, https://tedunderwood.files.wordpress.com/2012/04/shapeart.png?w=150 150w, https://tedunderwood.files.wordpress.com/2012/04/shapeart.png?w=300 300w" sizes="(max-width: 553px) 100vw, 553px" /></a><br />
+Of course, we can&#8217;t directly observe topics; in reality all we have are documents. Topic modeling is a way of extrapolating backward from a collection of documents to infer the discourses (&#8220;topics&#8221;) that could have generated them. (The notion that documents are produced by discourses rather than authors is alien to common sense, but not alien to literary theory.) Unfortunately, there is no way to infer the topics exactly: there are too many unknowns. But pretend for a moment that we had the problem mostly solved. Suppose we knew which topic produced every word in the collection, except for this <em>one</em> word in document <em>D</em>. The word happens to be &#8220;lead,&#8221; which we&#8217;ll call word type <em>W</em>. How are we going to decide whether this occurrence of <em>W</em> belongs to topic <em>Z</em>?</p>
+<p>We can&#8217;t know for sure. But one way to guess is to consider two questions. A) How often does &#8220;lead&#8221; appear in topic <em>Z</em> elsewhere? If &#8220;lead&#8221; often occurs in discussions of <em>Z</em>, then this instance of &#8220;lead&#8221; might belong to <em>Z</em> as well. But a word can be common in more than one topic. And we don&#8217;t want to assign &#8220;lead&#8221; to a topic about leadership if this document is mostly about heavy metal contamination. So we also need to consider B) How common is topic <em>Z</em> in the rest of this document? </p>
+<p>Here&#8217;s what we&#8217;ll do. For each possible topic <em>Z</em>, we&#8217;ll multiply the frequency of this word type <em>W</em> in <em>Z</em> by the number of other words in document <em>D</em> that already belong to <em>Z</em>. The result will represent the probability that this word came from <em>Z</em>. Here&#8217;s the actual formula:</p>
+<p><a href="https://tedunderwood.files.wordpress.com/2012/04/ldaformula.png"><img data-attachment-id="2781" data-permalink="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/ldaformula/" data-orig-file="https://tedunderwood.files.wordpress.com/2012/04/ldaformula.png?w=584" data-orig-size="695,109" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="LDAformula" data-image-description="" data-medium-file="https://tedunderwood.files.wordpress.com/2012/04/ldaformula.png?w=584?w=300" data-large-file="https://tedunderwood.files.wordpress.com/2012/04/ldaformula.png?w=584?w=584" src="https://tedunderwood.files.wordpress.com/2012/04/ldaformula.png?w=584" alt="" title="LDAformula"   class="aligncenter size-full wp-image-2781" srcset="https://tedunderwood.files.wordpress.com/2012/04/ldaformula.png?w=584 584w, https://tedunderwood.files.wordpress.com/2012/04/ldaformula.png?w=150 150w, https://tedunderwood.files.wordpress.com/2012/04/ldaformula.png?w=300 300w, https://tedunderwood.files.wordpress.com/2012/04/ldaformula.png 695w" sizes="(max-width: 584px) 100vw, 584px" /></a><br />
+Simple enough. Okay, yes, there are a few Greek letters scattered in there, but they aren&#8217;t terribly important. They&#8217;re called &#8220;hyperparameters&#8221; &#8212; stop right there! I see you reaching to close that browser tab! &#8212; but you can also think of them simply as fudge factors. There&#8217;s <em>some</em> chance that this word belongs to topic <em>Z</em> even if it is nowhere else associated with <em>Z</em>; the fudge factors keep that possibility open. The overall emphasis on probability in this technique, of course, is why it&#8217;s called <em>probabilistic</em> topic modeling.</p>
+<p>Now, suppose that instead of having the problem mostly solved, we had only a wild guess which word belonged to which topic. We could still use the strategy outlined above to improve our guess, by making it more internally consistent. We could go through the collection, word by word, and reassign each word to a topic, guided by the formula above. As we do that, a) words will gradually become more common in topics where they are already common. And also, b) topics will become more common in documents where <em>they</em> are already common. Thus our model will gradually become more consistent as topics focus on specific words and documents. But it can&#8217;t ever become perfectly consistent, because words and documents don&#8217;t line up in one-to-one fashion. So the tendency for topics to concentrate on particular words and documents will eventually be limited by the actual, messy distribution of words across documents.</p>
+<p>That&#8217;s how topic modeling works in practice. You assign words to topics randomly and then just keep improving the model, to make your guess more internally consistent, until the model reaches an equilibrium that is as consistent as the collection allows. </p>
+<p><strong>What is it for?</strong> Topic modeling gives us a way to infer the latent structure behind a collection of documents. In principle, it could work at any scale, but I tend to think human beings are already pretty good at inferring the latent structure in (say) a single writer&#8217;s oeuvre. I suspect this technique becomes more useful as we move toward a scale that is too large to fit into human memory.</p>
+<p>So far, most of the humanists who have explored topic modeling have been historians, and I suspect that historians and literary scholars will use this technique differently. Generally, historians have tried to assign a single label to each topic. So in mining the Richmond <em>Daily Dispatch,</em> Robert K. Nelson looks at <a href="http://dsl.richmond.edu/dispatch/Topics/view/1" target="_blank">a topic with words like &#8220;hundred,&#8221; &#8220;cotton,&#8221; &#8220;year,&#8221; &#8220;dollars,&#8221; and &#8220;money,&#8221;</a> and identifies it as TRADE &#8212; plausibly enough. Then he can graph the frequency of the topic as it varies over the print run of the newspaper.</p>
+<p>As a literary scholar, I find that I learn more from ambiguous topics than I do from straightforwardly semantic ones. When I run into a topic like &#8220;sea,&#8221; &#8220;ship,&#8221; &#8220;boat,&#8221; &#8220;shore,&#8221; &#8220;vessel,&#8221; &#8220;water,&#8221; I shrug. Yes, some books discuss sea travel more than others do. But I&#8217;m more interested in topics like this:</p>
+<p><a href="https://tedunderwood.files.wordpress.com/2012/04/thywhere.png"><img data-attachment-id="2815" data-permalink="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/thywhere/" data-orig-file="https://tedunderwood.files.wordpress.com/2012/04/thywhere.png?w=584" data-orig-size="680,62" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="thywhere" data-image-description="" data-medium-file="https://tedunderwood.files.wordpress.com/2012/04/thywhere.png?w=584?w=300" data-large-file="https://tedunderwood.files.wordpress.com/2012/04/thywhere.png?w=584?w=584" src="https://tedunderwood.files.wordpress.com/2012/04/thywhere.png?w=584" alt="" title="thywhere"   class="aligncenter size-full wp-image-2815" srcset="https://tedunderwood.files.wordpress.com/2012/04/thywhere.png?w=584 584w, https://tedunderwood.files.wordpress.com/2012/04/thywhere.png?w=150 150w, https://tedunderwood.files.wordpress.com/2012/04/thywhere.png?w=300 300w, https://tedunderwood.files.wordpress.com/2012/04/thywhere.png 680w" sizes="(max-width: 584px) 100vw, 584px" /></a><br />
+You can tell by looking at the list of words that this is poetry, and plotting the volumes where the topic is prominent confirms the guess.</p>
+<p><a href="https://tedunderwood.files.wordpress.com/2012/04/thywhereplot.png"><img data-attachment-id="2818" data-permalink="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/thywhereplot/" data-orig-file="https://tedunderwood.files.wordpress.com/2012/04/thywhereplot.png?w=584" data-orig-size="1050,1050" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="ThyWherePlot" data-image-description="" data-medium-file="https://tedunderwood.files.wordpress.com/2012/04/thywhereplot.png?w=584?w=300" data-large-file="https://tedunderwood.files.wordpress.com/2012/04/thywhereplot.png?w=584?w=584" src="https://tedunderwood.files.wordpress.com/2012/04/thywhereplot.png?w=584" alt="" title="ThyWherePlot"   class="aligncenter size-full wp-image-2818" srcset="https://tedunderwood.files.wordpress.com/2012/04/thywhereplot.png?w=584 584w, https://tedunderwood.files.wordpress.com/2012/04/thywhereplot.png?w=150 150w, https://tedunderwood.files.wordpress.com/2012/04/thywhereplot.png?w=300 300w, https://tedunderwood.files.wordpress.com/2012/04/thywhereplot.png?w=768 768w, https://tedunderwood.files.wordpress.com/2012/04/thywhereplot.png?w=1024 1024w, https://tedunderwood.files.wordpress.com/2012/04/thywhereplot.png 1050w" sizes="(max-width: 584px) 100vw, 584px" /></a><br />
+This topic is prominent in volumes of poetry from 1815 to 1835, especially in poetry by women, including Felicia Hemans, Letitia Landon, and Caroline Norton. Lord Byron is also well represented. It&#8217;s not really a &#8220;topic,&#8221; of course, because these words aren&#8217;t linked by a single referent. <a href="https://tedunderwood.wordpress.com/2012/04/01/what-kinds-of-topics-does-topic-modeling-actually-produce/" target="_blank">Rather it&#8217;s a discourse</a> or a kind of poetic rhetoric. In part it seems predictably Romantic (&#8220;deep bright wild eye&#8221;), but less colorful function words like &#8220;where&#8221; and &#8220;when&#8221; may reveal just as much about the rhetoric that binds this topic together.</p>
+<p>A topic like this one is hard to interpret. But for a literary scholar, that&#8217;s a plus. I want this technique to point me toward something I don&#8217;t yet understand, and I almost never find that the results are too ambiguous to be useful. The problematic topics are the intuitive ones &#8212; the ones that are clearly about war, or seafaring, or trade. I can&#8217;t do much with those.</p>
+<p>Now, I have to admit that there&#8217;s a bit of fine-tuning required up front, before I start getting &#8220;meaningfully ambiguous&#8221; results. In particular, a standard list of stopwords is rarely adequate. For instance, in topic-modeling fiction I find it useful to get rid of at least the most common personal pronouns, because otherwise the difference between 1st and 3rd person point-of-view becomes a dominant signal that crowds out other interesting phenomena. Personal names also need to be weeded out; otherwise you discover strong, boring connections between every book with a character named &#8220;Richard.&#8221; This sort of thing is very much a critical judgment call; it&#8217;s not a science. </p>
+<p>I should also admit that, when you&#8217;re modeling fiction, the &#8220;author&#8221; signal can be very strong. I frequently discover topics that are dominated by a single author, and clearly reflect her unique idiom. This could be a feature or a bug, depending on your interests; I tend to view it as a bug, but I find that the author signal does diffuse more or less automatically as the collection expands.</p>
+<p><a href="https://tedunderwood.files.wordpress.com/2012/04/austen.png"><img data-attachment-id="2829" data-permalink="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/austen/" data-orig-file="https://tedunderwood.files.wordpress.com/2012/04/austen.png?w=584" data-orig-size="1050,1050" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="Austen" data-image-description="" data-medium-file="https://tedunderwood.files.wordpress.com/2012/04/austen.png?w=584?w=300" data-large-file="https://tedunderwood.files.wordpress.com/2012/04/austen.png?w=584?w=584" src="https://tedunderwood.files.wordpress.com/2012/04/austen.png?w=584" alt="Topic prominently featuring Austen." title="Austen"   class="aligncenter size-full wp-image-2829" srcset="https://tedunderwood.files.wordpress.com/2012/04/austen.png?w=584 584w, https://tedunderwood.files.wordpress.com/2012/04/austen.png?w=150 150w, https://tedunderwood.files.wordpress.com/2012/04/austen.png?w=300 300w, https://tedunderwood.files.wordpress.com/2012/04/austen.png?w=768 768w, https://tedunderwood.files.wordpress.com/2012/04/austen.png?w=1024 1024w, https://tedunderwood.files.wordpress.com/2012/04/austen.png 1050w" sizes="(max-width: 584px) 100vw, 584px" /></a><br />
+<strong>What are the limits of probabilistic topic modeling?</strong> <a href="https://tedunderwood.wordpress.com/2011/04/30/thinking-through-the-difference-between-topics/" target="_blank">I spent a long time resisting the allure of LDA,</a> because it seemed like a fragile and unnecessarily complicated technique. But I have convinced myself that it&#8217;s both effective and less complex than I thought. (Matt Jockers, Travis Brown, Neil Fraistat, and Scott Weingart also deserve credit for convincing me to try it.) </p>
+<p>This isn&#8217;t to say that we need to use probabilistic techniques for everything we do. LDA and its relatives are valuable exploratory methods, but I&#8217;m not sure how much value they will have as evidence. For one thing, they require you to make a series of judgment calls that deeply shape the results you get (from choosing stopwords, to the number of topics produced, to the scope of the collection). The resulting model ends up being tailored in difficult-to-explain ways by a researcher&#8217;s preferences. Simpler techniques, like corpus comparison, can answer a question more transparently and persuasively, if the question is already well-formed. (In this sense, I think <a href="http://sappingattention.blogspot.com/2011/11/compare-and-contrast.html" target="_blank">Ben Schmidt is right to feel</a> that topic modeling wouldn&#8217;t be particularly useful for the kinds of comparative questions he likes to pose.)</p>
+<p>Moreover, probabilistic techniques have an unholy thirst for memory and processing time. You have to create several different variables for <em>every single word</em> in the corpus. The models I&#8217;ve been running, with roughly 2,000 volumes, are getting near the edge of what can be done on an average desktop machine, and commonly take a day. To go any further with this, I&#8217;m going to have to beg for computing time. That&#8217;s not a problem for me here at Urbana-Champaign (you may recall that we invented HAL), but it will become a problem for humanists at other kinds of institutions.</p>
+<p>Probabilistic methods are also less robust than, say, vector-space methods. When I started running LDA, I immediately discovered noise in my collection that had not previously been a problem. Running headers at the tops of pages, in particular, left traces: until I took out those headers, topics were suspiciously sensitive to the titles of volumes. But LDA is sensitive to noise, after all, because it is sensitive to everything else! On the whole, if you&#8217;re just fishing for interesting patterns in a large collection of documents, I think probabilistic techniques are the way to go.</p>
+<p><strong>Where to go next</strong><br />
+The standard implementation of LDA is <a href="http://mallet.cs.umass.edu/" target="_blank">the one in MALLET.</a> I haven&#8217;t used it yet, because I wanted to build my own version, to make sure I understood everything clearly. But MALLET is better. If you want a few examples of complete topic models on collections of 18/19c volumes, I&#8217;ve put some models, with R scripts to load them, <a href="https://github.com/tedunderwood/BrowseLDA" target="_blank">in my github folder.</a></p>
+<p>If you want to understand the technique more deeply, the first thing to do is to read up on Bayesian statistics. In this post, I gloss over the Bayesian underpinnings of LDA because I think the implementation (using a strategy called Gibbs sampling, which is actually what I described above!) is intuitive enough without them. And this might be all you need! I doubt most humanists will need to go further. But if you do want to tinker with the algorithm, you&#8217;ll need to understand <a href="http://en.wikipedia.org/wiki/Bayesian_probability" target="_blank">Bayesian probability.</a></p>
+<p>David Blei invented LDA, and writes well, so if you want to understand why this technique has &#8220;Dirichlet&#8221; in its name, his works are the next things to read. I recommend his <a href="http://www.cs.princeton.edu/~blei/publications.html" target="_blank">Introduction to Probabilistic Topic Models.</a> It recently came out in <em>Communications of the ACM,</em> but I think you get a more readable version by going to his publication page (link above) and clicking the pdf link at the top of the page. </p>
+<p>Probably the next place to go is <a href="http://people.cs.umass.edu/~mimno/publications.html" target="_blank">&#8220;Rethinking LDA: Why Priors Matter,&#8221;</a> a really thoughtful article by Hanna Wallach, David Mimno, and Andrew McCallum that explains the &#8220;hyperparameters&#8221; I glossed over in a more principled way.</p>
+<p>Then there are a whole family of techniques related to LDA &#8212; Topics Over Time, Dynamic Topic Modeling, Hierarchical LDA, Pachinko Allocation &#8212; that one can explore rapidly enough by searching the web. In general, it&#8217;s a good idea to approach these skeptically. They all promise to do more than LDA does, but they also add additional assumptions to the model, and humanists are going to need to reflect carefully about which assumptions we actually want to make. I do think humanists will want to modify the LDA algorithm, but it&#8217;s probably something we&#8217;re going to have to do for ourselves; I&#8217;m not convinced that computer scientists understand our problems well enough to do this kind of fine-tuning.</p>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-2710" class="share-twitter sd-button share-icon" href="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/?share=twitter" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-18518646-2710-5920875675589' data-src='//widgets.wp.com/likes/#blog_id=18518646&amp;post_id=2710&amp;origin=tedunderwood.wordpress.com&amp;obj_id=18518646-2710-5920875675589' data-name='like-post-frame-18518646-2710-5920875675589'><h3 class='sd-title'>Like this:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Like</span></span> <span class="loading">Loading...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div>
+<div id='jp-relatedposts' class='jp-relatedposts' >
+	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+</div></div>			</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		This entry was posted in <a href="https://tedunderwood.com/category/19c/" rel="category tag">19c</a>, <a href="https://tedunderwood.com/category/methodology/topic-modeling/bayesian-topic-modeling/" rel="category tag">Bayesian topic modeling</a>, <a href="https://tedunderwood.com/category/discovery-strategies/" rel="category tag">discovery strategies</a>, <a href="https://tedunderwood.com/category/methodology/topic-modeling/" rel="category tag">topic modeling</a> by <a href="https://tedunderwood.com/author/tedunderwood/">tedunderwood</a>. Bookmark the <a href="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/" title="Permalink to Topic modeling made just simple&nbsp;enough." rel="bookmark">permalink</a>.		
+				<div id="author-info">
+			<div id="author-avatar">
+				<img alt='' src='https://1.gravatar.com/avatar/76dd28669b8c966858940eeb24cc684a?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' />			</div><!-- #author-avatar -->
+			<div id="author-description">
+				<h2>About tedunderwood</h2>
+				Ted Underwood is Professor of English at the University of Illinois, Urbana-Champaign. On Twitter he is @Ted_Underwood.				<div id="author-link">
+					<a href="https://tedunderwood.com/author/tedunderwood/" rel="author">
+						View all posts by tedunderwood <span class="meta-nav">&rarr;</span>					</a>
+				</div><!-- #author-link	-->
+			</div><!-- #author-description -->
+		</div><!-- #author-info -->
+			</footer><!-- .entry-meta -->
+</article><!-- #post-2710 -->
+
+						<div id="comments">
+	
+	
+			<h2 id="comments-title">
+			65 thoughts on &ldquo;<span>Topic modeling made just simple&nbsp;enough.</span>&rdquo;		</h2>
+
+		
+		<ol class="commentlist">
+				<li class="comment even thread-even depth-1 highlander-comment" id="li-comment-642">
+		<article id="comment-642" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/44acef4a637da5c1e1328f67826eecae?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' /><span class="fn"><a href='http://gravatar.com/agoldst' rel='external nofollow' class='url'>Andrew Goldstone</a></span> on <a href="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/#comment-642"><time datetime="2012-04-07T10:40:20+00:00">April 7, 2012 at 10:40 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Ted, I&#8217;ve really appreciated your explanatory posts taking the lid a little way off the black boxes. They&#8217;re helpful (and pleasurable!) reading for me, as someone thinking of getting more serious about computational text analysis as a complement to my conventional literary scholarship&#8230; But those Wikipedia links leave me more tantalized than feeling like I have a command of the material. Where could I go for a good introductory discussion of text-processing techniques? Is there a strong basic textbook out there? How about for the underlying statistics? Something on either topic with few prerequisites would be ideal for this once-upon-a-time math person who never took stats (was too busy being &#8220;purist&#8221; at the time). I believe, perhaps foolishly, that I have enough mathematical and technical background to acquire some basic skill on my own, with the right textbooks…</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment byuser comment-author-tedunderwood bypostauthor odd alt depth-2 highlander-comment" id="li-comment-643">
+		<article id="comment-643" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/76dd28669b8c966858940eeb24cc684a?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='https://tedunderwood.wordpress.com' rel='external nofollow' class='url'>tedunderwood</a></span> on <a href="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/#comment-643"><time datetime="2012-04-07T11:05:29+00:00">April 7, 2012 at 11:05 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Thanks for the kind words. You&#8217;re asking a very good question. I&#8217;m afraid the honest answer is that I&#8217;m writing these posts to fill the gap you&#8217;re describing. I had exactly the same experience: Okay, I got the general principle of topic modeling. And I could <em>sort</em> of understand David Blei&#8217;s more accessible articles &#8230; except for the passages of squiggles and Greek letters that he seemed to feel were very important. &#8220;Hmm,&#8221; I thought, &#8220;I should probably do something about learning to read those squiggles.&#8221;</p>
+<p>I believe both Steve Ramsay and Matt Jockers have books in the pipeline that will in different ways address this problem. Since they&#8217;re not out yet, what I did in practice was go to the library, look up &#8220;Bayesian statistics,&#8221; and check out two introductory textbooks. I can&#8217;t recommend either of them really. They were very hard, and not all of the deeper math was actually useful for me. But what I really needed was just to understand the meaning of the <em>notation,</em> and I did manage to get that out of them. Once you understand the notation, you can actually read the original computer-science articles about knowledge discovery/text mining, and so far I&#8217;ve found those articles more useful than any textbook. But it&#8217;s possible that other people will have better book recommendations. And there are definitely better solutions in the pipeline.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment even depth-3 highlander-comment" id="li-comment-644">
+		<article id="comment-644" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/44acef4a637da5c1e1328f67826eecae?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='http://gravatar.com/agoldst' rel='external nofollow' class='url'>Andrew Goldstone</a></span> on <a href="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/#comment-644"><time datetime="2012-04-07T11:19:46+00:00">April 7, 2012 at 11:19 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Thanks for the reply! That was what I guessed the situation was. Discouraging, but then it&#8217;s all the better that you and others are working to fill the gap. I know I&#8217;m waiting eagerly for Matt&#8217;s textbook. It&#8217;s good to know the CS articles are relatively accessible, if only I could fill in the Bayesian stats…</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-dandanar odd alt thread-odd thread-alt depth-1 highlander-comment" id="li-comment-651">
+		<article id="comment-651" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://2.gravatar.com/avatar/b03b74fbc1429e6b81865491de84a786?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' /><span class="fn"><a href='http://asociologist.wordpress.com/' rel='external nofollow' class='url'>Dan Hirschman</a></span> on <a href="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/#comment-651"><time datetime="2012-04-08T13:27:40+00:00">April 8, 2012 at 1:27 pm</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>I want to echo Andrew&#8217;s comment &#8211; thanks very much! I have just started exploring topic modeling  for a project on the history of economics, and the combination of your jargon-free explanations with the more technical articles by Blei and others has been extremely helpful.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1 highlander-comment" id="li-comment-659">
+		<article id="comment-659" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://0.gravatar.com/avatar/9f65f3e4bab863af08ecfd62d3ddc6c1?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' /><span class="fn"><a href='https://dhs.stanford.edu/' rel='external nofollow' class='url'>Elijah Meeks</a></span> on <a href="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/#comment-659"><time datetime="2012-04-11T01:43:53+00:00">April 11, 2012 at 1:43 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>This is really excellent! I wonder why topic modeling, of all things, has so captured the imagination of digital humanities scholars of all stripes so as to warrant so much effort at actually understanding the structure of the technique.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment byuser comment-author-tedunderwood bypostauthor odd alt depth-2 highlander-comment" id="li-comment-660">
+		<article id="comment-660" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/76dd28669b8c966858940eeb24cc684a?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='https://tedunderwood.wordpress.com' rel='external nofollow' class='url'>tedunderwood</a></span> on <a href="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/#comment-660"><time datetime="2012-04-11T06:50:02+00:00">April 11, 2012 at 6:50 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>I think it&#8217;s primarily two things:<br />
+1) Topic modeling can accept large collections of unstructured text (which are what we have),<br />
+2) and map/explore them in what at least <em>appears</em> to be a fairly general-purpose way.<br />
+In that sense, it&#8217;s promising to address an existing, widely-acknowledged problem (we don&#8217;t know how to map these collections). It&#8217;s true that the technique is slow, hard to interpret, etc. But all that matters less than the underlying humanistic motive.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="comment even thread-odd thread-alt depth-1 highlander-comment" id="li-comment-693">
+		<article id="comment-693" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/a5c3a98d159d7a94d09eae6dfe9ea969?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' /><span class="fn">dellzhang</span> on <a href="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/#comment-693"><time datetime="2012-04-15T09:23:52+00:00">April 15, 2012 at 9:23 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Thanks for this excellent article about the application of Topic Modelling in Digital Humanities. </p>
+<p>It seems that the equation for P(Z|W,D) should be divided by something like &#8220;total number of words in D + \alpha&#8221; to be a proper probability.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment byuser comment-author-tedunderwood bypostauthor odd alt depth-2 highlander-comment" id="li-comment-697">
+		<article id="comment-697" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/76dd28669b8c966858940eeb24cc684a?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='https://tedunderwood.wordpress.com' rel='external nofollow' class='url'>tedunderwood</a></span> on <a href="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/#comment-697"><time datetime="2012-04-15T09:30:31+00:00">April 15, 2012 at 9:30 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Yes, you&#8217;re right. I think I ought to have a proportionality sign instead of an equals sign in that equation.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://cwyalpha.wordpress.com/2012/04/15/thought-this-was-cool-%e6%94%b6%e8%97%8f%ef%bc%9atopic-modeling-made-just-simple-enough/' rel='external nofollow' class='url'>Thought this was cool: 收藏：Topic modeling made just simple enough &laquo; CWYAlpha</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://www.xperseverance.net/blogs/2012/03/657/' rel='external nofollow' class='url'>【转】LDA必读的资料 | 持之以恒</a></p>
+	</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1 highlander-comment" id="li-comment-704">
+		<article id="comment-704" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://2.gravatar.com/avatar/eed33e225f9d13624d207472bd3ad03c?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' /><span class="fn"><a href='http://www.TEXTWinder.com' rel='external nofollow' class='url'>Rosvita</a></span> on <a href="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/#comment-704"><time datetime="2012-04-17T08:18:17+00:00">April 17, 2012 at 8:18 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Thank you very much for the post! As a humanities scholar currently figuring out how to apply topic maps to the study of little magazines, it has gone some way to fill in the gaps and provide useful links for further reading. And yes, a good &#8212; readable &#8212; textbook is eagerly anticipated.  Oh, and thanks for this morning&#8217;s guffaw:  &#8220;The notion that documents are produced by discourses rather than authors is alien to common sense, but not alien to literary theory.&#8221;  Brilliant.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://www.xperseverance.net/blogs/2012/04/970/' rel='external nofollow' class='url'>要做的事 &#8211; 4月 | 持之以恒</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://moretowrite.wordpress.com/2012/04/17/a-few-thoughts-on-amazon-reviews/' rel='external nofollow' class='url'>A few thoughts on Amazon reviews | One piece at a time</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://lisa.therhodys.net/2012/04/why-use-visualizations-to-study-poetry/' rel='external nofollow' class='url'>Why use visualizations to study poetry? | Lisa @ Work</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://mith.umd.edu/why-use-visualizations-to-study-poetry/' rel='external nofollow' class='url'>Why use visualizations to study poetry? | | Maryland Institute for Technology in the HumanitiesMaryland Institute for Technology in the Humanities</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://discontents.com.au/shed/experiments/topic-modelling-in-the-archives' rel='external nofollow' class='url'>discontents - Topic modelling in the archives</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://socal2012.thatcamp.org/2012/06/01/workshop-on-text-mining-tools/' rel='external nofollow' class='url'>Workshop on Text Mining Tools &#187; THATCamp Southern California 2012</a></p>
+	</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-nettys odd alt thread-odd thread-alt depth-1 highlander-comment" id="li-comment-840">
+		<article id="comment-840" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://0.gravatar.com/avatar/3ac5c01090e747195d9e162074294c24?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' /><span class="fn">nettys</span> on <a href="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/#comment-840"><time datetime="2012-07-06T14:17:08+00:00">July 6, 2012 at 2:17 pm</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Reblogged this on <a href="http://nettys.wordpress.com/2012/07/06/352/" rel="nofollow">TEETRINKEN IN WALES (YN YFED PANAD O DE)</a>.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://mith-dev.umd.edu/research/why-use-visualizations-to-study-poetry/' rel='external nofollow' class='url'>Why use visualizations to study poetry?</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://socal2012.thatcamp.org/2012/09/05/text-mining-workshop/' rel='external nofollow' class='url'>Text Mining Workshop &#187; THATCamp Southern California 2012</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://www.digitalculture.org/2012/09/21/dcw-volume-1-issue-16-archiving-twitter/' rel='external nofollow' class='url'>DCW Volume 1 Issue 16 &#8211; Archiving Twitter</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://cscdc.northwestern.edu/blog/?p=687' rel='external nofollow' class='url'>A Gentle Introduction to Digital Text Analysis | Center for Scholarly Communication &amp; Digital Curation</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://gpdh.org/2012/11/16/visualizing-topic-models/' rel='external nofollow' class='url'>Visualizing Topic Models : Global Perspectives on Digital History</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://johnlaudun.org/20121202-of-topics-networks-and-a-discipline-an-update/' rel='external nofollow' class='url'>Of Topics, Networks, and a Discipline: An Update | logbook</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://inparenthes.es/?p=1961' rel='external nofollow' class='url'>A Gentle Introduction to Digital Text Analysis - inParenthes.es</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://www.fredgibbs.net/clio3workspace/blog/topic-modeling/' rel='external nofollow' class='url'>Topic Modeling: A Basic Introduction | clio 3 blog</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://digitalhumanitiesnow.org/2012/12/editors-choice-what-can-topic-models-of-pmla-teach-us-about-the-history-of-literary-scholarship/' rel='external nofollow' class='url'>What can topic models of PMLA teach us about the history of literary scholarship? | The Stone and the Shell</a></p>
+	</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1 highlander-comment" id="li-comment-2851">
+		<article id="comment-2851" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/49eb24f274d5267d21c12108b6e37b90?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' /><span class="fn"><a href='http://www.top-moncler.com' rel='external nofollow' class='url'>minboximlf</a></span> on <a href="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/#comment-2851"><time datetime="2012-12-24T06:52:29+00:00">December 24, 2012 at 6:52 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>銉兂銈儸銉笺儷鐩村柖搴椼伅鍓垫キ浠ユ潵銆併儮銉炽偗銉兗銉紙moncler锛夈儉銈︺兂鍟嗗搧銈掍腑蹇冦伀灞曢枊銇椼仸銇嶃伨銇欍€傘儮銉炽偗銉兗銉?銉€銈︺兂 2013 銈偊銉堛儸銉冦儓 銉儑銈ｃ兗銈?銈点偆銈恒儮銉炽偗銉兗銉?绉嬪啲鏂颁綔 姝ｈ鍝佺洿鍠跺簵銇с伅鍗婇銇с偦銉笺儷锛併儮銉炽偗銉兗銉儸銉囥偅銉笺偣銉€銈︺兂銈搞儯銈便儍銉堛€併儮銉炽偗銉兗銉儭銉炽偤銈搞儯銈便儍銉堛€併儮銉炽偗銉兗銉儭銉炽偤銈炽兗銉堛€併儮銉炽偗銉兗銉儭銉炽偤銉欍偣銉堛€併儮銉炽偗銉兗銉鍐柊浣溿仾銇┿伄鍟嗗搧銈掑彇銈婃壉銇ｃ仸銇勩伨銇欍€傘儮銉炽偗銉兗銉儉銈︺兂鍟嗗搧銇劒銈屻仧绱犳潗銈勩倛銈婅壇銇勩儑銈躲偆銉炽仹浜恒伀鐭ャ倝銈屻仸銇勩伨銇欍€傛墜瑙︺倞銇倐銇°倣銈撱€佸ソ銇嶃仾銈儵銉笺倰閬搞伖銈嬨伄銈傛渶楂樸伀銇€佸劒銈屻仧绱犳潗銇т綔銇ｃ仸銇嶃仧銇伅鐗瑰敬銇с仚銆傜従鍦ㄣ仹銇€佸綋銉兂銈儸銉笺儷搴楄垪銇キ鍕欍倰鎷″ぇ銇欍倠銇熴倎銆佷粬銇儢銉┿兂銉夎＝鍝併倰鍏ヨ嵎銇欍倠鑰冦亪銇屻亗銈娿伨銇欍€傘亰瀹㈡銇俊闋兼劅銇敇銇堛仸銆併亾銈屻亱銈夈倐褰撳簵銇笂璩仾瑁藉搧銈掓彁渚涖仐銈堛亞銇ㄥ姫鍔涖仐銇︺亜銇俱仚銆傘亗銇仧銇ㄤ竴绶掋伀銉曘偂銉冦偡銉с兂銇笘鐣屻伕锛併亾銈屻亱銈夈倐瀹溿仐銇忋亰椤樸亜鑷淬仐銇俱仚锛併仠銇层仈瀹夊績銇旀敞鏂囥伕锛亀ww.top-moncler.com</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://www.digitalrhetoriccollaborative.org/2013/02/28/session-425-numbers-and-letters-empirical-method-in-literary-studies/' rel='external nofollow' class='url'>Session 425 ~ Numbers and Letters: Empirical Method in Literary Studies — Digital Rhetoric Collaborative</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://www.sashahoffman.org/blog/digital-dissertation-plan-of-action/' rel='external nofollow' class='url'>Digital Dissertation Plan of Action!</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://www.thomaspadilla.org/2013/04/27/tmtoolsresources/' rel='external nofollow' class='url'>Thomas Padilla</a></p>
+	</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-sumnous odd alt thread-odd thread-alt depth-1 highlander-comment" id="li-comment-4899">
+		<article id="comment-4899" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://0.gravatar.com/avatar/90828fadb8148c5e4836464555a5772e?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' /><span class="fn"><a href='http://sumnous.wordpress.com' rel='external nofollow' class='url'>sumnous</a></span> on <a href="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/#comment-4899"><time datetime="2013-09-12T04:17:08+00:00">September 12, 2013 at 4:17 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Reblogged this on <a href="http://sumnous.wordpress.com/2013/09/12/topic-modeling-made-just-simple-enough/" rel="nofollow">sumnous</a>.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1 highlander-comment" id="li-comment-5529">
+		<article id="comment-5529" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://0.gravatar.com/avatar/9835698d0df1977e5c02e359f44020d6?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' /><span class="fn"><a href='http://gravatar.com/fredheir' rel='external nofollow' class='url'>fredheir</a></span> on <a href="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/#comment-5529"><time datetime="2013-11-08T03:51:24+00:00">November 8, 2013 at 3:51 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Thank you Ted, I found this post very useful!</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://4humanities.org/2013/11/4humanitiesucsb-meeting-nov-21-2013/' rel='external nofollow' class='url'>4Humanities@UCSB Meeting &#8211; Topic Modeling &#8220;WhatEvery1Says&#8221; (Nov. 21, 2013) | 4Humanities</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://dh-sandbox.tchpc.tcd.ie/~rogerscl/blog/?p=46' rel='external nofollow' class='url'>Digital Humanities &amp; Culture | Distant Reading and Close Reading</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://4humanities.org/2014/02/4humanitiesucsb-meeting-what-every1says-project-continued-feb-18-2014/' rel='external nofollow' class='url'>4Humanities@UCSB Meeting &#8211; &#8220;What Every1Says&#8221; Project (continued) (Feb. 18, 2014) | 4Humanities</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://themothsreturn.wordpress.com/2014/02/21/topic-modeling-fun/' rel='external nofollow' class='url'>Topic Modeling Fun | The Moth&#039;s Return</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://biblicon.org/14z657/?p=315' rel='external nofollow' class='url'>Who’s Afraid of Mathematiques/Computer Science? | z657 Digital Humanities Spring 2014</a></p>
+	</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1 highlander-comment" id="li-comment-8988">
+		<article id="comment-8988" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://2.gravatar.com/avatar/5f95df8b9cc77cdee4bec6dc80ba6c65?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' /><span class="fn">Kushal</span> on <a href="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/#comment-8988"><time datetime="2014-04-05T03:42:24+00:00">April 5, 2014 at 3:42 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Very nice article.. Thanks for sharing.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://www.uncomputing.org/?p=206' rel='external nofollow' class='url'>Building and (Not) Using Tools in Digital Humanities</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://winedarksea.org/?p=1942' rel='external nofollow' class='url'>Adjacencies, Virtuous and Vicious, and the Forking Paths of Library Research</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://dhpraxis14.commons.gc.cuny.edu/2014/09/12/anxiously-awaiting-dh/' rel='external nofollow' class='url'>Anxiously Awaiting DH | Digital Praxis Seminar Fall 2014 &#8211; Spring 2015</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://winedarksea.org/?p=2038' rel='external nofollow' class='url'>The Novel and Moral Philosophy 1: What Does Charlotte Lennox Have to Do with Adam Smith?</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://patrickbrianmooney.nfshost.com/~patrick/blogs/NorCheeringCrowds/?p=20' rel='external nofollow' class='url'>Some Thoughts on the Politics of Coding | Nor Cheering Crowds: Biopolitics, Foucauldian Archaeology, and Suicide</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://linguistik.zih.tu-dresden.de/lehre/blogs/datenrausch/2015/03/09/visualisierung-von-topic-models/' rel='external nofollow' class='url'>Visualisierung von Topic Models | Datenrausch</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://www.lagado.name/blog/?p=78' rel='external nofollow' class='url'>What&#8217;s a Sine Wave of Sentiment? | The Frame of Lagado</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://www.lagado.name/blog/?p=342' rel='external nofollow' class='url'>Directed Probabilistic Topic Networks | The Frame of Lagado</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='https://earlynovels.withknown.com/2015/untitled-3' rel='external nofollow' class='url'>topic modeling: introductory resources</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='https://humnviz.blogs.bucknell.edu/2015/08/25/schedule/' rel='external nofollow' class='url'>Humanities Visualization &raquo; Schedule</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://social-fluency.com/?p=1152' rel='external nofollow' class='url'>Ted Underwood on Topic Modeling and PR :: Social Fluency</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://www.carlstahmer.com/2015/09/november-24-clustering-and-topic-modeling/' rel='external nofollow' class='url'>Carl Stahmer, PhD - November 24: Clustering and topic modeling</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://francescagiannetti.com/humdata/index.php/2015/10/13/lab-2-distant-reading/' rel='external nofollow' class='url'>Lab #2: Distant Reading | Data Mining in the Humanities</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://me.eui.eu/andrea-de-angelis/blog/structural-topic-models-to-study-political-text-an-application-to-the-five-star-movements-blog/' rel='external nofollow' class='url'>Structural Topic Models to study political text: an application to the Five Star Movement’s blog | Andrea De Angelis</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='https://tonydeep.wordpress.com/2015/12/14/deep-learning-ml-tutorials/' rel='external nofollow' class='url'>Deep Learning-ML Tutorials | Tony Deep Techs</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://datasciencehipster.com/2016/02/04/simplified-topic-modeling/' rel='external nofollow' class='url'>Simplified Topic Modeling &#8211; Data Science Hipster</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='https://triproftri.wordpress.com/2016/02/05/uc-irvine-talk/' rel='external nofollow' class='url'>UC Irvine Talk: Using Bootstrap Digital Humanities to Explore Topic Modeling Ghosts, Haunted Houses, and Heroines in 19th-Century Literature | triproftri</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://dissertationreviews.org/archives/13643' rel='external nofollow' class='url'>Why Humanists Should Fall in Love with “Big Data,” and How? | Dissertation Reviews</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://www.haijiaoshi.com/archives/891' rel='external nofollow' class='url'>Why Humanists Should Fall in Love with &ldquo;Big Data,&rdquo; and How? | 海交史</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='https://vcjha.wordpress.com/2016/04/25/list-of-machine-learning-tutorials/' rel='external nofollow' class='url'>List of Machine Learning tutorials | Love, learn and laugh</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='https://niamhmcguiganblog.wordpress.com/2016/05/01/function-words-topic-models-and-lexical-variety-statistical-approaches-to-close-reading-the-good-soldier/' rel='external nofollow' class='url'>Function Words, Topic Models, and Lexical Variety: Statistical Approaches to Close Reading The Good Soldier &#8211; niamhmcguiganblog</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://housedivided.dickinson.edu/sites/blogdivided/2016/06/28/teaching-the-digital-humanities-through-topic-modeling/' rel='external nofollow' class='url'>Blog Divided &raquo; Post Topic &raquo; Teaching the Digital Humanities through Topic Modeling</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='https://blakearchive.wordpress.com/2016/08/17/macro-blake/' rel='external nofollow' class='url'>Macro Blake | The Cynic Sang: The Blake Archive and Blake Quarterly Blog</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://teddyroland.com/2016/09/25/topic-modeling-what-humanists-actually-do-with-it/' rel='external nofollow' class='url'>Topic Modeling: What Humanists Actually Do With It | Teddy Roland</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='https://gdsdata.blog.gov.uk/2017/01/12/using-data-science-to-build-a-taxonomy-for-gov-uk/' rel='external nofollow' class='url'>Using data science to build a taxonomy for GOV.UK | Data at GDS</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='https://numapresse.hypotheses.org/11' rel='external nofollow' class='url'>Identifier les rubriques de presse ancienne avec du topic modeling &#8211; Numapresse</a></p>
+	</li><!-- #comment-## -->
+		</ol>
+
+		
+				<p class="nocomments">Comments are closed.</p>
+		
+	
+	
+</div><!-- #comments -->
+
+				
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+				 				<a href="https://wordpress.com/?ref=footer_blog">Blog at WordPress.com.</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<!--  -->
+<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201720y'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	<div class="grofile-hash-map-76dd28669b8c966858940eeb24cc684a">
+	</div>
+	<div class="grofile-hash-map-44acef4a637da5c1e1328f67826eecae">
+	</div>
+	<div class="grofile-hash-map-76dd28669b8c966858940eeb24cc684a">
+	</div>
+	<div class="grofile-hash-map-b03b74fbc1429e6b81865491de84a786">
+	</div>
+	<div class="grofile-hash-map-9f65f3e4bab863af08ecfd62d3ddc6c1">
+	</div>
+	<div class="grofile-hash-map-a5c3a98d159d7a94d09eae6dfe9ea969">
+	</div>
+	<div class="grofile-hash-map-eed33e225f9d13624d207472bd3ad03c">
+	</div>
+	<div class="grofile-hash-map-3ac5c01090e747195d9e162074294c24">
+	</div>
+	<div class="grofile-hash-map-49eb24f274d5267d21c12108b6e37b90">
+	</div>
+	<div class="grofile-hash-map-90828fadb8148c5e4836464555a5772e">
+	</div>
+	<div class="grofile-hash-map-9835698d0df1977e5c02e359f44020d6">
+	</div>
+	<div class="grofile-hash-map-5f95df8b9cc77cdee4bec6dc80ba6c65">
+	</div>
+	</div>
+
+	<div id="carousel-reblog-box">
+		<form action="#" name="carousel-reblog">
+			<textarea id="carousel-reblog-content" name="carousel-reblog-content" placeholder="Add your thoughts here... (optional)"></textarea>
+			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Post to</label>
+			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
+						</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="#" class="cancel">Cancel</a></span>
+				<input type="submit" name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="Reblog Post" />
+				<input type="hidden" id="carousel-reblog-blog-id" value="18518646" />
+				<input type="hidden" id="carousel-reblog-blog-url" value="https://tedunderwood.com" />
+				<input type="hidden" id="carousel-reblog-blog-title" value="The Stone and the Shell" />
+				<input type="hidden" id="carousel-reblog-post-url" value="" />
+				<input type="hidden" id="carousel-reblog-post-title" value="" />
+			</div>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="bd507042d9" /><input type="hidden" name="_wp_http_referer" value="/2012/04/07/topic-modeling-made-just-simple-enough/" />		</form>
+
+		<div class="arrow"></div>
+	</div>
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/tedunderwood.com\/2012\/04\/07\/topic-modeling-made-just-simple-enough\/":2710};
+	</script>
+		<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-twitter' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+		});
+		</script>
+		<link rel='stylesheet' id='all-css-0-2' href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel.css?m=1481571546h' type='text/css' media='all' />
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1412618825h&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var actionbardata = {"siteID":"18518646","siteName":"The Stone and the Shell","siteURL":"https:\/\/tedunderwood.com","icon":"<img alt='' src='https:\/\/secure.gravatar.com\/blavatar\/5711d96c6104f89617e0747253c8acb4?s=50&d=https%3A%2F%2Fs1.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/twentyeleven","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/tedunderwood.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Ftedunderwood.com%2F2012%2F04%2F07%2Ftopic-modeling-made-just-simple-enough%2F","themeURL":"https:\/\/wordpress.com\/theme\/twentyeleven\/","xhrURL":"https:\/\/tedunderwood.com\/wp-admin\/admin-ajax.php","nonce":"9cac39b10c","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"5d03b4b0a1\" \/>","referer":"https:\/\/tedunderwood.com\/2012\/04\/07\/topic-modeling-made-just-simple-enough\/","canFollow":"1","statusMessage":"","customizeLink":"https:\/\/tedunderwood.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Ftedunderwood.wordpress.com%2F2012%2F04%2F07%2Ftopic-modeling-made-just-simple-enough%2F","postID":"2710","shortlink":"http:\/\/wp.me\/p1fHxQ-HI","canEditPost":"","editLink":"https:\/\/wordpress.com\/post\/tedunderwood.com\/2710","statsLink":"https:\/\/wordpress.com\/stats\/post\/2710\/tedunderwood.com","i18n":{"view":"View site","follow":"Follow","following":"Following","edit":"Edit","login":"Log in","signup":"Sign up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Twenty Eleven","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editSubs":"Manage subscriptions","viewReader":"View site in the Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"Join 1,515 other followers","alreadyUser":"Already have a WordPress.com account? <a href=\"https:\/\/tedunderwood.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Ftedunderwood.com%2F2012%2F04%2F07%2Ftopic-modeling-made-just-simple-enough%2F\">Log in now.<\/a>","stats":"Stats"}};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/tedunderwood.com\/wp-admin\/admin-ajax.php","nonce":"89971a9d19","display_exif":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/tedunderwood.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Ftedunderwood.com%2F2012%2F04%2F07%2Ftopic-modeling-made-just-simple-enough%2F","blog_id":"18518646","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=18518646&v=wpcom&tz=-5&user_id=0&subd=tedunderwood","is_public":"1","reblog_enabled":""};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??-eJx9j0sOwjAMRC9E6oIQiAXiLCE14JAfdlLo7QkSLV2grmzNeJ5teCZlYsgYMliBDnsymF6NlRXMLF9UcuVKQcDRHQUeBQvedOgc8jhMwbjSVbOCTPS+BhVjckPjKSwQdVd9ddYMXktGrp2KPTLTBzZpSwSTKYYPYer+HSXpd8dct/UbHr6lmU/92WU0xyLowGJO2tzVKCxkUpSsLk4Tg9w0U7iOtYZO/rjeHjZtu1tv9vYN8xKV8g=='></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>		<iframe src='https://widgets.wp.com/likes/master.html?ver=20170206#ver=20170206' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
+		<div id='likes-other-gravatars'><div class="likes-text"><span>%d</span> bloggers like this:</div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+		<script>
+			var _comscore = _comscore || [];
+			_comscore.push({
+				c1: "2",
+				c2: "7518284"
+			});
+			(function() {
+				var s = document.createElement("script"),
+					el = document.getElementsByTagName("script")[0];
+				s.defer = true;
+				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);
+			})();
+		</script>
+		<noscript>
+			<p class="robots-nocontent"><img src="https://sb.scorecardresearch.com/p?c1=2&c2=7518284&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1" alt="" style="display:none;" width="1" height="1" /></p>
+		</noscript><script src="//stats.wp.com/w.js?56" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'18518646','blog_tz':'-5','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'18518646','v':'wpcom','tz':'-5','user_id':'0','post':'2710','subd':'tedunderwood'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1TaVhzUzFMbjdWNHpwZGhTayxPSUFCMGNrd29+Smw0TDhnZmRTK0hlRi9QSGh6bi9GXVhBJWIlZlR5U1JMLU8/MkNtblkvY1dzK3YrWW1CbjZiL2VlLnR6QkUsbDdSejJMclp1JjF8LWJsMi1MWEE1Ll83OXVBNnYtT1hfcVd0dF03U2ZTM25uMHx3aTQxYnpfWFloeE9Zb3IwLVVOaVB8a092ZVY4S1MzVFAmckgtRi55eS16UkdPMWh6Z0VWLTB5JWQzWit5OHNKLkpybjRCRHNFWWNDMkNMVmlvRDhOalpyXyxkQXJQUlt3RFpRZUU1R0lmR3clMU04TkZuSlg/VC9CdUw5UUssOVY='}]);
+_stq.push([ 'clickTrackerInit', '18518646', '2710' ]);
+	</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
+</html>

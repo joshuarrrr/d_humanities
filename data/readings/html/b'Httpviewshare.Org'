@@ -1,0 +1,261 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  
+    <link href="/feeds/latest_views/" type="application/rss+xml" rel="alternate" title="Latest Data View RSS News Feed" />
+    <link href="/feeds/latest_views_atom/" type="application/atom+xml" rel="alternate" title="Latest Data View ATOM News Feed" />
+    <link href="/feeds/latest_data/" type="application/rss+xml" rel="alternate" title="Latest Data RSS News Feed" />
+    <link href="/feeds/latest_data_atom/" type="application/atom+xml" rel="alternate" title="Latest Data ATOM News Feed" />
+
+  <title>Welcome to Viewshare</title>
+  
+  <script type="text/javascript" src="/static/freemix/js/lib/jquery.js"></script>
+  
+  
+
+    <link href="/static/viewshare/css/base.css" rel="stylesheet" type="text/css" media="screen,projection" />
+
+<link rel="stylesheet" type="text/css" href="/static/viewshare/css/home-page.css"/>
+<link rel="stylesheet" type="text/css" href="/static/viewshare/css/base.css"/>
+
+  
+  
+</head>
+<body>
+  <div class="container-fluid">
+    
+    <!-- fixed header across all application -->
+    <div class="row-fluid">
+      <div id="header">
+        <div id="tabhead" class="navbar navbar-fixed-top">
+          <div class="navbar-inner">
+            <div class="container">
+
+              <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+              </button>
+
+              <a href="/" class="brand">
+                <span id="application-logo"></span>
+                <span id="application-status"></span>
+              </a>
+
+              <div class="nav-collapse collapse">
+		<ul class="nav pull-right">
+                  
+    
+    <li><a href="/account/login/">Login</a></li><li class="divider-vertical"></li>
+    <li><a href="/registration/register/">Sign up</a></li>
+    
+
+		</ul>
+	      </div>
+            </div><!-- /.container -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+      </div><!-- /.header -->
+    </div><!-- /.row-fluid -->
+
+
+    <div class="container-fluid">
+      <div id="body" class="freemix-themeable">
+
+	
+	
+	
+
+        <div id="inner-body">
+          
+<div class="container-fluid" id="homePage">
+
+  <div class="row-fluid">
+
+    <div class="span8">
+      
+      
+      <div id="homeSlide" class="carousel slide well">
+	<ol class="carousel-indicators">
+          
+          <li data-target="#homeSlide" data-slide-to="0" class="active"></li>
+          
+          <li data-target="#homeSlide" data-slide-to="1"></li>
+          
+          <li data-target="#homeSlide" data-slide-to="2"></li>
+          
+	</ol>
+	<!-- Carousel items -->
+	<div class="carousel-inner">
+          
+          <div class="item active">
+            <a href="/views/trow/cason-monk-metcalf/">
+              
+              <img src="/media/discover/curated_exhibits/Texas_Funeral_Records.png" />
+              
+            </a>
+            <div class="carousel-caption">
+              <p>Enhance digital collections with visualizations of historical data.</p>
+            </div>
+          </div><!-- /.item -->
+          
+          <div class="item">
+            <a href="/views/DOVE/desegregation-of-virginia-education-dove/">
+              
+              <img src="/media/discover/curated_exhibits/Dove_Timeline.png" />
+              
+            </a>
+            <div class="carousel-caption">
+              <p>Find out how a special collections librarian at Old Dominion University created a view to answer questions about desegregation in Virginia schools</p>
+            </div>
+          </div><!-- /.item -->
+          
+          <div class="item">
+            <a href="/views/abpo/ndiipp-collections-3/">
+              
+              <img src="/media/discover/curated_exhibits/NDIPP.JPG" />
+              
+            </a>
+            <div class="carousel-caption">
+              <p>Explore digital collections for Library of Congress partners from around the world. </p>
+            </div>
+          </div><!-- /.item -->
+          
+	</div><!-- /.carousel-inner -->
+	<!-- Carousel nav -->
+	<a class="carousel-control left" href="#homeSlide" data-slide="prev">&lsaquo;</a>
+	<a class="carousel-control right" href="#homeSlide" data-slide="next">&rsaquo;</a>
+      </div><!-- /#homeSlide -->
+
+      
+    </div><!-- /.span8 -->
+
+    <div class="span4">
+
+      <div id="front-page-application-logo"></div>
+      
+      <div class="lead">
+	<strong>Viewshare</strong> is a <strong>free</strong> platform for generating and customizing views <strong>(interactive maps, timelines, facets, tag clouds)</strong> that allow users to experience your <strong>digital collections</strong>.
+      </div> 
+
+      <div class="lead-links">
+	<div class="lead-link">
+	  <a href="/registration/register/" class="btn btn-large">
+	    <div id="first" class="linkblock">Request Free Account</div>
+	  </a>
+	</div>
+	<div class="lead-link">
+	  <a href="/about/screencast" class="btn btn-large">
+	    <div id="second" class="linkblock">Watch Screencast</div>
+	  </a>
+	</div>
+	<div class="lead-link">
+	  <a href="http://viewshare.uservoice.com/knowledgebase/articles/248044-getting-started" class="btn btn-large">
+	    <div id="third" class="linkblock">Get Started</div>
+	  </a>
+	</div>
+      </div>
+    </div><!-- /.span3 -->
+
+  </div><!-- /.row -->
+
+
+  <div class="row-fluid fp-wells">
+    <div class="span4">
+      <div class="fp-widget-well">
+	<h2 class="fp-widget-header"><a href="http://viewshare.uservoice.com/knowledgebase/articles/243875-importing-data-into-viewshare">Import Collections</a></h2>
+	
+	<div class="stepblock">Ingest collections from <strong>Spreadsheets, JSON, XML <a href="http://www.loc.gov/standards/mods/">MODS</a></strong> or <strong>OAI-PMH</strong> records. Upload from your desktop or import them from the Web.</div>
+	
+      </div>
+    </div><!-- /.span4 -->
+
+    <div class="span4">
+      <div class="fp-widget-well">
+	
+	<h2 class="fp-widget-header"><a href="http://viewshare.uservoice.com/knowledgebase/articles/244379-generating-views-of-collection-data">Generate Views</a></h2>
+
+	<div class="stepblock">
+	  Generate distinct interactive visual interfaces to your digital collections, including <strong>maps</strong> and <strong>timelines</strong>, and sophisticated <strong>faceted navigation</strong>.
+	</div>
+	
+      </div>
+    </div><!-- /.span4 -->
+
+
+    <div class="span4">
+
+      <div class="fp-widget-well">
+	
+	<h2 class="fp-widget-header"><a href="http://viewshare.uservoice.com/knowledgebase/articles/247273-embed-and-share-your-views">Embed and Share</a></h2>
+	
+	<div class="stepblock">
+	  Just <strong>copy-paste to embed</strong> your interface in any webpage. Provide your users with novel and intuitive ways to explore your content.
+	</div>
+	
+      </div>
+    </div><!-- /.span4 -->
+
+  </div><!-- /.row-fluid -->
+
+</div><!-- /.container-fluid -->
+
+
+        </div>
+      </div><!-- /#body -->
+    </div> <!-- /.container-fluid -->
+
+    <div id="footer">
+      
+
+
+<div class="footernav">
+<span class="linknav left">
+    <span class="aboutlink"><a href="http://viewshare.uservoice.com/knowledgebase/articles/242995-about-viewshare">About Viewshare</a></span> <span class="divider">|</span>
+    <span class="helplink"><a href="/about/help" target="_blank">Help</a></span> <span class="divider">|</span>
+    <span class="tos"><a href="/about/tos" target="_blank">Terms of Service</a></span>
+</span>
+
+<span class="sponsornav right">
+    <span class="sponsor">Viewshare is a service provided by <a href="http://loc.gov/" title="Library of Congress"><img id="lc-logo" src="/static/images/lc-logo.png" /></a></span>
+ </span>
+</div>
+
+<div class="clear">&nbsp;</div>
+
+
+
+    </div>
+    
+  </div> <!-- /.container-fluid -->
+  
+  <script type="text/javascript" src="/static/CACHE/js/6ef0eafa7286.js"></script>
+  
+  
+  <script>
+  $(function() { $('#homeSlide').carousel(); });
+  </script>
+
+  
+    
+        <script type="text/javascript" src="/uservoice/options.js"></script>
+        <!--<script type="text/javascript" src="https://cdn.uservoice.com/javascripts/widgets/tab.js"></script>-->
+    
+
+    
+        <script src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script>
+        <!-- omniture: do not remove this comment, it breaks omniture if it isnt present -->
+    
+
+</body>
+</html>
+

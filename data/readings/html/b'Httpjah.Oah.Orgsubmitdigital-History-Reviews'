@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="google-site-verification" content="ZUFJWA1D9M29wF6fVDrvFkMbNHilhaNGsu4I9Y2jKwo" />
+
+	<title>Organization of American Historians: Digital History Reviews</title>
+
+	<meta name="description" content="" />
+
+	<!-- Google webmaster tools meta tag -->
+	<meta name="google-site-verification" content="EJx_7e6aYPj_LuhnWTL7WkwqXB1zS9WC1o2X3kpwr4A" />
+
+	<link rel="stylesheet" type="text/css" href="/site/assets/styles/oah.css?v=20131016b" />
+
+        <link rel="stylesheet" type="text/css" href="/site/assets/styles/accordion.css" />
+
+	<link rel="stylesheet" type="text/css" href="/site/assets/styles/anythingslider.css?v=20131016b" />
+
+	<link href="//fonts.googleapis.com/css?family=Ubuntu:300,400,700" rel="stylesheet" type="text/css" />
+
+	<!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="/site/assets/styles/ie.css" />
+	<![endif]-->
+
+	<!-- jQuery -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+	<!-- Anything Slider -->
+	<script type="text/javascript" src="/site/assets/scripts/jquery.anythingslider.min.js"></script>
+
+	<!-- Anything Slider optional plugins -->
+	<script type="text/javascript" src="/site/assets/scripts/jquery.easing.1.2.js"></script>
+
+	<!-- Anything Slider optional FX extension -->
+	<script type="text/javascript" src="/site/assets/scripts/jquery.anythingslider.fx.min.js"></script>
+
+	<script type="text/javascript" src="/site/assets/scripts/main.js"></script>
+
+	<!--[if lt IE 9]>
+	<script src="/site/assets/scripts/html5shiv.js"></script>
+	<![endif]-->
+
+	<!--
+	This website is powered by ProcessWire CMF/CMS.
+	ProcessWire is a free open source content management framework licensed under the GNU GPL.
+	ProcessWire is Copyright 2012 by Ryan Cramer / Ryan Cramer Design, LLC.
+	Learn more about ProcessWire at: http://processwire.com
+	-->
+
+			<!-- Google Analytics -->
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-5309795-1', 'auto');
+		ga('send', 'pageview');
+
+		</script>
+		<!-- End Google Analytics -->
+	
+	
+    <meta name="norton-safeweb-site-verification" content="m74s6mj9yx3gcqyxxlj1xsrav9coauujgv65pukxm9-y8isaddva8x-3g7lxwp2kssf2xxm6ikpn8d5cv0i7hq77fmjsforlnm50q1paegt9yoyyd67yno11ltrcabpg" />
+
+</head>
+<body>
+
+	<!-- masthead -->
+	<header role="banner">
+
+		<!-- top bar -->
+		<div class="top-bar">
+			<a href="http://www.oah.org"><img alt="OAH Home" src="/site/assets/images/home-t.png" style="vertical-align: middle;" /></a>
+			<a href="/membership/donate/"><img alt="Donate to OAH" src="/site/assets/images/donate-t.png" style="vertical-align: middle;" /></a>
+
+			
+			<a href="https://www.oahsecure.org/apply/start"><img alt="Join the OAH" src="/site/assets/images/join-t.png" style="vertical-align: middle;" /></a>
+			<a href="https://www.facebook.com/TheOAH?sk=wall"><img alt="Visit us on Facebook" src="/site/assets/images/facebook-t.jpg" style="vertical-align: middle;" class="social" /></a>
+			<a href="https://www.twitter.com/The_OAH"><img alt="Follow us on Twitter" src="/site/assets/images/twitter-t.jpg" style="vertical-align: middle;"  class="social" /></a>
+			<a href="https://www.youtube.com/user/OrgofAmerHistorians"><img alt="Visit our YouTube Channel" src="/site/assets/images/youtube-t.jpg" style="vertical-align: middle;"  class="social" /></a>
+
+			<form action="http://www.oah.org/search/" method="get" class="search-form">
+
+            <input type="text" name="q" class="search-field" id="search-field" title="search site" value="" />
+            <input type="image" src="/site/assets/images/search-btn.jpg" class="search-button" id="search-button" alt="Search" title="search site"/>
+			</form>
+		</div>
+		<!-- /top bar -->
+
+		<!-- main menu -->
+		<div class="main-menu">
+
+			<nav class="w-menu" role="navigation">
+				<div id="site-logo"> <a href="http://www.oah.org"><img src="/site/assets/images/oah-logo.png" alt="OAH logo" title="Organization of American Historians" class="logotop" /></a> </div>
+				<ul>
+
+		<li class="level-1 has_children">
+			<a href="http://www.oah.org/membership/">Membership</a>
+			<div>				<ul class="col-1">				<li class="level-2">
+					<a href="http://www.oah.org/membership/membership-overview/">Membership Overview</a><ul>					<li class="level-3">
+						<a href="http://www.oah.org/membership/membership-overview/oah-membership-information-and-categories/">Categories and Dues</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/membership/membership-overview/member-benefits/">Member Benefits</a>
+					</li></ul>				<li class="level-2">
+					<a href="http://www.oah.org/membership/partner-organizations-overview/">Partner Organizations Overview</a><ul></ul>				<li class="level-2">
+					<a href="http://www.oah.org/membership/partner-organizations/">Partner Organizations</a><ul></ul></li></ul>				<ul class="col-2">				<li class="level-2">
+					<a href="http://www.oah.org/membership/join/">Join</a><ul></ul>				<li class="level-2">
+					<a href="http://www.oah.org/membership/donate/">Donate to the OAH</a><ul></ul>				<li class="level-2">
+					<a href="http://www.oah.org/membership/distinguished-members/">Distinguished Members</a><ul></ul>				<li class="level-2">
+					<a href="http://www.oah.org/membership/member-login/">Member Login</a><ul></ul></li></ul>			</div>
+		</li>		<li class="level-1 has_children">
+			<a href="http://www.oah.org/meetings-events/">Meetings & Events</a>
+			<div>				<ul class="col-1">				<li class="level-2">
+					<a href="http://www.oah.org/meetings-events/2018/">2018 OAH Annual Meeting</a><ul>					<li class="level-3">
+						<a href="http://www.oah.org/meetings-events/2018/sales/">Exhibit | Advertise | Sponsor</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/meetings-events/2018/accommodations/">Accommodations | Travel</a>
+					</li></ul>				<li class="level-2">
+					<a href="http://www.oah.org/meetings-events/2017/">2017 OAH Annual Meeting</a><ul>					<li class="level-3">
+						<a href="http://www.oah.org/meetings-events/2017/sales/">Exhibit | Sponsor | Advertise</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/meetings-events/2017/program/">Conference Program</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/meetings-events/2017/additions/">Special Events | Tours | Meals</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/meetings-events/2017/sts/">SIT. TALK. SHARE.</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/meetings-events/2017/exhibits/">Exhibit Hall</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/meetings-events/2017/accommodations/">Accommodations | Travel</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/meetings-events/2017/registration/">Registration</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/meetings-events/2017/speaker-information/">2017 Speaker Information</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/meetings-events/2017/addendum/">Addendum</a>
+					</li></ul></li></ul>				<ul class="col-2">				<li class="level-2">
+					<a href="http://www.oah.org/meetings-events/meetings-events/">Meetings & Events Overview</a><ul>					<li class="level-3">
+						<a href="http://www.oah.org/meetings-events/meetings-events/past-oah-annual-meetings/">Past OAH Annual Meetings</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/meetings-events/meetings-events/future-annual-meetings/">Future Annual Meetings</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/meetings-events/meetings-events/call-for-proposals/">2019 OAH Call for Proposals</a>
+					</li></ul></li></ul>			</div>
+		</li>		<li class="level-1 has_children">
+			<a href="http://www.oah.org/programs/">Programs & Resources</a>
+			<div>				<ul class="col-1">				<li class="level-2">
+					<a href="http://www.oah.org/programs/programs-resources-overview/">Programs & Resources Overview</a><ul></ul>				<li class="level-2">
+					<a href="http://www.oah.org/programs/awards/">OAH Awards and Prizes</a><ul></ul>				<li class="level-2">
+					<a href="http://www.oah.org/programs/civilwar/">The Civil War at 150</a><ul></ul>				<li class="level-2">
+					<a href="http://www.oah.org/programs/career-center/">OAH Career COACH&reg;</a><ul></ul>				<li class="level-2">
+					<a href="http://www.oah.org/programs/distinguished-lectureship-program/">Distinguished Lectureship Program</a><ul></ul>				<li class="level-2">
+					<a href="http://www.oah.org/programs/residencies/">International Residencies</a><ul></ul>				<li class="level-2">
+					<a href="http://www.oah.org/programs/member-directory/">OAH Member Directory</a><ul></ul>				<li class="level-2">
+					<a href="http://www.oah.org/programs/the-oah-national-park-service-collaboration/">The OAH/National Park Service Collaboration</a><ul></ul>				<li class="level-2">
+					<a href="http://www.oah.org/programs/rs/">Recent Scholarship Online</a><ul></ul>				<li class="level-2">
+					<a href="http://www.oah.org/programs/teaching-tools/">Teaching Tools</a><ul></ul>				<li class="level-2">
+					<a href="http://www.oah.org/programs/world-war-i-at-100/">World War I at 100</a><ul></ul></li></ul>				<ul class="col-3">				<li class="level-2">
+					<a href="http://www.oah.org/programs/news/">News in American History</a><ul>					<li class="level-3">
+						<a href="http://www.oah.org/programs/news/tag/advocacy">Advocacy</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/programs/news/tag/awards">Awards and Prizes</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/programs/news/tag/calls-for-papers">Calls for Papers</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/programs/news/tag/clios-kudos">Clio's Kudos</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/programs/news/tag/fellowships">Fellowships</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/programs/news/tag/archivist">From the Archivist of the US</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/programs/news/tag/grants">Grants</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/programs/news/tag/in-memoriam">In Memoriam</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/programs/news/tag/internships">Internships</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/programs/news/tag/meetings">Meetings, Conferences, Symposia</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/programs/news/tag/miscellaneous">Miscellaneous</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/programs/news/tag/news-of-the-organization">News of the Organization</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/programs/news/tag/news-of-the-profession">News of the Profession</a>
+					</li></ul>				<li class="level-2">
+					<a href="http://www.oah.org/programs/talking-history-archives/">Talking History Archives</a><ul></ul></li></ul>			</div>
+		</li>		<li class="level-1 has_children">
+			<a href="http://www.oah.org/publications/">Publications</a>
+			<div>				<ul class="col-1">				<li class="level-2">
+					<a href="http://www.oah.org/publications/journal-of-american-history/"><em>Journal of American History</em></a><ul>					<li class="level-3">
+						<a href="http://www.oah.org/publications/journal-of-american-history/guidelines-for-contributors/">Guidelines for Contributors</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/publications/journal-of-american-history/issues-jah/">Issues</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/publications/journal-of-american-history/rso/">Recent Scholarship Online</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/publications/journal-of-american-history/subscribe-to-the-jah/">Subscribe to the JAH</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/publications/journal-of-american-history/web-projects/">Web Projects</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/publications/journal-of-american-history/about-jah/">About</a>
+					</li></ul>				<li class="level-2">
+					<a href="http://www.oah.org/publications/the-american-historian/"><em>The American Historian</em></a><ul>					<li class="level-3">
+						<a href="http://www.oah.org/publications/the-american-historian/issues/">Issues</a>
+					</li></ul>				<li class="level-2">
+					<a href="http://www.oah.org/publications/process-a-blog-for-american-history/">Process: A Blog For American History</a><ul></ul></li></ul>				<ul class="col-2">				<li class="level-2">
+					<a href="http://www.oah.org/publications/advertise/">Advertise with the OAH</a><ul>					<li class="level-3">
+						<a href="http://www.oah.org/publications/advertise/web-sites/">Advertise on the OAH Websites</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/publications/advertise/mailing-lists/">OAH Mailing Lists</a>
+					</li></ul>				<li class="level-2">
+					<a href="http://www.oah.org/publications/publications-overview/">Publications Overview</a><ul></ul>				<li class="level-2">
+					<a href="http://www.oah.org/publications/oah-magazine-of-history/"><em>OAH Magazine of History</em></a><ul>					<li class="level-3">
+						<a href="http://www.oah.org/publications/oah-magazine-of-history/issues/">Issues</a>
+					</li></ul>				<li class="level-2">
+					<a href="http://www.oah.org/publications/oah-outlook/"><em>OAH Outlook</em></a><ul>					<li class="level-3">
+						<a href="http://www.oah.org/publications/oah-outlook/issues-outlook/">Issues</a>
+					</li></ul>				<li class="level-2">
+					<a href="http://www.oah.org/publications/oah-update/"><em>OAH Update</em></a><ul>					<li class="level-3">
+						<a href="http://www.oah.org/publications/oah-update/issues/">Issues</a>
+					</li></ul></li></ul>			</div>
+		</li>		<li class="level-1 has_children">
+			<a href="http://www.oah.org/about/">About</a>
+			<div>				<ul class="col-1">				<li class="level-2">
+					<a href="http://www.oah.org/about/about-overview/">About Overview</a><ul></ul>				<li class="level-2">
+					<a href="http://www.oah.org/about/advocacy/">Advocacy</a><ul></ul>				<li class="level-2">
+					<a href="http://www.oah.org/about/contact/">Contact the OAH</a><ul>					<li class="level-3">
+						<a href="http://www.oah.org/about/contact/staff/">Our Staff</a>
+					</li></ul>				<li class="level-2">
+					<a href="http://www.oah.org/about/governance/">Governance</a><ul>					<li class="level-3">
+						<a href="http://www.oah.org/about/governance/committees/">OAH Committees</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/about/governance/oah-executive-board/">Executive Board</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/about/governance/elections/">Elections</a>
+					</li></ul></li></ul>				<ul class="col-3">				<li class="level-2">
+					<a href="http://www.oah.org/about/oah-newsroom/">OAH Newsroom</a><ul></ul>				<li class="level-2">
+					<a href="http://www.oah.org/about/oah/">Organization</a><ul>					<li class="level-3">
+						<a href="http://www.oah.org/about/oah/archives/">Archives</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/about/oah/constitution/">OAH Constitution and Bylaws</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/about/oah/past-officers/">Past Officers</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/about/oah/strategic-plan/">Strategic Plan</a>
+					</li></ul>				<li class="level-2">
+					<a href="http://www.oah.org/about/reports/">OAH Reports</a><ul>					<li class="level-3">
+						<a href="http://www.oah.org/about/reports/policies/">Policies</a>
+					</li>					<li class="level-3">
+						<a href="http://www.oah.org/about/reports/reports-statements/">Reports and Statements</a>
+					</li></ul>				<li class="level-2">
+					<a href="http://www.oah.org/about/past-officers/">Past Officers</a><ul></ul></li></ul>			</div>
+		</li>		<li class="level-1 has_children">
+			<a href="http://www.oah.org/careers/">Jobs & Careers</a>
+			<div>			</div>
+		</li>				</ul>
+			</nav>
+
+		</div>
+		<!-- /main menu -->
+
+
+		<!-- page heading -->
+		<div class="page-heading">
+
+
+			<!-- styling div -->
+			<div jah.oah.org>
+				<nav>
+
+					<!-- </ul> -->
+				</nav>
+
+				<h1> <em>The Journal of American History</em> </h1>
+
+			</div>
+			<!-- /styling div -->
+
+		</div>
+		<!-- /page heading -->
+
+
+	</header>
+	<!-- /masthead -->
+
+	
+	<br clear="all" />
+
+	<!-- content (element is closed in the footer file) -->
+	<section class="content">
+
+
+		<nav>
+			<ul class="breadcrumbs">
+			<li> <a href="/">Home</a> &gt; </li>			<li> <a href="/"><em>The Journal of American History</em></a> &gt; </li>			<li> <a href="/submit/">Submissions</a> &gt; </li>			<li class="active"> Digital History Reviews </li>			</ul>
+		</nav>
+
+
+		<article>
+
+<h2>Digital History Reviews</h2><p>"Web Site Reviews" first appeared in the June 2001 issue of the Journal of American History and became "Digital History Reviews" in the September 2013 issue. This section is a collaborative venture with the Web site History Matters: The U.S. Survey Course on the Web <a href="http://historymatters.gmu.edu/" title="http://historymatters.gmu.edu/" target="_blank">http://historymatters.gmu.edu</a>. This section appears quarterly and normally runs five reviews.</p>
+<p>Jeffrey W. McClurken, the department chair and professor of History and American Studies at the University of Mary Washington, is the contributing editor for the "Digital History Reviews" section of the Journal.</p>
+<p>The editor welcomes suggestions and may be reached at <a href="mailto:jmcclurk@umw.edu">jmcclurk@umw.edu</a>.</p>
+<h3><strong>Guidelines</strong></h3>
+<p>Although these scholarly reviews of digital history projects follow the long tradition of reviewing books in the JAH—as well as the more recent practice of reviewing museum exhibitions, films, and textbooks—digital history reviews have some unique features. The guidelines below provide specific suggestions for dealing with this medium. Please feel free to write to me with any questions you might have, as well as suggested revisions and clarifications in the guidelines.</p>
+<p>Digital history projects share a common medium, but they are quite diverse in their character. Reviewers need to keep that diversity in mind and to evaluate them on their own terms. Generally, most digital history projects fall into one of the following categories, although many sites combine different genres:</p>
+<ul>
+<li>Archive: a site that provides a body of primary sources. Could also include collections of documents marked up in TEI or databases of materials.</li>
+<li>Essay, Exhibit, Digital Narrative: something created or written specifically for the Web or with digital methods, that serves as a secondary source for interpreting the past by offering a historical narrative or argument. This category can also include maps, network visualizations, or other ways of representing historical data.</li>
+<li>Teaching Resource: a site that provides online assignments, syllabi, other resources specifically geared toward using the Web, or digital apps for teaching, including educational history content for children or adults, pedagogical training tools, and outreach to the education community.</li>
+<li>Tool: a downloadable, plugin, app, or online service that provides functionality related to creating, accessing, aggregating, or editing digital history content (rather than the content itself).</li>
+<li>Gateway/Clearinghouse: a site that provides access to other websites or Internet-based resources.</li>
+<li>Journal/Blog/Publication: any type of online publication.</li>
+<li>Professional/Institutional Site: a site devoted to sharing information on a particular organization.</li>
+<li>Digital Community: online social spaces that offer a virtual space for people to gather around a common experience, exhibition, or interest.</li>
+<li>Podcasts: video and audio podcasts that engage audiences on historical topics and themes.</li>
+<li>Audio/Application-based Tours: downloadable walking, car, or museum tours.</li>
+<li>Games: challenging interactive activities that educate through competition or role playing, finding evidence defined by rules and linked to a specific outcome. Games can be online, peer-to- peer, or mobile.</li>
+<li>Data sets, APIs: compilations of machine-readable data, shared in a commonly-accessible format, possibly through a CSV file or an Application Programming Interface (API), or data files, that allow others to make use of this data in their own digital history work.</li>
+</ul>
+<p>Many projects to be reviewed will probably fall into one of the first three categories. The reviewing criteria will vary depending on the category into which the site falls. Thus, for example, an archival site should be evaluated based on the quality of the materials presented; the care with which they have been prepared and perhaps edited and introduced; the ease of navigation; and its usefulness to teachers, students, and scholars. How comprehensive is the archive? Are there biases in what has been included or excluded? Does the archive, in effect, offer a point of view or interpretation? As with other types of reviews, you are providing guidance to readers on the usefulness of the site in their teaching or scholarship. At the same time, you are participating in a community of critical discourse and you are trying to improve the level of work in the field. As you would do in a scholarly book review, then, you are speaking both to potential readers and to producers of similar work.</p>
+<p>Even within a single category, the purposes of the digital history projects can vary significantly. An online exhibition or a digital narrative can be directed at a largely scholarly audience or a more broadly public audience. It would be unfair to fault a popularly oriented website for failing to trace the latest nuances in scholarship, but it would certainly be fair to note that the creators had not taken current scholarship into account. In general, then, online exhibitions and essays should be judged by the quality of their interpretation: What version of the past is presented? Is it grounded in historical scholarship? Is it original in its interpretation or mode of presentation? Again, the goal of the review is to provide guidance to potential readers (who might be reading in their roles as teachers, scholars, or citizens) and to raise the level of digitally based historical work.</p>
+<p>Classroom-oriented projects would be judged by the quality of the scholarship underlying them, but naturally you would also want to evaluate the originality and usefulness of the pedagogical approach. Will this project be useful to teachers and students? At what level?</p>
+<p>Reviews of digital history projects must necessarily address questions of navigation and presentation. To some extent, this process is the same as a book reviewer commenting on whether a book is well written or clearly organized. To be sure, the conventions of book publication are well enough established that book reviewers rarely comment on matters of navigation or design—although they do occasionally note a poorly prepared index or a work with excessive typographical errors. But in the digital world, which is an emerging medium that is visual (and often multimodal), issues of design and "interface" are necessarily more important. In this sense, digital history reviews share a great deal with film and exhibit reviews. In general, reviewers should consider what, if anything, the electronic medium adds to the historical work being presented. Does the digital format allow the creators of the project to do something different or better than what has been done in pre-digital formats (for example, books, films, museum exhibitions)? Have the creators of the project made effective use of the medium? How easy is it to find specific materials and to find your way around the project?</p>
+<p>In summary, most reviews will address the following five areas:</p>
+<ul>
+<li>Content: Is the scholarship sound and current? What is the interpretative point of view? How well is the content communicated to users?</li>
+<li>Design: Does the information architecture clearly communicate what a user can find in the site? Does the structure make it easy for a user to navigate through the site? Do all of the sections of the project function as expected? Does it have a clear, effective, and original design? How accessible is the site for individuals of all abilities? If it is a website, is it responsive (i.e., tablet/mobile-friendly)?</li>
+<li>Audience: Is the project directed at a clear audience? How well does the project address the needs of that audience?</li>
+<li>Digital Media: Does it make effective use of digital media and new technology? Does it do something that could not be done in other media—print, exhibition, film?</li>
+<li>Creators: Many digital projects include multiple contributors. Who worked on this project and in what capacity?</li>
+</ul>
+<p>Although it won't be necessary for all sites, it may well be appropriate to comment on some of the more technical aspects of the site. What programming or coding choices have been made and how have they shaped the project that emerged? How are the materials of the project made available? [For example, how are the materials in a database project accessible? Via a search bar? In a downloadable format? In multiple machine-readable formats (CSV, JSON, API)?] Remember, however, that the Journal's audience may not be familiar with these terms, so plan on some context. If you have questions about when such comments are appropriate or how best to provide context, please ask me.</p>
+<p>Because some digital history projects (largely archives) are vast, it is not possible to read every document or visit every link. American Life Histories: Manuscripts from the Federal Writers' Project, 1936–1940, at the Library of Congress's American Memory site, <a href="http://memory.loc.gov/ammem/wpaintro/wpahome.html">http://memory.loc.gov/ammem/wpaintro/wpahome.html</a>, includes 2,900 documents that range from 2,000 to 15,000 words in length. The reviewer could hardly be expected to read what probably amounts to the equivalent of 300 books. In such circumstances, some systematic sampling of the contents can substitute for a review of every single part. At the same time, the reviewer of a digital project should devote the same kind of close attention to the work as does a reviewer of a book, exhibition, or film. Because there is no easy way to indicate the size of a digital project (as you can note the number of pages in a book or the number of minutes in a film), you should try (ideally early in your review) to give readers some sense of the kinds of material found and the quantity of each.</p>
+<p>One final way that digital history projects differ from books, exhibits, and films is that they are often works in progress. Thus, we ask that the headnote for the review indicate when you examined the project (this piece of the headnote could be a range of dates) just as you would indicate in reviewing a performance of a play. Where the project plans some significant further changes, you should say that in the review. If you think that it would make more sense to wait for further changes before reviewing the project, then please let us know and we will put the review off to a later date. If you feel that you need additional information about a project in order to complete a review, we would be happy to contact the author or creator on your behalf.</p>
+<p>Because of our scholarly and pedagogical focus, our first priority in selecting reviewers is to find people whose scholarship and teaching parallels the subject areas of the project. We do not favor people who have some "technical" skill any more than we would expect book reviewers to know how books are typeset and printed. But we do have a preference—where possible—for reviewers who are familiar with what has been done in the digital world, since that will give them a comparative context for their evaluation. Nevertheless, we recognize that such familiarity is still only gradually emerging among professional historians, and some reviewers will be relatively new to such work.</p>
+<p>Headings:</p>
+<p>Name of site/title. Address/URL. Who set it up? Who maintains it (if different)? Link to credit/about page. When reviewer consulted it.</p>
+<p>Examples:</p>
+<p>Panoramic Maps, 1847–1929. <a href="http://memory.loc.gov/ammem/pmhtml/panhome.html">http://memory.loc.gov/ammem/pmhtml/panhome.html</a>. Created and maintained by the Geography and Map Division, Library of Congress, Washington, DC, <a href="https://www.loc.gov/collection/panoramic-maps/about- this-collection/">https://www.loc.gov/collection/panoramic-maps/about- this-collection/</a>. Reviewed Dec. 25, 2000–Jan. 2, 2001.</p>
+<p>The Triangle Shirtwaist Factory Fire: March 25, 1911. <a href="http://www.ilr.cornell.edu/trianglefire">http://www.ilr.cornell.edu/trianglefire</a>. Kheel Center for Labor-Management Documentation and Archives at Cornell University in cooperation with UNITE! (Union of Needle Trades, Industrial, and Textile Employees). Edited by Hope Nisly and Patricia Sione, <a href="http://trianglefire.ilr.cornell.edu/aboutThisSite.html">http://trianglefire.ilr.cornell.edu/aboutThisSite.html</a>. Last site update April 21, 2000. Reviewed Dec. 20, 2000–Jan. 5, 2001.</p>
+<p>The Programming Historian, <a href="http://programminghistorian.org/">http://programminghistorian.org/</a>. Edited by Adam Crymble, Fred Gibbs, Allison Hegel, Caleb McDaniel, Ian Milligan, Miriam Posner, and William J. Turkel, <a href="http://programminghistorian.org/project-team">http://programminghistorian.org/project-team</a>. Reviewed Dec. 2015–Jan. 2016.</p>
+<p>Jeffrey McClurken<br />Editor, Digital History Reviews, Journal of American History<br />Professor of History and American Studies<br />Special Assistant to the Provost for Teaching, Technology, and Innovation<br />University of Mary Washington<br /><a href="http://mcclurken.org/">http://mcclurken.org/</a><br />Twitter: <a href="http://www.twitter.com/@jmcclurken">@jmcclurken</a><br />Phone: 540-654- 1475<br />jmcclurk at umw dot edu</p>
+		</article>
+
+		<!-- sidebar -->
+		<aside>
+
+<div>
+<h2>Submissions</h2>
+<h3 class='promote-advertising'> <a href='/publications/advertise/web-sites/'>Support the OAH. Advertise here!</a> </h3></div>
+<div>
+<h2>Related Materials</h2>
+<p><a href="/submit/call-for-papers/">Call for Papers</a></p><p><a href="/submit/datasheet/">Reviewer Data Sheet</a></p><p><a href="/submit/stylesheet/">JAH's style sheet</a></p><p><em><a href="http://www.chicagomanualofstyle.org/home.html" target="_blank">The Chicago Manual of Style</a><br /></em></p></div>
+
+		</aside>
+		<!-- sidebar -->
+
+	</section>
+	<!-- /content (element is opened in the header file) -->
+
+    
+	<footer>
+		<div style="border: 0;">
+
+			<div class="footer-left">
+                <div id="footer-blurb">
+                    <p>OAH&mdash;The Place for American History</p>
+                </div>
+                <br />
+				<p> © 2017 The Organization of American Historians</p>
+			</div><!-- necessary to remove space between inline blocks
+
+			--><div class="footer-middle">
+				<p>
+					112 N. Bryan Avenue<br />
+Bloomington, Indiana 47408-4141										 <br />
+					Telephone: 812-855-7311 <br />
+					Fax: 812-855-0696 <br />
+					<a href="/about/contact/">Contact the OAH</a>
+				</p>
+			</div><!-- necessary to remove space between inline blocks
+
+			--><div class="footer-right">
+
+				<ul>
+<li> <a href='/membership/'>Membership</a> </li><li> <a href='/meetings-events/'>Meetings & Events</a> </li><li> <a href='/programs/'>Programs & Resources</a> </li><li> <a href='/publications/'>Publications</a> </li><li> <a href='/about/'>About</a> </li><li> <a href='/careers/'>Jobs & Careers</a> </li>				</ul>
+			</div>
+
+		</div>
+	</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<title>Mapping as Process: Food Access in Nineteenth-Century New York | Global Urban History</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="https://s0.wp.com/wp-content/themes/pub/twentyten/style.css" />
+<link rel="pingback" href="https://globalurbanhistory.com/xmlrpc.php" />
+<script type="text/javascript">
+  WebFontConfig = {"google":{"families":["Libre+Baskerville:r:latin,latin-ext","Vollkorn:r,i,b,bi:latin,latin-ext"]}};
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://s1.wp.com/wp-content/plugins/custom-fonts/js/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+	})();
+</script><style id="jetpack-custom-fonts-css">.wf-active #site-title{font-family:"Libre Baskerville",serif;font-style:normal;font-weight:400}.wf-active #site-title{font-size:39px;font-style:normal;font-weight:400}.wf-active #site-title a{font-weight:400;font-style:normal}.wf-active .pingback a.url, .wf-active body{font-family:"Vollkorn",serif}.wf-active #cancel-comment-reply-link, .wf-active #site-info, .wf-active #wp-calendar, .wf-active .comment-body thead th, .wf-active .comment-body tr th, .wf-active .comment-meta, .wf-active .entry-content label, .wf-active .entry-content thead th, .wf-active .entry-content tr th, .wf-active .entry-meta, .wf-active .entry-utility, .wf-active .form-allowed-tags, .wf-active .pingback p, .wf-active .reply, .wf-active .wp-caption-text{font-family:"Vollkorn",serif}.wf-active h1, .wf-active h2, .wf-active h3, .wf-active h4, .wf-active h5, .wf-active h6{font-weight:400;font-family:"Libre Baskerville",serif;font-style:normal}.wf-active .page-title span{font-family:"Libre Baskerville",serif;font-style:normal;font-weight:400}.wf-active #access .menu, .wf-active #access div.menu ul, .wf-active #respond label, .wf-active .entry-title, .wf-active .navigation, .wf-active .page-title, .wf-active .widget-title, .wf-active h3#comments-title, .wf-active h3#reply-title{font-family:"Libre Baskerville",serif;font-style:normal;font-weight:400}.wf-active #access .menu-header, .wf-active div.menu{font-size:16.9px;font-style:normal;font-weight:400}.wf-active .page-title{font-size:18.2px;font-weight:400;font-style:normal}.wf-active .page-title span{font-size:20.8px;font-style:normal;font-weight:400}.wf-active #content .entry-title{font-size:27.3px;font-weight:400;font-style:normal}.wf-active .navigation{font-size:15.6px;font-style:normal;font-weight:400}.wf-active h3#comments-title, .wf-active h3#reply-title{font-size:26px;font-weight:400;font-style:normal}.wf-active #respond label{font-size:15.6px;font-style:normal;font-weight:400}.wf-active .widget-title{font-weight:400;font-style:normal}</style>
+		<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=globalurbanhistory.com&amp;id=103576550&amp;t=1495303977&amp;back=https%3A%2F%2Fglobalurbanhistory.com%2F2016%2F05%2F17%2Fmapping-as-process-food-access-in-nineteenth-century-new-york%2F' type="text/javascript"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		</script>
+		<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//guhistory.wordpress.com' />
+<link rel="alternate" type="application/rss+xml" title="Global Urban History &raquo; Feed" href="https://globalurbanhistory.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Global Urban History &raquo; Comments Feed" href="https://globalurbanhistory.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Global Urban History &raquo; Mapping as Process: Food Access in Nineteenth-Century New&nbsp;York Comments Feed" href="https://globalurbanhistory.com/2016/05/17/mapping-as-process-food-access-in-nineteenth-century-new-york/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1488818651h&ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='all-css-0-1' href='https://s1.wp.com/_static/??-eJyNkt1SwyAQhV9IXHXaWi8cnwXIltBClmGJMW8vBDXGKuNN2APnY38ITEFoGhIOCfwoghuNHRimoMkL9tbh/EPdauYb+B1z9oIMZ0xB6otY1JVdOTJrHoqd7BiMIyXd/7xpykdzPhevD61iNEXM+z7IVBweOyvRoc+2FubD4ZMqYZ87afZch6NUiMgs8tfb0YvU50RNLlOllDolyMbtTkUtDJRspvkruLqzpoIwqnU0wGl2KJbamsXbzmBiOEmNiqi+maK3yrdIgyQcaZksDRshTk7a2EIjlnfNoVnaXmULkrpcrmRco5Y9EKdaCXAvY8n1sbYoJm2ly60Y2oq/ht7vvv26L/75fvd093g87I/78ztn70OQ' type='text/css' media='all' />
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJyFztEKwjAMBdAfsquTiXsRv6XWOFKXtDbphn69HeiDMBQCgdzDJXZOBtmP5QJiQ517gfx4rybIxv4ChnDITqEh5A/2kRVYF0vxjCOYIpDdUG+16BpXXIqiBCIVraTfLyFPCPNfFkCT8zeTQfC5tJ7o2Hb9Yde3+24bXjRNW9I='></script>
+<link rel='stylesheet' id='all-css-0-2' href='https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621h' type='text/css' media='all' />
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563h&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://guhistory.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='From Lancashire to the World: The Manchester Ship Canal and&nbsp;Globalization' href='https://globalurbanhistory.com/2016/04/29/from-lancashire-to-the-world-the-manchester-ship-canal-and-globalization/' />
+<link rel='next' title='The Bloodlands&#8217; City: A New Book on the Making of Ukrainian&nbsp;Lviv' href='https://globalurbanhistory.com/2016/05/24/a-city-in-and-after-the-bloodlands-a-new-book-on-the-making-of-ukranian-lviv/' />
+<meta name="generator" content="WordPress.com" />
+<link rel="canonical" href="https://globalurbanhistory.com/2016/05/17/mapping-as-process-food-access-in-nineteenth-century-new-york/" />
+<link rel='shortlink' href='http://wp.me/p70AZw-in' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=json&amp;url=https%3A%2F%2Fglobalurbanhistory.com%2F2016%2F05%2F17%2Fmapping-as-process-food-access-in-nineteenth-century-new-york%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=xml&amp;url=https%3A%2F%2Fglobalurbanhistory.com%2F2016%2F05%2F17%2Fmapping-as-process-food-access-in-nineteenth-century-new-york%2F&amp;for=wpcom-auto-discovery" />
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Mapping as Process: Food Access in Nineteenth-Century New York" />
+<meta property="og:url" content="https://globalurbanhistory.com/2016/05/17/mapping-as-process-food-access-in-nineteenth-century-new-york/" />
+<meta property="og:description" content="Gergely Baics, Barnard College, Columbia University Geographic information system (GIS) has changed social science and humanities research through spatial analysis. It has reinvigorated the spatial…" />
+<meta property="article:published_time" content="2016-05-17T08:59:01+00:00" />
+<meta property="article:modified_time" content="2016-05-31T09:19:18+00:00" />
+<meta property="og:site_name" content="Global Urban History" />
+<meta property="og:image" content="https://guhistory.files.wordpress.com/2016/05/baicsmapseq1.png" />
+<meta property="og:image:width" content="1339" />
+<meta property="og:image:height" content="2054" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@urbanhist" />
+<meta name="twitter:image" content="https://guhistory.files.wordpress.com/2016/05/baicsmapseq1.png?w=240" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:creator" content="@urbanhist" />
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
+<link rel="shortcut icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon-precomposed" href="https://s0.wp.com/i/webclip.png" />
+<link rel='openid.server' href='https://guhistory.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='https://guhistory.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="https://globalurbanhistory.com/osd.xml" title="Global Urban History" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<meta name="theme-color" content="#ffffff" />
+		<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<meta name="application-name" content="Global Urban History" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://globalurbanhistory.com/feed/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="title" content="Mapping as Process: Food Access in Nineteenth-Century New&nbsp;York | Global Urban History on WordPress.com" />
+<meta name="description" content="Gergely Baics, Barnard College, Columbia University Geographic information system (GIS) has changed social science and humanities research through spatial analysis. It has reinvigorated the spatial turn, which has swept many fields in the past decades, improving their empirical foundations, methodological tools and analytical process. Historians, especially those working within the field of urban history, have&hellip;" />
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+ 		<script type="text/javascript">
+		var _ipw_custom = {
+				wordAds: '0',
+				adSafe: '0',
+				domain: 'globalurbanhistory.com',
+				pageURL: 'https://globalurbanhistory.com/2016/05/17/mapping-as-process-food-access-in-nineteenth-century-new-york/'
+			};
+		</script>
+ 		<script type="text/javascript" src="//s.pubmine.com/head.js"></script>
+		<script type="text/javascript" src="https://static.criteo.net/js/ld/publishertag.js"></script><link rel="amphtml" href="https://globalurbanhistory.com/2016/05/17/mapping-as-process-food-access-in-nineteenth-century-new-york/amp/" /><style type="text/css" id="syntaxhighlighteranchor"></style>
+<script type="text/javascript">
+	window.google_analytics_uacct = "UA-52447-2";
+</script>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-52447-2']);
+	_gaq.push(['_setDomainName', 'none']);
+	_gaq.push(['_setAllowLinker', true]);
+	_gaq.push(['_initData']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+	})();
+</script>
+</head>
+
+<body class="post-template-default single single-post postid-1139 single-format-standard custom-background mp6 customizer-styles-applied single-author highlander-enabled highlander-light">
+<div id="wrapper" class="hfeed">
+	<div id="header">
+		<div id="masthead">
+			<div id="branding" role="banner">
+								<div id="site-title">
+					<span>
+						<a href="https://globalurbanhistory.com/" title="Global Urban History" rel="home">Global Urban History</a>
+					</span>
+				</div>
+				<div id="site-description"></div>
+
+										<a class="home-link" href="https://globalurbanhistory.com/" title="Global Urban History" rel="home">
+							<img src="https://guhistory.files.wordpress.com/2015/12/cropped-cropped-11231922_749340388509188_6360005090543309985_o21.jpg" width="940" height="198" alt="" />
+						</a>
+								</div><!-- #branding -->
+
+			<div id="access" role="navigation">
+			  				<div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+								<div class="menu-header"><ul id="menu-menu1" class="menu"><li id="menu-item-71" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71"><a href="https://guhistory.wordpress.com/">Home</a></li>
+<li id="menu-item-761" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-761"><a href="https://globalurbanhistory.com/category/reviews/">Reviews</a></li>
+<li id="menu-item-1984" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1984"><a href="https://globalurbanhistory.com/category/conversations/">Conversations</a></li>
+<li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-72"><a href="https://globalurbanhistory.com/about-us/">About Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-614" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-614"><a href="https://globalurbanhistory.com/editors/">Editors</a></li>
+</ul>
+</li>
+<li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a href="https://globalurbanhistory.com/submissions-and-contact/">Submissions and Contact</a></li>
+</ul></div>			</div><!-- #access -->
+		</div><!-- #masthead -->
+	</div><!-- #header -->
+
+	<div id="main">
+
+		<div id="container">
+			<div id="content" role="main">
+
+			
+
+				<div id="nav-above" class="navigation">
+					<div class="nav-previous"><a href="https://globalurbanhistory.com/2016/04/29/from-lancashire-to-the-world-the-manchester-ship-canal-and-globalization/" rel="prev"><span class="meta-nav">&larr;</span> From Lancashire to the World: The Manchester Ship Canal and&nbsp;Globalization</a></div>
+					<div class="nav-next"><a href="https://globalurbanhistory.com/2016/05/24/a-city-in-and-after-the-bloodlands-a-new-book-on-the-making-of-ukranian-lviv/" rel="next">The Bloodlands&#8217; City: A New Book on the Making of Ukrainian&nbsp;Lviv <span class="meta-nav">&rarr;</span></a></div>
+				</div><!-- #nav-above -->
+
+				<div id="post-1139" class="post-1139 post type-post status-publish format-standard hentry category-article tag-19th-century tag-atlantic-world tag-commodities tag-consumer-culture tag-economic-history tag-infrastructure tag-mapping tag-new-york tag-north-america tag-social-history tag-spatial-history tag-transport">
+											<h2 class="entry-title"><a href="https://globalurbanhistory.com/2016/05/17/mapping-as-process-food-access-in-nineteenth-century-new-york/" rel="bookmark">Mapping as Process: Food Access in Nineteenth-Century New&nbsp;York</a></h2>					
+					<div class="entry-meta">
+						<span class="meta-prep meta-prep-author">Posted on</span> <a href="https://globalurbanhistory.com/2016/05/17/mapping-as-process-food-access-in-nineteenth-century-new-york/" title="10:59" rel="bookmark"><span class="entry-date">17. May 2016</span></a>						<span class="by-author"><span class="sep">by</span> <span class="author vcard"><a class="url fn n" href="https://globalurbanhistory.com/author/globalrubanhistoryeds/" title="View all posts by Global Urban History" rel="author">Global Urban History</a></span> </span>					</div><!-- .entry-meta -->
+
+					<div class="entry-content">
+						<p><a href="https://barnard.edu/profiles/gergely-baics" target="_blank">Gergely Baics</a>, Barnard College, Columbia University</p>
+<p><img data-attachment-id="1169" data-permalink="https://globalurbanhistory.com/2016/05/17/mapping-as-process-food-access-in-nineteenth-century-new-york/baicsmapseq1/" data-orig-file="https://guhistory.files.wordpress.com/2016/05/baicsmapseq1.png?w=329&#038;h=505" data-orig-size="1339,2054" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="BaicsMapSeq1" data-image-description="" data-medium-file="https://guhistory.files.wordpress.com/2016/05/baicsmapseq1.png?w=329&#038;h=505?w=196" data-large-file="https://guhistory.files.wordpress.com/2016/05/baicsmapseq1.png?w=329&#038;h=505?w=640" class="  wp-image-1169 alignright" src="https://guhistory.files.wordpress.com/2016/05/baicsmapseq1.png?w=329&#038;h=505" alt="BaicsMapSeq1" width="329" height="505" srcset="https://guhistory.files.wordpress.com/2016/05/baicsmapseq1.png?w=329&amp;h=505 329w, https://guhistory.files.wordpress.com/2016/05/baicsmapseq1.png?w=658&amp;h=1010 658w, https://guhistory.files.wordpress.com/2016/05/baicsmapseq1.png?w=98&amp;h=150 98w, https://guhistory.files.wordpress.com/2016/05/baicsmapseq1.png?w=196&amp;h=300 196w" sizes="(max-width: 329px) 100vw, 329px" />Geographic information system (GIS) has changed social science and humanities research through spatial analysis. It has reinvigorated the spatial turn, which has swept many fields in the past decades, improving their empirical foundations, methodological tools and analytical process. Historians, especially those working within the field of urban history, have looked to GIS to incorporate new resources and methods to raise new questions or revisit old ones. Further, given the considerable data demands of certain projects, GIS mapping has made historical research more accessible, collaborative and open-ended. Some of the most fruitful collaborations occur when the public is directly invited to help produce and make use of historical GIS data, as is the case with the New York Public Library’s several creative initiatives (<a href="http://maps.nypl.org/warper/" target="_blank">Map Warper</a>, <a href="http://buildinginspector.nypl.org/" target="_blank">Building Inspector</a>, <a href="http://spacetime.nypl.org/" target="_blank">NYC Space/Time Directory</a>), or when historians work together with geospatial analysts to produce innovative scholarship in interdisciplinary centers, such as the <a href="http://web.stanford.edu/group/spatialhistory/cgi-bin/site/index.php" target="_blank">Spatial History Project</a> at Stanford University.<span id="more-1139"></span></p>
+<p><img data-attachment-id="1170" data-permalink="https://globalurbanhistory.com/2016/05/17/mapping-as-process-food-access-in-nineteenth-century-new-york/baicsmapseq2/" data-orig-file="https://guhistory.files.wordpress.com/2016/05/baicsmapseq2.png?w=329&#038;h=595" data-orig-size="1362,2466" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="BaicsMapSeq2" data-image-description="" data-medium-file="https://guhistory.files.wordpress.com/2016/05/baicsmapseq2.png?w=329&#038;h=595?w=166" data-large-file="https://guhistory.files.wordpress.com/2016/05/baicsmapseq2.png?w=329&#038;h=595?w=566" class="  wp-image-1170 alignright" src="https://guhistory.files.wordpress.com/2016/05/baicsmapseq2.png?w=329&#038;h=595" alt="BaicsMapSeq2" width="329" height="595" srcset="https://guhistory.files.wordpress.com/2016/05/baicsmapseq2.png?w=329&amp;h=595 329w, https://guhistory.files.wordpress.com/2016/05/baicsmapseq2.png?w=658&amp;h=1190 658w, https://guhistory.files.wordpress.com/2016/05/baicsmapseq2.png?w=83&amp;h=150 83w, https://guhistory.files.wordpress.com/2016/05/baicsmapseq2.png?w=166&amp;h=300 166w, https://guhistory.files.wordpress.com/2016/05/baicsmapseq2.png?w=566&amp;h=1024 566w" sizes="(max-width: 329px) 100vw, 329px" />At the first step, GIS mapping tends to be a reconstructive process for urban historians. It involves unearthing and recreating past urban landscapes whether looking at the historical city entirely or exploring a specific subject. Often source challenges abound, which include finding and geo-referencing historical maps, locating places of import from those and other sources, digitizing geographic features using GIS software, and creating and linking relevant data to those features. Much of the process can be tedious and time consuming, and therefore it is of enormous value that historical repositories and research centers have recently taken the lead to generate and make available essential GIS data. My initial approach in studying the food markets of New York City in the first half of the long nineteenth century fell squarely into this reconstructive process. The New York Public Library’s <a href="http://www.nypl.org/blog/2012/06/13/nyc-historical-gis-project" target="_blank">New York City Historical GIS Project</a> has been invaluable in providing relevant GIS resources. The process of historical reconstruction is gradual, open-ended and by definition always unfinished. It results in cartographic representations of the historical city, preparing the ground for spatial analysis.</p>
+<p><img data-attachment-id="1171" data-permalink="https://globalurbanhistory.com/2016/05/17/mapping-as-process-food-access-in-nineteenth-century-new-york/baicsmapseq3/" data-orig-file="https://guhistory.files.wordpress.com/2016/05/baicsmapseq3.png?w=329&#038;h=570" data-orig-size="1356,2348" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="BaicsMapSeq3" data-image-description="" data-medium-file="https://guhistory.files.wordpress.com/2016/05/baicsmapseq3.png?w=329&#038;h=570?w=173" data-large-file="https://guhistory.files.wordpress.com/2016/05/baicsmapseq3.png?w=329&#038;h=570?w=591" class="  wp-image-1171 alignright" src="https://guhistory.files.wordpress.com/2016/05/baicsmapseq3.png?w=329&#038;h=570" alt="BaicsMapSeq3" width="329" height="570" srcset="https://guhistory.files.wordpress.com/2016/05/baicsmapseq3.png?w=329&amp;h=570 329w, https://guhistory.files.wordpress.com/2016/05/baicsmapseq3.png?w=658&amp;h=1140 658w, https://guhistory.files.wordpress.com/2016/05/baicsmapseq3.png?w=87&amp;h=150 87w, https://guhistory.files.wordpress.com/2016/05/baicsmapseq3.png?w=173&amp;h=300 173w, https://guhistory.files.wordpress.com/2016/05/baicsmapseq3.png?w=591&amp;h=1024 591w" sizes="(max-width: 329px) 100vw, 329px" />While historical reconstruction is valuable in and of itself, it is only the first step of spatial analysis. The real power of GIS mapping is to explore spatial relationships. Mapping as process differs from mapping as representation in that it is generative of new questions and answers, feeding back into a productive cycle of research and interpretation. Whether the process involves overlaying distinct features of the urban environment, deploying different spatial datasets, or making use of the many statistical and other tools embedded in the software, GIS presents a versatile framework to study urban history through spatially oriented questions. The possibilities are endless and therefore can be overwhelming. The point is to keep the historical problem in focus yet open-ended, and employ the appropriate resources and tools. Mapping the locations and sizes of food markets in nineteenth-century New York City is already informative; overlaying them with demographic data goes further in exploring supply and demand relations in urban household provisioning; while situating the food system within the city’s broader commercial geography, built and social environments create additional layers of interpretive context. At each step, new questions emerge, moving the mapping process forward from reconstruction toward analysis. In the case of my forthcoming book, <a href="http://press.princeton.edu/titles/10876.html" target="_blank">Feeding Gotham: The Political Economy and Geography of Food, 1790–1860</a> (Princeton University Press, 2016) the research agenda has gradually shifted from mapping food markets to mapping food access in the nineteenth-century American city.</p>
+<p>It should take little convincing of urbanists that the problem of food access is a consequential matter. This seems self-evident as concerns over food justice have occupied a more prominent place in our current debates about urban social inequalities. In particular, the problem of food deserts, that is, areas without convenient access to healthy and affordable food supplies, contributing to a variety of diet-related health conditions, has gained popular attention. Tellingly, a food desert is a geographic concept. As a spatial metaphor, it conveys the urgency to incorporate food into our general framework of socio-spatial inequalities in access to basic goods and services in the urban environment. And while food deserts might sound anachronistic in the context of nineteenth-century cities, the underlying idea of spatial injustice in the distribution of vital resources such as daily food supplies, affecting residents’ basic health and living standards, can be studied with GIS mapping not only for contemporary but also for historic cities.</p>
+<div data-shortcode="caption" id="attachment_1185" style="width: 739px" class="wp-caption alignnone"><img data-attachment-id="1185" data-permalink="https://globalurbanhistory.com/2016/05/17/mapping-as-process-food-access-in-nineteenth-century-new-york/washington-market-1850s/" data-orig-file="https://guhistory.files.wordpress.com/2016/05/washington-market-1850s.jpg?w=640" data-orig-size="729,467" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="washington market 1850s" data-image-description="" data-medium-file="https://guhistory.files.wordpress.com/2016/05/washington-market-1850s.jpg?w=640?w=300" data-large-file="https://guhistory.files.wordpress.com/2016/05/washington-market-1850s.jpg?w=640?w=640" class="alignnone size-full wp-image-1185" src="https://guhistory.files.wordpress.com/2016/05/washington-market-1850s.jpg?w=640" alt="washington market 1850s" srcset="https://guhistory.files.wordpress.com/2016/05/washington-market-1850s.jpg?w=640 640w, https://guhistory.files.wordpress.com/2016/05/washington-market-1850s.jpg?w=150 150w, https://guhistory.files.wordpress.com/2016/05/washington-market-1850s.jpg?w=300 300w, https://guhistory.files.wordpress.com/2016/05/washington-market-1850s.jpg 729w" sizes="(max-width: 640px) 100vw, 640px"   /><p class="wp-caption-text">Washington Market, 1850s</p></div>
+<p>To be sure, urban historians have increasingly discovered the importance of food systems in cities, looking at supply chains and infrastructures, dietary changes and cultural practices. Still there remains much to be done to incorporate food access into our overall assessment of past urban living conditions. My book takes as its starting point that food should be treated as one of three most basic necessities in the nineteenth-century city, together with the much better studied conditions of housing and sanitation. Spatial analysis opens up this understudied domain to empirical investigation. Pressing questions include, for example, how government policy shaped the development and functioning of modern provisioning systems; how food infrastructures from wholesale to retail distribution responded to urban growth, and served residents’ basic needs to adequate quantities and quality of supplies; or what role changing conditions of food access played in the material well-being and social inequalities of increasingly diverse populations. These are well-established themes when describing the history of housing or sanitation: for example, how tenement reform or municipal waterworks affected living standards and public health. In the case of food, we are still on more uncertain ground. Mapping food access as a matter of city governance, built environment, infrastructure, and living standards provides a framework and methodology to advance research in this vital domain of the modern urban experience.</p>
+<div data-shortcode="caption" id="attachment_1182" style="width: 395px" class="wp-caption alignleft"><img data-attachment-id="1182" data-permalink="https://globalurbanhistory.com/2016/05/17/mapping-as-process-food-access-in-nineteenth-century-new-york/nyc-around-1850/" data-orig-file="https://guhistory.files.wordpress.com/2016/05/nyc-around-1850.jpg?w=385&#038;h=273" data-orig-size="600,425" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="NYC around 1850" data-image-description="" data-medium-file="https://guhistory.files.wordpress.com/2016/05/nyc-around-1850.jpg?w=385&#038;h=273?w=300" data-large-file="https://guhistory.files.wordpress.com/2016/05/nyc-around-1850.jpg?w=385&#038;h=273?w=600" class="  wp-image-1182 alignleft" src="https://guhistory.files.wordpress.com/2016/05/nyc-around-1850.jpg?w=385&#038;h=273" alt="NYC around 1850" width="385" height="273" srcset="https://guhistory.files.wordpress.com/2016/05/nyc-around-1850.jpg?w=385&amp;h=273 385w, https://guhistory.files.wordpress.com/2016/05/nyc-around-1850.jpg?w=150&amp;h=106 150w, https://guhistory.files.wordpress.com/2016/05/nyc-around-1850.jpg?w=300&amp;h=213 300w, https://guhistory.files.wordpress.com/2016/05/nyc-around-1850.jpg 600w" sizes="(max-width: 385px) 100vw, 385px" /><p class="wp-caption-text">Aerial View of New York City, 1850s</p></div>
+<p>In examining how food access developed in New York during the first half of the long nineteenth century, when the city’s population increased from thirty thousand to nearly a million, my book offers insights with relevance beyond my case study. Its narrative traces how access to food, once a public good, became a private matter left to free and unregulated markets, and how this affected the city’s development and the living standards of residents. At the beginning of the nineteenth century, New York was provisioned through a public market system, tightly managed and regulated by the municipal government. Under the pressures of accelerating urbanization and a shift toward free-market ideology, food markets were deregulated in the 1840s, pushing food access from the public to the private domain. Correspondingly, the geography and infrastructure of the food system changed dramatically. Daily access gradually shifted away from closely regulated public markets to thousands of unregulated shops, sprawling across the urban landscape. A free-market system of provisioning, however, not only opened up previously closed food trades, and brought food retailers closer to customers. It resulted in the city’s surrender of oversight of its food supplies, with negative consequences to quality. Further, it contributed to rising inequalities, as differential access to daily provisions mapped onto other essential socio‑spatial disparities, in particular housing and sanitation, in mid-century New York’s increasingly segregated residential environment.</p>
+<p>Studying spatial relations demands an understanding of the political economy of their production, as we know from critical geographers. GIS mapping has provided empirical base and analytical process to uncover how distinctive regulatory frameworks produced different geographies of food access, and how a highly uneven food landscape emerged by the mid-nineteenth century to become a defining and enduring feature of the American city.</p>
+<p>&nbsp;</p>
+<hr />
+<p><a href="https://history.barnard.edu/profiles/gergely-baics" target="_blank">Gergely Baics</a> is assistant professor of History and Urban Studies at Barnard College, Columbia University. His research interests include urban social and economic history, New York City history, social science history methods, and historical GIS. His book, <a href="http://press.princeton.edu/titles/10876.html"><em>Feeding Gotham: The Political Economy and Geography of Food, 1790-1860</em></a> is forthcoming with Princeton University Press (2016).</p>
+			<style type="text/css">
+			div.wpmrec2x{max-width:610px;}
+			div.wpmrec2x div.u > div{float:left;margin-right:10px;}
+			div.wpmrec2x div.u > div:nth-child(3n){margin-right:0px;}
+			</style>		<div class="wpcnt">
+			<div class="wpa wpmrec wpmrec2x">
+				<span class="wpa-about">Advertisements</span>
+				<div class="u">
+								<script type='text/javascript' id="s26942">
+				(function(g,$){if("undefined"!=typeof g.__ATA){
+					g.__ATA.initAd({sectionId:26942, width:300, height:250});
+					g.__ATA.initAd({sectionId:114160, width:300, height:250});
+				}})(window,jQuery);
+			</script>
+				</div>
+				        <div id="crt-557804211" style="width:300px;height:250px;"></div>
+        <script type="text/javascript">
+        var o = document.getElementById('crt-557804211');
+        if ("undefined"!=typeof Criteo) {
+            var p = o.parentNode;
+            p.style.setProperty('display', 'inline-block', 'important');
+            o.style.setProperty('display', 'block', 'important');
+            Criteo.DisplayAcceptableAdIfAdblocked({zoneid:388248,containerid:"crt-557804211",collapseContainerIfNotAdblocked:true,"callifnotadblocked": function () {var o = document.getElementById('crt-557804211'); o.style.setProperty('display','none','important');o.style.setProperty('visbility','hidden','important'); }
+        });
+        } else {
+            o.style.setProperty('display', 'none', 'important');
+            o.style.setProperty('visibility', 'hidden', 'important');
+        }
+        </script>
+			</div>
+		</div><div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this post</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-1139" class="share-twitter sd-button share-icon" href="https://globalurbanhistory.com/2016/05/17/mapping-as-process-food-access-in-nineteenth-century-new-york/?share=twitter" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-1139" class="share-facebook sd-button share-icon" href="https://globalurbanhistory.com/2016/05/17/mapping-as-process-food-access-in-nineteenth-century-new-york/?share=facebook" target="_blank" title="Share on Facebook"><span>Facebook</span></a></li><li class="share-reddit"><a rel="nofollow" data-shared="" class="share-reddit sd-button share-icon" href="https://globalurbanhistory.com/2016/05/17/mapping-as-process-food-access-in-nineteenth-century-new-york/?share=reddit" target="_blank" title="Click to share on Reddit"><span>Reddit</span></a></li><li class="share-pocket"><a rel="nofollow" data-shared="" class="share-pocket sd-button share-icon" href="https://globalurbanhistory.com/2016/05/17/mapping-as-process-food-access-in-nineteenth-century-new-york/?share=pocket" target="_blank" title="Click to share on Pocket"><span>Pocket</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-103576550-1139-5920872a0c178' data-src='//widgets.wp.com/likes/#blog_id=103576550&amp;post_id=1139&amp;origin=guhistory.wordpress.com&amp;obj_id=103576550-1139-5920872a0c178' data-name='like-post-frame-103576550-1139-5920872a0c178'><h3 class='sd-title'>Like this:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Like</span></span> <span class="loading">Loading...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div></div>											</div><!-- .entry-content -->
+
+
+					<div class="entry-utility">
+												This entry was posted in <a href="https://globalurbanhistory.com/category/article/" rel="category tag">Article</a> and tagged <a href="https://globalurbanhistory.com/tag/19th-century/" rel="tag">19th Century</a>, <a href="https://globalurbanhistory.com/tag/atlantic-world/" rel="tag">Atlantic World</a>, <a href="https://globalurbanhistory.com/tag/commodities/" rel="tag">Commodities</a>, <a href="https://globalurbanhistory.com/tag/consumer-culture/" rel="tag">Consumer Culture</a>, <a href="https://globalurbanhistory.com/tag/economic-history/" rel="tag">Economic History</a>, <a href="https://globalurbanhistory.com/tag/infrastructure/" rel="tag">Infrastructure</a>, <a href="https://globalurbanhistory.com/tag/mapping/" rel="tag">Mapping</a>, <a href="https://globalurbanhistory.com/tag/new-york/" rel="tag">New York</a>, <a href="https://globalurbanhistory.com/tag/north-america/" rel="tag">North America</a>, <a href="https://globalurbanhistory.com/tag/social-history/" rel="tag">Social History</a>, <a href="https://globalurbanhistory.com/tag/spatial-history/" rel="tag">Spatial History</a>, <a href="https://globalurbanhistory.com/tag/transport/" rel="tag">Transport</a>. Bookmark the <a href="https://globalurbanhistory.com/2016/05/17/mapping-as-process-food-access-in-nineteenth-century-new-york/" title="Permalink to Mapping as Process: Food Access in Nineteenth-Century New&nbsp;York" rel="bookmark">permalink</a>.											</div><!-- .entry-utility -->
+				</div><!-- #post-## -->
+
+				<div id="nav-below" class="navigation">
+					<div class="nav-previous"><a href="https://globalurbanhistory.com/2016/04/29/from-lancashire-to-the-world-the-manchester-ship-canal-and-globalization/" rel="prev"><span class="meta-nav">&larr;</span> From Lancashire to the World: The Manchester Ship Canal and&nbsp;Globalization</a></div>
+					<div class="nav-next"><a href="https://globalurbanhistory.com/2016/05/24/a-city-in-and-after-the-bloodlands-a-new-book-on-the-making-of-ukranian-lviv/" rel="next">The Bloodlands&#8217; City: A New Book on the Making of Ukrainian&nbsp;Lviv <span class="meta-nav">&rarr;</span></a></div>
+				</div><!-- #nav-below -->
+
+				
+			<div id="comments">
+
+
+			<h3 id="comments-title">One Response to <em>Mapping as Process: Food Access in Nineteenth-Century New&nbsp;York</em></h3>
+
+
+			<ol class="commentlist">
+					<li class="comment byuser comment-author-softandfierce even thread-even depth-1 highlander-comment" id="li-comment-198">
+		<div id="comment-198">
+			<div class="comment-author vcard">
+				<img alt='' src='https://1.gravatar.com/avatar/d44066642373f8a07072e8bed29b42c9?s=40&#038;d=identicon&#038;r=G' class='avatar avatar-40' height='40' width='40' />				<cite class="fn"><a href='http://softandfierce.wordpress.com' rel='external nofollow' class='url'>Ashley Kang</a></cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+			
+			<div class="comment-meta commentmetadata"><a href="https://globalurbanhistory.com/2016/05/17/mapping-as-process-food-access-in-nineteenth-century-new-york/#comment-198">
+				28. December 2016 at 10:26</a>			</div><!-- .comment-meta .commentmetadata -->
+
+			<div class="comment-body"><p>Reblogged this on <a href="https://softandfierce.wordpress.com/2016/12/28/mapping-as-process-food-access-in-nineteenth-century-new-york/" rel="nofollow">Kang, Ashley</a> and commented:<br />
+&#8220;Mapping as process differs from mapping as representation in that it is generative of new questions and answers, feeding back into a productive cycle of research and interpretation.&#8221;</p>
+<p id="comment-like-198" data-liked=comment-not-liked class="comment-likes comment-not-liked"><a href="https://globalurbanhistory.com/2016/05/17/mapping-as-process-food-access-in-nineteenth-century-new-york/?like_comment=198&#038;_wpnonce=b171cc15a6" class="comment-like-link needs-login" rel="nofollow" data-blog="103576550"><span>Like</span></a><span id="comment-like-count-198" class="comment-like-feedback">Like</span></p>
+</div>
+
+			<div class="reply">
+				<a rel='nofollow' class='comment-reply-link' href='https://globalurbanhistory.com/2016/05/17/mapping-as-process-food-access-in-nineteenth-century-new-york/?replytocom=198#respond' onclick='return addComment.moveForm( "comment-198", "198", "respond", "1139" )' aria-label='Reply to Ashley Kang'>Reply</a>			</div><!-- .reply -->
+		</div><!-- #comment-##  -->
+
+	</li><!-- #comment-## -->
+			</ol>
+
+
+	
+
+	<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2016/05/17/mapping-as-process-food-access-in-nineteenth-century-new-york/#respond" style="display:none;">Cancel reply</a></small></h3>			<form action="https://globalurbanhistory.com/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+				<input type="hidden" id="highlander_comment_nonce" name="highlander_comment_nonce" value="af9a1bd7c6" /><input type="hidden" name="_wp_http_referer" value="/2016/05/17/mapping-as-process-food-access-in-nineteenth-century-new-york/" />
+<input type="hidden" name="hc_post_as" id="hc_post_as" value="guest" />
+
+<div class="comment-form-field comment-textarea">
+	<label for="comment">Enter your comment here...</label>
+	<div id="comment-form-comment"><textarea id="comment" name="comment" title="Enter your comment here..."></textarea></div>
+</div>
+
+<div id="comment-form-identity">
+
+	<div id="comment-form-nascar">
+		<p>Fill in your details below or click an icon to log in:</p>
+		<ul>
+			<li class="selected" style="display:none;">
+				<a href="#comment-form-guest" id="postas-guest" title="Guest">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:WordPress.com" id="postas-wordpress" title="WordPress.com">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Twitter" id="postas-twitter" title="Twitter">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Facebook" id="postas-facebook" title="Facebook">
+					<span></span>
+				</a>
+			</li>
+			<li>
+		</ul>
+	</div>
+
+	<div id="comment-form-guest" class="comment-form-service selected">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+<a href="https://gravatar.com/site/signup/" target="_blank">				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Gravatar" width="25" class="no-grav" />
+</a>			</div>
+
+				<div class="comment-form-fields">
+				<div class="comment-form-field comment-form-email">
+					<label for="email">Email <span class="required">(required)</span> <span class="nopublish">(Address never made public)</span></label>
+					<div class="comment-form-input"><input id="email" name="email" type="email" value="" /></div>
+				</div>
+				<div class="comment-form-field comment-form-author">
+					<label for="author">Name <span class="required">(required)</span></label>
+					<div class="comment-form-input"><input id="author" name="author" type="text" value="" /></div>
+				</div>
+				<div class="comment-form-field comment-form-url">
+					<label for="url">Website</label>
+					<div class="comment-form-input"><input id="url" name="url" type="url" value="" /></div>
+				</div>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-wordpress" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="WordPress.com Logo" width="25" class="no-grav" />
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="wp_avatar" id="wordpress-avatar" class="comment-meta-wordpress" value="" />
+				<input type="hidden" name="wp_user_id" id="wordpress-user_id" class="comment-meta-wordpress" value="" />
+				<input type="hidden" name="wp_access_token" id="wordpress-access_token" class="comment-meta-wordpress" value="" />
+				<p class="comment-form-posting-as pa-wordpress"><strong></strong> You are commenting using your WordPress.com account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'wordpress' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-twitter" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Twitter picture" width="25" class="no-grav" />
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="twitter_avatar" id="twitter-avatar" class="comment-meta-twitter" value="" />
+				<input type="hidden" name="twitter_user_id" id="twitter-user_id" class="comment-meta-twitter" value="" />
+				<input type="hidden" name="twitter_access_token" id="twitter-access_token" class="comment-meta-twitter" value="" />
+				<p class="comment-form-posting-as pa-twitter"><strong></strong> You are commenting using your Twitter account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'twitter' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-facebook" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Facebook photo" width="25" class="no-grav" />
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="fb_avatar" id="facebook-avatar" class="comment-meta-facebook" value="" />
+				<input type="hidden" name="fb_user_id" id="facebook-user_id" class="comment-meta-facebook" value="" />
+				<input type="hidden" name="fb_access_token" id="facebook-access_token" class="comment-meta-facebook" value="" />
+				<p class="comment-form-posting-as pa-facebook"><strong></strong> You are commenting using your Facebook account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'facebook' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-googleplus" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Google+ photo" width="25" class="no-grav" />
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="googleplus_avatar" id="googleplus-avatar" class="comment-meta-googleplus" value="" />
+				<input type="hidden" name="googleplus_user_id" id="googleplus-user_id" class="comment-meta-googleplus" value="" />
+				<input type="hidden" name="googleplus_access_token" id="googleplus-access_token" class="comment-meta-googleplus" value="" />
+				<p class="comment-form-posting-as pa-googleplus"><strong></strong> You are commenting using your Google+ account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'googleplus' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+
+	<div id="comment-form-load-service" class="comment-form-service">
+		<div class="comment-form-posting-as-cancel"><a href="javascript:HighlanderComments.cancelExternalWindow();">Cancel</a></div>
+		<p>Connecting to %s</p>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+var highlander_expando_javascript = function(){
+	var input = document.createElement( 'input' ),
+	    comment = jQuery( '#comment' );
+
+	if ( 'placeholder' in input ) {
+		comment.attr( 'placeholder', jQuery( '.comment-textarea label' ).remove().text() );
+	}
+
+	// Expando Mode: start small, then auto-resize on first click + text length
+	jQuery( '#comment-form-identity' ).hide();
+	jQuery( '#comment-form-subscribe' ).hide();
+	jQuery( '#commentform .form-submit' ).hide();
+
+	comment.css( { 'height':'10px' } ).one( 'focus', function() {
+		var timer = setInterval( HighlanderComments.resizeCallback, 10 )
+		jQuery( this ).animate( { 'height': HighlanderComments.initialHeight } ).delay( 100 ).queue( function(n) { clearInterval( timer ); HighlanderComments.resizeCallback(); n(); } );
+		jQuery( '#comment-form-identity' ).slideDown();
+		jQuery( '#comment-form-subscribe' ).slideDown();
+		jQuery( '#commentform .form-submit' ).slideDown();
+	});
+}
+jQuery(document).ready( highlander_expando_javascript );
+</script>
+
+<div id="comment-form-subscribe">
+	<p class="comment-subscription-form"><input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;"/> <label class="subscribe-label" id="subscribe-label" for="subscribe" style="display: inline;">Notify me of new comments via email.</label></p></div>
+
+
+
+
+<p class="form-submit"><input name="submit" type="submit" id="comment-submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='1139' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="bbc466b67b" /></p>
+<input type="hidden" name="genseq" value="1495303978" />
+<p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="70"/></p>			</form>
+			</div><!-- #respond -->
+	<div style="clear: both"></div>
+</div><!-- #comments -->
+
+
+			</div><!-- #content -->
+		</div><!-- #container -->
+
+
+		<div id="primary" class="widget-area" role="complementary">
+						<ul class="xoxo">
+
+<li id="facebook-likebox-3" class="widget-container widget_facebook_likebox"><h3 class="widget-title"><a href="https://www.facebook.com/globalurbanhistory/">Find us on Facebook</a></h3>		<div id="fb-root"></div>
+		<div class="fb-page" data-href="https://www.facebook.com/globalurbanhistory/" data-width="340"  data-height="432" data-hide-cover="false" data-show-facepile="true" data-show-posts="false">
+		<div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/globalurbanhistory/"><a href="https://www.facebook.com/globalurbanhistory/">Find us on Facebook</a></blockquote></div>
+		</div>
+		</li><li id="twitter_timeline-3" class="widget-container widget_twitter_timeline"><h3 class="widget-title">Follow us on Twitter</h3><a class="twitter-timeline" data-height="400" data-theme="light" data-link-color="#f96e5b" data-border-color="#e8e8e8" data-tweet-limit="4" data-lang="EN" data-partner="jetpack" data-widget-id="664766531142877185">My Tweets</a></li><li id="categories-6" class="widget-container widget_categories"><h3 class="widget-title">Categories</h3>		<ul>
+	<li class="cat-item cat-item-2710"><a href="https://globalurbanhistory.com/category/allgemein/" >Allgemein</a>
+</li>
+	<li class="cat-item cat-item-3867"><a href="https://globalurbanhistory.com/category/article/" >Article</a>
+</li>
+	<li class="cat-item cat-item-6842"><a href="https://globalurbanhistory.com/category/conversations/" >Conversations</a>
+</li>
+	<li class="cat-item cat-item-309"><a href="https://globalurbanhistory.com/category/reviews/" >Reviews</a>
+</li>
+		</ul>
+</li><li id="wp_tag_cloud-5" class="widget-container wp_widget_tag_cloud"><h3 class="widget-title">Tags</h3><div style="overflow:hidden"><a href='https://globalurbanhistory.com/tag/19th-century/' class='tag-link-16962 tag-link-position-1' title='22 topics' style='font-size: 19.692307692308pt;'>19th Century</a>
+<a href='https://globalurbanhistory.com/tag/20th-century/' class='tag-link-16963 tag-link-position-2' title='31 topics' style='font-size: 22pt;'>20th Century</a>
+<a href='https://globalurbanhistory.com/tag/africa/' class='tag-link-2214 tag-link-position-3' title='7 topics' style='font-size: 12.615384615385pt;'>Africa</a>
+<a href='https://globalurbanhistory.com/tag/architecture/' class='tag-link-2290 tag-link-position-4' title='7 topics' style='font-size: 12.615384615385pt;'>Architecture</a>
+<a href='https://globalurbanhistory.com/tag/art/' class='tag-link-177 tag-link-position-5' title='4 topics' style='font-size: 9.5384615384615pt;'>Art</a>
+<a href='https://globalurbanhistory.com/tag/britain/' class='tag-link-42606 tag-link-position-6' title='6 topics' style='font-size: 11.846153846154pt;'>Britain</a>
+<a href='https://globalurbanhistory.com/tag/colonialism/' class='tag-link-184266 tag-link-position-7' title='18 topics' style='font-size: 18.461538461538pt;'>Colonialism</a>
+<a href='https://globalurbanhistory.com/tag/decolonization/' class='tag-link-1294241 tag-link-position-8' title='3 topics' style='font-size: 8pt;'>Decolonization</a>
+<a href='https://globalurbanhistory.com/tag/economic-history/' class='tag-link-40690 tag-link-position-9' title='10 topics' style='font-size: 14.769230769231pt;'>Economic History</a>
+<a href='https://globalurbanhistory.com/tag/empire/' class='tag-link-6995 tag-link-position-10' title='18 topics' style='font-size: 18.461538461538pt;'>Empire</a>
+<a href='https://globalurbanhistory.com/tag/environment/' class='tag-link-184 tag-link-position-11' title='4 topics' style='font-size: 9.5384615384615pt;'>Environment</a>
+<a href='https://globalurbanhistory.com/tag/ethnicity/' class='tag-link-130421 tag-link-position-12' title='12 topics' style='font-size: 15.846153846154pt;'>Ethnicity</a>
+<a href='https://globalurbanhistory.com/tag/europe/' class='tag-link-4328 tag-link-position-13' title='18 topics' style='font-size: 18.461538461538pt;'>Europe</a>
+<a href='https://globalurbanhistory.com/tag/industry/' class='tag-link-3570 tag-link-position-14' title='9 topics' style='font-size: 14.153846153846pt;'>Industry</a>
+<a href='https://globalurbanhistory.com/tag/infrastructure/' class='tag-link-32 tag-link-position-15' title='7 topics' style='font-size: 12.615384615385pt;'>Infrastructure</a>
+<a href='https://globalurbanhistory.com/tag/latin-america/' class='tag-link-5839 tag-link-position-16' title='8 topics' style='font-size: 13.384615384615pt;'>Latin America</a>
+<a href='https://globalurbanhistory.com/tag/middle-east/' class='tag-link-3250 tag-link-position-17' title='6 topics' style='font-size: 11.846153846154pt;'>Middle East</a>
+<a href='https://globalurbanhistory.com/tag/migration/' class='tag-link-1158 tag-link-position-18' title='14 topics' style='font-size: 16.923076923077pt;'>Migration</a>
+<a href='https://globalurbanhistory.com/tag/nationalism/' class='tag-link-11397 tag-link-position-19' title='6 topics' style='font-size: 11.846153846154pt;'>Nationalism</a>
+<a href='https://globalurbanhistory.com/tag/north-america/' class='tag-link-7723 tag-link-position-20' title='11 topics' style='font-size: 15.384615384615pt;'>North America</a>
+<a href='https://globalurbanhistory.com/tag/politics/' class='tag-link-398 tag-link-position-21' title='7 topics' style='font-size: 12.615384615385pt;'>Politics</a>
+<a href='https://globalurbanhistory.com/tag/ports/' class='tag-link-93097 tag-link-position-22' title='5 topics' style='font-size: 10.769230769231pt;'>Ports</a>
+<a href='https://globalurbanhistory.com/tag/race/' class='tag-link-11798 tag-link-position-23' title='8 topics' style='font-size: 13.384615384615pt;'>Race</a>
+<a href='https://globalurbanhistory.com/tag/segregation/' class='tag-link-236838 tag-link-position-24' title='5 topics' style='font-size: 10.769230769231pt;'>Segregation</a>
+<a href='https://globalurbanhistory.com/tag/social-history/' class='tag-link-375808 tag-link-position-25' title='6 topics' style='font-size: 11.846153846154pt;'>Social History</a>
+<a href='https://globalurbanhistory.com/tag/southeast-asia/' class='tag-link-53622 tag-link-position-26' title='4 topics' style='font-size: 9.5384615384615pt;'>Southeast Asia</a>
+<a href='https://globalurbanhistory.com/tag/spatial-history/' class='tag-link-1944397 tag-link-position-27' title='11 topics' style='font-size: 15.384615384615pt;'>Spatial History</a>
+<a href='https://globalurbanhistory.com/tag/theory/' class='tag-link-3549 tag-link-position-28' title='6 topics' style='font-size: 11.846153846154pt;'>Theory</a>
+<a href='https://globalurbanhistory.com/tag/trade/' class='tag-link-1595 tag-link-position-29' title='11 topics' style='font-size: 15.384615384615pt;'>Trade</a>
+<a href='https://globalurbanhistory.com/tag/transport/' class='tag-link-11701 tag-link-position-30' title='11 topics' style='font-size: 15.384615384615pt;'>Transport</a></div></li>			</ul>
+		</div><!-- #primary .widget-area -->
+
+
+		<div id="secondary" class="widget-area" role="complementary">
+			<ul class="xoxo">
+				<li id="search-5" class="widget-container widget_search"><form role="search" method="get" id="searchform" class="searchform" action="https://globalurbanhistory.com/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form></li>			</ul>
+		</div><!-- #secondary .widget-area -->
+
+	</div><!-- #main -->
+
+	<div id="footer" role="contentinfo">
+		<div id="colophon">
+
+
+
+			<div id="footer-widget-area" role="complementary">
+
+				<div id="first" class="widget-area">
+					<ul class="xoxo">
+						<li id="meta-7" class="widget-container widget_meta"><h3 class="widget-title">Meta</h3>			<ul>
+			<li><a href="https://wordpress.com/start?ref=wplogin">Register</a></li>			<li><a href="https://guhistory.wordpress.com/wp-login.php">Log in</a></li>
+			<li><a href="https://globalurbanhistory.com/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://globalurbanhistory.com/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://wordpress.com/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.com</a></li>			</ul>
+			</li>					</ul>
+				</div><!-- #first .widget-area -->
+
+
+				<div id="third" class="widget-area">
+					<ul class="xoxo">
+						<li id="meta-5" class="widget-container widget_meta"><h3 class="widget-title">Benutzer</h3>			<ul>
+			<li><a href="https://wordpress.com/start?ref=wplogin">Register</a></li>			<li><a href="https://guhistory.wordpress.com/wp-login.php">Log in</a></li>
+			<li><a href="https://globalurbanhistory.com/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://globalurbanhistory.com/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://wordpress.com/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.com</a></li>			</ul>
+			</li>					</ul>
+				</div><!-- #third .widget-area -->
+
+
+			</div><!-- #footer-widget-area -->
+
+			<div id="site-info">
+				<a href="https://globalurbanhistory.com/" title="Global Urban History" rel="home">
+					Global Urban History				</a>
+			</div><!-- #site-info -->
+
+			<div id="site-generator">
+								<a href="https://wordpress.com/?ref=footer_blog">Blog at WordPress.com.</a>
+			</div><!-- #site-generator -->
+
+		</div><!-- #colophon -->
+	</div><!-- #footer -->
+
+</div><!-- #wrapper -->
+
+<!--  -->
+<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201720y'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	<div class="grofile-hash-map-d44066642373f8a07072e8bed29b42c9">
+	</div>
+	</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"Post Comment","connectingToText":"Connecting to %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"Log Out","loginText":"Log In","connectURL":"https:\/\/guhistory.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/guhistory.wordpress.com\/wp-login.php?action=logout&_wpnonce=7d72b00ae7","homeURL":"https:\/\/globalurbanhistory.com\/","postID":"1139","gravDefault":"identicon","enterACommentError":"Please enter a comment","enterEmailError":"Please enter your email address here","invalidEmailError":"Invalid email address","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"Change","changeAccount":"Change Account","comment_registration":"0","userIsLoggedIn":"","isJetpack":"0","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1479964158j'></script>
+
+	<div id="carousel-reblog-box">
+		<form action="#" name="carousel-reblog">
+			<textarea id="carousel-reblog-content" name="carousel-reblog-content" placeholder="Add your thoughts here... (optional)"></textarea>
+			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Post to</label>
+			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
+						</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="#" class="cancel">Cancel</a></span>
+				<input type="submit" name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="Reblog Post" />
+				<input type="hidden" id="carousel-reblog-blog-id" value="103576550" />
+				<input type="hidden" id="carousel-reblog-blog-url" value="https://globalurbanhistory.com" />
+				<input type="hidden" id="carousel-reblog-blog-title" value="Global Urban History" />
+				<input type="hidden" id="carousel-reblog-post-url" value="" />
+				<input type="hidden" id="carousel-reblog-post-title" value="" />
+			</div>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="bd507042d9" /><input type="hidden" name="_wp_http_referer" value="/2016/05/17/mapping-as-process-food-access-in-nineteenth-century-new-york/" />		</form>
+
+		<div class="arrow"></div>
+	</div>
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/globalurbanhistory.com\/2016\/05\/17\/mapping-as-process-food-access-in-nineteenth-century-new-york\/":1139};
+	</script>
+		<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-twitter' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-facebook' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-pocket' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcompocket', 'menubar=1,resizable=1,width=450,height=450' );
+				return false;
+			});
+		});
+		</script>
+		<script type='text/javascript' src='https://s1.wp.com/wp-content/mu-plugins/akismet-3.0/_inc/form.js?m=1404442431h'></script>
+<link rel='stylesheet' id='all-css-0-3' href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel.css?m=1481571546h' type='text/css' media='all' />
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1412618825h&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var comment_like_text = {"loading":"Loading..."};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jpfbembed = {"appid":"249643311490","locale":"en_US"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var actionbardata = {"siteID":"103576550","siteName":"Global Urban History","siteURL":"https:\/\/globalurbanhistory.com","icon":"<img alt='' src='https:\/\/s1.wp.com\/i\/logo\/wpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/twentyten","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/guhistory.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fglobalurbanhistory.com%2F2016%2F05%2F17%2Fmapping-as-process-food-access-in-nineteenth-century-new-york%2F","themeURL":"https:\/\/wordpress.com\/theme\/twentyten\/","xhrURL":"https:\/\/globalurbanhistory.com\/wp-admin\/admin-ajax.php","nonce":"9cac39b10c","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"95be1f7b8b\" \/>","referer":"https:\/\/globalurbanhistory.com\/2016\/05\/17\/mapping-as-process-food-access-in-nineteenth-century-new-york\/","canFollow":"1","statusMessage":"","customizeLink":"https:\/\/guhistory.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fguhistory.wordpress.com%2F2016%2F05%2F17%2Fmapping-as-process-food-access-in-nineteenth-century-new-york%2F","postID":"1139","shortlink":"http:\/\/wp.me\/p70AZw-in","canEditPost":"","editLink":"https:\/\/wordpress.com\/post\/globalurbanhistory.com\/1139","statsLink":"https:\/\/wordpress.com\/stats\/post\/1139\/globalurbanhistory.com","i18n":{"view":"View site","follow":"Follow","following":"Following","edit":"Edit","login":"Log in","signup":"Sign up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Twenty Ten","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editSubs":"Manage subscriptions","viewReader":"View site in the Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"Join 188 other followers","alreadyUser":"Already have a WordPress.com account? <a href=\"https:\/\/guhistory.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fglobalurbanhistory.com%2F2016%2F05%2F17%2Fmapping-as-process-food-access-in-nineteenth-century-new-york%2F\">Log in now.<\/a>","stats":"Stats"}};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/globalurbanhistory.com\/wp-admin\/admin-ajax.php","nonce":"89971a9d19","display_exif":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/guhistory.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fglobalurbanhistory.com%2F2016%2F05%2F17%2Fmapping-as-process-food-access-in-nineteenth-century-new-york%2F","blog_id":"103576550","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=103576550&v=wpcom&tz=2&user_id=0&subd=guhistory","is_public":"1","reblog_enabled":""};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??-eJyVUVtOAzEMvBBZt1UF4gNxFJRN3NbZvHCSLr19syopi1RF8GVrPDOxJzBHoYLP6DOYBBrPpDB+DSY9wWrkioi2HMknsDRhgs+CBU/Sa4vcyOSVLboOq5EKzlWhYIz2MjjyHcfGvTmb5YkR0kwR/yP6BXSEBnOUaoKPui4cpMIxhEmgG1H/VZVnyhlZZHJoyffWlLreLkbJ4GSqmtqJcEZmWoK6Yz0HlSn4xeHePQo8xZ+M17ipP8WX7zKsWY9ClRxKQtvOFQ3oaGJIWRysJIZ0kkz+2GoVvbu37f51t9k8b3cv5gqT0ejb'></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<script type="text/javascript">
+	var skimlinks_pub_id = "725X584219"
+	var skimlinks_sitename = "guhistory.wordpress.com";
+	</script>
+	<script type="text/javascript" defer src="https://s.skimresources.com/js/725X1342.skimlinks.js"></script>		<iframe src='https://widgets.wp.com/likes/master.html?ver=20170206#ver=20170206' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
+		<div id='likes-other-gravatars'><div class="likes-text"><span>%d</span> bloggers like this:</div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+		<script>
+			var _comscore = _comscore || [];
+			_comscore.push({
+				c1: "2",
+				c2: "7518284"
+			});
+			(function() {
+				var s = document.createElement("script"),
+					el = document.getElementsByTagName("script")[0];
+				s.defer = true;
+				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);
+			})();
+		</script>
+		<noscript>
+			<p class="robots-nocontent"><img src="https://sb.scorecardresearch.com/p?c1=2&c2=7518284&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1" alt="" style="display:none;" width="1" height="1" /></p>
+		</noscript><script src="//stats.wp.com/w.js?56" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'103576550','blog_tz':'2','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'103576550','v':'wpcom','tz':'2','user_id':'0','post':'1139','subd':'guhistory'}]);
+_stq.push(['extra', {'crypt':'UE5XaGUuOTlwaD85flAmcm1mcmZsaDhkV11YdWtpP0NsWnVkPS9sL0ViLndld3BuVT01Unp2dX5PUG5uPS4wRFFLVm5GVksuM0Y2fF9fck4vTENnT25VcGpzZmRQLnU0YnhrUWdyTnpJJXc5cjRXSFB5RHNfWFEyOV8/UmNoSUdmaVZ+JUdFMVRpelkrb3lvdFFJN1Jpelp8UkxYYTcsW05TYnJCM2ssUlFlM3I9ak5GTHZrMEQtfE5kaXQyfC8weUdxOElHL2F3P0dBT2g3Y2QyelAxR2h2biZ4PXJLcF93NHBPTUpkZ25UVi1FN2dQWzMzekVkPXl3czklZEFjOWhmQk1QMGlnVUdKOFBXNl8walQlcHZTfEFLbyZkd3UuMUhtNmcyUFBzaG1iTF04NFdLNW4='}]);
+_stq.push([ 'clickTrackerInit', '103576550', '1139' ]);
+	</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script></body>
+</html>

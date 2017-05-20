@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" type="text/css" href="http://cdn.tutorialzine.com/wp-content/cache/minify/000000/3f6f8/default.include.4a108f.css" media="all" />
+
+	<title>Learn Sass In 15 Minutes | Tutorialzine</title>
+
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" user-scalable="no" />
+
+	
+	<link rel="pingback" href="http://tutorialzine.com/xmlrpc.php" />
+
+	<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Tutorialzine &raquo; Learn Sass In 15 Minutes Comments Feed" href="http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/tutorialzine.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.6"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='highlight.css-css'  href='http://cdn.tutorialzine.com/wp-content/themes/tzine/js/highlight.tomorrow.css?ver=1' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='http://tutorialzine.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tutorialzine.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://tutorialzine.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='15 Interesting JavaScript and CSS Libraries for January 2016' href='http://tutorialzine.com/2016/01/15-interesting-javascript-and-css-libraries-for-january-2016/' />
+<link rel='next' title='Learn SQL In 20 Minutes' href='http://tutorialzine.com/2016/01/learn-sql-in-20-minutes/' />
+<link rel="canonical" href="http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/" />
+<link rel='shortlink' href='http://tutorialzine.com/?p=7011' />
+<link rel="alternate" type="application/json+oembed" href="http://tutorialzine.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Ftutorialzine.com%2F2016%2F01%2Flearn-sass-in-15-minutes%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://tutorialzine.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Ftutorialzine.com%2F2016%2F01%2Flearn-sass-in-15-minutes%2F&#038;format=xml" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
+<link rel="alternate" type="application/rss+xml" title="Tutorialzine &raquo; Full Feed" href="http://tutorialzine.com/feed/" />
+<meta property="og:site_name" content="Tutorialzine" />
+<meta property="fb:admins" content="1674521632" />
+<meta name="keywords" content="tutorialzine, tutorial zine, tzine, tutorials, freebies, resources, web development, webdev, demo, PHP, MySQL, jQuery, CSS, XHTML, jQuery UI, CSS3, HTML5, HTML, web design, webdesign" />
+<meta name="description" content="A short lesson, where we look at the popular CSS pre-processors Sass. This tutorial will get you familiar with all the basic features you need to know in order to write neat and easy to maintain stylesheets. " />
+<link rel="image_src" href="http://cdn.tutorialzine.com/wp-content/uploads/2016/01/learn-sass-in-15-minutes.jpg" />
+<meta name="twitter:image" content="http://cdn.tutorialzine.com/wp-content/uploads/2016/01/learn-sass-in-15-minutes.jpg" />
+<meta property="og:type" content="article" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tutorialzine" />
+<meta name="twitter:url" content="http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/" />
+<meta name="twitter:title" content="Learn Sass In 15 Minutes" />
+<meta name="twitter:description" content="A short lesson, where we look at the popular CSS pre-processors Sass. This tutorial will get you familiar with all the basic features you need to know in order to write neat and easy to maintain stylesheets. ">
+<meta name="twitter:creator" content="@tutorialzine" />
+
+</head>
+
+<body>
+
+<!-- BuySellAds.com Ad Code -->
+<script type="text/javascript">
+(function(){
+  var bsa = document.createElement('script');
+     bsa.type = 'text/javascript';
+     bsa.async = true;
+     bsa.src = '//s3.buysellads.com/ac/bsa.js';
+  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+})();
+</script>
+<!-- END BuySellAds.com Ad Code -->
+
+	<header>
+
+		<h1><a title="Home" href="http://tutorialzine.com/" id="logo">tutorial<b>zine</b></a></h1>
+
+		
+		<nav class="Tutorials">
+			<a href="http://tutorialzine.com/posts/" class="">Articles</a>
+			<a href="http://tutorialzine.com/webdev-newsletter/" class="">newsletter</a>
+			<a href="http://tutorialzine.com/books/jquery-trickshots/" style="color:#f6ab29 !important" class="">The book</a>
+		</nav>
+
+		<a class="searchIcon">
+			<form action="http://tutorialzine.com/"><input type="text" placeholder="Search the site!" name="s" /></form>
+		</a>
+
+	</header>
+
+<section id="content">
+		<aside id="sidebar">
+
+			<div class="sidebar-group about">
+				<p><b>Tutorialzine</b> is a site dedicated to bringing you the coolest web development tutorials and resources. Follow us!</p>
+				
+				<div class="social-icons">
+					<a href="http://twitter.com/Tutorialzine" class="twitter" target="_blank" data-hint="33,743+"></a>
+					<a href="http://www.facebook.com/Tutorialzine" class="facebook" target="_blank" data-hint="0+"></a>
+					<a class="googleplus" href="https://plus.google.com/102299652175684141333" target="_blank"></a>
+					<a href="http://tutorialzine.com/feed/" class="rss" target="_blank" data-hint="13,562+"></a>
+				</div>
+
+			</div>
+			
+			<div class="sidebar-group as adsbygoogle">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- Tutorialzine Intro Text Ad -->
+				<ins class="adsbygoogle"
+					 style="display:inline-block;width:336px;height:280px"
+					 data-ad-client="ca-pub-4243460155472587"
+					 data-ad-slot="9761819353"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+			
+			<div class="sidebar-group rek">
+
+				<!-- BuySellAds.com Zone Code -->
+				<div id="bsap_1251274" class="bsarocks bsap_fe75131c335e3bd42585d699208c59c8"></div>
+				<!-- END BuySellAds.com Zone Code -->
+
+				
+				<p><a href="http://www.wix.com/ecommerce/website">Ecommerce Website Builder by Wix.com</a></p>
+
+				<a href="http://www.maxcdn.com/" class="maxcdn" title="Accelerated by maxcdn" target="_blank">Accelerated by maxcdn</a>
+
+			</div>
+
+			<div class="sidebar-group posts">
+				<h5 class="active" data-tab="latest-articles">Latest Articles</h5>
+				<h5 data-tab="freebies">Freebies</h5>
+				<h5 data-tab="challenges">Challenges</h5>
+
+				<ul id="latest-articles" class="active">
+										
+					<li>
+						<a href="http://tutorialzine.com/2017/05/getting-started-with-the-javascript-web-animation-api/">
+
+															<img width="100" height="100" src="http://cdn.tutorialzine.com/wp-content/uploads/2017/05/js-animations-100x100.png" class="attachment-tzthumb size-tzthumb wp-post-image" alt="js-animations" />							
+							<span class="title">Getting Started With The JavaScript Web Animation API</span>
+						</a>
+					</li>
+
+					
+					<li>
+						<a href="http://tutorialzine.com/2017/05/5-beautiful-image-effects-with-css/">
+
+															<img width="100" height="100" src="http://cdn.tutorialzine.com/wp-content/uploads/2017/05/5-beautiful-image-effects-with-css-100x100.jpg" class="attachment-tzthumb size-tzthumb wp-post-image" alt="5-beautiful-image-effects-with-css" />							
+							<span class="title">5 Beautiful Image Effects With CSS Shapes and Filters</span>
+						</a>
+					</li>
+
+					
+					<li>
+						<a href="http://tutorialzine.com/2017/05/15-interesting-javascript-and-css-libraries-for-may-2017/">
+
+															<img width="100" height="100" src="http://cdn.tutorialzine.com/wp-content/uploads/2017/04/interesting-libraries-may-2017_-100x100.png" class="attachment-tzthumb size-tzthumb wp-post-image" alt="interesting-libraries-may-2017_" />							
+							<span class="title">15 Interesting JavaScript and CSS Libraries for May 2017</span>
+						</a>
+					</li>
+
+					
+					<li>
+						<a href="http://tutorialzine.com/2017/04/10-machine-learning-examples-in-javascript/">
+
+															<img width="100" height="100" src="http://cdn.tutorialzine.com/wp-content/uploads/2017/04/10-machine-learning-resources-1-100x100.png" class="attachment-tzthumb size-tzthumb wp-post-image" alt="10-machine-learning-resources-1" />							
+							<span class="title">10 Machine Learning Examples in JavaScript</span>
+						</a>
+					</li>
+
+					
+					<li>
+						<a href="http://tutorialzine.com/2017/04/handle-mouse-and-touch-input-with-the-pointer-events-api/">
+
+															<img width="100" height="100" src="http://cdn.tutorialzine.com/wp-content/uploads/2017/04/pointer-events-api-2-100x100.png" class="attachment-tzthumb size-tzthumb wp-post-image" alt="pointer-events-api-2" />							
+							<span class="title">Handle Mouse And Touch Input With The Pointer Events API</span>
+						</a>
+					</li>
+
+					
+					<li>
+						<a href="http://tutorialzine.com/2017/04/learn-webpack-in-15-minutes/">
+
+															<img width="100" height="100" src="http://cdn.tutorialzine.com/wp-content/uploads/2017/04/learn-webpack-in-15-100x100.png" class="attachment-tzthumb size-tzthumb wp-post-image" alt="learn-webpack-in-15" />							
+							<span class="title">Learn Webpack in 15 Minutes</span>
+						</a>
+					</li>
+
+										<li class="centered"><a href="/posts/">See all Articles</a></li>
+				</ul>
+
+				<ul id="freebies">
+										
+					<li>
+						<a href="http://tutorialzine.com/2017/05/5-beautiful-image-effects-with-css/">
+
+															<img width="100" height="100" src="http://cdn.tutorialzine.com/wp-content/uploads/2017/05/5-beautiful-image-effects-with-css-100x100.jpg" class="attachment-tzthumb size-tzthumb wp-post-image" alt="5-beautiful-image-effects-with-css" />							
+							<span class="title">5 Beautiful Image Effects With CSS Shapes and Filters</span>
+						</a>
+					</li>
+
+					
+					<li>
+						<a href="http://tutorialzine.com/2017/02/freebie-4-bootstrap-galleries/">
+
+															<img width="100" height="100" src="http://cdn.tutorialzine.com/wp-content/uploads/2017/02/freebie-4-bootstrap-gallery-templates-100x100.jpg" class="attachment-tzthumb size-tzthumb wp-post-image" alt="freebie-4-bootstrap-gallery-templates" />							
+							<span class="title">Freebie: 4 Bootstrap Gallery Templates</span>
+						</a>
+					</li>
+
+					
+					<li>
+						<a href="http://tutorialzine.com/2016/11/freebie-3-elegant-bootstrap-forms/">
+
+															<img width="100" height="100" src="http://cdn.tutorialzine.com/wp-content/uploads/2016/11/freebie-3-elegant-bootstrap-footers-100x100.jpg" class="attachment-tzthumb size-tzthumb wp-post-image" alt="freebie-3-elegant-bootstrap-footers" />							
+							<span class="title">Freebie: 3 Elegant Bootstrap Forms</span>
+						</a>
+					</li>
+
+					
+					<li>
+						<a href="http://tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers/">
+
+															<img width="100" height="100" src="http://cdn.tutorialzine.com/wp-content/uploads/2016/10/5-freebie-fantastic-footers-100x100.jpg" class="attachment-tzthumb size-tzthumb wp-post-image" alt="5-freebie-fantastic-footers" />							
+							<span class="title">Freebie: 5 Fantastic Bootstrap Footers</span>
+						</a>
+					</li>
+
+					
+					<li>
+						<a href="http://tutorialzine.com/2016/09/freebie-5-beautiful-bootstrap-headers/">
+
+															<img width="100" height="100" src="http://cdn.tutorialzine.com/wp-content/uploads/2016/09/5-freebie-beautiful-headers-100x100.jpg" class="attachment-tzthumb size-tzthumb wp-post-image" alt="5-freebie-beautiful-headers" />							
+							<span class="title">Freebie: 5 Beautiful Bootstrap Headers</span>
+						</a>
+					</li>
+
+					
+					<li>
+						<a href="http://tutorialzine.com/2016/06/freebie-landing-page-template-with-flexbox/">
+
+															<img width="100" height="100" src="http://cdn.tutorialzine.com/wp-content/uploads/2016/06/freebie-landing-page-template-100x100.png" class="attachment-tzthumb size-tzthumb wp-post-image" alt="freebie-landing-page-template" />							
+							<span class="title">Freebie: Responsive Landing Page Template With Flexbox</span>
+						</a>
+					</li>
+
+										<li class="centered"><a href="/tag/freebie/">See all Freebies</a></li>
+				</ul>
+				
+				<ul id="challenges">
+										
+					<li>
+						<a href="http://tutorialzine.com/2015/11/think-you-know-es6-prove-it/">
+
+															<img width="100" height="100" src="http://cdn.tutorialzine.com/wp-content/uploads/2015/11/ES6-quiz-100x100.png" class="attachment-tzthumb size-tzthumb wp-post-image" alt="ES6-quiz" />							
+							<span class="title">Think You Know ES6? Prove it!</span>
+						</a>
+					</li>
+
+					
+					<li>
+						<a href="http://tutorialzine.com/2014/08/what-does-this-function-do/">
+
+															<img width="100" height="100" src="http://cdn.tutorialzine.com/wp-content/uploads/2014/08/what-does-this-function-do-100x100.png" class="attachment-tzthumb size-tzthumb wp-post-image" alt="what-does-this-function-do" />							
+							<span class="title">JavaScript Quiz: What does this function do?</span>
+						</a>
+					</li>
+
+					
+					<li>
+						<a href="http://tutorialzine.com/2014/06/guess-the-programming-language/">
+
+															<img width="100" height="100" src="http://cdn.tutorialzine.com/wp-content/uploads/2014/06/guess-the-programming-language-100x100.jpg" class="attachment-tzthumb size-tzthumb wp-post-image" alt="guess-the-programming-language" />							
+							<span class="title">Guess the Programming Language</span>
+						</a>
+					</li>
+
+					
+					<li>
+						<a href="http://tutorialzine.com/2014/05/javascript-challenge-make-me-blue/">
+
+															<img width="100" height="100" src="http://cdn.tutorialzine.com/wp-content/uploads/2014/05/make-me-blue-100x100.jpg" class="attachment-tzthumb size-tzthumb wp-post-image" alt="make-me-blue" />							
+							<span class="title">JavaScript Challenge: Make Me Blue!</span>
+						</a>
+					</li>
+
+										
+				</ul>
+				
+			</div>
+
+			<div class="sidebar-group twitter">
+				<h5 class="single">Best from <a href="https://twitter.com/Tutorialzine/" target="_blank">@Tutorialzine</a></h5>
+
+				<ul class='tweetFavList'>
+			<li>
+								<span>
+					<a href="http://twitter.com/" target="_blank"
+						title="Go to 's twitter page"></a>
+
+										<a href="http://twitter.com//status/" class="date" target="_blank">47 years ago</a>
+				</span>
+            </li>
+
+            
+			<li>
+								<span>
+					<a href="http://twitter.com/" target="_blank"
+						title="Go to 's twitter page"></a>
+
+										<a href="http://twitter.com//status/" class="date" target="_blank">47 years ago</a>
+				</span>
+            </li>
+
+            </ul>
+				<div id="followTwitterButton"></div>
+
+			</div>
+
+		</aside>
+
+		<article id="post" class="leftPostCol">
+
+							<img class="featured" src="http://cdn.tutorialzine.com/wp-content/uploads/2016/01/learn-sass-in-15-minutes.jpg" alt="Learn Sass In 15 Minutes" />
+			
+			<div class="post-body">
+				<h2>Learn Sass In 15 Minutes</h2>
+
+				<p class="post-info"><i class="icon-author"></i> Danny Markov <i class="icon-cal"></i><time datetime="2016-01-19">January 19th, 2016</time></p>
+
+				<div class="tutorialButtons">
+					
+										
+					<div id="shareBar" style="display:none"></div>
+				</div>
+
+				<p>If you write copious amounts of CSS, a pre-processor can greatly decrease your stress levels and save you a lot of precious time. Using tools such as <a href="http://sass-lang.com/" target="_blank">Sass</a>, <a href="http://lesscss.org/" target="_blank">Less</a>, <a href="http://learnboost.github.io/stylus/" target="_blank">Stylus</a> or <a href="https://github.com/postcss/postcss" target="_blank">PostCSS</a> makes large and complicated stylesheets clearer to understand and easier to maintain. Thanks to features like variables, functions and mixins the code becomes more organized, allowing developers to work quicker and make less mistakes.</p>
+<p>We&#8217;ve worked with pre-processors before as you may remember from our <a href="http://tutorialzine.com/2015/07/learn-less-in-10-minutes-or-less/" target="_blank">article about Less</a>. This time we are going to explain <a href="http://sass-lang.com/" target="_blank">Sass</a> and show you some of it&#8217;s main features.</p>
+<h3>1. Getting Started</h3>
+<p>Sass files cannot be interpreted by the browser, so they need compiling to standard CSS before they are ready to hit the web. That&#8217;s why you need some sort of tool to help you translate .scss files into .css. Here you have a couple of options:</p>
+<ul>
+<li>The simplest solution is a browser tool for writing and compiling Sass right on the spot &#8211; <a href="http://www.sassmeister.com/" target="_blank">SassMeister</a>.</li>
+<li>Use a 3rd party desktop app. Both free and paid versions are available. You can go <a href="http://sass-lang.com/install" target="_blank">here</a> to find out more.</li>
+<li>If you are a CLI person like we are, you can install Sass on your computer and compile files manually.</li>
+</ul>
+<p>If you decide to go with the command line, you can install Sass in it&#8217;s original form (written in ruby) or you can try the <a href="https://github.com/sass/node-sass#command-line-interface" target="_blank">Node.js port</a> (our choice). There are many <a href="http://sass-lang.com/libsass" target="_blank">other wrappers</a> as well, but since we love Node.js we are going to go with that.</p>
+<p>Here is how you can compile .scss files<strong> </strong>using the node CLI:</p>
+<pre data-type="bash">node-sass input.scss output.css</pre>
+<p>Also, here is the time to mention that Sass offers two distinct syntaxes &#8211; Sass and SCSS. They both do the same things, just are written in different ways. SCSS is the newer one and is generally considered better, so we are going to go with that. If you want more information on the difference between the two, check out <a href="http://thesassway.com/editorial/sass-vs-scss-which-syntax-is-better" target="_blank">this</a> great article.</p>
+<h3>2. Variables</h3>
+<p>Variables in Sass work in a similar fashion to the those in any programming language, including principals such as <a href="http://http://sass-lang.com/documentation/file.SASS_REFERENCE.html#data_types" target="_blank">data types</a> and scope. When defining a variable we store inside it a certain value, which usually is something that will often reoccur in the CSS like a palette color, a font stack or the whole specs for a cool box-shadow.</p>
+<p>Below you can see a simple example. Switch between the tabs to see the SCSS code and it&#8217;s CSS translation.</p>
+<div class="code-tabs">
+<pre class="brush:less" data-type="scss">$title-font: normal 24px/1.5 'Open Sans', sans-serif;
+$cool-red: #F44336;
+$box-shadow-bottom-only: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+
+h1.title {
+  font: $title-font;
+  color: $cool-red;
+}
+
+div.container {
+  color: $cool-red;
+  background: #fff;
+  width: 100%;
+  box-shadow: $box-shadow-bottom-only;
+}</pre>
+<pre data-type="css">h1.title {
+  font: normal 24px/1.5 "Open Sans", sans-serif;
+  color: #F44336; 
+}
+
+div.container {
+  color: #F44336;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+}</pre>
+<p></div><br />
+The idea behind all this is that we can later on reuse the same values more quickly, or if a change is needed, we can provide the new value in just one place (the definition of the variable), instead of applying it manually everywhere we&#8217;re using that property.</p>
+<h3>3. Mixins</h3>
+<p>You can think of mixins as a simplified version of constructor classes in programming languages &#8211; you can grab a whole group of CSS declarations and re-use it wherever you want to give and element a specific set of styles.</p>
+<p>Mixins can even accept arguments with the option to set default values. In the below example we define a <strong>square</strong> mixin, and then use it to create squares of varying sizes and colors.</p>
+<div class="code-tabs"></p>
+<pre class="brush:less" data-type="scss">@mixin square($size, $color) {
+  width: $size;
+  height: $size;
+  background-color: $color;
+}
+
+.small-blue-square {
+  @include square(20px, rgb(0,0,255));
+}
+
+.big-red-square {
+  @include square(300px, rgb(255,0,0));
+}</pre>
+<pre data-type="css">.small-blue-square {
+  width: 20px;
+  height: 20px;
+  background-color: blue; 
+}
+
+.big-red-square {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+}</pre>
+<p></div>
+<p>Another efficient way to use mixins is when a property requires prefixes to work in all browsers.</p>
+<div class="code-tabs"></p>
+<pre class="brush:less" data-type="scss">@mixin transform-tilt() {
+  $tilt: rotate(15deg);
+
+  -webkit-transform: $tilt; /* Ch &lt;36, Saf 5.1+, iOS, An =&lt;4.4.4 */
+      -ms-transform: $tilt; /* IE 9 */
+          transform: $tilt; /* IE 10, Fx 16+, Op 12.1+ */
+}
+
+.frame:hover { 
+  @include transform-tilt; 
+}</pre>
+<pre data-type="css">.frame:hover {
+  -webkit-transform: rotate(15deg);  /* Ch &lt;36, Saf 5.1+, iOS, An =&lt;4.4.4 */
+  -ms-transform: rotate(15deg);  /* IE 9 */
+  transform: rotate(15deg);  /* IE 10, Fx 16+, Op 12.1+ */ 
+}</pre>
+<p></div>
+<h3>4. Extend</h3>
+<p>The next feature we will look at is <code>@extend</code>, which allows you to inherit the CSS properties of one selector to another. This works similarly to the mixins system, but is preferred when we want to create a logical connection between the elements on a page.</p>
+<p>Extending should be used when we need similarly styled elements, which still differ in some detail. For example, let&#8217;s make two dialog buttons &#8211; one for agreeing and one for canceling the dialog.</p>
+<div class="code-tabs"></p>
+<pre class="brush:less" data-type="scss">.dialog-button {
+  box-sizing: border-box;
+  color: #ffffff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  padding: 12px 40px;
+  cursor: pointer;
+}
+
+.confirm {
+  @extend .dialog-button;
+  background-color: #87bae1;
+  float: left;
+}
+
+.cancel {
+  @extend .dialog-button;
+  background-color: #e4749e;
+  float: right;
+}</pre>
+<pre data-type="css">.dialog-button, .confirm, .cancel {
+  box-sizing: border-box;
+  color: #ffffff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  padding: 12px 40px;
+  cursor: pointer; 
+}
+
+.confirm {
+  background-color: #87bae1;
+  float: left; 
+}
+
+.cancel {
+  background-color: #e4749e;
+  float: right; 
+}</pre>
+<p></div>
+<p>If you check out the CSS version of the code, you will see that Sass combined the selectors instead of repeating the same declarations over and over, saving us precious memory.</p>
+<h3>5. Nesting</h3>
+<p>HTML follows a strict nesting structure whereas in CSS it&#8217;s usually total chaos. With Sass nesting you can organize your stylesheet in a way that resembles the HTML more closely, thus reducing the chance of CSS conflicts.</p>
+<p>For a quick example, lets style a list containing a number of links:<br />
+<div class="code-tabs"></p>
+<pre class="brush:less" data-type="scss">ul {
+  list-style: none;
+
+  li {
+    padding: 15px;
+    display: inline-block;
+
+    a {
+      text-decoration: none;
+      font-size: 16px;
+      color: #444;
+    }
+
+  }
+
+}</pre>
+<pre data-type="css">ul {
+  list-style: none; 
+}
+
+ul li {
+  padding: 15px;
+  display: inline-block; 
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #444; 
+}
+</pre>
+<p></div></p>
+<p>Very neat and conflict proof.</p>
+<h3>6.Operations</h3>
+<p>With Sass you can do basic mathematical operation right in the stylesheet and it is as simple as applying the appropriate arithmetic symbol.</p>
+<div class="code-tabs"></p>
+<pre class="brush:less" data-type="scss">$width: 800px;
+
+.container { 
+  width: $width;
+}
+
+.column-half {
+  width: $width / 2;
+}
+
+.column-fifth {
+  width: $width / 5;
+}</pre>
+<pre data-type="css">.container {
+  width: 800px; 
+}
+
+.column-half {
+  width: 400px; 
+}
+
+.column-fifth {
+  width: 160px; 
+}
+</pre>
+<p></div>
+<p>Although vanilla CSS now also offers this feature in the form of <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/calc" target="_blank">calc()</a>, the Sass alternative is quicker to write, has the modulo <code>%</code> operation, and can be applied to a wider range of data-types (e.g. colors and strings).</p>
+<h3>7. Functions</h3>
+<p>Sass offers a long list of built-in functions. They serve all kinds of purposes including string manipulation, color related operations, and some handy math methods such as random() and round().</p>
+<p>To exhibit one of the more simple Sass functions, we will create a quick snippet that utilizes <strong>darken($color, $amount) </strong>to make an on-hover effect.<br />
+<div class="code-tabs"></p>
+<pre class="brush:less" data-type="scss">$awesome-blue: #2196F3;
+
+a {
+  padding: 10px 15px;
+  background-color: $awesome-blue;
+}
+
+a:hover {
+  background-color: darken($awesome-blue,10%);
+}</pre>
+<pre data-type="css">a {
+  padding: 10px 15px;
+  background-color: #2196F3; 
+}
+
+a:hover {
+  background-color: #0c7cd5; 
+}
+</pre>
+<p></div></p>
+<p>Except the <a href="http://sass-lang.com/documentation/Sass/Script/Functions.html" target="_blank">huge list</a> of available functions, there is also the options to <a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html#function_directives" target="_blank">define your own.</a> Sass supports flow control as well, so if you want to, you can create quite complex behaviors.</p>
+<h3>Conclusion</h3>
+<p>Some of the above features are coming to standard CSS in the future, but they are not quite here yet. In the meantime, pre-processors are a great way improve the CSS writing experience and Sass is a solid option when choosing one.</p>
+<p>We only covered the surface here, but there is a lot more to Sass than this. If you want to get more familiar with everything it has to offer, follow these links:</p>
+<ul>
+<li><a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html" target="_blank">Sass documentation</a></li>
+<li><a href="http://sass-lang.com/documentation/Sass/Script/Functions.html" target="_blank">Full list of Sass functions</a></li>
+<li><a href="http://thesassway.com/" target="_blank">The Sass Way tutorials</a></li>
+<li><a href="https://csspre.com/compare/" target="_blank">CSS pre-processors comparison chart</a></li>
+</ul>
+				
+								
+					<div class="webappstudio-animation">
+
+						<a href="http://bootstrapstudio.io/"></a>
+
+						<div class="limiter">
+
+							<h6>Presenting <strong><span>Bootstrap Studio</span></strong></h6>
+
+							<p>a revolutionary tool that developers and designers use to create<br>beautiful interfaces using the Bootstrap Framework.</p>
+
+							<a href="#">Learn more</a>
+
+							<div class="animation">
+
+								<img src="http://cdn.tutorialzine.com/wp-content/themes/tzine/img/webappstudio/animation/browser.svg" class="browser" alt="Web Browser Frame" />
+
+								<img src="http://cdn.tutorialzine.com/wp-content/themes/tzine/img/webappstudio/animation/box.svg" class="box" alt="DevKit Box" />
+
+
+								<span class="header-drop"></span>
+								<span class="body-drop"></span>
+								<span class="column-drop"></span>
+
+								<img src="http://cdn.tutorialzine.com/wp-content/themes/tzine/img/webappstudio/animation/cursor.svg" class="cursor" alt="Mouse Cursor" width="32" height="32">
+
+								<div class="box-top"></div>
+
+							</div>
+
+						</div>
+
+					</div>
+							
+								
+				<div class="social-icons">
+					<a href="http://twitter.com/Tutorialzine" class="twitter" target="_blank">Tutorialzine on Twitter</a>
+					<a href="http://www.facebook.com/Tutorialzine" class="facebook" target="_blank">Tutorialzine on Facebook</a>
+					<a class="googleplus" href="https://plus.google.com/102299652175684141333" target="_blank">Tutorialzine on Google+</a>
+					<a href="http://tutorialzine.com/feed/" class="rss" target="_blank">Tutorialzine's RSS feed</a>
+				</div>
+
+				<div id="author-info" class="hide600">
+					<img alt='' src='http://0.gravatar.com/avatar/f1900da4c9d316bf2048634bb717ed38?s=60&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/f1900da4c9d316bf2048634bb717ed38?s=120&amp;d=mm&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' />					<h5>by <strong>Danny Markov</strong></h5>
+					<p>Danny is Tutorialzine's Bootstrap and HTML5 expert. When he is not in the office, you can usually find him riding his bike and coding on his laptop in the park.</p>
+				</div>
+
+				<div class="bottom-meta">
+					
+											<p id="categories"><a href="http://tutorialzine.com/category/tutorials/" rel="category tag">Tutorials</a></p>
+											
+					
+						<div id="tags">
+
+							
+								<a href="/tag/css3/" class="tagged tag-css3">CSS3</a>
+
+							
+								<a href="/tag/quick-learn/" class="tagged tag-quick-learn">Quick Learn</a>
+
+							
+						</div>
+
+						
+				</div>
+				
+			</div>
+
+		</article>
+
+        <div id="relatedSection" class="leftPostCol hide600">
+
+            <ul>
+
+				
+					<li><a href="http://tutorialzine.com/2016/06/learn-git-in-30-minutes/" title="Learn Git in 30 Minutes">
+
+													<img width="150" height="150" src="http://cdn.tutorialzine.com/wp-content/uploads/2016/06/learn-git-in-30-minutes-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="learn-git-in-30-minutes" />						
+							<span>Learn Git in 30 Minutes</span>
+					</a></li>
+
+				
+					<li><a href="http://tutorialzine.com/2016/01/learn-sql-in-20-minutes/" title="Learn SQL In 20 Minutes">
+
+													<img width="150" height="150" src="http://cdn.tutorialzine.com/wp-content/uploads/2016/01/learn-sql-20-minutes-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="learn-sql-20-minutes" />						
+							<span>Learn SQL In 20 Minutes</span>
+					</a></li>
+
+				
+					<li><a href="http://tutorialzine.com/2015/07/learn-less-in-10-minutes-or-less/" title="Learn LESS in 10 Minutes (or Less)">
+
+													<img width="150" height="150" src="http://cdn.tutorialzine.com/wp-content/uploads/2015/07/learn-less-in-10-minutes-or-less-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="learn-less-in-10-minutes-or-less" />						
+							<span>Learn LESS in 10 Minutes (or Less)</span>
+					</a></li>
+
+				
+					<li><a href="http://tutorialzine.com/2017/04/learn-webpack-in-15-minutes/" title="Learn Webpack in 15 Minutes">
+
+													<img width="150" height="150" src="http://cdn.tutorialzine.com/wp-content/uploads/2017/04/learn-webpack-in-15-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="learn-webpack-in-15" />						
+							<span>Learn Webpack in 15 Minutes</span>
+					</a></li>
+
+				
+					<li><a href="http://tutorialzine.com/2016/07/learn-typescript-in-30-minutes/" title="Learn TypeScript in 30 Minutes">
+
+													<img width="150" height="150" src="http://cdn.tutorialzine.com/wp-content/uploads/2016/07/learn-typescript-in-30-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="learn-typescript-in-30" />						
+							<span>Learn TypeScript in 30 Minutes</span>
+					</a></li>
+
+				
+            </ul>
+
+        </div>
+
+		
+		<div id="fixed-sidebar">
+			
+			<div class="step-title"><span>1</span>Share <b>this post</b></div>
+			<div class="step-action">
+				<div class="social-icons">
+					<a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Ftutorialzine.com%2F2016%2F01%2Flearn-sass-in-15-minutes%2F&text=Learn+Sass+In+15+Minutes&via=tutorialzine" class="twitter"></a>
+					<a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Ftutorialzine.com%2F2016%2F01%2Flearn-sass-in-15-minutes%2F" class="facebook"></a>
+					<a class="googleplus" href="https://plus.google.com/share?url=http%3A%2F%2Ftutorialzine.com%2F2016%2F01%2Flearn-sass-in-15-minutes%2F"></a>
+				</div>
+			</div>
+			
+			<div class="step-title"><span>2</span>Read <b>one more article</b></div>
+			<ul class="step-action posts"></ul>
+			<div class="step-title"><span>3</span>Get <b>your free book</b></div>
+			<div class="step-action book">
+				<a href="/books/jquery-trickshots/" class="book-cover-small">Book Cover</a>
+				<h6>jQuery Trickshots</h6>
+				<p>Tutorialzine's advanced jQuery techniques book.</p>
+				<a href="/books/jquery-trickshots/" class="button red small">Download</a>
+			</div>
+		</div>
+
+		
+
+		<script>
+			var the_id = 7011;
+			var the_title = "Learn Sass In 15 Minutes";
+			var the_permalink = "http:\/\/tutorialzine.com\/2016\/01\/learn-sass-in-15-minutes\/";
+		</script>
+
+        
+<div id="comments" class="leftPostCol hide600">
+
+	<h4><b>11</b> Comments</h4>
+
+	
+		<ol>
+				<li class="comment even thread-even depth-1" id="comment-564156">
+				<div id="div-comment-564156" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://2.gravatar.com/avatar/5a3ff6d59bcf74b901f23fd4d412aa71?s=80&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/5a3ff6d59bcf74b901f23fd4d412aa71?s=160&amp;d=mm&amp;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' />			<cite class="fn">Joe Twumasi</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/#comment-564156">
+			January 22, 2016 at 10:27 am</a>		</div>
+
+		<p>Thanks for the wonderful peace of article on sass. Bookmarked it. </p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/?replytocom=564156#respond' onclick='return addComment.moveForm( "div-comment-564156", "564156", "respond", "7011" )' aria-label='Reply to Joe Twumasi'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-607093">
+				<div id="div-comment-607093" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/7784b0e795dbe3518177d86dccd03202?s=80&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/7784b0e795dbe3518177d86dccd03202?s=160&amp;d=mm&amp;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' />			<cite class="fn">AKHIL GUPTA</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/#comment-607093">
+			April 16, 2016 at 2:31 am</a>		</div>
+
+		<p>thanks for this beautiful article on SASS and also makes it so easy for us to understand... thanks for your effort :)</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/?replytocom=607093#respond' onclick='return addComment.moveForm( "div-comment-607093", "607093", "respond", "7011" )' aria-label='Reply to AKHIL GUPTA'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-608875">
+				<div id="div-comment-608875" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/af0a15e381b0bd37e229047539f4a520?s=80&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/af0a15e381b0bd37e229047539f4a520?s=160&amp;d=mm&amp;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' />			<cite class="fn">Abraham Kalili</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/#comment-608875">
+			April 20, 2016 at 10:44 am</a>		</div>
+
+		<p>Thank you for a clear and concise write up. Learning JS as well and was pleased to see some crossover in terminology and concepts.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/?replytocom=608875#respond' onclick='return addComment.moveForm( "div-comment-608875", "608875", "respond", "7011" )' aria-label='Reply to Abraham Kalili'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-654754">
+				<div id="div-comment-654754" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/452f023d304e4bc5d9869c635e728199?s=80&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/452f023d304e4bc5d9869c635e728199?s=160&amp;d=mm&amp;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' />			<cite class="fn">Peter Arthur</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/#comment-654754">
+			June 25, 2016 at 8:25 pm</a>		</div>
+
+		<p>In the @extend example, why not use plain CSS without @extend? No styles are missing or repeated, right? To me, it seems more confusing and redundant to have this:</p>
+<p>&lt;div class=&quot;dialog-button confirm&quot;&gt;&lt;/div&gt;<br />
+&lt;div class=&quot;dialog-button cancel&quot;&gt;&lt;/div&gt;</p>
+<p>.dialog-button, .confirm, .cancel {A} /* redundant */<br />
+.confirm {B}<br />
+.cancel {C}</p>
+<p>than this:</p>
+<p>&lt;div class=&quot;dialog-button confirm&quot;&gt;&lt;/div&gt;<br />
+&lt;div class=&quot;dialog-button cancel&quot;&gt;&lt;/div&gt;</p>
+<p>.dialog-button {A} /* style already applied to both divs */<br />
+.confirm {B}<br />
+.cancel {C}</p>
+<p>Both buttons get the appropriate styling.</p>
+<p>Is there another example to illustrate this better? I'm new to Sass, so maybe I just don't understand yet. Thanks for any tips.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/?replytocom=654754#respond' onclick='return addComment.moveForm( "div-comment-654754", "654754", "respond", "7011" )' aria-label='Reply to Peter Arthur'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-667503">
+				<div id="div-comment-667503" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://2.gravatar.com/avatar/529c3872c89d27f841e7b26c5d20781f?s=80&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/529c3872c89d27f841e7b26c5d20781f?s=160&amp;d=mm&amp;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' />			<cite class="fn">Alex</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/#comment-667503">
+			July 22, 2016 at 5:03 am</a>		</div>
+
+		<p>Good job, I just learned sass, that was easy :)</p>
+<p>Really appreciate articles like this, blocked ad block for your website (and might of clicked on some of them too ;)  )</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/?replytocom=667503#respond' onclick='return addComment.moveForm( "div-comment-667503", "667503", "respond", "7011" )' aria-label='Reply to Alex'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-710766">
+				<div id="div-comment-710766" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/318491a93021a3fbb2e24e06437adef7?s=80&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/318491a93021a3fbb2e24e06437adef7?s=160&amp;d=mm&amp;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' />			<cite class="fn">Sivasakthivel</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/#comment-710766">
+			October 21, 2016 at 7:03 am</a>		</div>
+
+		<p>Awesome, really a good article, initially i don't have a basic idea about Sass. but now i got basement of Sass. really thank u for your great effort.</p>
+<p>Thanks.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/?replytocom=710766#respond' onclick='return addComment.moveForm( "div-comment-710766", "710766", "respond", "7011" )' aria-label='Reply to Sivasakthivel'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-717319">
+				<div id="div-comment-717319" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/d148acbf11124a2934a83101f1b84fcc?s=80&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/d148acbf11124a2934a83101f1b84fcc?s=160&amp;d=mm&amp;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' />			<cite class="fn">Sathish Kumar</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/#comment-717319">
+			November 4, 2016 at 4:59 am</a>		</div>
+
+		<p>Simple and easy explanation to understand about Sass. Appreciate your effort.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/?replytocom=717319#respond' onclick='return addComment.moveForm( "div-comment-717319", "717319", "respond", "7011" )' aria-label='Reply to Sathish Kumar'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-720121">
+				<div id="div-comment-720121" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/c73d09e05e2d7901e77c6a07c2d179d4?s=80&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/c73d09e05e2d7901e77c6a07c2d179d4?s=160&amp;d=mm&amp;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' />			<cite class="fn">Jay</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/#comment-720121">
+			November 10, 2016 at 5:35 am</a>		</div>
+
+		<p>Thanks for posting this!</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/?replytocom=720121#respond' onclick='return addComment.moveForm( "div-comment-720121", "720121", "respond", "7011" )' aria-label='Reply to Jay'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-726212">
+				<div id="div-comment-726212" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/da591c368cee0346ba2bf17fd8e632a6?s=80&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/da591c368cee0346ba2bf17fd8e632a6?s=160&amp;d=mm&amp;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' />			<cite class="fn">Youness</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/#comment-726212">
+			November 22, 2016 at 12:17 am</a>		</div>
+
+		<p>Thank you very much!</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/?replytocom=726212#respond' onclick='return addComment.moveForm( "div-comment-726212", "726212", "respond", "7011" )' aria-label='Reply to Youness'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-786375">
+				<div id="div-comment-786375" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://2.gravatar.com/avatar/25783e534f72d30a2480e6fda0c9cbf0?s=80&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/25783e534f72d30a2480e6fda0c9cbf0?s=160&amp;d=mm&amp;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' />			<cite class="fn">andy brookes</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/#comment-786375">
+			April 22, 2017 at 12:04 pm</a>		</div>
+
+		<p>Great concise article<br />
+If like me you want  to know a little about sass, your probably going to read about first thing figure out how to use it. Also your probably going to want to play with  sass &amp; bootstrap. Having with other coders who might have pulled there hair out with all the options though i would mention a bit about set up. </p>
+<p>If your on Linux such as Slackware , you will have Ruby installed by default  which is good because then you can use gem, which can be used to install software.</p>
+<p> $gem install sass</p>
+<p>Now with a text editor you can write some of the above article &amp; store the file as main.scss say on your Desktop.<br />
+$cd Desktop<br />
+To convert it to css you just run<br />
+$sass main.scss:main.css</p>
+<p>Thats OK with one file but with different install options it all looks like Spagetii with a whole bunch of scss files. I found compass the easiest option &amp; have put a quick install on Twitter here: </p>
+<p>https://twitter.com/andybrookestar/status/855096970385518593</p>
+<p>The next issue is what to edit &amp; where. Theres two files _bootstrap-variables.scss &amp; styles.scss inside the sass dir. I found the best way is not to edit _bootstrap-variables.scss but to use it as a reference for bootstrap variables that can be overridin them in styles.scss</p>
+<p>Basically anything you want to override put it before the @import &quot;bootstrap&quot;; line &amp; any of your own styles put it after the @import &quot;bootstrap&quot;; line </p>
+<p>eg // file styles.scss</p>
+<p>$gray-base:#001;<br />
+// Import Bootstrap for Sass</p>
+<p>@import &quot;bootstrap&quot;;</p>
+<p>$mycolor:#ff00ff;</p>
+<p>p.andy<br />
+{<br />
+color:$my color;<br />
+}</p>
+<p>run<br />
+$ compass compile &amp; you should see changes</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/?replytocom=786375#respond' onclick='return addComment.moveForm( "div-comment-786375", "786375", "respond", "7011" )' aria-label='Reply to andy brookes'>Reply</a></div>
+				</div>
+		<ol class="children">
+		<li class="comment even depth-2" id="comment-787916">
+				<div id="div-comment-787916" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/11989fe5bf176789315e0c8dbe42f640?s=80&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/11989fe5bf176789315e0c8dbe42f640?s=160&amp;d=mm&amp;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' />			<cite class="fn">Jin Pinger</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/#comment-787916">
+			April 29, 2017 at 5:51 am</a>		</div>
+
+		<p>It is very common, easy to understand document.<br />
+Thank you very much.</p>
+
+		<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/?replytocom=787916#respond' onclick='return addComment.moveForm( "div-comment-787916", "787916", "respond", "7011" )' aria-label='Reply to Jin Pinger'>Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ol><!-- .children -->
+</li><!-- #comment-## -->
+		</ol>
+
+	
+	
+	
+	<div id="respond">
+		<div id="addCommentSection">
+			<h4 id="leavereply">Add Comment</h4>
+			<h4 id="respondtitle">Add a Reply</h4>
+
+			<form action="http://tutorialzine.com/wp-comments-post.php" method="post" id="commentform">
+
+				
+				<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required='true' />
+				<label for="author"><small>Name</small></label></p>
+
+				<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" aria-required='true' />
+				<label for="email"><small>Email (will not be published)</small></label></p>
+
+<!--				<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+				<label for="url"><small>Website</small></label></p>-->
+
+				
+				<p><textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea></p>
+
+				<p class="notes"><b>HTML is escaped automatically.</b> Surround code blocks with <b>&lt;pre&gt;&lt;/pre&gt;</b> for readability.<br>
+					Perks:&nbsp;&nbsp;&nbsp;<b>**bold**</b>&nbsp;&nbsp;&nbsp;<i>__italics__</i>&nbsp;&nbsp;&nbsp;<span style="color:#008DE6">[some text](http://example.com)</span> for links</p>
+
+				<div style="padding-top:15px;">
+					<input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" class="button blue" />
+					<input type='hidden' name='comment_post_ID' value='7011' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+
+					<div class="cancel-comment-reply">
+						<a rel="nofollow" id="cancel-comment-reply-link" href="/2016/01/learn-sass-in-15-minutes/#respond" style="display:none;">Cancel Reply</a>					</div>
+				</div>
+
+				<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="551232b18a" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="138"/></p>
+
+			</form>
+		</div>
+	</div>
+
+	
+</div>
+
+	</section>
+
+	<footer>
+
+		<div class="footer-limiter">
+
+			<div class="footer-group bottom-nav">
+				<a href="/license/">Article License</a>
+				<a href="/privacy/">Privacy Policy</a>
+				<a href="/contact/">Contact Form</a>
+				<a href="/contact/">Advertise</a>
+
+				<p><a href="http://zine.bg/" target="_blank">Zine EOOD</a> &copy; 2009-2017</p>
+			</div>
+
+			<div class="footer-group contribute">
+				<h6>The License</h6>
+				<p>The <b>source code and techniques</b>, covered in our articles, are free to use in your personal and commercial projects. The articles themselves are copyrighted.</p>
+				<a href="/license/" class="button blue small">Learn more</a>
+			</div>
+
+			<div class="footer-group suggest">
+				<h6>About us</h6>
+				<p>We are a team of highly skilled web developers and designers, based in Varna, Bulgaria. We are always open to new ideas and suggestions.</p>
+				<a href="/contact/" class="button blue small">Contact us</a>
+			</div>
+
+			<div class="footer-group book">
+				<a href="/books/jquery-trickshots/" class="book-cover-small">Book Cover</a>
+				<h6>jQuery Trickshots</h6>
+				<p>Tutorialzine's advanced jQuery techniques book.</p>
+				<a href="/books/jquery-trickshots/" class="button red small">Download it</a>
+			</div>
+
+		</div>
+
+	</footer>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+	<script type='text/javascript' src='http://tutorialzine.com/wp-content/plugins/akismet/_inc/form.js?ver=3.1.6'></script>
+
+
+<script type='text/javascript' src='http://cdn.tutorialzine.com/wp-includes/js/wp-embed.min.js?ver=4.6.6'></script>
+<script type='text/javascript' src='http://cdn.tutorialzine.com/wp-content/themes/tzine/js/post/code-tabs.js?ver=1'></script>
+
+		
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-531949-8']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+	
+<script type="text/javascript" src="http://cdn.tutorialzine.com/wp-content/cache/minify/000000/3f6f8/single.include-footer.821ad9.js"></script>
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Minified using apc
+Page Caching using apc
+Object Caching 1580/1688 objects using apc
+Content Delivery Network via cdn.tutorialzine.com
+
+ Served from: tutorialzine.com @ 2017-05-20 18:02:24 by W3 Total Cache -->

@@ -1,0 +1,492 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+    <title>TimeLineCurator</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+	  <style type="text/css"></style><script>window["_GOOG_TRANS_EXT_VER"] = "1";</script>
+
+
+	  <!-- Lighbox for pictures -->
+	  <link href="lightbox/featherlight.min.css" type="text/css" rel="stylesheet" />
+	  <link href="lightbox/featherlight.gallery.min.css" type="text/css" rel="stylesheet"  />
+	  <script src="lightbox/jquery-1.7.0.min.js"></script>
+	  <script src="lightbox/featherlight.min.js" type="text/javascript"></script>
+	  <script src="lightbox/featherlight.gallery.min.js" type="text/javascript"></script>
+	  <script>
+	  $(document).ready(function(){ $('.gallery').featherlightGallery() });
+	  </script>
+  </head>
+
+  <body>
+  	<div class="page">
+  		<h1 class="title">TimeLineCurator</h1>
+  		<div class="authors block">
+  			by <a href="/~jfulda" target="_blank">Johanna Fulda</a>,
+  			<a href="/~brehmer" target="_blank">Matthew Brehmer</a>, and
+  			<a href="/~tmm" target="_blank">Tamara Munzner</a> <br><br>
+  			<a href="http://www.cs.ubc.ca/group/infovis/" target="_blank">UBC InfoVis Group</a>
+  		</div>
+  		<br>
+  		<hr>
+			<a href="#about">About</a> |
+			<a href="#software">Web Application</a> |
+			<a href="#pdf">Research Paper</a> |
+			<a href="#video">Video</a> |
+			<a href="#faq">FAQ</a> |
+			<a href="#contact">Contact</a> |
+			<a href="#instructions">Instructions</a> |
+			<a href="#examples">Examples</a> |
+			<a href="#source">Source</a> |
+			<a href="#changelog">Change Log</a>
+
+			<hr>
+
+			<div class="figure">
+				<div class="imglink">
+					<a href="http://tl-generator.herokuapp.com/" target="_blank">
+						<img src="figures/tlc.jpg" width="800" />
+					</a>
+				</div>
+			</div>
+
+			<a name="about"></a>
+			<h2>About</h2>
+
+			<p>Want to make a visual timeline, but don't have the time to draw one manually? Or maybe you have some documents, but you're not sure if the events they depict form a compelling timeline?</p>
+
+			<p><strong>TimeLineCurator</strong> quickly and automatically extracts temporal references in freeform text to generate a visual timeline. You can then interactively curate the events in this timeline until you are satisfied, or quickly decide that there is no interesting temporal structure within the document. You can also create a mashup of multiple documents against each other to compare their temporal structure.</p>
+
+			<p><strong>Already using <a href="http://timeline.knightlab.com/" target="_blank">TimelineJS</a></strong>? <strong>TimeLineCurator</strong> works with <strong>TimelineJS</strong>: instead of tediously assembling your timeline in a spreadsheet, <strong>TimeLineCurator</strong> allows you to curate your timeline visually. When you are ready, you can export your curated timeline to a <strong>TimelineJS</strong> widget that you can embed on your website or blog.</p>
+
+			<a name="software"></a>
+			<h2>Web Application</h2>
+
+			<ul>
+				<li>Use <a href="http://tl-generator.herokuapp.com/" target="_blank">TimeLineCurator v0.4 (alpha) here</a></li>
+			</ul>
+
+			<a name="pdf"></a>
+			<h2>Research Paper</h2>
+
+			<h3>TimeLineCurator: Interactive Authoring of Visual Timelines from Unstructured Text</h3>
+
+			<strong>Abstract</strong>: We present TimeLineCurator, a browser-based authoring tool that automatically extracts event data from temporal references in unstructured text documents using natural language processing and encodes them along a visual timeline. Our goal is to facilitate the timeline creation process for journalists and others who tell temporal stories online. Current solutions involve manually extracting and formatting event data from source documents, a process that tends to be tedious and error prone. With TimeLineCurator, a prospective timeline author can quickly identify the extent of time encompassed by a document, as well as the distribution of events occurring along this timeline. Authors can speculatively browse possible documents to quickly determine whether they are appropriate sources of timeline material. TimeLineCurator provides controls for curating and editing events on a timeline, the ability to combine timelines from multiple source documents, and export curated timelines for online deployment. We evaluate TimeLineCurator through a benchmark comparison of entity extraction error against a manual timeline curation process, a preliminary evaluation of the user experience of timeline authoring, a brief qualitative analysis of its visual output, and a discussion of prospective use cases suggested by members of the target author communities following its deployment.
+
+			<a name="paperPDF"></a>
+			<h3>Pre-Print PDF</h3>
+
+			<div class="citation block">
+				<div class="entry">
+
+					<div class="thumbnail">
+						<img src="figures/tlc-thumb.png" width="151">
+					</div>
+
+					<div class="pub">
+
+						<div class="title">
+							TimeLineCurator: Interactive Authoring of Visual Timelines from Unstructured Text
+
+						</div>
+
+						<div class="authors">
+							by <a href="/~jfulda" target="_blank">Johanna Fulda</a>,
+							<a href="/~brehmer" target="_blank">Matthew Brehmer</a>, and
+				  			<a href="/~tmm" target="_blank">Tamara Munzner</a>
+						</div>
+
+						<div class="venue">
+							<!-- <span class="name"><a href="http://www.computer.org/portal/web/tvcg">IEEE Transactions on Visualization and Computer Graphics (TVCG)</a>, <a href="http://www.computer.org/csdl/trans/tg/2013/12/index.html">19(12)</a></span>, p. 2376--2385. -->
+							To appear in <span
+							class="name">IEEE
+							Transactions
+							on
+							Visualization
+							and Computer
+							Graphics (TVCG).
+							 <!-- 20(12), p. 2271-2280.  -->
+							<br >Proceedings of  <a href="http://ieeevis.org/">IEEE Conference on Visual Analytics Science and Technology (VAST)</a>, Chicago, USA, 2015</span>.
+							<!-- span class="pages">1335-1344</span>, -->
+							<br>
+							&rarr; [<a href="tlc-vast-2015.pdf">Pre-Print PDF</a>]
+							<!-- [<a href="http://dx.doi.org/10.1109/TVCG.2014.2346431" target="_blank">IEEE link</a>] -->
+							<!-- [<a href="tlc.bib">BibTeX</a>] -->
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<a name="video"></a>
+			<h2>Video</h2>
+			<iframe src="http://player.vimeo.com/video/123246662?portrait=0" width="700" height="393" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+			<a name="faq"></a>
+			<h2>FAQ</h2>
+
+			<ul>
+				<li><strong>Do I need to download anything?</strong>: No, TimeLineCurator runs in the browser.</li>
+
+				<li><strong>How should I format my text?</strong>: TimeLineCurator expects that you copy and paste in raw freeform text. You do not need to format the text in any way.</li>
+
+				<li><strong>Is my text stored in the cloud?</strong>: No, as long as you don't export it. At first any text that you paste into TimeLineCurator remains in your local storage only - not in the cloud. When you decide to export it over "TLC export", your data will be stored on Amazon's <a href="http://aws.amazon.com/s3/" target="_blank">Simple Storage Service</a>. That lets us generate a unique URL which is accessible from everywhere and enables you to share your timeline with people.</li>
+
+				<li><strong>How much text can I timeline-ify?</strong>: Around 10,000 words at once, that's around 12 pages. The current limit is a 30 second timeout from Heroku. We hope to fix that problem soon, stay tuned. For now, if your input text is larger, you could just split it into pieces and add them as individual documents.</li>
+
+				<li><strong>How can I export my curated timeline?</strong>: Right now you have two choices. <i>TimelineJS</i> and a "frozen", non-editable version of <i>TLC</i>.
+					<ul>
+						<li>TimelineJS takes the data from your local storage. So what you are seeing is just a temporary version of your timeline. If you want to download it and use it for your purposes, you can get a ZIP-Folder (with the JSON file and the index.html) over the <b style="border:1px solid #333; padding: 0 6px 2px;">&darr;</b>-button</li>
+						<li>The TLC-export stores your data in the cloud and generates a URL (see "Is my text stored in the cloud?"). In that representation you'll also have the original documents from your TLC project (which are dropped in TimelineJS).</li>
+					</ul>
+				</li>
+
+			</ul>
+
+			<a name="contact"></a>
+			<h2>Contact</h2>
+
+			We'd like to know how you are using TimeLineCurator! We also want to know what to improve.
+
+			<p>Get in touch with us via email at: {jfulda,brehmer,tmm} [at] cs.ubc.ca</p>
+
+			<p>On twitter: <a href="https://twitter.com/jofu_" target="_blank">@jofu_</a>, <a href="https://twitter.com/mattbrehmer" target="_blank">@mattbrehmer</a>, <a href="https://twitter.com/tamaramunzner" target="_blank">@tamaramunzner</a>.</p>
+
+
+			<a name="instructions"></a>
+			<h2>Instructions</h2>
+
+			<h3>Getting Started</h3>
+
+			<p>When you arrive at <strong>TimeLineCurator</strong>, you start with an empty timeline. To fill this timeline with events, you can load in freeform text that contains temporal references (click the '<strong>+</strong>' in the <em>Document View</em>). You can also create individual events manually (click the '<strong>+</strong>' in the <em>Control Panel</em> at the far right).</p>
+
+			<div class="figure">
+				<div class="imglink">
+					<a class="thumbnail gallery" href="figures/tlc-empty.jpg">
+						<img src="figures/tlc-empty.jpg" width="800">
+					</a>
+				</div>
+			</div>
+
+			<p>When you choose to add your own freeform text, a dialog box will appear. You can paste text here or you can choose from some example files from the dropdown menu at the bottom of the dialog box.</p>
+
+			<div class="figure">
+				<div class="imglink">
+					<a class="thumbnail gallery" href="figures/tlc-load.jpg">
+						<img src="figures/tlc-load.jpg" width="800">
+					</a>
+				</div>
+			</div>
+
+			<p><strong>Load text</strong>: if you paste in your own text, you must give your text a <em>Document Title</em>. Paste the body of your text in the <em>Content</em> area. You can optionally specify the date when the text was written; in other words, what date does <em>"today"</em> refer to in the text? (this is especially important if the text is copied from a news article). Finally, choose from one of the six colours; events from this text will be drawn on the timeline in this colour. (In the picture below, we used the the 20th Century section of the Wikipedia arcticle <a href="https://en.wikipedia.org/wiki/History_of_British_Columbia#20th_century" target="_blank">"History of British Columbia"</a>)</p>
+
+			<div class="figure">
+				<div class="imglink">
+					<a class="thumbnail gallery" href="figures/tlc-load-text.jpg">
+						<img src="figures/tlc-load-text.jpg" width="800">
+					</a>
+				</div>
+			</div>
+
+			<p>When you're ready, press "Go!" to let <strong>TimeLineCurator</strong>'s text analyzer locate all of the temporal references within the text (it might take several seconds depending on the size of your text). You can repeat this step multiple times with different texts. You can add as much text as you want, though you are limited to the six colours provided here.</p>
+
+			<h3>Curating the Timeline</h3>
+
+			<p>Discrete events are represented as circles on the timeline, while span events are represented as triangles joined with a horizontal line. Events are offset to reduce occlusion; the vertical position does not correspond to anything meaningful.</p>
+
+			<div class="figure">
+				<div class="imglink">
+					<a class="thumbnail gallery" href="figures/tlc-single.jpg">
+						<img src="figures/tlc-single.jpg" width="800">
+					</a>
+				</div>
+			</div>
+
+			<p><strong>Edit Events</strong>: You can select every event inside the timeline and you will see the event highlighted in the <em>List View</em> and its corresponding sentence highlighted in the <em>Document View</em>. In the <em>Control Panel</em>, you can edit the event: click on the date, title, or content text to modify. The event title is by default the first 5 words of the sentence in which the temporal reference was detected. The content text is by default the complete sentence surrounding the temporal reference. You also can change the colour track of the event, or delete the event from the timeline. Once you edit an event, its colour will become more saturated on the timeline, and a check mark will appear inside its icon in the <em>List View</em>.</p>
+
+			<div class="figure">
+				<div class="imglink">
+					<a class="thumbnail gallery" href="figures/tlc-select.jpg">
+						<img src="figures/tlc-select.jpg" width="800">
+					</a>
+				</div>
+			</div>
+
+			<p><strong>Media</strong> can be added to an event by adding a URL that links directly to an image or video. The cat icon next to the <em>"Add Media"</em> button indicates if an event already has media associated with it: a grey cat indicates no media; a black cat indicates that media has been added to an event (at least a URL, the caption and credit is optional). Media will appear in the finished <strong>TimelineJS</strong> timeline.</p>
+
+			<div class="figure">
+				<div class="imglink">
+					<a class="thumbnail gallery" href="figures/tlc-media.jpg">
+						<img src="figures/tlc-media.jpg" width="800">
+					</a>
+				</div>
+			</div>
+
+			<p><strong>List View</strong>: Click on an event to select it. The headers of the top of the List view, circled below let you order the events by type (discrete event vs. span event), by status (edited vs. not edited), by document, by colour track (1-6), by date, or by event title. </p>
+
+			<div class="figure">
+				<div class="imglink">
+					<a class="thumbnail gallery" href="figures/tlc-list.jpg">
+						<img src="figures/tlc-list.jpg" width="800">
+					</a>
+				</div>
+			</div>
+
+			<p><strong>Vague Dates</strong>: Imprecise temporal references are shown as squares at the top right of the timeline and have the date '????' in the list view. These are not initially aligned in the timeline because often they do not represent concrete events that should be on the timeline; it is safe to ignore them because they will not be exported. However, some of these may contain genuine events that were not extracted correctly, so you can use the <em>Control Panel</em> to add concrete information according to your own interpretation of the text (or additional background knowledge).</p>
+
+			<div class="figure">
+				<div class="imglink">
+					<a class="thumbnail gallery" href="figures/tlc-vague.jpg">
+						<img src="figures/tlc-vague.jpg" width="800">
+					</a>
+				</div>
+			</div>
+
+			<p><strong>Merge Events</strong>: you can select several events at once, by pressing the Shift key and selecting one after another. When you have a selection of more than one event, two new buttons will appear in the <em>Control Panel</em>. When you choose to <strong>merge events</strong> (the button with the circular icon), they will all be assigned the dates of the first event that you selected (the one with the boldest border in the timeline). You can also <strong>batch-delete</strong> the selected events (the button with the 'x' icon).</p>
+
+			<div class="figure">
+				<div class="imglink">
+					<a class="thumbnail gallery" href="figures/tlc-merge.jpg">
+						<img src="figures/tlc-merge.jpg" width="800">
+					</a>
+				</div>
+			</div>
+
+			<p><strong>Naming the Timeline</strong>: select the 'Home' button in the <em>Control Panel</em> to edit the name and description of the whole timeline.</p>
+
+			<div class="figure">
+				<div class="imglink">
+					<a class="thumbnail gallery" href="figures/tlc-title.jpg">
+						<img src="figures/tlc-title.jpg" width="800">
+					</a>
+				</div>
+			</div>
+
+			<h3>Export, Load, Save</h3>
+
+			<p>Three buttons at the right of the <em>Control Panel</em> are for <strong>Exporting</strong>, <strong>Saving</strong>, and <strong>Loading</strong> your timeline:</p>
+
+			<div class="figure">
+				<div class="imglink">
+					<a class="thumbnail gallery" href="figures/tlc-export.jpg">
+						<img src="figures/tlc-export.jpg" width="800">
+					</a>
+				</div>
+			</div>
+
+			<p><strong>Export</strong>: You can choose between "TLC Export" and "TimelineJS Export". In both cases a new browser tab will open and show all dates, including the pictures that you added.
+			<ul>
+				<li>"TLC Export" will kind of freeze the current state of your timeline, remove all vague and deleted events and present them in a view without all the editing options. The data is stored inside Amazon's <a href="http://aws.amazon.com/s3/" target="_blank">Simple Storage Service</a>. That lets us generate a unique URL which is accessible from everywhere and enables you to share your timeline with people.</li>
+				<li>"TimelineJS Export" renders your timeline with <strong><a href="http://timeline.knightlab.com/" target="_blank">TimelineJS</a></strong>. You will see a polished version of the whole timeline, which will include any media you added. Events from different colour tracks (1-6) will appear in the different vertical tracks of the timeline. All data comes from your local storage, that means it is only on your computer and can't be accessed from somewhere else. If you want to save it, for example to upload it to your own server, you can download the whole project (see next paragraph)</li>
+			</ul>
+
+			<div class="figure">
+				<div class="imglink">
+					<a class="thumbnail gallery" href="figures/tlc-timelinejs.jpg">
+						<img src="figures/tlc-timelinejs.jpg" width="800">
+					</a>
+				</div>
+			</div>
+
+			<p><strong>Save</strong> and download the current state. Either as:<br>
+				<ul>
+					<li><b>.tl file</b>, which can be uploaded again in al later session</li>
+					<li><b>JSON file</b>, in the format that is used for TimelineJS</li>
+					<li><b>Zip-folder</b>, which also includes the index.html of the timeline (with those files you can upload and include the timeline to your website or open the timeline locally).</li>
+			</ul>
+			</p>
+
+			<p><strong>Load previous state</strong>: every minute the current state of your editing is saved to your local storage; if the browser crashes or you forget to save the latest version, there should be a backup available. Alternatively, you can <strong>load from file</strong>: if you created a .tl file in a previous session you can upload that one here and continue working on that.</p>
+
+
+			<a name="examples"></a>
+			<h2>Examples</h2>
+			<table class="examples">
+
+				<!-- Scandinavian music -->
+				<tr>
+					<td>
+						<a class="thumbnail gallery" href="examples/scandinavia/tlc.jpg" target="_blank"><img class="example" src="examples/scandinavia/tlc-small.jpg" /></a>
+					</td>
+					<td>
+						<a class="thumbnail gallery" href="examples/scandinavia/tlcexport.jpg" target="_blank"><img class="example" src="examples/scandinavia/tlcexport-small.jpg" /></a>
+					</td>
+					<td>
+						<a class="thumbnail gallery" href="examples/scandinavia/tljs.jpg" target="_blank"><img class="example" src="examples/scandinavia/tljs-small.jpg" /></a>
+					</td>
+					<td>
+						<b>Scandinavian Music</b><br>
+						Comparing the history of pop music in five different countries. Based on the articles on <a href="http://www.europopmusic.eu/Scandanavia_pages/Scandanavia_Danmark.html" target="_blank">Europopmusic</a><br><br>
+						<a href="http://www.cs.ubc.ca/group/infovis/software/TimeLineCurator/tlcExport/?tl=ScandinavianMusic" target="_blank">Result (TLC Export)</a> | <a href="examples/scandinavia/index.html" target="_blank">Result (TimelineJS)</a> | <a href="examples/scandinavia/scandinavia.tl" target="_blank">tl-file</a>
+					</td>
+				</tr>
+
+				<!-- Berlin Wall -->
+				<tr>
+					<td>
+						<a class="thumbnail gallery" href="examples/berlinwall/tlc.jpg" target="_blank"><img class="example" src="examples/berlinwall/tlc-small.jpg" /></a>
+					</td>
+					<td>
+						<a class="thumbnail gallery" href="examples/berlinwall/tlcexport.jpg" target="_blank"><img class="example" src="examples/berlinwall/tlcexport-small.jpg" /></a>
+					</td>
+					<td>
+						<a class="thumbnail gallery" href="examples/berlinwall/tljs.jpg" target="_blank"><img class="example" src="examples/berlinwall/tljs-small.jpg" /></a>
+					</td>
+					<td>
+						<b>The Fall of the Berlin Wall</b><br>
+						An overview of the events around the the fall of the wall in 1989. Based on the <a href="https://en.wikipedia.org/wiki/Berlin_Wall#The_Fall" target="_blank">Wikipedia entry about the "Berlin Wall"</a>.<br><br>
+						<a href="http://www.cs.ubc.ca/group/infovis/software/TimeLineCurator/tlcExport?tl=BerlinWallTheFall" target="_blank">Result (TLC Export)</a> | <a href="examples/berlinwall/index.html" target="_blank">Result (TimelineJS)</a> | <a href="examples/berlinwall/berlinwall.tl" target="_blank">tl-file</a>
+					</td>
+				</tr>
+
+				<!-- Mozart -->
+				<tr>
+					<td>
+						<a class="thumbnail gallery" href="examples/mozart/tlc.jpg" target="_blank"><img class="example" src="examples/mozart/tlc-small.jpg" /></a>
+					</td>
+					<td>
+						<a class="thumbnail gallery" href="examples/mozart/tlcexport.jpg" target="_blank"><img class="example" src="examples/mozart/tlcexport-small.jpg" /></a>
+					</td>
+					<td>
+						<a class="thumbnail gallery" href="examples/mozart/tljs.jpg" target="_blank"><img class="example" src="examples/mozart/tljs-small.jpg" /></a>
+					</td>
+					<td>
+						<b>Mozart</b><br>
+						Events concerning Wolgang Amadeus Mozart's work, based on his  <a href="http://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart" target="_blank">Wikipedia article</a>.<br><br>
+						<a href="http://www.cs.ubc.ca/group/infovis/software/TimeLineCurator/tlcExport?tl=Mozart" target="_blank">Result (TLC Export)</a> | <a href="examples/mozart/index.html" target="_blank">Result (TimelineJS)</a> | <a href="examples/mozart/mozart.tl" target="_blank">tl-file</a>
+					</td>
+				</tr>
+
+				<!-- FCC Net Neutrality -->
+				<tr>
+					<td>
+						<a class="thumbnail gallery" href="examples/netNeutrality/netneutrality-tlc.jpg" target="_blank"><img class="example" src="examples/netNeutrality/netneutrality-tlc-small.jpg" /></a>
+					</td>
+					<td>
+						<a class="thumbnail gallery" href="examples/netNeutrality/netneutrality-tlcexport.jpg" target="_blank"><img class="example" src="examples/netNeutrality/netneutrality-tlcexport-small.jpg" /></a>
+					</td>
+					<td>
+						<a class="thumbnail gallery" href="examples/netNeutrality/netNeutrality.jpg" target="_blank"><img class="example" src="examples/netNeutrality/netNeutrality-small.jpg" /></a>
+					</td>
+					<td>
+						<b>Net Neutrality</b><br>
+						Comparing articles from <a href="http://www.theguardian.com/technology/2015/feb/26/net-neutrality-activists-landmark-victory-fcc" target="_blank">The Guardian</a> & <a href="http://www.wired.com/2015/03/fcc-better-call-saul">Wired</a> that report on the FCC's net neutrality vote from February 26th 2015.</a><br><br>
+						<a href="http://www.cs.ubc.ca/group/infovis/software/TimeLineCurator/tlcExport/?tl=TheGuardianWiredreportonNetNeutrality" target="_blank">Result (TLC Export)</a> | <a href="examples/netNeutrality/index.html" target="_blank">Result (TimelineJS)</a> | <a href="examples/netNeutrality/netNeutrality.tl" target="_blank">tl-file</a>
+					</td>
+				</tr>
+
+				<!-- ghomeshi -->
+				<tr>
+					<td>
+						<a class="thumbnail gallery" href="examples/ghomeshi/ghomeshiTLC.jpg" target="_blank"><img class="example" src="examples/ghomeshi/ghomeshiTLC-small.jpg" /></a>
+					</td>
+					<td>
+						<a class="thumbnail gallery" href="examples/ghomeshi/ghomeshiTLCexport.jpg" target="_blank"><img class="example" src="examples/ghomeshi/ghomeshiTLCexport-small.jpg" /></a>
+					</td>
+					<td>
+						<a class="thumbnail gallery" href="examples/ghomeshi/ghomeshi.jpg" target="_blank"><img class="example" src="examples/ghomeshi/ghomeshi-small.jpg" /></a>
+					</td>
+
+					<td>
+						<b>The Jian Ghomeshi Timeline</b><br>
+						Created in ~30 minutes based on the Wikipedia article about <a href="http://en.wikipedia.org/wiki/Jian_Ghomeshi">Jian Ghomeshi</a><br><br>
+						<a href="tlcExport/?tl=TheJianGhomeshiTimeline" target="_blank">Result (TLC Export)</a> | <a href="examples/ghomeshi/index.html" target="_blank">Result (TimelineJS)</a> | <a href="examples/ghomeshi/ghomeshi.tl" target="_blank">tl-file</a>
+					</td>
+				</tr>
+
+				<!-- Tyrell -->
+				<tr>
+					<td>
+						<a class="thumbnail gallery" href="examples/tyrrell/tyrrellTLC.jpg" target="_blank"><img class="example" src="examples/tyrrell/tyrrellTLC-small.jpg" /></a>
+					</td>
+
+					<td>
+						<a class="thumbnail gallery" href="examples/tyrrell/tlcexport.jpg" target="_blank"><img class="example" src="examples/tyrrell/tlcexport-small.jpg" /></a>
+					</td>
+					<td>
+						<a class="thumbnail gallery" href="examples/tyrrell/tyrrell.jpg" target="_blank"><img class="example" src="examples/tyrrell/tyrrell-small.jpg" /></a>
+					</td>
+					<td>
+						<b>The life of J.B. Tyrrell</b><br>
+						The life and death of the man who discovered the <i>Albertosaurus</i>. Based on an article on <a href="http://www.canadiangeographic.ca/blog/posting.asp?ID=1440" target="_blank">Canadian Geographic</a> and an <a href="http://www.canadiangeographic.ca/blog/photos/tyrrell.pdf">archive article</a> from 1953. Test case by <a href="https://twitter.com/CarysMills" target="_blank">Carys Mills</a>, social media editor at Canadian Geographic magazine. <a href="tlcExport/?tl=ThelifeofJBTyrrell" target="_blank">Result (TLC output)</a> |
+						<a href="examples/tyrrell/index.html" target="_blank">Result (TimelineJS)</a> | <a href="examples/tyrrell/tyrrell.tl" target="_blank">tl-file</a>
+					</td>
+				</tr>
+
+				<!-- Sam Smith -->
+				<tr>
+					<td>
+						<a class="thumbnail gallery" href="examples/samSmith/samSmithTLC.jpg" target="_blank"><img class="example" src="examples/samSmith/samSmithTLC-small.jpg" /></a>
+					</td>
+					<td>
+						<a class="thumbnail gallery" href="examples/samSmith/tlcexport.jpg" target="_blank"><img class="example" src="examples/samSmith/tlcexport-small.jpg" /></a>
+					</td>
+					<td>
+						<a class="thumbnail gallery" href="examples/samSmith/samSmith.jpg" target="_blank"><img class="example" src="examples/samSmith/samSmith-small.jpg" /></a>
+					</td>
+					<td>
+						<b>Sam Smith and the Grammys</b><br>
+						Created in ~10 minutes based on the Wikipedia article about the British singer <a href="http://en.wikipedia.org/wiki/Sam_Smith_%28singer%29" target="_blank">Sam Smith</a>.<br><br><a href="tlcExport/?tl=SamSmith" target="_blank">Result (TLC Export)</a> |
+						<a href="examples/samSmith/index.html" target="_blank">Result (TimelineJS)</a> | <a href="examples/samSmith/Sam_Smith.tl">tl-file</a>
+					</td>
+				</tr>
+
+
+			</table>
+
+
+
+			<a name="source"></a>
+			<h2>Source</h2>
+
+			<p>TimeLineCurator is a browser-based <a href="https://www.heroku.com/" target="_blank">Heroku</a> application. Event extraction from freeform text is handled by the <a href="http://www.nltk.org/" target="_blank">Natural Language Toolkit</a> and the <a href="https://github.com/cnorthwood/ternip" target="_blank">TERNIP</a> Python Library. The interface was implemented using <a href="http://d3js.org/" target="_blank">D3.js</a> and <a href="https://angularjs.org/" target="_blank">AngularJS</a>.</p>
+
+			<p>And here is the <a href="https://github.com/jo-fu/TimeLineCurator" target="_blank">public Github repository</a>.</p>
+
+
+			<a name="changelog"></a>
+			<h2>Change Log</h2>
+
+			<!--h3>v0.3</h3>
+			<ul>
+				<li></li>
+			</ul-->
+
+			<h3>v0.4</h3>
+			<ul>
+				<li>Included functionality to scrape URL of news website, Wikipedia page and the like. (Thanks to <a href="https://github.com/joshuarrrr" target="blank">joshuarrrr</a>!!)</li>
+			</ul>
+
+			<h3>v0.3</h3>
+			<ul>
+				<li>New option for export (read-only version of TLC)</li>
+				<li>List sorting in List View now with drop down menu instead of symbols which were hard to interpret</li>
+				<li>New Layout for file selection in Document View</li>
+			</ul>
+
+			<h3>v0.2</h3>
+			<ul>
+				<li>Completely new layout</li>
+				<li>Adding "add media" feature</li>
+				<li>Seperating "vague dates" to extra area</li>
+				<li>Enable user to choose track color and name the tracks</li>
+			</ul>
+
+			<hr>
+
+  	  	Last modified: 3 Aug 2015.
+		</div>
+
+		<!-- Analytics-->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-59198640-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+
+  </body>
+</html>

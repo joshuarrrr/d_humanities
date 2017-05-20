@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+ 
+<meta charset="utf-8">
+<title>FlowingData</title>
+<meta name="description" content="FlowingData">
+<meta name="author" content="Nathan Yau">
+<meta name="generator" content="WordPress 4.7.5"/>  
+<link rel="stylesheet" type="text/css" href="//cloud.typography.com/7626174/696048/css/fonts.css"/>
+<link rel="stylesheet" href="http://flowingdata.com/wp-content/themes/fd-modern-5-4/style.css" type="text/css" media="screen"/>
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://flowingdata.com/feed"/>
+<link rel="pingback" href="http://flowingdata.com/xmlrpc.php"/>
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+ 
+<link rel="stylesheet" href="http://flowingdata.com/wp-content/themes/fd-modern-5-4/stylesheets/skeleton-2.css">
+<link rel="stylesheet" href="http://flowingdata.com/wp-content/themes/fd-modern-5-4/stylesheets/layout.css">
+<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+ 
+<link rel="shortcut icon" href="http://flowingdata.com/wp-content/themes/fd-modern-5-4/images/favicon.ico">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+<script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+      '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script>
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/2462688/Bottom_Post', [300, 250], 'div-gpt-ad-1461948431098-0').addService(googletag.pubads());
+    googletag.defineSlot('/2462688/grid_bottom', [300, 250], 'div-gpt-ad-1461948431098-1').addService(googletag.pubads());
+    googletag.defineSlot('/2462688/grid_top', [300, 250], 'div-gpt-ad-1461948431098-2').addService(googletag.pubads());
+    googletag.defineSlot('/2462688/Sidebar_bottom', [300, 250], 'div-gpt-ad-1461948431098-3').addService(googletag.pubads());
+    googletag.defineSlot('/2462688/Sidebar_rectangle', [300, 250], 'div-gpt-ad-1461948431098-4').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+  });
+</script>
+<link rel='dns-prefetch' href='//s0.wp.com'/>
+<link rel='dns-prefetch' href='//s.w.org'/>
+<link rel="alternate" type="application/rss+xml" title="FlowingData &raquo; Home Comments Feed" href="http://flowingdata.com/home/feed/"/>
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/flowingdata.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+<style type="text/css">img.wp-smiley,img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-0.1em!important;background:none!important;padding:0!important;}</style>
+<link rel='stylesheet' id='yarppWidgetCss-css' href='http://flowingdata.com/wp-content/plugins/yet-another-related-posts-plugin/style/widget.css?ver=4.7.5' type='text/css' media='all'/>
+<link rel='stylesheet' id='jetpack_css-css' href='http://flowingdata.com/wp-content/plugins/jetpack/css/jetpack.css?ver=4.9' type='text/css' media='all'/>
+<script type='text/javascript' src='http://flowingdata.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://flowingdata.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://flowingdata.com/wp-json/'/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://flowingdata.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://flowingdata.com/wp-includes/wlwmanifest.xml"/>
+<meta name="generator" content="WordPress 4.7.5"/>
+<link rel="canonical" href="http://flowingdata.com/"/>
+<link rel='shortlink' href='http://flowingdata.com/'/>
+<link rel="alternate" type="application/json+oembed" href="http://flowingdata.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fflowingdata.com%2F"/>
+<link rel="alternate" type="text/xml+oembed" href="http://flowingdata.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fflowingdata.com%2F&#038;format=xml"/>
+<link rel='dns-prefetch' href='//v0.wordpress.com'>
+<link rel='dns-prefetch' href='//i0.wp.com'>
+<link rel='dns-prefetch' href='//i1.wp.com'>
+<link rel='dns-prefetch' href='//i2.wp.com'>
+<style type='text/css'>img#wpstats{display:none}</style>
+ 
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="FlowingData"/>
+<meta property="og:description" content="Strength in Numbers"/>
+<meta property="og:url" content="http://flowingdata.com/"/>
+<meta property="og:site_name" content="FlowingData"/>
+<meta property="og:image" content="http://i1.wp.com/flowingdata.com/wp-content/uploads/2014/10/logo-lone-square-600-5451c585_site_icon.png?fit=200%2C200"/>
+<meta property="og:image:width" content="200"/>
+<meta property="og:image:height" content="200"/>
+<meta property="og:locale" content="en_US"/>
+<meta name="twitter:site" content="@flowingdata"/>
+<meta name="twitter:image" content="http://i1.wp.com/flowingdata.com/wp-content/uploads/2014/10/logo-lone-square-600-5451c585_site_icon.png?fit=240%2C240"/>
+<meta name="twitter:card" content="summary"/>
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+<link rel="icon" href="http://i1.wp.com/flowingdata.com/wp-content/uploads/2014/10/logo-lone-square-600-5451c585_site_icon.png?fit=32%2C32" sizes="32x32"/>
+<link rel="icon" href="http://i1.wp.com/flowingdata.com/wp-content/uploads/2014/10/logo-lone-square-600-5451c585_site_icon.png?fit=192%2C192" sizes="192x192"/>
+<link rel="apple-touch-icon-precomposed" href="http://i1.wp.com/flowingdata.com/wp-content/uploads/2014/10/logo-lone-square-600-5451c585_site_icon.png?fit=180%2C180"/>
+<meta name="msapplication-TileImage" content="http://i1.wp.com/flowingdata.com/wp-content/uploads/2014/10/logo-lone-square-600-5451c585_site_icon.png?fit=270%2C270"/>
+<style type="text/css" id="wp-custom-css">iframe.responsive{max-width:100%;}p small{font-size:.8em;line-height:10px;}table td{border:1px solid #ccc;padding:14px;}#single-post h1{line-height:1.3em;}.meta-bar{margin-bottom:1.3em;}.entry table h4{font-size:1em;margin:0;}.breakout h4{margin-bottom:3px;}.entry .pagenav h3,.entry .pagenav h4{margin-top:.1em;}#gallery-5 .gallery.gallery-size-thumbnail .gallery-icon img{border:1px solid #ccc;}#single-post .archive-featured-image{text-align:center;}</style>
+</head>
+<body>
+<div id="main-wrapper">
+<a name="top"></a>
+<div id="header-wrapper">
+<div id="header" class="container">
+<div id="logo" class="four columns">
+<a href="http://flowingdata.com/">
+<img src="http://flowingdata.com/wp-content/themes/fd-modern-5-4/images/logo-v2d.png"/>
+</a>
+</div>
+<div id="nav" class="eight columns">
+<ul>
+<li><a href="https://flowingdata.com/membership/">Membership</a></li>
+<li><a href="https://flowingdata.com/courses/">Courses</a></li>
+<li><a href="http://flowingdata.com/category/tutorials/">Tutorials</a></li>
+<li><a href="http://flowingdata.com/books/">Books</a></li>
+<li><a href="http://flowingdata.com/category/projects/">Projects</a></li>
+</ul>
+</div>
+<div id="login" class="four columns">
+<ul>
+<li><a href="https://flowingdata.com/membership/" class="highlight">Become a Member</a></li>
+<li>&nbsp;|&nbsp;</li>
+<li><a href="https://flowingdata.com/wp-login.php">Log in</a></li>
+</ul>
+</div>
+</div> 
+</div> 
+<div id="content-wrapper" class="container">
+<div class="row">
+<div id="recent-posts" class="post-list one-third column">
+<h3 class="toplevel">Recent <a href="http://flowingdata.com/most-recent/">See All &rarr;</a></h3>
+<div class="archive-post">
+<a href="http://flowingdata.com/2017/05/19/satellites-from-the-ground/" rel="bookmark">
+<div class="archive-featured-image thumbnail-square img-right">
+<img width="200" height="200" src="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/05/Ground-truth.jpg?resize=200%2C200" class="attachment-archive-square-thumb size-archive-square-thumb wp-post-image" alt="" srcset="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/05/Ground-truth.jpg?resize=200%2C200 200w, http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/05/Ground-truth.jpg?zoom=2&amp;resize=200%2C200 400w, http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/05/Ground-truth.jpg?zoom=3&amp;resize=200%2C200 600w" sizes="(max-width: 200px) 100vw, 200px" data-attachment-id="48707" data-permalink="http://flowingdata.com/2017/05/19/satellites-from-the-ground/ground-truth/" data-orig-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/05/Ground-truth.jpg?fit=1020%2C1275" data-orig-size="1020,1275" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Ground truth" data-image-description="" data-medium-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/05/Ground-truth.jpg?fit=720%2C900" data-large-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/05/Ground-truth.jpg?fit=1020%2C1275"/></div>
+<h4>Satellites from the ground</h4>
+<div class="excerpt"><p>There is a 16-by-16 mile grid of big X&#8217;s in the Sonoran Desert that were used to calibrate spy satellites &hellip;</p>
+</div>
+</a>
+<div class="clr"></div>
+</div> 
+<div class="archive-post">
+<a href="http://flowingdata.com/2017/05/18/chernoff-emoji/" rel="bookmark">
+<div class="archive-featured-image thumbnail-square img-right">
+<img width="200" height="200" src="http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Emoji-states-of-America.png?resize=200%2C200" class="attachment-archive-square-thumb size-archive-square-thumb wp-post-image" alt="" srcset="http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Emoji-states-of-America.png?resize=200%2C200 200w, http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Emoji-states-of-America.png?zoom=2&amp;resize=200%2C200 400w, http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Emoji-states-of-America.png?zoom=3&amp;resize=200%2C200 600w" sizes="(max-width: 200px) 100vw, 200px" data-attachment-id="48704" data-permalink="http://flowingdata.com/2017/05/18/chernoff-emoji/emoji-states-of-america/" data-orig-file="http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Emoji-states-of-America.png?fit=1574%2C1038" data-orig-size="1574,1038" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Emoji states of America" data-image-description="" data-medium-file="http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Emoji-states-of-America.png?fit=720%2C475" data-large-file="http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Emoji-states-of-America.png?fit=1090%2C719"/></div>
+<h4>Chernoff emoji</h4>
+<div class="excerpt"><p>Lazaro Gamio for Axios used Chernoff Faces that look like emojis. This visualization is a modified version of Chernoff Faces, &hellip;</p>
+</div>
+</a>
+<div class="clr"></div>
+</div> 
+<div class="archive-post">
+<a href="http://flowingdata.com/2017/05/16/breathing-earth-of-vegetation/" rel="bookmark">
+<div class="archive-featured-image thumbnail-square img-right">
+<img width="200" height="200" src="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/05/Breathing-Earth.gif?resize=200%2C200" class="attachment-archive-square-thumb size-archive-square-thumb wp-post-image" alt="" data-attachment-id="48684" data-permalink="http://flowingdata.com/2017/05/16/breathing-earth-of-vegetation/breathing-earth-2/" data-orig-file="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/05/Breathing-Earth.gif?fit=720%2C367" data-orig-size="720,367" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Breathing Earth" data-image-description="" data-medium-file="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/05/Breathing-Earth.gif?fit=720%2C367" data-large-file="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/05/Breathing-Earth.gif?fit=720%2C367"/></div>
+<h4>Breathing Earth of vegetation</h4>
+<div class="excerpt"><p>Using data from NOAA STAR, Nadieh Bremer creates a breathing Earth that shows the seasonal cycles of vegetation over the &hellip;</p>
+</div>
+</a>
+<div class="clr"></div>
+</div> 
+<div class="archive-post">
+<a href="http://flowingdata.com/2017/05/15/the-hitchhikers-guide-to-d3-js/" rel="bookmark">
+<div class="archive-featured-image thumbnail-square img-right">
+<img width="200" height="200" src="http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/The-Hitchhiker’s-Guide-to-d3-e1494863385137.png?resize=200%2C200" class="attachment-archive-square-thumb size-archive-square-thumb wp-post-image" alt="" srcset="http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/The-Hitchhiker’s-Guide-to-d3-e1494863385137.png?resize=200%2C200 200w, http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/The-Hitchhiker’s-Guide-to-d3-e1494863385137.png?zoom=2&amp;resize=200%2C200 400w, http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/The-Hitchhiker’s-Guide-to-d3-e1494863385137.png?zoom=3&amp;resize=200%2C200 600w" sizes="(max-width: 200px) 100vw, 200px" data-attachment-id="48678" data-permalink="http://flowingdata.com/2017/05/15/the-hitchhikers-guide-to-d3-js/the-hitchhikers-guide-to-d3/" data-orig-file="http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/The-Hitchhiker’s-Guide-to-d3-e1494863385137.png?fit=1810%2C1655" data-orig-size="1810,1655" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="The Hitchhiker’s Guide to d3" data-image-description="" data-medium-file="http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/The-Hitchhiker’s-Guide-to-d3-e1494863385137.png?fit=720%2C658" data-large-file="http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/The-Hitchhiker’s-Guide-to-d3-e1494863385137.png?fit=1090%2C997"/></div>
+<h4>The Hitchhiker’s Guide to d3.js</h4>
+<div class="excerpt"><p>Ian Johnson provides some good direction for those looking to get their feet wet with d3.js.</p>
+</div>
+</a>
+<div class="clr"></div>
+</div> 
+<div class="archive-post">
+<a href="http://flowingdata.com/2017/05/12/gerrymandering-game-shows-you-hot-it-works/" rel="bookmark">
+<div class="archive-featured-image thumbnail-square img-right">
+<img width="200" height="200" src="http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Gerrymandering-game-shows-you-how-it-works.png?resize=200%2C200" class="attachment-archive-square-thumb size-archive-square-thumb wp-post-image" alt="" srcset="http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Gerrymandering-game-shows-you-how-it-works.png?w=1300 1300w, http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Gerrymandering-game-shows-you-how-it-works.png?resize=210%2C210 210w, http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Gerrymandering-game-shows-you-how-it-works.png?resize=720%2C721 720w, http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Gerrymandering-game-shows-you-how-it-works.png?resize=768%2C769 768w, http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Gerrymandering-game-shows-you-how-it-works.png?resize=1090%2C1092 1090w, http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Gerrymandering-game-shows-you-how-it-works.png?resize=200%2C200 200w" sizes="(max-width: 200px) 100vw, 200px" data-attachment-id="48666" data-permalink="http://flowingdata.com/2017/05/12/gerrymandering-game-shows-you-hot-it-works/gerrymandering-game-shows-you-how-it-works/" data-orig-file="http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Gerrymandering-game-shows-you-how-it-works.png?fit=1300%2C1302" data-orig-size="1300,1302" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Gerrymandering game shows you how it works" data-image-description="" data-medium-file="http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Gerrymandering-game-shows-you-how-it-works.png?fit=720%2C721" data-large-file="http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Gerrymandering-game-shows-you-how-it-works.png?fit=1090%2C1092"/></div>
+<h4>Gerrymandering game shows you how it works</h4>
+<div class="excerpt"><p>Gerrymandering is the practice of manipulating boundaries in such a way that favors a political party. If you slice and &hellip;</p>
+</div>
+</a>
+<div class="clr"></div>
+</div> 
+<div class="archive-post">
+<a href="http://flowingdata.com/2017/05/11/census-bureau-budget-cuts/" rel="bookmark">
+<h4>Census Bureau budget cuts</h4>
+<div class="excerpt"><p>The unexpected resignation of Census director John H. Thompson was likely related to the administration providing only half the requested &hellip;</p>
+</div>
+</a>
+<div class="clr"></div>
+</div> 
+<div class="archive-post">
+<a href="http://flowingdata.com/2017/05/11/census-director-resigns/" rel="bookmark">
+<h4>Census director resigns</h4>
+<div class="excerpt"><p>The U.S. Census director John H. Thompson resigned and will leave June 30. Seems not good. And a horrible time &hellip;</p>
+</div>
+</a>
+<div class="clr"></div>
+</div> 
+<div class="archive-post">
+<a href="http://flowingdata.com/2017/05/09/life-expectancy-by-state-against-the-us-average/" rel="bookmark">
+<div class="archive-featured-image thumbnail-square img-right">
+<img width="200" height="200" src="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/05/Life-Expectancy-changes-by-state.png?resize=200%2C200" class="attachment-archive-square-thumb size-archive-square-thumb wp-post-image" alt="" srcset="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/05/Life-Expectancy-changes-by-state.png?resize=200%2C200 200w, http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/05/Life-Expectancy-changes-by-state.png?zoom=2&amp;resize=200%2C200 400w, http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/05/Life-Expectancy-changes-by-state.png?zoom=3&amp;resize=200%2C200 600w" sizes="(max-width: 200px) 100vw, 200px" data-attachment-id="48627" data-permalink="http://flowingdata.com/2017/05/09/life-expectancy-by-state-against-the-us-average/life-expectancy-changes-by-state/" data-orig-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/05/Life-Expectancy-changes-by-state.png?fit=2048%2C1556" data-orig-size="2048,1556" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Life Expectancy changes by state" data-image-description="" data-medium-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/05/Life-Expectancy-changes-by-state.png?fit=720%2C547" data-large-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/05/Life-Expectancy-changes-by-state.png?fit=1090%2C828"/></div>
+<h4>Life expectancy by state, against the US average</h4>
+<div class="excerpt"><p>FiveThirtyEight continues their look at mortality by geography. This graphic by Anna Maria Barry-Jester compares life expectancy over time for &hellip;</p>
+</div>
+</a>
+<div class="clr"></div>
+</div> 
+<div class="archive-post">
+<a href="http://flowingdata.com/2017/05/08/x-ray-of-the-oceans/" rel="bookmark">
+<div class="archive-featured-image thumbnail-square img-right">
+<img width="200" height="200" src="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/05/X-ray-of-the-ocean.png?resize=200%2C200" class="attachment-archive-square-thumb size-archive-square-thumb wp-post-image" alt="" srcset="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/05/X-ray-of-the-ocean.png?resize=200%2C200 200w, http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/05/X-ray-of-the-ocean.png?zoom=2&amp;resize=200%2C200 400w, http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/05/X-ray-of-the-ocean.png?zoom=3&amp;resize=200%2C200 600w" sizes="(max-width: 200px) 100vw, 200px" data-attachment-id="48619" data-permalink="http://flowingdata.com/2017/05/08/x-ray-of-the-oceans/x-ray-of-the-ocean/" data-orig-file="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/05/X-ray-of-the-ocean.png?fit=3496%2C1580" data-orig-size="3496,1580" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="X-ray of the ocean" data-image-description="" data-medium-file="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/05/X-ray-of-the-ocean.png?fit=720%2C325" data-large-file="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/05/X-ray-of-the-ocean.png?fit=1090%2C493"/></div>
+<h4>X-Ray of the oceans</h4>
+<div class="excerpt"><p>Using satellite data and spatial models, researchers estimate human influence in the ocean. Darker means more impact. Two-thirds of the &hellip;</p>
+</div>
+</a>
+<div class="clr"></div>
+</div> 
+<div class="archive-post">
+<a href="http://flowingdata.com/2017/05/05/criticism-vs-creation/" rel="bookmark">
+<div class="archive-featured-image thumbnail-square img-right">
+<img width="200" height="200" src="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/05/Kevin-Smith.png?resize=200%2C200" class="attachment-archive-square-thumb size-archive-square-thumb wp-post-image" alt="" srcset="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/05/Kevin-Smith.png?resize=200%2C200 200w, http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/05/Kevin-Smith.png?zoom=2&amp;resize=200%2C200 400w" sizes="(max-width: 200px) 100vw, 200px" data-attachment-id="48615" data-permalink="http://flowingdata.com/2017/05/05/criticism-vs-creation/kevin-smith/" data-orig-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/05/Kevin-Smith.png?fit=492%2C526" data-orig-size="492,526" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Kevin Smith" data-image-description="" data-medium-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/05/Kevin-Smith.png?fit=492%2C526" data-large-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/05/Kevin-Smith.png?fit=492%2C526"/></div>
+<h4>Criticism vs. Creation</h4>
+<div class="excerpt"><p>Filmmaker Kevin Smith talks about making things versus critiquing them. He&#8217;s talking about movies, but you can so easily plug &hellip;</p>
+</div>
+</a>
+<div class="clr"></div>
+</div> 
+<div class="read-more"><a href="http://flowingdata.com/most-recent/">Read More &rarr;</a></div>
+</div> 
+<div id="featured-list" class="post-list one-third column">
+<div class="archive-post">
+<a href="http://flowingdata.com/2017/05/17/american-workday/" rel="bookmark">
+<div class="archive-featured-image">
+<img width="720" height="406" src="http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Time-for-Work.png?fit=720%2C406" class="attachment-medium size-medium wp-post-image" alt="" srcset="http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Time-for-Work.png?w=1360 1360w, http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Time-for-Work.png?resize=210%2C118 210w, http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Time-for-Work.png?resize=720%2C406 720w, http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Time-for-Work.png?resize=768%2C433 768w, http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Time-for-Work.png?resize=1090%2C614 1090w" sizes="(max-width: 720px) 100vw, 720px" data-attachment-id="48690" data-permalink="http://flowingdata.com/2017/05/17/american-workday/time-for-work/" data-orig-file="http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Time-for-Work.png?fit=1360%2C766" data-orig-size="1360,766" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Time for Work" data-image-description="" data-medium-file="http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Time-for-Work.png?fit=720%2C406" data-large-file="http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/Time-for-Work.png?fit=1090%2C614"/>
+</div>
+<h4>This is an American Workday, By Occupation</h4>
+<div class="excerpt"><p>I simulated a day for employed Americans to see when and where they work.</p>
+</div>
+</a>
+<div class="clr"></div>
+</div> 
+<div class="archive-post">
+<a href="http://flowingdata.com/2017/05/09/adulthood-days/" rel="bookmark">
+<div class="archive-featured-image">
+<img width="720" height="335" src="http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/average-featured.png?fit=720%2C335" class="attachment-medium size-medium wp-post-image" alt="" srcset="http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/average-featured.png?w=2044 2044w, http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/average-featured.png?resize=210%2C98 210w, http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/average-featured.png?resize=720%2C335 720w, http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/average-featured.png?resize=768%2C357 768w, http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/average-featured.png?resize=1090%2C507 1090w" sizes="(max-width: 720px) 100vw, 720px" data-attachment-id="48640" data-permalink="http://flowingdata.com/2017/05/09/adulthood-days/average-featured/" data-orig-file="http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/average-featured.png?fit=2044%2C950" data-orig-size="2044,950" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Days Spent During All of Adulthood" data-image-description="" data-medium-file="http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/average-featured.png?fit=720%2C335" data-large-file="http://i2.wp.com/flowingdata.com/wp-content/uploads/2017/05/average-featured.png?fit=1090%2C507"/>
+</div>
+<h4>How the Average Working Adult Spends Days</h4>
+<div class="excerpt"><p>This is what you get when you add up all the days the average American adult spends sleeping, eating, commuting, and doing other activities. </p>
+</div>
+</a>
+<div class="clr"></div>
+</div> 
+<div class="archive-post">
+<a href="http://flowingdata.com/2017/05/02/shifting-incomes-for-young-people/" rel="bookmark">
+<div class="archive-featured-image">
+<img width="720" height="360" src="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/05/Shifting-Incomes-By-Age-and-Education.png?resize=720%2C360" class="attachment-medium-cropped size-medium-cropped wp-post-image" alt="" srcset="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/05/Shifting-Incomes-By-Age-and-Education.png?resize=720%2C360 720w, http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/05/Shifting-Incomes-By-Age-and-Education.png?zoom=2&amp;resize=720%2C360 1440w" sizes="(max-width: 720px) 100vw, 720px" data-attachment-id="48601" data-permalink="http://flowingdata.com/2017/05/02/shifting-incomes-for-young-people/shifting-incomes-by-age-and-education/" data-orig-file="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/05/Shifting-Incomes-By-Age-and-Education.png?fit=1648%2C1270" data-orig-size="1648,1270" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Shifting Incomes By Age and Education" data-image-description="" data-medium-file="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/05/Shifting-Incomes-By-Age-and-Education.png?fit=720%2C555" data-large-file="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/05/Shifting-Incomes-By-Age-and-Education.png?fit=1090%2C840"/>
+</div>
+<h4>Shifting Incomes for Young People</h4>
+<div class="excerpt"><p>Compare incomes for young people from the Millennial generation and the baby boomer generation.</p>
+</div>
+</a>
+<div class="clr"></div>
+</div> 
+<div class="archive-post">
+<a href="http://flowingdata.com/2017/04/27/traffic-fatalities-when-and-where/" rel="bookmark">
+<div class="archive-featured-image">
+<img width="720" height="382" src="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/04/Traffic-fatalities-when-and-where.png?fit=720%2C382" class="attachment-medium size-medium wp-post-image" alt="" srcset="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/04/Traffic-fatalities-when-and-where.png?w=1798 1798w, http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/04/Traffic-fatalities-when-and-where.png?resize=210%2C111 210w, http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/04/Traffic-fatalities-when-and-where.png?resize=720%2C382 720w, http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/04/Traffic-fatalities-when-and-where.png?resize=768%2C407 768w, http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/04/Traffic-fatalities-when-and-where.png?resize=1090%2C578 1090w" sizes="(max-width: 720px) 100vw, 720px" data-attachment-id="48520" data-permalink="http://flowingdata.com/2017/04/27/traffic-fatalities-when-and-where/traffic-fatalities-when-and-where/" data-orig-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/04/Traffic-fatalities-when-and-where.png?fit=1798%2C954" data-orig-size="1798,954" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Traffic fatalities, when and where" data-image-description="" data-medium-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/04/Traffic-fatalities-when-and-where.png?fit=720%2C382" data-large-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/04/Traffic-fatalities-when-and-where.png?fit=1090%2C578"/>
+</div>
+<h4>Fatal Traffic, When and Where</h4>
+<div class="excerpt"><p>These are the traffic crashes that resulted in deaths in 2015, categorized by month, time of day, and factors involved.</p>
+</div>
+</a>
+<div class="clr"></div>
+</div> 
+<div class="archive-post">
+<a href="http://flowingdata.com/2017/04/25/taxes-state/" rel="bookmark">
+<div class="archive-featured-image">
+<img width="720" height="396" src="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/04/Tax-Brackets.png?fit=720%2C396" class="attachment-medium size-medium wp-post-image" alt="" srcset="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/04/Tax-Brackets.png?w=2181 2181w, http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/04/Tax-Brackets.png?resize=210%2C116 210w, http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/04/Tax-Brackets.png?resize=720%2C396 720w, http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/04/Tax-Brackets.png?resize=768%2C423 768w, http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/04/Tax-Brackets.png?resize=1090%2C600 1090w" sizes="(max-width: 720px) 100vw, 720px" data-attachment-id="48491" data-permalink="http://flowingdata.com/2017/04/25/taxes-state/tax-brackets/" data-orig-file="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/04/Tax-Brackets.png?fit=2181%2C1201" data-orig-size="2181,1201" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Tax Brackets" data-image-description="" data-medium-file="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/04/Tax-Brackets.png?fit=720%2C396" data-large-file="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/04/Tax-Brackets.png?fit=1090%2C600"/>
+</div>
+<h4>Income Taxes You Would Pay in Each State</h4>
+<div class="excerpt"><p>Some states have high rates. Some have low. But whether a state is lower or higher for you depends on more than just the high brackets.</p>
+</div>
+</a>
+<div class="clr"></div>
+</div> 
+<div class="archive-post last-item">
+<a href="http://flowingdata.com/2017/04/10/introducing-mapping-r/" rel="bookmark">
+<div class="archive-featured-image">
+<img width="720" height="360" src="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/04/Geographic-in-R.png?fit=720%2C360" class="attachment-medium size-medium wp-post-image" alt="" srcset="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/04/Geographic-in-R.png?w=1800 1800w, http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/04/Geographic-in-R.png?resize=210%2C105 210w, http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/04/Geographic-in-R.png?resize=720%2C360 720w, http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/04/Geographic-in-R.png?resize=768%2C384 768w, http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/04/Geographic-in-R.png?resize=1090%2C546 1090w" sizes="(max-width: 720px) 100vw, 720px" data-attachment-id="48330" data-permalink="http://flowingdata.com/courses/geographic-in-r/" data-orig-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/04/Geographic-in-R.png?fit=1800%2C901" data-orig-size="1800,901" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Geographic in R" data-image-description="" data-medium-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/04/Geographic-in-R.png?fit=720%2C360" data-large-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/04/Geographic-in-R.png?fit=1090%2C546"/>
+</div>
+<h4>Introducing a Course for Mapping in R</h4>
+<div class="excerpt"><p>Mapping geographic data in R can be tricky, because there are so many ways to complete separate tasks. It&#8217;s a &hellip;</p>
+</div>
+</a>
+<div class="clr"></div>
+</div> 
+</div> 
+<div id="sidebar" class="one-third column">
+<div id="med-sponsor-top" class="sec">
+ 
+<div id='div-gpt-ad-1461948431098-4' style='height:250px; width:300px; margin-bottom: 30px'>
+<script type='text/javascript'>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1461948431098-4'); });
+		</script>
+</div>
+</div>
+<div id="membership-sidebar" class="sec centered">
+<a href="https://flowingdata.com/membership/">
+<p>
+<strong>Become a member.</strong>
+<br/>Learn to visualize your data.
+<br/>From beginner to advanced.
+ 
+</p>
+<p><small>What you get</small></p>
+</a>
+</div>
+<div id="categories" class="sec">
+<h3 class="toplevel">Categories</h3>
+<div class="half">
+<ul>
+<li>
+<a href="http://flowingdata.com/category/visualization/">
+<h4>Visualization</h4>
+<p><small>Seeing data</small></p>
+</a>
+</li>
+<li>
+<a href="http://flowingdata.com/category/visualization/mapping/">
+<h4>Maps</h4>
+<p><small>Seeing geographic data</small></p>
+</a>
+</li>
+<li>
+<a href="http://flowingdata.com/category/visualization/infographics/">
+<h4>Infographics</h4>
+<p><small>Explaining data</small></p>
+</a>
+</li>
+<li>
+<a href="http://flowingdata.com/category/visualization/network-visualization/">
+<h4>Networks</h4>
+<p><small>Connecting data</small></p>
+</a>
+</li>
+</ul>
+</div>
+<div class="half">
+<ul>
+<li>
+<a href="http://flowingdata.com/category/statistics/">
+<h4>Statistics</h4>
+<p><small>Analyzing data</small></p>
+</a>
+</li>
+<li>
+<a href="http://flowingdata.com/category/software/">
+<h4>Software</h4>
+<p><small>Working with data</small></p>
+</a>
+</li>
+<li>
+<a href="http://flowingdata.com/category/statistics/data-sources/">
+<h4>Sources</h4>
+<p><small>Getting data</small></p>
+</a>
+</li>
+<li>
+<a href="http://flowingdata.com/category/design/">
+<h4>Design</h4>
+<p><small>Making data readable</small></p>
+</a>
+</li>
+</ul>
+</div>
+<div class="clr"></div>
+</div> 
+<div id="favorites" class="sec post-list">
+<h3 class="toplevel">Favorites</h3>
+<div class="archive-post">
+<a href="http://flowingdata.com/2010/03/04/think-like-a-statistician-without-the-math/" rel="bookmark">
+<div class="archive-featured-image thumbnail-square img-left">
+<img width="200" height="200" src="http://i1.wp.com/flowingdata.com/wp-content/uploads/2010/03/201844037_7dbd27025f_o.jpg?resize=200%2C200" class="attachment-archive-square-thumb size-archive-square-thumb wp-post-image" alt="" srcset="http://i1.wp.com/flowingdata.com/wp-content/uploads/2010/03/201844037_7dbd27025f_o.jpg?resize=200%2C200 200w, http://i1.wp.com/flowingdata.com/wp-content/uploads/2010/03/201844037_7dbd27025f_o.jpg?zoom=2&amp;resize=200%2C200 400w, http://i1.wp.com/flowingdata.com/wp-content/uploads/2010/03/201844037_7dbd27025f_o.jpg?zoom=3&amp;resize=200%2C200 600w" sizes="(max-width: 200px) 100vw, 200px" data-attachment-id="20435" data-permalink="http://flowingdata.com/2010/03/04/think-like-a-statistician-without-the-math/201844037_7dbd27025f_o/" data-orig-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2010/03/201844037_7dbd27025f_o.jpg?fit=667%2C463" data-orig-size="667,463" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Think like a Statistican" data-image-description="" data-medium-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2010/03/201844037_7dbd27025f_o.jpg?fit=667%2C463" data-large-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2010/03/201844037_7dbd27025f_o.jpg?fit=667%2C463"/></div>
+<h4><small>Think Like a Statistician &#8211; Without the Math</small></h4>
+</a>
+<div class="clr"></div>
+</div> 
+<div class="archive-post">
+<a href="http://flowingdata.com/2016/01/19/how-you-will-die/" rel="bookmark">
+<div class="archive-featured-image thumbnail-square img-left">
+<img width="200" height="200" src="http://i1.wp.com/flowingdata.com/wp-content/uploads/2016/01/Death-Sim-Featured.png?resize=200%2C200" class="attachment-archive-square-thumb size-archive-square-thumb wp-post-image" alt="" srcset="http://i1.wp.com/flowingdata.com/wp-content/uploads/2016/01/Death-Sim-Featured.png?resize=200%2C200 200w, http://i1.wp.com/flowingdata.com/wp-content/uploads/2016/01/Death-Sim-Featured.png?zoom=2&amp;resize=200%2C200 400w, http://i1.wp.com/flowingdata.com/wp-content/uploads/2016/01/Death-Sim-Featured.png?zoom=3&amp;resize=200%2C200 600w" sizes="(max-width: 200px) 100vw, 200px" data-attachment-id="44030" data-permalink="http://flowingdata.com/2016/01/19/how-you-will-die/death-sim-featured/" data-orig-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2016/01/Death-Sim-Featured.png?fit=1800%2C900" data-orig-size="1800,900" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="How You Will Die" data-image-description="" data-medium-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2016/01/Death-Sim-Featured.png?fit=720%2C360" data-large-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2016/01/Death-Sim-Featured.png?fit=1090%2C545"/></div>
+<h4><small>How You Will Die</small></h4>
+</a>
+<div class="clr"></div>
+</div> 
+<div class="archive-post">
+<a href="http://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/" rel="bookmark">
+<div class="archive-featured-image thumbnail-square img-left">
+<img width="200" height="200" src="http://i2.wp.com/flowingdata.com/wp-content/uploads/2015/12/Time-use-featured-v2.png?resize=200%2C200" class="attachment-archive-square-thumb size-archive-square-thumb wp-post-image" alt="" srcset="http://i2.wp.com/flowingdata.com/wp-content/uploads/2015/12/Time-use-featured-v2.png?resize=200%2C200 200w, http://i2.wp.com/flowingdata.com/wp-content/uploads/2015/12/Time-use-featured-v2.png?zoom=2&amp;resize=200%2C200 400w, http://i2.wp.com/flowingdata.com/wp-content/uploads/2015/12/Time-use-featured-v2.png?zoom=3&amp;resize=200%2C200 600w" sizes="(max-width: 200px) 100vw, 200px" data-attachment-id="43784" data-permalink="http://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/time-use-featured-v2/" data-orig-file="http://i2.wp.com/flowingdata.com/wp-content/uploads/2015/12/Time-use-featured-v2.png?fit=2069%2C1250" data-orig-size="2069,1250" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Time use" data-image-description="" data-medium-file="http://i2.wp.com/flowingdata.com/wp-content/uploads/2015/12/Time-use-featured-v2.png?fit=720%2C435" data-large-file="http://i2.wp.com/flowingdata.com/wp-content/uploads/2015/12/Time-use-featured-v2.png?fit=1090%2C659"/></div>
+<h4><small>A Day in the Life of Americans</small></h4>
+</a>
+<div class="clr"></div>
+</div> 
+<div class="archive-post">
+<a href="http://flowingdata.com/2014/07/07/19-maps-that-will-blow-your-mind/" rel="bookmark">
+<div class="archive-featured-image thumbnail-square img-left">
+<img width="200" height="200" src="http://i2.wp.com/flowingdata.com/wp-content/uploads/2014/07/mindblown-featured-pattern.png?resize=200%2C200" class="attachment-archive-square-thumb size-archive-square-thumb wp-post-image" alt="" srcset="http://i2.wp.com/flowingdata.com/wp-content/uploads/2014/07/mindblown-featured-pattern.png?resize=200%2C200 200w, http://i2.wp.com/flowingdata.com/wp-content/uploads/2014/07/mindblown-featured-pattern.png?zoom=2&amp;resize=200%2C200 400w, http://i2.wp.com/flowingdata.com/wp-content/uploads/2014/07/mindblown-featured-pattern.png?zoom=3&amp;resize=200%2C200 600w" sizes="(max-width: 200px) 100vw, 200px" data-attachment-id="35695" data-permalink="http://flowingdata.com/2014/07/07/19-maps-that-will-blow-your-mind/mindblown-featured-pattern/" data-orig-file="http://i2.wp.com/flowingdata.com/wp-content/uploads/2014/07/mindblown-featured-pattern.png?fit=954%2C524" data-orig-size="954,524" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="mindblown-featured-pattern" data-image-description="" data-medium-file="http://i2.wp.com/flowingdata.com/wp-content/uploads/2014/07/mindblown-featured-pattern.png?fit=720%2C395" data-large-file="http://i2.wp.com/flowingdata.com/wp-content/uploads/2014/07/mindblown-featured-pattern.png?fit=954%2C524"/></div>
+<h4><small>19 Maps That Will Blow Your Mind and Change the Way You See the World. Top All-time. You Won&#8217;t Believe Your Eyes. Watch.</small></h4>
+</a>
+<div class="clr"></div>
+</div> 
+<div class="archive-post last-item">
+<a href="http://flowingdata.com/2016/03/30/divorce-rates-for-different-groups/" rel="bookmark">
+<div class="archive-featured-image thumbnail-square img-left">
+<img width="200" height="200" src="http://i1.wp.com/flowingdata.com/wp-content/uploads/2016/03/Divorced-or-Married-More-Than-Once.png?resize=200%2C200" class="attachment-archive-square-thumb size-archive-square-thumb wp-post-image" alt="" srcset="http://i1.wp.com/flowingdata.com/wp-content/uploads/2016/03/Divorced-or-Married-More-Than-Once.png?resize=200%2C200 200w, http://i1.wp.com/flowingdata.com/wp-content/uploads/2016/03/Divorced-or-Married-More-Than-Once.png?zoom=2&amp;resize=200%2C200 400w, http://i1.wp.com/flowingdata.com/wp-content/uploads/2016/03/Divorced-or-Married-More-Than-Once.png?zoom=3&amp;resize=200%2C200 600w" sizes="(max-width: 200px) 100vw, 200px" data-attachment-id="44650" data-permalink="http://flowingdata.com/2016/03/30/divorce-rates-for-different-groups/divorced-or-married-more-than-once/" data-orig-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2016/03/Divorced-or-Married-More-Than-Once.png?fit=800%2C573" data-orig-size="800,573" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Divorced or Married More Than Once" data-image-description="" data-medium-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2016/03/Divorced-or-Married-More-Than-Once.png?fit=720%2C516" data-large-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2016/03/Divorced-or-Married-More-Than-Once.png?fit=800%2C573"/></div>
+<h4><small>Divorce Rates for Different Groups</small></h4>
+</a>
+<div class="clr"></div>
+</div> 
+</div> 
+<div id="med-sponsor-bottom" class="sponsor centered">
+ 
+<div id='div-gpt-ad-1461948431098-3' style='height:250px; width:300px;'>
+<script type='text/javascript'>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1461948431098-3'); });
+		</script>
+</div>
+</div>
+</div> 
+</div> 
+<div id="tutorials-list" class="container post-list across">
+<h3 class="toplevel sixteen columns">Tutorials <a href="http://flowingdata.com/category/tutorials/">See All &rarr;</a></h3>
+<div class="archive-post four columns">
+<a href="http://flowingdata.com/2017/04/10/introducing-mapping-r/" rel="bookmark">
+<div class="archive-featured-image cropped">
+<img width="400" height="250" src="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/04/Geographic-in-R.png?resize=400%2C250" class="attachment-archive-cropped size-archive-cropped wp-post-image" alt="" srcset="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/04/Geographic-in-R.png?resize=400%2C250 400w, http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/04/Geographic-in-R.png?zoom=2&amp;resize=400%2C250 800w, http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/04/Geographic-in-R.png?zoom=3&amp;resize=400%2C250 1200w" sizes="(max-width: 400px) 100vw, 400px" data-attachment-id="48330" data-permalink="http://flowingdata.com/courses/geographic-in-r/" data-orig-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/04/Geographic-in-R.png?fit=1800%2C901" data-orig-size="1800,901" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Geographic in R" data-image-description="" data-medium-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/04/Geographic-in-R.png?fit=720%2C360" data-large-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/04/Geographic-in-R.png?fit=1090%2C546"/> </div>
+<h4>Introducing a Course for Mapping in R</h4>
+<div class="excerpt"><p>Mapping geographic data in R can be tricky, because there are so many ways to complete separate tasks. It&#8217;s a &hellip;</p>
+</div>
+</a>
+</div> 
+<div class="archive-post four columns">
+<a href="http://flowingdata.com/2017/02/07/how-to-edit-r-charts-in-adobe-illustrator/" rel="bookmark">
+<div class="archive-featured-image cropped">
+<img width="400" height="250" src="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/02/featured.png?resize=400%2C250" class="attachment-archive-cropped size-archive-cropped wp-post-image" alt="" srcset="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/02/featured.png?resize=400%2C250 400w, http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/02/featured.png?zoom=2&amp;resize=400%2C250 800w, http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/02/featured.png?zoom=3&amp;resize=400%2C250 1200w" sizes="(max-width: 400px) 100vw, 400px" data-attachment-id="47518" data-permalink="http://flowingdata.com/2017/02/07/how-to-edit-r-charts-in-adobe-illustrator/featured/" data-orig-file="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/02/featured.png?fit=1914%2C802" data-orig-size="1914,802" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="How to Edit Charts in Adobe Illustrator" data-image-description="" data-medium-file="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/02/featured.png?fit=720%2C302" data-large-file="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/02/featured.png?fit=1090%2C457"/> </div>
+<h4>How to Edit R Charts in Adobe Illustrator</h4>
+<div class="excerpt"><p>A detailed guide for R users who want to polish their charts in the popular graphic design app for readability and aesthetics.</p>
+</div>
+</a>
+</div> 
+<div class="archive-post four columns">
+<a href="http://flowingdata.com/2017/01/06/how-to-make-an-animated-map-in-r-part-4/" rel="bookmark">
+<div class="archive-featured-image cropped">
+<img width="400" height="250" src="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/01/Make-an-Animated-Map.png?resize=400%2C250" class="attachment-archive-cropped size-archive-cropped wp-post-image" alt="" srcset="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/01/Make-an-Animated-Map.png?resize=400%2C250 400w, http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/01/Make-an-Animated-Map.png?zoom=2&amp;resize=400%2C250 800w" sizes="(max-width: 400px) 100vw, 400px" data-attachment-id="47276" data-permalink="http://flowingdata.com/2017/01/06/how-to-make-an-animated-map-in-r-part-4/make-an-animated-map/" data-orig-file="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/01/Make-an-Animated-Map.png?fit=800%2C520" data-orig-size="800,520" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Make an Animated Map" data-image-description="" data-medium-file="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/01/Make-an-Animated-Map.png?fit=720%2C468" data-large-file="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/01/Make-an-Animated-Map.png?fit=800%2C520"/> </div>
+<h4>How to Make an Animated Map in R, Part 4</h4>
+<div class="excerpt"><p>In the the last part of the four-part series, you make a longer animation with more data and annotate.</p>
+</div>
+</a>
+</div> 
+<div class="archive-post four columns">
+<a href="http://flowingdata.com/2016/11/17/transitioning-map-part-3-animate-change-over-time/" rel="bookmark">
+<div class="archive-featured-image cropped">
+<img width="400" height="250" src="http://i1.wp.com/flowingdata.com/wp-content/uploads/2016/11/animated-map-slower.gif?resize=400%2C250" class="attachment-archive-cropped size-archive-cropped wp-post-image" alt="" data-attachment-id="46889" data-permalink="http://flowingdata.com/2016/11/17/transitioning-map-part-3-animate-change-over-time/animated-map-slower/" data-orig-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2016/11/animated-map-slower.gif?fit=720%2C430" data-orig-size="720,430" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Animated map tutorial" data-image-description="" data-medium-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2016/11/animated-map-slower.gif?fit=720%2C430" data-large-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2016/11/animated-map-slower.gif?fit=720%2C430"/> </div>
+<h4>Transitioning Map, Part 3: Animate Change Over Time</h4>
+<div class="excerpt"><p>How to make a bunch of maps and string them together to show change.</p>
+</div>
+</a>
+</div> 
+</div>
+<div id="guides-list" class="row post-list across">
+<h3 class="toplevel sixteen columns">Guides <a href="http://flowingdata.com/category/guides/">See All &rarr;</a></h3>
+<div class="archive-post four columns">
+<a href="http://flowingdata.com/2017/02/09/how-to-spot-visualization-lies/" rel="bookmark">
+<div class="archive-featured-image cropped">
+<img width="400" height="250" src="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/02/Spotting-lies.png?resize=400%2C250" class="attachment-archive-cropped size-archive-cropped wp-post-image" alt="" srcset="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/02/Spotting-lies.png?resize=400%2C250 400w, http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/02/Spotting-lies.png?zoom=2&amp;resize=400%2C250 800w, http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/02/Spotting-lies.png?zoom=3&amp;resize=400%2C250 1200w" sizes="(max-width: 400px) 100vw, 400px" data-attachment-id="47558" data-permalink="http://flowingdata.com/2017/02/09/how-to-spot-visualization-lies/spotting-lies/" data-orig-file="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/02/Spotting-lies.png?fit=2180%2C950" data-orig-size="2180,950" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Spotting lies" data-image-description="" data-medium-file="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/02/Spotting-lies.png?fit=720%2C314" data-large-file="http://i0.wp.com/flowingdata.com/wp-content/uploads/2017/02/Spotting-lies.png?fit=1090%2C475"/> </div>
+<h4>How to Spot Visualization Lies</h4>
+<div class="excerpt"><p>Many charts don&#8217;t tell the truth. This is a simple guide to spotting them.</p>
+</div>
+</a>
+</div> 
+<div class="archive-post four columns">
+<a href="http://flowingdata.com/2017/01/24/one-dataset-visualized-25-ways/" rel="bookmark">
+<div class="archive-featured-image cropped">
+<img width="400" height="250" src="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/01/One-Dataset-Visualized-25-Ways-2.png?resize=400%2C250" class="attachment-archive-cropped size-archive-cropped wp-post-image" alt="" srcset="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/01/One-Dataset-Visualized-25-Ways-2.png?resize=400%2C250 400w, http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/01/One-Dataset-Visualized-25-Ways-2.png?zoom=2&amp;resize=400%2C250 800w, http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/01/One-Dataset-Visualized-25-Ways-2.png?zoom=3&amp;resize=400%2C250 1200w" sizes="(max-width: 400px) 100vw, 400px" data-attachment-id="47398" data-permalink="http://flowingdata.com/2017/01/24/one-dataset-visualized-25-ways/one-dataset-visualized-25-ways-3/" data-orig-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/01/One-Dataset-Visualized-25-Ways-2.png?fit=1638%2C1098" data-orig-size="1638,1098" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="One Dataset Visualized 25 Ways" data-image-description="" data-medium-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/01/One-Dataset-Visualized-25-Ways-2.png?fit=720%2C483" data-large-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2017/01/One-Dataset-Visualized-25-Ways-2.png?fit=1090%2C731"/> </div>
+<h4>One Dataset, Visualized 25 Ways</h4>
+<div class="excerpt"><p>&#8220;Let the data speak&#8221; they say. But what happens when the data rambles on and on?</p>
+</div>
+</a>
+</div> 
+<div class="archive-post four columns">
+<a href="http://flowingdata.com/2016/11/10/find-the-data-you-need-2016-edition/" rel="bookmark">
+<div class="archive-featured-image cropped">
+<img width="400" height="250" src="http://i1.wp.com/flowingdata.com/wp-content/uploads/2016/11/sources-featured.png?resize=400%2C250" class="attachment-archive-cropped size-archive-cropped wp-post-image" alt="" srcset="http://i1.wp.com/flowingdata.com/wp-content/uploads/2016/11/sources-featured.png?resize=400%2C250 400w, http://i1.wp.com/flowingdata.com/wp-content/uploads/2016/11/sources-featured.png?zoom=2&amp;resize=400%2C250 800w, http://i1.wp.com/flowingdata.com/wp-content/uploads/2016/11/sources-featured.png?zoom=3&amp;resize=400%2C250 1200w" sizes="(max-width: 400px) 100vw, 400px" data-attachment-id="46842" data-permalink="http://flowingdata.com/2016/11/10/find-the-data-you-need-2016-edition/sources-featured/" data-orig-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2016/11/sources-featured.png?fit=1800%2C900" data-orig-size="1800,900" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Find the Data You Need" data-image-description="" data-medium-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2016/11/sources-featured.png?fit=720%2C360" data-large-file="http://i1.wp.com/flowingdata.com/wp-content/uploads/2016/11/sources-featured.png?fit=1090%2C545"/> </div>
+<h4>Resources to Find the Data You Need, 2016 Edition</h4>
+<div class="excerpt"><p>This is an update to the guide I wrote in 2009, which as it turns out, is now mostly outdated. So, 2016. Here we go.</p>
+</div>
+</a>
+</div> 
+<div class="archive-post four columns">
+<a href="http://flowingdata.com/2016/10/07/learning-r-versus-d3-js-for-visualization/" rel="bookmark">
+<div class="archive-featured-image cropped">
+<img width="400" height="250" src="http://i0.wp.com/flowingdata.com/wp-content/uploads/2016/10/r-d3.png?resize=400%2C250" class="attachment-archive-cropped size-archive-cropped wp-post-image" alt="" srcset="http://i0.wp.com/flowingdata.com/wp-content/uploads/2016/10/r-d3.png?resize=400%2C250 400w, http://i0.wp.com/flowingdata.com/wp-content/uploads/2016/10/r-d3.png?zoom=2&amp;resize=400%2C250 800w" sizes="(max-width: 400px) 100vw, 400px" data-attachment-id="46529" data-permalink="http://flowingdata.com/2016/10/07/learning-r-versus-d3-js-for-visualization/r-d3/" data-orig-file="http://i0.wp.com/flowingdata.com/wp-content/uploads/2016/10/r-d3.png?fit=1080%2C576" data-orig-size="1080,576" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="R vs. d3.js" data-image-description="" data-medium-file="http://i0.wp.com/flowingdata.com/wp-content/uploads/2016/10/r-d3.png?fit=720%2C384" data-large-file="http://i0.wp.com/flowingdata.com/wp-content/uploads/2016/10/r-d3.png?fit=1080%2C576"/> </div>
+<h4>Learning R Versus d3.js for Visualization</h4>
+<div class="excerpt"><p>For those who work with R and d3.js, the differences between the two are obvious. But for those who are &hellip;</p>
+</div>
+</a>
+</div> 
+</div>
+<div class="clr"></div>
+</div> 
+<div id="footer-wrapper">
+<div id="footer" class="container">
+<ul id="final-links">
+<li><a href="http://flowingdata.com/about">About</a></li>
+<li><a href="http://flowingdata.com/contact">Contact</a></li>
+<li><a href="http://flowingdata.com/sponsorship">Sponsorship</a></li>
+<li><a href="http://twitter.com/flowingdata">Twitter</a></li>
+<li><a href="http://facebook.com/flowingdata">Facebook</a></li>
+<li><a href="http://eepurl.com/icL0o">Newsletter</a></li>
+<li><a href="http://flowingdata.com/feed">RSS</a></li>
+</ul>
+<div id="bottom">Copyright &copy; 2007-Present FlowingData. All rights reserved. Be cool.</div>
+<div id="bottom-logo"><a href="http://flowingdata.com"><img src="http://flowingdata.com/wp-content/themes/fd-modern-5-4/images/logo-lone-v2d.png"/></a></div>
+</div> 
+</div> 
+ 
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-865100-4");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='http://flowingdata.com/wp-content/plugins/jetpack/modules/carousel/jetpack-carousel-ie8fix.css?ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='http://flowingdata.com/wp-includes/js/comment-reply.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://flowingdata.com/wp-content/plugins/jetpack/modules/photon/photon.js?ver=20130122'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201720'></script>
+<script type='text/javascript' src='http://flowingdata.com/wp-includes/js/wp-embed.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://flowingdata.com/wp-content/plugins/jetpack/_inc/spin.js?ver=1.3'></script>
+<script type='text/javascript' src='http://flowingdata.com/wp-content/plugins/jetpack/_inc/jquery.spin.js?ver=1.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"http:\/\/flowingdata.com\/wp-admin\/admin-ajax.php","nonce":"5d858d6cf4","display_exif":"0","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"1","require_name_email":"1","login_url":"https:\/\/flowingdata.com\/wp-login.php?redirect_to=http%3A%2F%2Fflowingdata.com%2F2017%2F05%2F12%2Fgerrymandering-game-shows-you-hot-it-works%2F","blog_id":"1","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"local_comments_commenting_as":"<p id=\"jp-carousel-commenting-as\">You must be <a href=\"#\" class=\"jp-carousel-comment-login\">logged in<\/a> to post a comment.<\/p>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://flowingdata.com/wp-content/plugins/jetpack/modules/carousel/jetpack-carousel.js?ver=20170209'></script>
+<script type='text/javascript' src='http://stats.wp.com/e-201720.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:4.9',blog:'1938889',post:'1032',tz:'-7',srv:'flowingdata.com'} ]);
+	_stq.push([ 'clickTrackerInit', '1938889', '1032' ]);
+</script>
+</body>
+</html>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

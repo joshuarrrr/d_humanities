@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1 "/> 
+<title> &raquo; Mapping Texts: Visualizing American Historical Newspapers Journal of Digital Humanities</title>
+<link rel="icon" 
+      type="image/i" 
+      href="http://journalofdigitalhumanities.org/wp-content/themes/jdh/images/favicon.ico">
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" href="http://journalofdigitalhumanities.org/wp-content/themes/jdh/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://journalofdigitalhumanities.org/wp-content/themes/jdh/stylesheets/skeleton.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://journalofdigitalhumanities.org/wp-content/themes/jdh/stylesheets/layout.css" type="text/css" media="screen" />
+<link href='http://fonts.googleapis.com/css?family=Arvo:400,400italic|Ubuntu:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link rel="pingback" href="http://journalofdigitalhumanities.org/xmlrpc.php" />
+
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/journalofdigitalhumanities.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='footnote-voodoo-css'  href='http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/footnote-voodoo.css?ver=2016.1230' type='text/css' media='all' />
+<link rel='stylesheet' id='twitter-archive-style-css'  href='http://journalofdigitalhumanities.org/wp-content/plugins/twitter-search-shortcode/ta-style.css?ver=4.7.5' type='text/css' media='all' />
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/modernizr.custom.20659.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/footnote-voodoo.js?ver=2016.1230'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.hoverIntent.minified.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.cookie.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.dcjqaccordion.2.9.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/plugins/wp-mailto-links/public/js/wp-mailto-links.js?ver=4.7.5'></script>
+<link rel='https://api.w.org/' href='http://journalofdigitalhumanities.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://journalofdigitalhumanities.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://journalofdigitalhumanities.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Building New Windows into Digitized Newspapers' href='http://journalofdigitalhumanities.org/1-3/building-new-windows-into-digitized-newspapers-by-andrew-torget-and-jon-christensen/' />
+<link rel='next' title='How Swiss was the Société Typographique de Neuchâtel? A Digital Case Study of French Book Trade Networks' href='http://journalofdigitalhumanities.org/1-3/how-swiss-was-the-stn-by-simon-burrows-and-mark-curran/' />
+<meta name="generator" content="WordPress 4.7.5" />
+<link rel="canonical" href="http://journalofdigitalhumanities.org/1-3/mapping-texts-project-by-andrew-torget-and-jon-christensen/" />
+<link rel='shortlink' href='http://journalofdigitalhumanities.org/?p=2637' />
+<link rel="alternate" type="application/json+oembed" href="http://journalofdigitalhumanities.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fjournalofdigitalhumanities.org%2F1-3%2Fmapping-texts-project-by-andrew-torget-and-jon-christensen%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://journalofdigitalhumanities.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fjournalofdigitalhumanities.org%2F1-3%2Fmapping-texts-project-by-andrew-torget-and-jon-christensen%2F&#038;format=xml" />
+<style type="text/css">
+	.addw2p {
+		list-style-type: none;
+		list-style-image: none;
+	}
+</style>
+<script type="text/javascript" src="http://journalofdigitalhumanities.org/wp-content/plugins/audio-player/assets/audio-player.js?ver=2.0.4.6"></script>
+<script type="text/javascript">AudioPlayer.setup("http://journalofdigitalhumanities.org/wp-content/plugins/audio-player/assets/player.swf?ver=2.0.4.6", {width:"290",animation:"yes",encode:"yes",initialvolume:"60",remaining:"no",noinfo:"no",buffer:"5",checkpolicy:"no",rtl:"no",bg:"E5E5E5",text:"333333",leftbg:"CCCCCC",lefticon:"333333",volslider:"666666",voltrack:"FFFFFF",rightbg:"B4B4B4",rightbghover:"999999",righticon:"333333",righticonhover:"FFFFFF",track:"FFFFFF",loader:"009900",border:"CCCCCC",tracker:"DDDDDD",skip:"666666",pagebg:"FFFFFF",transparentpagebg:"yes"});</script>
+<script type="text/javascript" src="http://journalofdigitalhumanities.org/wp-content/plugins/degradable-html5-audio-and-video/incl/audio-player.js"></script>
+<script type="text/javascript">
+	AudioPlayer.setup("http://journalofdigitalhumanities.org/wp-content/plugins/degradable-html5-audio-and-video/incl/player.swf", {
+		/* Format the player by inserting lines here. See http://wpaudioplayer.com/standalone */
+		width: 290,
+		initialvolume: 80
+	});
+</script><style type="text/css">
+
+	.footnote-indicator:before {
+		content: url(http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/footnoted.png);
+		width: 10px;
+		height: 10px;
+	}
+	ol.footnotes li {
+		background: #eeeeee url(http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/note.png) 0px 0px repeat-x;
+	}
+</style>
+<script type="text/javascript">
+	// Globals
+	var tipUpUrl = 'url(http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/tip.png)';
+	var tipDownUrl = 'url(http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/tip-down.png)';
+</script>
+			<script type="text/javascript">
+		<!--Note here the \s at the begining of the regular expression here. This is to enforce that it will only select from hashtags with a space in front of them. Otherwise it may alter links to anchors.-->
+			hashtag_regexp = /\s#([a-zA-Z0-9]+)/g;
+
+			function linkHashtags(text) {
+				return text.replace(
+					hashtag_regexp,
+					' <a class="hashtag" target="_blank" href="http://twitter.com/#search?q=$1">#$1</a>'
+				);
+			}
+
+			jQuery(document).ready(function(){
+				jQuery('p').each(function() {
+					jQuery(this).html(linkHashtags(jQuery(this).html()));
+				});
+			});
+			
+			jQuery('p').html(linkHashtags(jQuery('p').html()));  
+
+			
+		</script>
+		<script type="text/javascript">
+			
+			at_regexp = /\s\u0040([a-zA-Z0-9]+)/g;
+			
+			function linkAt(text) {
+				return text.replace(
+					at_regexp,
+					' <a class="twitter-user" target="_blank" href="http://twitter.com/$1">@$1</a>'
+				);
+			}
+
+			jQuery(document).ready(function(){
+				jQuery('p').each(function() {
+					jQuery(this).html(linkAt(jQuery(this).html()));
+				});
+			});
+			
+			jQuery('p').html(linkAt(jQuery('p').html()));  			
+			
+		</script>
+	<style type="text/css" media="all">
+/* WP Mailto Links Plugin */
+span.wpml-nodis { display:none !important; }
+span.wpml-rtl { unicode-bidi:bidi-override !important; direction:rtl !important; display:inline !important; }
+.wpml-encoded { position:absolute; margin-top:-0.3em; z-index:1000; color:green; }
+.mail-link { white-space:nowrap; }
+
+a.mail-icon-1 {
+    background-image:url("http://journalofdigitalhumanities.org/wp-content/plugins/wp-mailto-links/public/images/mail-icon-1.png");
+    background-repeat:no-repeat;
+        background-position:100% 50%; padding-right:18px;
+    }
+</style>
+<!-- begin Fast Secure reCAPTCHA - page header css -->
+<style type="text/css">
+div.fs-recaptcha-comments { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-bp-comments { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-login { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-side-login { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-registration { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-bp-registration { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-ms-registration { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-lostpassword { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-wc-checkout { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-jetpack { display:block; clear:both; margin-bottom:1em; }
+.fs-recaptcha-jetpack p { color:#DC3232; }
+</style>
+<!-- end Fast Secure reCAPTCHA - page header css -->
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+  
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+    $('#menu-table-of-contents').dcAccordion({
+		eventType: 'click',
+		hoverDelay: 0,
+		menuClose: false,
+		autoClose: true,
+		saveState: false,
+		autoExpand: true,
+		classExpand: 'current-menu-item',
+		classDisable: '',
+		showCount: false,
+		disableLink: true,
+		cookie: 'dc_jqaccordion_widget-2',
+		speed: 'fast'
+    });
+});
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//chnmdev.gmu.edu/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 70]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//chnmdev.gmu.edu/piwik/piwik.php?idsite=70" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+
+</head>
+
+<body class="post-template-default single single-post postid-2637 single-format-standard">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37455097-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><div class="wrap">
+
+<header>
+
+    <div class="container">
+        
+        <a class="site-title" href="http://journalofdigitalhumanities.org">
+            <img src="http://journalofdigitalhumanities.org/wp-content/themes/jdh/images/logo.png" alt="Journal of Digital Humanities">
+        </a>
+
+        <form role="search" method="get" id="searchform" action="http://journalofdigitalhumanities.org/">
+    <div>
+        <input type="text" value="" placeholder="Search JDH"name="s" id="s" />
+        <input type="submit" value="Search JDH" name="searchsubmit" id="searchsubmit" />
+    </div>
+</form>    
+
+        <nav>        
+            <ul class="social">
+                <li><a href="http://feeds.feedburner.com/journalofdigitalhumanities" class="RSS">Subscribe to the RSS</a></li>
+            </ul>
+
+            <div class="tabs"><ul id="menu-main-menu" class="menu"><li id="menu-item-436" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-436"><a href="http://journalofdigitalhumanities.org/about/">About</a></li>
+<li id="menu-item-2267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2267"><a href="http://journalofdigitalhumanities.org/volumes/">Volumes</a></li>
+<li id="menu-item-435" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-435"><a href="http://journalofdigitalhumanities.org/submissions/">Submissions</a></li>
+</ul></div>            
+        </nav>
+        
+    </div>
+
+</header>
+
+<section id="content" class="container row ">
+
+
+
+<div class="sidebar four columns alpha">
+    
+<h3>Table of Contents for Vol. 1, No. 3 Summer 2012</h3>
+
+<ul id="menu-table-of-contents" class="menu">
+
+        <li class="parent"><a href="http://journalofdigitalhumanities.org/category/1-3/introduction-1-3/">Introduction</a>
+            <ul class="sub-menu">
+                        <li><a href="http://journalofdigitalhumanities.org/1-3/the-difference-the-digital-makes/">The Difference the Digital Makes</a><br>The Editors</li>            </ul>
+        </li>
+        <li class="parent"><a href="http://journalofdigitalhumanities.org/category/1-3/articles-1-3/">Articles</a>
+            <ul class="sub-menu">
+                        <li><a href="http://journalofdigitalhumanities.org/1-3/where-material-book-culture-meets-digital-humanities-by-sarah-werner/">Where Material Book Culture Meets Digital Humanities</a><br>Sarah Werner</li><li><a href="http://journalofdigitalhumanities.org/1-3/the-digital-physical-by-craig-mod/">The Digital-Physical: On Building Flipboard for iPhone and Finding Edges for Our Digital Narratives</a><br>Craig Mod</li><li><a href="http://journalofdigitalhumanities.org/1-3/visualizing-san-francisco-bays-forgotten-past-by-matthew-booker/">Visualizing San Francisco Bay’s Forgotten Past</a><br>Matthew M. Booker</li><li><a href="http://journalofdigitalhumanities.org/1-3/the-impact-of-social-media-on-the-dissemination-of-research-by-melissa-terras/">The Impact of Social Media on the Dissemination of Research: Results of an Experiment</a><br>Melissa Terras</li>            </ul>
+        </li>
+        <li class="parent"><a href="http://journalofdigitalhumanities.org/category/1-3/projects-1-3/">Projects</a>
+            <ul class="sub-menu">
+                                                                                    <li class="parent"><a href="http://journalofdigitalhumanities.org/category/1-3/projects-1-3/orbis/">1. ORBIS</a>
+                        <ul class="sub-menu">
+                                                                                                    <li><a href="http://journalofdigitalhumanities.org/1-3/orbis-an-interactive-scholarly-work-on-the-roman-world-by-elijah-meeks-and-karl-grossner/">ORBIS: An Interactive Scholarly Work on the Roman World</a><br>Elijah Meeks and Karl Grossner</li><li><a href="http://journalofdigitalhumanities.org/1-3/modeling-networks-and-scholarship-with-orbis-by-elijah-meeks-and-karl-grossner/">Modeling Networks and Scholarship with ORBIS</a><br>Elijah Meeks and Karl Grossner</li>                        </ul>
+                    </li>
+                                                                            <li class="parent"><a href="http://journalofdigitalhumanities.org/category/1-3/projects-1-3/fbtee/">2. The French Book Trade in Enlightenment Europe</a>
+                        <ul class="sub-menu">
+                                                                                                    <li><a href="http://journalofdigitalhumanities.org/1-3/the-french-book-trade-in-enlightenment-europe-project-by-simon-burrows-and-mark-curran/">The French Book Trade in Enlightenment Europe Project and the STN Database</a><br>Simon Burrows and Mark Curran</li><li><a href="http://journalofdigitalhumanities.org/1-3/how-swiss-was-the-stn-by-simon-burrows-and-mark-curran/">How Swiss was the Société Typographique de Neuchâtel? A Digital Case Study of French Book Trade Networks</a><br>Simon Burrows and Mark Curran</li>                        </ul>
+                    </li>
+                                                                            <li class="parent"><a href="http://journalofdigitalhumanities.org/category/1-3/projects-1-3/mapping-texts/">3. Mapping Texts</a>
+                        <ul class="sub-menu">
+                                                                                                    <li class="current-menu-item"><a href="http://journalofdigitalhumanities.org/1-3/mapping-texts-project-by-andrew-torget-and-jon-christensen/">Mapping Texts: Visualizing American Historical Newspapers</a><br>Andrew J. Torget and Jon Christensen</li><li><a href="http://journalofdigitalhumanities.org/1-3/building-new-windows-into-digitized-newspapers-by-andrew-torget-and-jon-christensen/">Building New Windows into Digitized Newspapers</a><br>Andrew J. Torget and Jon Christensen</li>                        </ul>
+                    </li>
+                                                                        </ul>
+        </li>
+        <li class="parent"><a href="http://journalofdigitalhumanities.org/category/1-3/reviews-1-3/">Reviews</a>
+            <ul class="sub-menu">
+                        <li><a href="http://journalofdigitalhumanities.org/1-3/review-of-orbis-project-by-stuart-dunn/">Review of ORBIS</a><br>Stuart Dunn</li><li><a href="http://journalofdigitalhumanities.org/1-3/review-of-french-book-trade-in-enlightenment-europe-project-by-sean-takats/">Review of The French Book Trade in Enlightenment Europe, 1769-1794: Mapping the Trade of the Société Typographique de Neuchâtel</a><br>Sean Takats</li><li><a href="http://journalofdigitalhumanities.org/1-3/review-of-mapping-texts-by-robert-nelson/">Review of Mapping Texts</a><br>Robert Nelson</li>            </ul>
+        </li>
+   
+    <li><a href="http://journalofdigitalhumanities.org/authors/">Authors</a></li>
+</ul>
+</div>
+    
+<div id="article" class="ten columns offset-by-two omega">
+
+
+    <h1>Mapping Texts: Visualizing American Historical Newspapers</h1>
+    
+            <h4 class="author-name"><a href="http://journalofdigitalhumanities.org/author/atorget/" title="Posts by Andrew J. Torget" class="author url fn" rel="author">Andrew J. Torget</a> and <a href="http://journalofdigitalhumanities.org/author/jchristensen/" title="Posts by Jon Christensen" class="author url fn" rel="author">Jon Christensen</a></h4>
+        
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Focoins.info%3Agenerator&amp;rft.type=&amp;rft.format=text&amp;rft.title=Mapping+Texts%3A+Visualizing+American+Historical+Newspapers&amp;rft.source=Journal+of+Digital+Humanities&amp;rft.date=2012-10-01&amp;rft.identifier=http%3A%2F%2Fjournalofdigitalhumanities.org%2F1-3%2Fmapping-texts-project-by-andrew-torget-and-jon-christensen%2F&amp;rft.language=English&amp;rft.subject=Projects&amp;rft.subject=Mapping+Texts&amp;rft.subject=Vol.+1%2C+No.+3+Summer+2012&amp;rft.aulast=Torget&amp;rft.aufirst=Andrew"></span><p><a title="Mapping Texts: Visualizing American Historical Newspapers" href="http://mappingtexts.org" target="_blank">Mapping Texts</a> is an ambitious project with a simple mission: to experiment with new methods for finding and analyzing meaningful patterns embedded within massive collections of digitized historical newspapers.</p>
+<p>Why do we think this is important? Because, quite simply, historical newspapers are being digitized at a rate that is rapidly overwhelming our traditional methods of research. The <a title="Chronicling America: Historic American Newspapers" href="http://chroniclingamerica.loc.gov/" target="_blank">Chronicling America</a> project, for example, recently digitized its 5 millionth newspaper page, and predicts that more than 20 million pages will be available within a few years. Numerous other programs are also digitizing newspapers at a rapid pace worldwide, making hundreds of millions of words from the historical record readily available in electronic archives that are reaching staggering proportions.</p>
+<p>Such enormous collections offer tantalizing new possibilities for humanities research. Yet without tools and methods capable of sifting meaningful patterns from such massive datasets, the challenges of working with digitized newspapers are becoming equally overwhelming. Researchers, for example, too often find themselves confined to exploring such archives through basic text searches (which, when they produce several million hits, offer too many results to analyze in any meaningful way by hand). And scholars invariably have no ability to evaluate basic metrics (such as how much data is available from a particular time and place, or the quality of the OCR — optical character recognition — digitization process) about a given online collection. Harnessing the promise of digitized newspapers, in other words, requires building more transparent windows into the tremendous wealth of such archives.</p>
+<p>Our purpose with <a title="Mapping Texts:  Visualizing American Historical Newspapers" href="http://mappingtexts.org/" target="_blank">Mapping Texts</a>, then, has been to experiment with developing new methods for enabling scholars to sift, sort, and explore digitized historical newspapers for their research. To that end, we have attempted to combine the two most promising methods for analyzing large-scale datasets: data- and text-mining (for discovering meaningful patterns embedded in large bodies of text) and data visualization/mapping (for grouping, discovering, analyzing, and making sense of those patterns). Working with a collection of about 232,500 pages of digitized historical newspapers, we produced two interactive interfaces:</p>
+<p>1. <strong>“<a title="Mapping Texts: Mapping Newspaper Quality" href="http://mappingtexts.org/quality" target="_blank">Mapping Newspaper Quality</a>”</strong> maps a <em>quantitative </em>survey of the newspapers, plotting both the volume and quality (OCR recognition rates) of information available in the digitized collection. Through graphs, timelines, and a regional map, users can explore these metrics for any particular time period, location, or newspaper. Clicking on individual newspaper titles also allows users to jump from “distant” to “close” readings of the texts.</p>
+<div id="attachment_2813" style="width: 1034px" class="wp-caption aligncenter"><a href="http://journalofdigitalhumanities.org/wp-content/uploads/2012/08/MT_quality.jpg"><img class="size-large wp-image-2813 " title="Mapping Newspaper Quality" src="http://journalofdigitalhumanities.org/wp-content/uploads/2012/08/MT_quality-1024x763.jpg" alt="Mapping Newspaper Quality" width="1024" height="763" srcset="http://journalofdigitalhumanities.org/wp-content/uploads/2012/08/MT_quality-1024x763.jpg 1024w, http://journalofdigitalhumanities.org/wp-content/uploads/2012/08/MT_quality-300x223.jpg 300w, http://journalofdigitalhumanities.org/wp-content/uploads/2012/08/MT_quality.jpg 1049w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><p class="wp-caption-text">Mapping Newspaper Quality</p></div>
+<p>2. <strong>“<a title="Mapping Texts: Mapping Language Patterns" href="http://mappingtexts.org/language" target="_blank">Mapping Language Patterns</a>”</strong> maps a <em>qualitative </em>survey of the newspapers, plotting major language patterns embedded in the collection. For any given time period, geography, or newspaper title, users can explore the most common words (word counts), named entities (people, places, organizations), and highly correlated words (topic models), which together provide a window into the major language patterns emanating from the newspapers. Clicking on individual newspaper titles also allows users to jump from “distant” to “close” readings of the text.</p>
+<div id="attachment_2814" style="width: 784px" class="wp-caption aligncenter"><a href="http://journalofdigitalhumanities.org/wp-content/uploads/2012/08/MT_language.jpg"><img class="size-large wp-image-2814 " title="Mapping Language Patterns" src="http://journalofdigitalhumanities.org/wp-content/uploads/2012/08/MT_language-774x1024.jpg" alt="Mapping Language Patterns" width="774" height="1024" srcset="http://journalofdigitalhumanities.org/wp-content/uploads/2012/08/MT_language-774x1024.jpg 774w, http://journalofdigitalhumanities.org/wp-content/uploads/2012/08/MT_language-226x300.jpg 226w, http://journalofdigitalhumanities.org/wp-content/uploads/2012/08/MT_language.jpg 1040w" sizes="(max-width: 774px) 100vw, 774px" /></a><p class="wp-caption-text">Mapping Language Patterns</p></div>
+<p>These two interfaces are built on top of the large archive of historical newspapers digitized by the University of North Texas (UNT) as part of the <a title="Chronicling America: Historic American Newspapers" href="http://chroniclingamerica.loc.gov/" target="_blank">Chronicling America</a> project and UNT’s <a title="The Portal to Texas History" href="http://texashistory.unt.edu/" target="_blank">Portal to Texas History</a>. We selected this archive for a number of reasons: with nearly a quarter million pages, we could experiment with scale; the newspapers were digitized to the standard set by Chronicling America, providing a uniform sample; the Texas orientation of all the newspapers gave us a consistent geography for our visualization experiments. It also represented the entire corpus available to us &#8212; or any researcher &#8212; accessing UNT’s digital newspaper archive when we began the project during the fall of 2010.</p>
+<p>The project was, at base, an experiment to see what we could discover about the breadth and depth of a single electronic newspaper archive, and what that might tell us about other similar archives. The project’s interfaces are meant to be used in tandem, with the hope that researchers will combine insights from the two in order to better sift through these collections and perhaps discover previously hidden connections in the newspapers.</p>
+<p>This work depended heavily on collaborations between scholars at UNT and Stanford University — UNT’s Rada Mihalcea and Stanford’s Geoff McGhee, in particular. Please see the <a title="Mapping Texts: Visualizing American Historical Newspapers" href="http://mappingtexts.org" target="_blank">project website</a> for a full listing of the team behind the project.</p>
+
+
+        
+    <div class="author-bio">
+    
+        <h2>
+            About 
+            Andrew J. Torget, and Jon Christensen        </h2>
+        
+
+        <div class="gravatar"><img alt='' src='http://0.gravatar.com/avatar/f006d4ec07e1d48198ad9a243e276be5?s=52&#038;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&#038;r=g' srcset='http://0.gravatar.com/avatar/f006d4ec07e1d48198ad9a243e276be5?s=104&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&amp;r=g 2x' class='avatar avatar-52 photo' height='52' width='52' /></div><p class="coauthor">Andrew J. Torget is a historian of nineteenth-century North America at the University of North Texas, where he directs the Digital History Lab. The founder and director of numerous digital humanities projects -- including <em><a href="http://mappingtexts.org/">Mapping Texts</a></em>, <em><a href="http://www.texasslaveryproject.org/">Texas Slavery Project</a></em>, <em><a href="http://www.americanpast.org/voting/">Voting America</a></em>, and the <em><a href="http://historyengine.richmond.edu/">History Engine</a></em> -- Andrew served as co-editor of the <em><a href="http://valley.lib.virginia.edu/">Valley of the Shadow</a></em> project, and as the founding director of the <a href="http://dsl.richmond.edu/">Digital Scholarship Lab</a> at the University of Richmond. The co-editor of several books on the American Civil War, Andrew has been a featured speaker on the digital humanities at Harvard, Stanford, Rice, and the National Archives in Washington, D. C. In 2011, he was named the inaugural David J. Weber Research Fellow at the <a href="http://smu.edu/swcenter/">Clements Center for Southwest Studies</a> at Southern Methodist University.</p><div class="gravatar"><img alt='' src='http://0.gravatar.com/avatar/641f472a70fc7e8637cb9d8cbce9250e?s=52&#038;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&#038;r=g' srcset='http://0.gravatar.com/avatar/641f472a70fc7e8637cb9d8cbce9250e?s=104&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&amp;r=g 2x' class='avatar avatar-52 photo' height='52' width='52' /></div><p class="coauthor">Jon Christensen is a founder and principal investigator in the <a href="http://spatialhistory.stanford.edu">Spatial History Project</a> and the <a href="http://citynature.stanford.edu">City Nature</a> digital humanities project at Stanford University, and former executive director of the <a href="http://west.stanford.edu">Bill Lane Center for the American West</a>. In the fall of 2012, he will join the <a href="http://www.history.ucla.edu">History Department</a> and the <a href="http://www.environment.ucla.edu">Institute of the Environment and Sustainability</a> at the University of California, Los Angeles, where he looks forward to working with the <a href="http://www.cdh.ucla.edu">Center for Digital Humanities</a> as well.</p>    
+    </div>
+	
+        
+    		
+	
+    
+		<script type="text/javascript">
+		/* <![CDATA[ */
+		(function() {
+		var s = document.createElement("script"); s.type = "text/javascript"; s.src = "https://intensedebate.com/js/wordpressTemplateLinkWrapper2.php?acct=e54add4303ff6f42f7f1f553a1f13497"; document.getElementsByTagName("head")[0].appendChild(s);
+		}());
+		/* ]]> */
+		</script>
+    </div> <!-- ends article -->
+        
+</section> <!-- ends colmask -->
+
+</div> <!-- ends wrap -->
+
+<footer>
+    <nav class="container">
+    			<div class="execphpwidget"><div class="sixteen columns alpha">
+<a href="http://www.pressforward.org" target="_blank"><img src="http://journalofdigitalhumanities.org/wp-content/themes/jdh/images/pressforward.png" alt="Press Forward"></a>
+<a href="http://www.chnm.gmu.edu" target="_blank"><img src="http://journalofdigitalhumanities.org/wp-content/themes/jdh/images/rrchnm.png" alt="Roy Rosenzweig Center for History & New Media"></a>
+<div class="creative-commons">
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+</div>
+</div></div>
+		    </nav>
+</footer>
+
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/respond.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/selectivizr-min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/jquery.cookie.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/jquery.hoverIntent.minified.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/jquery.dcjqaccordion.2.7.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-includes/js/comment-reply.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-includes/js/wp-embed.min.js?ver=4.7.5'></script>
+</body>
+</html>

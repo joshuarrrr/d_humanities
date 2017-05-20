@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en">
+<![endif]-->
+<!--[if !(IE 6) & !(IE 7) & !(IE 8)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Seven ways humanists are using computers to understand text. | The Stone and the Shell</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="https://s0.wp.com/wp-content/themes/pub/twentyeleven/style.css" />
+<link rel="pingback" href="https://tedunderwood.com/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="https://s0.wp.com/wp-content/themes/pub/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+		<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=tedunderwood.com&amp;id=18518646&amp;t=1495303985&amp;back=https%3A%2F%2Ftedunderwood.com%2F2015%2F06%2F04%2Fseven-ways-humanists-are-using-computers-to-understand-text%2F' type="text/javascript"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		</script>
+		<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//tedunderwood.wordpress.com' />
+<link rel="alternate" type="application/rss+xml" title="The Stone and the Shell &raquo; Feed" href="https://tedunderwood.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Stone and the Shell &raquo; Comments Feed" href="https://tedunderwood.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Stone and the Shell &raquo; Seven ways humanists are using computers to understand&nbsp;text. Comments Feed" href="https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1488818651h&ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='all-css-0-1' href='https://s1.wp.com/_static/??-eJx9kdtSAyEMhl9IjM60tV44PgvQyNIGwmzY7uzbG7qeWpUbyJ/5vxwA5mI854q5QppMoSnELDAXz8lIioTLjbr3InfwN0bxhAJHrMX6k7monn1EshUPprDUG9XDPI+o+VRsbY6Eh2iRMKmth6Wy+6RaOOiI3Tbr1s6VEUWMnilOydRBG/3m1jSUyUGdNbHoQGfMIHUhNJdSKxMhc42KyVfQGyIgG2Jva+R8Jcwb2Tj2X9cRBw0DqOuH7EHWt+LOjt9Rz97+ap0EZLBj6/Vx9yhhHy3pKoGvxX/POmwgEDtLzfCaXh43zw9P+912vz2+A3BLCaE=' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var related_posts_js_options = {"post_heading":"h4"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJyFj90KwjAMhV/IrAw6xQvxWWoXS2r/bNoNfXo70At1KARCTr4cTsScgIJ2dUQWttW1Yr49W2d5I34B4MlkVbDzFF6wjqFgKAvr44kcQmXMyjStGZ3jCpciF4/MDVrZvkeiMBHOfzGLJSl9gYxM9y9XXyG5aiiwyOjaAyMsGT6mdnX0h17uh36Qcre1DyuucHk='></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://tedunderwood.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='How quickly do literary standards&nbsp;change?' href='https://tedunderwood.com/2015/05/18/how-quickly-do-literary-standards-change/' />
+<link rel='next' title='A dataset for distant-reading literature in English,&nbsp;1700-1922.' href='https://tedunderwood.com/2015/08/07/a-dataset-for-distant-reading-literature-in-english-1700-1922/' />
+<meta name="generator" content="WordPress.com" />
+<link rel="canonical" href="https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/" />
+<link rel='shortlink' href='http://wp.me/p1fHxQ-1oz' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=json&amp;url=https%3A%2F%2Ftedunderwood.com%2F2015%2F06%2F04%2Fseven-ways-humanists-are-using-computers-to-understand-text%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=xml&amp;url=https%3A%2F%2Ftedunderwood.com%2F2015%2F06%2F04%2Fseven-ways-humanists-are-using-computers-to-understand-text%2F&amp;for=wpcom-auto-discovery" />
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Seven ways humanists are using computers to understand text." />
+<meta property="og:url" content="https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/" />
+<meta property="og:description" content="[This is an updated version of a blog post I wrote three years ago, which organized introductory resources for a workshop. Getting ready for another workshop this summer, I glanced back at the old …" />
+<meta property="article:published_time" content="2015-06-04T07:00:00+00:00" />
+<meta property="article:modified_time" content="2015-11-30T19:14:00+00:00" />
+<meta property="og:site_name" content="The Stone and the Shell" />
+<meta property="og:image" content="https://tedunderwood.files.wordpress.com/2015/05/casualmap1.jpg" />
+<meta property="og:image:width" content="560" />
+<meta property="og:image:height" content="480" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@wordpressdotcom" />
+<meta name="twitter:image" content="https://tedunderwood.files.wordpress.com/2015/05/casualmap1.jpg?w=240" />
+<meta name="twitter:card" content="summary" />
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
+<link rel="shortcut icon" type="image/x-icon" href="https://secure.gravatar.com/blavatar/5711d96c6104f89617e0747253c8acb4?s=32" sizes="16x16" />
+<link rel="icon" type="image/x-icon" href="https://secure.gravatar.com/blavatar/5711d96c6104f89617e0747253c8acb4?s=32" sizes="16x16" />
+<link rel="apple-touch-icon-precomposed" href="https://secure.gravatar.com/blavatar/5711d96c6104f89617e0747253c8acb4?s=114" />
+<link rel='openid.server' href='https://tedunderwood.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='https://tedunderwood.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="https://tedunderwood.com/osd.xml" title="The Stone and the Shell" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<meta name="theme-color" content="#F1E0D4" />
+<script type="text/javascript" id="webfont-output">
+  
+  WebFontConfig = {"typekit":{"id":"lxa3tyn"}};
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+	})();
+</script><meta name="application-name" content="The Stone and the Shell" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Using large digital libraries to advance  literary history" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://tedunderwood.com/feed/;icon-uri=https://secure.gravatar.com/blavatar/5711d96c6104f89617e0747253c8acb4?s=16" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="title" content="Seven ways humanists are using computers to understand&nbsp;text. | The Stone and the Shell on WordPress.com" />
+<meta name="description" content="[This is an updated version of a blog post I wrote three years ago, which organized introductory resources for a workshop. Getting ready for another workshop this summer, I glanced back at the old post and realized it&#039;s out of date, because we&#039;ve collectively covered a lot of ground in three years. Here&#039;s an overhaul.]&hellip;" />
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #F1E0D4; }
+</style>
+<link rel="amphtml" href="https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/amp/" /><style type="text/css" id="syntaxhighlighteranchor"></style>
+</head>
+
+<body class="post-template-default single single-post postid-5367 single-format-standard custom-background mp6 customizer-styles-applied singular two-column right-sidebar highlander-enabled highlander-light">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="https://tedunderwood.com/" rel="home">The Stone and the Shell</a></span></h1>
+				<h2 id="site-description">Using large digital libraries to advance  literary history</h2>
+			</hgroup>
+
+						<a href="https://tedunderwood.com/">
+									<img src="https://tedunderwood.files.wordpress.com/2012/12/cropped-nautilus1000x288.png" width="1000" height="288" alt="" />
+							</a>
+			
+								<form method="get" id="searchform" action="https://tedunderwood.com/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search" />
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content">Skip to primary content</a></div>
+												<div class="menu"><ul>
+<li ><a href="https://tedunderwood.com/">Home</a></li><li class="page_item page-item-922"><a href="https://tedunderwood.com/18c-tree/">18c tree</a></li>
+<li class="page_item page-item-2"><a href="https://tedunderwood.com/about/">About this blog</a></li>
+<li class="page_item page-item-2465"><a href="https://tedunderwood.com/open-data/">Open data</a></li>
+<li class="page_item page-item-890"><a href="https://tedunderwood.com/tech-notes/">Tech note</a></li>
+<li class="page_item page-item-3573"><a href="https://tedunderwood.com/ted-underwood/">Ted Underwood</a></li>
+</ul></div>
+			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<div id="primary">
+			<div id="content" role="main">
+
+				
+					<nav id="nav-single">
+						<h3 class="assistive-text">Post navigation</h3>
+						<span class="nav-previous"><a href="https://tedunderwood.com/2015/05/18/how-quickly-do-literary-standards-change/" rel="prev"><span class="meta-nav">&larr;</span> Previous</a></span>
+						<span class="nav-next"><a href="https://tedunderwood.com/2015/08/07/a-dataset-for-distant-reading-literature-in-english-1700-1922/" rel="next">Next <span class="meta-nav">&rarr;</span></a></span>
+					</nav><!-- #nav-single -->
+
+					
+<article id="post-5367" class="post-5367 post type-post status-publish format-standard hentry category-disciplinary-history category-methodology tag-362478437">
+	<header class="entry-header">
+		<h1 class="entry-title">Seven ways humanists are using computers to understand&nbsp;text.</h1>
+
+				<div class="entry-meta">
+						<span class="sep">Posted on </span><a href="https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/" title="2:00 am" rel="bookmark"><time class="entry-date" datetime="2015-06-04T02:00:00+00:00">June 4, 2015</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="https://tedunderwood.com/author/tedunderwood/" title="View all posts by tedunderwood" rel="author">tedunderwood</a></span></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>[This is an updated version of <a href="https://tedunderwood.com/2012/08/14/where-to-start-with-text-mining/">a blog post I wrote three years ago,</a> which organized introductory resources for a workshop. Getting ready for another workshop this summer, I glanced back at the old post and realized it&#8217;s out of date, because we&#8217;ve collectively covered a lot of ground in three years. Here&#8217;s an overhaul.]</p>
+<p><strong>Why are humanists using computers to understand text at all?</strong><br />
+Part of the point of the phrase &#8220;digital humanities&#8221; is to claim information technology as something that belongs <em>in</em> the humanities — not an invader from some other field. And it&#8217;s true, humanistic interpretation has always had a technological dimension: we organized writing with commonplace books and concordances before we took up keyword search <a href="#bib">[Nowviskie, 2004; Stallybrass, 2007]</a>. </p>
+<p>But framing new research opportunities as a specifically humanistic movement called &#8220;DH&#8221; has the downside of obscuring a bigger picture. Computational methods are transforming the social and natural sciences as much as the humanities, and they&#8217;re doing so partly by creating new conversations between disciplines. One of the main ways computers are changing the textual humanities is by mediating new connections to social science. The statistical models that help sociologists understand social stratification and social change haven&#8217;t in the past contributed much to the humanities, because it&#8217;s been difficult to connect quantitative models to the richer, looser sort of evidence provided by written documents. But that barrier is dissolving. As new methods make it easier to represent unstructured text in a statistical model, <a href="https://people.cs.umass.edu/~wallach/workshops/nips2011css/papers/OConnor.pdf">a lot of fascinating questions are opening up for social scientists and humanists alike [O&#8217;Connor et. al. 2011].</a></p>
+<p>In short, computational analysis of text is not a specific new technology or a subfield of digital humanities; it&#8217;s a wide-open conversation in the space between several different disciplines. Humanists often approach this conversation hoping to find digital tools that will automate familiar tasks. That&#8217;s a good place to start: I&#8217;ll mention tools you could use to create a concordance or a word cloud. And it&#8217;s fair to stop there. More involved forms of text analysis do start to resemble social science, and humanists are under no obligation to dabble in social science.</p>
+<p>But I should also warn you that digital tools are gateway drugs. This thing called &#8220;text analysis&#8221; or &#8220;distant reading&#8221; is really an interdisciplinary conversation about methods, and if you get drawn into the conversation, you may find that you want to try a lot of things that aren’t packaged yet as tools.</p>
+<p><strong>What can we actually do?</strong><br />
+The image below is a map of a few things you might do with text <a href="https://prezi.com/hjkj8ztj-clv/map-of-digital-humanities/">(inspired by, though different from, Alan Liu&#8217;s map of &#8220;digital humanities&#8221;)</a>. The idea is to give you a loose sense of how different activities are related to different disciplinary traditions. We&#8217;ll start in the center, and spiral out; this is just a way to organize discussion, and isn&#8217;t necessarily meant to suggest a sequential work flow.</p>
+<p><a href="https://tedunderwood.files.wordpress.com/2015/05/casualmap1.jpg"><img data-attachment-id="5447" data-permalink="https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/casualmap/" data-orig-file="https://tedunderwood.files.wordpress.com/2015/05/casualmap1.jpg?w=584" data-orig-size="560,480" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="casualmap" data-image-description="" data-medium-file="https://tedunderwood.files.wordpress.com/2015/05/casualmap1.jpg?w=584?w=300" data-large-file="https://tedunderwood.files.wordpress.com/2015/05/casualmap1.jpg?w=584?w=560" src="https://tedunderwood.files.wordpress.com/2015/05/casualmap1.jpg?w=584" alt="casualmap"   class="aligncenter size-full wp-image-5447" srcset="https://tedunderwood.files.wordpress.com/2015/05/casualmap1.jpg 560w, https://tedunderwood.files.wordpress.com/2015/05/casualmap1.jpg?w=150 150w, https://tedunderwood.files.wordpress.com/2015/05/casualmap1.jpg?w=300 300w" sizes="(max-width: 560px) 100vw, 560px" /></a></p>
+<p><strong>1) Visualize single texts.</strong><br />
+Text analysis is sometimes represented as <a href="http://www.chroniclecareers.com/article/The-New-Modesty-in-Literary/150993/">part of a &#8220;new modesty&#8221; in the humanities [Williams]</a>. Generally, that&#8217;s a bizarre notion. Most of the methods described in this post aim to reveal patterns hidden from individual readers &#8212; not a particularly modest project. But there are a few forms of analysis that might count as surface readings, because they visualize textual patterns that are open to direct inspection. </p>
+<p>For instance, people love <a href="https://xkcd.com/657/">cartoons by Randall Munroe that visualize the plots of familiar movies</a> by showing which characters are together at different points in the narrative. <div data-shortcode="caption" id="attachment_5401" style="width: 160px" class="wp-caption alignright"><a href="https://xkcd.com/657/"><img data-attachment-id="5401" data-permalink="https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/xkcd/" data-orig-file="https://tedunderwood.files.wordpress.com/2015/05/xkcd1.jpg" data-orig-size="283,266" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="xkcd" data-image-description="" data-medium-file="https://tedunderwood.files.wordpress.com/2015/05/xkcd1.jpg?w=283" data-large-file="https://tedunderwood.files.wordpress.com/2015/05/xkcd1.jpg?w=283" src="https://tedunderwood.files.wordpress.com/2015/05/xkcd1.jpg?w=150&#038;h=141" alt="Detail from an xkcd cartoon." width="150" height="141" class="size-thumbnail wp-image-5401" srcset="https://tedunderwood.files.wordpress.com/2015/05/xkcd1.jpg?w=150&amp;h=141 150w, https://tedunderwood.files.wordpress.com/2015/05/xkcd1.jpg 283w" sizes="(max-width: 150px) 100vw, 150px" /></a><p class="wp-caption-text">Detail from an xkcd cartoon.</p></div> These cartoons reveal little we didn&#8217;t know. They&#8217;re fun to explore in part because the narratives being represented <em>are</em> familiar: we get to rediscover familiar material in a graphical medium that makes it easy to zoom back and forth between macroscopic patterns and details. <a href="http://moviegalaxies.com">Network graphs that connect characters</a> are fun to explore for a similar reason. It&#8217;s still a matter of debate what (if anything) they reveal; it&#8217;s important to keep in mind that <a href="http://www1.cs.columbia.edu/~delson/pubs/ACL2010-ElsonDamesMcKeown.pdf">fictional networks can behave very differently from real-world social networks [Elson, et al., 2010].</a> But people tend to find them interesting.</p>
+<p>A concordance also, in a sense, tells us nothing we couldn&#8217;t learn by reading on our own. But critics nevertheless find them useful. If you want to make a concordance for a single work (or for that matter a whole library), <a href="http://www.laurenceanthony.net/software.html">AntConc is a good tool.</a></p>
+<p><a href="http://textvis.lnu.se">Visualization strategies themselves</a> are a topic that could deserve a whole separate discussion.</p>
+<p><strong>2) Choose features to represent texts.</strong><br />
+A scholar undertaking computational analysis of text needs to answer two questions. First, how are you going to represent texts? Second, what are you going to do with that representation once you&#8217;ve got it? Most what follows will focus on the second question, because there are a lot of equally good answers to the first one &#8212; and your answer to the first question doesn&#8217;t necessarily constrain what you do next.</p>
+<p>In practice, texts are often represented simply by counting the various words they contain (they are treated as so-called &#8220;bags of words&#8221;). Because this representation of text is radically different from readers&#8217; sequential experience of language, people tend to be surprised that it works. But the goal of computational analysis is not, after all, to reproduce the modes of understanding readers have already achieved. If we&#8217;re trying to reveal large-scale patterns that <em>wouldn&#8217;t</em> be evident in ordinary reading, it may not actually be necessary to retrace the syntactic patterns that organize readers&#8217; understanding of specific passages. And it turns out that a lot of large-scale questions are registered at the level of word choice: authorship, theme, genre, intended audience, and so on. The popularity of <a href="https://books.google.com/ngrams">Google&#8217;s Ngram Viewer</a> shows that people often find word frequencies interesting in their own right.</p>
+<p>But there are lots of other ways to represent text. You can count two-word phrases,  or measure white space if you like. Qualitative information that can&#8217;t be counted can be represented as <a href="http://en.wikipedia.org/wiki/Categorical_variable">a &#8220;categorical variable.&#8221;</a> It&#8217;s also possible to consider syntax, if you need to. Computational linguists are getting pretty good at parsing sentences; many of their insights have been packaged accessibly in <a href="http://www.nltk.org">projects like the Natural Language Toolkit.</a> And there will certainly be research questions — <a href="http://www.ark.cs.cmu.edu/literaryCharacter/">involving, for instance, the concept of character</a> — that require syntactic analysis. But they tend not to be questions that are appropriate for people just starting out.</p>
+<p><strong>3) Identify distinctive vocabulary.</strong><br />
+It can be pretty easy, on the other hand, to produce useful insights on the level of diction. These are claims of a kind that literary scholars have long made: <em>The Norton Anthology of English Literature</em> proves that William Wordsworth emblematizes Romantic alienation, for instance, by saying that &#8220;the words &#8216;solitary,&#8217; &#8216;by one self,&#8217; &#8216;alone&#8217; sound through his poems&#8221; <a href="#bib">[Greenblatt et. al., 16].</a></p>
+<p>Of course, literary scholars have also learned to be wary of these claims. I guess Wordsworth does write &#8220;alone&#8221; a lot: but does he really do so more than other writers? &#8220;Alone&#8221; is a common word. How do we distinguish real insights about diction from specious cherry-picking?</p>
+<p>Corpus linguists have developed a number of ways to identify locutions that are really overrepresented in one sample of writing relative to others. One of the most widely used is <a href="http://sappingattention.blogspot.com/2011/10/comparing-corpuses-by-word-use.html">Dunning&#8217;s log-likelihood: Ben Schmidt has explained why it works</a>, and it&#8217;s easily accessible <a href="http://voyant-tools.org">online through Voyant</a> or downloaded in <a href="http://www.laurenceanthony.net/software.html">the AntConc application already mentioned.</a> So if you have a sample of one author&#8217;s writing (say Wordsworth), and a reference corpus against which to contrast it (say, a collection of other poetry), it&#8217;s really pretty straightforward to identify terms that typify Wordsworth relative to the other sample. (There are also other ways to measure overrepresentation; <a href="https://tedunderwood.com/2011/11/09/identifying-the-terms-that-characterize-an-author-or-genre-why-dunnings-may-not-be-the-best-method/">Adam Kilgarriff recommends a Mann-Whitney test.</a>) And in fact there&#8217;s pretty good evidence that &#8220;solitary&#8221; is among the words that distinguish Wordsworth from other poets.<div data-shortcode="caption" id="attachment_3214" style="width: 636px" class="wp-caption aligncenter"><a href="https://tedunderwood.files.wordpress.com/2012/08/wordsworthwordle1.jpg"><img data-attachment-id="3214" data-permalink="https://tedunderwood.com/2012/08/14/where-to-start-with-text-mining/wordsworthwordle-2/" data-orig-file="https://tedunderwood.files.wordpress.com/2012/08/wordsworthwordle1.jpg?w=584" data-orig-size="626,332" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="WordsworthWordle" data-image-description="" data-medium-file="https://tedunderwood.files.wordpress.com/2012/08/wordsworthwordle1.jpg?w=584?w=300" data-large-file="https://tedunderwood.files.wordpress.com/2012/08/wordsworthwordle1.jpg?w=584?w=584" src="https://tedunderwood.files.wordpress.com/2012/08/wordsworthwordle1.jpg?w=584" alt="" title="WordsworthWordle"   class="size-full wp-image-3214" srcset="https://tedunderwood.files.wordpress.com/2012/08/wordsworthwordle1.jpg?w=584 584w, https://tedunderwood.files.wordpress.com/2012/08/wordsworthwordle1.jpg?w=150 150w, https://tedunderwood.files.wordpress.com/2012/08/wordsworthwordle1.jpg?w=300 300w, https://tedunderwood.files.wordpress.com/2012/08/wordsworthwordle1.jpg 626w" sizes="(max-width: 584px) 100vw, 584px" /></a><p class="wp-caption-text">Words that are consistently more common in works by William Wordsworth than in other poets from 1780 to 1850. I&#8217;ve used Wordle&#8217;s graphics, but the words have been selected by a Mann-Whitney test, which measures overrepresentation relative to a context &#8212; not by Wordle&#8217;s own (context-free) method.</p></div></p>
+<p>It&#8217;s also easy to turn results like this into a word cloud &#8212; if you want to. People make fun of word clouds, with some justice; they&#8217;re eye-catching but don&#8217;t give you a lot of information. I use them in blog posts, because eye-catching, but I wouldn&#8217;t in an article.</p>
+<p><strong>4) Find or organize works.</strong><br />
+This rubric is shorthand for the enormous number of different ways we might use information technology to organize collections of written material or orient ourselves in discursive space. Humanists already do this all the time, of course: we rely very heavily on web search, as well as keyword searching in library catalogs and full-text databases. </p>
+<p>But our current array of strategies may not necessarily reveal all the things we want to find. This will be obvious to historians, who work extensively with unpublished material. But it&#8217;s true even for printed books: works of poetry or fiction published before 1960, for instance, are often not tagged as &#8220;poetry&#8221; or &#8220;fiction.&#8221;<div data-shortcode="caption" id="attachment_5429" style="width: 250px" class="wp-caption alignleft"><a href="https://tedunderwood.files.wordpress.com/2015/05/harlemren.jpg"><img data-attachment-id="5429" data-permalink="https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/harlemren/" data-orig-file="https://tedunderwood.files.wordpress.com/2015/05/harlemren.jpg?w=584" data-orig-size="240,199" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="HarlemRen" data-image-description="" data-medium-file="https://tedunderwood.files.wordpress.com/2015/05/harlemren.jpg?w=584?w=240" data-large-file="https://tedunderwood.files.wordpress.com/2015/05/harlemren.jpg?w=584?w=240" src="https://tedunderwood.files.wordpress.com/2015/05/harlemren.jpg?w=584"   class="size-full wp-image-5429" srcset="https://tedunderwood.files.wordpress.com/2015/05/harlemren.jpg 240w, https://tedunderwood.files.wordpress.com/2015/05/harlemren.jpg?w=150 150w" sizes="(max-width: 240px) 100vw, 240px" /></a><p class="wp-caption-text">A detail from Fig 7 in So and Long, &#8220;Network Analysis and the Sociology of Modernism.&#8221;</p></div>Even if we believed that the task of simply finding things had been solved, we would still need ways to map or organize these collections. One interesting thread of research over the last few years has involved mapping the concrete social connections that organize literary production. Natalie Houston has mapped connections between Victorian poets and publishing houses; Hoyt Long and Richard Jean So have shown how writers are related by publication in the same journals <a href="#bib">[Houston 2014; So and Long 2013].</a></p>
+<p>There are of course hundreds of other ways humanists might want to organize their material. Maps are often used <a href="http://www.nytimes.com/2015/04/14/books/stanford-literary-lab-maps-emotions-in-victorian-london.html?_r=0">to visualize references to places</a>, or <a href="http://viraltexts.org">places of publication.</a> Another obvious approach is to group works by some measure of textual similarity.</p>
+<p>There aren&#8217;t purpose-built tools to support much of this work. There are <a href="http://gephi.github.io">tools for building visualizations,</a> but often the larger part of the problem is finding, or constructing, the metadata you need.<a name="models"> </a></p>
+<p><strong>5) Model literary forms or genres.</strong><br />
+Throughout the rest of this post I&#8217;ll be talking about &#8220;modeling&#8221;; underselling the centrality of that concept seems to me the main oversight in the 2012 post I&#8217;m fixing.<div data-shortcode="caption" id="attachment_5462" style="width: 230px" class="wp-caption alignleft"><a href="https://www.flickr.com/photos/zakh/360265041/in/photolist-xQsfe-5S3YW8-8b6fRs-7Etg1A-jtcgmj-9udFwq-79Lh3V-9CG2uW-o963Ew-7xsWd3-cxb32q-7BT2Y2-5S8jAJ-7BT2XV-7BT2Ye-79LmMZ-4GLXxt-4GR9rq-4GLYbr-4GLZjn-4GLYv2-4GR9cy-4GRafN-4GLY36-4GR7Z9-4GLXC8-4GLYqz-4GLXf2-4GR97u-4GRaxU-4GR8y1-4GR9LN-4GLYF2-4GLXt8-4GLXjB-4GRa6A-4GLYK8-4GRaiS-4GR7RG-4GLZ9M-4GR8G1-4GLXMT-7QzymC-4GR9S7-4GR8eU-4GR7V3-4GLZ5K-4GR8WJ-4GLXXg-4GLZBD"><img data-attachment-id="5462" data-permalink="https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/treehouse/" data-orig-file="https://tedunderwood.files.wordpress.com/2015/05/treehouse.jpg?w=584" data-orig-size="220,178" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="treehouse" data-image-description="" data-medium-file="https://tedunderwood.files.wordpress.com/2015/05/treehouse.jpg?w=584?w=220" data-large-file="https://tedunderwood.files.wordpress.com/2015/05/treehouse.jpg?w=584?w=220" src="https://tedunderwood.files.wordpress.com/2015/05/treehouse.jpg?w=584" alt="A model treehouse, by Austin and Zak -- CC-NC-SA."   class="size-full wp-image-5462" srcset="https://tedunderwood.files.wordpress.com/2015/05/treehouse.jpg 220w, https://tedunderwood.files.wordpress.com/2015/05/treehouse.jpg?w=150 150w" sizes="(max-width: 220px) 100vw, 220px" /></a><p class="wp-caption-text">A model treehouse, by Austin and Zak &#8212; CC-NC-SA.</p></div>A model is a simplified representation of something, and in principle models can be built out of words, balsa wood, or anything you like. In practice, in the social sciences, <em>statistical</em> models are often equations that describe the probability of an association between variables. Often the &#8220;response variable&#8221; is the thing you&#8217;re trying to understand (literary form, voting behavior, or what have you), and the &#8220;predictor variables&#8221; are things you suspect might help explain or predict it.</p>
+<p>This isn&#8217;t the only way to approach text analysis; historically, humanists have tended to begin instead by first choosing some aspect of text to measure, and then launching an argument about the significance of the thing they measured. I&#8217;ve done that myself, and it can work. But social scientists prefer to tackle problems the other way around: first identify a concept that you&#8217;re trying to understand, and then try to model it. There&#8217;s something to be said for their bizarrely systematic approach.</p>
+<p>Building a model can help humanists in a number of ways. Classically, social scientists model concepts in order to understand them better. If you&#8217;re trying to understand the difference between two genres or forms, building a model could help identify the features that distinguish them.</p>
+<p>Scholars can also frame models of entirely new genres, as <a href="http://txtlab.org/?p=459">Andrew Piper does in a recent essay on the &#8220;conversional novel.&#8221;<div data-shortcode="caption" id="attachment_5533" style="width: 290px" class="wp-caption alignright"><a href="https://tedunderwood.files.wordpress.com/2015/05/simplemodel.jpeg"><img data-attachment-id="5533" data-permalink="https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/simplemodel/" data-orig-file="https://tedunderwood.files.wordpress.com/2015/05/simplemodel.jpeg?w=584" data-orig-size="280,228" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="simplemodel" data-image-description="" data-medium-file="https://tedunderwood.files.wordpress.com/2015/05/simplemodel.jpeg?w=584?w=280" data-large-file="https://tedunderwood.files.wordpress.com/2015/05/simplemodel.jpeg?w=584?w=280" src="https://tedunderwood.files.wordpress.com/2015/05/simplemodel.jpeg?w=584" alt="A very simple, imaginary statistical model that distinguishes pages of poetry from pages of prose."   class="size-full wp-image-5533" srcset="https://tedunderwood.files.wordpress.com/2015/05/simplemodel.jpeg 280w, https://tedunderwood.files.wordpress.com/2015/05/simplemodel.jpeg?w=150 150w" sizes="(max-width: 280px) 100vw, 280px" /></a><p class="wp-caption-text">A very simple, imaginary statistical model that distinguishes pages of poetry from pages of prose.</p></div>In other cases, the point of modeling will not actually be to describe or <em>explain</em> the concept being modeled, but very simply to <em>recognize</em> it at scale. I found that I needed to build predictive models <a href="http://figshare.com/articles/Understanding_Genre_in_a_Collection_of_a_Million_Volumes_Interim_Report/1281251">simply to find the fiction, poetry, and drama in a collection of 850,000 volumes.</a></p>
+<p>The tension between <a href="https://www.stat.berkeley.edu/~aldous/157/Papers/shmueli.pdf">modeling-to-explain and modeling-to-predict has been discussed at length in other disciplines [Shmueli, 2010].</a> But statistical models haven&#8217;t been used extensively in historical research yet, and humanists may well find ways to use them that aren&#8217;t common in other disciplines. For instance, once we have a model of a phenomenon, we may want to ask questions about the diachronic stability of the pattern we&#8217;re modeling. (Does a model trained to recognize this genre in one decade make equally good predictions about the next?)</p>
+<p>There are <a href="http://www.ats.ucla.edu/stat/r/dae/logit.htm">lots of software packages</a> that can <a href="http://scikit-learn.org/stable/tutorial/statistical_inference/supervised_learning.html">help you infer models of your data.</a> But assessing the validity and appropriateness of a model is a trickier business. It&#8217;s important to fully understand the methods we&#8217;re borrowing, and that&#8217;s likely to require a bit of background reading. One might start by understanding the assumptions implicit in <a href="http://onlinestatbook.com/2/regression/intro.html">simple linear models,</a> and work up to the more complex models produced by machine learning algorithms <a href="http://llc.oxfordjournals.org/content/23/4/409.full.pdf?keytype=ref&amp;ijkey=z3J27nmCeJkZuTz">[Sculley and Pasanek 2008]</a>. In particular, it&#8217;s important to learn something about the problem of <a href="http://www.willamette.edu/~gorr/classes/cs449/overfitting.html">&#8220;overfitting.&#8221;</a> Part of the reason statistical models are becoming more useful in the humanities is that new methods make it possible to use hundreds or thousands of variables, which in turn makes it possible to represent unstructured text (those bags of words tend to contain a lot of variables). But large numbers of variables raise the risk of &#8220;overfitting&#8221; your data, and you&#8217;ll need to know <a href="http://www.quora.com/What-are-ways-to-prevent-over-fitting-your-training-set-data">how to avoid that.</a></p>
+<p><strong>6) Model social boundaries.</strong><br />
+There&#8217;s no reason why statistical models of text need to be restricted to questions of genre and form. Texts are also involved in all kinds of social transactions, and those social contexts are often legible in the text itself.</p>
+<p>For instance, <a href="https://tedunderwood.com/2015/05/18/how-quickly-do-literary-standards-change/">Jordan Sellers and I have recently been studying the history of literary distinction</a> by training models to distinguish poetry reviewed in elite periodicals from a random selection of volumes drawn from a digital library. There are a lot of things we might learn by doing this, but the top-line result is that the implicit standards distinguishing elite poetic discourse turn out to be relatively stable across a century.</p>
+<p><a href="https://tedunderwood.files.wordpress.com/2015/05/plotmainmodelannotate.jpeg"><img data-attachment-id="5347" data-permalink="https://tedunderwood.com/2015/05/18/how-quickly-do-literary-standards-change/plotmainmodelannotate/" data-orig-file="https://tedunderwood.files.wordpress.com/2015/05/plotmainmodelannotate.jpeg?w=584&#038;h=389" data-orig-size="600,400" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="plotmainmodelannotate" data-image-description="" data-medium-file="https://tedunderwood.files.wordpress.com/2015/05/plotmainmodelannotate.jpeg?w=584&#038;h=389?w=300" data-large-file="https://tedunderwood.files.wordpress.com/2015/05/plotmainmodelannotate.jpeg?w=584&#038;h=389?w=584" src="https://tedunderwood.files.wordpress.com/2015/05/plotmainmodelannotate.jpeg?w=584&#038;h=389" alt="plotmainmodelannotate" width="584" height="389" class="aligncenter size-full wp-image-5347" srcset="https://tedunderwood.files.wordpress.com/2015/05/plotmainmodelannotate.jpeg?w=584&amp;h=389 584w, https://tedunderwood.files.wordpress.com/2015/05/plotmainmodelannotate.jpeg?w=150&amp;h=100 150w, https://tedunderwood.files.wordpress.com/2015/05/plotmainmodelannotate.jpeg?w=300&amp;h=200 300w, https://tedunderwood.files.wordpress.com/2015/05/plotmainmodelannotate.jpeg 600w" sizes="(max-width: 584px) 100vw, 584px" /></a>Similar questions could be framed <a href="https://people.cs.umass.edu/~wallach/workshops/nips2011css/papers/OConnor.pdf">about political or legal history.</a></p>
+<p><strong>7) Unsupervised modeling.</strong><br />
+The models we&#8217;ve discussed so far are <em>supervised</em> in the sense that they have an explicit goal. You already know (say) which novels got reviewed in prominent periodicals, and which didn&#8217;t; you&#8217;re training a model in order to discover whether there are any patterns in the texts themselves that might help us explain this social boundary, or trace its history.</p>
+<p>But advances in machine learning have also made it possible to train <em>unsupervised</em> models. Here you start with an unlabeled collection of texts; you ask a learning algorithm to organize the collection by finding clusters or patterns of some loosely specified kind. You don&#8217;t necessarily know what patterns will emerge.</p>
+<p>If this sounds epistemologically risky, you&#8217;re not wrong. Since the hermeneutic circle doesn&#8217;t allow us to get something for nothing, unsupervised modeling does inevitably involve a lot of (explicit) assumptions. It can nevertheless be extremely useful as an exploratory heuristic, and sometimes as a foundation for argument. A family of <a href="https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/">unsupervised algorithms called &#8220;topic modeling&#8221;</a> have attracted a lot of attention in the last few years, from both <a href="http://www.sciencedirect.com/science/journal/0304422X/41/6">social scientists</a> and <a href="http://journalofdigitalhumanities.org/2-1/">humanists.</a> Robert K. Nelson has u<a href="http://dsl.richmond.edu/dispatch/pages/home">sed topic modeling, for instance, to identify patterns of publication in a Civil-War-era newspaper from Richmond.</a></p>
+<p><a href="http://dsl.richmond.edu/dispatch/Topics"><img data-attachment-id="5513" data-permalink="https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/fugitive/" data-orig-file="https://tedunderwood.files.wordpress.com/2015/05/fugitive.jpg?w=584&#038;h=276" data-orig-size="852,403" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Fugitive" data-image-description="" data-medium-file="https://tedunderwood.files.wordpress.com/2015/05/fugitive.jpg?w=584&#038;h=276?w=300" data-large-file="https://tedunderwood.files.wordpress.com/2015/05/fugitive.jpg?w=584&#038;h=276?w=584" src="https://tedunderwood.files.wordpress.com/2015/05/fugitive.jpg?w=584&#038;h=276" alt="Fugitive" width="584" height="276" class="aligncenter size-full wp-image-5513" srcset="https://tedunderwood.files.wordpress.com/2015/05/fugitive.jpg?w=584&amp;h=276 584w, https://tedunderwood.files.wordpress.com/2015/05/fugitive.jpg?w=150&amp;h=71 150w, https://tedunderwood.files.wordpress.com/2015/05/fugitive.jpg?w=300&amp;h=142 300w, https://tedunderwood.files.wordpress.com/2015/05/fugitive.jpg?w=768&amp;h=363 768w, https://tedunderwood.files.wordpress.com/2015/05/fugitive.jpg 852w" sizes="(max-width: 584px) 100vw, 584px" /></a><br />
+But I&#8217;m putting unsupervised models at the end of this list because they may almost be too seductive. Topic modeling is perfectly designed for workshops and demonstrations, since you don&#8217;t have to start with a specific research question. A group of people with different interests can just pour a collection of texts into the computer, gather round, and see what patterns emerge. Generally, interesting patterns do emerge: topic modeling can be a powerful tool for discovery. But it would be a mistake to take this workflow as paradigmatic for text analysis. Usually researchers begin with specific research questions, and for that reason I suspect we&#8217;re often going to prefer supervised models.</p>
+<p style="text-align:center;">*     *     *</p>
+<p>In short, there are a lot of new things humanists can do with text, ranging from new versions of things we&#8217;ve always done (make literary arguments about diction), to modeling experiments that take us fairly deep into the methodological terrain of the social sciences. Some of these projects can be crystallized in a push-button &#8220;tool,&#8221; but some of the more ambitious projects require a little familiarity with <a href="http://www.rstudio.com">a data-analysis environment like Rstudio</a>, or even a programming language <a href="https://www.python.org">like Python,</a> and more importantly with the assumptions underpinning quantitative social science. For that reason, I don&#8217;t expect these methods to become universally diffused in the humanities any time soon. In principle, everything above is accessible for undergraduates, with a semester or two of preparation &#8212; but it&#8217;s not preparation of a kind that English or History majors are guaranteed to have.</p>
+<p>Generally I leave blog posts undisturbed after posting them, to document what happened when. But things are changing rapidly, and it&#8217;s a lot of work to completely overhaul a survey post like this every few years, so in this one case I may keep tinkering and adding stuff as time passes. I&#8217;ll flag my edits with a date in square brackets. </p>
+<p style="text-align:center;"><a name="bib">*     *    *</a></p>
+<p><strong>SELECTED BIBLIOGRAPHY</strong></p>
+<p>Elson, D. K., N. Dames, and K. R. McKeown. <a href="http://www1.cs.columbia.edu/~delson/pubs/ACL2010-ElsonDamesMcKeown.pdf">“Extracting Social Networks from Literary Fiction.”</a> Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics. Uppsala, Sweden, 2010. 138-147.</p>
+<p>Greenblatt, Stephen, et. al., <em>Norton Anthology of English Literature</em> 8th Edition, vol 2 (New York: WW Norton, 2006.</p>
+<p>Houston, Natalie. <a href="http://www.jstor.org/stable/10.2979/victorianstudies.56.3.498">“Towards a Computational Analysis of Victorian Poetics.”</a> <em>Victorian Studies</em> 56.3 (Spring 2014): 498-510.</p>
+<p>Nowviskie, Bethany. <a href="http://nowviskie.org/dissertation.pdf">&#8220;Speculative Computing: Instruments for Interpretive Scholarship.&#8221;</a> Ph.D dissertation, University of Virginia, 2004.</p>
+<p>O’Connor, Brendan, David Bamman, and Noah Smith, <a href="https://people.cs.umass.edu/~wallach/workshops/nips2011css/papers/OConnor.pdf">“Computational Text Analysis for Social Science: Model Assumptions and Complexity,”</a> NIPS Workshop on Computational Social Science, December 2011.</p>
+<p>Piper, Andrew. <a href="https://muse.jhu.edu/journals/new_literary_history/toc/nlh.46.1.html">&#8220;Novel Devotions: Conversional Reading, Computational Modeling, and the Modern Novel.&#8221;</a> <em>New Literary History</em> 46.1 (2015).</p>
+<p>Sculley, D., and Bradley M. Pasanek. <a href="http://llc.oxfordjournals.org/content/23/4/409.full.pdf?keytype=ref&amp;ijkey=z3J27nmCeJkZuTz">&#8220;Meaning and Mining: The Impact of Implicit Assumptions in Data Mining for the Humanities.&#8221;</a> <em>Literary and Linguistic Computing</em> 23.4 (2008): 409-24.</p>
+<p>Shmueli, Galit. <a href="http://arxiv.org/pdf/1101.0891.pdf">&#8220;To Explain or to Predict?&#8221;</a> <em>Statistical Science</em> 25.3 (2010).</p>
+<p>So, Richard Jean, and Hoyt Long,<a href="http://boundary2.dukejournals.org/content/40/2/147.abstract"> &#8220;Network Analysis and the Sociology of Modernism,&#8221;</a> <em>boundary 2</em> 40.2 (2013).</p>
+<p>Stallybrass, Peter. <a href="http://athanasius.stanford.edu/Readings/Responses.pdf">&#8220;Against Thinking.&#8221;</a> <em>PMLA</em> 122.5 (2007): 1580-1587.</p>
+<p>Williams, Jeffrey. <a href="http://www.chroniclecareers.com/article/The-New-Modesty-in-Literary/150993/">&#8220;The New Modesty in Literary Criticism.&#8221;</a> <em>Chronicle of Higher Education</em> January 5, 2015.</p>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-5367" class="share-twitter sd-button share-icon" href="https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/?share=twitter" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-18518646-5367-5920873123cbc' data-src='//widgets.wp.com/likes/#blog_id=18518646&amp;post_id=5367&amp;origin=tedunderwood.wordpress.com&amp;obj_id=18518646-5367-5920873123cbc' data-name='like-post-frame-18518646-5367-5920873123cbc'><h3 class='sd-title'>Like this:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Like</span></span> <span class="loading">Loading...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div>
+<div id='jp-relatedposts' class='jp-relatedposts' >
+	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+</div></div>			</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		This entry was posted in <a href="https://tedunderwood.com/category/disciplinary-history/" rel="category tag">disciplinary history</a>, <a href="https://tedunderwood.com/category/methodology/" rel="category tag">methodology</a> and tagged <a href="https://tedunderwood.com/tag/239359651/" rel="tag">*</a> by <a href="https://tedunderwood.com/author/tedunderwood/">tedunderwood</a>. Bookmark the <a href="https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/" title="Permalink to Seven ways humanists are using computers to understand&nbsp;text." rel="bookmark">permalink</a>.		
+				<div id="author-info">
+			<div id="author-avatar">
+				<img alt='' src='https://1.gravatar.com/avatar/76dd28669b8c966858940eeb24cc684a?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' />			</div><!-- #author-avatar -->
+			<div id="author-description">
+				<h2>About tedunderwood</h2>
+				Ted Underwood is Professor of English at the University of Illinois, Urbana-Champaign. On Twitter he is @Ted_Underwood.				<div id="author-link">
+					<a href="https://tedunderwood.com/author/tedunderwood/" rel="author">
+						View all posts by tedunderwood <span class="meta-nav">&rarr;</span>					</a>
+				</div><!-- #author-link	-->
+			</div><!-- #author-description -->
+		</div><!-- #author-info -->
+			</footer><!-- .entry-meta -->
+</article><!-- #post-5367 -->
+
+						<div id="comments">
+	
+	
+			<h2 id="comments-title">
+			26 thoughts on &ldquo;<span>Seven ways humanists are using computers to understand&nbsp;text.</span>&rdquo;		</h2>
+
+		
+		<ol class="commentlist">
+				<li class="post pingback">
+		<p>Pingback: <a href='http://chronicle.com/blogs/profhacker/weekend-reading-summer-camp-edition/60295' rel='external nofollow' class='url'>Weekend Reading: Summer Camp Edition &#8211; ProfHacker - Blogs - The Chronicle of Higher Education</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://summercamp.besaba.com/weekend-reading-summer-camp-edition' rel='external nofollow' class='url'>Weekend Reading: Summer Camp Edition | Summer Camp</a></p>
+	</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1 highlander-comment" id="li-comment-21374">
+		<article id="comment-21374" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://0.gravatar.com/avatar/3b7c32c9c805513a374f8521973342c7?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' /><span class="fn"><a href='http://gravatar.com/gabrielhankins' rel='external nofollow' class='url'>Gabriel Hankins</a></span> on <a href="https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/#comment-21374"><time datetime="2015-06-07T07:58:00+00:00">June 7, 2015 at 7:58 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Wonderfully concise, Ted, thank you.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='https://texperimentales.hypotheses.org/1408' rel='external nofollow' class='url'>Experiments as Objects of Scholarly Communication #dhiha6 | TEXperimenTales</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://www.nerdcore.de/2015/06/09/links-20150609/' rel='external nofollow' class='url'>Nerdcore › Links 20150609</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='https://digitizedhistory.wordpress.com/2015/06/09/weekly-roundup-june-8/' rel='external nofollow' class='url'>Weekly Roundup: June 8 | Digitized History</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://blog.offeryour.com/?p=232649' rel='external nofollow' class='url'>46 – How humanists are using computers to understand text | Offer Your</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://blog.explodingads.com/?p=31439' rel='external nofollow' class='url'>46 – How humanists are using computers to understand text | Exploding Ads</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://blog.raffaeleviti.it/2015/06/httptedunderwood-com20150604seven-ways-humanists-are-using-computers-to-understand-text/' rel='external nofollow' class='url'>https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/ - Raffaele Viti</a></p>
+	</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-mollycdesjardin odd alt thread-odd thread-alt depth-1 highlander-comment" id="li-comment-21388">
+		<article id="comment-21388" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://2.gravatar.com/avatar/83b49bc6c01921ad52fd9aba3826fc1d?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' /><span class="fn"><a href='http://www.mollydesjardin.com' rel='external nofollow' class='url'>Molly Des Jardin</a></span> on <a href="https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/#comment-21388"><time datetime="2015-06-09T08:43:50+00:00">June 9, 2015 at 8:43 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>I really enjoyed this Ted, and the bibliography is so helpful. I do have an issue with the definition of unsupervised text analysis though; it simply means there is no training set, not that there&#8217;s no research question. I myself have employed unsupervised machine learning with specific research questions in mind in projects where I simply didn&#8217;t have the resources to create a training set, and took that into account when forming the research questions. I don&#8217;t think exploratory and having a research question are mutually exclusive. But anyway, this is a great post and thank you for it!</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment byuser comment-author-tedunderwood bypostauthor even depth-2 highlander-comment" id="li-comment-21389">
+		<article id="comment-21389" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/76dd28669b8c966858940eeb24cc684a?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='https://tedunderwood.wordpress.com' rel='external nofollow' class='url'>tedunderwood</a></span> on <a href="https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/#comment-21389"><time datetime="2015-06-09T09:27:06+00:00">June 9, 2015 at 9:27 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>You&#8217;re quite right about that. There are lots of clever ways to use topic modeling to get leverage on specific issues. If I remember rightly, Mohr and Bogdanov recommend being explicit about research goals in  <a href="http://www.sciencedirect.com/science/article/pii/S0304422X13000685" rel="nofollow">their intro to that <em>Poetics</em> issue on topic modeling,</a> and Andrew Goldstone and I definitely began our topic modeling work with some explicit hypotheses.</p>
+<p>So I don&#8217;t mean to diss topic modeling as necessarily aimless, just noting that its popularity may have something to do with the fact that &#8220;you don&#8217;t <em>have</em> to start with a specific research question&#8221; (italics added). But that&#8217;s a slippery point, and one that needed clarification &#8212; thanks!</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	<ul class="children">
+	<li class="comment byuser comment-author-mollycdesjardin odd alt depth-3 highlander-comment" id="li-comment-21390">
+		<article id="comment-21390" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://2.gravatar.com/avatar/83b49bc6c01921ad52fd9aba3826fc1d?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='http://www.mollydesjardin.com' rel='external nofollow' class='url'>Molly Des Jardin</a></span> on <a href="https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/#comment-21390"><time datetime="2015-06-09T09:34:42+00:00">June 9, 2015 at 9:34 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Good point and I&#8217;m glad you made it clear in the post, by the way, since topic modeling is so popular and I feel like sometimes people treat it as an end in itself, especially if they&#8217;re new to computational methods in literary studies. Anyway, the unsupervised methods I used were not topic modeling (they were based in analysis of POS/grammatical patterns), so that&#8217;s why the description of unsupervised methods jumped out at me.</p>
+<p>Regards-</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-mollycdesjardin even depth-3 highlander-comment" id="li-comment-21391">
+		<article id="comment-21391" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://2.gravatar.com/avatar/83b49bc6c01921ad52fd9aba3826fc1d?s=39&#038;d=identicon&#038;r=R' class='avatar avatar-39' height='39' width='39' /><span class="fn"><a href='http://www.mollydesjardin.com' rel='external nofollow' class='url'>Molly Des Jardin</a></span> on <a href="https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/#comment-21391"><time datetime="2015-06-09T09:35:00+00:00">June 9, 2015 at 9:35 am</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Also thanks for the citation of this issue of Poetics. I am going to check it out!</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://www.dhiha6.org/2015/06/11/jurgen-hermes-experiments-as-objects-of-scholarly-communication/' rel='external nofollow' class='url'>Jürgen Hermes: Experiments as Objects of Scholarly Communication | DHIHA6</a></p>
+	</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-vincentdata4seo odd alt thread-even depth-1 highlander-comment" id="li-comment-21449">
+		<article id="comment-21449" class="comment">
+			<footer class="comment-meta">
+				<div class="comment-author vcard">
+					<img alt='' src='https://1.gravatar.com/avatar/742cd953b040f96194af797dca8e9cc7?s=68&#038;d=identicon&#038;r=R' class='avatar avatar-68' height='68' width='68' /><span class="fn"><a href='http://data-seo.com' rel='external nofollow' class='url'>Vincent Terrasi</a></span> on <a href="https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/#comment-21449"><time datetime="2015-06-19T18:15:51+00:00">June 19, 2015 at 6:15 pm</time></a> <span class="says">said:</span>
+									</div><!-- .comment-author .vcard -->
+
+				
+			</footer>
+
+			<div class="comment-content"><p>Reblogged this on <a href="http://data-seo.com/2015/06/20/seven-ways-humanists-are-using-computers-to-understand-text/" rel="nofollow">DATA-SEO</a>.</p>
+</div>
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://texperimentales.hypotheses.org/1408' rel='external nofollow' class='url'>Experiments as Objects of Scholarly Communication #dhiha6 | TEXperimenTales</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='https://colonialimagination.wordpress.com/2015/07/26/weekly-internet-review-720-726/' rel='external nofollow' class='url'>Weekly Internet Review 7/20-7/26 | Colonial Imagination</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='https://eng553springb2016.wordpress.com/2016/04/05/whats-new-and-due-during-week-4/' rel='external nofollow' class='url'>What&#8217;s New and Due During Week 4 | Digital Literacies | ENG 553 | Spring B 2016</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://ec2-52-37-250-134.us-west-2.compute.amazonaws.com/2016/08/07/avant-gardes-and-emigres-dh-lab-seminar/' rel='external nofollow' class='url'>Avant-Gardes and Emigres: DH Lab seminar &#8211; Russian &amp; Eastern European Studies</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='https://cybermethods.wordpress.com/2016/12/18/week-11/' rel='external nofollow' class='url'>11. Text Analytics &#8211; CyberMethods</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='http://ashleyrsanders.com/text-analysis-reading-group-syllabus/' rel='external nofollow' class='url'>Text Analysis Reading Group Syllabus | Ashley R. Sanders</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='https://dh20blog.wordpress.com/2017/01/23/first-blog-post/' rel='external nofollow' class='url'>HUM700: Digital Humanities 2.0 &#8211; Digital Humanities 2.0</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='https://dh20blog.wordpress.com/2017/01/23/course-outline/' rel='external nofollow' class='url'>HUM700: Digital Humanities 2.0 Syllabus &#8211; Digital Humanities 2.0</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='https://eng598springb2017.wordpress.com/2017/04/01/week-four-overview/' rel='external nofollow' class='url'>Week Four Overview | ENG 598: Digital Literacies | 30499</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='https://eng598springb2017.wordpress.com/2017/04/06/posting-47/' rel='external nofollow' class='url'>Posting 4/7 | ENG 598: Digital Literacies | 30499</a></p>
+	</li><!-- #comment-## -->
+	<li class="post pingback">
+		<p>Pingback: <a href='https://eng598springb2017.wordpress.com/2017/04/10/week-five-overview/' rel='external nofollow' class='url'>Week Five Overview | ENG 598: Digital Literacies | 30499</a></p>
+	</li><!-- #comment-## -->
+		</ol>
+
+		
+				<p class="nocomments">Comments are closed.</p>
+		
+	
+	
+</div><!-- #comments -->
+
+				
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+				 				<a href="https://wordpress.com/?ref=footer_blog">Blog at WordPress.com.</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<!--  -->
+<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201720y'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	<div class="grofile-hash-map-76dd28669b8c966858940eeb24cc684a">
+	</div>
+	<div class="grofile-hash-map-3b7c32c9c805513a374f8521973342c7">
+	</div>
+	<div class="grofile-hash-map-83b49bc6c01921ad52fd9aba3826fc1d">
+	</div>
+	<div class="grofile-hash-map-76dd28669b8c966858940eeb24cc684a">
+	</div>
+	<div class="grofile-hash-map-742cd953b040f96194af797dca8e9cc7">
+	</div>
+	</div>
+
+	<div id="carousel-reblog-box">
+		<form action="#" name="carousel-reblog">
+			<textarea id="carousel-reblog-content" name="carousel-reblog-content" placeholder="Add your thoughts here... (optional)"></textarea>
+			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Post to</label>
+			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
+						</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="#" class="cancel">Cancel</a></span>
+				<input type="submit" name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="Reblog Post" />
+				<input type="hidden" id="carousel-reblog-blog-id" value="18518646" />
+				<input type="hidden" id="carousel-reblog-blog-url" value="https://tedunderwood.com" />
+				<input type="hidden" id="carousel-reblog-blog-title" value="The Stone and the Shell" />
+				<input type="hidden" id="carousel-reblog-post-url" value="" />
+				<input type="hidden" id="carousel-reblog-post-title" value="" />
+			</div>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="bd507042d9" /><input type="hidden" name="_wp_http_referer" value="/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/" />		</form>
+
+		<div class="arrow"></div>
+	</div>
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/tedunderwood.com\/2015\/06\/04\/seven-ways-humanists-are-using-computers-to-understand-text\/":5367};
+	</script>
+		<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-twitter' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+		});
+		</script>
+		<link rel='stylesheet' id='all-css-0-2' href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel.css?m=1481571546h' type='text/css' media='all' />
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1412618825h&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var actionbardata = {"siteID":"18518646","siteName":"The Stone and the Shell","siteURL":"https:\/\/tedunderwood.com","icon":"<img alt='' src='https:\/\/secure.gravatar.com\/blavatar\/5711d96c6104f89617e0747253c8acb4?s=50&d=https%3A%2F%2Fs1.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/twentyeleven","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/tedunderwood.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Ftedunderwood.com%2F2015%2F06%2F04%2Fseven-ways-humanists-are-using-computers-to-understand-text%2F","themeURL":"https:\/\/wordpress.com\/theme\/twentyeleven\/","xhrURL":"https:\/\/tedunderwood.com\/wp-admin\/admin-ajax.php","nonce":"9cac39b10c","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"5d03b4b0a1\" \/>","referer":"https:\/\/tedunderwood.com\/2015\/06\/04\/seven-ways-humanists-are-using-computers-to-understand-text\/","canFollow":"1","statusMessage":"","customizeLink":"https:\/\/tedunderwood.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Ftedunderwood.wordpress.com%2F2015%2F06%2F04%2Fseven-ways-humanists-are-using-computers-to-understand-text%2F","postID":"5367","shortlink":"http:\/\/wp.me\/p1fHxQ-1oz","canEditPost":"","editLink":"https:\/\/wordpress.com\/post\/tedunderwood.com\/5367","statsLink":"https:\/\/wordpress.com\/stats\/post\/5367\/tedunderwood.com","i18n":{"view":"View site","follow":"Follow","following":"Following","edit":"Edit","login":"Log in","signup":"Sign up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Twenty Eleven","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editSubs":"Manage subscriptions","viewReader":"View site in the Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"Join 1,515 other followers","alreadyUser":"Already have a WordPress.com account? <a href=\"https:\/\/tedunderwood.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Ftedunderwood.com%2F2015%2F06%2F04%2Fseven-ways-humanists-are-using-computers-to-understand-text%2F\">Log in now.<\/a>","stats":"Stats"}};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/tedunderwood.com\/wp-admin\/admin-ajax.php","nonce":"89971a9d19","display_exif":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/tedunderwood.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Ftedunderwood.com%2F2015%2F06%2F04%2Fseven-ways-humanists-are-using-computers-to-understand-text%2F","blog_id":"18518646","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=18518646&v=wpcom&tz=-5&user_id=0&subd=tedunderwood","is_public":"1","reblog_enabled":""};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??-eJx9j0sOwjAMRC9E6oIQiAXiLCE14JAfdlLo7QkSLV2grmzNeJ5teCZlYsgYMliBDnsymF6NlRXMLF9UcuVKQcDRHQUeBQvedOgc8jhMwbjSVbOCTPS+BhVjckPjKSwQdVd9ddYMXktGrp2KPTLTBzZpSwSTKYYPYer+HSXpd8dct/UbHr6lmU/92WU0xyLowGJO2tzVKCxkUpSsLk4Tg9w0U7iOtYZO/rjeHjZtu1tv9vYN8xKV8g=='></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>		<iframe src='https://widgets.wp.com/likes/master.html?ver=20170206#ver=20170206' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
+		<div id='likes-other-gravatars'><div class="likes-text"><span>%d</span> bloggers like this:</div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+		<script>
+			var _comscore = _comscore || [];
+			_comscore.push({
+				c1: "2",
+				c2: "7518284"
+			});
+			(function() {
+				var s = document.createElement("script"),
+					el = document.getElementsByTagName("script")[0];
+				s.defer = true;
+				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);
+			})();
+		</script>
+		<noscript>
+			<p class="robots-nocontent"><img src="https://sb.scorecardresearch.com/p?c1=2&c2=7518284&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1" alt="" style="display:none;" width="1" height="1" /></p>
+		</noscript><script src="//stats.wp.com/w.js?56" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'18518646','blog_tz':'-5','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'18518646','v':'wpcom','tz':'-5','user_id':'0','post':'5367','subd':'tedunderwood'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1TaVhzUzFMbjdWNHpwZGhTayxPSUFCMGNrd29+Smw0TDhnZmRTK0hlRi9QSGh6bi9GXVhBJWIlZlR5U1JMLU8/MkNtblkvY1dzK3YrWW1CbjZiL2VlLnR6QkUsbDdSejJMclp1JjF8LWJsMi1MWEE1Ll83OXVBNnYtT1hfcVd0dF03U2ZTemFsY1czWmtVUiY/fFAsLC5lVmt4VEN6WnVxQUpRRSszbFZyRGNkW2dpNU9iJm1JeVhwSTNHRjUvVCxVcj9MLWlxNjlhSlcsTzNTbXZnbll5LFI2XS9tc1s/RUJoQzRJWzZhTmYyWl1aUG5uQSZGXXwsYU0rSytNbEElUy1MLitHUE5TMTVi'}]);
+_stq.push([ 'clickTrackerInit', '18518646', '5367' ]);
+	</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
+</html>

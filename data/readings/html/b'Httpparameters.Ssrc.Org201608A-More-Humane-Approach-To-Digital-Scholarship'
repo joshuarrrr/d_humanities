@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="pingback" href="http://parameters.ssrc.org/xmlrpc.php" />	
+	<title>A more humane approach to digital scholarship | | Parameters</title>
+<meta property="og:site_name" content="Parameters" /><meta property="og:title" content="A more humane approach to digital scholarship" /><meta property="og:type" content="article" /><meta property="og:description" content="Ever since the publication of Franco Moretti’s fascinating book Graphs, Maps, Trees: Abstract Models for Literary History in 2005, scholars in the digital humanities have used his terms “close reading”..." /><meta property="og:url" content="http://parameters.ssrc.org/2016/08/a-more-humane-approach-to-digital-scholarship/" /><meta property="og:image" content="http://parameters.ssrc.org/wp-content/uploads/2016/08/iStock_11149001_LARGE_Dark-1000x665.jpg" /><meta property="og:image:url" content="http://parameters.ssrc.org/wp-content/uploads/2016/08/iStock_11149001_LARGE_Dark-1000x665.jpg" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:site" content="@ssrcdigital" /><meta name="twitter:title" content="A more humane approach to digital scholarship" /><meta name="twitter:description" content="Ever since the publication of Franco Moretti’s fascinating book Graphs, Maps, Trees: Abstract Models for Literary History in 2005, scholars in the digital humanities have used his terms “close reading”..." /><meta name="twitter:url" content="http://parameters.ssrc.org/2016/08/a-more-humane-approach-to-digital-scholarship/" /><meta name="twitter:image" content="http://parameters.ssrc.org/wp-content/uploads/2016/08/iStock_11149001_LARGE_Dark-1000x665.jpg" /><meta name="author" content="The Editors">
+
+<!-- All in One SEO Pack 2.3.12.2.1 by Michael Torbert of Semper Fi Web Design[209,280] -->
+<meta name="description"  content="Can diagrams, bar charts, or network maps possibly convey the human warmth and drama of literature, religion, and history? And what happens to a researcher’s" />
+
+<link rel="canonical" href="http://parameters.ssrc.org/2016/08/a-more-humane-approach-to-digital-scholarship/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Parameters &raquo; Feed" href="http://parameters.ssrc.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Parameters &raquo; Comments Feed" href="http://parameters.ssrc.org/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Parameters &raquo; A more humane approach to digital scholarship Comments Feed" href="http://parameters.ssrc.org/2016/08/a-more-humane-approach-to-digital-scholarship/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/parameters.ssrc.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='mci-footnotes-css-public-css'  href='http://parameters.ssrc.org/wp-content/plugins/footnotes/class/../css/public.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://parameters.ssrc.org/wp-includes/css/dashicons.min.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='easy-pull-quotes-css'  href='http://parameters.ssrc.org/wp-content/plugins/easy-pull-quotes/public/css/easy-pull-quotes-public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='collapseomatic-css-css'  href='http://parameters.ssrc.org/wp-content/plugins/jquery-collapse-o-matic/light_style.css?ver=1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='ssrc_metanav-css'  href='http://parameters.ssrc.org/wp-content/plugins/ssrc-metanav/styles/metanav.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='md-bone-vendor-style-css'  href='http://parameters.ssrc.org/wp-content/themes/bone/css/vendor.css?ver=2.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='md-bone-style-css'  href='http://parameters.ssrc.org/wp-content/themes/bone/style.css?ver=2.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='md-bone-child-style-css'  href='http://parameters.ssrc.org/wp-content/themes/parameters-child/style.css?ver=1495028712' type='text/css' media='all' />
+<script type='text/javascript' src='http://parameters.ssrc.org/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://parameters.ssrc.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://parameters.ssrc.org/wp-content/plugins/footnotes/class/../js/jquery.tools.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://parameters.ssrc.org/wp-content/plugins/wp-retina-2x/js/picturefill.min.js?ver=3.0.2'></script>
+<link rel='https://api.w.org/' href='http://parameters.ssrc.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://parameters.ssrc.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://parameters.ssrc.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Challenges to archives in an age of digital abundance' href='http://parameters.ssrc.org/2016/07/challenges-to-archives-in-an-age-of-digital-abundance/' />
+<link rel='next' title='Social science, scholarly knowledge, and the open' href='http://parameters.ssrc.org/2016/08/social-science-scholarly-knowledge-and-the-open/' />
+<meta name="generator" content="WordPress 4.7.5" />
+<link rel='shortlink' href='http://parameters.ssrc.org/?p=216' />
+<link rel="alternate" type="application/json+oembed" href="http://parameters.ssrc.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fparameters.ssrc.org%2F2016%2F08%2Fa-more-humane-approach-to-digital-scholarship%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://parameters.ssrc.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fparameters.ssrc.org%2F2016%2F08%2Fa-more-humane-approach-to-digital-scholarship%2F&#038;format=xml" />
+<style>.metanav-container{background:#F57F2B;}.metanav{width:1200px;}</style><style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style><link rel="icon" href="http://parameters.ssrc.org/wp-content/uploads/2016/07/cropped-Favicon_Parameters-32x32.png" sizes="32x32" />
+<link rel="icon" href="http://parameters.ssrc.org/wp-content/uploads/2016/07/cropped-Favicon_Parameters-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="http://parameters.ssrc.org/wp-content/uploads/2016/07/cropped-Favicon_Parameters-180x180.png" />
+<meta name="msapplication-TileImage" content="http://parameters.ssrc.org/wp-content/uploads/2016/07/cropped-Favicon_Parameters-270x270.png" />
+<style type="text/css" title="dynamic-css" class="options-output">.siteTitle--default{padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;}.siteTitle--small{padding-top:5px;padding-right:0;padding-bottom:5px;padding-left:0;}.primaryBgColor,input[type="submit"],.postCategory,.progressContainer-bar,.reviewMeter-item-score,.reviewBox-summary-totalScore-wrap,.postTitle .featuredBadge,.btn.btn--solid,.postFormatLink .o-backgroundImg,.featuredBlock--slider article.noThumb,.post--review-meter-bar,.post--review-score, .post--tile.noThumb,.commentCountBox,.byCategoryListing-title i,.categoryTile .o-backgroundImg,.mdPostsListWidget .list-index,.widget_archive li:hover:after,.widget_calendar caption,.widget_calendar #today,.block-title span:after,.widget_mc4wp_form_widget input[type="submit"],.md-pagination .page-numbers.current,.offCanvasClose,.siteFooter-top-wrap, .woocommerce span.onsale, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt.disabled, .woocommerce #respond input#submit.alt.disabled:hover, .woocommerce #respond input#submit.alt:disabled, .woocommerce #respond input#submit.alt:disabled:hover, .woocommerce #respond input#submit.alt:disabled[disabled], .woocommerce #respond input#submit.alt:disabled[disabled]:hover, .woocommerce a.button.alt.disabled, .woocommerce a.button.alt.disabled:hover, .woocommerce a.button.alt:disabled, .woocommerce a.button.alt:disabled:hover, .woocommerce a.button.alt:disabled[disabled], .woocommerce a.button.alt:disabled[disabled]:hover, .woocommerce button.button.alt.disabled, .woocommerce button.button.alt.disabled:hover, .woocommerce button.button.alt:disabled, .woocommerce button.button.alt:disabled:hover, .woocommerce button.button.alt:disabled[disabled], .woocommerce button.button.alt:disabled[disabled]:hover, .woocommerce input.button.alt.disabled, .woocommerce input.button.alt.disabled:hover, .woocommerce input.button.alt:disabled, .woocommerce input.button.alt:disabled:hover, .woocommerce input.button.alt:disabled[disabled], .woocommerce input.button.alt:disabled[disabled]:hover, .headerCart .cart-contents .count, .woocommerce .widget_price_filter .ui-slider .ui-slider-range, .woocommerce .widget_price_filter .ui-slider .ui-slider-handle{background-color:#f57f2b;}.primaryColor, .primaryColor:hover, .primaryColor:focus, .primaryColor:active, .authorName, .authorName a, .articleMeta-author a, .siteLogo-name,.articleTags-list > a:hover,.articleVia-list > a:hover,.articleSource-list > a:hover,.comment-author:hover,.bodyCopy a:hover,.post--card--bg.noThumb .postInfo .postMeta--author-author a,.loginFormWrapper .modal-close i,.navigation--offCanvas li > a:hover,.navigation--offCanvas li.current-menu-item > a,.postTitle .postFormatBadge,.widget_pages ul.children > li:before,.widget_categories ul.children > li:before,.widget_nav_menu .submenu-toggle,.widget_calendar td a,.tagcloud a:hover,.postTags-list > a:hover,.postVia-list > a:hover,.postSource-list > a:hover,.widget_recent_comments .comment-author-link,.widget_recent_comments .comment-author-link a,.tabs-nav li.active a,.widget_pages li > a:before,.postFormatBadge,.comment-author, .postMeta--author-author a,.postFormatQuote:before,.logged-in-as a:first-child,.menu--offCanvas li.current-menu-item > a,.siteFooter-copyright a, .woocommerce .star-rating, .woocommerce div.product p.price, .woocommerce div.product span.price{color:#f57f2b;}.titleFont,.postTitle,h1,h2,h3,h4,h5,h6,.widget_recent_comments .comment-author-link,.widget_recent_comments li > a,.widget_recent_entries a,.widget_rss a.rsswidget,.widget_rss .rss-date{font-family:"Libre Baskerville",'Bookman Old Style', serif;}body, .bodyCopy{font-family:"Open Sans",Arial, Helvetica, sans-serif;}label,input[type=submit],.metaText,.metaFont,.metaBtn,.postMeta,.postCategory,.blockHeading,.comment-reply-title,.wp-caption,.gallery-caption,.widget-title,.btn,.navigation,.logged-in-as,.widget_calendar table,.tagcloud a,.widget_nav_menu .menu,.widget_categories li,.widget_meta li > a,.widget_pages li,.widget_archive a,.comment-reply-title small, .woocommerce div.product .woocommerce-tabs .panel h2, .woocommerce h2, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce .page-title, .woocommerce nav.woocommerce-pagination ul li a, .woocommerce nav.woocommerce-pagination ul li span, .woocommerce div.product form.cart .reset_variations{font-family:"Open Sans",Arial, Helvetica, sans-serif;}.siteHeader-content{background-color:#ffffff;}</style><style id="md-custom-style" type="text/css" media="all">.fotorama__thumb-border,.tagcloud a:hover,.postTags-list > a:hover,.postVia-list > a:hover,.postSource-list > a:hover,.tabs-nav li.active a:after,.navigation--standard > ul > li > a:before,.articleTags-list > a:hover,.articleVia-list > a:hover,.articleSource-list > a:hover,.bodyCopy a:hover,input[type="submit"],input[type="submit"]:hover{border-color:#f57f2b;}.reviewMeter-item-score:after,.commentCountBox:before{border-top-color:#f57f2b;}</style>		<style type="text/css" media="screen">
+            .footnote_tooltip { display: none; padding: 12px; font-size: 13px; background-color: #fff7a7; border-width: 1px; border-style: solid; border-color: #cccc99; border-radius: 3px; -webkit-box-shadow: 2px 2px 11px #666666; -moz-box-shadow: 2px 2px 11px #666666; box-shadow: 2px 2px 11px #666666;}        </style>
+		</head>
+
+<body class="post-template-default single single-post postid-216 single-format-standard do-etfw is-smoothScrollEnabled">
+	<div class="metanav-container">
+	<ul class="metanav">
+		<li class="metanav-home">
+			<a href="http://www.ssrc.org" title="SSRC Home" class="metanav-primary">The Social Science Research Council</a>
+		</li>
+		<li class="metanav-programs">
+			<a href="http://www.ssrc.org/programs/" title="Programs" class="metanav-primary">Programs</a>
+		</li>
+		<li class="metanav-fellowships">
+			<a href="http://www.ssrc.org/fellowships/" title="Fellowships and Grants" class="metanav-primary">Fellowships & Prizes</a>
+		</li>
+		<li class="metanav-forums">
+			<a href="http://www.ssrc.org/print-and-digital" class="metanav-primary">SSRC Digital Projects</a>
+			<ul class="metanav-subnav">
+			
+				
+				<li><a href="http://citiespapers.ssrc.org" title="The Cities Papers" class="metanav-secondary">The Cities Papers</a></li>
+				
+				<li><a href="http://thedemocracypapers.ssrc.org" title="An Anxieties of Democracy Program Essay Collection" class="metanav-secondary">The Democracy Papers</a></li>
+				
+							
+								<li><a href="http://blogs.ssrc.org/tif" title="Secularism, religion, and the public sphere" class="metanav-secondary">The Immanent Frame</a></li>
+								
+								<li><a href="http://items.ssrc.org" title="Insights from the Social Sciences" class="metanav-secondary">Items</a></li>
+												
+				<li><a href="http://forums.ssrc.org/kujenga-amani" title="Exchanging ideas and information on peacebuilding in Africa" class="metanav-secondary">Kujenga Amani</a></li>
+				
+				
+					<li><a href="http://nextgen.ssrc.org" title="Next Generation Social Sciences" class="metanav-secondary">Next Generation Social Sciences</a></li>
+					
+						<li><a href="http://parameters.ssrc.org" title="Knowledge Under Digital Conditions" class="metanav-secondary">Parameters</a></li>
+				
+					<li><a href="http://tvri.ssrc.org/" title="Transregional Virtual Research Institute" class="metanav-secondary">Transregional Virtual Research Institute</a></li>
+			
+				
+			</ul>
+		</li>
+	</ul>
+</div>	
+	<!-- siteWrap -->
+	<div class="siteWrap">
+		
+		<!-- siteHeader -->
+		<header class="siteHeader siteHeader--standard siteHeader--standard--center">
+			<div class="siteHeader-content hidden-xs hidden-sm">
+				<div class="container">
+					<div class="flexbox">
+						<div class="siteHeader-content-component siteHeader-component--left flexbox-item">
+							<ul class="socialList socialList--inline metaFont">
+	<li class="socialList-twitter"><a href="https://twitter.com/ssrcdigital"><i class="fa fa-twitter"></i></a></li><li class="socialList-facebook"><a href="https://facebook.com/ssrcparameters"><i class="fa fa-facebook"></i></a></li></ul>
+						</div>
+						<div class="siteHeader-content-component siteHeader-component--center flexbox-item">
+							<div class="siteTitle siteTitle--default metaFont">
+	<a class="siteLogo siteLogo--image" href="http://parameters.ssrc.org/" title="Parameters" rel="home">
+		<img src="http://parameters.ssrc.org/wp-content/uploads/2016/07/PARAMETERS_logo2.png" width="740" height="100" rel="logo" alt="Parameters">
+	</a>
+</div>						</div>
+						<div class="siteHeader-content-component siteHeader-component--right flexbox-item">
+															<div class="currentDate metaFont"><a href="http://www.ssrc.org" title="The Social Science Research Council" ><img title="The Social Science Research Council" src="http://parameters.ssrc.org/wp-content/uploads/2016/07/SSRC-logo-lightblue.png" width="150" /></a></div>
+													</div>
+					</div>						
+				</div>
+			</div>
+			
+			<div class="siteHeader-nav js-searchOuter">
+				<div class="container">
+					<div class="flexbox">
+						<div class="siteHeader-component--left flexbox-item hidden-md hidden-lg">
+							<div class="menuToggleBtn js-menu-toggle btn btn--circle hidden-sm hidden-md hidden-lg"><i class="fa fa-navicon"></i></div>
+							<div class="menuToggleBtn js-menu-toggle btn btn--pill hidden-xs"><i class="fa fa-navicon"></i><span>Menu</span></div>
+						</div>
+						<div class="siteHeader-component--center flexbox-item hidden-md hidden-lg">
+							<div class="siteTitle siteTitle--small metaFont">
+	<a class="siteLogo siteLogo--image" href="http://parameters.ssrc.org/" title="Parameters" rel="home">
+				<img src="http://parameters.ssrc.org/wp-content/uploads/2016/07/PARAMETERS_logo2.png" width="740" height="100" rel="logo" alt="Parameters" style="max-height:55px;">
+			</a>
+
+</div>						</div>
+						
+						<nav class="navigation navigation--main navigation--standard hidden-xs hidden-sm flexbox-item">
+							<ul id="menu-primary-navigation" class="menu"><li id="menu-item-317" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-317"><a href="http://parameters.ssrc.org/about-parameters/">About <i>Parameters</i></a></li>
+<li id="menu-item-151" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-151"><a href="http://www.ssrc.org/programs/view/digital-culture/">SSRC Digital Culture Program</a></li>
+</ul>						</nav>
+
+						<div class="siteHeader-component--right flexbox-item">
+							<div class="compactSearch">
+								<div class="searchField metaFont">
+	<form class="searchField-form" method="get" action="http://parameters.ssrc.org/">
+		<input type="text" name="s" class="searchField-form-input" placeholder="Search..." value="">
+		<button type="submit" class="searchField-form-btn"><i class="fa fa-search"></i></button>
+	</form>
+</div>								<div class="searchToggleBtn btn btn--circle js-searchToggle hidden-sm"><i class="fa fa-search iconSearch"></i><i class="fa fa-times iconClose"></i></div>
+								<div class="searchToggleBtn btn btn--pill js-searchToggle hidden-xs hidden-md hidden-lg"><i class="fa fa-search iconSearch"></i><i class="fa fa-times iconClose"></i><span>Search</span></div>
+							</div>
+							
+													</div>
+					</div>
+				</div>
+			</div>
+			
+			
+		</header>
+		<!-- site-header -->
+<main class="layoutBody">
+	<article itemscope itemtype="http://schema.org/BlogPosting" class="postSingle postSingle--billboard postSingle--fullwidth hentry post-216 post type-post status-publish format-standard has-post-thumbnail category-uncategorized">
+				<div class="postSingle--billboard-cover">
+			<div id="md-single-cover" class="postSingle--billboard-cover-bgImg"  style="background-image: url(http://parameters.ssrc.org/wp-content/uploads/2016/08/iStock_11149001_LARGE_Dark.jpg);"></div>
+			
+			<div class="container">
+				<div class="postInfo overlayInfo">
+					<div id="md-billboard-info" class="postSingle-header postSingle-header--billboard postSingle-header--big">
+												<h1 itemprop="headline" class="postTitle entry-title">A more humane approach to digital scholarship</h1>
+						<div class='framing'><p>Can diagrams, bar charts, or network maps possibly convey the human warmth and drama of literature, religion, and history? And what happens to a researcher’s critical capacity and sensitivity when she uses a software program to study complex sources?</p>
+</div>					<span>by 
+					<a href="http://parameters.ssrc.org/author/anne-kelly-knowles/" title="Posts by Anne Kelly Knowles" class="author url fn" rel="author">Anne Kelly Knowles</a>					</span>
+								<div class="header-sharing">
+					<hr>
+					<div class="sharing-container">
+										<div class="postMeta postMeta--2 clearfix">
+					<div class="flexbox">
+						<div class="flexbox-item">
+							<div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:title="A more humane approach to digital scholarship" addthis:url="http://parameters.ssrc.org/2016/08/a-more-humane-approach-to-digital-scholarship/" addthis:description="Can diagrams, bar charts, or network maps possibly convey the human warmth and drama of literature, religion, and history? And what happens to a&hellip;"><a class="addthis_button_facebook"></a><a class="addthis_button_twitter"></a><a class="addthis_button_google_plusone_share"></a></div>						</div>
+						<div class="flexbox-item">
+							<a href="#" class="metaLink metaFont mdPostLike mdPostLike--compact js-mdPostLike" data-post_id="216" title="Like"><i class="fa fa-heart-o"></i><span>&nbsp;Like</span></a>						</div>
+					</div>
+				</div>
+														</div>
+				</div>
+									</div>
+				</div>
+			</div>
+
+			<!-- Additional schema meta -->
+			<div itemscope itemprop="publisher" itemtype="http://schema.org/Organization" class="hidden">
+				<meta itemprop="name" content="Parameters">
+									<div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject" class="hidden">
+						<meta itemprop="url" content="http://parameters.ssrc.org/wp-content/uploads/2016/07/PARAMETERS_logo2.png"/><meta itemprop="width" content="740"/><meta itemprop="height" content="100"/>		            </div>
+							</div>
+			<meta itemprop="dateModified" content="August 3, 2016">
+			<a itemprop="mainEntityOfPage" href="" class="hidden"></a>
+			<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+				<meta itemprop="url" content="http://parameters.ssrc.org/wp-content/uploads/2016/08/iStock_11149001_LARGE_Dark-1000x665.jpg"/><meta itemprop="width" content="1000"/><meta itemprop="height" content="665"/>            </div>
+		</div>
+				
+		<div class="container">
+			<div class="layoutContent clearfix">
+				<div class="contentWrap">
+											<div itemprop="articleBody" class="postContent postContent--fullwidth bodyCopy">
+							<p>Ever since the publication of Franco Moretti’s fascinating book <em>Graphs, Maps, Trees: Abstract Models for Literary History</em> in 2005, scholars in the digital humanities have used his terms “close reading” and “distant reading” to distinguish traditional modes of reading and analyzing texts from computer-based methods that reveal the structure and content of texts—particularly large corpora—in new ways. There have been heated discussions about the value of one approach over the other. An argument that has particularly caught my attention is whether the distance imposed by computer-mediated methods may strip away the richness, depth, and subtlety that have long been the hallmarks of excellence in humanistic scholarship. Can diagrams, bar charts, or network maps possibly convey the human warmth and drama of literature, religion, and history? And what happens to a researcher’s critical capacity and sensitivity when she uses a software program to study complex sources?</p>
+<p>Moretti’s terms and the debates that have swirled around them remind me of concerns about GIS (geographic information systems) in geography, my home discipline, in the 1990s. Cultural geographers and other humanists criticized social-scientific geographers, who used GIS most heavily, for uncritically wielding a tool that was inherently problematic. They argued that the mathematical lattice of Cartesian coordinates that forms the basis of location in GIS was fundamentally positivistic, and that it woefully simplified the complexity of places and phenomena by reducing them to points, lines, polygons, and pixels. Ethical arguments about GIS were fueled by J. Brian Harley’s sharp critique of maps as instruments of oppressive power. Harley’s arguments were historically specific, focused on maps created during the age of European overseas conquest and colonialism. Nevertheless, his ideas struck a chord among geographers who worried that the expert knowledge GIS required was again concentrating power in the hands of social elites. The abstract, machine-made aesthetic of GIS maps and the artificial precision they suggested compounded these objections.</p>
+<p>The good news is that years of debate in geography sensitized people in every branch of the discipline to the fact that all methodologies, including GIS, are socially constructed. Recently, many humanistic and social science geographers have embraced so-called critical GIS. This approach calls on analysts to be aware of whose opinions, actions, or values their questions, data, and maps reflect, and to be alert to whether their scholarship reinforces existing social inequalities or exposes them to fresh examination. Critical GIS became a cornerstone of community mapping projects, which argued for indigenous people’s land rights or celebrated local diversity. I see the ideas of critical GIS reflected in the global democratization of cartography enabled by Google Earth, OpenStreetMap, and other low-tech, online mapping interfaces. Anyone with access to a computer can now make their own maps—and they are!</p>
+<p>Geography’s experience gives me hope that current arguments over distant versus close reading will produce positive outcomes by heightening awareness on both sides. At the same time, I believe we still have much to learn—and to appreciate—about the very human practices involved in digital scholarship. This takes me back to those two key terms, “close” and “distant” reading. The usual implication is that close reading is the more humane approach. <span class="epq-pull-quote epq-pull-quote-default epq-align-right">Where close reading is familiar, part of our human heritage, distant reading still feels foreign and somewhat mysterious.<a href="https://twitter.com/intent/tweet?text=Where close reading is familiar, part of our human heritage, distant reading still feels foreign and&hellip;&url=http%3A%2F%2Fparameters.ssrc.org%2F%3Fp%3D216" class="epq-twitter"><span class="dashicons dashicons-twitter"></span></a></span> It stimulates the reader’s senses, gives one ample time to cogitate, reread, add pencil marks in the margin, absorb details, read aloud, all while holding the book or manuscript in one’s hands. Close reading is an intimate, personal encounter with a text. Distant reading by definition involves a nonhuman computer. We follow the rules of software and computer operating systems, however counterintuitive, so that eventually we can see patterns and relationships that are otherwise invisible to us. Where close reading is familiar, part of our human heritage, distant reading still feels foreign and somewhat mysterious. The visualizations that distant readings produce are also abstract, such as clusters of dots on a map, bars of different length in a chart, rows of values in a table, or nodes and lines in a network diagram. These representations have no soul, no face, no tone of voice. They can be thrilling for researchers who recognize what they reveal, but they always require verbal interpretation, and even then they can seem cold, abstruse, artificial, detached.</p>
+<p>This comparison omits two crucial aspects of digital humanities and social science research that are profoundly humane yet rarely discussed. One is the slow, careful translation of textual or visual sources into data that a computer program can understand. The other is the struggle to deal with the inevitable errors and uncertainty that are generated in the act of digital translation. Translation, error, and uncertainty have loomed large in my own experience as a practitioner of historical GIS (HGIS). I hope that explaining how they have influenced my work might help others see digital scholarship in a new light.</p>
+<h3>Acts of translation</h3>
+<p>The translation metaphor applies to HGIS at several levels. First, one can think of GIS as a mathematical language. Its underlying structure or grammar is much more rigid and limited than any verbal language because every bit of data is recorded as binary code, in ones and zeroes. This helps explain why any trait that you intend to query or display in a GIS database must be one thing or another. For example, if you draw a line in GIS to represent a river, the line declares that the river is here, not there. If the river’s actual location changes with flooding and drought, you can add data on seasonal variation, but every instance will be defined with similar precision. You can classify landscape features in any number of ways, but each feature must be described as one type or another, or as this combination, not that. Time, another attribute, can be entered in words, such as seasons, or as numbers, such as years. Behind the scenes, however, if you do not specify the day/month/year of a “time stamp,” the program will assign one for you when you ask it to display the data, or it will exclude the data from your analysis because the format is not recognized.</p>
+<p>These constraints are least problematic with quantitative information like that in the US census. Categorization requires more thought, and becomes more like translation, when the source is written in natural language. The work of translation begins with deciding which fields, or categories, will best capture the information your source or sources contain. After designing the database comes the even closer reading of data entry. My example here is the key source for my HGIS of antebellum US iron works, a thick tome titled <em>The Iron Manufacturer’s Guide to the Furnaces, Forges, and Rolling Mills of the United States</em> (1859). The book is crammed full of information organized into individual entries that include each iron company’s name, location, owners, and details of production. Although the <em>Guide</em> was exceptionally well suited to translation into GIS, data entry progressed at a snail’s pace. Every sentence had to be dismantled into its constituent parts. Ambiguous or missing data, such as date of construction, necessitated additional archival research. Locations were as precise as a street address or as vague as “about three miles up the west branch of the Susquehanna.” Placing iron companies on the GIS base map filled most of a sabbatical winter, as I checked locations in the <em>Guide</em> against topographic maps and other sources.</p>
+<p>It may sound tedious, but I loved the slow work. Inching through the entries made me deeply familiar with the <em>Guide</em>, its strengths and weaknesses, and the industry it described. My research assistant and I learned at an almost visceral level which regions of the country were best and least well documented in the <em>Guide.</em> We found a much more diverse industry than previous studies had described. Locating hundreds of iron works while reading their histories also helped me figure out why firms in some places were prone to fail while others survived. Translating the <em>Guide</em> into digital form was indeed close reading. It was a kind of analytical meditation.</p>
+<p>I had a different immersive experience extracting contour lines from an 1874 topographic map of the battlefield of Gettysburg. Capturing the elevation data was the first step toward creating a digital rendering of the historical terrain for a GIS study of what commanders could and could not have seen when they made key decisions during the battle.<span class="epq-pull-quote epq-pull-quote-default epq-align-left">It felt as if the landscape were entering my nervous system through my eyes and hands.<a href="https://twitter.com/intent/tweet?text=It felt as if the landscape were entering my nervous system through my eyes and hands.&url=http%3A%2F%2Fparameters.ssrc.org%2F%3Fp%3D216" class="epq-twitter"><span class="dashicons dashicons-twitter"></span></a></span> No scanning software at the time could readily distinguish between the source map’s many features, which included fences, field boundaries, building footprints, dots for pine trees, and little broccoli-shaped symbols for hardwoods and fruit trees. So I traced the contours by hand onto large Mylar sheets. Much of one summer went to those hours at the light table, drawing slowly while listening to my favorite music. It felt as if the landscape were entering my nervous system through my eyes and hands. Another year of work went into processing the linear data, asking visual questions of the digital terrain, and writing my interpretation of what the GIS results showed. Many people contributed to that project. My understanding of the battlefield and what happened there, however, was rooted in the intimate experience of drawing its contours, literally retracing the representation of the ground that US Army Corps of Engineers cartographers had laid down 130 years before.</p>
+<p>No translation is complete until the original source is expressed in another language. In HGIS, data are expressed most eloquently in maps, whose visual language works in the imagination very differently than words do. While we must acknowledge maps’ limitations, I believe they are no more flawed than textual expression. They have different flaws, and different virtues, including the capacity to present complexity in a glance. Like any visual form, map design can be highly emotional. Unfortunately, generations of academic cartographers were trained in a scientific style that was then codified in default design templates in GIS programs. As cartographers break out of that mold to expand their artistic range, particularly to create spatial narratives, I expect that maps generated with GIS will also become more expressive.</p>
+<h3>Errors and uncertainty</h3>
+<p>My last examples highlight the issues of how digital translation can introduce errors and uncertainty. In the Gettysburg project, every contour line that I traced differed slightly from the original line on the 1874 map. Across the map as a whole, my errors nudged the already imperfect contour lines this way and that. But even that double imperfection was an acceptable compromise in order to create a dataset that I thought would better approximate the historical terrain than existing alternatives—and it would be a digital terrain that would begin to answer my question about what commanders could, and could not, have seen during the battle.</p>
+<p>A very different project has raised more acute issues related to uncertainty and error. Since 2007, I have worked with a group of historians and geographers to explore the many geographical aspects of the Holocaust. One of my particular projects has been studying SS-administered concentration camps and their associated labor camps. My team’s first task was to populate a GIS database of camps that we had received in fairly skeletal form from the United States Holocaust Memorial Museum, which had used the database to make simple maps of camp locations for the USHMM <em>Encyclopedia of Camps and Ghettos</em>. To study labor in the camps, as well as the dynamics of the SS camps’ explosive growth and demise during World War II, we aimed to extract more information from <em>Encyclopedia</em> entries. We soon discovered that the entries reflected scholars’ incomplete knowledge of SS camps. Many smaller camps lacked information about when the camp was established or closed, what kind of forced labor inmates did, how many inmates the camp held, and so forth. Even some of the best-documented camps’ histories were incomplete or vague on key points related to labor. We faced a question that is common in the historical database business: Should we analyze only the data that were completely certain, or should we include less certain data that might nevertheless be revealing? For example, if an entry said that the camp’s inmates “were reported to have worked on V-9 rockets,” should we list rocket manufacturing as a kind of forced labor at that camp and map it along with others, or omit it from maps of rocket-building activity, or give that camp a separate color on the map as being uncertain?</p>
+<p>The SS camps project also challenged my assumptions about how well we can know, and represent, the past. The turning point came one day when Alex Yule, an undergraduate research assistant at Middlebury College, asked me bluntly, “What <em>was </em>Auschwitz?” That is, what did we mean when we referred to that famous place, and to what category did it belong in our database? At various and overlapping times during World War II, Auschwitz was an extermination camp where hundreds of thousands of people died, a labor camp, a work-education camp, a penal camp, a prison camp, and a transit camp where prisoners briefly stayed en route to another place. The name also referred to the adjoining town, whose origins dated to 1270 AD. The initial camp was greatly enlarged by the building of inmate barracks, crematoria, and other facilities collectively called Birkenau, or Auschwitz II. The manufacturing giant IG Farben established a large factory nearby at Auschwitz III, known as Monowitz. How should we model the ontology of Auschwitz, given its multifaceted history and geography?</p>
+<p>Such questions are increasingly central to human geography and digital spatial history. Most of us know from personal experience that places have many meanings and names, and that they change over time. <span class="epq-pull-quote epq-pull-quote-default epq-align-right">How should we model the ontology of Auschwitz, given its multifaceted history and geography?<a href="https://twitter.com/intent/tweet?text=How should we model the ontology of Auschwitz, given its multifaceted history and geography?&url=http%3A%2F%2Fparameters.ssrc.org%2F%3Fp%3D216" class="epq-twitter"><span class="dashicons dashicons-twitter"></span></a></span>As scholars in the humanities and social sciences seek ways to represent the multiplicity of place, we will find allies in philosophy as well as GIScience and other fields of computational studies where uncertainty and error, ontology, and the meaning of space-time have long been the focus of study.</p>
+<p>When I was in graduate school at University of Wisconsin, a wise historian told me that the longer you do research, the more you realize you do not know. I have also learned that there are many ways of knowing, and that recognizing the limitations of any particular approach is as important as appreciating what it can reveal. This came home to me most powerfully when my research group’s Holocaust maps prompted moral questions from humanists in the audience. In response to dot maps of SS concentration camps or maps tracing the sequence of construction at Auschwitz they asked, “Where are the victims? Where in your maps are the people who suffered and died in the Holocaust?” GIS mapping is superb for presenting a synoptic view of a complex historical event, but it is not designed to convey human emotion or the drama of extreme circumstances. My colleagues and I have taken up this challenge by turning to a new kind of source: video interviews and transcriptions of survivor testimony. These accounts reveal how victims responded to Nazi-made places like camps and ghettos, as well as how they tried to make their own places, however fleeting and partial, in the midst of the chaos of dislocation and violence. While working with GIS has heightened my awareness of the complexity of the past, listening to Holocaust testimony makes me realize how much we take the places in our lives for granted. We hope to apply text-mining methods to large sets (corpora) of testimony transcripts, but only after we spend much time listening closely, learning how narrated memories express place, movement, and spatial awareness. Becoming more aware, more attentive, is a primary goal of humane scholarship. If we read and look and listen closely, whatever tools we use to augment our perceptions can make us better scholars.</p>
+						</div>
+						
+						
+						
+								<footer class="postFooter postFooter--single">
+					</footer>
+	
+						
+									
+			<div itemprop="author" itemscope itemtype="http://schema.org/Person" class="authorBox">
+			
+						
+				<div class="authorBox-inner">
+					<div class="authorBox-text">
+						<div class="authorBox-name authorName">
+							<h4 itemprop="name" ><a href="http://parameters.ssrc.org/author/anne-kelly-knowles/" title="Posts by Anne Kelly Knowles" class="url fn" rel="author">Anne Kelly Knowles</a></h4>
+						</div>
+						<p class="authorBox-bio metaFont">Anne Kelly Knowles teaches historical geography and digital history at the University of Maine. She has written or edited five books, including <i>Placing History: How Maps, Spatial Data, and GIS Are Changing Historical Scholarship</i> (2008); <i>Mastering Iron: The Struggle to Modernize an American Industry, 1800–1868</i> (2013); and <i>Geographies of the Holocaust</i> (2014). Throughout her career, Anne has advocated mapping and GIS as core methods for historical research. Her pioneering work with historical GIS has been recognized by a number of fellowships and awards, including an American Ingenuity Award for Historical Scholarship (<i>Smithsonian</i> magazine, 2012) and a Guggenheim Fellowship (2015).</p>
+					</div>
+				</div>
+				
+						
+			</div>
+			
+									</div>	
+					
+				
+					<div class="postNavigation postNavigation--fw u-fullwidth">
+	<div class="container">
+		<div class="flexbox">
+			<div class="flexbox-item">
+								<div class="postNavigation-prev clearfix">
+										<div class="postNavigation-thumb">
+						<img width="100" height="100" src="http://parameters.ssrc.org/wp-content/uploads/2016/07/iStock_56178416_LARGE_Dark-100x100.jpg" class="attachment-md_bone_xs size-md_bone_xs wp-post-image" alt="" srcset="http://parameters.ssrc.org/wp-content/uploads/2016/07/iStock_56178416_LARGE_Dark-50x50@2x.jpg 100w, http://parameters.ssrc.org/wp-content/uploads/2016/07/iStock_56178416_LARGE_Dark-150x150.jpg 150w, http://parameters.ssrc.org/wp-content/uploads/2016/07/iStock_56178416_LARGE_Dark-32x32.jpg 32w, http://parameters.ssrc.org/wp-content/uploads/2016/07/iStock_56178416_LARGE_Dark-50x50.jpg 50w, http://parameters.ssrc.org/wp-content/uploads/2016/07/iStock_56178416_LARGE_Dark-32x32@2x.jpg 64w, http://parameters.ssrc.org/wp-content/uploads/2016/07/iStock_56178416_LARGE_Dark-96x96.jpg 96w, http://parameters.ssrc.org/wp-content/uploads/2016/07/iStock_56178416_LARGE_Dark-64x64@2x.jpg 128w, http://parameters.ssrc.org/wp-content/uploads/2016/07/iStock_56178416_LARGE_Dark-100x100@2x.jpg 200w, http://parameters.ssrc.org/wp-content/uploads/2016/07/iStock_56178416_LARGE_Dark-150x150@2x.jpg 300w, http://parameters.ssrc.org/wp-content/uploads/2016/07/iStock_56178416_LARGE_Dark-96x96@2x.jpg 192w, http://parameters.ssrc.org/wp-content/uploads/2016/07/iStock_56178416_LARGE_Dark-128x128@2x.jpg 256w" sizes="(max-width: 100px) 100vw, 100px" />					</div>
+										<span class="metaFont">Previous article</span>
+					<div class="postTitle">Challenges to archives in an age of digital abundance</div>
+					<a href="http://parameters.ssrc.org/2016/07/challenges-to-archives-in-an-age-of-digital-abundance/" class="u-stretched"></a>
+				</div>
+							</div>
+			
+			<div class="flexbox-item">
+								<div class="postNavigation-next clearfix">
+										<div class="postNavigation-thumb">
+						<img width="100" height="100" src="http://parameters.ssrc.org/wp-content/uploads/2016/08/Parameters_PeopleTalking_Small-100x100.jpg" class="attachment-md_bone_xs size-md_bone_xs wp-post-image" alt="silhouettes of people leading dialogues with colorful speech bubbles" srcset="http://parameters.ssrc.org/wp-content/uploads/2016/08/Parameters_PeopleTalking_Small-50x50@2x.jpg 100w, http://parameters.ssrc.org/wp-content/uploads/2016/08/Parameters_PeopleTalking_Small-150x150.jpg 150w, http://parameters.ssrc.org/wp-content/uploads/2016/08/Parameters_PeopleTalking_Small-32x32.jpg 32w, http://parameters.ssrc.org/wp-content/uploads/2016/08/Parameters_PeopleTalking_Small-50x50.jpg 50w, http://parameters.ssrc.org/wp-content/uploads/2016/08/Parameters_PeopleTalking_Small-32x32@2x.jpg 64w, http://parameters.ssrc.org/wp-content/uploads/2016/08/Parameters_PeopleTalking_Small-96x96.jpg 96w, http://parameters.ssrc.org/wp-content/uploads/2016/08/Parameters_PeopleTalking_Small-64x64@2x.jpg 128w, http://parameters.ssrc.org/wp-content/uploads/2016/08/Parameters_PeopleTalking_Small-100x100@2x.jpg 200w, http://parameters.ssrc.org/wp-content/uploads/2016/08/Parameters_PeopleTalking_Small-150x150@2x.jpg 300w, http://parameters.ssrc.org/wp-content/uploads/2016/08/Parameters_PeopleTalking_Small-96x96@2x.jpg 192w, http://parameters.ssrc.org/wp-content/uploads/2016/08/Parameters_PeopleTalking_Small-128x128@2x.jpg 256w" sizes="(max-width: 100px) 100vw, 100px" />					</div>
+										<span class="metaFont">Next article</span>
+					<div class="postTitle">Social science, scholarly knowledge, and the open</div>
+					<a href="http://parameters.ssrc.org/2016/08/social-science-scholarly-knowledge-and-the-open/" class="u-stretched"></a>
+				</div>
+							</div>
+		</div>
+	</div>
+</div>
+												
+				
+								
+			</div><!-- end layoutContent -->
+		</div><!-- end container -->
+	</article>
+</main>
+
+
+
+		<footer id="footer" class="siteFooter">
+			
+						
+			<div class="siteFooter-bottom">
+				<div class="container">
+					<div class="siteFooter-bottom-inner clearfix">
+						<div class="siteFooter-copyright u-floatLeft metaFont">
+							<p><a style="color: #fff" href="http://www.ssrc.org"><strong>Social Science Research Council</strong></a></br>
+300 Cadman Plaza West • 15th Floor • Brooklyn, NY 11201 • USA</br>
+Phone: 212-377-2700 • Fax: 212-377-2727</p>
+
+<a href="http://www.ssrc.org/pages/creative-commons/" target="_blank">
+<img style="width: 125px" src="http://parameters.ssrc.org/wp-content/uploads/2016/07/CCLogo_White.png" /></a>						</div>
+						<div class="siteFooter-backTop u-floatRight">
+							<!-- Back top button -->
+							<div class="backTopBtn metaFont js-scrolltop-btn">Back to top&nbsp;<i class="fa fa-arrow-up"></i></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</footer>
+	</div>
+	<!-- siteWrap -->
+	
+	<!-- Offcanvas menu -->
+	<div id="md_offCanvasMenu" class="md_offCanvasMenu md_offCanvas md_offCanvas--left">
+		<div class="offCanvasClose metaFont js-offCanvasClose"><i class="fa fa-times-circle"></i>Close</div>
+		<div class="md_offCanvasMenu-social">
+			<ul class="socialList socialList--inline metaFont">
+	<li class="socialList-twitter"><a href="https://twitter.com/ssrcdigital"><i class="fa fa-twitter"></i></a></li><li class="socialList-facebook"><a href="https://facebook.com/ssrcparameters"><i class="fa fa-facebook"></i></a></li></ul>
+		</div>
+		<nav class="navigation navigation--offCanvas md_offCanvasMenu-navigation">
+			<ul id="menu-primary-navigation-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-317"><a href="http://parameters.ssrc.org/about-parameters/">About <i>Parameters</i></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-151"><a href="http://www.ssrc.org/programs/view/digital-culture/">SSRC Digital Culture Program</a></li>
+</ul>		</nav>
+
+		
+			</div>
+	
+	
+			<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js" async="async"></script>
+	
+	<script type='text/javascript'>
+var colomatduration = 'fast';
+var colomatslideEffect = 'slideFade';
+</script><link rel='stylesheet' id='googlefonts-css'  href='//fonts.googleapis.com/css?family=Libre+Baskerville%3Aregular%2Citalic%2C700%7COpen+Sans%3A300%2C300italic%2Cregular%2Citalic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic&#038;subset=' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?ver=4.5.0' type='text/css' media='all' />
+<script type='text/javascript' src='http://parameters.ssrc.org/wp-content/plugins/jquery-collapse-o-matic/js/collapse.js?ver=1.6.6'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mdBoneVar = {"ajaxloadpost":{"ajaxurl":"http:\/\/parameters.ssrc.org\/wp-admin\/admin-ajax.php","failText":"Error loading posts","loadingText":"Loading posts","noMoreText":"No more posts","query_vars":"{\"page\":\"\",\"year\":\"2016\",\"monthnum\":\"08\",\"name\":\"a-more-humane-approach-to-digital-scholarship\"}","startPage":1,"maxPages":0},"stickySidebar":{"toggle":"1","offsetTop":0},"stickyHeader":{"toggle":"0","hasAdminBar":false},"smoothScroll":"1","postLike":{"nonce":"b4515302e2","likeText":"Like","likeCountTextSingular":"like","likeCountText":"likes","unlikeText":"Unlike"},"faFallBack":{"toggle":"1","faURL":"http:\/\/parameters.ssrc.org\/wp-content\/themes\/bone\/lib\/vendor\/font-awesome\/css\/font-awesome.min.css"},"currentRelURI":"\/2016\/08\/a-more-humane-approach-to-digital-scholarship\/","parallaxToggle":"1","highResolution":"1","sliderOpts":{"autoplay":false,"timeout":5000}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://parameters.ssrc.org/wp-content/themes/bone/js/md-scripts.js?ver=2.2.1'></script>
+<script type='text/javascript' src='http://parameters.ssrc.org/wp-includes/js/comment-reply.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://parameters.ssrc.org/wp-content/plugins/easy-twitter-feed-widget//js/twitter-widgets.js?ver=1.0'></script>
+<script type='text/javascript' src='http://parameters.ssrc.org/wp-content/themes/parameters-child/js/bone-child-scripts.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://parameters.ssrc.org/wp-includes/js/wp-embed.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='//platform.twitter.com/widgets.js?ver=1.0.0'></script>
+<script id="md-custom-code-footer" type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1557817-1', 'auto');
+  ga('create', 'UA-1557817-13', {'name':'parameters'});
+  ga('send', 'pageview');
+  ga('parameters.send', 'pageview');</script></body>
+</html>

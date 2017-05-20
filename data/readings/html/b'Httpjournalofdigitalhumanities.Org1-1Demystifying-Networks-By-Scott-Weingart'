@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1 "/> 
+<title> &raquo; Demystifying Networks, Parts I &amp; II Journal of Digital Humanities</title>
+<link rel="icon" 
+      type="image/i" 
+      href="http://journalofdigitalhumanities.org/wp-content/themes/jdh/images/favicon.ico">
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" href="http://journalofdigitalhumanities.org/wp-content/themes/jdh/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://journalofdigitalhumanities.org/wp-content/themes/jdh/stylesheets/skeleton.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://journalofdigitalhumanities.org/wp-content/themes/jdh/stylesheets/layout.css" type="text/css" media="screen" />
+<link href='http://fonts.googleapis.com/css?family=Arvo:400,400italic|Ubuntu:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link rel="pingback" href="http://journalofdigitalhumanities.org/xmlrpc.php" />
+
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/journalofdigitalhumanities.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='footnote-voodoo-css'  href='http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/footnote-voodoo.css?ver=2016.1230' type='text/css' media='all' />
+<link rel='stylesheet' id='twitter-archive-style-css'  href='http://journalofdigitalhumanities.org/wp-content/plugins/twitter-search-shortcode/ta-style.css?ver=4.7.5' type='text/css' media='all' />
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/modernizr.custom.20659.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/footnote-voodoo.js?ver=2016.1230'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.hoverIntent.minified.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.cookie.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.dcjqaccordion.2.9.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/plugins/wp-mailto-links/public/js/wp-mailto-links.js?ver=4.7.5'></script>
+<link rel='https://api.w.org/' href='http://journalofdigitalhumanities.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://journalofdigitalhumanities.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://journalofdigitalhumanities.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Clustering with Compression for the Historian' href='http://journalofdigitalhumanities.org/1-1/clustering-with-compression-for-the-historian-by-chad-black/' />
+<link rel='next' title='Defining Data for Humanists: Text, Artifact, Information or Evidence?' href='http://journalofdigitalhumanities.org/1-1/defining-data-for-humanists-by-trevor-owens/' />
+<meta name="generator" content="WordPress 4.7.5" />
+<link rel="canonical" href="http://journalofdigitalhumanities.org/1-1/demystifying-networks-by-scott-weingart/" />
+<link rel='shortlink' href='http://journalofdigitalhumanities.org/?p=77' />
+<link rel="alternate" type="application/json+oembed" href="http://journalofdigitalhumanities.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fjournalofdigitalhumanities.org%2F1-1%2Fdemystifying-networks-by-scott-weingart%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://journalofdigitalhumanities.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fjournalofdigitalhumanities.org%2F1-1%2Fdemystifying-networks-by-scott-weingart%2F&#038;format=xml" />
+<style type="text/css">
+	.addw2p {
+		list-style-type: none;
+		list-style-image: none;
+	}
+</style>
+<script type="text/javascript" src="http://journalofdigitalhumanities.org/wp-content/plugins/audio-player/assets/audio-player.js?ver=2.0.4.6"></script>
+<script type="text/javascript">AudioPlayer.setup("http://journalofdigitalhumanities.org/wp-content/plugins/audio-player/assets/player.swf?ver=2.0.4.6", {width:"290",animation:"yes",encode:"yes",initialvolume:"60",remaining:"no",noinfo:"no",buffer:"5",checkpolicy:"no",rtl:"no",bg:"E5E5E5",text:"333333",leftbg:"CCCCCC",lefticon:"333333",volslider:"666666",voltrack:"FFFFFF",rightbg:"B4B4B4",rightbghover:"999999",righticon:"333333",righticonhover:"FFFFFF",track:"FFFFFF",loader:"009900",border:"CCCCCC",tracker:"DDDDDD",skip:"666666",pagebg:"FFFFFF",transparentpagebg:"yes"});</script>
+<script type="text/javascript" src="http://journalofdigitalhumanities.org/wp-content/plugins/degradable-html5-audio-and-video/incl/audio-player.js"></script>
+<script type="text/javascript">
+	AudioPlayer.setup("http://journalofdigitalhumanities.org/wp-content/plugins/degradable-html5-audio-and-video/incl/player.swf", {
+		/* Format the player by inserting lines here. See http://wpaudioplayer.com/standalone */
+		width: 290,
+		initialvolume: 80
+	});
+</script><style type="text/css">
+
+	.footnote-indicator:before {
+		content: url(http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/footnoted.png);
+		width: 10px;
+		height: 10px;
+	}
+	ol.footnotes li {
+		background: #eeeeee url(http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/note.png) 0px 0px repeat-x;
+	}
+</style>
+<script type="text/javascript">
+	// Globals
+	var tipUpUrl = 'url(http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/tip.png)';
+	var tipDownUrl = 'url(http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/tip-down.png)';
+</script>
+			<script type="text/javascript">
+		<!--Note here the \s at the begining of the regular expression here. This is to enforce that it will only select from hashtags with a space in front of them. Otherwise it may alter links to anchors.-->
+			hashtag_regexp = /\s#([a-zA-Z0-9]+)/g;
+
+			function linkHashtags(text) {
+				return text.replace(
+					hashtag_regexp,
+					' <a class="hashtag" target="_blank" href="http://twitter.com/#search?q=$1">#$1</a>'
+				);
+			}
+
+			jQuery(document).ready(function(){
+				jQuery('p').each(function() {
+					jQuery(this).html(linkHashtags(jQuery(this).html()));
+				});
+			});
+			
+			jQuery('p').html(linkHashtags(jQuery('p').html()));  
+
+			
+		</script>
+		<script type="text/javascript">
+			
+			at_regexp = /\s\u0040([a-zA-Z0-9]+)/g;
+			
+			function linkAt(text) {
+				return text.replace(
+					at_regexp,
+					' <a class="twitter-user" target="_blank" href="http://twitter.com/$1">@$1</a>'
+				);
+			}
+
+			jQuery(document).ready(function(){
+				jQuery('p').each(function() {
+					jQuery(this).html(linkAt(jQuery(this).html()));
+				});
+			});
+			
+			jQuery('p').html(linkAt(jQuery('p').html()));  			
+			
+		</script>
+	<style type="text/css" media="all">
+/* WP Mailto Links Plugin */
+span.wpml-nodis { display:none !important; }
+span.wpml-rtl { unicode-bidi:bidi-override !important; direction:rtl !important; display:inline !important; }
+.wpml-encoded { position:absolute; margin-top:-0.3em; z-index:1000; color:green; }
+.mail-link { white-space:nowrap; }
+
+a.mail-icon-1 {
+    background-image:url("http://journalofdigitalhumanities.org/wp-content/plugins/wp-mailto-links/public/images/mail-icon-1.png");
+    background-repeat:no-repeat;
+        background-position:100% 50%; padding-right:18px;
+    }
+</style>
+<!-- begin Fast Secure reCAPTCHA - page header css -->
+<style type="text/css">
+div.fs-recaptcha-comments { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-bp-comments { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-login { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-side-login { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-registration { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-bp-registration { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-ms-registration { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-lostpassword { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-wc-checkout { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-jetpack { display:block; clear:both; margin-bottom:1em; }
+.fs-recaptcha-jetpack p { color:#DC3232; }
+</style>
+<!-- end Fast Secure reCAPTCHA - page header css -->
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+  
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+    $('#menu-table-of-contents').dcAccordion({
+		eventType: 'click',
+		hoverDelay: 0,
+		menuClose: false,
+		autoClose: true,
+		saveState: false,
+		autoExpand: true,
+		classExpand: 'current-menu-item',
+		classDisable: '',
+		showCount: false,
+		disableLink: true,
+		cookie: 'dc_jqaccordion_widget-2',
+		speed: 'fast'
+    });
+});
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//chnmdev.gmu.edu/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 70]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//chnmdev.gmu.edu/piwik/piwik.php?idsite=70" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+
+</head>
+
+<body class="post-template-default single single-post postid-77 single-format-standard">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37455097-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><div class="wrap">
+
+<header>
+
+    <div class="container">
+        
+        <a class="site-title" href="http://journalofdigitalhumanities.org">
+            <img src="http://journalofdigitalhumanities.org/wp-content/themes/jdh/images/logo.png" alt="Journal of Digital Humanities">
+        </a>
+
+        <form role="search" method="get" id="searchform" action="http://journalofdigitalhumanities.org/">
+    <div>
+        <input type="text" value="" placeholder="Search JDH"name="s" id="s" />
+        <input type="submit" value="Search JDH" name="searchsubmit" id="searchsubmit" />
+    </div>
+</form>    
+
+        <nav>        
+            <ul class="social">
+                <li><a href="http://feeds.feedburner.com/journalofdigitalhumanities" class="RSS">Subscribe to the RSS</a></li>
+            </ul>
+
+            <div class="tabs"><ul id="menu-main-menu" class="menu"><li id="menu-item-436" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-436"><a href="http://journalofdigitalhumanities.org/about/">About</a></li>
+<li id="menu-item-2267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2267"><a href="http://journalofdigitalhumanities.org/volumes/">Volumes</a></li>
+<li id="menu-item-435" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-435"><a href="http://journalofdigitalhumanities.org/submissions/">Submissions</a></li>
+</ul></div>            
+        </nav>
+        
+    </div>
+
+</header>
+
+<section id="content" class="container row ">
+
+
+
+<div class="sidebar four columns alpha">
+    
+<h3>Table of Contents for Vol. 1, No. 1 Winter 2011</h3>
+
+<ul id="menu-table-of-contents" class="menu">
+
+        <li class="parent"><a href="http://journalofdigitalhumanities.org/category/1-1/introduction-1-1/">Introduction</a>
+            <ul class="sub-menu">
+                        <li><a href="http://journalofdigitalhumanities.org/1-1/a-community-sourced-journal/">A Community-Sourced Journal</a><br>The Editors</li><li><a href="http://journalofdigitalhumanities.org/1-1/getting-started-in-digital-humanities-by-lisa-spiro/">Getting Started in Digital Humanities</a><br>Lisa Spiro</li>            </ul>
+        </li>
+        <li class="parent"><a href="http://journalofdigitalhumanities.org/category/1-1/articles-1-1/">Articles</a>
+            <ul class="sub-menu">
+                        <li><a href="http://journalofdigitalhumanities.org/1-1/academic-history-writing-and-its-disconnects-by-tim-hitchcock/">Academic History Writing and its Disconnects</a><br>Tim Hitchcock</li><li><a href="http://journalofdigitalhumanities.org/1-1/defining-data-for-humanists-by-trevor-owens/">Defining Data for Humanists: Text, Artifact, Information or Evidence?</a><br>Trevor Owens</li><li class="current-menu-item"><a href="http://journalofdigitalhumanities.org/1-1/demystifying-networks-by-scott-weingart/">Demystifying Networks, Parts I &amp; II</a><br>Scott B. Weingart</li><li><a href="http://journalofdigitalhumanities.org/1-1/clustering-with-compression-for-the-historian-by-chad-black/">Clustering with Compression for the Historian</a><br>Chad Black</li><li><a href="http://journalofdigitalhumanities.org/1-1/spatializing-photographic-archives-by-marc-downie-paul-kaiser/">Spatializing Photographic Archives</a><br>Marc Downie and Paul Kaiser</li><li><a href="http://journalofdigitalhumanities.org/1-1/humanities-in-a-digital-age-symposium-podcasts/">"Humanities in a Digital Age" Symposium Podcasts</a><br>Jeremy Boggs, Alison Booth, Daniel J. Cohen, Mitchell S. Green, Anne Houston and Stephen Ramsay</li><li><a href="http://journalofdigitalhumanities.org/1-1/philosophical-leadership-needed-for-the-future/">Philosophical Leadership Needed for the Future: Digital Humanities Scholars in Museums</a><br>Nik Honeysett and Michael Edson</li><li><a href="http://journalofdigitalhumanities.org/1-1/critical-discourse-in-digital-humanities-by-fred-gibbs/">Critical Discourse in Digital Humanities</a><br>Fred Gibbs</li>            </ul>
+        </li>
+        <li class="parent"><a href="http://journalofdigitalhumanities.org/category/1-1/conversations-1-1/">Conversations</a>
+            <ul class="sub-menu">
+                        <li><a href="http://journalofdigitalhumanities.org/1-1/introduction-theory-and-the-virtues-of-digital-humanities-by-natalia-cecire/">Introduction: Theory and the Virtues of Digital Humanities</a><br>Natalia Cecire</li><li><a href="http://journalofdigitalhumanities.org/1-1/when-digital-humanities-was-in-vogue-by-natalia-cecire/">When Digital Humanities Was in Vogue</a><br>Natalia Cecire</li><li><a href="http://journalofdigitalhumanities.org/1-1/theory-first-by-ben-schmidt/">Theory First</a><br>Benjamin M. Schmidt</li><li><a href="http://journalofdigitalhumanities.org/1-1/what-we-think-we-will-build-and-what-we-build-in-digital-humanities-by-will-thomas/">What We Think We Will Build and What We Build in Digital Humanities</a><br>William G. Thomas</li><li><a href="http://journalofdigitalhumanities.org/1-1/who-you-calling-untheoretical-by-jean-bauer/">Who You Calling Untheoretical?</a><br>Jean Bauer</li><li><a href="http://journalofdigitalhumanities.org/1-1/theory-digital-humanities-and-noticing-by-patrick-murray-john/">Theory, Digital Humanities, and Noticing</a><br>Patrick Murray-John</li><li><a href="http://journalofdigitalhumanities.org/1-1/digital-humanities-as-thunderdome-by-elijah-meeks/">Digital Humanities as Thunderdome</a><br>Elijah Meeks</li><li><a href="http://journalofdigitalhumanities.org/1-1/words-and-code-by-tom-scheinfeld-and-ryan-shaw/">Words and Code</a><br>Tom Scheinfeldt and Ryan Shaw</li><li><a href="http://journalofdigitalhumanities.org/1-1/please-write-it-down-by-trevor-owens/">Please Write it Down: Design and Research in Digital Humanities</a><br>Trevor Owens</li><li><a href="http://journalofdigitalhumanities.org/1-1/building-and-sharing-when-youre-supposed-to-be-teaching-by-mark-sample/">Building and Sharing (When You’re Supposed to be Teaching)</a><br>Mark Sample</li><li><a href="http://journalofdigitalhumanities.org/1-1/marked-bodies-transformative-scholarship-and-the-question-of-theory-in-digital-humanities-by-alexis-lothian/">Marked Bodies, Transformative Scholarship, and the Question of Theory in Digital Humanities</a><br>Alexis Lothian</li><li><a href="http://journalofdigitalhumanities.org/1-1/where-are-the-philosophers-by-peter-bradley/">Where Are the Philosophers? Thoughts from THATCamp Pedagogy</a><br>Peter Bradley</li><li><a href="http://journalofdigitalhumanities.org/1-1/its-all-about-the-stuff-by-tim-sherratt/">It’s All About the Stuff: Collections, Interfaces, Power, and People</a><br>Tim Sherratt</li><li><a href="http://journalofdigitalhumanities.org/1-1/all-the-digital-humanists-are-white-all-the-nerds-are-men-but-some-of-us-are-brave-by-moya-z-bailey/">All the Digital Humanists Are White, All the Nerds Are Men, but Some of Us Are Brave</a><br>Moya Z. Bailey</li>            </ul>
+        </li>
+        <li class="parent"><a href="http://journalofdigitalhumanities.org/category/1-1/reviews-1-1/">Reviews</a>
+            <ul class="sub-menu">
+                        <li><a href="http://journalofdigitalhumanities.org/1-1/wordseer/">Review of WordSeer, produced by Aditi Muralidharan, Marti Hearst, and Bryan Wagner</a><br>Amy Earhart</li><li><a href="http://journalofdigitalhumanities.org/1-1/bookworm/">Review of Bookworm, produced by Benjamin Schmidt, Martin Camacho, et al.</a><br>Boone B. Gorges</li><li><a href="http://journalofdigitalhumanities.org/1-1/querypic/">Review of QueryPic, produced by Tim Sherratt</a><br>Jeremy Boggs, David McClure, Eric Rochester and Wayne Graham</li>            </ul>
+        </li>
+   
+    <li><a href="http://journalofdigitalhumanities.org/authors/">Authors</a></li>
+</ul>
+</div>
+    
+<div id="article" class="ten columns offset-by-two omega">
+
+
+    <h1>Demystifying Networks, Parts I &amp; II</h1>
+    
+            <h4 class="author-name"><a href="http://journalofdigitalhumanities.org/author/sweingart/" title="Posts by Scott B. Weingart" class="author url fn" rel="author">Scott B. Weingart</a></h4>
+        
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Focoins.info%3Agenerator&amp;rft.type=&amp;rft.format=text&amp;rft.title=Demystifying+Networks%2C+Parts+I+%26amp%3B+II&amp;rft.source=Journal+of+Digital+Humanities&amp;rft.date=2012-03-15&amp;rft.identifier=http%3A%2F%2Fjournalofdigitalhumanities.org%2F1-1%2Fdemystifying-networks-by-scott-weingart%2F&amp;rft.language=English&amp;rft.subject=Articles&amp;rft.subject=Vol.+1%2C+No.+1+Winter+2011&amp;rft.aulast=Weingart&amp;rft.aufirst=Scott+B."></span><h3><strong>Part 1 of <em>n</em>: An Introduction</strong></h3>
+<p>This piece builds on a <a title="Scott Weingart, &quot;Contextualizing networks with maps&quot;" href="http://www.scottbot.net/HIAL/?p=1942" target="_blank">bunch</a> <a title="Scott Weingart, &quot;Topic Modeling and Network Analysis&quot;" href="http://www.scottbot.net/HIAL/?p=221" target="_blank">of</a> <a title="Scott Weingart, &quot;Alchemy, Text Analysis, and Networks! Oh my!&quot;" href="http://www.scottbot.net/HIAL/?p=129" target="_blank">my</a> <a title="Scott Weingart, &quot;Who am I?&quot;" href="http://www.scottbot.net/HIAL/?p=120" target="_blank">recent</a> <a title="Scott Weingart, &quot;#humnets paper/review&quot;" href="http://www.scottbot.net/HIAL/?p=80" target="_blank">blog posts</a> that have mentioned networks. <a title="Elijah Meeks, &quot;Digital Humanities Specialist&quot;" href="http://dhs.stanford.edu/" target="_blank">Elijah Meeks</a> already has prepared a good introduction to <a title="Elijah Meeks, &quot;More Networks in the Humanities or Did books have DNA?&quot;" href="https://dhs.stanford.edu/visualization/more-networks/" target="_blank">network visualizations on his own blog</a>, so I cover more of the conceptual issues here, hoping to reach people with little-to-no background in networks or math, and specifically to digital humanists interested in applying network analysis to their own work.</p>
+<h3>Some Warnings</h3>
+<p>A network is a fantastic tool in the digital humanist’s toolbox—one of many—and it’s no exaggeration to say pretty much <em>any</em> data can be studied via network analysis. With enough stretching and molding, you too could have a network analysis problem! As with many other science-derived methodologies, it’s fairly easy to extend the metaphor of network analysis into any number of domains.</p>
+<p>The danger here is two-fold.</p>
+<ol>
+<li><a title="Wikipedia entry, &quot;Law of the instrument&quot;" href="http://en.wikipedia.org/wiki/Law_of_the_instrument" target="_blank">When you’re given your first hammer, everything looks like a nail</a>. Networks <em>can</em> be used on any project. Networks <em>should</em> be used on far fewer. Networks in the humanities are experiencing quite the awakening, and this is due in part to the until-recently untapped resources of easy tools and available datasets. There is a lot of low-hanging fruit out there on the networks+humanities tree, and they ought to be plucked by those brave and willing enough to do so. However, that does not give us an excuse to apply networks to <em>everything</em>. This series will talk a little bit about when hammers are useful, and when you really should be reaching for a screwdriver.</li>
+<li>Methodology appropriation is <em>dangerous</em>. Even when the people designing a methodology for some specific purpose get it right—and they rarely do—there is often a score of theoretical and philosophical caveats that get lost when the methodology gets translated. In the more frequent case, when those caveats are not known to begin with, “borrowing” the methodology becomes even more dangerous. Ted Underwood <a title="Ted Underwood, &quot;LSA is a marvellous tool, but literary historians may want to customize it for their own discipline.&quot;" href="http://tedunderwood.wordpress.com/2011/10/16/lsa-is-a-marvellous-tool-but-humanists-may-no-use-it-the-way-computer-scientists-do/" target="_blank">blogs a great example of why literary historians ought to skip a major step in Latent Semantic Analysis</a>, because the purpose of the literary historian is <em>so very different</em> from that of the computer scientist who designed the algorithm. This series will attempt to point out some of the theoretical baggage and necessary assumptions of the various network methods it covers.</li>
+</ol>
+<h3>The Basics</h3>
+<p>Nothing worth discovering has ever been found in safe waters. Or rather, everything worth discovering in safe waters <em>has already been discovered</em>, so it’s time to shove off into the dangerous waters of methodology appropriation, cognizant of the warnings but not crippled by them.</p>
+<p>Anyone with a lot of time and a vicious interest in networks should stop reading <em>right now</em>, and instead pick up copies of <a title="David Easley and Jon Kleinberg, &quot;Networks, Crowds, and Markets: Reasoning About a Highly Connected World&quot;" href="http://www.cs.cornell.edu/home/kleinber/networks-book/" target="_blank">Networks, Crowds, and Markets</a><sup>[<a href="#demystifying-networks-by-scott-weingart-n-1" class="footnoted" id="to-demystifying-networks-by-scott-weingart-n-1">1</a>]</sup> and <a title="Amazon Page for Mark Newman, &quot;Networks: An Introduction&quot;" href="http://www.amazon.com/Networks-Introduction-Mark-Newman/dp/0199206651" target="_blank">Networks: An Introduction</a><sup>[<a href="#demystifying-networks-by-scott-weingart-n-2" class="footnoted" id="to-demystifying-networks-by-scott-weingart-n-2">2</a>]</sup>. The first is a non-mathy introduction to most of the concepts of network analysis, and the second is a more in-depth (and formula-laden) exploration of those concepts. They’re phenomenal, essential, and worth every penny.</p>
+<p>Those of you with slightly less time, but somehow enough to read my rambling blog (there are apparently a few of you out there), so good of you to join me. We’ll start with the <em>really basic</em> basics, but stay with me, because by part <em>n</em> of this series, we’ll be going over the really cool stuff only ninjas, Gandhi, and The Rolling Stones have worked on.</p>
+<h3>Networks</h3>
+<p>The word “network” originally meant just that: “a <a title="Home Page, Online Etymology Dictionary" href="http://www.etymonline.com/index.php?term=network" target="_blank">net-like arrangement of threads, wires, etc.</a>” It later came to stand for any complex, interlocking system. <strong>Stuff</strong> and <strong>relationships</strong>.</p>
+<div>
+<div id="attachment_591" style="width: 343px" class="wp-caption aligncenter"><a href="http://www.journalofdigitalhumanities.org/wp-content/uploads/2012/03/network.png" target="_blank"><img class=" wp-image-591   " title="A simple network representation from wikipedia.org" alt="A simple network representation from wikipedia.org" src="http://journalofdigitalhumanities.org/wp-content/uploads/2012/03/network.png" width="333" height="220" srcset="http://journalofdigitalhumanities.org/wp-content/uploads/2012/03/network.png 333w, http://journalofdigitalhumanities.org/wp-content/uploads/2012/03/network-300x198.png 300w" sizes="(max-width: 333px) 100vw, 333px" /></a><p class="wp-caption-text">A simple network representation from wikipedia.org</p></div>
+<p>Generally, network studies are made under the assumption that neither the stuff nor the relationships are the whole story on their own. If you’re studying something with networks, odds are you’re doing so because you think the objects of your study are <em>interdependent</em> rather than <em>independent</em>. Representing information as a network implicitly suggests not only that connections matter, but that they are <em>required</em> to understand whatever’s going on.</p>
+</div>
+<p>Oh, I should mention that people often use the word “graph” when talking about networks. It’s basically the mathy term for a network, and its definition is a bit more formalized and concrete. Think dots connected with lines.</p>
+<p>Because networks are studied by lots of different groups, there are lots of different words for pretty much the same concepts. I’ll explain some of them below.</p>
+<h3>The Stuff</h3>
+<p>Stuff (presumably) exists. Eggplants, true love, the <em>Mary Celeste</em>, tall people, and Terry Pratchett’s <em>Thief of Time</em> all fall in that category. Network analysis generally deals with one or a small handful of <em>types</em> of stuff, and then a multitude of examples of that type.</p>
+<p>Say the <em>type</em> we’re dealing with is a book. While scholars might argue the exact lines of demarcation separating book from non-book, I think we can all agree that most of the stuff on my bookshelf are, in fact, books. They’re the <em>stuff</em>. There are different examples of books: a quotation dictionary, a Poe collection, and so forth.</p>
+<p>I’ll call this assortment of stuff <em>nodes</em>. You’ll also hear them called <em>vertices</em> (mostly from the mathematicians and computer scientists), <em>actors</em> (from the sociologists), <em>agents</em> (from the modelers), or <em>points </em>(not really sure where this one comes from).</p>
+<p>The <em>type</em> of stuff corresponds to the <em>type</em> of node. The individual examples are the nodes themselves. All of the nodes are books, and each book is a different node.</p>
+<p>Nodes can have attributes. Each node, for example, may include the title, the number of pages, and the year of publication.</p>
+<p>A list of nodes could look like this:</p>
+<pre>| Title                    | # of pages | year of publication |
+| ----------------------------------------------------------- |
+| Graphs, Maps, and Trees  | 119        | 2005                |
+| How The Other Half Lives | 233        | 1890                |
+| Modern Epic              | 272        | 1995                |
+| Mythology                | 352        | 1942                |
+| Macroanalysis            | unknown    | 2011                |</pre>
+<div>
+<div id="attachment_592" style="width: 310px" class="wp-caption aligncenter"><a href="http://www.journalofdigitalhumanities.org/wp-content/uploads/2012/03/NetBooks2-300x222.png" target="_blank"><img class=" wp-image-592  " title="A network of books (nodes) with no relationships (connections)" alt="A network of books (nodes) with no relationships (connections)" src="http://www.journalofdigitalhumanities.org/wp-content/uploads/2012/03/NetBooks2-300x222.png" width="300" height="222" /></a><p class="wp-caption-text">A network of books (nodes) with no relationships (connections)</p></div>
+</div>
+<p>We can get a bit more complicated and add more node <em>types</em> to the network. Authors, for example. Now we’ve got a network with books and authors (but nothing linking them, yet!). <em>Franco Moretti</em> and <em>Graphs, Maps, and Trees</em> are both nodes, although they are of different varieties, and not yet connected. We could have a second list of nodes, part of the same network, that might look like this:</p>
+<pre>| Author          | Birth | Death   |
+| --------------------------------- |
+| Franco Moretti  | ?     | n/a     |
+| Jacob A. Riis   | 1849  | 1914    |
+| Edith Hamilton  | 1867  | 1963    |
+| Matthew Jockers | ?     | n/a     |</pre>
+<div>
+<div id="attachment_593" style="width: 1034px" class="wp-caption aligncenter"><a href="http://www.journalofdigitalhumanities.org/wp-content/uploads/2012/03/NetBooksAuthors1-1024x840.png" target="_blank"><img class=" wp-image-593       " title="A network of books and authors without relationships." alt="A network of books and authors without relationships." src="http://www.journalofdigitalhumanities.org/wp-content/uploads/2012/03/NetBooksAuthors1-1024x840.png" width="1024" height="840" srcset="http://journalofdigitalhumanities.org/wp-content/uploads/2012/03/NetBooksAuthors1-1024x840.png 1024w, http://journalofdigitalhumanities.org/wp-content/uploads/2012/03/NetBooksAuthors1-1024x840-300x246.png 300w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><p class="wp-caption-text">A network of books and authors without relationships.</p></div>
+<p>A network with two types of nodes is called <em>2-mode</em>, <em>bimodal</em>, or <em>bipartite</em>. We can add more, making it <em>multimodal</em>. Publishers, topics, you-name-it. We can even add seemingly unrelated node-types, like academic conferences, or colors of the rainbow. The list goes on. We would have a new list for each new variety of node.</p>
+</div>
+<p>Presumably we could continue adding nodes and node-types until we run out of stuff in the universe. This would be a bad idea, and not just because it would take more time, energy, and hard-drives than could ever possibly exist. As it stands now, network science is ill-equipped to deal with multimodal networks. 2-mode networks are difficult enough to work with, but once you get to three or more varieties of nodes, most algorithms used in network analysis <em>simply do not work</em>. It’s not that they <em>can’t</em> work; it’s just that most algorithms were only created to deal with networks with one variety of node. This is a trap I see many newcomers to network science falling into, especially in the digital humanities. They find themselves with a network dataset of, for example, authors and publishers. Each author is connected with one or several publishers (we’ll get into the connections themselves in the next section), and the up-and-coming network scientist loads the network into their favorite software and visualizes it. Woah! A network! Then, because the software is easy to use, and has a lot of buttons with words that from a non-technical standpoint seem to make a lot of sense, they press those buttons to see what comes out. Then, they change the visual characteristics of the network based on the buttons they’ve pressed. Let’s take a concrete example. Popular network software <a title="Gephi, an interactive visualization and exploration platform" href="http://gephi.org/" target="_blank">Gephi</a> comes with a button that measures the <em>centrality</em> of nodes. Centrality is a pretty complicated concept that I’ll get into more detail later, but for now it’s enough to say that it does exactly what it sounds like: it finds how central, or important, each node is in a network. The newcomer to network analysis loads the author-publisher network into Gephi, finds the centrality of every node, and then makes the nodes bigger that have the highest centrality. The issue here is that, although the network loads into Gephi perfectly fine, and although the centrality algorithm runs smoothly, the resulting numbers <em>do not mean what they usually mean</em>. Centrality, as it exists in Gephi, was fine-tuned to be used with single mode networks, whereas the author-publisher network (not to mention the author-book network above) is bimodal. Centrality measures have been made for bimodal networks, but those algorithms are not included with Gephi. Most computer scientists working with networks do so with only one or a few types of nodes. Humanities scholars, on the other hand, are often dealing with the interactions of <em>many</em> types of things, and so the algorithms developed for traditional network studies are insufficient for the networks we often have. There are ways of fitting their algorithms to our networks, or vice-versa, but that requires fairly robust technical knowledge of the task at hand. Besides dealing with the single mode / multimodal issue, humanists also must struggle with fitting square pegs in round holes. Humanistic data are almost by definition uncertain, open to interpretation, flexible, and not easily definable. Node types are by definition concrete; your object either <em>is</em> or <em>is not</em> a book. Every book-type thing must share certain unchanging characteristics. This <em>reduction of data</em> comes at a price, one that some argue traditionally divided the humanities and social sciences. If humanists care more about the differences than the regularities, more about what makes an object unique rather than what makes it similar, that is the very information they are likely to lose by defining their objects as nodes. This is not to say it cannot be done, or even that it has not! People are clever, and network science is more flexible than some give it credit for. The important thing is either to be aware of what you are losing when you reduce your objects to one or a few types of nodes, or to change the methods of network science to fit your more complex data.</p>
+<h3>The Relationships</h3>
+<p>Relationships (presumably) exist. Friendships, similarities, web links, authorships, and wires all fall into this category. Network analysis generally deals with one or a small handful of <em>types</em> of relationships, and then a multitude of examples of that type. Now that we have <em>stuff</em> and <em>relationships</em>, we&#8217;re  equipped to represent everything needed for a simple network. Let&#8217;s start with a single mode network; that is, a network with only one sort of node: cities. We can create a network of which cities are connected to one another by at least one single stretch of highway, like the one below:</p>
+<pre>| City          | is connected to |
+| ------------------------------- |
+| Indianapolis  | Louisville      |
+| Louisville    | Cincinnati      |
+| Cincinatti    | Indianapolis    |
+| Cincinatti    | Lexington       |
+| Louisville    | Lexington       |
+| Louisville    | Nashville       |</pre>
+<div id="attachment_568" style="width: 599px" class="wp-caption aligncenter"><a href="http://www.journalofdigitalhumanities.org/wp-content/uploads/2012/03/cities.png" target="_blank"><img class=" wp-image-568  " title="Cities interconnected by highways" alt="Cities interconnected by highways" src="http://www.journalofdigitalhumanities.org/wp-content/uploads/2012/03/cities.png" width="589" height="531" srcset="http://journalofdigitalhumanities.org/wp-content/uploads/2012/03/cities.png 589w, http://journalofdigitalhumanities.org/wp-content/uploads/2012/03/cities-300x270.png 300w" sizes="(max-width: 589px) 100vw, 589px" /></a><p class="wp-caption-text">Cities interconnected by highways</p></div>
+<p>The simple network above shows how certain cities are connected to one another via highways. A connection via a highways is the <em>type</em> of relationship. An example of one of the above relationships can be stated &#8220;Louisville <em>is connected via a highway to</em> Indianapolis.&#8221; These connections are <em>symmetric</em> because a connection from Louisville to Indianapolis also implies a connection in the reverse direction, from Indianapolis to Louisville. More on that shortly. First, let&#8217;s go back to the example of books and authors from the last section. Say the <em>type</em> we’re dealing with is an authorship. Books (the <em>stuff</em>) and authors (another kind of <em>stuff</em>) are connected to one-another via the authorship relationship, which is formalized in the phrase “X is an author of Y.” The individual relationships themselves are of the form “Franco Moretti is an author of <em>Graphs, Maps, and Trees</em>.” Much like the stuff (nodes), relationships enjoy a multitude of names. I’ll call them <em>edges</em>. You’ll also hear them called <em>arcs</em>, <em>links</em>, <em>ties</em>, and <em>relations</em>. For simplicity sake, although <em>edges</em> are often used to describe only one variety of relationship, I’ll use it for pretty much everything and just add qualifiers when discussing specific types. The <em>type</em> of relationship corresponds to the <em>type</em> of edge. The individual examples are the edges themselves. Individual edges are defined, in part, by the nodes that they connect. A list of edges could look like this:</p>
+<pre>| Person                   | Is an author of            |
+| ----------------------------------------------------- |
+| Franco Moretti           | Modern Epic                |
+| Franco Moretti           | Graphs, Maps, and Trees    |
+| Jacob A. Riis            | How The Other Half Lives   |
+| Edith Hamilton           | Mythology                  |
+| Matthew Jockers          | Macroanalysis              |</pre>
+<div>
+<div id="attachment_594" style="width: 1034px" class="wp-caption aligncenter"><a href="http://www.journalofdigitalhumanities.org/wp-content/uploads/2012/03/NetBooksAuthorsEdges-1024x946.png" target="_blank"><img class=" wp-image-594     " title="Network of books, authors, and relationships between them." alt="Network of books, authors, and relationships between them." src="http://www.journalofdigitalhumanities.org/wp-content/uploads/2012/03/NetBooksAuthorsEdges-1024x946.png" width="1024" height="946" srcset="http://journalofdigitalhumanities.org/wp-content/uploads/2012/03/NetBooksAuthorsEdges-1024x946.png 1024w, http://journalofdigitalhumanities.org/wp-content/uploads/2012/03/NetBooksAuthorsEdges-1024x946-300x277.png 300w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><p class="wp-caption-text">Network of books, authors, and relationships between them.</p></div>
+</div>
+<p>Notice how, in this scheme, edges can only link two different types of nodes. That is, a person can be an author of a book, but a book cannot be an author of a book, nor can a person an author of a person. For a network to be truly bimodal, it <em>must</em> be of this form. Edges can go between types, but not among them. This constraint may seem artificial, and in some sense it is, but for now the short explanation is that it is a constraint required by most algorithms that deal with bimodal networks. As mentioned above, algorithms are developed for specific purposes. Single mode networks are the ones with the most research done on them, but bimodal networks certainly come in a close second. They are networks with two types of nodes, and edges <em>only</em> going <em>between</em> those types. Contrast this against the single mode city-to-city network from before, where edges connected nodes of the same type. Of course, the world humanists care to model is often a good deal more complicated than that, and not only does it have multiple varieties of nodes – it also has multiple varieties of edges. Perhaps, in addition to “X is an author of Y” type relationships, we also want to include “A collaborates with B” type relationships. Because edges, like nodes, can have attributes, an edge list combining both might look like this.</p>
+<pre>| Node1                    | Node 2                     | Edge Type         |
+| ----------------------------------------------------- | ----------------- |
+| Franco Moretti           | Modern Epic                | is an author of   |
+| Franco Moretti           | Graphs, Maps, and Trees    | is an author of   |
+| Jacob A. Riis            | How The Other Half Lives   | is an author of   |
+| Edith Hamilton           | Mythology                  | is an author of   |
+| Matthew Jockers          | Macroanalysis              | is an author of   |
+| Matthew Jockers          | Franco Moretti             | collaborates with |</pre>
+<div>
+<div id="attachment_595" style="width: 1034px" class="wp-caption aligncenter"><a href="http://www.journalofdigitalhumanities.org/wp-content/uploads/2012/03/Full-Network.png" target="_blank"><img class=" wp-image-595       " title="Network of authors, books, authorship relationships, and collaboration relationships." alt="Network of authors, books, authorship relationships, and collaboration relationships." src="http://journalofdigitalhumanities.org/wp-content/uploads/2012/03/NetBooksAuthors1-1024x840.png" width="1024" height="840" /></a><p class="wp-caption-text">Network of authors, books, authorship relationships, and collaboration relationships.</p></div>
+</div>
+<p>Notice that there are now two types of edges: “is an author of” and “collaborates with.” Not only are they two different types of edges; they act in two <em>fundamentally different ways</em>. “X is an author of Y” is an asymmetric relationship; that is, you cannot switch out Node1 for Node2. You cannot say “Modern Epic is an author of Franco Moretti.” We call this type of relationship a <em>directed edge</em>, and we generally represent that visually using an arrow going from one node to another.</p>
+<p>“A collaborates with B,” on the other hand, is a symmetric relationship. We can switch out “Matthew Jockers collaborates with Franco Moretti” with “Franco Moretti collaborates with Matthew Jockers,” and the information represented would be exactly the same. This is called an <em>undirected edge</em>, and is usually represented visually by a simple line connecting two nodes. Notice that this is an edge connecting two nodes of the same type (an author-to-author connection), and recall that true bimodal networks require edges to only go <em>between</em> types. Algorithms meant for bimodal networks no longer apply to the network above.</p>
+<p>Most network algorithms and visualizations break down when combining these two flavors of edges. Some algorithms were designed for directed edges, like <a title="Wikipedia entry, &quot;PageRank&quot;" href="http://en.wikipedia.org/wiki/PageRank" target="_blank">Google’s PageRank</a>, whereas other algorithms are designed for undirected edges, like many centrality measures. Combining both types is rarely a good idea. Some algorithms will still run when the two are combined, however the results usually make little sense.</p>
+<p>Both directed and undirected edges can also be weighted. For example, I can try to make a network of books, with those books that are similar to one another sharing an edge between them. The more similar they are, the heavier the weight of that edge. I can say that every book is similar to every other on a scale from 1 to 100, and compare them by whether they use the same words. Two dictionaries would probably connect to one another with an edge weight of 95 or so, whereas <em>Graphs, Maps, and Trees</em> would probably share an edge of weight 5 with <em>How The Other Half Lives</em>. This is often visually represented by the thickness of the line connecting two nodes, although sometimes it is represented as color or length.</p>
+<p>It’s also worth pointing out the difference between explicit and inferred edges. If we’re talking about computers connected on a network via wires, the edges connecting each computer <em>actually exist</em>. We can weight them by wire length, and that length, too, <em>actually exists</em>. Similarly, citation linkages, neighbor relationships, and phone calls are explicit edges.</p>
+<p>We can begin to move into interpretation when we begin creating edges between books based on similarity (even when using something like word comparisons). The edges are a layer of interpretation not intrinsic in the objects themselves. The humanist might argue that all edges are intrinsic all the way down, or inferred all the way up, but in either case there is a difference in kind between two computers connected via wires, and two books connected because we feel they share similar topics.</p>
+<p>As such, algorithms made to work on one may not work on the other; or perhaps they may, but their interpretative framework must change drastically. A very central computer might be one in which, if removed, the computers will no longer be able to interact with one another; a very central book may be something else entirely.</p>
+<p>As with nodes, edges come with many theoretical shortcomings for the humanist. Really, everything is probably related to everything else in its <a title="Wikipedia entry, &quot;Light Cone&quot;" href="http://en.wikipedia.org/wiki/Light_cone" target="_blank">light cone</a>. If we’ve managed to make everything in the world a node, realistically we’d also have some sort of edge between pretty much everything, with a lesser or greater weight. A network of nodes where almost everything is connected to almost everything else is called <em>dense</em>, and dense networks are rarely useful. Most network algorithms (especially ones that detect communities of nodes) work better and faster when the network is <em>sparse</em>, when most nodes are only connected to a small percentage of other nodes.</p>
+<div>
+<div id="attachment_596" style="width: 810px" class="wp-caption aligncenter"><a href="http://www.journalofdigitalhumanities.org/wp-content/uploads/2012/03/complete.png" target="_blank"><img class=" wp-image-596    " title="Maximally dense networks from sagemath.org" alt="Maximally dense networks from sagemath.org" src="http://journalofdigitalhumanities.org/wp-content/uploads/2012/03/complete.png" width="800" height="600" srcset="http://journalofdigitalhumanities.org/wp-content/uploads/2012/03/complete.png 800w, http://journalofdigitalhumanities.org/wp-content/uploads/2012/03/complete-300x225.png 300w" sizes="(max-width: 800px) 100vw, 800px" /></a><p class="wp-caption-text">Maximally dense networks from sagemath.org</p></div>
+</div>
+<p>To make our network sparse, we often must artificially cut off which edges to use, especially with humanistic and inferred data. That’s what <a title="Shawn Graham, &quot;Topic Modeling With the JAVA GUI + Gephi&quot;" href="http://electricarchaeologist.wordpress.com/2011/11/11/topic-modeling-with-the-java-gui-gephi/" target="_blank">Shawn Graham showed us how to do when combining topic models with networks</a>. The network was one of authors and topics; which authors wrote about which topics? The data itself connected every author to every topic to a greater or lesser degree, but such a dense network would not be very useful, so Shawn limited the edges to the <em>highest weighted </em>connections between an author and a topic. The resulting network looked like <a title="Shawn Graham, pdf of visualization of topics by author" href="http://electricarchaeologist.files.wordpress.com/2011/11/topics-by-authors-v2.pdf" target="_blank">this</a> (PDF), when it otherwise would have looked like a big ball of spaghetti and meatballs.</p>
+<p>Unfortunately, given that humanistic data are often uncertain and biased to begin with, every arbitrary act of data-cutting has the potential to add further uncertainty and bias to a point where the network no longer provides meaningful results. The ability to cut away just enough data to make the network manageable, but not enough to lose information, is as much an art as it is a science.</p>
+<h3>Hypergraphs &amp; Multigraphs</h3>
+<p>Mathematicians and computer scientists have actually formalized more complex varieties of networks, and they call them <a title="Wikipedia entry, &quot;Hypergraph&quot;" href="http://en.wikipedia.org/wiki/Hypergraph" target="_blank">hypergraphs</a> and <a title="Wikipedia entry, &quot;Multigraph&quot;" href="http://en.wikipedia.org/wiki/Multigraph" target="_blank">multigraphs</a>. Because humanities data are often so rich and complex, it may be more appropriate to represent them using these representations. Unfortunately, although ample research has been done on both, most out-of-the-box tools support neither. We have to build them for ourselves.</p>
+<p>A hypergraph is one in which more than two nodes can be connected by one edge. A simple example would be an “is a sibling of” relationship, where the edge connected three sisters rather than two. This is a symmetric, undirected edge, but perhaps there can be directed edges as well, of the type “Alex <em>convinced </em>Betty <em>to run away from</em> Carl.” A three-part edge.</p>
+<p>A multigraph is one in which multiple edges can connect any two nodes. We can have, for example, a transportation graph between cities. A edge exists for every transportation route. Realistically, many routes can exist between any two cities: some by plane, several different highways, trains, etc.</p>
+<p>I imagine both of these representations will be important for humanists going forward, but rather than relying on that computer scientist who keeps hanging out in the history department, we ourselves will have to develop algorithms that accurately capture exactly what it is we are looking for. We have a different set of problems, and though the solutions may be similar, they must be adapted to our needs.</p>
+<h3>Side note: RDF Triples</h3>
+<p>Digital humanities loves <a title="Wikipedia entry, &quot;Resource Description Framework&quot;" href="http://en.wikipedia.org/wiki/Resource_Description_Framework" target="_blank">RDF</a> (Resource Description Framework), which is essentially a method of storing and embedding structured data. RDF basically works using something called a <em>triple</em>; a subject, a predicate, and an object. “Moretti is an author of <em>Graphs, Maps, and Trees</em>” is an example of a triple, where “Moretti” is the subject, “is an author of” is the predicate, and “<em>Graphs, Maps, and Trees</em>” is the object. As such, nearly all RDF documents can be represented as a directed network. Whether that representation would actually be useful depends on the situation.</p>
+<h3>Side note: Perspectives</h3>
+<p>Context is key, especially in the humanities. One thing the last few decades has taught us is that perspectives are essential, and any model of humanity that does not take into account its multifaceted nature is doomed to be forever incomplete. According to Alex, his friends Betty and Carl are best friends. According to Carl, he can’t actually stand Betty. The structure and nature of a network might change depending on the perspective of a particular node, and I know of no model that captures this complexity. If you’re familiar with something that might capture this, or are working on it yourself, please let me know via e-mail.</p>
+<h3>Networks, Revisited</h3>
+<p>This piece has discussed the simplest units of networks: the stuff and the relationships that connect them. Any network analysis approach must subscribe to and live with that duality of objects. Humanists face problems from the outset: data that do not fit neatly into one category or the other, complex situations that ought not be reduced, and methods that were developed with different purposes in mind. However, network analysis remains a viable methodology for answering and raising humanistic questions—we simply must be cautious, and must be willing to get our hands dirty editing the algorithms to suit our needs.</p>
+<h3><strong>Part II: Node Degree: An Introduction</strong></h3>
+<p>In Part II, I will cover the deceptively simple concept of <em>node degree</em>. I say “deceptive” because, on the one hand, network degree can tell you quite a lot. On the other hand, degree can often lead one astray, especially as networks become larger and more complicated.</p>
+<p>A node’s <em>degree</em><em> </em>is, simply, how many edges it is connected to. Generally, this also correlates to how many <em>neighbors</em> a node has, where a node’s neighborhood is those other nodes connected directly to it by an edge. In the network below, each node is labeled by its degree.</p>
+<div>
+<div id="attachment_597" style="width: 293px" class="wp-caption aligncenter"><a href="http://www.journalofdigitalhumanities.org/wp-content/uploads/2012/03/SelfLoop.png" target="_blank"><img class=" wp-image-597  " title="Each node in the network is labeled with its degree, from wikipedia.org" alt="Each node in the network is labeled with its degree, from wikipedia.org" src="http://journalofdigitalhumanities.org/wp-content/uploads/2012/03/SelfLoop.png" width="283" height="169" /></a><p class="wp-caption-text">Each node in the network is labeled with its degree, from wikipedia.org</p></div>
+</div>
+<p>If you take a minute to study the network, something might strike you as odd. The bottom-right node, with degree 5, is connected to only four distinct edges, and really only three other nodes (four, including itself).<em> Self-loops</em>, which will be discussed later, are counted twice. A self-loop is any edge which starts and ends at the same node.</p>
+<p><em>Why</em> are self-loops counted twice? Well, as a rule of thumb you can say that, since the degree is the number of times the node is connected to an edge, and a self-loop connects to a node twice, that’s the reason. There are some more math-y reasons dealing with matrix representation, another topic for a later date. Suffice it to say that many network algorithms will not work well if self-loops are only counted once.</p>
+<p>The odd node out on the bottom left, with degree zero, is called an <em>isolate</em>. An isolate is any node with no edges.</p>
+<p>At any rate, the concept is clearly simple enough. Count the number of times a node is connected to an edge, get the degree. If only getting higher education degrees were this easy.</p>
+<h3>Centrality</h3>
+<p>Node degree is occasionally called <em>degree centrality</em>. <a title="Wikipedia entry, &quot;Centrality&quot;" href="http://en.wikipedia.org/wiki/Centrality" target="_blank">Centrality</a> is generally used to determine how important nodes are in a network, and lots of clever researchers have come up with lots of clever ways to measure it. “Importance” can mean a lot of things. In social networks, centrality can be the amount of influence or power someone has; in the U.S. electrical grid network, centrality might mean which power station should be removed to cause the most damage to the network.</p>
+<p>The simplest way of measuring node importance is to just look at its degree. This centrality measurement at once seems deeply intuitive and extremely silly. If we’re looking at the social network of <a title="Facebook home page" href="http://facebook.com" target="_blank">Facebook</a>, with every person a node connected by an edge to their friends, it’s no surprise that the most well-connected person is probably also the most powerful and influential in the social space. On the same token, though, degree centrality is such a coarse-grained measurement that it’s really anybody’s guess what <em>exactly</em> it’s measuring. It could mean someone has a lot of power; it could also mean that someone tried to become friends with absolutely everybody on Facebook. Recall the example of a city-to-city network from Part I of this series: Louisville was the most central city because you have to drive through it to get to the most others.</p>
+<h3>Degree Centrality Sampling Warnings</h3>
+<p>Degree works best as a measure of network centrality when you have <em>full knowledge</em> of the network. That is, a social network exists, and instead of getting some glimpse of it and analyzing just that, you have the entire context of the social network: all the friends, all the friends of friends, and so forth.</p>
+<p>When you have an <em>ego-network</em> (a network of one person, like a list of all my friends and who among them are friends with one another), clearly the node with the highest centrality is the ego node itself. This knowledge tells you very little about whether that ego is actually central within the larger network, because you sampled the network <em>such that the ego is necessarily the most central</em>. Sampling strategies—how you pick which nodes and edges to collect—can fundamentally affect centrality scores. The city-to-city network from Part I has Louisville as the most central city, however a simple look at a map of the United Staes would show that, given more data, this would no longer be the case.</p>
+<div>
+<div id="attachment_598" style="width: 506px" class="wp-caption aligncenter"><a href="http://www.journalofdigitalhumanities.org/wp-content/uploads/2012/03/Ego_network.png" target="_blank"><img class=" wp-image-598  " title="An ego network from wikipedia.org" alt="An ego network from wikipedia.org" src="http://journalofdigitalhumanities.org/wp-content/uploads/2012/03/Ego_network.png" width="496" height="481" srcset="http://journalofdigitalhumanities.org/wp-content/uploads/2012/03/Ego_network.png 496w, http://journalofdigitalhumanities.org/wp-content/uploads/2012/03/Ego_network-300x290.png 300w" sizes="(max-width: 496px) 100vw, 496px" /></a><p class="wp-caption-text">An ego network from wikipedia.org</p></div>
+</div>
+<p>A historian of science might generate a correspondence network from early modern letters currently held in Oxford’s library. In fact, this is currently happening, and the resulting resource will be invaluable. Unfortunately, centrality scores generated from nodes in that early modern letter writing network will more accurately reflect the whims of Oxford editors and collectors over the years, rather than the underlying correspondence network itself. Oxford scholars over the years selected certain collections of letters, be they from Great People or sent to or from Oxford, and that choice of what to hold at Oxford libraries will bias centrality scores toward Oxford-based scholars, Great People, and whatever else was selected for.</p>
+<p>Similarly, the generation of a social network from a literary work will bias the recurring characters; characters that occur more frequently are simply statistically more likely to appear with more people, and as such will have the highest degrees. It is likely that the degree centrality and frequency of character occurrence are almost exactly correlated.</p>
+<p>Of course, if what you’re looking for is <em>the most central character in the novel</em> or <em>the most central figure from Oxford’s perspective</em>, this measurement might be perfectly sufficient. The important thing is to be aware of the limitations of degree centrality, and the possible biasing effects from selection and sampling. Once those biases are explicit, careful and useful inferences can still be drawn.</p>
+<p>Things get a bit more complicated when looking at document similarity networks. If you’ve got a network of books with edges connecting them based on whether they share similar topics or keywords, your degree centrality score will mean something <em>very different</em>. In this case, centrality could mean the most general book. Keep in mind that book length might affect these measurements as well; the longer a book is, the more likely (by chance alone) it will cover more topics. Thus, longer books may also appear to be more central, if one is not careful in generating the network.</p>
+<h3>Degree Centrality in Bimodal Networks</h3>
+<p>Recall that bimodal networks are ones where there are two different types of nodes (e.g., articles and authors), and edges are relationships that bridge those types (e.g., authorships). In this example, the more articles an author has published, the more central she is. Degree centrality would have nothing to do, in this case, with the number of co-authorships, the position in the social network, etc.</p>
+<p>With an even more multimodal network, having many types of nodes, degree centrality becomes even less well defined. As the sorts of things a node can connect to increases, the utility of simply counting the number of connections a node has decreases.</p>
+<h3>Micro vs. Macro</h3>
+<p>Looking at the degree of an individual node, and comparing it against others in the network, is useful for finding out about the relative position of that node within the network. Looking at the degree <em>of every node at once</em> turns out to be exceptionally useful for talking about the network as a whole, and comparing it to others. I’ll leave a thorough discussion of degree distributions for a later post, but it’s worth mentioning them in brief here. The degree distribution shows how many nodes have how many edges.</p>
+<p>As it happens, many real world networks exhibit something called “power-law properties” in their degree distributions. What this essentially means is that a small number of nodes have an exceptionally high degree, whereas most nodes have very low degrees. By comparing the degree distributions of two networks, it is possible to say whether they are structurally similar. There’s been some fantastic work comparing the degree distribution of social networks in various plays and novels to find if they are written or structured similarly.</p>
+<h3>Extending Degree</h3>
+<p>For the entirety of this piece, I have been talking about networks that were unweighted and undirected. Every edge counted just as much as every other, and they were all <em>symmetric</em> (a connection from A to B implies the same connection from B to A). Degree can be extended to both weighted and directed (<em>asymmetric</em>) networks with relative ease.</p>
+<p>Combining degree with edge weights is often called <em>strength</em>. The strength of a node is the sum of the weights of its edges. For example, let’s say Steve is part of a weighted social network. The first time he interacts with someone, an edge is created to connect the two with a weight of 1. Every subsequent interaction incrementally increases the weight by 1, so if he’s interacted with Sally four times, Samantha two times, and Salvador six times, the edge weights between them are 4, 2, and 6 respectively.</p>
+<p>In the above example, because Steve is connected to three people, his degree is 1+1+1=<strong>3</strong>. Because he is connected to one of them four times, another twice, and another six times, his weight is 4+2+6=<strong>8</strong>.</p>
+<p>Combining degree with directed edges is also quite simple. Instead of one degree score, every node now has two different degrees: <em>in-degree</em> and <em>out-degree</em>. The in-degree is the number of edges pointing to a node, and the out-degree is the number of edges pointing away from it. If Steve <em>borrowed</em> money from Sally, and <em>lent</em> money to Samantha and Salvador, his in-degree might be <strong>1 </strong>and his out-degree <strong>2</strong>.</p>
+<h3>Powerful Degrees</h3>
+<p>The degree of a node is really very simple: more connections, higher degree. However, this simple metric accounts for quite a great deal in network science. Many algorithms that analyze both node-level properties and network-level properties are closely correlated with degree and degree distribution. This is a <a title="Wikipedia entry, &quot;Pareto Principle&quot;" href="http://en.wikipedia.org/wiki/Pareto_principle" target="_blank">pareto</a>-like effect; a great deal about a network is driven by the degree of its nodes.</p>
+<p>While degree-based results are often intuitive, it is worth pointing out that the prime importance of degree is a direct result of the binary network representation of nodes and edges. Interactions either happen or they don’t, and everything that <em>is</em> is a self-contained node or edge. Thus, how many nodes, how many edges, and which nodes have which edges will be the driving force of any network analysis. This is both a limitation and a strength; basic counts influence so much, yet they are apparently powerful enough to yield intuitive, interesting, and ultimately useful results.</p>
+<p>&nbsp;</p>
+<p>Originally published by Scott Weingart on <a title="Demystifying Networks" href="http://www.scottbot.net/HIAL/?p=6279" target="_blank">December 14, 2011</a> and <a title="Networks Demystified 2: Degree" href="http://www.scottbot.net/HIAL/?p=6526" target="_blank">December 17, 2011</a>. Revised March 2012.</p>
+<hr />
+<p>I plan to continue blogging about network analysis, so if you have any requests, please feel free to get in touch with me at scbweing at indiana dot edu.</p>
+
+<ol class="footnotes">
+	<li class="footnote" id="demystifying-networks-by-scott-weingart-n-1"><strong><sup>[1]</sup></strong>David Easley and Jon M. Kleinberg, <em>Networks, Crowds, and Markets: Reasoning About a Highly Connected World</em> (Cambridge: Cambridge University Press,  2010).<a class="note-return" href="#to-demystifying-networks-by-scott-weingart-n-1">&#x21A9;</a></li>
+	<li class="footnote" id="demystifying-networks-by-scott-weingart-n-2"><strong><sup>[2]</sup></strong>Mark E. J. Newman, <em>Networks: An Introduction,</em> 1st ed (Oxford: Oxford University Press, 2010).<a class="note-return" href="#to-demystifying-networks-by-scott-weingart-n-2">&#x21A9;</a></li></ol>
+
+        
+    <div class="author-bio">
+    
+        <h2>
+            About 
+            Scott B. Weingart        </h2>
+        
+
+        <div class="gravatar"><img alt='' src='http://1.gravatar.com/avatar/17c1271b4f650c8cbe4f81d75a729cd7?s=52&#038;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&#038;r=g' srcset='http://1.gravatar.com/avatar/17c1271b4f650c8cbe4f81d75a729cd7?s=104&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&amp;r=g 2x' class='avatar avatar-52 photo' height='52' width='52' /></div><p class="coauthor">Scott B. Weingart is an NSF Graduate Research Fellow and PhD student at Indiana University, where he studies Information Science and History of Science. His research focuses on the intersection of historiographic and quantitative methodologies, particularly as they can be used to study scholarly communications in the past and present. He also writes a blog called the <a href="http://www.scottbot.net/HIAL/">scottbot irregular</a>, aiming to make computational tools and big data analytics accessible to a wider, humanities-oriented audience. When not researching, Scott fights for open access and the reform of modern scholarly communication.</p>    
+    </div>
+	
+        
+    		
+	
+    
+		<script type="text/javascript">
+		/* <![CDATA[ */
+		(function() {
+		var s = document.createElement("script"); s.type = "text/javascript"; s.src = "https://intensedebate.com/js/wordpressTemplateLinkWrapper2.php?acct=e54add4303ff6f42f7f1f553a1f13497"; document.getElementsByTagName("head")[0].appendChild(s);
+		}());
+		/* ]]> */
+		</script>
+    </div> <!-- ends article -->
+        
+</section> <!-- ends colmask -->
+
+</div> <!-- ends wrap -->
+
+<footer>
+    <nav class="container">
+    			<div class="execphpwidget"><div class="sixteen columns alpha">
+<a href="http://www.pressforward.org" target="_blank"><img src="http://journalofdigitalhumanities.org/wp-content/themes/jdh/images/pressforward.png" alt="Press Forward"></a>
+<a href="http://www.chnm.gmu.edu" target="_blank"><img src="http://journalofdigitalhumanities.org/wp-content/themes/jdh/images/rrchnm.png" alt="Roy Rosenzweig Center for History & New Media"></a>
+<div class="creative-commons">
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+</div>
+</div></div>
+		    </nav>
+</footer>
+
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/respond.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/selectivizr-min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/jquery.cookie.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/jquery.hoverIntent.minified.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/jquery.dcjqaccordion.2.7.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-includes/js/comment-reply.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-includes/js/wp-embed.min.js?ver=4.7.5'></script>
+</body>
+</html>

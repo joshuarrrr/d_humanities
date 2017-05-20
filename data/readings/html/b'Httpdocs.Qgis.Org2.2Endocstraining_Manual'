@@ -1,0 +1,464 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>QGIS Training Manual</title>
+    
+    <link rel="stylesheet" href="../../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/bootstrap-2.3.2/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/qgis-style.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/bootstrap-2.3.2/css/bootstrap-responsive.min.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '2.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/qgis-site.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-2.3.2/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="../../_static/images/favicon.ico?1322140996"/>
+    <link rel="top" title="" href="../../index.html" />
+    <link rel="next" title="1. Course Introduction" href="foreword/index.html" />
+    <link rel="prev" title="GNU Free Documentation License" href="../gentle_gis_introduction/gnu_free_documentation_license.html" />
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+
+
+    
+  <div id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="brand" href="../index.html">QGIS Documentation Project</a>
+        <span class="navbar-text pull-left"><b>2.2</b></span>
+        
+          <select id="languages">
+  <!-- note on the options here: the 'title' string is to be translated in your
+  language, but the element text is supposed to stay in native lang/txt -->
+  <option value="en" title="English">English</option>
+  <option value="de" title="German">Deutsch</option>
+  <option value="es" title="Spanish">EspaÃ±ol</option>
+  <option value="fi" title="Finnish">Suomalainen</option>
+  <option value="fr" title="French">FranÃ§ais</option>
+  <option value="gl" title="Galician">Galician</option>
+  <option value="hi" title="Hindi">Hindi</option>
+  <option value="id" title="Indonesian">Bahasa Indonesia</option>
+  <option value="ja" title="Japanese">æ¥æ¬èª</option>
+  <option value="it" title="Italian">Italiano</option>
+  <option value="ko" title="Korean">íêµ­ì´</option>
+  <option value="nl" title="Dutch">Nederlands</option>
+  <!-- nqo is not available as python locale -->
+  <!--<option value="nqo" title="Nqo">N'qo</option>-->
+  <option value="pl" title="Polish">Polski</option>
+  <option value="pt_PT" title="Portuguese">PortuguÃªs</option>
+  <option value="pt_BR" title="Portuguese (Brazil)">PortuguÃªs (Brazil)</option>
+  <option value="ro" title="Romanian">RomÃ¢nÄ</option>
+  <option value="ru" title="Russian">Ð ÑÑÑÐºÐ¸Ð¹</option>
+</select>
+
+<script>
+    var currentPage = 'docs/training_manual/index.html'; // coming from sphinx, always without starting '/'
+    var currentLang = 'en';
+    // split index.html if currentUrl is ended by '/'
+    var currentUrl = window.location.href;
+    if (currentUrl.slice(-1) == '/' && currentPage.slice(-1) != '/'){
+      var pages = currentPage.split('/');
+      pages.pop();
+      currentPage = pages.join('/') + '/';
+    }
+    $(document).ready(function(){
+        var search = new RegExp('\/[a-zA-Z_]{2,8}\/'+ currentPage, 'gi');
+        var langPlusPage = window.location.href.match(search);
+        // it's possible this is the index.html page called without 'index.html', try without the currentPage
+        if (langPlusPage==undefined){
+            search = new RegExp('\/[a-zA-Z_]{2,8}\/$', 'gi');
+            langPlusPage = window.location.href.match(search);
+        }
+        // it's possible this is an index.html page called without 'index.html', try removing index.html
+        if (langPlusPage==undefined){
+            currentPage = currentPage.replace('index.html','')
+            search = new RegExp('\/[a-zA-Z_]{2,8}\/'+ currentPage, 'gi');
+            langPlusPage = window.location.href.match(search);
+        }
+        // still no langPlugPage: stop, because the language swicher will misbehave
+        if (langPlusPage == undefined || langPlusPage.length != 1){
+            alert('This is an documentation error, please report back to QGIS devs.');
+            return;
+        }
+        langPlusPage = langPlusPage[0];
+        currentLang = langPlusPage.replace(currentPage, '');
+        // put some style around the current locale flag, we have to remove the '/' here
+        // this is for the flags:
+        //$('#flag_'+currentLang.replace(/\//g,'')).css('background-color', '#cccccc');
+        // set language select to current lang
+
+        $("#languages").val(currentLang.replace(/\//g,'')); // currentLang is something like '/nl/'
+
+        $("#languages").change(function() {
+            gotoLang($(this).val());
+        });
+
+    });
+
+    // load current page in a different language
+    function gotoLang(lang){
+        var currentUrl = window.location.href;
+        var newUrl = currentUrl.replace(currentLang, '/'+lang+'/');
+        window.location.href = newUrl;
+    }
+</script>
+        
+        <div class="nav-collapse collapse">
+          <ul class="unstyled nav main-menu">
+            <!--<li><a href="../../site/about/index.html">Discover QGIS</a></li>
+            <li><a href="../../site/forusers/index.html">For Users</a></li>
+            <li><a href="../../site/getinvolved/index.html">Get Involved</a></li>
+            <li><a href="../index.html">Documentation</a></li>-->
+            <li><a href="../index.html">Documentation QGIS 2.2</a></li>
+            <li>
+          
+<form class="navbar-search" action="../../search.html" method="get">
+  <input type="text" name="q" class="search-query" placeholder="Search" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+    <div class="related">
+       
+      
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="foreword/index.html" title="1. Course Introduction"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="../gentle_gis_introduction/gnu_free_documentation_license.html" title="GNU Free Documentation License"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../index.html"></a> &raquo;</li> 
+      </ul>
+    </div>
+    <div style="display:none;" class="container" id="nextprev" >
+    
+    <a accesskey="p" href="../gentle_gis_introduction/gnu_free_documentation_license.html">&lt;&lt; prev</a>
+    
+    
+    <a accesskey="n" href="foreword/index.html">next &gt;&gt;</a>
+    
+    </div>
+
+
+
+
+    
+        <div class="container">
+            <div class="row">
+      <div class="span4">
+        <div id="sidebar" class="bs-sidenav well" data-spy="scroll">
+<h3><a href="../index.html">Table Of Contents</a></h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../user_manual/index.html">User guide/Manual (QGIS 2.2)</a></li>
+<li class="toctree-l1"><a class="reference external" href="http://docs.qgis.org/2.2/pdf/">User guide/Manual PDF&#8217;s</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pyqgis_developer_cookbook/index.html">PyQGIS cookbook (QGIS 2.2)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../documentation_guidelines/index.html">Documentation Guidelines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gentle_gis_introduction/index.html">A gentle introduction in GIS</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Trainings manual</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="foreword/index.html">1. Course Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="introduction/index.html">2. Module: The Interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basic_map/index.html">3. Module: Creating a Basic Map</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vector_classification/index.html">4. Module: Classifying Vector Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="map_composer/index.html">5. Module: Creating Maps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="create_vector_data/index.html">6. Module: Creating Vector Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vector_analysis/index.html">7. Module: Vector Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rasters/index.html">8. Module: Rasters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="complete_analysis/index.html">9. Module: Completing the Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qgis_plugins/index.html">10. Module: Plugins</a></li>
+<li class="toctree-l2"><a class="reference internal" href="online_resources/index.html">11. Module: Online Resources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grass/index.html">12. Module: GRASS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assessment/index.html">13. Module: Assessment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="forestry/index.html">14. Module: Forestry Application</a></li>
+<li class="toctree-l2"><a class="reference internal" href="database_concepts/index.html">15. Module: Database Concepts with PostgreSQL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spatial_databases/index.html">16. Module: Spatial Database Concepts with PostGIS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/index.html">17. The QGIS processing guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="databases/index.html">18. Module: Using Spatial Databases in QGIS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="appendix/contribute.html">19. Appendix: Contributing To This Manual</a></li>
+<li class="toctree-l2"><a class="reference internal" href="answers/answers.html">20. Answer Sheet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+                <div class="span8">
+                    
+                        
+                            <div class="section" id="qgis-training-manual">
+<span id="qgis-training-manual-index-reference"></span><h1>QGIS Training Manual<a class="headerlink" href="#qgis-training-manual" title="Permalink to this headline">Â¶</a></h1>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="foreword/index.html">1. Course Introduction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="foreword/foreword.html">1.1. Foreword</a></li>
+<li class="toctree-l2"><a class="reference internal" href="foreword/preparing_data.html">1.2. Preparing Exercise Data</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="introduction/index.html">2. Module: The Interface</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="introduction/intro.html">2.1. Lesson: A Brief Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="introduction/preparation.html">2.2. Lesson: Adding your first layer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="introduction/overview.html">2.3. Lesson: An Overview of the Interface</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="basic_map/index.html">3. Module: Creating a Basic Map</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="basic_map/vector_data.html">3.1. Lesson: Working with Vector Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basic_map/symbology.html">3.2. Lesson: Symbology</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="vector_classification/index.html">4. Module: Classifying Vector Data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="vector_classification/attribute_data.html">4.1. Lesson: Attribute Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vector_classification/label_tool.html">4.2. Lesson: The Label Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vector_classification/classification.html">4.3. Lesson: Classification</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="map_composer/index.html">5. Module: Creating Maps</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="map_composer/map_composer.html">5.1. Lesson: Using Map Composer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="map_composer/day_1_assignment.html">5.2. Assignment 1</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="create_vector_data/index.html">6. Module: Creating Vector Data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="create_vector_data/create_new_vector.html">6.1. Lesson: Creating a New Vector Dataset</a></li>
+<li class="toctree-l2"><a class="reference internal" href="create_vector_data/topo_editing.html">6.2. Lesson: Feature Topology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="create_vector_data/forms.html">6.3. Lesson: Forms</a></li>
+<li class="toctree-l2"><a class="reference internal" href="create_vector_data/actions.html">6.4. Lesson: Actions</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="vector_analysis/index.html">7. Module: Vector Analysis</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="vector_analysis/reproject_transform.html">7.1. Lesson: Reprojecting and Transforming Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vector_analysis/basic_analysis.html">7.2. Lesson: Vector Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vector_analysis/network_analysis.html">7.3. Lesson: Network Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vector_analysis/spatial_statistics.html">7.4. Lesson: Spatial Statistics</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="rasters/index.html">8. Module: Rasters</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="rasters/data_manipulation.html">8.1. Lesson: Working with Raster Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rasters/changing_symbology.html">8.2. Lesson: Changing Raster Symbology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rasters/terrain_analysis.html">8.3. Lesson: Terrain Analysis</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="complete_analysis/index.html">9. Module: Completing the Analysis</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="complete_analysis/raster_to_vector.html">9.1. Lesson: Raster to Vector Conversion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="complete_analysis/analysis_combination.html">9.2. Lesson: Combining the Analyses</a></li>
+<li class="toctree-l2"><a class="reference internal" href="complete_analysis/assignment.html">9.3. Assignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="complete_analysis/analysis_exercise.html">9.4. Lesson: Supplementary Exercise</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="qgis_plugins/index.html">10. Module: Plugins</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="qgis_plugins/fetching_plugins.html">10.1. Lesson: Installing and Managing Plugins</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qgis_plugins/plugin_examples.html">10.2. Lesson: Useful QGIS Plugins</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="online_resources/index.html">11. Module: Online Resources</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="online_resources/wms.html">11.1. Lesson: Web Mapping Services</a></li>
+<li class="toctree-l2"><a class="reference internal" href="online_resources/wfs.html">11.2. Lesson: Web Feature Services</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="grass/index.html">12. Module: GRASS</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="grass/grass_setup.html">12.1. Lesson: GRASS Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grass/grass_tools.html">12.2. Lesson: GRASS Tools</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="assessment/index.html">13. Module: Assessment</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="assessment/index.html#create-a-base-map">13.1. Create a base map</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assessment/index.html#analyze-the-data">13.2. Analyze the data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assessment/index.html#final-map">13.3. Final Map</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="forestry/index.html">14. Module: Forestry Application</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="forestry/forestry_intro.html">14.1. Lesson: Forestry Module Presentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="forestry/map_georeferencing.html">14.2. Lesson: Georeferencing a Map</a></li>
+<li class="toctree-l2"><a class="reference internal" href="forestry/stands_digitazing.html">14.3. Lesson: Digitizing Forest Stands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="forestry/updating_stands.html">14.4. Lesson: Updating Forest Stands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="forestry/systematic_sampling.html">14.5. Lesson: Systematic Sampling Design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="forestry/forest_maps.html">14.6. Lesson: Creating Detailed Maps with the Atlas Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="forestry/parameters_calculation.html">14.7. Lesson: Calculating the Forest Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="forestry/basic_lidar.html">14.8. Lesson: DEM from LiDAR Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="forestry/results_map.html">14.9. Lesson: Map Presentation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="database_concepts/index.html">15. Module: Database Concepts with PostgreSQL</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="database_concepts/db_intro.html">15.1. Lesson: Introduction to Databases</a></li>
+<li class="toctree-l2"><a class="reference internal" href="database_concepts/data_model.html">15.2. Lesson: Implementing the Data Model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="database_concepts/adding_data.html">15.3. Lesson: Adding Data to the Model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="database_concepts/queries.html">15.4. Lesson: Queries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="database_concepts/views.html">15.5. Lesson: Views</a></li>
+<li class="toctree-l2"><a class="reference internal" href="database_concepts/rules.html">15.6. Lesson: Rules</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="spatial_databases/index.html">16. Module: Spatial Database Concepts with PostGIS</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="spatial_databases/spatial_functions.html">16.1. Lesson: PostGIS Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spatial_databases/simple_feature_model.html">16.2. Lesson: Simple Feature Model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spatial_databases/import_export.html">16.3. Lesson: Import and Export</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spatial_databases/spatial_queries.html">16.4. Lesson: Spatial Queries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spatial_databases/geometry.html">16.5. Lesson: Geometry Construction</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="processing/index.html">17. The QGIS processing guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="processing/intro.html">17.1. Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/warning.html">17.2. An important warning before starting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/set_up.html">17.3. Setting-up the processing framework</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/first_alg.html">17.4. Running our first algorithm. The  toolbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/second_alg.html">17.5. More algorithms and data types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/crs.html">17.6. CRSs. Reprojecting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/selection.html">17.7. Selection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/first_saga_alg.html">17.8. Running an external algorithm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/log.html">17.9. The processing log</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/no_data.html">17.10. The raster calculator. No-data values</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/vector_calculator.html">17.11. Vector calculator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/extents.html">17.12. Defining extents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/html.html">17.13. HTML outputs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/john_snow.html">17.14. First analysis example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/cutting_merging.html">17.15. Clipping and merging raster layers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/hydro.html">17.16. Hydrological analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/modeler_twi.html">17.17. Starting with the graphical modeler</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/modeler_hydro.html">17.18. More complex models</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/modeler_hydro_calculator.html">17.19. Numeric calculations in the modeler</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/modeler_hydro_twi.html">17.20. A model within a model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/interpolation.html">17.21. Interpolation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/interpolation_cross.html">17.22. More interpolation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/iterative.html">17.23. Iterative execution of algorithms</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/iterative_model.html">17.24. More iterative execution of algorithms</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/batch_conversion.html">17.25. The batch processing interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/batch_modeler.html">17.26. Models in the batch processing interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/more_backends.html">17.27. Other programs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processing/interp_contour.html">17.28. Interpolation and contouring</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="databases/index.html">18. Module: Using Spatial Databases in QGIS</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="databases/db_browser.html">18.1. Lesson: Working with Databases in the QGIS Browser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="databases/db_manager.html">18.2. Lesson: Using DB Manager to work with Spatial Databases in QGIS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="databases/spatialite.html">18.3. Lesson: Working with spatialite databases in QGIS</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="appendix/contribute.html">19. Appendix: Contributing To This Manual</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="appendix/contribute.html#downloading-resources">19.1. Downloading Resources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="appendix/contribute.html#manual-format">19.2. Manual Format</a></li>
+<li class="toctree-l2"><a class="reference internal" href="appendix/contribute.html#adding-a-module">19.3. Adding a Module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="appendix/contribute.html#adding-a-lesson">19.4. Adding a Lesson</a></li>
+<li class="toctree-l2"><a class="reference internal" href="appendix/contribute.html#adding-a-section">19.5. Adding a Section</a></li>
+<li class="toctree-l2"><a class="reference internal" href="appendix/contribute.html#add-a-conclusion">19.6. Add a Conclusion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="appendix/contribute.html#add-a-further-reading-section">19.7. Add a Further Reading Section</a></li>
+<li class="toctree-l2"><a class="reference internal" href="appendix/contribute.html#add-a-what-s-next-section">19.8. Add a What&#8217;s Next Section</a></li>
+<li class="toctree-l2"><a class="reference internal" href="appendix/contribute.html#using-markup">19.9. Using Markup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="appendix/contribute.html#thank-you">19.10. Thank You!</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="answers/answers.html">20. Answer Sheet</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="answers/answers.html#rf-adding-your-first-layer">20.1. Results For <em>Adding Your First Layer</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="answers/answers.html#rf-an-overview-of-the-interface">20.2. Results For <em>An Overview of the Interface</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="answers/answers.html#rf-working-with-vector-data">20.3. Results For <em>Working with Vector Data</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="answers/answers.html#rf-symbology">20.4. Results For <em>Symbology</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="answers/answers.html#rf-attribute-data">20.5. Results For <em>Attribute Data</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="answers/answers.html#rf-the-label-tool">20.6. Results For <em>The Label Tool</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="answers/answers.html#rf-classification">20.7. Results For <em>Classification</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="answers/answers.html#rf-creating-a-new-vector-dataset">20.8. Results For <em>Creating a New Vector Dataset</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="answers/answers.html#rf-vector-analysis">20.9. Results For <em>Vector Analysis</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="answers/answers.html#rf-raster-analysis">20.10. Results For <em>Raster Analysis</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="answers/answers.html#rf-completing-the-analysis">20.11. Results For <em>Completing the Analysis</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="answers/answers.html#rf-wms">20.12. Results For <em>WMS</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="answers/answers.html#rf-database-concepts">20.13. Results For <em>Database Concepts</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="answers/answers.html#rf-spatial-queries">20.14. Results For <em>Spatial Queries</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="answers/answers.html#rf-geometry-construction">20.15. Results For <em>Geometry Construction</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="answers/answers.html#rf-simple-feature-model">20.16. Results For <em>Simple Feature Model</em></a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="indices-and-tables">
+<h2>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">Â¶</a></h2>
+<ul class="simple">
+<li><a class="reference internal" href="../../genindex.html"><em>Index</em></a></li>
+<li><a class="reference internal" href="../../py-modindex.html"><em>Module Index</em></a></li>
+<li><a class="reference internal" href="../../search.html"><em>Search Page</em></a></li>
+</ul>
+</div>
+</div>
+
+                        
+                    
+                </div>
+                  
+            </div>
+        </div>
+    
+
+    <!--<a href="https://github.com/qgis/"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 10000;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>-->
+    <div class="related">
+       
+      
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="foreword/index.html" title="1. Course Introduction"
+             >next</a></li>
+        <li class="right" >
+          <a href="../gentle_gis_introduction/gnu_free_documentation_license.html" title="GNU Free Documentation License"
+             >previous</a> |</li>
+        <li><a href="../index.html"></a> &raquo;</li> 
+      </ul>
+    </div>
+  <footer class="footer">
+
+    <div class="container">
+        <div>
+          <ul class="unstyled inline" id="social">
+            <li id="twitter"><a href="http://twitter.com/qgis" class="external"><div></div></a></li>
+            <li id="facebook"><a href="https://www.facebook.com/pages/QGIS-Quantum-GIS-/298112000235096" class="external"><div></div></a></li>
+            <li id="gplus"><a href="http://plus.google.com/communities/114776597176808981624" class="external"><div></div></a></li>
+            <li id="github"><a href="http://github.com/qgis/" class="external"><div></div></a></li>
+            i<!--<li id="aboutcontact"><a href="../../site/getinvolved/about.html"><div></div></a></li>-->
+            <li id="aboutcontact"><a href="http://www.qgis.org/en/site/getinvolved/about.html"><div></div></a></li>
+          </ul>
+        </div>
+
+        <p class="credit">If not stated otherwise, all content is licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 licence (CC BY-SA)</a></p>
+    </div>
+    <div class="container">
+      <p class="credit">
+        Select graphics from <a href="http://thenounproject.com" target="_blank">The Noun Project collection</a>
+        
+        
+
+      </p>
+    </div>
+  </footer>
+
+  </body>
+</html>

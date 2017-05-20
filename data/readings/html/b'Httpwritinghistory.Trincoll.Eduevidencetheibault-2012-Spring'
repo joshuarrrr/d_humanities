@@ -1,0 +1,1199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if IE 7]>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" class="ie7">
+<![endif]-->
+<!--[if IE 8]>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" class="ie8">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!--<![endif]-->
+
+<head profile="http://gmpg.org/xfn/11">
+
+
+<!-- meta -->
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="description" content="a born-digital, open-review volume edited by Jack Dougherty and Kristen Nawrotzki" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<!-- pingbacks -->
+<link rel="pingback" href="http://writinghistory.trincoll.edu/xmlrpc.php" />
+
+<!--[if IE]>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var cp_msie = 1;
+/* ]]> */
+</script>
+<![endif]-->
+
+<!-- wp_head -->
+<title>Visualizations and Historical Arguments (Theibault) | Writing History in the Digital Age</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Writing History in the Digital Age &raquo; Feed" href="http://writinghistory.trincoll.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Writing History in the Digital Age &raquo; Comments Feed" href="http://writinghistory.trincoll.edu/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/writinghistory.trincoll.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.6"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='cp_jquery_ui_base-css'  href='http://writinghistory.trincoll.edu/wp-content/plugins/commentpress-core/commentpress-core/assets/css/jquery.ui.css?ver=3.8.9' type='text/css' media='all' />
+<link rel='stylesheet' id='cp_layout_css-css'  href='http://writinghistory.trincoll.edu/wp-content/themes/commentpress-3.8-writing-history-child-theme/assets/css/screen-default.min.css?ver=3.8.9' type='text/css' media='all' />
+<link rel='stylesheet' id='cp_webfont_css-css'  href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' type='text/css' media='all' />
+<link rel='stylesheet' id='cp_colours_css-css'  href='http://writinghistory.trincoll.edu/wp-content/themes/commentpress-3.8-writing-history-child-theme/assets/css/colours-01.min.css?ver=3.8.9' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://writinghistory.trincoll.edu/wp-includes/css/dashicons.min.css?ver=4.6.6' type='text/css' media='all' />
+<link rel='stylesheet' id='cp_print_css-css'  href='http://writinghistory.trincoll.edu/wp-content/themes/commentpress-3.8-writing-history-child-theme/assets/css/print.min.css?ver=3.8.9' type='text/css' media='print' />
+<link rel='stylesheet' id='wp-jquery-ui-dialog-css'  href='http://writinghistory.trincoll.edu/wp-includes/css/jquery-ui-dialog.min.css?ver=4.6.6' type='text/css' media='all' />
+<script type='text/javascript' src='http://writinghistory.trincoll.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://writinghistory.trincoll.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://writinghistory.trincoll.edu/wp-includes/js/jquery/jquery.form.min.js?ver=3.37.0'></script>
+<script type='text/javascript' src='http://writinghistory.trincoll.edu/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://writinghistory.trincoll.edu/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://writinghistory.trincoll.edu/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://writinghistory.trincoll.edu/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://writinghistory.trincoll.edu/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://writinghistory.trincoll.edu/wp-includes/js/jquery/ui/tooltip.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CommentpressSettings = {"cp_comments_open":"n","cp_permalink":"http:\/\/writinghistory.trincoll.edu\/evidence\/theibault-2012-spring\/","cp_wp_adminbar":"n","cp_bp_adminbar":"n","cp_wp_adminbar_height":"28","cp_wp_adminbar_expanded":"0","cp_tinymce":"0","cp_is_mobile":"0","cp_is_touch":"0","cp_touch_testing":"0","cp_is_tablet":"0","cp_tinymce_version":"4","cp_promote_reading":"0","cp_special_page":"0","cp_cookie_path":"\/","cp_multipage_page":"0","cp_toc_chapter_is_page":"1","cp_show_subpages":"1","cp_default_sidebar":"comments","cp_js_scroll_speed":"800","cp_min_page_width":"447","cp_textblock_meta":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://writinghistory.trincoll.edu/wp-content/plugins/commentpress-core/commentpress-core/assets/js/jquery.commentpress.min.js?ver=3.8.9'></script>
+<script type='text/javascript' src='http://writinghistory.trincoll.edu/wp-content/plugins/commentpress-core/commentpress-core/assets/js/jquery.scrollTo.js?ver=3.8.9'></script>
+<script type='text/javascript' src='http://writinghistory.trincoll.edu/wp-content/plugins/commentpress-core/commentpress-core/assets/js/jquery.biscuit.js?ver=3.8.9'></script>
+<script type='text/javascript' src='http://writinghistory.trincoll.edu/wp-content/plugins/commentpress-core/commentpress-core/assets/js/jquery.wrap-selection.min.js?ver=3.8.9'></script>
+<script type='text/javascript' src='http://writinghistory.trincoll.edu/wp-content/plugins/commentpress-core/commentpress-core/assets/js/jquery.highlighter.min.js?ver=3.8.9'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CommentpressTextSelectorSettings = {"popover_textblock":"<span class=\"popover-holder\"><div class=\"popover-holder-inner\"><div class=\"popover-holder-caret\"><\/div><div class=\"popover-holder-btn-left\"><span class=\"popover-holder-btn-left-comment\">Comment<\/span><span class=\"popover-holder-btn-left-quote\">Quote & Comment<\/span><\/div><div class=\"popover-holder-btn-right\">\u00d7<\/div><\/div><\/span>","popover_comment":"<span class=\"comment-popover-holder\"><div class=\"popover-holder-inner\"><div class=\"popover-holder-caret\"><\/div><div class=\"popover-holder-btn-left\"><span class=\"comment-popover-holder-btn-left-quote\">Quote<\/span><\/div><div class=\"popover-holder-btn-right\">\u00d7<\/div><\/div><\/span>","localisation":{"dialog_title":"Are you sure?","dialog_content":"You have not yet submitted your comment. Are you sure you want to discard it?","dialog_yes":"Discard","dialog_no":"Keep","backlink_text":"Back"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://writinghistory.trincoll.edu/wp-content/plugins/commentpress-core/commentpress-core/assets/js/jquery.texthighlighter.min.js?ver=3.8.9'></script>
+<script type='text/javascript' src='http://writinghistory.trincoll.edu/wp-content/plugins/fd-footnotes/fdfootnotes.js?ver=1.34'></script>
+<script type='text/javascript' src='http://writinghistory.trincoll.edu/wp-content/themes/commentpress-3.8-writing-history-child-theme/assets/js/cp_js_common.min.js?ver=3.8.9'></script>
+<script type='text/javascript' src='http://writinghistory.trincoll.edu/wp-content/plugins/commentpress-core/commentpress-core/assets/js/jquery.commentform.min.js?ver=3.8.9'></script>
+<script type='text/javascript' src='http://writinghistory.trincoll.edu/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://writinghistory.trincoll.edu/wp-includes/js/jquery/ui/droppable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://writinghistory.trincoll.edu/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://writinghistory.trincoll.edu/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CommentpressAjaxSettings = {"cpajax_live":"0","cpajax_ajax_url":"http:\/\/writinghistory.trincoll.edu\/wp-admin\/admin-ajax.php","cpajax_spinner_url":"http:\/\/writinghistory.trincoll.edu\/wp-content\/plugins\/commentpress-core\/commentpress-ajax\/assets\/images\/loading.gif","cpajax_current_time":"2017-05-20 18:14:04","cpajax_comment_count":"0","cpajax_post_id":"3121","cpajax_lang":["Loading...","Please enter your name.","Please enter your email address.","Please enter a valid email address.","Please enter your comment.","Your comment has been added.","AJAX error!","Are you sure?","Are you sure you want to assign the comment and its replies to the textblock? This action cannot be undone.","Submitting...","Please wait while the comments are reassigned. The page will refresh when this has been done.","Comment","Comments"]};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://writinghistory.trincoll.edu/wp-content/plugins/commentpress-core/commentpress-ajax/assets/js/cp-ajax-comments.min.js?ver=3.8.9'></script>
+<script type='text/javascript' src='http://writinghistory.trincoll.edu/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.4.9'></script>
+<link rel='https://api.w.org/' href='http://writinghistory.trincoll.edu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://writinghistory.trincoll.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://writinghistory.trincoll.edu/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.6.6" />
+<link rel="canonical" href="http://writinghistory.trincoll.edu/evidence/theibault-2012-spring/" />
+<link rel='shortlink' href='http://writinghistory.trincoll.edu/?p=3121' />
+<link rel="alternate" type="application/json+oembed" href="http://writinghistory.trincoll.edu/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwritinghistory.trincoll.edu%2Fevidence%2Ftheibault-2012-spring%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://writinghistory.trincoll.edu/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwritinghistory.trincoll.edu%2Fevidence%2Ftheibault-2012-spring%2F&#038;format=xml" />
+
+<style type="text/css">
+
+#book_header
+{
+	background-color: #2c2622;
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+
+#title h1,
+#title h1 a
+{
+	color: #eeeeee;
+}
+
+#book_header #tagline
+{
+	color: #eeeeee;
+}
+
+</style>
+	<!-- Google Analytics Tracking by Google Analyticator 6.4.9: http://www.videousermanuals.com/google-analyticator/ -->
+<script type="text/javascript">
+    var analyticsFileTypes = [''];
+    var analyticsSnippet = 'enabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+  
+	_gaq.push(['_setAccount', 'UA-5488840-7']);
+    _gaq.push(['_addDevId', 'i9k95']); // Google Analyticator App ID with Google
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+
+
+
+<!-- IE stylesheets so we can override anything -->
+<!--[if gte IE 7]>
+<link rel="stylesheet" type="text/css" href="http://writinghistory.trincoll.edu/wp-content/themes/commentpress-3.8-writing-history-child-theme/assets/css/ie7.css" media="screen" />
+<![endif]-->
+
+</head>
+
+
+
+<body class="page page-id-3121 page-child parent-pageid-2345 page-template-default cp_sidebar_comments commentable not-groupblog tinymce-4">
+
+
+
+<a class="skip" href="#content">Skip to Content</a>
+<span class="off-left"> | </span>
+<a class="skip" href="#toc_list">Skip to Table of Contents</a><!-- /skip_links -->
+
+
+
+<div id="book_header">
+
+	<div id="titlewrap">
+
+		
+		
+		<div id="page_title">
+			<div id="title"><h1><a href="http://writinghistory.trincoll.edu" title="Home">Writing History in the Digital Age</a></h1></div>
+			<div id="tagline">a born-digital, open-review volume edited by Jack Dougherty and Kristen Nawrotzki</div>
+		</div>
+
+		
+	</div>
+
+	<div id="book_search">
+		<!-- searchform.php -->
+<form method="get" id="searchform" action="http://writinghistory.trincoll.edu/">
+
+<label for="s">Search for:</label>
+
+<input type="text" value="" name="s" id="s" />
+
+<input type="submit" id="searchsubmit" value="Search" />
+
+</form>
+
+	</div><!-- /book_search -->
+
+	<!-- user_links.php -->
+
+<div id="user_links">
+
+<ul>
+<li><a id="btn_login" class="button" class="css_btn" href="http://writinghistory.trincoll.edu/wp-login.php">Log in</a></li>
+</ul>
+</div>
+
+<!-- /user_links.php -->
+
+
+
+
+</div><!-- /book_header -->
+
+
+
+<div id="header">
+
+	<!-- navigation.php -->
+
+<div id="book_nav">
+
+
+
+<div id="book_nav_wrapper">
+
+
+
+<div id="cp_book_nav">
+
+<ul>
+			<li class="alignleft"><a href="http://writinghistory.trincoll.edu/evidence/" id="previous_page" class="css_btn" title="Previous page">Previous page</a></li>
+<li class="alignright"><a href="http://writinghistory.trincoll.edu/evidence/robertson-2012-spring/" id="next_page" class="css_btn" title="Next page">Next page</a> </li>
+		</ul>
+		<div id="cp_book_info"><p>Part 5: See What I Mean? Visual, Spatial, and Game-based History &#8594; Visualizations and Historical Arguments (Theibault)</p></div>
+	
+</div><!-- /cp_book_nav -->
+
+
+
+<ul id="nav">
+	<li><a href="http://writinghistory.trincoll.edu/" id="btn_cover" class="css_btn" title="Title Page">Title Page</a></li><li><a href="http://writinghistory.trincoll.edu/general-comments/" id="btn_general" class="css_btn" title="General Comments">General Comments</a></li>
+<li><a href="http://writinghistory.trincoll.edu/all-comments/" id="btn_allcomments" class="css_btn" title="All Comments">All Comments</a></li>
+<li><a href="http://writinghistory.trincoll.edu/comments-by-commenter/" id="btn_members" class="css_btn" title="Comments by Commenter">Comments by Commenter</a></li>
+<li><a href="http://writinghistory.trincoll.edu/blog/" id="btn_blog" class="css_btn" title="Blog">Blog</a></li>
+</ul>
+
+
+
+<ul id="minimiser_trigger">
+	<li><a href="#" id="btn_header_min" class="css_btn" title="Minimise Header">Minimise Header</a></li>
+</ul>
+
+
+
+</div><!-- /book_nav_wrapper -->
+
+
+
+</div><!-- /book_nav -->
+
+
+
+
+</div><!-- /header -->
+
+
+
+
+
+
+<div id="container">
+
+
+
+
+
+<!-- page.php -->
+
+<div id="wrapper">
+
+
+
+<div id="main_wrapper" class="clearfix">
+
+
+
+<div id="page_wrapper">
+
+
+
+<div id="content">
+
+
+
+
+
+
+<div class="post" id="post-3121">
+
+
+
+		<h2 class="post_title" style="display: none;"><a href="http://writinghistory.trincoll.edu/evidence/theibault-2012-spring/">Visualizations and Historical Arguments (Theibault)</a></h2>
+
+	<!--Subheading (long title) and Custom-Author-Byline div and Other-Version custom fields added by Jack Dougherty for WritingHistory-->
+   		<h3>Visualizations and Historical Arguments (2012 revision)</h3>         <h4><div class="entry-author-info"> by John Theibault</div></h4>
+         <h4><div class="other-version-info"> See <a href="http://quod.lib.umich.edu/d/dh/12230987.0001.001/1:8/--writing-history-in-the-digital-age?g=dculture;rgn=div1;view=fulltext;xc=1#8.1" target="_blank">2013 final edition from the University of Michigan Press</a></div></h4>
+		 <h4><div class="other-version-info"> See <a href="http://writinghistory.trincoll.edu/evidence/visualizations-and-historical-arguments-theibault/">2011 open peer review version, with many more comments</a></div></h4>
+
+		<div class="search_meta" style="display: none;">
+		
+		<cite class="fn"><a href="http://writinghistory.trincoll.edu/author/writinghistory/" title="Posts by writinghistory" rel="author">writinghistory</a></cite>
+
+		<p><a href="http://writinghistory.trincoll.edu/evidence/theibault-2012-spring/">Friday, March 23rd, 2012</a></p>
+
+			</div>
+
+
+
+	<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Focoins.info%3Agenerator&amp;rft.type=&amp;rft.format=text&amp;rft.title=Visualizations+and+Historical+Arguments+%28Theibault%29&amp;rft.source=Writing+History+in+the+Digital+Age&amp;rft.date=2012-03-23&amp;rft.identifier=http%3A%2F%2Fwritinghistory.trincoll.edu%2Fevidence%2Ftheibault-2012-spring%2F&amp;rft.language=English&amp;rft.aulast=Dougherty&amp;rft.aufirst=Jack"></span><p class="textblock" id="textblock-pTppapiwtwrrcbtiticbaectosfwdnapaowiIEtimaiisowcmrtwmaBlscliprkawptEBhhelpetbbiepcmpvjcmpscffiforfsWhhamuvtbsRpmbfrboofpamhwTctia"><span class="para_marker"><a class="textblock_permalink" id="pTppapiwtwrrcbtiticbaectosfwdnapaowiIEtimaiisowcmrtwmaBlscliprkawptEBhhelpetbbiepcmpvjcmpscffiforfsWhhamuvtbsRpmbfrboofpamhwTctia" href="#pTppapiwtwrrcbtiticbaectosfwdnapaowiIEtimaiisowcmrtwmaBlscliprkawptEBhhelpetbbiepcmpvjcmpscffiforfsWhhamuvtbsRpmbfrboofpamhwTctia" title="Permalink for paragraph 1">&para; <span>1</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pTppapiwtwrrcbtiticbaectosfwdnapaowiIEtimaiisowcmrtwmaBlscliprkawptEBhhelpetbbiepcmpvjcmpscffiforfsWhhamuvtbsRpmbfrboofpamhwTctia" title="Leave a comment on paragraph 1">Leave a comment on paragraph 1</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+The popular phrase “a picture is worth a thousand words” is a relatively recent coinage, but the idea that images can be an effective complement to or substitute for written description, narrative, or analysis is probably as old as writing itself. In the European tradition, illuminated manuscripts and incunabula incorporated images, some of which conveyed messages related to the text and some of which were mere adornments. By the late sixteenth century, linkage of image and print reached a kind of apotheosis with the publication of <a title="Emblem Books" href="http://emblem.libraries.psu.edu/" target="_blank">emblem books</a>, in which each page consisted of an image, a motto, and a pithy verse that jointly communicated moral precepts.<sup class='footnote'><a href='#fn-3121-1' id='fnref-3121-1' onclick='return fdfootnote_show(3121)'>1</a></sup> Western historians have always made use of visualizations in this broad sense. Reproductions of pictures of the main biographical figures referenced in a book or other objects that figured prominently in the narrative appear in many historical works. Though the connection of these illustrations to the arguments of the book were often implicit rather than explicit, the text sometimes drew direct attention to elements of the pictures, so that the reader’s understanding was enhanced by close attention to the images.</p>
+<p class="textblock" id="textblock-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv"><span class="para_marker"><a class="textblock_permalink" id="pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv" href="#pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv" title="Permalink for paragraph 2">&para; <span>2</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv" title="Leave a comment on paragraph 2">Leave a comment on paragraph 2</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+<!-- cp_caption_start --><span class="captioned_image alignnone" style="width: 600px"><span id="attachment_4086"  class="wp-caption"><a href="http://writinghistory.trincoll.edu/evidence/theibault-2012-spring/picture-6/" target="_blank" rel="attachment wp-att-4086"><img class="size-large wp-image-4086   " src="http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-6-600x359.png" alt="" width="600" height="359" srcset="http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-6-600x359.png 600w, http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-6-300x179.png 300w, http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-6.png 1018w" sizes="(max-width: 600px) 100vw, 600px" /></a></span><small class="wp-caption-text">Figure 1: Click to enlarge the Google N-gram on the recent rise of the term &#8220;a picture is worth a thousand words&#8221;</small></span><!-- cp_caption_end --></p>
+<p class="textblock" id="textblock-pWttviutiurtaidfpiobnaswptmetrtcSqrpochpadrieifDShafasdbtvaomtotdsfifsiisiwascfhfiforfssdidudamipldsdrconltqawepambwpdopVcf"><span class="para_marker"><a class="textblock_permalink" id="pWttviutiurtaidfpiobnaswptmetrtcSqrpochpadrieifDShafasdbtvaomtotdsfifsiisiwascfhfiforfssdidudamipldsdrconltqawepambwpdopVcf" href="#pWttviutiurtaidfpiobnaswptmetrtcSqrpochpadrieifDShafasdbtvaomtotdsfifsiisiwascfhfiforfssdidudamipldsdrconltqawepambwpdopVcf" title="Permalink for paragraph 3">&para; <span>3</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pWttviutiurtaidfpiobnaswptmetrtcSqrpochpadrieifDShafasdbtvaomtotdsfifsiisiwascfhfiforfssdidudamipldsdrconltqawepambwpdopVcf" title="Leave a comment on paragraph 3">Leave a comment on paragraph 3</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+When the term &#8220;visualization&#8221; is used today, it usually refers to an image derived from processing information &#8212; often but not always statistical information &#8212; which presents that information more efficiently than regular text could.  Scholars quickly recognized the potential of computers to help process that information and display the results in an easy to interpret format. David Staley has argued for a sharp distinction between these visualizations as &#8220;the organization of meaningful information in two- or three-dimensional spatial form intended to further a systematic inquiry&#8221; and images as a &#8220;supplement or illustration to a written account.&#8221;<sup class='footnote'><a href='#fn-3121-2' id='fnref-3121-2' onclick='return fdfootnote_show(3121)'>2</a></sup> Staley&#8217;s definition implies two distinct uses for visualizations in the digital age: as a means of quickly identifying patterns in large data sets during the research process that can open new lines of research and test qualitative assumptions, and as a way to enhance the presentation of arguments, moving beyond what it is possible to display in two dimensions on paper. Visualizations created for the first use may or may not appear in visual form in the final product. This essay is primarily concerned with visualizations as historical arguments in the second sense: how do we deploy the visual capabilities of the computer to <em>show</em> what we wish to communicate? It is slightly more ecumenical in defining visualizations than Staley is, in that it sees all uses of visual information to communicate an argument or narrative beyond the meaning of the words in text as forms of visual argument. It argues that visualizations necessarily have a rhetorical dimension and that the principal challenge facing historians who wish to use visualizations in their work is to align the rhetoric with the audience&#8217;s ability to follow it. The key dimensions of a visualization are the density and the transparency of its information &#8212; density being the sheer amount of useful information the visualization conveys and transparency the ease with which that information can be understood by the reader. We have become so accustomed to the visual vocabulary of print books that we scarcely register the visual conventions on which almost all historical work relies, such as the footnote indicated by a small number or asterisk. By now, we are also perhaps so familiar with standard web-page layouts that we no longer notice most of the visual cues that indicate the site structure, especially the relation of one page to another achieved by hyperlink. But many historians still have a print mentality when it comes to information dense graphics. When designing graphics, authors have to consider how much background information the reader brings to the visualization. The development of more complex visualizations has increased the gaps between expert and novice interpreters, which raises challenges for historians who seek the most effective visual approach.</p>
+<p class="textblock" id="textblock-pTpoidivinanofhEtmcncphmutimtadcIaamemitccldKFtidlpbEtfvedvvwpeipstmnfctedefDRAGhrshdchpsetrvbeescfhfiforfs"><span class="para_marker"><a class="textblock_permalink" id="pTpoidivinanofhEtmcncphmutimtadcIaamemitccldKFtidlpbEtfvedvvwpeipstmnfctedefDRAGhrshdchpsetrvbeescfhfiforfs" href="#pTpoidivinanofhEtmcncphmutimtadcIaamemitccldKFtidlpbEtfvedvvwpeipstmnfctedefDRAGhrshdchpsetrvbeescfhfiforfs" title="Permalink for paragraph 4">&para; <span>4</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pTpoidivinanofhEtmcncphmutimtadcIaamemitccldKFtidlpbEtfvedvvwpeipstmnfctedefDRAGhrshdchpsetrvbeescfhfiforfs" title="Leave a comment on paragraph 4">Leave a comment on paragraph 4</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+The problem of information density in visualizations is not a new one for historians. Even the most conventional nineteenth century political histories made use of three important visualizations: maps, timelines, and dynastic charts. It is, after all, much easier and more informative to create a chart of lines of descent to the Kings of France than it is to describe the lineage in paragraphs of &#8220;begats.&#8221; Each of these forms of visualization evolved a distinct visual vocabulary, with periods of experimentation and innovation producing visualization schemes that most modern historians now find completely transparent, with earlier visual dead ends now completely forgotten. Daniel Rosenberg and Anthony Grafton have recently shown how experimentation with designs of chronologies helped produce the modern streamlined edition of the timeline and information rich variants by the end of the eighteenth century.<sup class='footnote'><a href='#fn-3121-3' id='fnref-3121-3' onclick='return fdfootnote_show(3121)'>3</a></sup></p>
+<p class="textblock" id="textblock-pTeotssincaatwwldscdfnwvibmtgcPnwbetgMnteswafdHacndmtvmssehlbpaaarSlplhditvcbpwaorwbefAsamsrcaIscvmipTssdwPneiJSsmicLowhpsswpnscfhfi"><span class="para_marker"><a class="textblock_permalink" id="pTeotssincaatwwldscdfnwvibmtgcPnwbetgMnteswafdHacndmtvmssehlbpaaarSlplhditvcbpwaorwbefAsamsrcaIscvmipTssdwPneiJSsmicLowhpsswpnscfhfi" href="#pTeotssincaatwwldscdfnwvibmtgcPnwbetgMnteswafdHacndmtvmssehlbpaaarSlplhditvcbpwaorwbefAsamsrcaIscvmipTssdwPneiJSsmicLowhpsswpnscfhfi" title="Permalink for paragraph 5">&para; <span>5</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pTeotssincaatwwldscdfnwvibmtgcPnwbetgMnteswafdHacndmtvmssehlbpaaarSlplhditvcbpwaorwbefAsamsrcaIscvmipTssdwPneiJSsmicLowhpsswpnscfhfi" title="Leave a comment on paragraph 5">Leave a comment on paragraph 5</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+The emergence of the social sciences in the nineteenth century and the ability to work with large data sets created demand for new ways of visualizing information beyond maps, timelines, and genealogical charts. Processed numerical information was best expressed in tables, charts, and graphs. Mathematics, natural sciences, and social sciences that employed statistics were at the forefront of the development of charts and graphs. History was a consumer, not a designer, of most of these new visualizations – and mostly a sparing consumer at that, since economic and social history lagged behind political history as an area of research. Simple charts and graphs like pie charts, line graphs, and histograms were not difficult to interpret and their visual conventions became part of what any ordinary reader would be expected to follow. As statistical analysis became more sophisticated, the visualizations that resulted became more and more central to the argument. In some cases, the visualization made interpretation possible. These success stories demonstrated the worth of statistical analysis and visualization. Perhaps the most notable example is John Snow’s map of the incidence of cholera in an 1854 London outbreak, which helped plot the source of the outbreak at a single water pump in the neighborhood.<sup class='footnote'><a href='#fn-3121-4' id='fnref-3121-4' onclick='return fdfootnote_show(3121)'>4</a></sup> Snow’s cholera map showed that visualizations could serve as both narrative and analysis. Authors began to experiment with ways of using visual clues to tell complex stories about events, increasing the amount of information that could be conveyed in a small space and thereby overcoming the limitations of two-dimensions in print. A noteworthy example of innovative presentation was Charles Joseph Minard’s <em>Carte Figurative des pertes successives en hommes de l’Armée Française dans la campagne de Russie 1812-1813 </em>of 1869, which shows the advance and retreat of French troops in Russia on a scale map while showing the changing size of the force due to death and desertion through the thickness of the line representing the force.<sup class='footnote'><a href='#fn-3121-5' id='fnref-3121-5' onclick='return fdfootnote_show(3121)'>5</a></sup></p>
+<p class="textblock" id="textblock-pccsscciaswpiawahhwteevahatmraislscuMxpaCFhswsmvstFCteb"><span class="para_marker"><a class="textblock_permalink" id="pccsscciaswpiawahhwteevahatmraislscuMxpaCFhswsmvstFCteb" href="#pccsscciaswpiawahhwteevahatmraislscuMxpaCFhswsmvstFCteb" title="Permalink for paragraph 6">&para; <span>6</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pccsscciaswpiawahhwteevahatmraislscuMxpaCFhswsmvstFCteb" title="Leave a comment on paragraph 6">Leave a comment on paragraph 6</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+<!-- cp_caption_start --><span class="captioned_image alignnone" style="width: 600px"><span id="attachment_2153"  class="wp-caption"><a href="http://writinghistory.trincoll.edu/evidence/visualizations-and-historical-arguments-theibault/minard/" rel="attachment wp-att-2153"><img class="size-large wp-image-2153 " src="http://writinghistory.trincoll.edu/wp-content/uploads/2011/09/Minard-600x286.png" alt="Carte Figurative" width="600" height="286" srcset="http://writinghistory.trincoll.edu/wp-content/uploads/2011/09/Minard-600x286.png 600w, http://writinghistory.trincoll.edu/wp-content/uploads/2011/09/Minard-300x143.png 300w" sizes="(max-width: 600px) 100vw, 600px" /></a></span><small class="wp-caption-text">Figure 2: Click to enlarge Carte Figurative, by Charles Joseph Minard</small></span><!-- cp_caption_end --></p>
+<p class="textblock" id="textblock-pTccttdraaibatowtgctmbcTMwcenhhacvpneNsmospiocameivbieuefpwlbtoqscbtaarvssbtaikwtcdbc"><span class="para_marker"><a class="textblock_permalink" id="pTccttdraaibatowtgctmbcTMwcenhhacvpneNsmospiocameivbieuefpwlbtoqscbtaarvssbtaikwtcdbc" href="#pTccttdraaibatowtgctmbcTMwcenhhacvpneNsmospiocameivbieuefpwlbtoqscbtaarvssbtaikwtcdbc" title="Permalink for paragraph 7">&para; <span>7</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pTccttdraaibatowtgctmbcTMwcenhhacvpneNsmospiocameivbieuefpwlbtoqscbtaarvssbtaikwtcdbc" title="Leave a comment on paragraph 7">Leave a comment on paragraph 7</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+The conditions confronting the troops during the retreat are also illustrated by a timeline of winter temperatures graphically connected to the map-based chart. Though Minard was a civil engineer, not a historian, he was able to construct a very powerful narrative of the events of Napoleon&#8217;s march on a single page. Minard’s chart is often cited as a model example of information visualization because it is easy to understand, even for people with little background information on the topic or quantitative skills. The challenge for visualization is to be transparent, accurate, and information rich. Minard’s information rich visualizations set the standard for both transparency and accuracy in the kind of work that could be done before computerization.</p>
+<p class="textblock" id="textblock-pAnahwmcosbvftssrtiicnkTacaeAthsfmtbcwqmTapwucmfwsrosplSSpladmdwohsptwwbrtbnaapptmlbtoIwaadnmgpsifbpiehaipaTeesrcsrhesbitbgtwraccw"><span class="para_marker"><a class="textblock_permalink" id="pAnahwmcosbvftssrtiicnkTacaeAthsfmtbcwqmTapwucmfwsrosplSSpladmdwohsptwwbrtbnaapptmlbtoIwaadnmgpsifbpiehaipaTeesrcsrhesbitbgtwraccw" href="#pAnahwmcosbvftssrtiicnkTacaeAthsfmtbcwqmTapwucmfwsrosplSSpladmdwohsptwwbrtbnaapptmlbtoIwaadnmgpsifbpiehaipaTeesrcsrhesbitbgtwraccw" title="Permalink for paragraph 8">&para; <span>8</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pAnahwmcosbvftssrtiicnkTacaeAthsfmtbcwqmTapwucmfwsrosplSSpladmdwohsptwwbrtbnaapptmlbtoIwaadnmgpsifbpiehaipaTeesrcsrhesbitbgtwraccw" title="Leave a comment on paragraph 8">Leave a comment on paragraph 8</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+As noted above, historians were mostly consumers of statistics-based visualizations from the social sciences rather than innovators in constructing new kinds of visualizations. The advent of “cliometrics” and <em>Annaliste</em> total history in the 1960s forced more historians to become conversant with quantitative methods. Though the <em>Annaliste </em>approach to total history predated widespread use of the computer, much of the first wave of social scientific history relied on statistical packages like SPSS and SAS to process large amounts of data. The most determinedly quantitative works often had several pages of tables, most of which would be referenced in the text, but not always at the precise page that made the link between text and table most obvious. Instead of working as a driver of narrative, many of the tables and graphs produced in quantitative works of the 1960s, 1970s and 1980s sat inert on the page, functioning more like the biographical pictures included in early historical works than as an integral part of the argument. Toggling between explication and evidence slowed reading considerably, so much so that readers of quantitative histories of the era sometimes broke into two broad groups: those who read the text and assumed the charts and graphs confirmed what was said there and those who read the charts and graphs while paying scant regard to the text. To be sure, many more historians developed the ability to rapidly interpret a greater variety of statistical representations. It became possible to use a scatterplot with a line of best fit or a Lorenz curve comparing inequalities with a reasonable expectation that most readers would be persuaded by the results visible in the charts, without requiring significant textual explication. But most social histories continued to rely primarily on bar and line graphs as their most prominent visualizations. And the fact that the statistical tools deployed often embedded assumptions that were inapplicable to the messiness of actual historical processes lent a false aura of scientific precision to very tentative conclusions. Many explanations have been offered for the relative decline of social history since its heyday in the 1970s, but a failure of imagination in the integration of visualizations with text based arguments may have contributed to the decline.<sup class='footnote'><a href='#fn-3121-6' id='fnref-3121-6' onclick='return fdfootnote_show(3121)'>6</a></sup></p>
+<p class="textblock" id="textblock-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_1"><span class="para_marker"><a class="textblock_permalink" id="pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_1" href="#pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_1" title="Permalink for paragraph 9">&para; <span>9</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_1" title="Leave a comment on paragraph 9">Leave a comment on paragraph 9</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+<!-- cp_caption_start --><span class="captioned_image alignnone" style="width: 600px"><span id="attachment_4095"  class="wp-caption"><a href="http://writinghistory.trincoll.edu/evidence/theibault-2012-spring/picture-7/" target="_blank" rel="attachment wp-att-4095"><img class="size-large wp-image-4095 " src="http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-7-600x388.png" alt="" width="600" height="388" srcset="http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-7-600x388.png 600w, http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-7-300x194.png 300w, http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-7.png 685w" sizes="(max-width: 600px) 100vw, 600px" /></a></span><small class="wp-caption-text">Figure 3: The relative decline of &#8220;social history&#8221; among historians, in chart by Robert Townsend (2011)</small></span><!-- cp_caption_end --></p>
+<p class="textblock" id="textblock-pWhdhtismisswbmscatroabuTaqiwpfcmhswpETisHtkweTVDQIEaEpaepgcucsscfahfiforfsIwrfrMCFmttbwhccuccitmvcsdmCmanbtai"><span class="para_marker"><a class="textblock_permalink" id="pWhdhtismisswbmscatroabuTaqiwpfcmhswpETisHtkweTVDQIEaEpaepgcucsscfahfiforfsIwrfrMCFmttbwhccuccitmvcsdmCmanbtai" href="#pWhdhtismisswbmscatroabuTaqiwpfcmhswpETisHtkweTVDQIEaEpaepgcucsscfahfiforfsIwrfrMCFmttbwhccuccitmvcsdmCmanbtai" title="Permalink for paragraph 10">&para; <span>10</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pWhdhtismisswbmscatroabuTaqiwpfcmhswpETisHtkweTVDQIEaEpaepgcucsscfahfiforfsIwrfrMCFmttbwhccuccitmvcsdmCmanbtai" title="Leave a comment on paragraph 10">Leave a comment on paragraph 10</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+While historians debated how to incorporate statistical methods into scholarship, statisticians were becoming more self-conscious about how the results of analysis were being used. This attention to how quantitative information was presented first came to the attention of most humanities scholars with the publications of Edward Tufte in the 1980s. His three key works, <em>The Visual Display of Quantitative Information</em> (1983), <em>Envisioning Information </em>(1990) and <em>Visual Explanations</em> (1997) placed the aesthetics and explanatory power of graphs and charts under closer scrutiny.<sup class='footnote'><a href='#fn-3121-7' id='fnref-3121-7' onclick='return fdfootnote_show(3121)'>7</a></sup> It was Tufte who was most responsible for renewing attention to Minard&#8217;s <em>Carte Figurative.</em> Tufte’s main target in these books was what he called “chartjunk,” unnecessary clutter and contrived images that made visualizations confusing and sometimes deliberately misleading. Chartjunk was mostly associated with news and business publications in what today are called infographics.  Historians, like social scientists writing for scholarly publications, tended to avoid visual embellishments of charts and graphs, but they did have to be attentive to ensuring that legends were clear enough that readers were not deceived by how information was displayed. Even accurate information can mislead if it is presented in a way that creates false visual cues. For example, inexperienced readers might need some guidance with a logarithmic chart so that they do not mistake an exponential change for a linear one. And sometimes, visualizations can be shaped to seem more conclusive than the underlying data actually warrant.  For example, if a line graph showing differences ranging from 65 percent to 85 percent has its baseline set at 50 percent rather than zero, it leads people to see the differences in values as starker than they actually are. These issues of what one might call rhetorical honesty in the formulation of visualizations were compounded for historians and other humanists by the hard choices that were required to generate the data to be processed in the first place. As <a href="http://writinghistory.trincoll.edu/data/gibbs-owens-2012-spring/" target="_blank">Gibbs and Owens</a> note in their contribution to this volume, historians have traditionally been told to mask the twists and turns of the research process in their finished work to make their argument as strong as possible.<sup class='footnote'><a href='#fn-3121-8' id='fnref-3121-8' onclick='return fdfootnote_show(3121)'>8</a></sup> This traditional approach can make any visualization seem like the product of a black box. Their proposal to share both data and methods in as transparent a manner as possible can have the additional benefit of making those visualizations easier to understand because the logic of how and why it was generated is visible.</p>
+<p class="textblock" id="textblock-pIrmaapgeotcbhivracpOohtcmvwsbirtpdFpetaaatAhtcesawcrevIsuicmoouhcvawSslabspoowaTwmaftdcasgatptpwcusisvgscfhfiforfsTtacbcfdUdwa"><span class="para_marker"><a class="textblock_permalink" id="pIrmaapgeotcbhivracpOohtcmvwsbirtpdFpetaaatAhtcesawcrevIsuicmoouhcvawSslabspoowaTwmaftdcasgatptpwcusisvgscfhfiforfsTtacbcfdUdwa" href="#pIrmaapgeotcbhivracpOohtcmvwsbirtpdFpetaaatAhtcesawcrevIsuicmoouhcvawSslabspoowaTwmaftdcasgatptpwcusisvgscfhfiforfsTtacbcfdUdwa" title="Permalink for paragraph 11">&para; <span>11</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pIrmaapgeotcbhivracpOohtcmvwsbirtpdFpetaaatAhtcesawcrevIsuicmoouhcvawSslabspoowaTwmaftdcasgatptpwcusisvgscfhfiforfsTtacbcfdUdwa" title="Leave a comment on paragraph 11">Leave a comment on paragraph 11</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+Information rich maps are a particularly good example of the challenge of balancing honesty in visual rhetoric and clarity and persuasiveness. One often has to come to a map visualization with sufficient background information to &#8220;read through&#8221; peculiarities of delivery. For example, maps of presidential elections that appear in almost any textbook of American history typically color in each state according to which candidate received the electoral votes. It&#8217;s understood that the visual impact of the color contrast might over or understate how close the vote actually was. Some states are large in area but small in population, others, the other way around. There are ways to make maps that account for those differences. For example, a cartogram adjusts the size of geographical areas to make them proportional to their populations, while a choropleth map uses shadings of color to indicate the strength of the victory in a given area.<sup class='footnote'><a href='#fn-3121-9' id='fnref-3121-9' onclick='return fdfootnote_show(3121)'>9</a></sup> The two adjustments, cartogram and choropleth, can be combined to further the information density. Unfortunately, the distortions of the cartogram when combined with the choropleth can also make the information harder rather than easier to interpret without a very high level of prior knowledge.  This raises the question whether it is hard to interpret such a visualization because the format of combining cartogram and choropleth is unfamiliar. Most historians have probably encountered a choropleth map and a cartogram in a print history book or contemporary source in the course of their research, but probably have not encountered the two combined. Or is it hard to interpret because it makes unreasonable demands on the background information of the reader?</p>
+<p class="textblock" id="textblock-pccsscciaswpwahhwteevahatctbraaiscuxpahstFClCoPermbMNe"><span class="para_marker"><a class="textblock_permalink" id="pccsscciaswpwahhwteevahatctbraaiscuxpahstFClCoPermbMNe" href="#pccsscciaswpwahhwteevahatctbraaiscuxpahstFClCoPermbMNe" title="Permalink for paragraph 12">&para; <span>12</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pccsscciaswpwahhwteevahatctbraaiscuxpahstFClCoPermbMNe" title="Leave a comment on paragraph 12">Leave a comment on paragraph 12</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+<!-- cp_caption_start --><span class="captioned_image alignnone" style="width: 600px"><span  class="wp-caption"><a href="http://writinghistory.trincoll.edu/evidence/visualizations-and-historical-arguments-theibault/countycartredblue1024/" target="_blank" rel="attachment wp-att-2163"><img class=" " src="http://writinghistory.trincoll.edu/wp-content/uploads/2011/09/countycartredblue1024-600x405.png" alt="" width="600" height="405" /></a></span><small class="wp-caption-text">Figure 4: County-level Cartogram of 2008 Presidential election results, map by Mark Newman.</small></span><!-- cp_caption_end --></p>
+<p class="textblock" id="textblock-pccsscciaswpwahhwteevahatctbraaiscuxpahstFClCCoPermbMNe"><span class="para_marker"><a class="textblock_permalink" id="pccsscciaswpwahhwteevahatctbraaiscuxpahstFClCCoPermbMNe" href="#pccsscciaswpwahhwteevahatctbraaiscuxpahstFClCCoPermbMNe" title="Permalink for paragraph 13">&para; <span>13</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pccsscciaswpwahhwteevahatctbraaiscuxpahstFClCCoPermbMNe" title="Leave a comment on paragraph 13">Leave a comment on paragraph 13</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+<!-- cp_caption_start --><span class="captioned_image alignnone" style="width: 600px"><span  class="wp-caption"><a href="http://writinghistory.trincoll.edu/evidence/visualizations-and-historical-arguments-theibault/countycartpurple1024/" target="_blank" rel="attachment wp-att-2164"><img class="  " src="http://writinghistory.trincoll.edu/wp-content/uploads/2011/09/countycartpurple1024-600x405.png" alt="" width="600" height="405" /></a></span><small class="wp-caption-text">Figure 5: County-level Choropleth Cartogram of 2008 Presidential election results, map by Mark Newman.</small></span><!-- cp_caption_end --></p>
+<p class="textblock" id="textblock-pTqowavihtibiuorouebiagidafedanfGslhbotradidhCvbmaeaptShhsottbgscffiforfsOpwtcibaatadJmmimaatsyAsccpnwataabetw"><span class="para_marker"><a class="textblock_permalink" id="pTqowavihtibiuorouebiagidafedanfGslhbotradidhCvbmaeaptShhsottbgscffiforfsOpwtcibaatadJmmimaatsyAsccpnwataabetw" href="#pTqowavihtibiuorouebiagidafedanfGslhbotradidhCvbmaeaptShhsottbgscffiforfsOpwtcibaatadJmmimaatsyAsccpnwataabetw" title="Permalink for paragraph 14">&para; <span>14</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pTqowavihtibiuorouebiagidafedanfGslhbotradidhCvbmaeaptShhsottbgscffiforfsOpwtcibaatadJmmimaatsyAsccpnwataabetw" title="Leave a comment on paragraph 14">Leave a comment on paragraph 14</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+The question of whether a visualization is hard to interpret because it is unfamiliar or because it relies on unrealistic expectations of background information assumes greater importance because digitization allows for even greater information density and novelty of form. Geo-spatial locating of information has been one of the richest areas of development in digital humanities. Complex visualizations based on maps are emerging as part of a &#8220;<a title="Geo-Spatial" href="http://spatial.scholarslab.org/spatial-turn/" target="_blank">geo-spatial turn</a>&#8221; in the humanities.<sup class='footnote'><a href='#fn-3121-10' id='fnref-3121-10' onclick='return fdfootnote_show(3121)'>10</a></sup> One particular way that geo-spatial information density can increase is by animating it, adding time as another dimension of visualization.  Just as a map can make 1 inch = 1 mile, an animated timeline can make 1 second = 1 year. A simple combination of animated map and timeline can create a powerful narrative without any text at all. A brilliant example of this is the animated map of the <a title="2053" href="http://www.ctbto.org/specials/1945-1998-by-isao-hashimoto/" target="_blank">2053 nuclear explosions</a> between 1945 and 1998 created by Isao Hashimoto, which dramatically narrates the contours of the nuclear age.<sup class='footnote'><a href='#fn-3121-11' id='fnref-3121-11' onclick='return fdfootnote_show(3121)'>11</a></sup> Aside from the title, there is no background information associated with the animation. The only text in the piece is in the legend, which emerges as each new nuclear power first explodes a device. Sound, not words, is used as a second way of highlighting the data points. Yet despite the absence of background information text, almost anyone watching the animation will come away with a deep understanding of the key features of the nuclear age. Only a modest background knowledge (such as knowing who the main antagonists in the Cold War were) makes the presentation of what might seem dry factoids not only informative, but moving.</p>
+<p class="textblock" id="textblock-pHsaontcbmbtuafparEAhctcmtdmbatspcotscfahfiforfTURDSLttpettiaasTtoidcpdecpnoclvbDDMsav"><span class="para_marker"><a class="textblock_permalink" id="pHsaontcbmbtuafparEAhctcmtdmbatspcotscfahfiforfTURDSLttpettiaasTtoidcpdecpnoclvbDDMsav" href="#pHsaontcbmbtuafparEAhctcmtdmbatspcotscfahfiforfTURDSLttpettiaasTtoidcpdecpnoclvbDDMsav" title="Permalink for paragraph 15">&para; <span>15</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pHsaontcbmbtuafparEAhctcmtdmbatspcotscfahfiforfTURDSLttpettiaasTtoidcpdecpnoclvbDDMsav" title="Leave a comment on paragraph 15">Leave a comment on paragraph 15</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+Hashimoto&#8217;s animation of nuclear testing cannot be manipulated by the user, aside from pausing and resuming the animation. Edward Ayers has coined the term &#8220;cinematic maps&#8221; to describe map based animations that show the process of change over time.<sup class='footnote'><a href='#fn-3121-12' id='fnref-3121-12' onclick='return fdfootnote_show(3121)'>12</a></sup> The University of Richmond&#8217;s Digital Scholarship Lab has taken the traditional maps of presidential elections from 1840-2008 and turned them into an animated sequence.<sup class='footnote'><a href='#fn-3121-13' id='fnref-3121-13' onclick='return fdfootnote_show(3121)'>13</a></sup> These maps try to overcome the information distortions caused by population differences and the electoral college by providing not only county level votes, but a Dot Density Map that shows the aggregated votes of 500 voters.</p>
+<p class="textblock" id="textblock-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_2"><span class="para_marker"><a class="textblock_permalink" id="pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_2" href="#pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_2" title="Permalink for paragraph 16">&para; <span>16</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_2" title="Leave a comment on paragraph 16">Leave a comment on paragraph 16</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+<!-- cp_caption_start --><span class="captioned_image alignnone" style="width: 600px"><span id="attachment_4259"  class="wp-caption"><a href="http://writinghistory.trincoll.edu/evidence/theibault-2012-spring/picture-8/" target="_blank" rel="attachment wp-att-4259"><img class="size-large wp-image-4259   " src="http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-8-600x358.png" alt="" width="600" height="358" srcset="http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-8-600x358.png 600w, http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-8-300x179.png 300w, http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-8.png 993w" sizes="(max-width: 600px) 100vw, 600px" /></a></span><small class="wp-caption-text">Figure 6: Click to open Dot Density Maps of Votes for President, 1840-2008, from &#8220;Voting America,&#8221; Digital Scholarship Lab, University of Richmond</small></span><!-- cp_caption_end --></p>
+<p class="textblock" id="textblock-pIoatsgatmifvpdrdvierSieihticbccacmpetyasacpod"><span class="para_marker"><a class="textblock_permalink" id="pIoatsgatmifvpdrdvierSieihticbccacmpetyasacpod" href="#pIoatsgatmifvpdrdvierSieihticbccacmpetyasacpod" title="Permalink for paragraph 17">&para; <span>17</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pIoatsgatmifvpdrdvierSieihticbccacmpetyasacpod" title="Leave a comment on paragraph 17">Leave a comment on paragraph 17</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+Instead of adjusting the size of the geographical area to make it fit the voting pattern, the dot pattern reflects the density of votes in each region. Still, it is easy to imagine how this information could be converted to cartograms and choropleth maps of presidential elections to tell yet another story about changing voting patterns over the decades.</p>
+<p class="textblock" id="textblock-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_3"><span class="para_marker"><a class="textblock_permalink" id="pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_3" href="#pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_3" title="Permalink for paragraph 18">&para; <span>18</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_3" title="Leave a comment on paragraph 18">Leave a comment on paragraph 18</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+<!-- cp_caption_start --><span class="captioned_image alignnone" style="width: 600px"><span id="attachment_4264"  class="wp-caption"><a href="http://writinghistory.trincoll.edu/evidence/theibault-2012-spring/picture-9/" target="_blank" rel="attachment wp-att-4264"><img class="size-large wp-image-4264   " src="http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-9-600x350.png" alt="" width="600" height="350" srcset="http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-9-600x350.png 600w, http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-9-300x175.png 300w, http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-9.png 1043w" sizes="(max-width: 600px) 100vw, 600px" /></a></span><small class="wp-caption-text">Figure 7: Time, distance, and costs of shipping in 19th century California railroads from &#8220;Railroaded,&#8221; Stanford Spatial History Project</small></span><!-- cp_caption_end --></p>
+<p class="textblock" id="textblock-pApoSsSHPatRhhwsegscbsvpiptbovhbctaRWrbotdtcrscffforfsTipifuidhchpbidawpwaslsatfhpIacasmesfatcuheSWT"><span class="para_marker"><a class="textblock_permalink" id="pApoSsSHPatRhhwsegscbsvpiptbovhbctaRWrbotdtcrscffforfsTipifuidhchpbidawpwaslsatfhpIacasmesfatcuheSWT" href="#pApoSsSHPatRhhwsegscbsvpiptbovhbctaRWrbotdtcrscffforfsTipifuidhchpbidawpwaslsatfhpIacasmesfatcuheSWT" title="Permalink for paragraph 19">&para; <span>19</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pApoSsSHPatRhhwsegscbsvpiptbovhbctaRWrbotdtcrscffforfsTipifuidhchpbidawpwaslsatfhpIacasmesfatcuheSWT" title="Leave a comment on paragraph 19">Leave a comment on paragraph 19</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+As part of Stanford’s Spatial History Project, <a title="Railroads" href="http://www.stanford.edu/group/spatialhistory/cgi-bin/site/viz.php?id=341&amp;project_id=0" target="_blank">online visualizations</a> have been created to accompany Richard White’s recent book on the development of the trans-continental railroad.<sup class='footnote'><a href='#fn-3121-14' id='fnref-3121-14' onclick='return fdfootnote_show(3121)'>14</a></sup> This project is particularly interesting for understanding the impact of digital humanities on current historical practice because it is directly associated with a print work and seems likely to serve as a template for future hybrid productions of print and digital. It is also closely aligned with a still more expansive set of visualizations from the Stanford Spatial History Project about the themes of the book collected under the heading <em><a title="Shaping the West" href="http://www.stanford.edu/group/spatialhistory/cgi-bin/site/project.php?id=997" target="_blank">Shaping the West</a></em>.<sup class='footnote'><a href='#fn-3121-15' id='fnref-3121-15' onclick='return fdfootnote_show(3121)'>15</a></sup> There are twenty-six different visualizations included at the site, sixteen of which are animated. Not unexpectedly, several of the animations are simple plotting of space and time like the animations described in the previous paragraph. But others complicate the visualization by layering information in innovative ways. For example, one visualization reframes shipping distances in California in terms not just of track length, but also time to delivery and cost. And even though the animations have been created as an accompaniment to an academic work, they offer an interactive opportunity to the reader that those other animations do not. Readers can customize the presentation of data to isolate issues of particular interest to them, rather than depending on the author to frame the question being answered. Interactive engagement with a visualization is yet another innovation made possible by digitization.</p>
+<p class="textblock" id="textblock-pccsscciaswpiawahhwteetsptbraislscuPxpahsws"><span class="para_marker"><a class="textblock_permalink" id="pccsscciaswpiawahhwteetsptbraislscuPxpahsws" href="#pccsscciaswpiawahhwteetsptbraislscuPxpahsws" title="Permalink for paragraph 20">&para; <span>20</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pccsscciaswpiawahhwteetsptbraislscuPxpahsws" title="Leave a comment on paragraph 20">Leave a comment on paragraph 20</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+<!-- cp_caption_start --><span class="captioned_image alignnone" style="width: 600px"><span id="attachment_4267"  class="wp-caption"><a href="http://writinghistory.trincoll.edu/evidence/theibault-2012-spring/picture-10/" target="_blank" rel="attachment wp-att-4267"><img class="size-large wp-image-4267  " src="http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-10-600x350.png" alt="" width="600" height="350" srcset="http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-10-600x350.png 600w, http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-10-300x175.png 300w, http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-10.png 1051w" sizes="(max-width: 600px) 100vw, 600px" /></a></span><small class="wp-caption-text">Figure 8: Networks of Boards of Directors of Western railroads, from &#8220;Railroaded,&#8221; Stanford Spatial History Project</small></span><!-- cp_caption_end --></p>
+<p class="textblock" id="textblock-pAhamcqatdthapohbtpirtIeSWsevhaohttfaalagciTvanseAplgrwndbdscfisHRgSsrvvismbfemawfem"><span class="para_marker"><a class="textblock_permalink" id="pAhamcqatdthapohbtpirtIeSWsevhaohttfaalagciTvanseAplgrwndbdscfisHRgSsrvvismbfemawfem" href="#pAhamcqatdthapohbtpirtIeSWsevhaohttfaalagciTvanseAplgrwndbdscfisHRgSsrvvismbfemawfem" title="Permalink for paragraph 21">&para; <span>21</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pAhamcqatdthapohbtpirtIeSWsevhaohttfaalagciTvanseAplgrwndbdscfisHRgSsrvvismbfemawfem" title="Leave a comment on paragraph 21">Leave a comment on paragraph 21</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+As historians ask more complex questions about the data they have assembled, the problem of how best to present the information requires more thought. In the <em>Shaping the West </em>site each visualization has an &#8220;about&#8221; or &#8220;help&#8221; tab that functions as a legend and guide to the information contained in the site. The visualizations are not self-explanatory. A particularly complex visualization links the geography of the railroads with a network diagram of the boards of directors and sources of capital for each. The &#8220;about&#8221; tab for that visualization includes a statement about &#8220;How to Read&#8221; the graphic. Such &#8220;How to Read&#8221; statements recognize that the visual vocabulary of innovative sites may not be familiar enough to make an argument without further explication of methods.</p>
+<p class="textblock" id="textblock-pccsscciaswpwahhwteetsptbraaiscuPxpahstFRbialewfHRsGe"><span class="para_marker"><a class="textblock_permalink" id="pccsscciaswpwahhwteetsptbraaiscuPxpahstFRbialewfHRsGe" href="#pccsscciaswpwahhwteetsptbraaiscuPxpahstFRbialewfHRsGe" title="Permalink for paragraph 22">&para; <span>22</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pccsscciaswpwahhwteetsptbraaiscuPxpahstFRbialewfHRsGe" title="Leave a comment on paragraph 22">Leave a comment on paragraph 22</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+<!-- cp_caption_start --><span class="captioned_image alignnone" style="width: 600px"><span  class="wp-caption"><a href="http://writinghistory.trincoll.edu/evidence/theibault-2012-spring/picture-4/" target="_blank" rel="attachment wp-att-4081"><img class=" " src="http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-4-600x356.png" alt="" width="600" height="356" /></a></span><small class="wp-caption-text">Figure 9: Relationship between income and life expectancy worldwide from Hans Rosling&#8217;s &#8220;Gapminder&#8221;</small></span><!-- cp_caption_end --></p>
+<p class="textblock" id="textblock-pUtbafrposatiifiSsHRUatcGhhcathhwgowtbaleabapcGacstdehscffiforfsOcpsinmsstCcddpAiosococwcerCvsdpctrgsrwiqlmlCIUSewmTdli"><span class="para_marker"><a class="textblock_permalink" id="pUtbafrposatiifiSsHRUatcGhhcathhwgowtbaleabapcGacstdehscffiforfsOcpsinmsstCcddpAiosococwcerCvsdpctrgsrwiqlmlCIUSewmTdli" href="#pUtbafrposatiifiSsHRUatcGhhcathhwgowtbaleabapcGacstdehscffiforfsOcpsinmsstCcddpAiosococwcerCvsdpctrgsrwiqlmlCIUSewmTdli" title="Permalink for paragraph 23">&para; <span>23</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pUtbafrposatiifiSsHRUatcGhhcathhwgowtbaleabapcGacstdehscffiforfsOcpsinmsstCcddpAiosococwcerCvsdpctrgsrwiqlmlCIUSewmTdli" title="Leave a comment on paragraph 23">Leave a comment on paragraph 23</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+Undoubtedly the biggest advocate for the rhetorical power of statistical animations that incorporate interactive features is the Swedish statistician Hans Rosling. Using a tool called Gapminder, he has created an <a title="Gapminder" href="http://www.gapminder.org/world/" target="_blank">animation of life expectancy</a> at birth and per capita GDP for all countries since 1800 to demonstrate the evolution of world health.<sup class='footnote'><a href='#fn-3121-16' id='fnref-3121-16' onclick='return fdfootnote_show(3121)'>16</a></sup> One can “play” Rosling’s animation in a non-interactive mode to see the story he tells. Color coding differentiates countries in different parts of the world. And if one scrolls over the circles on the chart one can see which country each represents. Circles vary in size depending on the population of the country, and change in size over time in response to population growth, so the reasonably well informed can quickly locate major countries like China, India, and the United States even without mousing over the circles. There is deep layering of information that is easy to interpret, even without an extensive background. In <a title="Rosling TED Talk" href="http://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen.html" target="_blank">videos where he talks about the data</a>, Rosling shows that the information illustrates a dramatic narrative of the convergence of the world on higher levels of health and wealth, but the point come across perfectly clearly even without verbal accompaniment.<sup class='footnote'><a href='#fn-3121-17' id='fnref-3121-17' onclick='return fdfootnote_show(3121)'>17</a></sup> Rosling draws on an extremely rich data base and readers are able to customize the display of information according to their own interests. One tab allows readers to orient the circles on a map of the world, rather than on two axes of a chart. Another allows readers to choose which country’s data to include or not include in the animation. If one wants to isolate countries from a single continent, or countries that start out a similar size, one can do so. One can also adjust the timeline to focus on narrower periods where crucial changes might be taking place, instead of having to go through the entire time span for “big picture” changes. Because of this option for customization, Rosling’s project both makes an argument that is explicit in the first animation one sees and provides the basis for further exploration by the reader of his or her own interests. While the kind of graphs used by Rosling were developed prior to the web, they posed real challenges of presentation and interpretation in the 2-D format of print. Animation increases their interpretive force dramatically.</p>
+<p class="textblock" id="textblock-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_4"><span class="para_marker"><a class="textblock_permalink" id="pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_4" href="#pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_4" title="Permalink for paragraph 24">&para; <span>24</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_4" title="Leave a comment on paragraph 24">Leave a comment on paragraph 24</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+<!-- cp_caption_start --><span class="captioned_image alignnone" style="width: 600px"><span id="attachment_4078"  class="wp-caption"><a href="http://writinghistory.trincoll.edu/evidence/theibault-2012-spring/picture-1/" target="_blank" rel="attachment wp-att-4078"><img class="size-large wp-image-4078 " src="http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-1-600x347.png" alt="" width="600" height="347" srcset="http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-1-600x347.png 600w, http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-1-300x173.png 300w, http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-1.png 1060w" sizes="(max-width: 600px) 100vw, 600px" /></a></span><small class="wp-caption-text">Figure 10: A page from Whitney Trettien&#8217;s &#8220;Computers, Cut-Ups, and Combinatory Vovelles,&#8221; showing trail of pages viewed</small></span><!-- cp_caption_end --></p>
+<p class="textblock" id="textblock-pAarcotdsanowiwdaiWnettsotssemrmahvcsaamlcttpmAgeiWTsatThhwcttbCCUCVAATGMscffiforfsenlrhatTfpsdotcoosptmbihgwsluccewmosptcCcas"><span class="para_marker"><a class="textblock_permalink" id="pAarcotdsanowiwdaiWnettsotssemrmahvcsaamlcttpmAgeiWTsatThhwcttbCCUCVAATGMscffiforfsenlrhatTfpsdotcoosptmbihgwsluccewmosptcCcas" href="#pAarcotdsanowiwdaiWnettsotssemrmahvcsaamlcttpmAgeiWTsatThhwcttbCCUCVAATGMscffiforfsenlrhatTfpsdotcoosptmbihgwsluccewmosptcCcas" title="Permalink for paragraph 25">&para; <span>25</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pAarcotdsanowiwdaiWnettsotssemrmahvcsaamlcttpmAgeiWTsatThhwcttbCCUCVAATGMscffiforfsenlrhatTfpsdotcoosptmbihgwsluccewmosptcCcas" title="Leave a comment on paragraph 25">Leave a comment on paragraph 25</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+Animation and reader control of the data stream are not the only ways in which digitization affects interpretation. Websites are new enough that there are still opportunities to subvert standard expectations and make readers more attentive to how visual cues structure an argument (in ways that are much less costly than trying to subvert visual cues in print media). A good example is Whitney Trettien’s, “<a title="Trettien Thesis" href="http://whitneyannetrettien.com/thesis/" target="_blank">Computers, Cut-Ups, and Combinatory Volvelles: An Archaeology of Text-Generating Mechanisms</a>,”<sup class='footnote'><a href='#fn-3121-18' id='fnref-3121-18' onclick='return fdfootnote_show(3121)'>18</a></sup> which encourages a non-linear reading of her argument about non-linear texts. The front page of the site does not offer a table of contents or obvious sequential path through the material, but it has a 14&#215;21 grid of white squares, which light up and change color either when moused-over or when specific pages of text are clicked. Color coding allows readers to see which sections of the website deal with specific themes, creating a second way of envisioning the argument. Physical proximity of squares and color groupings work together to create a structure to the argument that is as easy to see as it is to read. Interestingly, the <a title="Peabody" href="http://beineckeroom26.library.yale.edu/2011/09/02/visualizing-history/" target="_blank">idea of color coding in a grid format </a>was presaged in Elizabeth Peabody&#8217;s nineteenth-century <em>Universal History: Arranged to Illustrate Bem&#8217;s Charts of Chronology</em>.<sup class='footnote'><a href='#fn-3121-19' id='fnref-3121-19' onclick='return fdfootnote_show(3121)'>19</a></sup> Trettien’s experiment with a visual bread-crumb trail makes it possible to reimagine how arguments can be presented in an environment where the reader controls what page to turn to next.</p>
+<p class="textblock" id="textblock-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_5"><span class="para_marker"><a class="textblock_permalink" id="pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_5" href="#pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_5" title="Permalink for paragraph 26">&para; <span>26</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_5" title="Leave a comment on paragraph 26">Leave a comment on paragraph 26</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+<!-- cp_caption_start --><span class="captioned_image alignnone" style="width: 600px"><span id="attachment_4077"  class="wp-caption"><a href="http://writinghistory.trincoll.edu/evidence/theibault-2012-spring/picture-2/" target="_blank" rel="attachment wp-att-4077"><img class="size-large wp-image-4077 " src="http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-2-600x381.png" alt="" width="600" height="381" srcset="http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-2-600x381.png 600w, http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-2-300x190.png 300w, http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-2.png 974w" sizes="(max-width: 600px) 100vw, 600px" /></a></span><small class="wp-caption-text">Figure 11: Six editions of Darwin&#8217;s &#8220;Origin of Species&#8221; viewed simultaneously. Ben Fry&#8217;s &#8220;The Preservation of Favoured Traces&#8221;</small></span><!-- cp_caption_end --></p>
+<p class="textblock" id="textblock-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_6"><span class="para_marker"><a class="textblock_permalink" id="pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_6" href="#pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_6" title="Permalink for paragraph 27">&para; <span>27</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_6" title="Leave a comment on paragraph 27">Leave a comment on paragraph 27</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+<!-- cp_caption_start --><span class="captioned_image alignnone" style="width: 600px"><span id="attachment_4079"  class="wp-caption"><a href="http://writinghistory.trincoll.edu/evidence/theibault-2012-spring/picture-3/" target="_blank" rel="attachment wp-att-4079"><img class="size-large wp-image-4079 " src="http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-3-600x287.png" alt="" width="600" height="287" srcset="http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-3-600x287.png 600w, http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-3-300x143.png 300w, http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-3.png 1082w" sizes="(max-width: 600px) 100vw, 600px" /></a></span><small class="wp-caption-text">Figure 12: The word &#8220;slave&#8221; in slave narratives, from &#8220;Wordseer: Exploring Language Use in Slave Narratives,&#8221; University of California, Berkeley</small></span><!-- cp_caption_end --></p>
+<p class="textblock" id="textblock-pAPswsiiptucaavciptbgpeObeacfAseouhrtBFctstOShhbcttbeCDeOchlscffiforfsTorbesbcislrcsogbasadclcaoqgftcfwmert"><span class="para_marker"><a class="textblock_permalink" id="pAPswsiiptucaavciptbgpeObeacfAseouhrtBFctstOShhbcttbeCDeOchlscffiforfsTorbesbcislrcsogbasadclcaoqgftcfwmert" href="#pAPswsiiptucaavciptbgpeObeacfAseouhrtBFctstOShhbcttbeCDeOchlscffiforfsTorbesbcislrcsogbasadclcaoqgftcfwmert" title="Permalink for paragraph 28">&para; <span>28</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pAPswsiiptucaavciptbgpeObeacfAseouhrtBFctstOShhbcttbeCDeOchlscffiforfsTorbesbcislrcsogbasadclcaoqgftcfwmert" title="Leave a comment on paragraph 28">Leave a comment on paragraph 28</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+As Peabody&#8217;s work shows, it is possible to use color as a visual cue in print texts, but it is generally prohibitively expensive. Online, color is both efficient and cost-free. A superb example of using color to highlight relationships in text is Ben Fry&#8217;s concordance of the six <a title="Origins of Species" href="http://benfry.com/traces/" target="_blank">editions of Charles Darwin&#8217;s </a><em><a title="Origins of Species" href="http://benfry.com/traces/" target="_blank">Origin of Species</a></em> completed in his lifetime.<sup class='footnote'><a href='#fn-3121-20' id='fnref-3121-20' onclick='return fdfootnote_show(3121)'>20</a></sup> The original text is represented by each sentence being compressed into a single line. The reader can scroll over each line to get a text box of the sentence. The additions in subsequent editions are represented by different colored lines. The colors allow one to quickly grasp, for example, that chapter four was most extensively revised in the third and fifth editions while chapter six was most extensively revised in the fourth edition. Dramatic changes are visible because of tiny lines of color. This same principle is taken up in the <a href="http://www.eecs.berkeley.edu/~aditi/projects/wordseer.html" target="_blank">Wordseer project</a> at the University of California, Berkeley. They have digitized a corpus of printed slave narratives and compressed each narrative to a single bar of a heat map. One can then <a title="Wordseer" href="http://wordseer.berkeley.edu/slave_narratives/" target="_blank">search for words across all of the narratives</a> and see how frequently they turn up in each of the paragraphs, represented by lines within each bar.<sup class='footnote'><a href='#fn-3121-21' id='fnref-3121-21' onclick='return fdfootnote_show(3121)'>21</a></sup> Color, brightness, and lines and bars become powerful ways of making interpretive leaps about texts, so long as one has the background knowledge to understand the implications of the visualization.</p>
+<p class="textblock" id="textblock-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_7"><span class="para_marker"><a class="textblock_permalink" id="pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_7" href="#pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_7" title="Permalink for paragraph 29">&para; <span>29</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_7" title="Leave a comment on paragraph 29">Leave a comment on paragraph 29</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+<!-- cp_caption_start --><span class="captioned_image alignnone" style="width: 600px"><span id="attachment_4080"  class="wp-caption"><a href="http://writinghistory.trincoll.edu/evidence/theibault-2012-spring/picture-5/" target="_blank" rel="attachment wp-att-4080"><img class="size-large wp-image-4080 " src="http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-5-600x312.png" alt="" width="600" height="312" srcset="http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-5-600x312.png 600w, http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-5-300x156.png 300w, http://writinghistory.trincoll.edu/wp-content/uploads/2011/12/Picture-5.png 1073w" sizes="(max-width: 600px) 100vw, 600px" /></a></span><small class="wp-caption-text">Figure 13: Correspondence network from &#8220;Mapping the Republic of Letters,&#8221; Stanford University</small></span><!-- cp_caption_end --></p>
+<p class="textblock" id="textblock-pMhwiioeancbhalfwhsshbvnttssvTeatMtRoLhhrsemtbpaSUscbuiwscffiforfsIonmcoaEelvrlsbaaolaradprcjabdrmawlmcbnwnltpropT"><span class="para_marker"><a class="textblock_permalink" id="pMhwiioeancbhalfwhsshbvnttssvTeatMtRoLhhrsemtbpaSUscbuiwscffiforfsIonmcoaEelvrlsbaaolaradprcjabdrmawlmcbnwnltpropT" href="#pMhwiioeancbhalfwhsshbvnttssvTeatMtRoLhhrsemtbpaSUscbuiwscffiforfsIonmcoaEelvrlsbaaolaradprcjabdrmawlmcbnwnltpropT" title="Permalink for paragraph 30">&para; <span>30</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pMhwiioeancbhalfwhsshbvnttssvTeatMtRoLhhrsemtbpaSUscbuiwscffiforfsIonmcoaEelvrlsbaaolaradprcjabdrmawlmcbnwnltpropT" title="Leave a comment on paragraph 30">Leave a comment on paragraph 30</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+Much historical writing is implicitly or explicitly about network connections, but historians are less familiar with how social scientists have been visualizing networks than they are with standard statistical visualizations. The <em><a title="Mapping the Republic of Letters" href="https://republicofletters.stanford.edu/#maps" target="_blank">Mapping the Republic of Letters</a></em> project at Stanford University shows how network visualizations can be used in historical work.<sup class='footnote'><a href='#fn-3121-22' id='fnref-3121-22' onclick='return fdfootnote_show(3121)'>22</a></sup> It overlays a networked map of correspondents on the actual map of Europe, with each link in the visualization representing a letter sent between an author at one location and a reader at another. The network described at <em>Mapping the Republic of Letters</em> is personal rather than conceptual, just as the network of boards of directors of railroads mentioned above was. The latter visualization was more complicated because the nodes of the network were not linked to a map, but were a pure visualization of relationships. The online prototype of visualizations of network relationships is Thinkmap’s <em><a title="Visual Thesaurus" href="http://www.visualthesaurus.com/" target="_blank">Visual Thesaurus</a></em>, which allows readers to move from node to node in pursuit of related concepts.<sup class='footnote'><a href='#fn-3121-23' id='fnref-3121-23' onclick='return fdfootnote_show(3121)'>23</a></sup> Visualizing networks poses several dangers for historians. First of all, network theory of graphs adheres to mathematical principles that have little relation to lived human experiences. In an effective network visualization, the location of nodes is not predetermined, but specified by the nature of the links between them. Remove one source of links from the analysis and the location of nodes may become different. The more complicated the kind of network analysis in the mode of Visual Thesaurus one undertakes, the more likely it is that following any single link trail can quickly get one lost in the thicket of concepts. It is extraordinarily difficult to understand why nodes are in a specific relationship to one another unless one understands the algorithms being used to create the nodes. Thus, network analysis demands the kind of &#8220;hermeneutics of data&#8221; advocated by <a href="http://writinghistory.trincoll.edu/data/gibbs-owens-2012-spring/" target="_blank">Gibbs and Owens</a> in this volume. But even when the concepts and relationships being illustrated are relatively straightforward, the task of visualizing them can prove complicated by the volume of connections being analyzed. The sheer density of nodes can make it hard to single out factors that might interest the reader.  In the network visualization of those scholars who make up the “vizosphere,” the leading edge of discussion about the future of visualizations, for example, instead of a clear pattern of lines between sites, there is a barely differentiated blob of circles.<sup class='footnote'><a href='#fn-3121-24' id='fnref-3121-24' onclick='return fdfootnote_show(3121)'>24</a></sup></p>
+<p class="textblock" id="textblock-pccsscciaswpiawahhwteevahatetbraislscuxpaVhswsmvst"><span class="para_marker"><a class="textblock_permalink" id="pccsscciaswpiawahhwteevahatetbraislscuxpaVhswsmvst" href="#pccsscciaswpiawahhwteevahatetbraislscuxpaVhswsmvst" title="Permalink for paragraph 31">&para; <span>31</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pccsscciaswpiawahhwteevahatetbraislscuxpaVhswsmvst" title="Leave a comment on paragraph 31">Leave a comment on paragraph 31</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+<!-- cp_caption_start --><span class="captioned_image alignnone" style="width: 600px"><span id="attachment_2150"  class="wp-caption"><a href="http://writinghistory.trincoll.edu/evidence/visualizations-and-historical-arguments-theibault/extended-5/" target="_blank" rel="attachment wp-att-2150"><img class="size-large wp-image-2150  " src="http://writinghistory.trincoll.edu/wp-content/uploads/2011/09/extended-5-600x394.png" alt="Vizosphere" width="600" height="394" srcset="http://writinghistory.trincoll.edu/wp-content/uploads/2011/09/extended-5-600x394.png 600w, http://writinghistory.trincoll.edu/wp-content/uploads/2011/09/extended-5-300x197.png 300w" sizes="(max-width: 600px) 100vw, 600px" /></a></span><small class="wp-caption-text">Figure 14: Network diagram of the &#8220;Vizosphere&#8221; by Moritz Stefaner</small></span><!-- cp_caption_end --></p>
+<p class="textblock" id="textblock-pIvhetmooueipassJaSSlRwctebsaplGbunIwTswnanwaidtamtaabjaEdstFDhhfctbhiuvmnasPMpMwimfbcscffiforfsIicfttpaserpvLoewtnehwghsfmmpc"><span class="para_marker"><a class="textblock_permalink" id="pIvhetmooueipassJaSSlRwctebsaplGbunIwTswnanwaidtamtaabjaEdstFDhhfctbhiuvmnasPMpMwimfbcscffiforfsIicfttpaserpvLoewtnehwghsfmmpc" href="#pIvhetmooueipassJaSSlRwctebsaplGbunIwTswnanwaidtamtaabjaEdstFDhhfctbhiuvmnasPMpMwimfbcscffiforfsIicfttpaserpvLoewtnehwghsfmmpc" title="Permalink for paragraph 32">&para; <span>32</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#pIvhetmooueipassJaSSlRwctebsaplGbunIwTswnanwaidtamtaabjaEdstFDhhfctbhiuvmnasPMpMwimfbcscffiforfsIicfttpaserpvLoewtnehwghsfmmpc" title="Leave a comment on paragraph 32">Leave a comment on paragraph 32</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+Innovative visualizations have entered the mainstream of online user experience in the professions and social sciences. Just as SPSS and SAS and later R were created to enable basic statistical analysis, programs like Gephi have been created to undertake network analysis. In the wake of Tufte’s work, numerous authors now write about information design, though again mostly targeted at a business and journalism audience. Every day, sites like <a title="Flowing Data" href="http://flowingdata.com/" target="_blank">Flowing Data</a> highlight innovative uses of visualization to make new arguments, such as <a title="People MovIN" href="http://peoplemov.in/" target="_blank">People MovIn</a>, which illustrates migration flows between countries.<sup class='footnote'><a href='#fn-3121-25' id='fnref-3121-25' onclick='return fdfootnote_show(3121)'>25</a></sup> It is clear from these sites that people are still expanding the realm of the possible in visualizing information. Looking over these visualizations, even when they are not explicitly historical, will give historians strategies for making more powerful arguments to complement, and sometimes even substitute for, text. But the task of building those arguments will have to include educating fellow historians about how to interpret visualizations. As noted above, it can be very difficult for the uninitiated historian to intuit relationships between entities in a network analysis when they are put into a visualization scheme.  Yet networks are often at the center of questions of greatest interest to historians. To the extent that the difficulties in interpreting innovative visualizations like interactive network diagrams are caused by a simple lack of familiarity with them, they can be overcome by building more such sites. To the extent that they are caused by a lack of background knowledge to understand the cues, creators of such sites will have to learn to build new ways of incorporating that background information as economically in the use of text as possible. In either case, at some point historians will have to accustom themselves to “reading” network diagrams as adeptly as they read maps or scatterplots.</p>
+<p class="textblock" id="textblock-peAtaJTiDoSJCfDHSCHtihEMEawhhwtb"><span class="para_marker"><a class="textblock_permalink" id="peAtaJTiDoSJCfDHSCHtihEMEawhhwtb" href="#peAtaJTiDoSJCfDHSCHtihEMEawhhwtb" title="Permalink for paragraph 33">&para; <span>33</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#peAtaJTiDoSJCfDHSCHtihEMEawhhwtb" title="Leave a comment on paragraph 33">Leave a comment on paragraph 33</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+<em>About the author:  John Theibault is Director of the South Jersey Center for Digital Humanities @ Stockton College. His training is in the history of Early Modern Europe about which he has written two books.</em></p>
+<div class='footnotes' id='footnotes-3121'>
+<div class='footnotedivider'></div>
+<ol class="textblock" id="textblock-olifTEEBPPSUahhelpetbscffDJSeCVaHANMESDRAGCoTAtTPAPS" start="0"><li class="list_commenticon"><span class="para_marker"><a class="textblock_permalink" id="olifTEEBPPSUahhelpetbscffDJSeCVaHANMESDRAGCoTAtTPAPS" href="#olifTEEBPPSUahhelpetbscffDJSeCVaHANMESDRAGCoTAtTPAPS" title="Permalink for paragraph 34">&para; <span>34</span></a></span>
+<span class="commenticonbox"><a class="para_permalink no_comments" href="#olifTEEBPPSUahhelpetbscffDJSeCVaHANMESDRAGCoTAtTPAPS" title="Leave a comment on paragraph 34">Leave a comment on paragraph 34</a> <small class="comment_count" title="There are 0 comments written for this paragraph">0</small></span>
+</li>
+<li id='fn-3121-1'> The English Emblem Book Project, Pennsylvania State University, <a href="http://emblem.libraries.psu.edu/" target="_blank">http://emblem.libraries.psu.edu/</a>. <span class='footnotereverse'><a href='#fnref-3121-1'>&#8617;</a></span></li>
+<li id='fn-3121-2'> David J. Staley, <em>Computers, Visualization, and History </em>(Armonk, NY: M.E. Sharpe, 2003), 9. <span class='footnotereverse'><a href='#fnref-3121-2'>&#8617;</a></span></li>
+<li id='fn-3121-3'> Daniel Rosenberg and Anthony Grafton, <em>Cartographies of Time: A History of the Timeline</em> (Princeton: Princeton Architectural Press, 2010). <span class='footnotereverse'><a href='#fnref-3121-3'>&#8617;</a></span></li>
+<li id='fn-3121-4'> Steven Johnson,<em> The Ghost Map</em> (New York: Riverhead, 2006). <span class='footnotereverse'><a href='#fnref-3121-4'>&#8617;</a></span></li>
+<li id='fn-3121-5'>  Arthur H. Robinson, &#8220;The thematic maps of Charles Joseph Minard,&#8221; <em>Imago Mundi</em>, 21 (1967), 95-108. <span class='footnotereverse'><a href='#fnref-3121-5'>&#8617;</a></span></li>
+<li id='fn-3121-6'> One can overstate the degree of that decline. &#8220;Social history&#8221; was always something of a grab bag term that included non-quantitative approaches. Nevertheless, the relative decline of social history in comparison to cultural history is unmistakable. See Robert B. Townsend, &#8220;Decline of the West or Rise of the Rest?,&#8221; <em>Perspectives on History,</em> September (2011), <a href="http://www.historians.org/perspectives/issues/2011/1109/1109pro1.cfm" target="_blank">http://www.historians.org/perspectives/issues/2011/1109/1109pro1.cfm</a>. <span class='footnotereverse'><a href='#fnref-3121-6'>&#8617;</a></span></li>
+<li id='fn-3121-7'> Edward Tufte, <em>The Visual Display of Quantitative Information</em> (Cheshire, CT, 1983), Edward Tufte, <em>Envisioning Information</em> (Cheshire, CT, 1990), Edward Tufte, <em>Visual Explanations</em> (Cheshire, CT, 1997). <span class='footnotereverse'><a href='#fnref-3121-7'>&#8617;</a></span></li>
+<li id='fn-3121-8'> Frederick W. Gibbs and Trevor J. Owens, &#8220;<a href="http://writinghistory.trincoll.edu/data/gibbs-owens-2012-spring/" target="_blank">The Hermeneutics of Data and Historical Writing</a>,&#8221; <em>Writing History in the Digital Age.</em> <span class='footnotereverse'><a href='#fnref-3121-8'>&#8617;</a></span></li>
+<li id='fn-3121-9'> Mark Newman, a physicist at the University of Michigan, gives a good overview of the uses of cartograms and choropleth maps for analyzing the 2008 election returns at the level of state and county voting, at <a href="http://www-personal.umich.edu/~mejn/election/2008/" target="_blank">http://www-personal.umich.edu/~mejn/election/2008/</a>. Examples include a simple cartogram of county level results and a choropleth cartogram of the same results. <span class='footnotereverse'><a href='#fnref-3121-9'>&#8617;</a></span></li>
+<li id='fn-3121-10'> Joanna Guldi, &#8220;What is the Spatial Turn?&#8221; <em>Spatial Humanities</em>, Institute for Enabling Geospatial Scholarship, Scholars&#8217; Lab, University of Virginia, <a href="http://spatial.scholarslab.org/spatial-turn/" target="_blank">http://spatial.scholarslab.org/spatial-turn/</a>. <span class='footnotereverse'><a href='#fnref-3121-10'>&#8617;</a></span></li>
+<li id='fn-3121-11'> Isao Hashimoto, &#8220;1945-1998,&#8221; Preparatory Commission for the Comprehensive Nuclear Test Ban Treaty Organization (CTBCO), 2003, <a href="http://www.ctbto.org/specials/1945-1998-by-isao-hashimoto/" target="_blank">http://www.ctbto.org/specials/1945-1998-by-isao-hashimoto/</a>. <span class='footnotereverse'><a href='#fnref-3121-11'>&#8617;</a></span></li>
+<li id='fn-3121-12'>  Edward Ayers, &#8220;Turning towards Place, Space, and Time,&#8221; in David J. Bodenhamer, John Corrigan, and Trevor M. Harris, eds., <em>The Spatial Humanities: GIS and the Future of Humanities Scholarship</em> (Bloomington, IN: Indiana University Press, 2010) 1-13. <span class='footnotereverse'><a href='#fnref-3121-12'>&#8617;</a></span></li>
+<li id='fn-3121-13'> &#8220;Elections, 1840-2008,&#8221; Voting America: United States Politics, 1840-2008, Digital Scholarship Lab, University of Richmond, 2010, <a href="http://dsl.richmond.edu/voting/elections.html" target="_blank">http://dsl.richmond.edu/voting/elections.html</a>. <span class='footnotereverse'><a href='#fnref-3121-13'>&#8617;</a></span></li>
+<li id='fn-3121-14'> Richard White, <em>Railroaded </em>(New York: W.W. Norton, 2011) and Toral Patel et al., Visualization: Transcontinental Railroad Development, 1879-1893, Spatial History Project, Stanford University, <a href="http://www.stanford.edu/group/spatialhistory/cgi-bin/site/viz.php?id=341&amp;project_id=0" target="_blank">http://www.stanford.edu/group/spatialhistory/cgi-bin/site/viz.php?id=341&amp;project_id=0</a>. <span class='footnotereverse'><a href='#fnref-3121-14'>&#8617;</a></span></li>
+<li id='fn-3121-15'> Shaping the West, Spatial History Project, Stanford University, <a href="http://www.stanford.edu/group/spatialhistory/cgi-bin/site/project.php?id=997" target="_blank">http://www.stanford.edu/group/spatialhistory/cgi-bin/site/project.php?id=997</a>. <span class='footnotereverse'><a href='#fnref-3121-15'>&#8617;</a></span></li>
+<li id='fn-3121-16'> Hans Rosling, &#8220;Wealth and Health of Nations,&#8221; Gapminder, <a href="http://www.gapminder.org/world/" target="_blank">http://www.gapminder.org/world/</a>. <span class='footnotereverse'><a href='#fnref-3121-16'>&#8617;</a></span></li>
+<li id='fn-3121-17'> &#8220;Hans Rosling shows the best stats you&#8217;ve ever seen,&#8221; TED Talk, 2006, <a href="http://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen.html  " target="_blank">http://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen.html</a>. <span class='footnotereverse'><a href='#fnref-3121-17'>&#8617;</a></span></li>
+<li id='fn-3121-18'> Whitney Trettien, &#8220;Computers, Cut-Ups, and Combinatory Volvelles,&#8221; <a href="http://whitneyannetrettien.com/thesis/" target="_blank">http://whitneyannetrettien.com/thesis/</a>. <span class='footnotereverse'><a href='#fnref-3121-18'>&#8617;</a></span></li>
+<li id='fn-3121-19'> Elizabeth Peabody, <em>Universal History: Arranged to Illustrate Bem&#8217;s Charts of Chronology</em> (New York, 1859), referred from <a href="http://beineckeroom26.library.yale.edu/2011/09/02/visualizing-history/" target="_blank">http://beineckeroom26.library.yale.edu/2011/09/02/visualizing-history/</a>. <span class='footnotereverse'><a href='#fnref-3121-19'>&#8617;</a></span></li>
+<li id='fn-3121-20'> Ben Fry, &#8220;<em>On the Origin of Species</em>: The Preservation of Favoured Traces,&#8221;<a href=" http://benfry.com/traces/" target="_blank"> http://benfry.com/traces/</a>. <span class='footnotereverse'><a href='#fnref-3121-20'>&#8617;</a></span></li>
+<li id='fn-3121-21'> Wordseer, &#8220;Search Slave Narratives,&#8221; University of California at Berkeley, <a href="http://wordseer.berkeley.edu/slave_narratives/" target="_blank">http://wordseer.berkeley.edu/slave_narratives/</a>. <span class='footnotereverse'><a href='#fnref-3121-21'>&#8617;</a></span></li>
+<li id='fn-3121-22'> Mapping the Republic of Letters, Stanford University, <a href="https://republicofletters.stanford.edu/#maps" target="_blank">https://republicofletters.stanford.edu/#maps</a>. <span class='footnotereverse'><a href='#fnref-3121-22'>&#8617;</a></span></li>
+<li id='fn-3121-23'> Thinkmap, <em>Visual Thesaurus</em>, <a href="http://www.visualthesaurus.com/" target="_blank">http://www.visualthesaurus.com/</a>. <span class='footnotereverse'><a href='#fnref-3121-23'>&#8617;</a></span></li>
+<li id='fn-3121-24'> Moritz Stefaner, <em>Vizosphere</em>, <a href="http://www.visualizing.org/full-screen/29391" target="_blank">http://www.visualizing.org/full-screen/29391</a>. <span class='footnotereverse'><a href='#fnref-3121-24'>&#8617;</a></span></li>
+<li id='fn-3121-25'> Nathan Yau, Flowing Data, http://flowingdata.com; PeopleMovin: Migration flows across the world, <a href="http://peoplemov.in/" target="_blank">http://peoplemov.in/</a>. <span class='footnotereverse'><a href='#fnref-3121-25'>&#8617;</a></span></li>
+</ol>
+</div>
+
+
+
+	
+
+
+	
+
+
+	<div class="running_header_bottom">Page <span class="page_num_bottom">24</span></div>
+
+
+</div><!-- /post -->
+
+
+
+
+
+
+</div><!-- /content -->
+
+
+
+</div><!-- /page_wrapper -->
+
+
+
+</div><!-- /main_wrapper -->
+
+
+
+</div><!-- /wrapper -->
+
+
+
+<!-- sidebar.php -->
+
+<div id="sidebar">
+
+<div id="sidebar_inner">
+
+
+
+<ul id="sidebar_tabs">
+
+<li id="toc_header" class="sidebar_header">
+<h2><a href="#toc_sidebar">Contents</a></h2>
+</li>
+<li id="comments_header" class="sidebar_header">
+<h2><a href="#comments_sidebar">Comments</a></h2>
+<span id="cp_minimise_all_comments" title="Minimise all Comment Sections"></span></li>
+
+	<li id="activity_header" class="sidebar_header">
+	<h2><a href="#activity_sidebar">Activity</a></h2>
+	<span id="cp_minimise_all_activity" title="Minimise all Activity Sections"></span>	</li>
+	
+</ul>
+
+
+
+<!-- comments_sidebar.php -->
+
+<div id="comments_sidebar" class="sidebar_container no_comments">
+
+
+
+<div class="sidebar_header">
+
+<h2>Comments</h2>
+
+</div>
+
+
+
+<div class="sidebar_minimiser">
+
+
+
+
+<!-- comments_by_para.php -->
+
+<div class="sidebar_contents_wrapper">
+
+
+
+<div class="comments_container">
+
+
+
+
+	<!-- comments are closed. -->
+	<h3 class="nocomments comments-closed"><span>Comments are closed</span></h3>
+
+
+<h3 id="para_heading-" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on the whole page" href="#para_heading-"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">the whole page</span></a></h3>
+
+<div id="para_wrapper-" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pTppapiwtwrrcbtiticbaectosfwdnapaowiIEtimaiisowcmrtwmaBlscliprkawptEBhhelpetbbiepcmpvjcmpscffiforfsWhhamuvtbsRpmbfrboofpamhwTctia" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 1" href="#para_heading-pTppapiwtwrrcbtiticbaectosfwdnapaowiIEtimaiisowcmrtwmaBlscliprkawptEBhhelpetbbiepcmpvjcmpscffiforfsWhhamuvtbsRpmbfrboofpamhwTctia"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 1</span></a></h3>
+
+<div id="para_wrapper-pTppapiwtwrrcbtiticbaectosfwdnapaowiIEtimaiisowcmrtwmaBlscliprkawptEBhhelpetbbiepcmpvjcmpscffiforfsWhhamuvtbsRpmbfrboofpamhwTctia" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 2" href="#para_heading-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 2</span></a></h3>
+
+<div id="para_wrapper-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pWttviutiurtaidfpiobnaswptmetrtcSqrpochpadrieifDShafasdbtvaomtotdsfifsiisiwascfhfiforfssdidudamipldsdrconltqawepambwpdopVcf" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 3" href="#para_heading-pWttviutiurtaidfpiobnaswptmetrtcSqrpochpadrieifDShafasdbtvaomtotdsfifsiisiwascfhfiforfssdidudamipldsdrconltqawepambwpdopVcf"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 3</span></a></h3>
+
+<div id="para_wrapper-pWttviutiurtaidfpiobnaswptmetrtcSqrpochpadrieifDShafasdbtvaomtotdsfifsiisiwascfhfiforfssdidudamipldsdrconltqawepambwpdopVcf" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pTpoidivinanofhEtmcncphmutimtadcIaamemitccldKFtidlpbEtfvedvvwpeipstmnfctedefDRAGhrshdchpsetrvbeescfhfiforfs" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 4" href="#para_heading-pTpoidivinanofhEtmcncphmutimtadcIaamemitccldKFtidlpbEtfvedvvwpeipstmnfctedefDRAGhrshdchpsetrvbeescfhfiforfs"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 4</span></a></h3>
+
+<div id="para_wrapper-pTpoidivinanofhEtmcncphmutimtadcIaamemitccldKFtidlpbEtfvedvvwpeipstmnfctedefDRAGhrshdchpsetrvbeescfhfiforfs" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pTeotssincaatwwldscdfnwvibmtgcPnwbetgMnteswafdHacndmtvmssehlbpaaarSlplhditvcbpwaorwbefAsamsrcaIscvmipTssdwPneiJSsmicLowhpsswpnscfhfi" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 5" href="#para_heading-pTeotssincaatwwldscdfnwvibmtgcPnwbetgMnteswafdHacndmtvmssehlbpaaarSlplhditvcbpwaorwbefAsamsrcaIscvmipTssdwPneiJSsmicLowhpsswpnscfhfi"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 5</span></a></h3>
+
+<div id="para_wrapper-pTeotssincaatwwldscdfnwvibmtgcPnwbetgMnteswafdHacndmtvmssehlbpaaarSlplhditvcbpwaorwbefAsamsrcaIscvmipTssdwPneiJSsmicLowhpsswpnscfhfi" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pccsscciaswpiawahhwteevahatmraislscuMxpaCFhswsmvstFCteb" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 6" href="#para_heading-pccsscciaswpiawahhwteevahatmraislscuMxpaCFhswsmvstFCteb"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 6</span></a></h3>
+
+<div id="para_wrapper-pccsscciaswpiawahhwteevahatmraislscuMxpaCFhswsmvstFCteb" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pTccttdraaibatowtgctmbcTMwcenhhacvpneNsmospiocameivbieuefpwlbtoqscbtaarvssbtaikwtcdbc" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 7" href="#para_heading-pTccttdraaibatowtgctmbcTMwcenhhacvpneNsmospiocameivbieuefpwlbtoqscbtaarvssbtaikwtcdbc"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 7</span></a></h3>
+
+<div id="para_wrapper-pTccttdraaibatowtgctmbcTMwcenhhacvpneNsmospiocameivbieuefpwlbtoqscbtaarvssbtaikwtcdbc" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pAnahwmcosbvftssrtiicnkTacaeAthsfmtbcwqmTapwucmfwsrosplSSpladmdwohsptwwbrtbnaapptmlbtoIwaadnmgpsifbpiehaipaTeesrcsrhesbitbgtwraccw" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 8" href="#para_heading-pAnahwmcosbvftssrtiicnkTacaeAthsfmtbcwqmTapwucmfwsrosplSSpladmdwohsptwwbrtbnaapptmlbtoIwaadnmgpsifbpiehaipaTeesrcsrhesbitbgtwraccw"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 8</span></a></h3>
+
+<div id="para_wrapper-pAnahwmcosbvftssrtiicnkTacaeAthsfmtbcwqmTapwucmfwsrosplSSpladmdwohsptwwbrtbnaapptmlbtoIwaadnmgpsifbpiehaipaTeesrcsrhesbitbgtwraccw" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_1" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 9" href="#para_heading-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_1"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 9</span></a></h3>
+
+<div id="para_wrapper-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_1" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pWhdhtismisswbmscatroabuTaqiwpfcmhswpETisHtkweTVDQIEaEpaepgcucsscfahfiforfsIwrfrMCFmttbwhccuccitmvcsdmCmanbtai" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 10" href="#para_heading-pWhdhtismisswbmscatroabuTaqiwpfcmhswpETisHtkweTVDQIEaEpaepgcucsscfahfiforfsIwrfrMCFmttbwhccuccitmvcsdmCmanbtai"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 10</span></a></h3>
+
+<div id="para_wrapper-pWhdhtismisswbmscatroabuTaqiwpfcmhswpETisHtkweTVDQIEaEpaepgcucsscfahfiforfsIwrfrMCFmttbwhccuccitmvcsdmCmanbtai" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pIrmaapgeotcbhivracpOohtcmvwsbirtpdFpetaaatAhtcesawcrevIsuicmoouhcvawSslabspoowaTwmaftdcasgatptpwcusisvgscfhfiforfsTtacbcfdUdwa" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 11" href="#para_heading-pIrmaapgeotcbhivracpOohtcmvwsbirtpdFpetaaatAhtcesawcrevIsuicmoouhcvawSslabspoowaTwmaftdcasgatptpwcusisvgscfhfiforfsTtacbcfdUdwa"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 11</span></a></h3>
+
+<div id="para_wrapper-pIrmaapgeotcbhivracpOohtcmvwsbirtpdFpetaaatAhtcesawcrevIsuicmoouhcvawSslabspoowaTwmaftdcasgatptpwcusisvgscfhfiforfsTtacbcfdUdwa" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pccsscciaswpwahhwteevahatctbraaiscuxpahstFClCoPermbMNe" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 12" href="#para_heading-pccsscciaswpwahhwteevahatctbraaiscuxpahstFClCoPermbMNe"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 12</span></a></h3>
+
+<div id="para_wrapper-pccsscciaswpwahhwteevahatctbraaiscuxpahstFClCoPermbMNe" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pccsscciaswpwahhwteevahatctbraaiscuxpahstFClCCoPermbMNe" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 13" href="#para_heading-pccsscciaswpwahhwteevahatctbraaiscuxpahstFClCCoPermbMNe"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 13</span></a></h3>
+
+<div id="para_wrapper-pccsscciaswpwahhwteevahatctbraaiscuxpahstFClCCoPermbMNe" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pTqowavihtibiuorouebiagidafedanfGslhbotradidhCvbmaeaptShhsottbgscffiforfsOpwtcibaatadJmmimaatsyAsccpnwataabetw" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 14" href="#para_heading-pTqowavihtibiuorouebiagidafedanfGslhbotradidhCvbmaeaptShhsottbgscffiforfsOpwtcibaatadJmmimaatsyAsccpnwataabetw"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 14</span></a></h3>
+
+<div id="para_wrapper-pTqowavihtibiuorouebiagidafedanfGslhbotradidhCvbmaeaptShhsottbgscffiforfsOpwtcibaatadJmmimaatsyAsccpnwataabetw" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pHsaontcbmbtuafparEAhctcmtdmbatspcotscfahfiforfTURDSLttpettiaasTtoidcpdecpnoclvbDDMsav" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 15" href="#para_heading-pHsaontcbmbtuafparEAhctcmtdmbatspcotscfahfiforfTURDSLttpettiaasTtoidcpdecpnoclvbDDMsav"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 15</span></a></h3>
+
+<div id="para_wrapper-pHsaontcbmbtuafparEAhctcmtdmbatspcotscfahfiforfTURDSLttpettiaasTtoidcpdecpnoclvbDDMsav" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_2" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 16" href="#para_heading-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_2"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 16</span></a></h3>
+
+<div id="para_wrapper-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_2" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pIoatsgatmifvpdrdvierSieihticbccacmpetyasacpod" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 17" href="#para_heading-pIoatsgatmifvpdrdvierSieihticbccacmpetyasacpod"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 17</span></a></h3>
+
+<div id="para_wrapper-pIoatsgatmifvpdrdvierSieihticbccacmpetyasacpod" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_3" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 18" href="#para_heading-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_3"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 18</span></a></h3>
+
+<div id="para_wrapper-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_3" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pApoSsSHPatRhhwsegscbsvpiptbovhbctaRWrbotdtcrscffforfsTipifuidhchpbidawpwaslsatfhpIacasmesfatcuheSWT" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 19" href="#para_heading-pApoSsSHPatRhhwsegscbsvpiptbovhbctaRWrbotdtcrscffforfsTipifuidhchpbidawpwaslsatfhpIacasmesfatcuheSWT"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 19</span></a></h3>
+
+<div id="para_wrapper-pApoSsSHPatRhhwsegscbsvpiptbovhbctaRWrbotdtcrscffforfsTipifuidhchpbidawpwaslsatfhpIacasmesfatcuheSWT" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pccsscciaswpiawahhwteetsptbraislscuPxpahsws" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 20" href="#para_heading-pccsscciaswpiawahhwteetsptbraislscuPxpahsws"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 20</span></a></h3>
+
+<div id="para_wrapper-pccsscciaswpiawahhwteetsptbraislscuPxpahsws" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pAhamcqatdthapohbtpirtIeSWsevhaohttfaalagciTvanseAplgrwndbdscfisHRgSsrvvismbfemawfem" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 21" href="#para_heading-pAhamcqatdthapohbtpirtIeSWsevhaohttfaalagciTvanseAplgrwndbdscfisHRgSsrvvismbfemawfem"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 21</span></a></h3>
+
+<div id="para_wrapper-pAhamcqatdthapohbtpirtIeSWsevhaohttfaalagciTvanseAplgrwndbdscfisHRgSsrvvismbfemawfem" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pccsscciaswpwahhwteetsptbraaiscuPxpahstFRbialewfHRsGe" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 22" href="#para_heading-pccsscciaswpwahhwteetsptbraaiscuPxpahstFRbialewfHRsGe"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 22</span></a></h3>
+
+<div id="para_wrapper-pccsscciaswpwahhwteetsptbraaiscuPxpahstFRbialewfHRsGe" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pUtbafrposatiifiSsHRUatcGhhcathhwgowtbaleabapcGacstdehscffiforfsOcpsinmsstCcddpAiosococwcerCvsdpctrgsrwiqlmlCIUSewmTdli" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 23" href="#para_heading-pUtbafrposatiifiSsHRUatcGhhcathhwgowtbaleabapcGacstdehscffiforfsOcpsinmsstCcddpAiosococwcerCvsdpctrgsrwiqlmlCIUSewmTdli"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 23</span></a></h3>
+
+<div id="para_wrapper-pUtbafrposatiifiSsHRUatcGhhcathhwgowtbaleabapcGacstdehscffiforfsOcpsinmsstCcddpAiosococwcerCvsdpctrgsrwiqlmlCIUSewmTdli" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_4" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 24" href="#para_heading-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_4"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 24</span></a></h3>
+
+<div id="para_wrapper-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_4" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pAarcotdsanowiwdaiWnettsotssemrmahvcsaamlcttpmAgeiWTsatThhwcttbCCUCVAATGMscffiforfsenlrhatTfpsdotcoosptmbihgwsluccewmosptcCcas" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 25" href="#para_heading-pAarcotdsanowiwdaiWnettsotssemrmahvcsaamlcttpmAgeiWTsatThhwcttbCCUCVAATGMscffiforfsenlrhatTfpsdotcoosptmbihgwsluccewmosptcCcas"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 25</span></a></h3>
+
+<div id="para_wrapper-pAarcotdsanowiwdaiWnettsotssemrmahvcsaamlcttpmAgeiWTsatThhwcttbCCUCVAATGMscffiforfsenlrhatTfpsdotcoosptmbihgwsluccewmosptcCcas" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_5" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 26" href="#para_heading-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_5"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 26</span></a></h3>
+
+<div id="para_wrapper-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_5" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_6" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 27" href="#para_heading-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_6"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 27</span></a></h3>
+
+<div id="para_wrapper-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_6" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pAPswsiiptucaavciptbgpeObeacfAseouhrtBFctstOShhbcttbeCDeOchlscffiforfsTorbesbcislrcsogbasadclcaoqgftcfwmert" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 28" href="#para_heading-pAPswsiiptucaavciptbgpeObeacfAseouhrtBFctstOShhbcttbeCDeOchlscffiforfsTorbesbcislrcsogbasadclcaoqgftcfwmert"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 28</span></a></h3>
+
+<div id="para_wrapper-pAPswsiiptucaavciptbgpeObeacfAseouhrtBFctstOShhbcttbeCDeOchlscffiforfsTorbesbcislrcsogbasadclcaoqgftcfwmert" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_7" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 29" href="#para_heading-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_7"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 29</span></a></h3>
+
+<div id="para_wrapper-pccsscciaswpiawahhwteetsptbraislscuPxpahswsmv_7" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pMhwiioeancbhalfwhsshbvnttssvTeatMtRoLhhrsemtbpaSUscbuiwscffiforfsIonmcoaEelvrlsbaaolaradprcjabdrmawlmcbnwnltpropT" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 30" href="#para_heading-pMhwiioeancbhalfwhsshbvnttssvTeatMtRoLhhrsemtbpaSUscbuiwscffiforfsIonmcoaEelvrlsbaaolaradprcjabdrmawlmcbnwnltpropT"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 30</span></a></h3>
+
+<div id="para_wrapper-pMhwiioeancbhalfwhsshbvnttssvTeatMtRoLhhrsemtbpaSUscbuiwscffiforfsIonmcoaEelvrlsbaaolaradprcjabdrmawlmcbnwnltpropT" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pccsscciaswpiawahhwteevahatetbraislscuxpaVhswsmvst" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 31" href="#para_heading-pccsscciaswpiawahhwteevahatetbraislscuxpaVhswsmvst"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 31</span></a></h3>
+
+<div id="para_wrapper-pccsscciaswpiawahhwteevahatetbraislscuxpaVhswsmvst" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-pIvhetmooueipassJaSSlRwctebsaplGbunIwTswnanwaidtamtaabjaEdstFDhhfctbhiuvmnasPMpMwimfbcscffiforfsIicfttpaserpvLoewtnehwghsfmmpc" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 32" href="#para_heading-pIvhetmooueipassJaSSlRwctebsaplGbunIwTswnanwaidtamtaabjaEdstFDhhfctbhiuvmnasPMpMwimfbcscffiforfsIicfttpaserpvLoewtnehwghsfmmpc"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 32</span></a></h3>
+
+<div id="para_wrapper-pIvhetmooueipassJaSSlRwctebsaplGbunIwTswnanwaidtamtaabjaEdstFDhhfctbhiuvmnasPMpMwimfbcscffiforfsIicfttpaserpvLoewtnehwghsfmmpc" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-peAtaJTiDoSJCfDHSCHtihEMEawhhwtb" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 33" href="#para_heading-peAtaJTiDoSJCfDHSCHtihEMEawhhwtb"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 33</span></a></h3>
+
+<div id="para_wrapper-peAtaJTiDoSJCfDHSCHtihEMEawhhwtb" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+<h3 id="para_heading-olifTEEBPPSUahhelpetbscffDJSeCVaHANMESDRAGCoTAtTPAPS" class="no_comments"><a class="comment_block_permalink" title="Permalink for comments on paragraph 34" href="#para_heading-olifTEEBPPSUahhelpetbscffDJSeCVaHANMESDRAGCoTAtTPAPS"><span class="cp_comment_num">0</span> <span class="cp_comment_word">Comments</span> on <span class="source_block">paragraph 34</span></a></h3>
+
+<div id="para_wrapper-olifTEEBPPSUahhelpetbscffDJSeCVaHANMESDRAGCoTAtTPAPS" class="paragraph_wrapper no_comments">
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- comment_form.php -->
+
+
+
+
+
+
+
+</div><!-- /comments_container -->
+
+
+
+</div><!-- /sidebar_contents_wrapper -->
+
+
+
+
+</div><!-- /sidebar_minimiser -->
+
+
+
+</div><!-- /comments_sidebar -->
+
+
+
+<!-- toc_sidebar.php -->
+
+<div id="toc_sidebar" class="sidebar_container">
+
+
+
+<div class="sidebar_header">
+
+<h2>Table of Contents</h2>
+
+</div>
+
+
+
+<div class="sidebar_minimiser">
+
+<div class="sidebar_contents_wrapper">
+
+<ul id="toc_list">
+	<li class="page_item page-item-5"><a href="http://writinghistory.trincoll.edu/">Welcome</a></li><li class="page_item page-item-3036 page_item_has_children"><a href="http://writinghistory.trincoll.edu/introduction-2012-spring/">Introduction (2012 revision)</a>
+<ul class='children'>
+	<li class="page_item page-item-2411"><a href="http://writinghistory.trincoll.edu/introduction-2012-spring/general-comments-on-the-book/">General comments on the book</a></li>
+	<li class="page_item page-item-4850"><a href="http://writinghistory.trincoll.edu/introduction-2012-spring/how-to-comment/">How to comment &#8212; with video tutorial</a></li>
+	<li class="page_item page-item-4847"><a href="http://writinghistory.trincoll.edu/introduction-2012-spring/policy/">Editorial and intellectual property policy</a></li>
+	<li class="page_item page-item-6005"><a href="http://writinghistory.trincoll.edu/introduction-2012-spring/course-assignment/">Assigning your students to read this book?</a></li>
+	<li class="page_item page-item-5921"><a href="http://writinghistory.trincoll.edu/introduction-2012-spring/acknowledgements/">Acknowledgements</a></li>
+</ul>
+</li>
+<li class="page_item page-item-2337 page_item_has_children"><a href="http://writinghistory.trincoll.edu/revisioning/">Part 1: Re-Visioning Historical Writing</a>
+<ul class='children'>
+	<li class="page_item page-item-3103"><a href="http://writinghistory.trincoll.edu/revisioning/dorn-2012-spring/">More Than an Argument about the Past? (Dorn)</a></li>
+	<li class="page_item page-item-3118"><a href="http://writinghistory.trincoll.edu/revisioning/tanaka-2012-spring/">Pasts in a Digital Age (Tanaka)</a></li>
+</ul>
+</li>
+<li class="page_item page-item-2307 page_item_has_children"><a href="http://writinghistory.trincoll.edu/crowdsourcing/">Part 2: The Wisdom of Crowds(ourcing)</a>
+<ul class='children'>
+	<li class="page_item page-item-3039"><a href="http://writinghistory.trincoll.edu/crowdsourcing/madsen-brooks-2012-spring/">“I nevertheless am a historian” (Madsen-Brooks)</a></li>
+	<li class="page_item page-item-3045"><a href="http://writinghistory.trincoll.edu/crowdsourcing/wolff-2012-spring/">Historian&#8217;s Craft, Memory &amp; Wikipedia (Wolff)</a></li>
+	<li class="page_item page-item-3070"><a href="http://writinghistory.trincoll.edu/crowdsourcing/graham-2012-spring/">The Wikiblitz (Graham)</a></li>
+	<li class="page_item page-item-3077"><a href="http://writinghistory.trincoll.edu/crowdsourcing/saxton-etal-2012-spring/">Wikipedia and Women&#8217;s History (Saxton)</a></li>
+</ul>
+</li>
+<li class="page_item page-item-2316 page_item_has_children"><a href="http://writinghistory.trincoll.edu/teach/">Part 3: Practice What You Teach (and Teach What You Practice)</a>
+<ul class='children'>
+	<li class="page_item page-item-3081"><a href="http://writinghistory.trincoll.edu/teach/harbison-waltzer-2012-spring/">Teaching the Introductory Course (Harbison &#038; Waltzer)</a></li>
+	<li class="page_item page-item-3085"><a href="http://writinghistory.trincoll.edu/teach/lawrence-2012-spring/">Learning How to Write (Lawrence)</a></li>
+	<li class="page_item page-item-3073"><a href="http://writinghistory.trincoll.edu/teach/seligman-2012-spring/">Teaching Wikipedia without Apologies (Seligman)</a></li>
+</ul>
+</li>
+<li class="page_item page-item-2328 page_item_has_children"><a href="http://writinghistory.trincoll.edu/data/">Part 4: Writing with the Needles from Your Data Haystack</a>
+<ul class='children'>
+	<li class="page_item page-item-3090"><a href="http://writinghistory.trincoll.edu/data/erickson-2012-spring/">Reflections on 10,000 Notecards (Erickson)</a></li>
+	<li class="page_item page-item-3095"><a href="http://writinghistory.trincoll.edu/data/sklar-dublin-2012-spring/">Creating Meaning in a Sea of Information (Sklar &amp; Dublin)</a></li>
+	<li class="page_item page-item-3099"><a href="http://writinghistory.trincoll.edu/data/gibbs-owens-2012-spring/">Hermeneutics of Data and Historical Writing (Gibbs &amp; Owens)</a></li>
+</ul>
+</li>
+<li class="page_item page-item-2345 page_item_has_children current_page_ancestor current_page_parent"><a href="http://writinghistory.trincoll.edu/evidence/">Part 5: See What I Mean? Visual, Spatial, and Game-based History</a>
+<ul class='children'>
+	<li class="page_item page-item-3121 current_page_item"><a href="http://writinghistory.trincoll.edu/evidence/theibault-2012-spring/">Visualizations and Historical Arguments (Theibault)</a></li>
+	<li class="page_item page-item-3112"><a href="http://writinghistory.trincoll.edu/evidence/robertson-2012-spring/">Putting Harlem on the Map (Robertson)</a></li>
+	<li class="page_item page-item-3124"><a href="http://writinghistory.trincoll.edu/evidence/zucconi-etal-2012-spring/">Pox and the City (Zucconi, Watrall, Ueno, &amp; Rosner)</a></li>
+</ul>
+</li>
+<li class="page_item page-item-4886 page_item_has_children"><a href="http://writinghistory.trincoll.edu/public-history/">Part 6: Public History on the Web: If You Build It, Will They Come?</a>
+<ul class='children'>
+	<li class="page_item page-item-3129"><a href="http://writinghistory.trincoll.edu/public-history/rosales-castaneda-2012-spring/">Writing Chicana/o History (Rosales Castañeda)</a></li>
+	<li class="page_item page-item-3048"><a href="http://writinghistory.trincoll.edu/public-history/sikarskie-2012-spring/">Citizen Scholars (Sikarskie)</a></li>
+	<li class="page_item page-item-3063"><a href="http://writinghistory.trincoll.edu/public-history/graham-etal-2012-spring/">HeritageCrowd Project (Graham, Massie, &amp; Feuerherm)</a></li>
+</ul>
+</li>
+<li class="page_item page-item-4475 page_item_has_children"><a href="http://writinghistory.trincoll.edu/collaborative/">Part 7: Collaborative Writing</a>
+<ul class='children'>
+	<li class="page_item page-item-3108"><a href="http://writinghistory.trincoll.edu/collaborative/mehlman-petrzela-manekin-2012-spring/">Accountability Partnership (Mehlman Petrzela &amp; Manekin)</a></li>
+	<li class="page_item page-item-4294"><a href="http://writinghistory.trincoll.edu/collaborative/cummings-jarrett-2012-spring/">Informal Writing, Blogging &#038; the Academy (Cummings &#038; Jarrett)</a></li>
+</ul>
+</li>
+<li class="page_item page-item-5915"><a href="http://writinghistory.trincoll.edu/conclusions-2012-spring/">Conclusions: What We Learned</a></li>
+<li class="page_item page-item-55"><a href="http://writinghistory.trincoll.edu/how-it-works/">How it works: our open-source web-book</a></li>
+<li class="page_item page-item-40 page_item_has_children"><a href="http://writinghistory.trincoll.edu/evolution/">How this book evolved</a>
+<ul class='children'>
+	<li class="page_item page-item-160"><a href="http://writinghistory.trincoll.edu/evolution/hes-proposal/">conference proposal submission (February 2010)</a></li>
+	<li class="page_item page-item-33"><a href="http://writinghistory.trincoll.edu/evolution/first-round/">first round of essays &amp; comments (Fall 2010)</a></li>
+	<li class="page_item page-item-42"><a href="http://writinghistory.trincoll.edu/evolution/initial-proposal/">proposal to University of Michigan Press (Nov 2010)</a></li>
+	<li class="page_item page-item-44"><a href="http://writinghistory.trincoll.edu/evolution/reviewer1/">response from Press reviewer 1 (March 2011)</a></li>
+	<li class="page_item page-item-46"><a href="http://writinghistory.trincoll.edu/evolution/reviewer2/">response from Press reviewer 2 (March 2011)</a></li>
+	<li class="page_item page-item-88"><a href="http://writinghistory.trincoll.edu/evolution/revised-proposal/">revised proposal to the Press (April 2011)</a></li>
+	<li class="page_item page-item-173"><a href="http://writinghistory.trincoll.edu/evolution/assessment-by-press-of-revised-proposal-may-2011/">assessment by Press of revised proposal (May 2011)</a></li>
+	<li class="page_item page-item-446"><a href="http://writinghistory.trincoll.edu/evolution/call-may2011/">call for essays/ideas (late May 2011)</a></li>
+	<li class="page_item page-item-134"><a href="http://writinghistory.trincoll.edu/evolution/discuss/">essay idea discussion (May-August 2011)</a></li>
+	<li class="page_item page-item-442"><a href="http://writinghistory.trincoll.edu/evolution/progress-report-june2011/">progress report to Press (mid-June 2011)</a></li>
+	<li class="page_item page-item-2391"><a href="http://writinghistory.trincoll.edu/evolution/contract/">our contract with the Press (July 2011)</a></li>
+	<li class="page_item page-item-51"><a href="http://writinghistory.trincoll.edu/evolution/submit/">essay submission and policies (July-August 2011)</a></li>
+	<li class="page_item page-item-2826"><a href="http://writinghistory.trincoll.edu/evolution/policy/">editorial &#038; intellectual property policy (Fall 2011)</a></li>
+	<li class="page_item page-item-4562"><a href="http://writinghistory.trincoll.edu/evolution/instructions-to-expert-reviewers/">instructions to expert reviewers (Sept 2011)</a></li>
+	<li class="page_item page-item-678"><a href="http://writinghistory.trincoll.edu/evolution/instructions-for-authors/">instructions for authors (September 2011)</a></li>
+	<li class="page_item page-item-53"><a href="http://writinghistory.trincoll.edu/evolution/how-to/">how to comment &#8212; with video (Fall 2011)</a></li>
+	<li class="page_item page-item-4437"><a href="http://writinghistory.trincoll.edu/evolution/open-review-contents-fall-2011/">open peer review essays (Fall 2011)</a></li>
+	<li class="page_item page-item-3183"><a href="http://writinghistory.trincoll.edu/evolution/instructions-for-resubmitting-essays/">instructions for resubmitting essays (December 2011)</a></li>
+	<li class="page_item page-item-3012"><a href="http://writinghistory.trincoll.edu/evolution/agreement/">contributor&#8217;s agreement for the press (December 2011)</a></li>
+	<li class="page_item page-item-6062"><a href="http://writinghistory.trincoll.edu/evolution/summary-of-revisions/">summary of revisions to the manuscript (September 2012)</a></li>
+	<li class="page_item page-item-6129"><a href="http://writinghistory.trincoll.edu/evolution/our-words-to-the-wise/">our words to the wise (March 2013)</a></li>
+	<li class="page_item page-item-6283"><a href="http://writinghistory.trincoll.edu/evolution/copyediting/">copyediting with collaborators in a digital age (May 2013)</a></li>
+</ul>
+</li>
+<li class="page_item page-item-209"><a href="http://writinghistory.trincoll.edu/announcements-redirect/">Announcements about this book</a></li>
+<li class="page_item page-item-202"><a href="http://writinghistory.trincoll.edu/follow/">Follow us on Twitter or RSS feed</a></li>
+</ul>
+	
+</div><!-- /sidebar_contents_wrapper -->
+
+</div><!-- /sidebar_minimiser -->
+
+
+
+</div><!-- /toc_sidebar -->
+
+
+
+<!-- activity_sidebar.php -->
+
+<div id="activity_sidebar" class="sidebar_container">
+
+
+
+<div class="sidebar_header">
+
+<h2>Activity</h2>
+
+</div>
+
+
+
+<div class="sidebar_minimiser">
+
+<div class="sidebar_contents_wrapper">
+
+<div class="comments_container">
+
+
+
+
+
+
+<h3 class="activity_heading">Recent Comments in this Document</h3>
+
+<div class="paragraph_wrapper all_comments_output">
+
+<ol class="comment_activity">
+
+<li><!-- item li -->
+
+
+<div class="comment-wrapper">
+
+<div class="comment-identifier">
+
+<cite class="fn">Ed Kaplan</cite>
+<p class="comment_activity_date"><a class="comment_activity_link" href="http://writinghistory.trincoll.edu/data/erickson-2012-spring/#comment-2734">May 18, 2013 at 5:36 pm</a></p>
+</div><!-- /comment-identifier -->
+
+
+
+<div class="comment-content">
+<p>While you&#8217;re correct that a Zotero source record only has a single field for notes, you can have any number of associated text (i.e. note) records related that that source.</p>
+
+</div><!-- /comment-content -->
+
+<div class="reply"><p><a class="comment_activity_link" href="http://writinghistory.trincoll.edu/data/erickson-2012-spring/#comment-2734">See in context</a></p></div><!-- /reply -->
+
+</div><!-- /comment-wrapper -->
+
+</li><!-- /item li -->
+
+<li><!-- item li -->
+
+
+<div class="comment-wrapper">
+
+<div class="comment-identifier">
+
+<cite class="fn"><a href="http://writinghistory.trincoll.edu/author/kdnawrotzki/">Kristen Nawrotzki</a></cite>
+<p class="comment_activity_date"><a class="comment_activity_link" href="http://writinghistory.trincoll.edu/introduction-2012-spring/#comment-2576">March 20, 2013 at 10:50 am</a></p>
+</div><!-- /comment-identifier -->
+
+
+
+<div class="comment-content">
+<p><span style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: #ffffff; display: inline !important; float: none;">Our apologies for this frustration. We had temporarily suspended new registrations for technical reasons but have since reactivated it, so that both new registration and commenting without registration should now be possible.</span></p>
+
+</div><!-- /comment-content -->
+
+<div class="reply"><p><a class="comment_activity_link" href="http://writinghistory.trincoll.edu/introduction-2012-spring/#comment-2576">See in context</a></p></div><!-- /reply -->
+
+</div><!-- /comment-wrapper -->
+
+</li><!-- /item li -->
+
+<li><!-- item li -->
+
+
+<div class="comment-wrapper">
+
+<div class="comment-identifier">
+
+<cite class="fn">Trevor Getz</cite>
+<p class="comment_activity_date"><a class="comment_activity_link" href="http://writinghistory.trincoll.edu/evolution/our-words-to-the-wise/#comment-2575">March 20, 2013 at 10:00 am</a></p>
+</div><!-- /comment-identifier -->
+
+
+
+<div class="comment-content">
+<p>This is the lesson that I&#8217;m learning right now.  It&#8217;s so true, and so difficult.  All of the authors on our project are also discovering that you have to hit hundreds of people you know, and thousands of others, to get just a few willing to visit and contribute to the site.  Thinking about strategies in this area requires great creativity, and many of us historian types are unused to thinking creatively about human contact in the here-and-now.  But you have to do it to get a the kind of interaction that delivers on the promise of the technology.</p>
+
+</div><!-- /comment-content -->
+
+<div class="reply"><p><a class="comment_activity_link" href="http://writinghistory.trincoll.edu/evolution/our-words-to-the-wise/#comment-2575">See in context</a></p></div><!-- /reply -->
+
+</div><!-- /comment-wrapper -->
+
+</li><!-- /item li -->
+
+<li><!-- item li -->
+
+
+<div class="comment-wrapper">
+
+<div class="comment-identifier">
+
+<cite class="fn"><a href="http:///www.penguin-transcription.co.uk">Anne Hickley</a></cite>
+<p class="comment_activity_date"><a class="comment_activity_link" href="http://writinghistory.trincoll.edu/introduction-2012-spring/#comment-2562">March 13, 2013 at 9:41 am</a></p>
+</div><!-- /comment-identifier -->
+
+
+
+<div class="comment-content">
+<p>Unfortunately, it says above that you need to enter your details in full for each comment or register once &#8230; but when you click &#8216;register&#8217; it says &#8216;registration is not allowed&#8217;. Mildly frustrating!  :-)</p>
+
+</div><!-- /comment-content -->
+
+<div class="reply"><p><a class="comment_activity_link" href="http://writinghistory.trincoll.edu/introduction-2012-spring/#comment-2562">See in context</a></p></div><!-- /reply -->
+
+</div><!-- /comment-wrapper -->
+
+</li><!-- /item li -->
+
+<li><!-- item li -->
+
+
+<div class="comment-wrapper">
+
+<div class="comment-identifier">
+
+<cite class="fn"><a href="http:///www.penguin-transcription.co.uk">Anne Hickley</a></cite>
+<p class="comment_activity_date"><a class="comment_activity_link" href="http://writinghistory.trincoll.edu/introduction-2012-spring/#comment-2561">March 13, 2013 at 9:40 am</a></p>
+</div><!-- /comment-identifier -->
+
+
+
+<div class="comment-content">
+<p>Hmm &#8230; you&#8217;re asking &#8216;the public&#8217; to comment on the essays in this journal, but then the first two or three paragraphs talk exclusively about &#8216;we historians&#8217; etc. which might well put of &#8216;the public&#8217; from commenting, I would have thought.<br />
+I can&#8217;t see how the digital revolution could <em>not </em>transform how historians write about the past &#8211; but it probably depends how far back you go. The past is yesterday &#8211; for yesterday&#8217;s history there must be a vast mine of information on the net, from the completely trivial (I hurt my knee, ouch &#8211; I&#8217;ve written a blog post about it) to major world news.<br />
+However, pre-web history will obviously not be affected in the same way. I&#8217;ve no doubt the way it&#8217;s written about will still be affected though and I look forward to reading more and finding out how.</p>
+
+</div><!-- /comment-content -->
+
+<div class="reply"><p><a class="comment_activity_link" href="http://writinghistory.trincoll.edu/introduction-2012-spring/#comment-2561">See in context</a></p></div><!-- /reply -->
+
+</div><!-- /comment-wrapper -->
+
+</li><!-- /item li -->
+
+</ol><!-- /comment_activity -->
+
+
+</div>
+
+
+
+
+
+
+
+
+</div><!-- /comments_container -->
+
+</div><!-- /sidebar_contents_wrapper -->
+
+</div><!-- /sidebar_minimiser -->
+
+
+
+</div><!-- /activity_sidebar -->
+
+
+
+
+
+
+</div><!-- /sidebar_inner -->
+
+</div><!-- /sidebar -->
+
+
+
+
+
+
+<!-- footer.php -->
+
+<div id="footer" class="clearfix">
+
+<div id="footer_inner">
+
+	<div class="license_block"><div class="wp_license">
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/us/"><img src="http://i.creativecommons.org/l/by-nc/3.0/us/88x31.png" alt="Creative Commons Attribution-NonCommercial 3.0 United States"/></a>
+<br /> This work is distributed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/us/">Creative Commons Attribution-NonCommercial 3.0 United States</a> license. You may freely share it under these terms with a source citation.<br>
+How to cite:<br>
+[Insert author/commenter and essay/page title], in Jack Dougherty and Kristen Nawrotzki, eds. <i>Writing History in the Digital Age</i>. Forthcoming from the University of Michigan Press. Trinity College (CT) web-book edition, Spring 2012, <a href="http://WritingHistory.trincoll.edu">http://WritingHistory.trincoll.edu.</a>
+</div></div>
+</div><!-- /footer_inner -->
+
+</div><!-- /footer -->
+
+
+
+</div><!-- /container -->
+
+
+
+<p class="hidden_page_url">Source: http://writinghistory.trincoll.edu/evidence/theibault-2012-spring/</p><script type='text/javascript' src='http://writinghistory.trincoll.edu/wp-includes/js/wp-embed.min.js?ver=4.6.6'></script>
+
+
+
+</body>
+
+
+
+</html>

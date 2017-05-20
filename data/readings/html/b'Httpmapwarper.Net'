@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home -  Map Warper</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-bccd34e3b1efb6dd35547382b20fb831.ico" />
+    <link rel="stylesheet" media="all" href="/assets/application-c6340084011bb6c258272966580449e3.css" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700|Sorts+Mill+Goudy|Vidaloka' rel='stylesheet' type='text/css'>
+    <script src="/assets/openlayers/2.8/OpenLayers-2.8/OpenLayers-355198d971b330a5270cca904abc3c47.js"></script>
+    <script src="/assets/application-72839e8daf1612b1d2a912b82409e79b.js"></script>
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="tREwQbL1jwgEh1oXtrYy4JRWnRcggfRF7fOU3GlNjUIE0ToE3+LDeLvX135MlVthyPIA28I4Ds3D4YTIMJ8cYA==" />
+
+    
+  </head>
+    <body>
+    <div id="headerDiv" class="headerDiv">
+      <h1><a href="/">Map Warper</a></h1>
+      <div class="user_status">
+    <a href="/u/sign_in">Log In</a>
+    <a href="/u/sign_up">Create Account</a>
+</div>
+
+      <div id="nav">
+  <ul id="navlist">
+    <li><span>Home</span></li>
+    <li class=""><a href="http://mapwarper.net/maps">Browse All Maps</a></li>
+    <li class="responsive responsive_narrow"><a href="http://mapwarper.net/maps?show_warped=1">Browse Rectified Maps</a></li>    
+    <li class="responsive responsive_wide"><a href="http://mapwarper.net/maps/geosearch?show_warped=1">Find Maps by Location</a></li>    
+    <li class="responsive"><a href="/maps/new">Upload Map</a></li>
+    <li class="responsive"><a href="/layers">Browse All Mosaics</a></li>
+    <li class="responsive responsive_wide"><a href="http://mapwarper.net/layers/geosearch">Find Mosaics by Location</a></li>    
+    <li class="responsive responsive_narrow"><a href="/layers/new">Add Mosaic</a></li>
+    <li class="responsive responsive_narrow"><a href="/about">About</a></li>
+    <li class="responsive responsive_narrow"><a href="/help">Help</a></li>
+  </ul>
+</div>
+
+    </div>
+    
+    <div id="warper-maindiv">
+
+      
+
+      <div id="container">
+
+  <div id="left-col">
+    <div id="video-intro" class="paraMargin">
+      <h2>Overview</h2>
+      <p>Find maps and other imagery, upload, and rectify against a real map.</p>
+      <p>You can then download and use the rectified map in your mapping applications.</p>
+      <p>Just sign up and you can start uploading and get warping!</p>
+
+      <a class="buttonWarper" href="/maps/new">Upload Map!</a>
+    </div>
+
+    <div class="paraMargin">
+      <h2>What is it?</h2>
+      <p>It's a free to use, open source map warper / map georectifier, and image georeferencer tool. Developed, hosted and maintained by <a href='https://twitter.com/tim_waters'>Tim Waters</a>, this project is supported by <a  href='http://topomancy.com'>Topomancy LLC</a> and the <a href='http://maps.nypl.org'>New York Public Library</a>.</p>
+      <p>Mail me at tim@geothings.net for more information!</p>
+    </div>
+
+    <div id="tag-cloud" class="paraMargin">
+      <h3>Tags</h3>
+      <p class="tagCloudLink">
+          <a class="css1" href="/maps/tag/%D0%A1%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9">Спортивный</a>
+          <a class="css1" href="/maps/tag/military%20history">military history</a>
+          <a class="css1" href="/maps/tag/tram">tram</a>
+          <a class="css1" href="/maps/tag/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82">Проект</a>
+          <a class="css1" href="/maps/tag/holc">holc</a>
+          <a class="css1" href="/maps/tag/Novi%20Sad">Novi Sad</a>
+          <a class="css1" href="/maps/tag/Map">Map</a>
+          <a class="css1" href="/maps/tag/California">California</a>
+          <a class="css1" href="/maps/tag/Hiroshima%201930">Hiroshima 1930</a>
+          <a class="css1" href="/maps/tag/jakobstad">jakobstad</a>
+          <a class="css1" href="/maps/tag/Nathan">Nathan</a>
+          <a class="css1" href="/maps/tag/Hungaria%20Trianon">Hungaria Trianon</a>
+          <a class="css1" href="/maps/tag/kimberley">kimberley</a>
+          <a class="css1" href="/maps/tag/%CE%93%CE%A5%CE%A3">ΓΥΣ</a>
+          <a class="css1" href="/maps/tag/District%20Maps">District Maps</a>
+          <a class="css1" href="/maps/tag/San%20Nicolas">San Nicolas</a>
+          <a class="css1" href="/maps/tag/vermont">vermont</a>
+          <a class="css1" href="/maps/tag/Latvia">Latvia</a>
+          <a class="css1" href="/maps/tag/Rome">Rome</a>
+          <a class="css1" href="/maps/tag/Waccabuc">Waccabuc</a>
+          <a class="css1" href="/maps/tag/Sullivan">Sullivan</a>
+          <a class="css1" href="/maps/tag/open%20data">open data</a>
+          <a class="css1" href="/maps/tag/fire">fire</a>
+          <a class="css1" href="/maps/tag/Indian%20Ocean">Indian Ocean</a>
+          <a class="css1" href="/maps/tag/KIC%20Images%2013">KIC Images 13</a>
+          <a class="css1" href="/maps/tag/Second%20World%20War">Second World War</a>
+          <a class="css1" href="/maps/tag/washington">washington</a>
+          <a class="css1" href="/maps/tag/Europe">Europe</a>
+          <a class="css1" href="/maps/tag/Lebanon">Lebanon</a>
+          <a class="css1" href="/maps/tag/Flood">Flood</a>
+          <a class="css1" href="/maps/tag/Administrative%20units">Administrative units</a>
+          <a class="css1" href="/maps/tag/andrijevica">andrijevica</a>
+          <a class="css1" href="/maps/tag/Glasgow">Glasgow</a>
+          <a class="css1" href="/maps/tag/1888">1888</a>
+          <a class="css1" href="/maps/tag/Pflegeheim">Pflegeheim</a>
+          <a class="css1" href="/maps/tag/fairbank">fairbank</a>
+          <a class="css1" href="/maps/tag/1700s">1700s</a>
+          <a class="css1" href="/maps/tag/come%20vive%20il%20popolo">come vive il popolo</a>
+          <a class="css1" href="/maps/tag/OHV">OHV</a>
+          <a class="css1" href="/maps/tag/thorndale">thorndale</a>
+          <a class="css1" href="/maps/tag/Waterford">Waterford</a>
+          <a class="css1" href="/maps/tag/bangkok">bangkok</a>
+          <a class="css1" href="/maps/tag/Dublin22">Dublin22</a>
+          <a class="css1" href="/maps/tag/1844">1844</a>
+          <a class="css1" href="/maps/tag/Roundwood">Roundwood</a>
+          <a class="css1" href="/maps/tag/T%C3%BCnsdorf">Tünsdorf</a>
+          <a class="css1" href="/maps/tag/ADK%20LOJ%20MacIntyre%20Range">ADK LOJ MacIntyre Range</a>
+          <a class="css1" href="/maps/tag/Oregon">Oregon</a>
+          <a class="css1" href="/maps/tag/Kerry">Kerry</a>
+          <a class="css1" href="/maps/tag/Robert">Robert</a>
+          <a class="css1" href="/maps/tag/preservaci%C3%B3n">preservación</a>
+          <a class="css4" href="/maps/tag/Sanborn">Sanborn</a>
+          <a class="css1" href="/maps/tag/Bornholm">Bornholm</a>
+          <a class="css1" href="/maps/tag/kanton">kanton</a>
+          <a class="css1" href="/maps/tag/Colombia">Colombia</a>
+          <a class="css1" href="/maps/tag/sibillini">sibillini</a>
+          <a class="css1" href="/maps/tag/night">night</a>
+          <a class="css1" href="/maps/tag/s.XIX">s.XIX</a>
+          <a class="css1" href="/maps/tag/Clare">Clare</a>
+          <a class="css1" href="/maps/tag/Alipa%C5%A1ina%20d%C5%BEamija">Alipašina džamija</a>
+          <a class="css1" href="/maps/tag/IDOT">IDOT</a>
+          <a class="css1" href="/maps/tag/ecoQuartier">ecoQuartier</a>
+          <a class="css1" href="/maps/tag/WISZ">WISZ</a>
+          <a class="css1" href="/maps/tag/chajari">chajari</a>
+          <a class="css1" href="/maps/tag/pietarsaari">pietarsaari</a>
+          <a class="css1" href="/maps/tag/la%20paz">la paz</a>
+          <a class="css1" href="/maps/tag/Ordnace%20Survey%20Map">Ordnace Survey Map</a>
+          <a class="css1" href="/maps/tag/Luxor%201909">Luxor 1909</a>
+          <a class="css2" href="/maps/tag/Archaeology">Archaeology</a>
+          <a class="css1" href="/maps/tag/D40075-09">D40075-09</a>
+          <a class="css1" href="/maps/tag/Italia%20antigua">Italia antigua</a>
+          <a class="css1" href="/maps/tag/delaware">delaware</a>
+          <a class="css1" href="/maps/tag/Illinois">Illinois</a>
+          <a class="css1" href="/maps/tag/roma">roma</a>
+          <a class="css1" href="/maps/tag/Lower%20East%20Side">Lower East Side</a>
+          <a class="css1" href="/maps/tag/super">super</a>
+          <a class="css1" href="/maps/tag/hundred">hundred</a>
+          <a class="css1" href="/maps/tag/map%20natural%20physical%20physiographical%20physiogeographical%20geographical%20geomorphological%20geomorphic%20regions%20units%20germany%20Harz%20Saxony-Anhalt%20Sachsen-Anhalt%20Gebirge%20Mittelgebirge%20mountains%20high%20contrast">map natural physical physiographical physiogeographical geographical geomorphological geomorphic regions units germany Harz Saxony-Anhalt Sachsen-Anhalt Gebirge Mittelgebirge mountains high contrast</a>
+          <a class="css1" href="/maps/tag/WW1">WW1</a>
+          <a class="css1" href="/maps/tag/1880">1880</a>
+          <a class="css1" href="/maps/tag/Rush%20&amp;%20Lusk">Rush &amp; Lusk</a>
+          <a class="css1" href="/maps/tag/Kildare">Kildare</a>
+          <a class="css1" href="/maps/tag/aerial">aerial</a>
+          <a class="css1" href="/maps/tag/Till">Till</a>
+          <a class="css1" href="/maps/tag/aerofotogrammetria">aerofotogrammetria</a>
+          <a class="css1" href="/maps/tag/bee">bee</a>
+          <a class="css1" href="/maps/tag/Seattle%20historical%20%22Piner&#39;s%20Point%22">Seattle historical &quot;Piner&#39;s Point&quot;</a>
+          <a class="css1" href="/maps/tag/sheffield">sheffield</a>
+          <a class="css1" href="/maps/tag/Goslar">Goslar</a>
+          <a class="css1" href="/maps/tag/B-Plan">B-Plan</a>
+          <a class="css1" href="/maps/tag/Salem">Salem</a>
+          <a class="css1" href="/maps/tag/Granby">Granby</a>
+          <a class="css1" href="/maps/tag/Rush%20and%20Lusk">Rush and Lusk</a>
+          <a class="css1" href="/maps/tag/colonialism">colonialism</a>
+          <a class="css1" href="/maps/tag/%3F">?</a>
+          <a class="css1" href="/maps/tag/Bavaria">Bavaria</a>
+          <a class="css1" href="/maps/tag/Gettysburg">Gettysburg</a>
+          <a class="css1" href="/maps/tag/RAAS">RAAS</a>
+          <a class="css1" href="/maps/tag/austria-hungary">austria-hungary</a>
+          <a class="css1" href="/maps/tag/%C3%8Dsland">Ísland</a>
+      </p>
+    </div>
+
+    <div id="news" class="paraMargin">
+
+      <h3>News</h3>
+        <table>
+            <tr valign="top" class="list-line-odd">
+              <td class="list-item">
+                <p>
+                  <a title="click here to read this story" target="_blank" href="https://thinkwhere.wordpress.com/2017/04/02/whats-coming-to-mapwarper-net-new-stuff/">What’s coming to Mapwarper.net – new stuff!</a>
+                  <br />
+                  <span class="news-description">
+                    Mapwarper.net is getting an upgrade of code early this first week in April. New things: Keyboard shortcuts New JSON-API and docs Map caching for faster maps Bigger map windows Upgraded...
+                    <a title="read more" target="_blank" class="readMore" href="https://thinkwhere.wordpress.com/2017/04/02/whats-coming-to-mapwarper-net-new-stuff/">read more</a>
+                  </span>
+                </p>
+              </td>
+            </tr>
+            <tr valign="top" class="list-line-even">
+              <td class="list-item">
+                <p>
+                  <a title="click here to read this story" target="_blank" href="https://thinkwhere.wordpress.com/2017/02/10/mapwarper-tutorial-spatial-humanities-workshop-by-lincoln-mullen/">Mapwarper Tutorial &amp; Spatial Humanities Workshop by Lincoln Mullen</a>
+                  <br />
+                  <span class="news-description">
+                    Lincoln Mullen has written a great series of workshops on the Spatial / Digital Humanities over five days. Day 3 is focused around Georectification with Mapwarper.net and is a very...
+                    <a title="read more" target="_blank" class="readMore" href="https://thinkwhere.wordpress.com/2017/02/10/mapwarper-tutorial-spatial-humanities-workshop-by-lincoln-mullen/">read more</a>
+                  </span>
+                </p>
+              </td>
+            </tr>
+            <tr valign="top" class="list-line-odd">
+              <td class="list-item">
+                <p>
+                  <a title="click here to read this story" target="_blank" href="https://thinkwhere.wordpress.com/2016/11/17/doing-digital-history-2016-map-warper-tutorial/">Doing Digital History 2016 – Map Warper Tutorial</a>
+                  <br />
+                  <span class="news-description">
+                    Doing Digital History 2016 is a two week Summer institute sponsored by National Endowment for the Humanities and was held at George Mason university in DC/Arlington earlier in the year....
+                    <a title="read more" target="_blank" class="readMore" href="https://thinkwhere.wordpress.com/2016/11/17/doing-digital-history-2016-map-warper-tutorial/">read more</a>
+                  </span>
+                </p>
+              </td>
+            </tr>
+        </table>
+
+    </div>
+
+  </div>
+  <div id="right-col">
+    <div id="search-form">
+      <form id="searchform" name="searchform" action="/maps" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />  Search  
+  <select id="field" name="field">
+    <option value="title">Title</option>
+<option value="description">Description</option>
+<option value="publisher">Publisher</option>
+<option value="authors">Author</option>
+<option value="tags">Tags</option>  </select>
+  for 
+  <input type="text" name="query" id="query" />  <input type="hidden" id="from" />
+  <input type="hidden" id="to"/>
+  
+  <div id="year-filter">
+    <div id="year-label">
+      Year
+    </div>
+    <div id="year-slider-container">
+      <div id="year-slider"></div>
+    </div>	
+  </div>
+  
+  <input type="submit" value="Search">
+  <div id="radio-buttons">
+    <label for="all_maps">All maps</label>
+    <input type="radio" name="show_warped" id="all_maps" value="0" checked="checked" />
+    <label for="rectified_maps">Rectified maps only</label>
+    <input type="radio" name="show_warped" id="rectified_maps" value="1" />
+ </div>
+
+  <script>
+    var year_from = 192;
+    var year_to = 2021;
+  jQuery("#year-slider").noUiSlider({
+    start: [year_from, year_to],
+    connect: true,
+    step: 1,
+    format: wNumb({
+      decimals: 0
+    }),
+    range: {
+      'min': 192,
+      'max': 2021
+    }
+    });
+    
+    jQuery("#year-slider").Link('upper').to('-inline-<div class="year-slider-tooltip"></div>', function ( value ) {
+      jQuery(this).html(
+        '<span>' + value + '</span>'
+      );
+    });
+       
+    jQuery("#year-slider").Link('lower').to('-inline-<div class="year-slider-tooltip"></div>', function ( value ) {
+      jQuery(this).html(
+        '<span>' + value + '</span>'
+      );
+    });
+    
+    jQuery("#year-slider").Link('upper').to('to')
+    jQuery("#year-slider").Link('lower').to('from')
+
+   </script>	
+</form><div id="geosearch-link">
+  <a class="buttonWarper" href="/maps/geosearch">Find Rectified Maps by Location</a>
+</div>
+      <br/>
+      <p class="browseButtonBlock">
+        <a class="buttonWarper" href="/maps">browse all maps</a>
+      </p>
+    </div>
+
+    <div id="map_list">
+
+
+
+      <br/>
+
+      <h3>Last Rectified Maps</h3>
+
+      <table id="map_table" cellpadding="3">
+        <thead>
+          <tr>
+              <th>Map</th>
+              <th>Title</th>
+              <th>Year</th>
+              <th>Last Updated</th>
+              <th>Status</th>
+          </tr>
+        </thead>
+        <tr>
+  <td>
+    <a name="a-map-row-20776"></a>
+<a href="/maps/20776"><img src="/uploads/20776/thumb/1875_Charlestown_Hopkins_Atlas_Plate_C.png" alt="1875 charlestown hopkins atlas plate c" /></a>
+  </td>
+  <td>
+    <div class="maplist_title">
+      <a href="/maps/20776">1875 Atlas of Charlestown - Hopkins and Co. 00m140 PLATE C</a>
+
+    </div>
+
+    <div class="map_description"><span>1875 Atlas of Charlestown - Hopkins and Co. 00m140 PLATE C Photoshopped / Aligned for Mapjunction by Rory McCarthy on www.upwork.com - Atlas of the county of Suffolk, Massachusetts, vol. 6 : including the late city of Charlestown, now wards 20, 21, 22 City of Boston, G.M. Hopkins &amp; Co., 1875      </span>
+
+      
+    </div>
+    <div class="map_links_bigger">
+      <a href="/maps/20776">View Map</a>      |
+        <a href="/maps/20776#Rectify_tab">Rectify Map</a>
+
+
+
+       |
+        <a href="http://mapwarper.net/maps/20776.kml">Download KML</a>    </div>
+    <div class="map_links">
+    </div>
+
+  </td>
+  <td>
+    1875
+  </td>
+  <td>
+    about 3 hours ago
+  </td>
+  <td>
+      9 control points  </td>
+  
+
+</tr>
+<tr>
+  <td>
+    <a name="a-map-row-20784"></a>
+<a href="/maps/20784"><img src="/uploads/20784/thumb/b730a6d8b0af47749e36a64bac2abf40_onciypsj.png" alt="B730a6d8b0af47749e36a64bac2abf40 onciypsj" /></a>
+  </td>
+  <td>
+    <div class="maplist_title">
+      <a href="/maps/20784">Vålådalen</a>
+
+    </div>
+
+    <div class="map_description"><span>      </span>
+
+      
+    </div>
+    <div class="map_links_bigger">
+      <a href="/maps/20784">View Map</a>      |
+        <a href="/maps/20784#Rectify_tab">Rectify Map</a>
+
+
+
+       |
+        <a href="http://mapwarper.net/maps/20784.kml">Download KML</a>    </div>
+    <div class="map_links">
+        Links: <a href="https://www.omaps.net/?id=50745">Source / Biblio Ref</a>
+    </div>
+
+  </td>
+  <td>
+    1980
+  </td>
+  <td>
+    about 4 hours ago
+  </td>
+  <td>
+      9 control points  </td>
+  
+
+</tr>
+<tr>
+  <td>
+    <a name="a-map-row-20783"></a>
+<a href="/maps/20783"><img src="/uploads/20783/thumb/idkeadsadfasdf.png" alt="Idkeadsadfasdf" /></a>
+  </td>
+  <td>
+    <div class="maplist_title">
+      <a href="/maps/20783">orient</a>
+
+    </div>
+
+    <div class="map_description"><span>sdfg      </span>
+
+      
+    </div>
+    <div class="map_links_bigger">
+      <a href="/maps/20783">View Map</a>      |
+        <a href="/maps/20783#Rectify_tab">Rectify Map</a>
+
+
+
+       |
+        <a href="http://mapwarper.net/maps/20783.kml">Download KML</a>    </div>
+    <div class="map_links">
+    </div>
+
+  </td>
+  <td>
+    2017
+  </td>
+  <td>
+    about 5 hours ago
+  </td>
+  <td>
+      3 control points  </td>
+  
+
+</tr>
+
+      </table>
+
+      <a class="buttonWarper" href="/maps">See all maps</a>
+
+    </div>
+
+    <div id="layer_list">
+
+      <h3>Recent Mosaics</h3>
+      <table id="layer_table" cellpadding="3">
+        <thead>
+          <tr>
+            <th>Mosaic</th>
+            <th class="widthTh">Title</th>
+            <th>Year</th>
+            <th>Last Updated</th>
+            <th>Number of Maps</th>
+            <th>Percentage Complete</th>
+          </tr>
+        </thead>
+        <tr>
+  <td >
+    <img src="/uploads/1688/thumb/IRL-GSGS-3906-11-17-SE-Ennis-tru.png" alt="Irl gsgs 3906 11 17 se ennis tru" />
+  </td>
+  <td >
+    <span class="layer_title">
+      <a href="/layers/101">Ireland GSGS3906 1:25k</a>    </span>
+    <br />
+    <span class="layer_description">
+      Ireland GSGS3906 1:25k 
+      Compiled by <a href="/users/849">IrlJidel</a>.
+    </span>
+    <span class="map_links">
+    </span>
+    <!--<br />-->
+
+        <a class="fontSmall" href="http://mapwarper.net/layers/101.kml">Download KML</a>
+
+    </span>
+
+  </td>
+  <td>
+     
+  </td>
+ <td>
+    about 20 hours ago
+  </td>
+  <td>
+    <span class="layer_mapcount">
+      675 maps    </span>
+  </td>
+  <td>
+    100%<br />
+    (675 maps)
+  </td>
+</tr>
+<tr>
+  <td >
+    <img src="/uploads/20766/thumb/Fireplan_1888_revised_1901_Sheet_18.png" alt="Fireplan 1888 revised 1901 sheet 18" />
+  </td>
+  <td >
+    <span class="layer_title">
+      <a href="/layers/756">Insurance plan of the city of Ottawa</a>    </span>
+    <br />
+    <span class="layer_description">
+      
+      Compiled by <a href="/users/6121">Tessa</a>.
+    </span>
+    <span class="map_links">
+    </span>
+    <!--<br />-->
+
+        <a class="fontSmall" href="http://mapwarper.net/layers/756.kml">Download KML</a>
+
+    </span>
+
+  </td>
+  <td>
+    1901 
+  </td>
+ <td>
+    about 22 hours ago
+  </td>
+  <td>
+    <span class="layer_mapcount">
+      3 maps    </span>
+  </td>
+  <td>
+    100%<br />
+    (3 maps)
+  </td>
+</tr>
+<tr>
+  <td >
+    <img src="/assets/missing-b9548ec151b3580c41fe77596ba487b4.png" alt="Missing" />
+  </td>
+  <td >
+    <span class="layer_title">
+      <a href="/layers/755">christian</a>    </span>
+    <br />
+    <span class="layer_description">
+      
+      Compiled by <a href="/users/6110">christian</a>.
+    </span>
+    <span class="map_links">
+    </span>
+    <!--<br />-->
+
+
+    </span>
+
+  </td>
+  <td>
+     
+  </td>
+ <td>
+    2 days ago
+  </td>
+  <td>
+    <span class="layer_mapcount">
+      0 maps    </span>
+  </td>
+  <td>
+    0%<br />
+    (0 maps)
+  </td>
+</tr>
+
+      </table>
+      <a class="buttonWarper" href="/layers">View all Mosaics</a><br />
+      <a class="buttonWarper" href="/layers/new">Create a new mosaic</a>
+    </div>
+
+  </div>
+  <div class="clear"></div>
+</div>
+
+    </div>
+
+    <div id="footer">
+      <div id="nav">
+  <a href="/">Home</a> |
+  <a href="/maps/new">Add Map</a> |
+  <a href="/about.htm">About</a> |
+  <a href="/help.htm">Help</a> |
+  Supported by <a href='http://maps.nypl.org'>New York Public Library</a> and <a href='http://topomancy.com'>Topomancy LLC</a>
+</div>
+
+
+    </div>
+
+    
+
+
+  </body>
+</html>

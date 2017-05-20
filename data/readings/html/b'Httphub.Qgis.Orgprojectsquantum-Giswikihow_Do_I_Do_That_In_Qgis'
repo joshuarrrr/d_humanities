@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>QGIS Issue Tracking</title>
+<meta name="description" content="Redmine" />
+<meta name="keywords" content="issue,bug,tracker" />
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="G1hk9tAvmrW0FYP3RkpfFpNPBz9DsJqMxbH8sI0bTO8=" name="csrf-token" />
+<link rel='shortcut icon' href='/favicon.ico' />
+<link href="/stylesheets/jquery/jquery-ui-1.11.0.css" media="all" rel="stylesheet" />
+<link href="/themes/qgis/stylesheets/application.css" media="all" rel="stylesheet" />
+
+<script src="/javascripts/jquery-1.11.1-ui-1.11.0-ujs-3.1.1.js"></script>
+<script src="/javascripts/application.js"></script>
+<script>
+//<![CDATA[
+$(window).load(function(){ warnLeavingUnsaved('The current page contains unsaved text that will be lost if you leave this page.'); });
+//]]>
+</script>
+
+
+<!-- page specific tags -->
+</head>
+<body class="theme-Qgis controller-account action-login">
+<div id="wrapper">
+<div id="wrapper2">
+<div id="wrapper3">
+<div id="top-menu">
+    <div id="account">
+        <ul><li><a class="login" href="/login">Sign in</a></li>
+<li><a class="register" href="/account/register">Register</a></li></ul>    </div>
+    
+    <ul><li><a class="home" href="/">Home</a></li>
+<li><a class="projects" href="/projects">Projects</a></li>
+<li><a class="help" href="http://www.redmine.org/guide">Help</a></li></ul></div>
+
+<div id="header">
+    <div id="quick-search">
+        <form accept-charset="UTF-8" action="/search" method="get"><div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+        
+        <label for='q'>
+          <a accesskey="4" href="/search">Search</a>:
+        </label>
+        <input accesskey="f" class="small" id="q" name="q" size="20" type="text" />
+</form>        
+    </div>
+
+    <h1>QGIS Issue Tracking</h1>
+
+</div>
+
+<div id="main" class="nosidebar">
+    <div id="sidebar">
+        
+        
+    </div>
+
+    <div id="content">
+        
+        
+<div id="login-form">
+<form accept-charset="UTF-8" action="/login" method="post"><div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="G1hk9tAvmrW0FYP3RkpfFpNPBz9DsJqMxbH8sI0bTO8=" /></div>
+<input name="back_url" type="hidden" value="https://issues.qgis.org/projects/qgis/wiki/How_do_I_do_that_in_QGIS" />
+<table>
+<tr>
+    <td style="text-align:right;"><label for="username">Login:</label></td>
+    <td style="text-align:left;"><input id="username" name="username" tabindex="1" type="text" /></td>
+</tr>
+<tr>
+    <td style="text-align:right;"><label for="password">Password:</label></td>
+    <td style="text-align:left;"><input id="password" name="password" tabindex="2" type="password" /></td>
+</tr>
+<tr>
+  <td style="text-align:right;"><label for="openid_url">OpenID URL</label></td>
+  <td style="text-align:left;"><input id="openid_url" name="openid_url" tabindex="3" type="text" /></td>
+</tr>
+<tr>
+    <td></td>
+    <td style="text-align:left;">
+    </td>
+</tr>
+<tr>
+    <td style="text-align:left;">
+    </td>
+    <td style="text-align:right;">
+        <input type="submit" name="login" value="Login &#187;" tabindex="5"/>
+    </td>
+</tr>
+</table>
+</form></div>
+<link href="/plugin_assets/redmine_omniauth_github/stylesheets/buttons.css" media="screen" rel="stylesheet" />
+
+ <link href="/plugin_assets/redmine_omniauth_github/stylesheets/buttons.css" media="screen" rel="stylesheet" />
+
+
+
+<script>
+//<![CDATA[
+$('#username').focus();
+//]]>
+</script>
+
+        
+        <div style="clear:both;"></div>
+    </div>
+</div>
+</div>
+
+<div id="ajax-indicator" style="display:none;"><span>Loading...</span></div>
+<div id="ajax-modal" style="display:none;"></div>
+
+<div id="footer">
+  <div class="bgl"><div class="bgr">
+    Powered by <a href="http://www.redmine.org/">Redmine</a> &copy; 2006-2014 Jean-Philippe Lang
+  </div></div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

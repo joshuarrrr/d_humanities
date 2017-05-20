@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://www.cameronblevins.org/wordpress/xmlrpc.php">
+
+<title>The New Wave of Review | Cameron Blevins</title>
+
+<!-- All in One SEO Pack 2.3.12.5 by Michael Torbert of Semper Fi Web Design[275,328] -->
+<link rel="canonical" href="http://www.cameronblevins.org/posts/the-new-wave-of-review/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//s.gravatar.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Cameron Blevins &raquo; Feed" href="http://www.cameronblevins.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Cameron Blevins &raquo; Comments Feed" href="http://www.cameronblevins.org/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Cameron Blevins &raquo; The New Wave of Review Comments Feed" href="http://www.cameronblevins.org/posts/the-new-wave-of-review/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.cameronblevins.org\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='parent-style-css'  href='http://www.cameronblevins.org/wordpress/wp-content/themes/simppeli/style.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='child-style-css'  href='http://www.cameronblevins.org/wordpress/wp-content/themes/simpelli-child/style.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='simppeli-fonts-css'  href='https://fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='simppeli-parent-style-css'  href='http://www.cameronblevins.org/wordpress/wp-content/themes/simppeli/style.min.css?ver=1.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='simppeli-style-css'  href='http://www.cameronblevins.org/wordpress/wp-content/themes/simpelli-child/style.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='http://www.cameronblevins.org/wordpress/wp-content/plugins/jetpack/css/jetpack.css?ver=4.9' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.cameronblevins.org/wordpress/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.cameronblevins.org/wordpress/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://www.cameronblevins.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.cameronblevins.org/wordpress/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.cameronblevins.org/wordpress/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='What I Wrote in 2015' href='http://www.cameronblevins.org/posts/what-i-wrote-in-2015/' />
+<link rel='next' title='American Panorama: Part I' href='http://www.cameronblevins.org/posts/american-panorama-part-i/' />
+<meta name="generator" content="WordPress 4.7.5" />
+<link rel='shortlink' href='http://www.cameronblevins.org/?p=1788' />
+<link rel="alternate" type="application/json+oembed" href="http://www.cameronblevins.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.cameronblevins.org%2Fposts%2Fthe-new-wave-of-review%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.cameronblevins.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.cameronblevins.org%2Fposts%2Fthe-new-wave-of-review%2F&#038;format=xml" />
+
+<link rel='dns-prefetch' href='//i0.wp.com'>
+<link rel='dns-prefetch' href='//i1.wp.com'>
+<link rel='dns-prefetch' href='//i2.wp.com'>
+<style type='text/css'>img#wpstats{display:none}</style>
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="The New Wave of Review" />
+<meta property="og:url" content="http://www.cameronblevins.org/posts/the-new-wave-of-review/" />
+<meta property="og:description" content="Digital history is riding a &#8220;review wave.&#8221; In the fall of 2015, the American Historical Association released its new &#8220;Guidelines for the Evaluation of Digital Scholarship in Histo…" />
+<meta property="article:published_time" content="2016-03-07T17:16:55+00:00" />
+<meta property="article:modified_time" content="2016-03-07T17:16:55+00:00" />
+<meta property="og:site_name" content="Cameron Blevins" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:card" content="summary" />
+</head>
+
+<body class="post-template-default single single-post postid-1788 single-format-standard">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<header id="masthead" class="site-header" role="banner">
+	
+		<div class="site-branding">
+		
+							<p class="site-title"><a href="http://www.cameronblevins.org/" rel="home">Cameron Blevins</a></p>
+						
+		</div><!-- .site-branding -->
+
+		
+		
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<h2 class="screen-reader-text">Primary Menu</h2>
+			
+			<div class="menu-header-menu-container"><ul id="primary-menu" class="menu"><li id="menu-item-1626" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1626"><a href="http://www.cameronblevins.org/about/">About</a></li>
+<li id="menu-item-1483" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1483"><a href="http://www.cameronblevins.org/research/">Research</a></li>
+<li id="menu-item-1492" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1492"><a href="http://www.cameronblevins.org/teaching-info/">Teaching</a></li>
+<li id="menu-item-1478" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1478"><a href="http://www.cameronblevins.org/cv/">C.V.</a></li>
+<li id="menu-item-1619" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-1619"><a href="http://www.cameronblevins.org/posts/">Posts</a></li>
+<li id="menu-item-1479" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1479"><a href="http://www.cameronblevins.org/resources/">Resources</a></li>
+</ul></div>			
+		</nav><!-- #site-navigation -->
+
+	
+			
+	</header><!-- #masthead -->
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			
+<article id="post-1788" class="post-1788 post type-post status-publish format-standard hentry category-uncategorized">
+	<header class="entry-header">
+		<h1 class="entry-title">The New Wave of Review</h1>
+		<div class="entry-meta">
+			<span class="posted-on">Posted on <a href="http://www.cameronblevins.org/posts/the-new-wave-of-review/" rel="bookmark"><time class="entry-date published updated" datetime="2016-03-07T09:16:55+00:00">March 7, 2016</time></a></span><span class="byline"> by <span class="author vcard"><a class="url fn n" href="http://www.cameronblevins.org/posts/author/admin/">Cameron Blevins</a></span></span>		</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>Digital history is riding a &#8220;review wave.&#8221; In the fall of 2015, the American Historical Association released its new <a href="http://historians.org/teaching-and-learning/digital-history-resources/evaluation-of-digital-scholarship-in-history/guidelines-for-the-evaluation-of-digital-scholarship-in-history">&#8220;Guidelines for the Evaluation of Digital Scholarship in History&#8221;</a>. In February 2016, the association&#8217;s flagship journal, <em>The American Historical Review</em>, published an exchange titled <a href="http://ahr.oxfordjournals.org/content/121/1/140">&#8220;Reviewing Digital History&#8221;</a> that inaugurated its first venture into digital project reviews. In my own field, the <em>Western Historical Quarterly</em> began printing <a href="http://dx.doi.org/10.2307/westhistquar.46.3.0394">&#8220;Born-Digital Reviews&#8221;</a> in the fall of 2015. The <em>Journal of American History</em> first started publishing website reviews in 2001, but in September 2013 changed this section to <a href="http://jah.oah.org/submit/digital-history-reviews/">&#8220;Digital History Reviews&#8221;</a> (the journal also publishes lengthier reviews of digital research projects in its &#8220;Metagraph&#8221; section). Moving forward, digital historians will increasingly find their work evaluated in some of the discipline&#8217;s major print journals.</p>
+<p>What&#8217;s odd is the degree to which supposedly hidebound print journals are the ones propelling this recent wave of review. After all, it&#8217;s not as if digital historians <em>need</em> print journals to review each other&#8217;s work. Blogging, Twitter, and other online platforms have stood at the heart of the field for years. We often tout the speed and openness of these platforms compared to the molasses-slow publishing cycles or gated paywalls of print journals. And yet, with some rare exceptions, we don&#8217;t use these platforms to engage in substantive or critical evaluation of the work of our peers. New digital history projects are released all the time. If you&#8217;re like me, you stick mostly to virtual high-fives: you tweet a link to the project, offer congratulations and commendations, and maybe add it to a syllabus or workshop. Deeper engagement takes place mainly through informal conversations or behind the doors of classrooms &#8211; not exactly the sort of public, rigorous intellectual evaluation that drives a field forward. Our colleagues deserve better.</p>
+<p>Digital history&#8217;s reticence for critical online evaluation stands in contrast to, say, the lively exchange that unfolded in 2015 over Matt Jockers&#8217;s Syuzhet package, a method that Jockers developed for identifying literary plot shapes using sentiment analysis. After Jockers <a href="http://www.matthewjockers.net/2015/02/02/syuzhet/">first announced Syuzhet</a>, Annie Swafford wrote <a href="https://annieswafford.wordpress.com/2015/03/02/syuzhet/">a pointed critique of the method</a>, and over the course of roughly one month the two literary scholars debated the validity of the method in <a href="https://storify.com/clancynewyork/contretemps-a-syuzhet">a series of back-and-forth posts</a>. <a href="http://tedunderwood.com/2015/03/24/why-its-hard-for-syuzhet-to-be-right-or-wrong-yet/">Other</a> <a href="http://txtlab.org/?p=470">digital</a> <a href="http://www.davidbamman.com/?p=52">humanities</a> <a href="http://www.scottbot.net/HIAL/?p=41271">scholars</a> <a href="http://benschmidt.org/2015/04/03/commodius-vici-of-recirculation-the-real-problem-with-syuzhet/">weighed</a> in from across the disciplinary spectrum. Whatever your thoughts on Syuzhet, the entire online exchange was a rigorous, substantive, and transparent evaluation of digital scholarship. So why do digital historians seem to prefer virtual high-fives to this kind of deeply evaluative online engagement?</p>
+<p>There are a few reasons for the dearth of online reviews and critiques within the field of digital history. For one, there are real drawbacks to online platforms. The immediacy of writing a blog post affords less time for measured reflection or carefully crafted or revised responses than, say, a review in a print journal. Self-published posts also lack editorial oversight. A good journal editor can vet the qualifications of reviewers, help them improve and refine their critiques, and serve as a mediator between reviewers and the people they&#8217;re reviewing. Without an editorial presence or a shared platform, online reviews run the risk of operating on unequal playing fields. One historian might be writing from a position of seniority or have a much larger or more vocal online readership than another. It&#8217;s also a lot easier for someone like me to tout online exchanges as &#8220;lively&#8221; or &#8220;freewheeling&#8221; when I don&#8217;t run the risk of getting denigrated or harassed because of my race or gender. Gatekeeping may be a dirty word, but openness isn&#8217;t exactly a panacea.</p>
+<p>There&#8217;s also the broader challenge of subject specialization and expertise. Digital history&#8217;s unifying thread is methodological, not thematic. As a historian of the nineteenth-century United States, just how deeply can I engage with, say, Vincent Brown&#8217;s <a href="http://revolt.axismaps.com/">spatial history narrative of Jamaica&#8217;s 1760-1761 slave revolt</a>? I might be able to discuss its interactive design or the way it uses a spatial framework to circumvent textual silences in the archive. But am I really capable of evaluating Brown&#8217;s interpretation of the revolt as a unified, strategic rebellion rather than a series of haphazard insurrections? Even more importantly, am I qualified to evaluate the <em>significance</em> of this claim in terms of how it changes our understanding of Caribbean history? Probably not. This is why it was so encouraging to see deep, thoughtful reviews of <em>Slave Revolt in Jamaica</em> in recent issues of <a href="http://socialtext.dukejournals.org/content/33/4_125"><em>Social Text</em></a> and <a href="http://ahr.oxfordjournals.org/content/121/1/"><em>The American Historical Review</em></a>. The reviews were written by <a href="http://socialtext.dukejournals.org/content/33/4_125/142.abstract">Elizabeth Maddock Dillon</a>, <a href="http://socialtext.dukejournals.org/content/33/4_125/147.abstract">Claudio Saunt</a>, and <a href="http://ahr.oxfordjournals.org/content/121/1/167.full">Natalie Zacek</a>, all of whom combine subject expertise with considerable experience in digital humanities projects. Both <em>Social Text</em> and <em>The American Historical Review</em> also gave Vincent Brown the <a href="http://socialtext.dukejournals.org/content/33/4_125/134.abstract">opportunity</a> to <a href="http://ahr.oxfordjournals.org/content/121/1/176.full">respond</a> to these reviews &#8211; exactly the type of substantive, scholarly exchange that seems to be in such short supply for digital history projects.</p>
+<p>But, again: <strong>these exchanges took place in print journals</strong>. Consequently, there was a gap of more than two years between the project&#8217;s release and the publication of reviews. This lag doesn&#8217;t make the exchanges any less valuable, but it hews far more closely to the way the discipline reviews print monographs. In an alternate scenario, the scholarly exchanges between Vincent Brown and his reviewers might have unfolded in a series of online posts over the course of a few months, rather than a few years, after the project&#8217;s release. Moving this back-and-forth out from behind the paywalls of Duke University Press and Oxford Journals could have allowed for other scholars to weigh in, much like what happened after the initial posts between Matt Jockers and Annie Swafford during the <a href="https://storify.com/clancynewyork/contretemps-a-syuzhet">Great Syuzhet Debates of 2015</a>.</p>
+<p>Ultimately, though, I find the format of this new wave of digital history less interesting than its substance. There are a few different ways to evaluate digital history projects, which I would group loosely under pedagogy and public engagement, academic scholarship, and what historian Fred Gibbs terms <a href="http://tah.oah.org/february-2016/new-forms-of-history-critiquing-data-and-its-representations/">&#8220;data and design criticism.&#8221;</a> Most digital history reviews fall under the first category of public engagement and pedagogy. <em>The Journal of American History&#8217;s</em> &#8220;Digital History Reviews&#8221;, for instance, frames its reviews follows: &#8220;The goal is to offer a gateway to the best works in digital history and to summarize their strengths and weaknesses <em>with particular attention to their utility for teachers</em> [emphasis added].&#8221; As I write in a forthcoming article for <a href="https://www.upress.umn.edu/book-division/books/debates-in-the-digital-humanities-2016"><em>Debates in Digital Humanities 2016</em></a>, this emphasis reflects the field&#8217;s particular genealogy and its roots in public history initiatives. Both the reviewers and the projects themselves continue to position digital history in terms of public engagement rather than academic scholarship.</p>
+<p>Some reviewers, of course, <em>do</em> try to evaluate digital history projects as works of academic scholarship, akin to a scholarly monograph. This second approach, conducted in large part by field specialists rather than &#8220;digital&#8221; historians, often compliment the public-facing dimension of a digital project before ultimately critiquing its shortcomings in terms of historiography and interpretation. In <a href="http://jah.oxfordjournals.org/content/102/3/977.full">a review of Richard S. Dunn&#8217;s website </a><em>Two Plantations</em>, Kirt von Daacke notes that <a href="http://www.twoplantations.com/">the site&#8217;s</a> archival collections &#8220;represent the best of digital media.&#8221; He ends the review, however, with a standard complaint: &#8220;Frustratingly, <em>Two Plantations</em> never indicates its target audience, only hints at interpretation, and ignores historical literature altogether. Its analysis section never really answers the questions it poses, nor does it situate Dunn&#8217;s interpretation in the broader scholarship on slavery.&#8221; Without explicit interpretive claims to grab onto, trying to evaluate the scholarly contributions of digital projects can feel like trying to scramble up a smooth wall.</p>
+<p>The third approach to reviewing digital history focuses on a project&#8217;s design, interface, methods, pipelines, and datasets. These kinds of <a href="http://tah.oah.org/february-2016/new-forms-of-history-critiquing-data-and-its-representations/">&#8220;data and design criticism&#8221;</a>, to borrow Fred Gibbs&#8217;s formulation, often make a passing appearance in digital history reviews, such as describing a website&#8217;s layout or critiquing the usability of certain features. Few reviewers, however, put it at the center of their evaluations. One recent exception is Joshua Sternfeld&#8217;s <a href="http://ahr.oxfordjournals.org/cgi/content/full/121.1.143?%20ijkey=hzJuDtkgZ08z2eS&amp;keytype=ref">lengthy review of <em>Digital Harlem</em></a> in the <em>American Historical Review</em>. In it, Sternfeld offers a prolonged description of the site&#8217;s digital infrastructure and features before launching a blistering critique of the project. He questions the representativeness of the project&#8217;s archive, criticizes its method of data entry and sampling, and ultimately describes <em>Digital Harlem</em> as &#8220;subverting the provenance of the source data.&#8221; For his part, the project&#8217;s co-creator Stephen Robertson returns serve with <a href="http://ahr.oxfordjournals.org/cgi/content/full/121.1.156?%20ijkey=DgatDy2exVl0DEL&amp;keytype=ref">an equally blistering counter</a> to Sternfeld&#8217;s review. Robertson argues that Sternfeld &#8220;misrepresents the design and content of the site&#8221; and &#8220;only fitfully engages with the spatial orientation of <em>Digital Harlem</em>.&#8221; Whatever side of the exchange you come down on, <a href="http://drstephenrobertson.com/article/reviewing-digital-history-digital-harlem-in-the-american-historical-review/">the back-and-forth</a> illustrates how questions of data and design can stand at the center of digital history reviews.</p>
+<p>I find myself frustrated by all three kinds of digital history reviews. First, I appreciate the value of evaluating projects in terms of pedagogy and public engagement. But the preponderance of this first kind of review reinforces the (false) notion that digital history does not, in fact, add substantive new academic knowledge to the field. This notion feeds into the second kind of review, one that takes digital projects to task for shortcomings surrounding academic argument and interpretation. I&#8217;m actually sympathetic to this kind of review, but they often mistakenly evaluate digital projects in terms of what the reviewer <em>wants</em> them to be (a traditional academic monograph) rather than what they <em>are</em> (an online exhibit, research tool, pedagogical resource, etc.). Finally, I worry that the third strand of digital history review &#8211; &#8220;data and design criticism&#8221; &#8211; will further exacerbate what I see as <a href="http://www.cameronblevins.org/posts/perpetual-sunrise-methodology/">the field&#8217;s problematic privileging of method over argument.</a> Data collection, interactivity, visualization and design &#8211; all these features should be part of the review process, but they need to be grounded in a frank evaluation of whether and how they lead to new knowledge or interpretations about the past.</p>
+<p>Does a digital history project fundamentally change how we understand a particular topic? How does it fit within the existing literature about this subject? What are a project&#8217;s methodological strengths or flaws <strong>specifically in relation to the project&#8217;s historical contributions?</strong> As a field, we need to dig deeper into these kinds of questions when we evaluate each other&#8217;s work. A call to burrow into the scholarly weeds of historiography and interpretive nuance puts me at odds with one of digital history&#8217;s core tenants: cultivating a broad audience. The general public doesn&#8217;t necessarily care how a particular scholarly brick fits within the grand edifice of historical knowledge. Neither, for that matter, do literary critics, media theorists, philosophers, or the rest of our colleagues in the broader digital humanities community. Hell, a lot of <em>historians</em> don&#8217;t want to wade too deeply into debates and arguments outside their specialization. But that doesn&#8217;t mean we shouldn&#8217;t do it.</p>
+<p>I&#8217;m calling for digital historians to seize and shape the current wave of review. Regardless of whether we do so in blogs or print journals, we need to more substantively evaluate the work of our peers. We need to evaluate and critique each other&#8217;s work not just in terms of public engagement and pedagogy or data and design, but in terms of new historical knowledge, insight, and interpretations that these projects contribute to the field. In the next few days I&#8217;m going to follow my own advice and post a review of a digital project related to my particular sub-field of nineteenth-century U.S. history. Readers who aren&#8217;t in this sub-field might find it tedious, but my hope is that it will spark similar evaluations of other digital history projects. Stay tuned&#8230;</p>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<span class="entry-footer-links cat-links">Posted in <a href="http://www.cameronblevins.org/posts/category/uncategorized/" rel="category tag">Uncategorized</a></span>	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+
+			
+	<nav class="navigation post-navigation" role="navigation">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="http://www.cameronblevins.org/posts/what-i-wrote-in-2015/" rel="prev">What I Wrote in 2015</a></div><div class="nav-next"><a href="http://www.cameronblevins.org/posts/american-panorama-part-i/" rel="next">American Panorama: Part I</a></div></div>
+	</nav>
+			
+<div id="comments-wrapper" class="comments-area-wrapper">
+
+	<div id="comments" class="comments-area">
+
+					<h2 class="comments-title">
+				11 thoughts on &ldquo;<span>The New Wave of Review</span>&rdquo;			</h2>
+
+			
+			<ol class="comment-list">
+						<li id="comment-24814" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://digitalhumanitiesnow.org/2016/03/editors-choice-the-new-wave-of-review/' rel='external nofollow' class='url'>Editors&#8217; Choice: The New Wave of Review</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-24918" class="comment odd alt thread-odd thread-alt depth-1 parent">
+			<article id="div-comment-24918" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='http://2.gravatar.com/avatar/8a747010152e83d6ab28fe33b4ea6f58?s=56&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/8a747010152e83d6ab28fe33b4ea6f58?s=112&amp;d=mm&amp;r=g 2x' class='avatar avatar-56 photo' height='56' width='56' />						<b class="fn"><a href='http://drstephenrobertson.com' rel='external nofollow' class='url'>Stephen Robertson</a></b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="http://www.cameronblevins.org/posts/the-new-wave-of-review/#comment-24918">
+							<time datetime="2016-03-17T10:31:41+00:00">
+								March 17, 2016 at 10:31 am							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Cameron</p>
+<p>I really appreciated the broader view and challenge you offer in this post. I have a couple of thoughts. </p>
+<p>I’d make a connection between the AHA guidelines and the expanded number of journals reviewing digital history. A review in a journal, rather than as a post on an individual scholar’s blog, will have some value in the evaluation of a digital project as part of the tenure and promotion process. It will literally appear alongside the reviews of monographs that are an accepted part of that process. In that sense, a journal review gives an imprimatur that a digital project is scholarship. The delay before a journal review appears is an issue regardless of what form of scholarship is being reviewed – another way in which journals remain wedded to the restrictions of print long after most of their readers access their contents online that I&#8217;ve complained about before . I’ve heard talk for a while about several journals moving to publishing reviews online as they come in. That can’t come soon enough. And for what its worth, the American Historical Review is providing authors with links that provide free access to their reviews, which mean those at least are not completely gated.</p>
+<p>Also, I think there is more going on my exchange with Josh Sternfeld than you note here. Much of Josh’s review – and consequently my response &#8212; is concerned with the design and data, but he also takes issue with the historical contribution of the site, and frames much of the review in those terms. On this point, Sternfeld read the site very narrowly within the terms of the existing historiography. He wanted it to speak explicitly to existing debates about law enforcement and community organizations. The site, and the larger project of which it is part, explicitly sought to escape those limited frames, and focus instead on everyday life – to present a view of life in Harlem that went beyond the race leaders, writers, artists, and musicians who dominate the existing historiography. Sternfeld dismissed this picture of everyday life as a “distorting mosaic of unrelated experiences.” I countered by pointing to the gap between the effort to understand racial violence by looking at clashes between the community and the police, which Sternfeld held up as what Digital Harlem should have focused on, and our article “Harlem in Black and White,” which explores not only clashes between police, but a diverse range of interracial encounters in businesses, schools, hospitals, public transport, on the streets, and in various sites of commercialized leisure. Our argument draws on the rich and diverse picture offered by the black press, which Matt Delmont’s new project Black Quotidian  is seeking to highlight, not to the narrow slice that dominates older writings on Harlem.</p>
+<p>So in the case of the review of Digital Harlem, there is method and argument &#8211; its a very different review than the one in the Journal of American History.</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.cameronblevins.org/posts/the-new-wave-of-review/?replytocom=24918#respond' onclick='return addComment.moveForm( "div-comment-24918", "24918", "respond", "1788" )' aria-label='Reply to Stephen Robertson'>Reply</a></div>			</article><!-- .comment-body -->
+<ol class="children">
+		<li id="comment-24929" class="comment byuser comment-author-admin bypostauthor even depth-2">
+			<article id="div-comment-24929" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='http://1.gravatar.com/avatar/19315143648a0c75ed6b8ed3c1933dc5?s=56&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/19315143648a0c75ed6b8ed3c1933dc5?s=112&amp;d=mm&amp;r=g 2x' class='avatar avatar-56 photo' height='56' width='56' />						<b class="fn">Cameron Blevins</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="http://www.cameronblevins.org/posts/the-new-wave-of-review/#comment-24929">
+							<time datetime="2016-03-18T09:12:31+00:00">
+								March 18, 2016 at 9:12 am							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Thanks for the thoughtful comments, Stephen.</p>
+<p>That&#8217;s a great point about the credentialing dimension of journal reviews and part of what makes the AHA guidelines important. It&#8217;s just interesting to me that digital historians have in some ways embraced a radical shift away from the traditional academic process (ex. eschewing monographs, embracing alt-ac career paths, large-scale project collaboration, blogging/Twitter/wikis, etc.) but that this shift has been much slower to extend to evaluation and review of each other&#8217;s work. That is clearly starting to change, but it seems to be taking place through quite traditional medium of the print journal.</p>
+<p>Thank you for expanding on the AHR exchange between yourself and Joshua Sternfeld. You&#8217;re absolutely correct that the debate merges &#8220;data and design&#8221; criticism with historiographical issues. This is, in fact, exactly the kind of blending that I&#8217;d love to see more of, and I didn&#8217;t mean to conflate it with my concerns over the risks over foregrounding method over argument. Having said that, after re-reading the review and your response, I think the bulk of the conversation hinges on a disagreement over the nature of the site and how it should be evaluated. As you point out at the end of your response: &#8220;While Sternfeld points to some of the strengths and weaknesses of Digital Harlem, ultimately his assessment is skewed because he does not recognize the category of digital scholarship into which the site falls&#8230;What historians and other humanities scholars gain from being able to access Digital Harlem is an opportunity to think about digital mapping as a research method, not as a means of making or illustrating arguments, but as a way to combine and explore heterogeneous sources.&#8221; </p>
+<p>This is where I think my own post runs up against a thorny reality: evaluating a digital history project is in many ways a lot harder than evaluating a book. <a href="http://railroads.unl.edu/blog/?p=1159" rel="nofollow">Will Thomas&#8217;s typology</a> certainly helps in that regard, but even those divisions can lead to problems. If Sternfeld evaluated Digital Harlem as a &#8220;thematic research collection,&#8221; should he have primarily evaluated it on that basis alone, or should he have reviewed it primarily in terms of the peer-reviewed articles and the monograph that came out of it? In the case of the former, this makes it harder to evaluate historical conclusions <em>and</em> data and design since it is primarily meant to be a tool. In the case of the latter, the connections running between the digital project and the peer-reviewed scholarship can be difficult to suss out from the perspective of a reviewer.</p>
+<p>-Cameron</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.cameronblevins.org/posts/the-new-wave-of-review/?replytocom=24929#respond' onclick='return addComment.moveForm( "div-comment-24929", "24929", "respond", "1788" )' aria-label='Reply to Cameron Blevins'>Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+</ol><!-- .children -->
+</li><!-- #comment-## -->
+		<li id="comment-24927" class="comment odd alt thread-even depth-1">
+			<article id="div-comment-24927" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='http://2.gravatar.com/avatar/55e088c40addca43d7659ffc1cd4bd39?s=56&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/55e088c40addca43d7659ffc1cd4bd39?s=112&amp;d=mm&amp;r=g 2x' class='avatar avatar-56 photo' height='56' width='56' />						<b class="fn"><a href='http://www.issuesindigitalhistory.net' rel='external nofollow' class='url'>Michael Kramer</a></b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="http://www.cameronblevins.org/posts/the-new-wave-of-review/#comment-24927">
+							<time datetime="2016-03-18T08:52:10+00:00">
+								March 18, 2016 at 8:52 am							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>I&#8217;ve been following this developing debate through teaching my Approaching Digital History seminar and I am struck by two implications of Stephen Robertson&#8217;s argument about which I am curious to hear responses: </p>
+<p>First, doesn&#8217;t the fact that the articulation of the full interpretive value of Digital Harlem took place in a more traditional peer-reviewed article suggest that the digital project itself is less interpretive historical publication than research tool. There&#8217;s nothing wrong with that, but it does leave open the question of how a digital publication itself can express historical argument and interpretation. If it is really more a research tool then we are indeed in Cameron&#8217;s &#8220;perpetual sunrise&#8221; of method. The arguments will have to take place around debates concerning method since that what research tools are, yes? Or are we deciding that the digital context troubles these typologies between publication and research tool? And then, are we fine living with that ambiguity? Or do we, must we, sort it out a bit more?</p>
+<p>This leads to my second question. If we are fine with that ambiguity, then why should we, in a normative sense, distinguish between &#8220;A review in a journal, rather than as a post on an individual scholar’s blog.&#8221; Yes, I get it: digital history must secure more professional legitimacy within the existing structures of the profession, and a review in a flagship journal secures this, but then doesn&#8217;t this undercut the very value of something like Digital Harlem, which itself purposefully shifts away to new territory from the rules and practices of those flagship journals. If projects themselves, or research tools, or whatever in-between things we are creating digitally occupy new ambiguous spaces between the old and new forms of history, why shouldn&#8217;t reviews also?</p>
+<p>I really mean these questions sincerely although I realize they sound a bit rhetorical in nature.</p>
+<p>Thanks,<br />
+Michael</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.cameronblevins.org/posts/the-new-wave-of-review/?replytocom=24927#respond' onclick='return addComment.moveForm( "div-comment-24927", "24927", "respond", "1788" )' aria-label='Reply to Michael Kramer'>Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+		<li id="comment-24931" class="comment even thread-odd thread-alt depth-1">
+			<article id="div-comment-24931" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='http://0.gravatar.com/avatar/f900bbd1debf25b8d4315a6e40e286ac?s=56&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/f900bbd1debf25b8d4315a6e40e286ac?s=112&amp;d=mm&amp;r=g 2x' class='avatar avatar-56 photo' height='56' width='56' />						<b class="fn"><a href='http://leahtams.org' rel='external nofollow' class='url'>Leah</a></b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="http://www.cameronblevins.org/posts/the-new-wave-of-review/#comment-24931">
+							<time datetime="2016-03-18T10:32:25+00:00">
+								March 18, 2016 at 10:32 am							</time>
+						</a>
+											</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>It seems to me that another issue here is the nature of print journals and how they inherently do not mesh well with digital media. Journals are limiting in so many ways, particularly when it comes to digital projects&#8211;you can&#8217;t follow the link to the project, you can&#8217;t see the aesthetic/design choices that are (possibly) being critiqued, and you can&#8217;t experience the interactivity that is (hopefully) provided by the project. Additionally, in a perhaps ironic twist, the very accessibility that draws many of us to digital history is taken away by the esoteric nature of print journals. Why shouldn&#8217;t print journals start meeting DH halfway, instead of failing to integrate it into an incompatible medium? I would love to see journals offer digitally published reviews. (And that isn&#8217;t to say that individually published reviews on scholars&#8217; blogs shouldn&#8217;t be considered legitimate&#8211;I absolutely think they are. But I also think that there is a more ideal middle ground where DH projects, reviews, and journals can&#8211;and should&#8211;meet.)</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel='nofollow' class='comment-reply-link' href='http://www.cameronblevins.org/posts/the-new-wave-of-review/?replytocom=24931#respond' onclick='return addComment.moveForm( "div-comment-24931", "24931", "respond", "1788" )' aria-label='Reply to Leah'>Reply</a></div>			</article><!-- .comment-body -->
+</li><!-- #comment-## -->
+		<li id="comment-25100" class="pingback odd alt thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://digitalhumanitiesnow.org/2016/03/american-panorama-part-i/' rel='external nofollow' class='url'>Editors&#8217; Choice: American Panorama</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-25103" class="pingback even thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://www.cameronblevins.org/posts/american-panorama-part-i/' rel='external nofollow' class='url'>American Panorama: Part I | Cameron Blevins</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-25106" class="pingback odd alt thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href='http://www.cameronblevins.org/posts/american-panorama-part-ii/' rel='external nofollow' class='url'>American Panorama: Part II | Cameron Blevins</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-25208" class="pingback even thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href='https://yesterdaysfuture.wordpress.com/2016/04/09/a-guide-to-writingreviewing-digital-history/' rel='external nofollow' class='url'>A Guide to Writing/Reviewing Digital History | Yesterday&#039;s Future</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-25240" class="pingback odd alt thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href='https://mburkehistory.wordpress.com/2016/04/12/annotated-bibliography-cluster-ii-writing-reviewing-history-in-the-digital-age/' rel='external nofollow' class='url'>Annotated Bibliography Cluster II: Writing &amp; Reviewing History in the Digital Age | History in the DIgital Age</a> 			</div>
+</li><!-- #comment-## -->
+		<li id="comment-25243" class="pingback even thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href='https://hollythehistorian.wordpress.com/2016/04/12/blog-post-12-writing-reviewing-history-in-the-digital-age-bibliography/' rel='external nofollow' class='url'>Blog Post #12: Writing &amp; Reviewing History in the Digital Age Bibliography. | Holly the Historian</a> 			</div>
+</li><!-- #comment-## -->
+			</ol><!-- .comment-list -->
+
+			
+		
+		
+			<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/posts/the-new-wave-of-review/#respond" style="display:none;">Cancel reply</a></small></h3>			<form action="http://www.cameronblevins.org/wordpress/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+				<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" aria-required="true" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" aria-required='true' required='required' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" aria-required='true' required='required' /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='1788' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="d9f9590b26" /></p><p class="comment-subscription-form"><input type="checkbox" name="subscribe_comments" id="subscribe_comments" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;" /> <label class="subscribe-label" id="subscribe-label" for="subscribe_comments">Notify me of follow-up comments by email.</label></p><p class="comment-subscription-form"><input type="checkbox" name="subscribe_blog" id="subscribe_blog" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;" /> <label class="subscribe-label" id="subscribe-blog-label" for="subscribe_blog">Notify me of new posts by email.</label></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="194"/></p>			</form>
+			</div><!-- #respond -->
+	
+	</div><!-- #comments -->
+
+</div><!-- #comments-wrapper -->
+
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	</div><!-- #content -->
+</div><!-- #page -->
+
+	<div style="display:none">
+	<div class="grofile-hash-map-8a747010152e83d6ab28fe33b4ea6f58">
+	</div>
+	<div class="grofile-hash-map-19315143648a0c75ed6b8ed3c1933dc5">
+	</div>
+	<div class="grofile-hash-map-55e088c40addca43d7659ffc1cd4bd39">
+	</div>
+	<div class="grofile-hash-map-f900bbd1debf25b8d4315a6e40e286ac">
+	</div>
+	</div>
+<script type='text/javascript' src='http://www.cameronblevins.org/wordpress/wp-content/plugins/akismet/_inc/form.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://www.cameronblevins.org/wordpress/wp-content/plugins/jetpack/modules/photon/photon.js?ver=20130122'></script>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201720'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2017Mayaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.cameronblevins.org/wordpress/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://www.cameronblevins.org/wordpress/wp-content/themes/simppeli/js/skip-link-focus-fix.min.js?ver=1.1.0'></script>
+<script type='text/javascript' src='http://www.cameronblevins.org/wordpress/wp-includes/js/comment-reply.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://www.cameronblevins.org/wordpress/wp-includes/js/wp-embed.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-201720.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:4.9',blog:'15686627',post:'1788',tz:'-7',srv:'www.cameronblevins.org'} ]);
+	_stq.push([ 'clickTrackerInit', '15686627', '1788' ]);
+</script>
+
+</body>
+</html>

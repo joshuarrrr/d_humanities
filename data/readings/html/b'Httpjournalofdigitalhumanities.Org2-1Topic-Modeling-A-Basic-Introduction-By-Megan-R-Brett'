@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1 "/> 
+<title> &raquo; Topic Modeling: A Basic Introduction Journal of Digital Humanities</title>
+<link rel="icon" 
+      type="image/i" 
+      href="http://journalofdigitalhumanities.org/wp-content/themes/jdh/images/favicon.ico">
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" href="http://journalofdigitalhumanities.org/wp-content/themes/jdh/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://journalofdigitalhumanities.org/wp-content/themes/jdh/stylesheets/skeleton.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://journalofdigitalhumanities.org/wp-content/themes/jdh/stylesheets/layout.css" type="text/css" media="screen" />
+<link href='http://fonts.googleapis.com/css?family=Arvo:400,400italic|Ubuntu:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link rel="pingback" href="http://journalofdigitalhumanities.org/xmlrpc.php" />
+
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/journalofdigitalhumanities.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='footnote-voodoo-css'  href='http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/footnote-voodoo.css?ver=2016.1230' type='text/css' media='all' />
+<link rel='stylesheet' id='twitter-archive-style-css'  href='http://journalofdigitalhumanities.org/wp-content/plugins/twitter-search-shortcode/ta-style.css?ver=4.7.5' type='text/css' media='all' />
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/modernizr.custom.20659.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/footnote-voodoo.js?ver=2016.1230'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.hoverIntent.minified.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.cookie.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.dcjqaccordion.2.9.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/plugins/wp-mailto-links/public/js/wp-mailto-links.js?ver=4.7.5'></script>
+<link rel='https://api.w.org/' href='http://journalofdigitalhumanities.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://journalofdigitalhumanities.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://journalofdigitalhumanities.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='The Details: Training and Validating Big Models on Big Data' href='http://journalofdigitalhumanities.org/2-1/the-details-by-david-mimno/' />
+<link rel='next' title='Topic Modeling and Digital Humanities' href='http://journalofdigitalhumanities.org/2-1/topic-modeling-and-digital-humanities-by-david-m-blei/' />
+<meta name="generator" content="WordPress 4.7.5" />
+<link rel="canonical" href="http://journalofdigitalhumanities.org/2-1/topic-modeling-a-basic-introduction-by-megan-r-brett/" />
+<link rel='shortlink' href='http://journalofdigitalhumanities.org/?p=4079' />
+<link rel="alternate" type="application/json+oembed" href="http://journalofdigitalhumanities.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fjournalofdigitalhumanities.org%2F2-1%2Ftopic-modeling-a-basic-introduction-by-megan-r-brett%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://journalofdigitalhumanities.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fjournalofdigitalhumanities.org%2F2-1%2Ftopic-modeling-a-basic-introduction-by-megan-r-brett%2F&#038;format=xml" />
+<style type="text/css">
+	.addw2p {
+		list-style-type: none;
+		list-style-image: none;
+	}
+</style>
+<script type="text/javascript" src="http://journalofdigitalhumanities.org/wp-content/plugins/audio-player/assets/audio-player.js?ver=2.0.4.6"></script>
+<script type="text/javascript">AudioPlayer.setup("http://journalofdigitalhumanities.org/wp-content/plugins/audio-player/assets/player.swf?ver=2.0.4.6", {width:"290",animation:"yes",encode:"yes",initialvolume:"60",remaining:"no",noinfo:"no",buffer:"5",checkpolicy:"no",rtl:"no",bg:"E5E5E5",text:"333333",leftbg:"CCCCCC",lefticon:"333333",volslider:"666666",voltrack:"FFFFFF",rightbg:"B4B4B4",rightbghover:"999999",righticon:"333333",righticonhover:"FFFFFF",track:"FFFFFF",loader:"009900",border:"CCCCCC",tracker:"DDDDDD",skip:"666666",pagebg:"FFFFFF",transparentpagebg:"yes"});</script>
+<script type="text/javascript" src="http://journalofdigitalhumanities.org/wp-content/plugins/degradable-html5-audio-and-video/incl/audio-player.js"></script>
+<script type="text/javascript">
+	AudioPlayer.setup("http://journalofdigitalhumanities.org/wp-content/plugins/degradable-html5-audio-and-video/incl/player.swf", {
+		/* Format the player by inserting lines here. See http://wpaudioplayer.com/standalone */
+		width: 290,
+		initialvolume: 80
+	});
+</script><style type="text/css">
+
+	.footnote-indicator:before {
+		content: url(http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/footnoted.png);
+		width: 10px;
+		height: 10px;
+	}
+	ol.footnotes li {
+		background: #eeeeee url(http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/note.png) 0px 0px repeat-x;
+	}
+</style>
+<script type="text/javascript">
+	// Globals
+	var tipUpUrl = 'url(http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/tip.png)';
+	var tipDownUrl = 'url(http://journalofdigitalhumanities.org/wp-content/plugins/footnotes-for-wordpress/tip-down.png)';
+</script>
+			<script type="text/javascript">
+		<!--Note here the \s at the begining of the regular expression here. This is to enforce that it will only select from hashtags with a space in front of them. Otherwise it may alter links to anchors.-->
+			hashtag_regexp = /\s#([a-zA-Z0-9]+)/g;
+
+			function linkHashtags(text) {
+				return text.replace(
+					hashtag_regexp,
+					' <a class="hashtag" target="_blank" href="http://twitter.com/#search?q=$1">#$1</a>'
+				);
+			}
+
+			jQuery(document).ready(function(){
+				jQuery('p').each(function() {
+					jQuery(this).html(linkHashtags(jQuery(this).html()));
+				});
+			});
+			
+			jQuery('p').html(linkHashtags(jQuery('p').html()));  
+
+			
+		</script>
+		<script type="text/javascript">
+			
+			at_regexp = /\s\u0040([a-zA-Z0-9]+)/g;
+			
+			function linkAt(text) {
+				return text.replace(
+					at_regexp,
+					' <a class="twitter-user" target="_blank" href="http://twitter.com/$1">@$1</a>'
+				);
+			}
+
+			jQuery(document).ready(function(){
+				jQuery('p').each(function() {
+					jQuery(this).html(linkAt(jQuery(this).html()));
+				});
+			});
+			
+			jQuery('p').html(linkAt(jQuery('p').html()));  			
+			
+		</script>
+	<style type="text/css" media="all">
+/* WP Mailto Links Plugin */
+span.wpml-nodis { display:none !important; }
+span.wpml-rtl { unicode-bidi:bidi-override !important; direction:rtl !important; display:inline !important; }
+.wpml-encoded { position:absolute; margin-top:-0.3em; z-index:1000; color:green; }
+.mail-link { white-space:nowrap; }
+
+a.mail-icon-1 {
+    background-image:url("http://journalofdigitalhumanities.org/wp-content/plugins/wp-mailto-links/public/images/mail-icon-1.png");
+    background-repeat:no-repeat;
+        background-position:100% 50%; padding-right:18px;
+    }
+</style>
+<!-- begin Fast Secure reCAPTCHA - page header css -->
+<style type="text/css">
+div.fs-recaptcha-comments { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-bp-comments { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-login { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-side-login { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-registration { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-bp-registration { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-ms-registration { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-lostpassword { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-wc-checkout { display:block; clear:both; margin-bottom:1em; }
+div.fs-recaptcha-jetpack { display:block; clear:both; margin-bottom:1em; }
+.fs-recaptcha-jetpack p { color:#DC3232; }
+</style>
+<!-- end Fast Secure reCAPTCHA - page header css -->
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+  
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+    $('#menu-table-of-contents').dcAccordion({
+		eventType: 'click',
+		hoverDelay: 0,
+		menuClose: false,
+		autoClose: true,
+		saveState: false,
+		autoExpand: true,
+		classExpand: 'current-menu-item',
+		classDisable: '',
+		showCount: false,
+		disableLink: true,
+		cookie: 'dc_jqaccordion_widget-2',
+		speed: 'fast'
+    });
+});
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//chnmdev.gmu.edu/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 70]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//chnmdev.gmu.edu/piwik/piwik.php?idsite=70" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+
+</head>
+
+<body class="post-template-default single single-post postid-4079 single-format-standard">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37455097-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><div class="wrap">
+
+<header>
+
+    <div class="container">
+        
+        <a class="site-title" href="http://journalofdigitalhumanities.org">
+            <img src="http://journalofdigitalhumanities.org/wp-content/themes/jdh/images/logo.png" alt="Journal of Digital Humanities">
+        </a>
+
+        <form role="search" method="get" id="searchform" action="http://journalofdigitalhumanities.org/">
+    <div>
+        <input type="text" value="" placeholder="Search JDH"name="s" id="s" />
+        <input type="submit" value="Search JDH" name="searchsubmit" id="searchsubmit" />
+    </div>
+</form>    
+
+        <nav>        
+            <ul class="social">
+                <li><a href="http://feeds.feedburner.com/journalofdigitalhumanities" class="RSS">Subscribe to the RSS</a></li>
+            </ul>
+
+            <div class="tabs"><ul id="menu-main-menu" class="menu"><li id="menu-item-436" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-436"><a href="http://journalofdigitalhumanities.org/about/">About</a></li>
+<li id="menu-item-2267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2267"><a href="http://journalofdigitalhumanities.org/volumes/">Volumes</a></li>
+<li id="menu-item-435" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-435"><a href="http://journalofdigitalhumanities.org/submissions/">Submissions</a></li>
+</ul></div>            
+        </nav>
+        
+    </div>
+
+</header>
+
+<section id="content" class="container row ">
+
+
+
+<div class="sidebar four columns alpha">
+    
+<h3>Table of Contents for Vol. 2, No. 1 Winter 2012</h3>
+
+<ul id="menu-table-of-contents" class="menu">
+
+        <li class="parent"><a href="http://journalofdigitalhumanities.org/category/2-1/introductions-2-1/">Introductions</a>
+            <ul class="sub-menu">
+                        <li><a href="http://journalofdigitalhumanities.org/2-1/pacing-scholarly-conversations/">Pacing Scholarly Conversations</a><br>The Editors</li><li><a href="http://journalofdigitalhumanities.org/2-1/dh-contribution-to-topic-modeling/">The Digital Humanities Contribution to Topic Modeling</a><br>Scott B. Weingart and Elijah Meeks</li>            </ul>
+        </li>
+        <li class="parent"><a href="http://journalofdigitalhumanities.org/category/2-1/beginnings/">Beginnings</a>
+            <ul class="sub-menu">
+                        <li><a href="http://journalofdigitalhumanities.org/2-1/topic-modeling-and-digital-humanities-by-david-m-blei/">Topic Modeling and Digital Humanities</a><br>David M. Blei</li><li class="current-menu-item"><a href="http://journalofdigitalhumanities.org/2-1/topic-modeling-a-basic-introduction-by-megan-r-brett/">Topic Modeling: A Basic Introduction</a><br>Megan R. Brett</li><li><a href="http://journalofdigitalhumanities.org/2-1/the-details-by-david-mimno/">The Details: Training and Validating Big Models on Big Data</a><br>David Mimno</li>            </ul>
+        </li>
+        <li class="parent"><a href="http://journalofdigitalhumanities.org/category/2-1/applications-2-1/">Applications and Critiques</a>
+            <ul class="sub-menu">
+                        <li><a href="http://journalofdigitalhumanities.org/2-1/topic-modeling-and-figurative-language-by-lisa-m-rhody/">Topic Modeling and Figurative Language</a><br>Lisa M. Rhody</li><li><a href="http://journalofdigitalhumanities.org/2-1/topic-model-data-for-topic-modeling-and-figurative-language-by-lisa-m-rhody/">Topic Model Data for Topic Modeling and Figurative Language</a><br>Lisa M. Rhody</li><li><a href="http://journalofdigitalhumanities.org/2-1/what-can-topic-models-of-pmla-teach-us-by-ted-underwood-and-andrew-goldstone/">What Can Topic Models of PMLA Teach Us About the History of Literary Scholarship?</a><br>Ted Underwood and Andrew Goldstone</li><li><a href="http://journalofdigitalhumanities.org/2-1/words-alone-by-benjamin-m-schmidt/">Words Alone: Dismantling Topic Models in the Humanities</a><br>Benjamin M. Schmidt</li><li><a href="http://journalofdigitalhumanities.org/2-1/code-appendix-for-words-alone-by-benjamin-m-schmidt/">Code Appendix for "Words Alone: Dismantling Topic Models in the Humanities"</a><br>Benjamin M. Schmidt</li>            </ul>
+        </li>
+        <li class="parent"><a href="http://journalofdigitalhumanities.org/category/2-1/reviews-2-1/">Reviews</a>
+            <ul class="sub-menu">
+                        <li><a href="http://journalofdigitalhumanities.org/2-1/review-mallet-by-ian-milligan-and-shawn-graham/">Review of MALLET, produced by Andrew Kachites McCallum</a><br>Ian Milligan and Shawn Graham</li><li><a href="http://journalofdigitalhumanities.org/2-1/review-papermachines-by-adam-crymble/">Review of Paper Machines, produced by Chris Johnson-Roberson and Jo Guldi</a><br>Adam Crymble</li>            </ul>
+        </li>
+        <li class="parent"><a href="http://journalofdigitalhumanities.org/category/2-1/respond-2-1/">Respond</a>
+            <ul class="sub-menu">
+                        <li><a href="http://journalofdigitalhumanities.org/2-1/respond-to-jdh-2-1/">Respond to JDH 2.1</a><br>The Editors</li><li><a href="http://journalofdigitalhumanities.org/2-1/responses-from-twitter/">Responses from Twitter</a><br>The Editors</li>            </ul>
+        </li>
+   
+    <li><a href="http://journalofdigitalhumanities.org/authors/">Authors</a></li>
+</ul>
+</div>
+    
+<div id="article" class="ten columns offset-by-two omega">
+
+
+    <h1>Topic Modeling: A Basic Introduction</h1>
+    
+            <h4 class="author-name"><a href="http://journalofdigitalhumanities.org/author/mbrett/" title="Posts by Megan R. Brett" class="author url fn" rel="author">Megan R. Brett</a></h4>
+        
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Focoins.info%3Agenerator&amp;rft.type=&amp;rft.format=text&amp;rft.title=Topic+Modeling%3A+A+Basic+Introduction&amp;rft.source=Journal+of+Digital+Humanities&amp;rft.date=2013-04-08&amp;rft.identifier=http%3A%2F%2Fjournalofdigitalhumanities.org%2F2-1%2Ftopic-modeling-a-basic-introduction-by-megan-r-brett%2F&amp;rft.language=English&amp;rft.subject=Beginnings&amp;rft.subject=Vol.+2%2C+No.+1+Winter+2012&amp;rft.aulast=Brett&amp;rft.aufirst=Megan+R."></span><p>The purpose of this post is to help explain some of the basic concepts of topic modeling, introduce some topic modeling tools, and point out some other posts on topic modeling. The intended audience is historians, but it will hopefully prove useful to the general reader.</p>
+<h3>What is Topic Modeling?</h3>
+<p>Topic modeling is a form of text mining, a way of identifying patterns in a corpus. You take your corpus and run it through a tool which groups words across the corpus into ‘topics’. Miriam Posner has <a title="Miriam Posner, &quot;Very basic strategies for interpreting results from the Topic Modeling Tool&quot;" href="http://miriamposner.com/blog/?p=1335" target="_blank">described topic modeling</a> as “a method for finding and tracing clusters of words (called “topics” in shorthand) in large bodies of texts.”</p>
+<p>What, then, is a topic? One <a title="Susan Garfinkel, &quot;&quot;A topic is a recurring pattern of co-occurring words.&quot; 3 Nov 2012" href="https://twitter.com/footnotesrising/status/264823621799780353" target="_blank">definition offered on Twitter</a> during a conference on topic modeling described a topic as “a recurring pattern of co-occurring words.” A topic modeling tool looks through a corpus for these clusters of words and groups them together by a process of similarity (more on that later). In a good topic model, the words in topic make sense, for example “navy, ship, captain” and “tobacco, farm, crops.”</p>
+<h3>How does it work?</h3>
+<p>One way to think about how the process of topic modeling works is to imagine working through an article with a set of highlighters. As you read through the article, you use a different color for the key words of themes within the paper as you come across them. When you were done, you could copy out the words as grouped by the color you assigned them. That list of words is a topic, and each color represents a different topic. Note: this description is inspired by the following illustration from <a title="David Blei, “Probabilistic Topic Models.” [pdf]" href="http://www.cs.princeton.edu/%7Eblei/papers/Blei2012.pdf" target="_blank">David Blei&#8217;s article</a> [pdf], which is one of the best visual representations of a topic I’ve found.<sup>[<a href="#topic-modeling-a-basic-introduction-by-megan-r-brett-n-1" class="footnoted" id="to-topic-modeling-a-basic-introduction-by-megan-r-brett-n-1">1</a>]</sup></p>
+<div id="attachment_4243" style="width: 310px" class="wp-caption alignnone"><a href="http://journalofdigitalhumanities.org/wp-content/uploads/2013/02/Screen-Shot-2012-11-11-at-9.31.22-PM-300x189.png"><img class="size-full wp-image-4243" title="Illustration from Blei, D. 2012. “Probabilistic Topic Models.” Communications of the ACM 55 (4): 77–84. doi: 10.1145/2133806.2133826 Available at http://www.cs.princeton.edu/~blei/papers/Blei2012.pdf." alt="Screen-Shot-2012-11-11-at-9.31.22-PM-300x189" src="http://journalofdigitalhumanities.org/wp-content/uploads/2013/02/Screen-Shot-2012-11-11-at-9.31.22-PM-300x189.png" width="300" height="189" /></a><p class="wp-caption-text">Figure 1: Illustration from Blei, D. 2012. “Probabilistic Topic Models.”</p></div>
+<p>How the actual topic modeling programs is determined by mathematics. Many topic modeling articles include equations to explain the mathematics, but I personally cannot parse them. The best non-equation explanation of how at least one topic modeling program assigns words to topics was given by David Mimno at a <a title="MITH Workshop, &quot;Topic Modeling&quot;" href="http://mith.umd.edu/topicmodeling/" target="_blank">conference</a> on topic modeling held in November 2012 by the Maryland Institute for Technology in the Humanities and the National Endowment for the Humanities. As he <a title="David Mimno, Video of &quot;Topic Modeling&quot; Presentation" href="http://vimeo.com/53080123" target="_blank">explains</a> (starting at around 9:00), the computer compares the occurrence of topics within a document to how a word has been assigned in other documents to find the best match (you can find Mimno’s <a title="David Mimno, Slides for Topic Modeling Presentation" href="http://www.cs.princeton.edu/%7Emimno/" target="_blank">slides on his website</a>).</p>
+<p>The model Mimno is explaining is latent Dirichlet allocation, or LDA, which seems to be the most widely used model in the humanities. LDA has strengths and weaknesses, and it may not be right for all projects. It does form the basis of MALLET, which is an open source and fairly accessible tool for topic modeling.</p>
+<p>For more detailed explanations of how topic modeling works, and how it can be applied, take a look at the other <a title="Speaker Videos from MITH Topic Modeling Workshop" href="http://mith.umd.edu/topicmodeling/speaker-videos/" target="_blank">speaker videos</a> from the<a title="Schedule for Topic Modeling Workshop at MITH" href="http://mith.umd.edu/topicmodeling/" target="_blank"> MITH/NEH conference</a>. Ted Underwood has offered his explanation of how the process works in a post titled <a title="Ted Underwood, &quot;Topic Modeling Made Just Simple Enough.&quot;" href="http://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/" target="_blank">Topic Modeling Made Just Simple Enough</a>.</p>
+<p>Scott B. Weingart has written <a title="Scott B. Weingart, &quot;Topic Modeling for Humanists: A Guided Tour&quot;" href="http://www.scottbot.net/HIAL/?p=19113" target="_blank">an excellent overview of current scholarship on topic modeling</a> with links to everything from a <a title="Matthew Jockers, &quot;The LDA Buffet is Now Open; or, Latent Dirichlet Allocation for English Majors&quot;" href="http://www.matthewjockers.net/2011/09/29/the-lda-buffet-is-now-open-or-latent-dirichlet-allocation-for-english-majors/" target="_blank">fable-like explanation of topic modeling</a> to articles which<a title="Allen Beye Riddell, &quot;A Simple Topic Model (Mixture of Unigrams)&quot;" href="http://ariddell.org/weblog/2012/07/22/simple-topic-model/" target="_blank"> delve into the technical side</a>. Many of the more complex articles and posts include complex-looking equations, but it is possible to understand the basics of topic modeling without knowing how to unravel the equations.</p>
+<h3>What do you need to topic model?</h3>
+<p><strong>1. A corpus, preferably a large one</strong><br />
+If you wanted to topic model one fairly short document, you might be better off with a set of highlighters or a good pdf annotation tool. Topic modeling is built for large collections of texts. The people behind <a title="Chris Johnson-Roberson and Jo Guldi, Paper Machines program on GitHub" href="https://github.com/chrisjr/papermachines" target="_blank">Paper Machines</a>, a tool which allows you to topic model your Zotero library, recommend that you have at least 1,000 items in the library or collection you want to model. The question of “how big” or “how small” is ultimately subjective, but I think you want to have at least in the hundreds if not a minimum of 1,000 documents in your corpus. Bear in mind that you define what a document is for the tool. If you have a particularly long work you can divide it into pieces and call each piece a document.</p>
+<p>With some tools, you will have to prepare the corpus before you can topic model. Essentially what you have to do is tokenize the text, changing it from human-readable sentences to a string of words by stripping out the punctuation and removing capitalization. You can also tell it to ignore “stopwords” which you define, which usually include things like a, the, and, etc. What you (hopefully) end up with is a document with no capitalization, punctuation, or numbers to throw off the algorithms.</p>
+<p>There are a number of ways to clean up your text for topic modeling (and text mining). For example, you can use <a title="Laura O'Hara, &quot;Introduction to Python and Regular Expressions&quot;" href="http://www.fredgibbs.net/clio3workspace/blog/cleaning-bad-ocr-with-regular-expressions-and-python/" target="_blank">Python and Regular Expressions</a>, the <a title="Jeri Wieringa, &quot;Tutorial for Cleaning Up Downloaded Files&quot;" href="http://www.fredgibbs.net/clio3workspace/blog/cleaning-up-downloaded-files/" target="_blank">command line</a> (Terminal), and <a title="Fred Gibbs, &quot;Tutorial for Reading with R&quot;" href="http://www.fredgibbs.net/clio3workspace/blog/reading-with-r/" target="_blank">R</a>.</p>
+<p>If you want to give topic modeling a try, but do not have a corpus of your own, there are sources for large data. You could, for example, download the complete works of Charles Dickens as a series of text files from <a title="Project Gutenberg Website" href="http://www.gutenberg.org/" target="_blank">Project Gutenberg</a>, which makes a large number of public domain works available as txt files. <a title="JSTOR Data for Research Website" href="http://about.jstor.org/service/data-for-research" target="_blank">JSTOR Data for Research</a>, which requires registration, allows you to download the results of a search as a csv file, which is accessible for MALLET and other topic modeling and text mining processes.</p>
+<p><strong>2. Familiarity with the corpus</strong><br />
+This may seem counterintuitive if you’re planning to use topic modeling to help you find out more about a large corpus, and yet it is very important that you at least have an idea of what should be there. Topic modeling is not an exact science by any means. The only way to know if your results are useful or wildly off the mark is to have a general idea of what you should be seeing. Most people would probably spot the outlier in a topic of “tobacco, farm, crops, navy” but more complex topics might be less obvious.</p>
+<p><strong>3. A tool to do the topic modeling</strong><br />
+However you’re going to topic model, you need to decide what you are going to use and have a way to use it.</p>
+<p>Many humanists use <a title="MALLET Program Website" href="http://mallet.cs.umass.edu/" target="_blank">MALLET</a> and by extension LDA. MALLET is particularly useful for those who are comfortable working in the command line, and it takes care of tokenizing and stopwords for you. <a title="The Programming Historian Website" href="http://programminghistorian.org/" target="_blank">The Programming Historian</a> has a <a title="Shawn Graham, Scott Weingart, and Ian Milligan, &quot;Getting Started with Topic Modeling and MALLET&quot;" href="http://programminghistorian.org/lessons/topic-modeling-and-mallet" target="_blank">tutorial</a> which walks you through the basics of working with MALLET.</p>
+<p>The Stanford Natural Language Processing Group has created a visual interface for working with MALLET, <a title="Stanford Topic Modeling Toolbox" href="http://nlp.stanford.edu/software/tmt/tmt-0.4/" target="_blank">the Stanford Topic Modeling Toolbox</a>. If you chose to work with TMT, read Miriam Posner’s blog post on very basic strategies for <a title="Miriam Posner, &quot;Very basic strategies for interpreting results from the Topic Modeling Tool&quot;" href="http://miriamposner.com/blog/?p=1335" target="_blank">interpreting results from the Topic Modeling Tool</a>.</p>
+<p>If you have a WordPress install and are comfortable with Python, check out Peter Organisciak’s <a title="Peter Organisciak, &quot;Processing WordPress Exports for Mallet&quot;" href="http://www.porganized.com/blog/processing-wordpress-exports-for-mallet" target="_blank">post on processing WordPress exports for MALLET</a>.</p>
+<p>It is important to be aware that you need to train these tools. Topic modeling tools only return as many topics as you tell them to; it matters whether you specify 50, 5, or 500. If you imagine topic modeling as a switchboard, there are a large number of knobs and dials which can be adjusted. These have to be tuned, mostly through trial and error, before the results are useful.</p>
+<p>If you use <a title="Zotero" href="http://www.zotero.org/" target="_blank">Zotero</a>, you can use <a title="Chris Johnson-Roberson and Jo Guldi, Paper Machines GitHub Repository" href="https://github.com/chrisjr/papermachines" target="_blank">Paper Machines</a> to topic model particularly large collections. Paper Machines is an open-source project, the <a title="metaLAB@Harvard, &quot;Paper Machines&quot;" href="http://metalab.harvard.edu/2012/07/paper-machines/" target="_blank">result of a collaboration between Jo Guldi and Chris Johnson-Roberson, supported by Google Summer of Code, the William F. Milton Fund, and metaLAB @ Harvard</a>. You can do nifty visualizations with Paper Machines, but for topic modeling you need at least 1000 documents. Luckily, you can supplement your Zotero library with data from JSTOR Data for Research.</p>
+<p><strong>4. A way to understand your results</strong><br />
+Topic modeling output is not entirely human readable. One way to understand what the program is telling you is through a visualization, but be sure that you know how to understand what the visualization is telling you. Topic modeling tools are fallible, and if the algorithm isn’t right, they can return some bizarre results.</p>
+<div id="attachment_4244" style="width: 310px" class="wp-caption alignnone"><a href="http://journalofdigitalhumanities.org/wp-content/uploads/2013/02/Screen-Shot-2012-12-11-at-9.35.18-PM-300x208.png" target="_blank"><img class="size-full wp-image-4244" title="Paper Machines output." alt="Paper Machines output. Pretty, but what does it mean?" src="http://journalofdigitalhumanities.org/wp-content/uploads/2013/02/Screen-Shot-2012-12-11-at-9.35.18-PM-300x208.png" width="300" height="208" /></a><p class="wp-caption-text">Figure 2: Paper Machines output. Pretty, but what does it mean?</p></div>
+<p>Ben Schmidt, who is using k-means clustering to classify whaling voyages, plugged his data into LDA to <a title="Ben Schmidt, &quot;When you have a MALLET, everything looks like a nail&quot;" href="http://sappingattention.blogspot.com/2012/11/when-you-have-mallet-everything-looks.html" target="_blank">demonstrate the ways in which modeling can return results which ultimately make no sense</a>. His post explains the dangers of chimerical models, where two clusters get stuck together (think “cat, fish, mouse” and “gun, rod, hunt”).</p>
+<h3>Topic Modeling and History</h3>
+<p>Topic modeling is not necessarily useful as evidence but it makes an excellent tool for discovery.</p>
+<p>Cameron Blevins has a <a title="Cameron Blevins, &quot;Martha Ballard's Diary&quot;" href="http://historying.org/martha-ballards-diary/" target="_blank">series of posts</a> on his work text mining and topic modeling the diary of Martha Ballard. He has compared his results to Laurel Thatcher Ulrich’s work, which was done by hand, and the two result sets generally align. His work is particularly useful for understanding the potential and limitations of topic modeling, as so many historians are already familiar with the source material, having read Ulrich’s book <em>A Midwife’s Tale</em>.<sup>[<a href="#topic-modeling-a-basic-introduction-by-megan-r-brett-n-2" class="footnoted" id="to-topic-modeling-a-basic-introduction-by-megan-r-brett-n-2">2</a>]</sup> Both Blevins and Ulrich had to be familiar with the content of the diary and its historical context in order to make sense of their findings. The results of the topic modeling help to uncover evidence already in the text.</p>
+<p>Newspapers have proved to be a popular subject for topic modeling, as it provides a way to get at change over time from a daily source. David J. Newman, a computer scientists, and Sharon Block, a historian, worked together to topic model the <em>Pennsylvania Gazette</em>.<sup>[<a href="#topic-modeling-a-basic-introduction-by-megan-r-brett-n-3" class="footnoted" id="to-topic-modeling-a-basic-introduction-by-megan-r-brett-n-3">3</a>]</sup> Table 4 in their article (<a title="David J. Newman and Sharon Block, &quot;Probabilistic Topic Decomposition of anEighteenth-Century American Newspaper&quot; Journal of the American Society for Information Science and Technology 57.6 (2006) [pdf]" href="http://www.ics.uci.edu/%7Enewman/pubs/JASIST_Newman.pdf" target="_blank">pdf</a>) lists off the most likely words in a topic and the label they assigned to that topic; some of the topics are obvious but others make it clear that you have to understand the context of a corpus in order to read the results. Another example of topic modeling a historic newspaper is a project from the University of Richmond (VA), <a title="Mining the Dispatch Website" href="http://dsl.richmond.edu/dispatch/pages/home" target="_blank">Mining the Dispatch</a>. The objective of the project was to explore social and political life in Richmond during the Civil War. The site allows you to interact with the topic models with some interpretation. Exploring this site might help you understand how modifying settings in a topic modeling tool changes the output.</p>
+<p>Topic modeling is complicated and potentially messy but useful and even fun. The best way to understand how it works is to try it. Don’t be afraid to fail or to get bad results, because those will help you find the settings which give you good results. Plug in some data and see what happens.</p>
+<p>Originally published by Megan R. Brett on <a title="Megan Brett, &quot;Topic Modeling: A Basic Introduction&quot;" href="http://www.fredgibbs.net/clio3workspace/blog/topic-modeling/" target="_blank">December 12, 2012</a>.<em><br />
+</em></p>
+<hr />
+
+<ol class="footnotes">
+	<li class="footnote" id="topic-modeling-a-basic-introduction-by-megan-r-brett-n-1"><strong><sup>[1]</sup></strong>Blei, D. 2012. “Probabilistic Topic Models.” <i>Communications of the ACM</i> 55 (4): 77–84. doi: 10.1145/2133806.2133826 Available at <a title="David Blei, “Probabilistic Topic Models.&quot; &#91;pdf&#93;" href="http://www.cs.princeton.edu/%7Eblei/papers/Blei2012.pdf" target="_blank">http://www.cs.princeton.edu/~blei/papers/Blei2012.pdf</a>.<a class="note-return" href="#to-topic-modeling-a-basic-introduction-by-megan-r-brett-n-1">&#x21A9;</a></li>
+	<li class="footnote" id="topic-modeling-a-basic-introduction-by-megan-r-brett-n-2"><strong><sup>[2]</sup></strong>Laurel Thatcher Ulrich, <em>A Midwife&#8217;s Tale</em> (New York: Alfred A. Knopf, 1990).<a class="note-return" href="#to-topic-modeling-a-basic-introduction-by-megan-r-brett-n-2">&#x21A9;</a></li>
+	<li class="footnote" id="topic-modeling-a-basic-introduction-by-megan-r-brett-n-3"><strong><sup>[3]</sup></strong>David J. Newman and Sharon Block, &#8220;Probabilistic Topic Decomposition of an Eighteenth-Century American Newspaper&#8221; <em>Journal of the American Society for Information Science and Technology</em>, 57(6):753-767, 2006. Available at <a title="David J. Newman and Sharon Block, &quot;Probabilistic Topic Decomposition...&quot; &#91;pdf&#93;" href="http://www.ics.uci.edu/~newman/pubs/JASIST_Newman.pdf" target="_blank">http://www.ics.uci.edu/~newman/pubs/JASIST_Newman.pdf</a><a class="note-return" href="#to-topic-modeling-a-basic-introduction-by-megan-r-brett-n-3">&#x21A9;</a></li></ol>
+
+        
+    <div class="author-bio">
+    
+        <h2>
+            About 
+            Megan R. Brett        </h2>
+        
+
+        <div class="gravatar"><img alt='' src='http://1.gravatar.com/avatar/187b424b6edae8ccc4b1960f947f526f?s=52&#038;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&#038;r=g' srcset='http://1.gravatar.com/avatar/187b424b6edae8ccc4b1960f947f526f?s=104&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536&amp;r=g 2x' class='avatar avatar-52 photo' height='52' width='52' /></div><p class="coauthor">Megan R. Brett is a PhD student in the Department of History and Art History at George Mason University and a research assistant at the Roy Rosenzweig Center for History and New Media, where she serves as an assistant editor for the Papers of the War Department. Her research focuses on transatlantic family strategies in the early American republic. She is particularly interested in the way digital tools can reveal new information about correspondence and social networks in the eighteenth and nineteenth centuries. She blogs at <a href="http://meganrbrett.net">meganrbrett.net</a>.</p>    
+    </div>
+	
+        
+    		
+	
+    
+		<script type="text/javascript">
+		/* <![CDATA[ */
+		(function() {
+		var s = document.createElement("script"); s.type = "text/javascript"; s.src = "https://intensedebate.com/js/wordpressTemplateLinkWrapper2.php?acct=e54add4303ff6f42f7f1f553a1f13497"; document.getElementsByTagName("head")[0].appendChild(s);
+		}());
+		/* ]]> */
+		</script>
+    </div> <!-- ends article -->
+        
+</section> <!-- ends colmask -->
+
+</div> <!-- ends wrap -->
+
+<footer>
+    <nav class="container">
+    			<div class="execphpwidget"><div class="sixteen columns alpha">
+<a href="http://www.pressforward.org" target="_blank"><img src="http://journalofdigitalhumanities.org/wp-content/themes/jdh/images/pressforward.png" alt="Press Forward"></a>
+<a href="http://www.chnm.gmu.edu" target="_blank"><img src="http://journalofdigitalhumanities.org/wp-content/themes/jdh/images/rrchnm.png" alt="Roy Rosenzweig Center for History & New Media"></a>
+<div class="creative-commons">
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+</div>
+</div></div>
+		    </nav>
+</footer>
+
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/respond.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/selectivizr-min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/jquery.cookie.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/jquery.hoverIntent.minified.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-content/themes/jdh/javascripts/jquery.dcjqaccordion.2.7.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-includes/js/comment-reply.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://journalofdigitalhumanities.org/wp-includes/js/wp-embed.min.js?ver=4.7.5'></script>
+</body>
+</html>
