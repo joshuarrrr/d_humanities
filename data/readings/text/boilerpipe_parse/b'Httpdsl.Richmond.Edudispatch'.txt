@@ -1,0 +1,4 @@
+About
+"Mining the Dispatch," seeks to explore—and encourage exploration of—the dramatic and often traumatic changes as well as the sometimes surprising continuities in the social and political life of Civil War Richmond.  It uses as its evidence nearly the full run of the Richmond
+Daily Dispatch
+from the eve of Lincoln's election in November 1860 to the evacuation of the city in April 1865.  It uses as its principle methodology topic modeling, a computational, probabilistic technique to uncover categories and discover patterns in and among texts.  On this site you'll be able to view and generate graphs and charts that reveal some of the changing patterns in the topics that dominated the news during the Civil War in the capital of the Confederacy's newspaper of record.

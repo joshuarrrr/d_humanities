@@ -1,0 +1,9 @@
+Citing/Referencing AntConc
+Use the following method to cite/reference AntConc according to the APA style guide:
+Anthony, L. (YEAR OF RELEASE). AntConc (Version VERSION NUMBER) [Computer Software].   Tokyo, Japan: Waseda University. Available from http://www.laurenceanthony.net/
+For example if you download AntConc 3.4.3, which was released in  2014, you would cite/reference it as follows:
+Anthony, L. (2014). AntConc (Version 3.4.3) [Computer Software]. Tokyo, Japan: Waseda University.   Available from http://www.laurenceanthony.net/
+Note that the APA instructions are not entirely clear about citing software, and it is debatable whether or not the "Available from ..." statement   is needed. See here for more details.
+Word frequency lists
+These lists can be imported into AntConc and used as reference corpora word lists to create keyword lists.
+British National Corpus (BNC) frequency lists.

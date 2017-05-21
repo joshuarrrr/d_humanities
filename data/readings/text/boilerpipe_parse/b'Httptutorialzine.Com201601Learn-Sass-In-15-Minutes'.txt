@@ -1,0 +1,54 @@
+Learn Sass In 15 Minutes
+Danny Markov
+January 19th, 2016
+If you write copious amounts of CSS, a pre-processor can greatly decrease your stress levels and save you a lot of precious time. Using tools such as  Sass ,  Less ,  Stylus  or  PostCSS  makes large and complicated stylesheets clearer to understand and easier to maintain. Thanks to features like variables, functions and mixins the code becomes more organized, allowing developers to work quicker and make less mistakes.
+We’ve worked with pre-processors before as you may remember from our  article about Less . This time we are going to explain  Sass  and show you some of it’s main features.
+1. Getting Started
+Sass files cannot be interpreted by the browser, so they need compiling to standard CSS before they are ready to hit the web. That’s why you need some sort of tool to help you translate .scss files into .css. Here you have a couple of options:
+The simplest solution is a browser tool for writing and compiling Sass right on the spot –  SassMeister .
+Use a 3rd party desktop app. Both free and paid versions are available. You can go  here  to find out more.
+If you are a CLI person like we are, you can install Sass on your computer and compile files manually.
+If you decide to go with the command line, you can install Sass in it’s original form (written in ruby) or you can try the Node.js port (our choice). There are many other wrappers as well, but since we love Node.js we are going to go with that.
+Here is how you can compile .scss files using the node CLI:
+node-sass input.scss output.css
+Also, here is the time to mention that Sass offers two distinct syntaxes – Sass and SCSS. They both do the same things, just are written in different ways. SCSS is the newer one and is generally considered better, so we are going to go with that. If you want more information on the difference between the two, check out this great article.
+2. Variables
+Variables in Sass work in a similar fashion to the those in any programming language, including principals such as data types and scope. When defining a variable we store inside it a certain value, which usually is something that will often reoccur in the CSS like a palette color, a font stack or the whole specs for a cool box-shadow.
+Below you can see a simple example. Switch between the tabs to see the SCSS code and it’s CSS translation.
+$title-font: normal 24px/1.5 'Open Sans', sans-serif; $cool-red: #F44336; $box-shadow-bottom-only: 0 2px 1px 0 rgba(0, 0, 0, 0.2);  h1.title {   font: $title-font;   color: $cool-red; }  div.container {   color: $cool-red;   background: #fff;   width: 100%;   box-shadow: $box-shadow-bottom-only; }
+h1.title {   font: normal 24px/1.5 "Open Sans", sans-serif;   color: #F44336;  }  div.container {   color: #F44336;   background: #fff;   width: 100%;   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2); }
+The idea behind all this is that we can later on reuse the same values more quickly, or if a change is needed, we can provide the new value in just one place (the definition of the variable), instead of applying it manually everywhere we’re using that property.
+3. Mixins
+You can think of mixins as a simplified version of constructor classes in programming languages – you can grab a whole group of CSS declarations and re-use it wherever you want to give and element a specific set of styles.
+Mixins can even accept arguments with the option to set default values. In the below example we define a square mixin, and then use it to create squares of varying sizes and colors.
+@mixin square($size, $color) {   width: $size;   height: $size;   background-color: $color; }  .small-blue-square {   @include square(20px, rgb(0,0,255)); }  .big-red-square {   @include square(300px, rgb(255,0,0)); }
+.small-blue-square {   width: 20px;   height: 20px;   background-color: blue;  }  .big-red-square {   width: 300px;   height: 300px;   background-color: red; }
+Another efficient way to use mixins is when a property requires prefixes to work in all browsers.
+@mixin transform-tilt() {   $tilt: rotate(15deg);    -webkit-transform: $tilt; /* Ch <36, Saf 5.1+, iOS, An =<4.4.4 */       -ms-transform: $tilt; /* IE 9 */           transform: $tilt; /* IE 10, Fx 16+, Op 12.1+ */ }  .frame:hover {    @include transform-tilt;  }
+.frame:hover {   -webkit-transform: rotate(15deg);  /* Ch <36, Saf 5.1+, iOS, An =<4.4.4 */   -ms-transform: rotate(15deg);  /* IE 9 */   transform: rotate(15deg);  /* IE 10, Fx 16+, Op 12.1+ */  }
+4. Extend
+The next feature we will look at is @extend, which allows you to inherit the CSS properties of one selector to another. This works similarly to the mixins system, but is preferred when we want to create a logical connection between the elements on a page.
+Extending should be used when we need similarly styled elements, which still differ in some detail. For example, let’s make two dialog buttons – one for agreeing and one for canceling the dialog.
+.dialog-button {   box-sizing: border-box;   color: #ffffff;   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);   padding: 12px 40px;   cursor: pointer; }  .confirm {   @extend .dialog-button;   background-color: #87bae1;   float: left; }  .cancel {   @extend .dialog-button;   background-color: #e4749e;   float: right; }
+.dialog-button, .confirm, .cancel {   box-sizing: border-box;   color: #ffffff;   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);   padding: 12px 40px;   cursor: pointer;  }  .confirm {   background-color: #87bae1;   float: left;  }  .cancel {   background-color: #e4749e;   float: right;  }
+If you check out the CSS version of the code, you will see that Sass combined the selectors instead of repeating the same declarations over and over, saving us precious memory.
+5. Nesting
+HTML follows a strict nesting structure whereas in CSS it’s usually total chaos. With Sass nesting you can organize your stylesheet in a way that resembles the HTML more closely, thus reducing the chance of CSS conflicts.
+For a quick example, lets style a list containing a number of links:
+ul {   list-style: none;    li {     padding: 15px;     display: inline-block;      a {       text-decoration: none;       font-size: 16px;       color: #444;     }    }  }
+ul {   list-style: none;  }  ul li {   padding: 15px;   display: inline-block;  }  ul li a {   text-decoration: none;   font-size: 16px;   color: #444;  }
+Very neat and conflict proof.
+6.Operations
+With Sass you can do basic mathematical operation right in the stylesheet and it is as simple as applying the appropriate arithmetic symbol.
+$width: 800px;  .container {    width: $width; }  .column-half {   width: $width / 2; }  .column-fifth {   width: $width / 5; }
+.container {   width: 800px;  }  .column-half {   width: 400px;  }  .column-fifth {   width: 160px;  }
+Although vanilla CSS now also offers this feature in the form of calc() , the Sass alternative is quicker to write, has the modulo % operation, and can be applied to a wider range of data-types (e.g. colors and strings).
+7. Functions
+Sass offers a long list of built-in functions. They serve all kinds of purposes including string manipulation, color related operations, and some handy math methods such as random() and round().
+To exhibit one of the more simple Sass functions, we will create a quick snippet that utilizes darken($color, $amount) to make an on-hover effect.
+$awesome-blue: #2196F3;  a {   padding: 10px 15px;   background-color: $awesome-blue; }  a:hover {   background-color: darken($awesome-blue,10%); }
+a {   padding: 10px 15px;   background-color: #2196F3;  }  a:hover {   background-color: #0c7cd5;  }
+Except the  huge list  of available functions, there is also the options to  define your own.  Sass supports flow control as well, so if you want to, you can create quite complex behaviors.
+Conclusion
+Some of the above features are coming to standard CSS in the future, but they are not quite here yet. In the meantime, pre-processors are a great way improve the CSS writing experience and Sass is a solid option when choosing one.
+We only covered the surface here, but there is a lot more to Sass than this. If you want to get more familiar with everything it has to offer, follow these links:

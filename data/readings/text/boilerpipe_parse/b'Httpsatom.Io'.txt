@@ -1,0 +1,27 @@
+Play Video: "Introducing Atom 1.0"
+✕
+Atom is a text editor that's modern, approachable, yet hackable to the     core—a tool you can customize to do anything but also use productively     without ever touching a config file.
+Full-featured, right out of the box
+Cross-platform editing
+Atom works across operating systems. You can use it on OS X, Windows, or Linux.
+Built-in package manager
+Search for and install new packages or start creating your own—all from within Atom.
+Smart autocompletion
+Atom helps you write code faster with a smart, flexible autocomplete.
+File system browser
+Easily browse and open a single file, a whole project, or multiple projects in one window.
+Multiple panes
+Split your Atom interface into multiple panes to compare and edit code across files.
+Find and replace
+Find, preview, and replace text as you type in a file or across all your projects.
+Packages
+You choose from thousands of open source packages that add new features and functionality to Atom—or build a package from scratch and publish it for everyone else to use.
+Themes
+Atom comes pre-installed with four UI and eight syntax themes in both dark and light colors. If you can't find what you're looking for, you can also install themes created by the Atom community or create your own.
+Customization
+It's easy to customize and style Atom. You can tweak the look and feel of your UI with CSS/Less and add major features with HTML and JavaScript. Check out the video on setting up Atom .
+Under the hood
+Atom is a desktop application built with HTML, JavaScript, CSS, and Node.js integration. It runs on Electron , a framework for building cross platform apps using web technologies.
+Open source
+Atom is open source. If you'd like to be part of the Atom community or help improve your favorite text editor, find us on GitHub , Discuss and Slack .
+Keep in touch

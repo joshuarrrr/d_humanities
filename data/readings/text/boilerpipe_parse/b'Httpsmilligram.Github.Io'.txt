@@ -1,0 +1,22 @@
+See more examples of grids here .
+Codes
+The Code element represents a fragment of computer code. Just wrap anything in a code and it will appear like this. if you need a block, by default, enter the code within the preelement.
+.milligram {   color: #9b4dca; }
+See more examples of codes here .
+Utilities
+Milligram has some functional classes to improve the performance and productivity everyday.
+See more examples of utilities here .
+Tips
+Tips, techniques, and best practice on using Cascading Style Sheets.
+Mobile First
+The Mobile First is the design strategy that takes priority development for mobile devices like smartphones and tablets. It means all styles outside of a media queries apply to all devices, then larger screens are targeted for enhancement. This prevents small devices from having to parse tons of unused CSS. Milligram use some breakpoints like these:
+Larger than Mobile screen: 40.0rem (640px)
+Larger than Tablet screen: 80.0rem (1280px)
+Larger than Desktop screen: 120.0rem (1920px)
+/* Mobile First Media Queries */  /* Base style */ { ... }  /* Larger than mobile screen */ @media (min-width: 40.0rem) { ... }  /* Larger than tablet screen */ @media (min-width: 80.0rem) { ... }  /* Larger than desktop screen */ @media (min-width: 120.0rem) { ... }
+Embed Font
+Milligram uses the font-family Roboto , created by Christian Robertson, and provided by Google. Customize your projects using Google Fonts . To embed your selected fonts into a webpage, copy this code into the of your HTML document.
+/* Embed Font */
+/* Use the following CSS rules to specify these families */ body {   font-family: 'Roboto Slab', serif; }
+Extending The Inheritances
+The style of an element can be defined in several different locations, which interact in a complex way. It is this form of interaction makes CSS powerful, but it can make it confusing and difficult to debug.

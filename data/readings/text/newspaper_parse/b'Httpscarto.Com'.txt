@@ -1,0 +1,7 @@
+Data Observatory
+
+Donât let your data limit your Analysis
+
+Augment your own data and broaden your analysis with thousands of demographic, economic, and real estate datasets. CARTO Data Observatory provides out of the box access to everything from commuting patterns to household income. Discover hidden patterns and comprehensive insight into where unforeseen opportunities exist.
+
+Learn more about Data Observatory

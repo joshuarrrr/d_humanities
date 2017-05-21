@@ -1,0 +1,75 @@
+AntConc Homepage
+
+Older Versions
+
+files are for Windows. files are for Macintosh OS X. files are for Linux. All previous releases All previous releases of AntConc can be found at the following link.
+
+Development Version
+
+Windows (3.5.0 Dev)
+
+Windows 64-bit (3.5.0 Dev)
+
+Macintosh OS X (10.7-10.10) (3.5.0 Dev)
+
+Linux 64-bit (3.5.0 Dev) The latest development versions of AntConc are below. Be careful to not run these versions in a folder containing a settings file from an older version of AntConc as they are not compatible. I recommend running the new version in an empty folder and exporting a new settings file that matches your previous one.
+
+Screenshot Viewer
+
+Version 3.2.3 Screenshots of different versions of AntConc.
+
+User Support
+
+Development Roadmap
+
+My current tentative plans. If you would like see others, please feel free to suggest them on the AntConc Discussion group.
+
+Status Description Under development Drag and drop file handling.
+
+Add the ability to save the results from the 'Plot' tool to an image file.
+
+Generate sampled results (e.g., Every Nth hit in KWIC).
+
+Add more statistical measures
+
+Allow more file import types (e.g., PDF)
+
+Redesign the database architecture to handle massive corpora.
+
+Improve tag handling (XML/Part-Of-Speech/...)
+
+Add Concgrams (Wildcard/Regex context search) option
+
+Simplify token definition settings
+
+Allow localization of interface Plans for 2015
+
+and beyond Your suggestions come here...
+
+Citing/Referencing AntConc
+
+Use the following method to cite/reference AntConc according to the APA style guide: Anthony, L. (YEAR OF RELEASE). AntConc (Version VERSION NUMBER) [Computer Software]. Tokyo, Japan: Waseda University. Available from http://www.laurenceanthony.net/
+
+For example if you download AntConc 3.4.3, which was released in 2014, you would cite/reference it as follows: Anthony, L. (2014). AntConc (Version 3.4.3) [Computer Software]. Tokyo, Japan: Waseda University. Available from http://www.laurenceanthony.net/ Note that the APA instructions are not entirely clear about citing software, and it is debatable whether or not the "Available from ..." statement is needed. See here for more details.
+
+Word frequency lists
+
+Lemma lists
+
+AntBNC Lemma List An English lemma list based on all words in the BNC corpus (created by Laurence Anthony). To use this list, *append* a hyphen (-) and apostrophe (') character to the AntConc token definition (see global settings).
+
+Someya Lemma List (no hypens) An edited version of the Someya English lemma list with no hypenated words (original list created by Yasumasa Someya).
+
+Someya Lemma List The original Someya English lemma list (created by Yasumasa Someya). To use this list, *append* a hyphen (-) and apostrophe (') character to the AntConc token definition (see global settings).
+
+French Lemma List A French lemma list (created by BenoÃ®t Sagot).
+
+Spanish Lemma List A Spanish lemma list (developed by Laurence Anthony based on the list provided here).
+
+Lemma list. These can be imported into AntConc to create lemma word lists.
+
+Books/papers/websites related to AntConc
+
+AntConc citation index References to works citing AntConc can by found on Google Scholar here.
+
+Interesting applications of AntConc

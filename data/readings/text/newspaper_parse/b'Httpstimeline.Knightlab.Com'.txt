@@ -1,0 +1,7 @@
+Create your spreadsheet
+
+Build a new Google Spreadsheet using our template. You'll need to copy the template to your own Google Drive account by clicking the "Make a Copy" button.
+
+Drop dates, text and links to media into the appropriate columns. For more about working with our template, see our help docs.
+
+Don't change the column headers, don't remove any columns, and don't leave any blank rows in your spreadsheet.

@@ -1,0 +1,95 @@
+Digital History Reviews
+
+"Web Site Reviews" first appeared in the June 2001 issue of the Journal of American History and became "Digital History Reviews" in the September 2013 issue. This section is a collaborative venture with the Web site History Matters: The U.S. Survey Course on the Web http://historymatters.gmu.edu. This section appears quarterly and normally runs five reviews.
+
+Jeffrey W. McClurken, the department chair and professor of History and American Studies at the University of Mary Washington, is the contributing editor for the "Digital History Reviews" section of the Journal.
+
+The editor welcomes suggestions and may be reached at jmcclurk@umw.edu.
+
+Guidelines
+
+Although these scholarly reviews of digital history projects follow the long tradition of reviewing books in the JAH—as well as the more recent practice of reviewing museum exhibitions, films, and textbooks—digital history reviews have some unique features. The guidelines below provide specific suggestions for dealing with this medium. Please feel free to write to me with any questions you might have, as well as suggested revisions and clarifications in the guidelines.
+
+Digital history projects share a common medium, but they are quite diverse in their character. Reviewers need to keep that diversity in mind and to evaluate them on their own terms. Generally, most digital history projects fall into one of the following categories, although many sites combine different genres:
+
+Archive: a site that provides a body of primary sources. Could also include collections of documents marked up in TEI or databases of materials.
+
+Essay, Exhibit, Digital Narrative: something created or written specifically for the Web or with digital methods, that serves as a secondary source for interpreting the past by offering a historical narrative or argument. This category can also include maps, network visualizations, or other ways of representing historical data.
+
+Teaching Resource: a site that provides online assignments, syllabi, other resources specifically geared toward using the Web, or digital apps for teaching, including educational history content for children or adults, pedagogical training tools, and outreach to the education community.
+
+Tool: a downloadable, plugin, app, or online service that provides functionality related to creating, accessing, aggregating, or editing digital history content (rather than the content itself).
+
+Gateway/Clearinghouse: a site that provides access to other websites or Internet-based resources.
+
+Journal/Blog/Publication: any type of online publication.
+
+Professional/Institutional Site: a site devoted to sharing information on a particular organization.
+
+Digital Community: online social spaces that offer a virtual space for people to gather around a common experience, exhibition, or interest.
+
+Podcasts: video and audio podcasts that engage audiences on historical topics and themes.
+
+Audio/Application-based Tours: downloadable walking, car, or museum tours.
+
+Games: challenging interactive activities that educate through competition or role playing, finding evidence defined by rules and linked to a specific outcome. Games can be online, peer-to- peer, or mobile.
+
+Data sets, APIs: compilations of machine-readable data, shared in a commonly-accessible format, possibly through a CSV file or an Application Programming Interface (API), or data files, that allow others to make use of this data in their own digital history work.
+
+Many projects to be reviewed will probably fall into one of the first three categories. The reviewing criteria will vary depending on the category into which the site falls. Thus, for example, an archival site should be evaluated based on the quality of the materials presented; the care with which they have been prepared and perhaps edited and introduced; the ease of navigation; and its usefulness to teachers, students, and scholars. How comprehensive is the archive? Are there biases in what has been included or excluded? Does the archive, in effect, offer a point of view or interpretation? As with other types of reviews, you are providing guidance to readers on the usefulness of the site in their teaching or scholarship. At the same time, you are participating in a community of critical discourse and you are trying to improve the level of work in the field. As you would do in a scholarly book review, then, you are speaking both to potential readers and to producers of similar work.
+
+Even within a single category, the purposes of the digital history projects can vary significantly. An online exhibition or a digital narrative can be directed at a largely scholarly audience or a more broadly public audience. It would be unfair to fault a popularly oriented website for failing to trace the latest nuances in scholarship, but it would certainly be fair to note that the creators had not taken current scholarship into account. In general, then, online exhibitions and essays should be judged by the quality of their interpretation: What version of the past is presented? Is it grounded in historical scholarship? Is it original in its interpretation or mode of presentation? Again, the goal of the review is to provide guidance to potential readers (who might be reading in their roles as teachers, scholars, or citizens) and to raise the level of digitally based historical work.
+
+Classroom-oriented projects would be judged by the quality of the scholarship underlying them, but naturally you would also want to evaluate the originality and usefulness of the pedagogical approach. Will this project be useful to teachers and students? At what level?
+
+Reviews of digital history projects must necessarily address questions of navigation and presentation. To some extent, this process is the same as a book reviewer commenting on whether a book is well written or clearly organized. To be sure, the conventions of book publication are well enough established that book reviewers rarely comment on matters of navigation or design—although they do occasionally note a poorly prepared index or a work with excessive typographical errors. But in the digital world, which is an emerging medium that is visual (and often multimodal), issues of design and "interface" are necessarily more important. In this sense, digital history reviews share a great deal with film and exhibit reviews. In general, reviewers should consider what, if anything, the electronic medium adds to the historical work being presented. Does the digital format allow the creators of the project to do something different or better than what has been done in pre-digital formats (for example, books, films, museum exhibitions)? Have the creators of the project made effective use of the medium? How easy is it to find specific materials and to find your way around the project?
+
+In summary, most reviews will address the following five areas:
+
+Content: Is the scholarship sound and current? What is the interpretative point of view? How well is the content communicated to users?
+
+Design: Does the information architecture clearly communicate what a user can find in the site? Does the structure make it easy for a user to navigate through the site? Do all of the sections of the project function as expected? Does it have a clear, effective, and original design? How accessible is the site for individuals of all abilities? If it is a website, is it responsive (i.e., tablet/mobile-friendly)?
+
+Audience: Is the project directed at a clear audience? How well does the project address the needs of that audience?
+
+Digital Media: Does it make effective use of digital media and new technology? Does it do something that could not be done in other media—print, exhibition, film?
+
+Creators: Many digital projects include multiple contributors. Who worked on this project and in what capacity?
+
+Although it won't be necessary for all sites, it may well be appropriate to comment on some of the more technical aspects of the site. What programming or coding choices have been made and how have they shaped the project that emerged? How are the materials of the project made available? [For example, how are the materials in a database project accessible? Via a search bar? In a downloadable format? In multiple machine-readable formats (CSV, JSON, API)?] Remember, however, that the Journal's audience may not be familiar with these terms, so plan on some context. If you have questions about when such comments are appropriate or how best to provide context, please ask me.
+
+Because some digital history projects (largely archives) are vast, it is not possible to read every document or visit every link. American Life Histories: Manuscripts from the Federal Writers' Project, 1936–1940, at the Library of Congress's American Memory site, http://memory.loc.gov/ammem/wpaintro/wpahome.html, includes 2,900 documents that range from 2,000 to 15,000 words in length. The reviewer could hardly be expected to read what probably amounts to the equivalent of 300 books. In such circumstances, some systematic sampling of the contents can substitute for a review of every single part. At the same time, the reviewer of a digital project should devote the same kind of close attention to the work as does a reviewer of a book, exhibition, or film. Because there is no easy way to indicate the size of a digital project (as you can note the number of pages in a book or the number of minutes in a film), you should try (ideally early in your review) to give readers some sense of the kinds of material found and the quantity of each.
+
+One final way that digital history projects differ from books, exhibits, and films is that they are often works in progress. Thus, we ask that the headnote for the review indicate when you examined the project (this piece of the headnote could be a range of dates) just as you would indicate in reviewing a performance of a play. Where the project plans some significant further changes, you should say that in the review. If you think that it would make more sense to wait for further changes before reviewing the project, then please let us know and we will put the review off to a later date. If you feel that you need additional information about a project in order to complete a review, we would be happy to contact the author or creator on your behalf.
+
+Because of our scholarly and pedagogical focus, our first priority in selecting reviewers is to find people whose scholarship and teaching parallels the subject areas of the project. We do not favor people who have some "technical" skill any more than we would expect book reviewers to know how books are typeset and printed. But we do have a preference—where possible—for reviewers who are familiar with what has been done in the digital world, since that will give them a comparative context for their evaluation. Nevertheless, we recognize that such familiarity is still only gradually emerging among professional historians, and some reviewers will be relatively new to such work.
+
+Headings:
+
+Name of site/title. Address/URL. Who set it up? Who maintains it (if different)? Link to credit/about page. When reviewer consulted it.
+
+Examples:
+
+Panoramic Maps, 1847–1929. http://memory.loc.gov/ammem/pmhtml/panhome.html. Created and maintained by the Geography and Map Division, Library of Congress, Washington, DC, https://www.loc.gov/collection/panoramic-maps/about- this-collection/. Reviewed Dec. 25, 2000–Jan. 2, 2001.
+
+The Triangle Shirtwaist Factory Fire: March 25, 1911. http://www.ilr.cornell.edu/trianglefire. Kheel Center for Labor-Management Documentation and Archives at Cornell University in cooperation with UNITE! (Union of Needle Trades, Industrial, and Textile Employees). Edited by Hope Nisly and Patricia Sione, http://trianglefire.ilr.cornell.edu/aboutThisSite.html. Last site update April 21, 2000. Reviewed Dec. 20, 2000–Jan. 5, 2001.
+
+The Programming Historian, http://programminghistorian.org/. Edited by Adam Crymble, Fred Gibbs, Allison Hegel, Caleb McDaniel, Ian Milligan, Miriam Posner, and William J. Turkel, http://programminghistorian.org/project-team. Reviewed Dec. 2015–Jan. 2016.
+
+Jeffrey McClurken
+
+Editor, Digital History Reviews, Journal of American History
+
+Professor of History and American Studies
+
+Special Assistant to the Provost for Teaching, Technology, and Innovation
+
+University of Mary Washington
+
+http://mcclurken.org/
+
+Twitter: @jmcclurken
+
+Phone: 540-654- 1475
+
+jmcclurk at umw dot edu

@@ -1,0 +1,17 @@
+Data Observatory
+Donât let your data limit your Analysis
+Augment your own data and broaden your analysis with thousands of demographic, economic, and real estate datasets. CARTO Data Observatory provides out of the box access to everything from commuting patterns to household income. Discover hidden patterns and comprehensive insight into where unforeseen opportunities exist.
+Learn more about Data Observatory
+Trusted by thousands of customers
+CARTO integrates seamlessly with our platform and existing workflows, taking the pain out of geospatial processing and enabling a rapid development of custom apps and dashboards.
+Elena Alfaro
+BBVA Data and Analytics
+CARTOâs drag-and-drop interface is a valuable tool for quickly creating sophisticated visualizations. They are intuitive to build and delightful to explore.
+Elaine filadelfo
+Data Editor at Twitter
+CARTO is the kind of geo-analysis tool we have been looking for. Handling and visualizing this amount of data is the gateway to smart and digital governance.
+Alberto Olivas
+Mexico City CTO
+News and resources
+Join the CARTO community to access resources and stay on top of the latest events, webinars, and news.
+Blog

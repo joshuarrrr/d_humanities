@@ -1,0 +1,32 @@
+Customizing GitHub Pages /                      Setting up an apex domain
+Setting up an apex domain
+all
+To set up an apex domain , such as example.com, you must configure an ALIAS, ANAME, or A record with your DNS provider.
+Tip: If you have trouble configuring an ALIAS, ANAME or A record, then contact your DNS provider for help. They can help confirm that you have configured your custom domain correctly with their services.
+Warning:
+Unless your DNS provider supports CNAME flattening, don't create a CNAME record for your custom apex domain! Doing so may cause issues with other services, such as email, on that domain.
+We highly recommend adding your custom domain to your GitHub Pages site's repository before configuring your domain name with your DNS provider. For more information, see " Adding or removing a custom domain for your GitHub Pages site ."
+For more information on apex domains, see " About supported custom domains ."
+To determine which type of DNS record to configure with your DNS provider, check if your DNS provider supports ALIAS or ANAME records. We recommend configuring your apex domain with an ALIAS or ANAME record when possible because they are easier to set up and require less updating since they point your site to another domain name instead of an IP address. A records point your site to one or more IP address and require  updating when the IP address changes.
+Note: Some DNS providers support configuring apex domains with an ALIAS or ANAME record, but there is no industry standard for these. Only DNS Made Easy currently supports ANAME records and DNSimple is one of the few DNS providers that support ALIAS records.
+If your DNS provider does not support ALIAS or ANAME records, then see configuring A records with your DNS provider
+Configuring an ALIAS or ANAME record with your DNS provider
+Confirm that you have added a custom domain to your GitHub Pages site .
+Contact your DNS provider for detailed instructions on how to set up ALIAS or ANAME records.
+Follow your DNS provider's instructions to create an ALIAS or ANAME record that points your apex domain to the GitHub Pages server at your default pages domain. Your DNS changes can take over a full day to update and the wait varies among DNS providers.
+Note: Your default GitHub Pages domain is determined by the type of pages site you have. For examples, see this domain chart .
+To confirm that your DNS record is set up correctly, use the dig command with your custom domain. Using a custom domain as an example:
+$ dig example.com +noall +answer > example.com. 3600    IN A     199.27.XX.XXX
+When you use the dig command with your  GitHub Pages default domain, your domain should resolve or point to the same IP address. For example:
+$ dig YOUR-USERNAME.github.io +noall +answer > YOUR-USERNAME.github.io     3600    IN A     199.27.XX.XXX
+Configuring A records with your DNS provider
+Confirm that you have added a custom domain to your GitHub Pages site .
+Contact your DNS provider for detailed instructions on how to set up A records.
+Follow your DNS provider's instructions to create two A records that point your custom domain to the following IP addresses:
+192.30.252.153
+192.30.252.154
+Tip: Your DNS changes can take over a full day to update and the wait varies among DNS providers.
+To confirm that your DNS record is set up correctly, use the dig command with your custom domain. Using a custom domain as an example:
+$ dig +noall +answer example.com ;example.com. example.com. 73  IN  A 192.30.252.153 example.com. 73  IN  A 192.30.252.154
+Your apex domain should point to the two IP addresses you configured.
+Further reading

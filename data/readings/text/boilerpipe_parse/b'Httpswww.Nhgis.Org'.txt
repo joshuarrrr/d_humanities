@@ -1,0 +1,8 @@
+Donate to NHGIS
+U.S. GEOGRAPHIC SUMMARY DATA AND BOUNDARY FILES
+The National Historical Geographic Information System (NHGIS) provides population, housing, agricultural, and economic data, along with GIS-compatible boundary files, for geographic units in the United States from 1790 to the present.
+Create An Extract
+Get Data
+What is IPUMS?
+IPUMS stands for data integrated across time, space and scientific domains. IPUMS makes it easy to study change and conduct comparative research--by imposing consistent codes, supplying detailed documentation, and creating customized datasets. Data and services are available free of charge. Learn more about IPUMS .
+NHGIS News

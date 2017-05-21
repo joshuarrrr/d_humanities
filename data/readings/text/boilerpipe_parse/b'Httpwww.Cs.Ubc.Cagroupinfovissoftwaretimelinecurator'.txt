@@ -1,0 +1,40 @@
+FAQ
+Do I need to download anything?: No, TimeLineCurator runs in the browser.
+How should I format my text?: TimeLineCurator expects that you copy and paste in raw freeform text. You do not need to format the text in any way.
+Is my text stored in the cloud?: No, as long as you don't export it. At first any text that you paste into TimeLineCurator remains in your local storage only - not in the cloud. When you decide to export it over "TLC export", your data will be stored on Amazon's Simple Storage Service . That lets us generate a unique URL which is accessible from everywhere and enables you to share your timeline with people.
+How much text can I timeline-ify?: Around 10,000 words at once, that's around 12 pages. The current limit is a 30 second timeout from Heroku. We hope to fix that problem soon, stay tuned. For now, if your input text is larger, you could just split it into pieces and add them as individual documents.
+How can I export my curated timeline?: Right now you have two choices. TimelineJS and a "frozen", non-editable version of TLC.
+TimelineJS takes the data from your local storage. So what you are seeing is just a temporary version of your timeline. If you want to download it and use it for your purposes, you can get a ZIP-Folder (with the JSON file and the index.html) over the ↓-button
+The TLC-export stores your data in the cloud and generates a URL (see "Is my text stored in the cloud?"). In that representation you'll also have the original documents from your TLC project (which are dropped in TimelineJS).
+Contact
+We'd like to know how you are using TimeLineCurator! We also want to know what to improve.
+Get in touch with us via email at: {jfulda,brehmer,tmm} [at] cs.ubc.ca
+Instructions
+Getting Started
+When you arrive at TimeLineCurator, you start with an empty timeline. To fill this timeline with events, you can load in freeform text that contains temporal references (click the '+' in the Document View). You can also create individual events manually (click the '+' in the Control Panel at the far right).
+When you choose to add your own freeform text, a dialog box will appear. You can paste text here or you can choose from some example files from the dropdown menu at the bottom of the dialog box.
+Load text: if you paste in your own text, you must give your text a Document Title. Paste the body of your text in the Content area. You can optionally specify the date when the text was written; in other words, what date does "today" refer to in the text? (this is especially important if the text is copied from a news article). Finally, choose from one of the six colours; events from this text will be drawn on the timeline in this colour. (In the picture below, we used the the 20th Century section of the Wikipedia arcticle "History of British Columbia" )
+When you're ready, press "Go!" to let TimeLineCurator's text analyzer locate all of the temporal references within the text (it might take several seconds depending on the size of your text). You can repeat this step multiple times with different texts. You can add as much text as you want, though you are limited to the six colours provided here.
+Curating the Timeline
+Discrete events are represented as circles on the timeline, while span events are represented as triangles joined with a horizontal line. Events are offset to reduce occlusion; the vertical position does not correspond to anything meaningful.
+Edit Events: You can select every event inside the timeline and you will see the event highlighted in the List View and its corresponding sentence highlighted in the Document View. In the Control Panel, you can edit the event: click on the date, title, or content text to modify. The event title is by default the first 5 words of the sentence in which the temporal reference was detected. The content text is by default the complete sentence surrounding the temporal reference. You also can change the colour track of the event, or delete the event from the timeline. Once you edit an event, its colour will become more saturated on the timeline, and a check mark will appear inside its icon in the List View.
+Media can be added to an event by adding a URL that links directly to an image or video. The cat icon next to the "Add Media" button indicates if an event already has media associated with it: a grey cat indicates no media; a black cat indicates that media has been added to an event (at least a URL, the caption and credit is optional). Media will appear in the finished TimelineJS timeline.
+List View: Click on an event to select it. The headers of the top of the List view, circled below let you order the events by type (discrete event vs. span event), by status (edited vs. not edited), by document, by colour track (1-6), by date, or by event title.
+Vague Dates: Imprecise temporal references are shown as squares at the top right of the timeline and have the date '????' in the list view. These are not initially aligned in the timeline because often they do not represent concrete events that should be on the timeline; it is safe to ignore them because they will not be exported. However, some of these may contain genuine events that were not extracted correctly, so you can use the Control Panel to add concrete information according to your own interpretation of the text (or additional background knowledge).
+Merge Events: you can select several events at once, by pressing the Shift key and selecting one after another. When you have a selection of more than one event, two new buttons will appear in the Control Panel. When you choose to merge events (the button with the circular icon), they will all be assigned the dates of the first event that you selected (the one with the boldest border in the timeline). You can also batch-delete the selected events (the button with the 'x' icon).
+Naming the Timeline: select the 'Home' button in the Control Panel to edit the name and description of the whole timeline.
+Export, Load, Save
+Three buttons at the right of the Control Panel are for Exporting, Saving, and Loading your timeline:
+Export: You can choose between "TLC Export" and "TimelineJS Export". In both cases a new browser tab will open and show all dates, including the pictures that you added.
+"TLC Export" will kind of freeze the current state of your timeline, remove all vague and deleted events and present them in a view without all the editing options. The data is stored inside Amazon's Simple Storage Service . That lets us generate a unique URL which is accessible from everywhere and enables you to share your timeline with people.
+"TimelineJS Export" renders your timeline with TimelineJS . You will see a polished version of the whole timeline, which will include any media you added. Events from different colour tracks (1-6) will appear in the different vertical tracks of the timeline. All data comes from your local storage, that means it is only on your computer and can't be accessed from somewhere else. If you want to save it, for example to upload it to your own server, you can download the whole project (see next paragraph)
+Save and download the current state. Either as:
+.tl file, which can be uploaded again in al later session
+JSON file, in the format that is used for TimelineJS
+Zip-folder, which also includes the index.html of the timeline (with those files you can upload and include the timeline to your website or open the timeline locally).
+Load previous state: every minute the current state of your editing is saved to your local storage; if the browser crashes or you forget to save the latest version, there should be a backup available. Alternatively, you can load from file: if you created a .tl file in a previous session you can upload that one here and continue working on that.
+Examples
+Scandinavian Music
+Result (TLC Export) | Result (TimelineJS) | tl-file
+The Fall of the Berlin Wall
+An overview of the events around the the fall of the wall in 1989. Based on the Wikipedia entry about the "Berlin Wall" .

@@ -1,0 +1,57 @@
+Milligram A minimalist CSS framework Getting Started
+
+Why it's awesome Milligram provides a minimal setup of styles for a fast and clean starting point. Just it! Only 2kb gzipped! It's not about a UI framework. Specially designed for better performance and higher productivity with fewer properties to reset resulting in cleaner code. Hope you enjoy! Do you want to star it, tweet it, or share it with anyone? So do it! This means a lot to me ♥
+
+
+
+
+
+
+
+
+
+
+
+Getting Started There are some ways to get started. First, see all download options available below, then choose the most suitable option for your need. Now you should add the main file of the Milligram and the CSS Reset in the header of your project. Just that! Download Milligram Install with Bower Milligram is available to install using Bower. $ bower install milligram Install with npm Milligram is also available to install using npm. $ npm install milligram Install with Yarn Milligram is also available to install using Yarn. $ yarn add milligram What's included Once downloaded, extract the compressed folder to see the main file in the uncompressed and minified version. milligram/ ├── examples/ │ └── index.html ├── dist/ │ ├── milligram.css │ └── milligram.min.css ├── license └── readme.md Usage First, use any method mentioned above to download Milligram. Then, just add these tags in the head. Milligram is also available via CDN. CLI A CLI for getting started with Milligram. It offers a super simple boilerplate project with Milligram. $ npm install -g milligram-cli Create a new app using the command milligram init , then install dependencies and run with npm start . $ milligram init new_app $ cd new_app $ npm start See more examples of getting started here.
+
+Typography CSS3 introduces a few new units, including the rem unit, which stands for "root em". The rem unit is relative to the font-size of the root element html . That means that we can define a single font size on the root element, and define all rem units to be a percentage of that. The typography has font-size defined in 1.6rem (16px) and line-height in 1.6 (24px). Milligram uses the font-family Roboto, created by Christian Robertson , and provided by Google. Heading h1 4.6rem (46px) Heading h2 3.6rem (36px) Heading h3 2.8rem (28px) Heading h4 2.2rem (22px) Heading h5 1.8rem (18px) Heading h6 1.6rem (16px) The base type is 1.6rem (16px) over 1.6 line height (24px) Anchor Emphasis Small Strong Underline Heading Heading Heading Heading Heading Heading See more examples of typography here.
+
+Blockquotes The Blockquote represents a section that is quoted from another source. Yeah!! Milligram is amazing. Yeah!! Milligram is amazing. See more examples of blockquotes here.
+
+Buttons The Button, an essential part of any user experience. Buttons come in three basic styles in Milligram: The button element has flat color by default, whereas .button-outline has a simple outline around, and .button-clear is entirely clear. Default Button Outlined Button Default Button Outlined Button See more examples of buttons here.
+
+Lists The List is a very versatile and common way to display items. Milligram has three types of lists: The unordered list use ul element will be marked with a outline circles, the ordered list use ol element and your items will be marked with numbers, the description list use dl element and your items will not be marking, only spacings. Unordered list item 1
+
+Unordered list item 2 Ordered list item 1 Ordered list item 2 Description list item 1 Description list item 1.1 Unordered list item 1
+
+Unordered list item 2 Ordered list item 1 Ordered list item 2 Description list item 1 Description list item 1.1 See more examples of lists here.
+
+Forms The Form has never been exactly fun, and it can be downright painful on a mobile device with its on-screen keyboard. Milligram help to make this much easier with design focused on the user experience. Name Age Range 0-13 14-17 18-23 24+ Comment Send a copy to yourself Name Age Range 0-13 14-17 18-23 24+ Comment Send a copy to yourself See more examples of forms here.
+
+Tables The Table element represents data in two dimensions or more. We encourage the use of proper formatting with thead and tbody to create a table . The code becomes cleaner without disturbing understanding. Name Age Height Location Stephen Curry 27 1,91 Akron, OH Klay Thompson 25 2,01 Los Angeles, CA Name Age Height Location Stephen Curry 27 1,91 Akron, OH Klay Thompson 25 2,01 Los Angeles, CA See more examples of tables here.
+
+Grids The Grid is a fluid system with a max width of 112.0rem (1120px) , that shrinks with the browser/device at smaller sizes. The max width can be changed with one line of CSS and all columns will resize accordingly. Milligram is different than most because of its use of the CSS Flexible Box Layout Module standard. The advantage is the simplicity, and we know that a functional code is very important for maintainability and scalability. Simply add columns you want in a row, and they'll evenly take up the available space. If you want three columns, add three columns, if you want five columns, add five columns. There is no restriction on number of columns, but we advise you to follow a design pattern of grid system. See more tips on best practices in the tips. .column .column .column .column .column .column-50.column-offset-25 .column .column .column .column .column .column column-50 column-offset-25 See more examples of grids here.
+
+Codes The Code element represents a fragment of computer code. Just wrap anything in a code and it will appear like this. if you need a block, by default, enter the code within the pre element. .milligram { color: #9b4dca; } .milligram { color: #9b4dca; } See more examples of codes here.
+
+Utilities Milligram has some functional classes to improve the performance and productivity everyday. See more examples of utilities here.
+
+Tips Tips, techniques, and best practice on using Cascading Style Sheets. Mobile First The Mobile First is the design strategy that takes priority development for mobile devices like smartphones and tablets. It means all styles outside of a media queries apply to all devices, then larger screens are targeted for enhancement. This prevents small devices from having to parse tons of unused CSS. Milligram use some breakpoints like these: Larger than Mobile screen: 40.0rem (640px)
+
+screen: 40.0rem Larger than Tablet screen: 80.0rem (1280px)
+
+screen: 80.0rem Larger than Desktop screen: 120.0rem (1920px) /* Mobile First Media Queries */ /* Base style */ { ... } /* Larger than mobile screen */ @media (min-width: 40.0rem) { ... } /* Larger than tablet screen */ @media (min-width: 80.0rem) { ... } /* Larger than desktop screen */ @media (min-width: 120.0rem) { ... } Embed Font Milligram uses the font-family Roboto, created by Christian Robertson , and provided by Google. Customize your projects using Google Fonts. To embed your selected fonts into a webpage, copy this code into the of your HTML document. /* Embed Font */ /* Use the following CSS rules to specify these families */ body { font-family: 'Roboto Slab', serif; } Extending The Inheritances The style of an element can be defined in several different locations, which interact in a complex way. It is this form of interaction makes CSS powerful, but it can make it confusing and difficult to debug. Default .buttonOutlined .buttonClear .button .button-black.button-black.button-black .button-small.button-small.button-small .button-large.button-large.button-large /* Extending The Inheritances */ /* Custom color */ .button-black { background-color: black; border-color: black; } .button-black.button-clear, .button-black.button-outline { background-color: transparent; color: black; } .button-black.button-clear { border-color: transparent; } /* Custom size */ .button-small { font-size: .8rem; height: 2.8rem; line-height: 2.8rem; padding: 0 1.5rem; } .button-large { font-size: 1.4rem; height: 4.5rem; line-height: 4.5rem; padding: 0 2rem; } See more examples of tips here.
+
+Browser Support While not designed for old browsers, Milligram has support for some old versions, but we recommend using the latest versions of their browsers. Brave latest
+
+Chrome latest
+
+Edge latest
+
+Firefox latest
+
+IE latest
+
+Opera latest
+
+Safari latest See more examples of browser support here.

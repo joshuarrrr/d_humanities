@@ -1,0 +1,19 @@
+Tutorials for Gephi, open and collaborative
+
+These tutorials are created to help Gephi users learn how to use the software and its plugins. The project is just starting but it aims at producing tutorials in several languages, covering the basics and advanced use cases.
+
+Open
+
+These tutorials are open: they can be used to teach in class or in professional training sessions. Gephi users are welcome to contribute their knowledge: by using Github, we can all collaborate and edit these documents to improve on them. Don't know where to start? Authoring with Github is explained here.
+
+Multi-languages
+
+The first tutorials will be in French and English, as these are languages I can cover. Adding new languages is easy, just add a folder in the Github repository and translate the documents.
+
+Tutorials available in web pages, pdf, slides, and ebooks!
+
+The tutorials are not written with MS Word or with PowerPoint. We choose instead asciidoc, a slightly technical way of writing, in plain text files (files ending with .txt). Why? Because then, it is easier to convert these tutorials in slides, web pages, ebooks, pdf and MS Word docx as well. Basically, sharing and collaborating online becomes easier, without being blocked by a proprietary file format.
+
+Table of content
+
+English

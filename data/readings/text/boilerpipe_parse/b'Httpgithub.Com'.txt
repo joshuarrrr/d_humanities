@@ -1,0 +1,14 @@
+Security and administration
+Boxes? Check.
+We worried about your administrative and security needs so you don’t have to. From flexible hosting to authentication options, GitHub can help you meet your team’s requirements.
+Learn about GitHub for Business
+Code security
+Prevent problems before they happen. Protected branches, signed commits, and required status checks protect your work and help you maintain a high standard for your code.
+Access controlled
+Encourage teams to work together while limiting access to those who need it with granular permissions and authentication through SAML/SSO and LDAP.
+Hosted where you need it
+Securely and reliably host your work on GitHub.com. Or, deploy GitHub Enterprise on your own servers or in a private cloud using Amazon Web Services, Azure or Google Cloud Platform.
+integrations
+Integrations
+Perfect the way you work
+Customize your process with hundreds of integrations and an intuitive API. Integrate the tools you already use or discover new favorites to create a happier, more efficient way of working.

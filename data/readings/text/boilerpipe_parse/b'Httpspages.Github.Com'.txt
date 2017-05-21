@@ -1,0 +1,24 @@
+Head over to GitHub.com and create a new repository, or go to an existing one.
+Click on the Settings tab.
+Theme chooser
+Scroll down to the GitHub Pages section. Press Choose a theme.
+Pick a theme
+Choose one of the themes from the carousel at the top.
+When you're done, click Select theme on the right.
+Edit content
+Use the editor to add content to your site.
+Commit
+Enter a commit comment and click on Commit changes below the editor.
+Create an index file
+Head over to GitHub.com and create a new repository , or go to an existing one.
+Click on the Create new file button.
+Hello World
+Name the file index.html and type some HTML content into the editor.
+Commit the file
+Scroll to the bottom of the page, write a commit message, and commit the new file.
+Repository Settings
+Click on the Settings tab and scroll down to the GitHub Pages section.
+Then select the master branch source and click on the Save button.
+…and you're done!
+Fire up a browser and go to http://username.github.io/repository.
+Now that you’re up and running, here are a few things you should know.

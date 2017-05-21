@@ -1,0 +1,23 @@
+Home » Humanities GIS Projects
+Humanities GIS Projects
+This catalog was seeded from John Levin's Anterotesis DH GIS Projects list. We would like to improve the interface and functionality in 2016. Please contact us if you are able to help!
+Addressing History
+Animated Atlas of African History
+Flash-based map of Africa, available on the web as downloadable executables for Mac and Windows.
+Site: http://www.brown.edu/Research/AAAH/index.htm
+Archivo Memorias de la Patagonia Austral
+En el año 2010 se crea el proyecto Archivo Memorias de la Patagonia Austral que comienza a reubicar y organizar conjuntos de documentos a partir de la digitalización y el específico tratamiento de los mismos para su puesta en consulta pública.
+Maps and data relating to trans-atlantic shipping, including the slave trade.
+Where:
+Site: http://atlas.fcsh.unl.pt/cartoweb35/atlas.php?lang=en
+Atlas das Paisagens Literárias de Portugal Continental
+Atlas of Literary Landscapes of Mainland Portugal is a project that aims to study literary representations of mainland Portugal and to explore their connections with social and environmental realities both in the past and in the present.
+Site: http://atlas.lib.uiowa.edu/
+Atlas of Sources and Materials for History of Old Poland
+A uniform system for gathering, analysing, and making available information and sources for research in the field of historical geography of Polish lands within borders prior to 1772
+Site: http://hgisb.kul.lublin.pl/azm/pmapper-4.2.0/map_default.phtml?resetsession=ALL&...
+Authorial London
+The Authorial London project is compiling and mapping references to London places found in the works and biographies of writers who have lived there.  You can explore and analyze these curated passages from literary, geographical, and biographical perspectives, on dimensions of genre, form, period, social standing, and neighborhood. The site's underlying software platform, "Authorial {X}," will be made available soon, permitting creation of similar sites for other locales.
+Site: https://authorial.stanford.edu
+Batanes Islands Cultural Atlas
+A Cultural Atlas that includes maps, a timeline, and images of Batanes, the northern most province of the Philippines.

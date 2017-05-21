@@ -1,0 +1,12 @@
+Phablet: 550px
+Mobile: 400px
+/* Mobile first queries */  /* Larger than mobile */ @media (min-width: 400px) {}  /* Larger than phablet */ @media (min-width: 550px) {}  /* Larger than tablet */ @media (min-width: 750px) {}  /* Larger than desktop */ @media (min-width: 1000px) {}  /* Larger than Desktop HD */ @media (min-width: 1200px) {}
+Utilities
+Skeleton has a number of small utility classes that act as easy-to-use helpers. Sometimes it's better to use a utility class than create a whole new class just to float an element.
+/* Utility Classes */  /* Make element full width */ .u-full-width {   width: 100%;   box-sizing: border-box; }  /* Make sure elements don't run outside containers (great for images in columns) */ .u-max-full-width {   max-width: 100%;   box-sizing: border-box; }  /* Float either direction */ .u-pull-right {   float: right; } .u-pull-left {   float: left; }  /* Clear a float */ .u-cf {   content: "";   display: table;   clear: both; }
+Examples
+Demo Landing Page
+This template is an example of how easy it can be to create a landing page with just the Skeleton grid and a few custom styles. The entire demo is ~150 lines of CSS including comments (most of which is positioning the phones at the top).
+Demo Source
+More Coming Soon!
+More examples will be added to help anyone get started or more familiar with how Skeleton works. The goal is education. If you're more interested in real, live examples of Skeleton sites, I'll be creating a "Built on Skeleton" list soon!

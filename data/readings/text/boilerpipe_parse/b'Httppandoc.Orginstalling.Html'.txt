@@ -1,0 +1,33 @@
+There is a package installer at pandoc’s download page .
+For PDF output, you’ll also need to install LaTeX. We recommend MiKTeX .
+If you’d prefer, you can extract the pandoc and pandoc-citeproc executables from the MSI and copy them directly to any directory, without running the installer. Here is an example showing how to extract the executables from the pandoc-1.19.1 installer and copy them to C:\Utils\Console\:
+mkdir "%TEMP%\pandoc\" start /wait msiexec.exe /a pandoc-1.19.1-windows.msi /qn targetdir="%TEMP%\pandoc\" copy /y "%TEMP%\pandoc\pandoc.exe" C:\Utils\Console\ copy /y "%TEMP%\pandoc\pandoc-citeproc.exe" C:\Utils\Console\ rmdir /s /q "%TEMP%\pandoc\"
+Mac OS X
+There is a package installer at pandoc’s download page . If you later want to uninstall the package, you can do so by downloading this script and running it with perl uninstall-pandoc.pl.
+It is possible to extract the pandoc and pandoc-citeproc executables from the osx pkg file, if you’d rather not run the installer. To do this (for the version 1.19.1 package):
+mkdir pandoc-extract cd pandoc-extract xar -x ../pandoc-1.19.1-osx.pkg cat pandoc.pkg/Payload | gunzip -dc | cpio -i # executables are now in ./usr/bin/, man pages in ./usr/share/man
+You can also install pandoc using homebrew : brew install pandoc.
+For PDF output, you’ll also need LaTeX. Because a full MacTeX installation takes more than a gigabyte of disk space, we recommend installing BasicTeX (64M) and using the tlmgr tool to install additional packages as needed. If you get errors warning of fonts not found, try
+tlmgr install collection-fontsrecommended
+Linux
+First, try your package manager. Pandoc is in the Debian , Ubuntu , Slackware , Arch , Fedora , NiXOS , openSUSE , and gentoo repositories. Note, however, that versions in the repositories are often old.
+For 64-bit Debian and Ubuntu , we provide a debian package on the download page .
+sudo dpkg -i $DEB
+where $DEB is the path to the downloaded deb, will install the pandoc and pandoc-citeproc executables and man pages. If you use an RPM-based distro, you may be able to install this deb using alien, or try
+ar p $DEB data.tar.gz | sudo tar xvz --strip-components 2 -C /usr/local
+If you’d rather install pandoc in your home directory, say in $HOME/.local, then you can extract the files manually from the deb:
+ar p $DEB data.tar.gz | tar xvz --strip-components 2 -C $HOME/.local/
+where, again, $DEB is the path to the downloaded deb.
+If the version in your repository is too old and you cannot use the deb we provide, you can install from source, using the instructions below under Compiling from source . Note that most distros have the Haskell platform in their package repositories. For example, on Debian/Ubuntu, you can install it with apt-get install haskell-platform.
+For PDF output, you’ll need LaTeX. We recommend installing TeX Live via your package manager. (On Debian/Ubuntu, apt-get install texlive.)
+BSD
+Pandoc is in the NetBSD and FreeBSD ports repositories.
+Compiling from source
+If for some reason a binary package is not available for your platform, or if you want to hack on pandoc or use a non-released version, you can install from source.
+Getting the pandoc source code
+Source tarballs can be found at https://hackage.haskell.org/package/pandoc . For example, to fetch the source for version 1.17.0.3:
+wget https://hackage.haskell.org/package/pandoc-1.17.0.3/pandoc-1.17.0.3.tar.gz tar xvzf pandoc-1.17.0.3.tar.gz cd pandoc-1.17.0.3
+Or you can fetch the development code by cloning the repository:
+git clone https://github.com/jgm/pandoc cd pandoc git submodule update --init   # to fetch the templates
+Note: there may be times when the development code is broken or depends on other libraries which must be installed separately. Unless you really know what you’re doing, install the last released version.
+Quick stack method

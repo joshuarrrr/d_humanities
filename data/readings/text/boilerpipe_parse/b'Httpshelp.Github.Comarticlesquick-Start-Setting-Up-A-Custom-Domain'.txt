@@ -1,0 +1,5 @@
+all
+There are three main stages to setting up a custom domain for your GitHub Pages site: choosing your custom domain and registering it with a DNS provider, adding your custom domain to your GitHub Pages site on GitHub, and configuring your domain with your DNS provider.
+Tips: For more information about choosing a custom domain, see:
+" Custom domain redirects for GitHub Pages sites "
+Pick a custom domain and register it with a DNS provider (if you haven't already done so). A DNS provider is a company that allows users to buy and register a unique domain name and connect that name to an IP (Internet Protocol) address by pointing your domain name to an IP address or a different domain name. A DNS provider may also be called a domain registrar or DNS host.

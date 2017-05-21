@@ -1,0 +1,3 @@
+Resources
+Martha Ballard’s Diary
+Since the spring of 2009 I have been working sporadically on text mining the diary of Martha Ballard , a midwife from Maine who kept a daily record of her life between 1785 and 1812. Below are posts that describe some of my project’s progress:

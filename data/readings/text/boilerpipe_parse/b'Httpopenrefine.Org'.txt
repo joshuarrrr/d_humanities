@@ -1,0 +1,20 @@
+Tweets about OpenRefine Enhanced with Java profiler
+Welcome!
+OpenRefine (formerly Google Refine) is a powerful tool for working with messy data:  cleaning it; transforming it from one format into another; and extending it with  web services and external data.
+Please note that since October 2nd, 2012, Google is not actively supporting  this project, which has now been rebranded to OpenRefine. Project development,  documentation and promotion is now fully supported by volunteers. Find out  more about the history of OpenRefine and how you can help the community .
+Using OpenRefine - The Book
+Using OpenRefine , by Ruben Verborgh and Max De Wilde, offers a great introduction to OpenRefine. Organized by recipes with hands on examples, the book covers the following topics:
+Import data in various formats
+Explore datasets in a matter of seconds
+Apply basic and advanced cell transformations
+Deal with cells that contain multiple values
+Create instantaneous links between datasets
+Filter and partition your data easily with regular expressions
+Use named-entity extraction on full-text fields to automatically identify topics
+Perform advanced data operations with the General Refine Expression Language
+Introduction to OpenRefine
+1. Explore Data
+OpenRefine can help you explore large data sets with ease. You can find out  more about this functionality by watching the video below and going through these articles
+2. Clean and Transform Data
+3. Reconcile and Match Data
+OpenRefine can be used to link and extend your dataset with various webservices.  Some services also allow OpenRefine to upload your cleaned data to a central database. A growing list of extensions and plugins is available on the wiki .

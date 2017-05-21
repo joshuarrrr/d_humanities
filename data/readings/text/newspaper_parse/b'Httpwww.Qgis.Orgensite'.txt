@@ -1,0 +1,5 @@
+Find out where you can find the QGIS shops to buy QGIS goodies
+
+Get it ... download QGIS 2.18 Las Palmas or read what is new in the: Visual Changelog
+
+Create, edit, visualise, analyse and publish geospatial information on Windows, Mac, Linux, BSD (Android coming soon) For your desktop, server, in your web browser and as developer libraries

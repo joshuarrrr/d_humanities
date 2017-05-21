@@ -1,0 +1,8 @@
+A Free and Open Source Geographic Information System
+QGIS 2.18 Released
+Get it ... download QGIS 2.18 Las Palmas or read what is new in the: Visual Changelog
+Want to support us?
+Find out where you can find the QGIS shops to buy QGIS goodies
+‹ ›
+Create, edit, visualise, analyse and publish geospatial             information on Windows, Mac, Linux, BSD (Android coming soon)
+For your desktop, server, in your web browser and as             developer libraries

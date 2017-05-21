@@ -1,0 +1,31 @@
+Contact sales
+Customer showcase
+Maps for logistics, transportation, social, travel, real estate, government, business intelligence, and dozens of other industries. Explore more industries
+Metromile Connected car
+Available on:
+iOS Android web
+Metromile is more than just car insurance, it captures everything happening in the car from how much you spend on gas to monitoring the engine health and tracking trips.
+Directions and traffic
+Even in between trips, the app tracks where your car is parked, and can give you walking directions to find it.
+Live data visualizations
+Metromile's analytics dashboard is built on top of Mapbox APIs and uses our iOS and Android SDKs to visualize trips, speed variation, and gas mileage.
+Lonely Planet's guides, offline
+Available on:
+iOS Android web
+Lonely Planet, the worldâs largest travel guide publisher, launched their newest version of their Guides for iOS on our mobile SDK. These beautiful travel guides now have fast maps perfect for exploring cities around the world, even while offline.
+Offline mobile maps
+Traveling to remote places often means limited bandwidth or expensive roaming charges, and offline maps give travelers the best possible mobile experience. You can download Lonely Planetâs city guides before your trip so you can explore your favorite city without worrying about your next phone bill or a flaky connection.
+Navigate every city
+Guides to find a coffee spot in the morning, take a scenic hike in the afternoon, and grab dinner at a local restaurant before sunset â all without leaving the app.
+VS-primary_white
+Tableau & Business Intelligence
+Tableau's drag-and-drop platform lets you organize, analyze, and visualize massive amounts of business data. See your enterprise sales by product and zip code, visualize 911 calls by type and neighborhood, or plan delivery routes to avoid traffic and minimize fuel consumption.
+The Weather Channel
+Available on:
+iOS Android web
+The most popular weather app uses our SDK to visualize the most accurate and precise weather forecasts around the world.
+Animated data
+Using gaming-inspired rendering technology The Weather Channel animates data of radar, temperature, UV index, and hurricane tracks.
+Custom map design
+The meteorologists have full control over the map design and create a perfect canvas for their data overlay.
+Discover more industries Mapbox is powering

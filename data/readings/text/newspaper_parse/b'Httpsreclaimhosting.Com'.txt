@@ -1,0 +1,3 @@
+Our servers use fast and redundant hard drives with plenty of memory and CPU power to make your sites fly. Built on an open source LAMP framework with the industry-standard cPanel management console, you have all the tools you need to build great things.
+
+You don’t have to be a programmer to build your own site. With a software library of over 100 applications including WordPress, Omeka, Drupal and more, our automated installer makes it dead simple to experiment and build out amazing websites.

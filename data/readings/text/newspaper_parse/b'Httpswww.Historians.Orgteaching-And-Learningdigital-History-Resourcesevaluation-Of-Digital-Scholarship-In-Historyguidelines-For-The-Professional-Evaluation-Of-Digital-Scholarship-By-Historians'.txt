@@ -1,0 +1,87 @@
+Download the Guidelines (PDF)
+
+Defining the Challenge
+
+The context of historical scholarship is changing rapidly and profoundly. Disciplines and universities that emerged two centuries ago in a profusion of print now find themselves confronted with new digital forms. The historical discipline needs to address, directly and frankly, its particular disciplinary position at this historical juncture.
+
+Historical scholarship is, of course, already digital in many ways. Historians conduct research in digital libraries, use digital tools in their teaching, and participate in conversations on digital networks. Many colleges and universities have created centers and laboratories to foster digital innovation across the disciplines. New forms of scholarship and teaching are now taking shape and contributing to our understanding of the past. These forms of scholarship, in the judgement of the AHA, are no less deserving of professional evaluation than print scholarship.
+
+Despite this ferment, broadly accepted guidelines for the professional evaluation of digital scholarship have not yet emerged. Digital innovation receives widely varying levels of formal recognition when scholars are hired or evaluated for tenure or promotion. That disconnect between emerging practice and the evaluation of that practice discourages scholars at all levels from engaging with the new capacities. It also prevents the profession, and the departments in which it is grounded, from creatively confronting ways in which historical knowledge increasingly will be created and communicated.
+
+The American Historical Association has established this committee to help ensure that our profession acts in far-sighted ways as the digital presence grows. Most concretely, it seeks to help clarify the policies associated with the evaluation of scholarly work in digital forms. More broadly, the goal of the Association and of the committee is to align our best traditions with our best opportunities.
+
+Because academic contributions in the emergent digital environment can take many forms, the AHA has asked the committee to examine not only “work that can be seen as analogous to print scholarship that is reviewable by peers (i.e. journal articles and books), but also to address the myriad uses of digital technology for research, teaching, pedagogy, and even some that might be described as service.”
+
+The AHA offers “a broad working definition of digital history” as “scholarship that is either produced using computational tools and methods or presented using digital technologies.” That definition will embrace a steadily growing proportion of historical scholarship in coming years, and so it is important that departments, chairs, and committees develop a clear understanding of these developments.
+
+At its heart, scholarship is a documented and disciplined conversation about matters of enduring consequence. Hiring, tenure, and promotion involve peer-based judgments evaluating the significance of a scholar’s contribution to one or more of those conversations. Because scholarship is always evolving, departments should continually adapt their policies and practices to take advantage of new opportunities. In the same ways that historians have broadened their expertise to embrace many new subfields over the last several decades, so we must expand our understanding of the rapidly evolving digital environment to take advantage of the possibilities and opportunities it presents.
+
+Forms and Functions of Digital Scholarship
+
+Digital scholarship takes many forms and so will departments’ judgments regarding that work. Some digital publication can be very nearly indistinguishable from print publication in every respect but its medium. A high-quality, peer-reviewed journal article or long-form manuscript published only in digital form is the equivalent of a similar publication printed on paper. Historians whose expressive and methodological practices differ very little from print-era scholars should carry no special burden for explaining why their work appears in digital form save to provide basic information about practices of peer review, editorial control, and circulation that any scholar might be asked to supply about any publication during an evaluation process.
+
+Other digital publication, by contrast, uses methodologies, argumentation, and archival practices that differ from print practices. For those historians, an interest in digital media and tools often stems from a more substantial shift in the methodologies they use to work with archival evidence, oral testimony, or other source material. They may turn to digital media primarily for its potential to support a communicative transformation, providing new ways to connect the professional work of expert historical scholarship with the ways in which wider publics memorialize, represent, and engage history.
+
+Digital history in various forms often represents a commitment to expanding what history is, and can do, as a field, as well as the audiences that it addresses. Historians who take a strong interest in digital media and information technology, or who choose to work exclusively in digital environments, should be evaluated in terms of their overall ability to use sustained, expressive, substantive, and institutional innovation to advance scholarship. This is a commitment that is scholarly in some instances, pedagogical in others, or represents a collegial commitment to the discipline of history.
+
+Some scholars seek to incubate genuinely new approaches to historical reasoning. Those strategies might include new digital short-form genres such as blogs, social media or multimedia storytelling, developing and using new pedagogical methods, participating in strong activist forms of open-access distribution of scholarly work, or creating digital platforms and tools as alternative modalities of scholarly production.
+
+Wherever possible, historians should be ready to explore and consider new modes and forms of intellectual work within the discipline and to expand their understanding of what constitutes the discipline accordingly. The shared commitment of all historians to the informed and evidence-based conversation that is history can smooth our discipline’s integration of new possibilities. With agreement on the purpose of our work, new and varying forms of that work can be seen as strengths rather than impediments.
+
+Roles and Responsibilities
+
+Work done by historians using digital methodologies or media for research, pedagogy, or communication should be evaluated for hiring, promotion, and tenure on its scholarly merit and the contribution that work makes to the discipline through research, teaching, or service. Any search or promotion process that is described as open to or requiring digitally based scholarship needs to embrace at a fundamental level the possible, even the probable, appearance of highly qualified candidates whose preferred practice of digital history significantly challenges print, and perhaps other forms of disciplinary orthodoxy.
+
+Even departments not explicitly hiring a digital historian need to reckon with digital engagement in the discipline and to be prepared to face the challenges and take advantage of the opportunities it provides. For their part, scholars who embark upon digital scholarship have a responsibility to be as clear as possible at each stage of conceiving, building, and sharing that scholarship about the implications and significance of using the digital medium for their contribution to the scholarly conversation. Historians whose use of information technology produces new methodological capacities and modes of analysis need to provide explanatory narratives as a prelude to the professional evaluation of their scholarship by disciplinary colleagues.
+
+Accordingly these guidelines make recommendations for departments, for individual digital historians, and finally for how the AHA can help to promote digital scholarship in the discipline.
+
+Responsibilities of Departments
+
+Departments of history should ask themselves the following questions:
+
+How are your department and your institution responding to the opportunities and challenges presented by the emerging digital environment? How is your department planning to evaluate work presented as part of hiring, promotion, tenure, or other review in a digital medium? Do your hiring plans include positions that involve research, teaching, and scholarly communication employing the use of digital media?
+
+After these initial conversations, the AHA recommends that departments explore their situation more deeply. The AHA recognizes that most departments will not be able to address all the following points immediately. One approach would be to form a committee to address the issues, another would be to start addressing them in the course of their regular meetings, and this process may take some time. But given the likelihood that most departments will eventually face the question of how to evaluate digital work, and to integrate such work into its spectrum of activities, consideration of these issues should begin before actual cases present themselves.
+
+They should inform themselves about developments in the digital context of our work. Most colleges and universities have staff in place whose job it is to monitor and promote new technologies. Librarians, in particular, have long been involved in professional conversations regarding new technologies of teaching and scholarship. Many of them will be delighted to hold workshops and address faculty in groups or as individuals.
+
+Before hiring and encouraging fellow historians who have responsibility for fostering these capacities, it is advisable that chairs and committee heads specify what will count as scholarly contributions toward tenure and promotion. Departments should review and revise written guidelines that define the expectations of ways that colleagues might use digital resources, tools, and networks in their scholarship.
+
+Digital scholarship should be evaluated in its native digital medium, not printed out for inclusion in review materials. Evaluators need to understand how a project works, what capacities it possesses, and how well those capacities perform. This can only be done by actually using the interface.
+
+Departments should consider how to evaluate as scholarship the development of sophisticated digital tools.
+
+Departments need to consider how they will deal with work in a digital medium that exists in a process of continual revision, and therefore never exists as a “finished” product.
+
+Since digital scholarship often includes collaborations, departments should consider developing protocols for evaluating collaborative work, such as co-authored works, undergraduate research, crowdsourcing, and development of tools.
+
+The development of tools and other significant methodological contributions to digital scholarship often require funding to enable collaborations within and across disciplines. Since obtaining funding of this kind may involve undergoing a rigorous peer-review process, departments should consider how to evaluate a candidate’s record of successful grant proposals of this kind.
+
+Departments without expertise in digital scholarship should consider enlisting colleagues who possess expertise in particular forms of digital scholarship to help them evaluate the strengths and weaknesses of the work before them.
+
+Responsibilities of Scholars
+
+Individual scholars doing digital work in history will need to consider their own set of questions:
+
+How would you explain your use of digital means to accomplish your scholarly goals and the commitment of time and energy you will invest in that work? How will your department and institution support and evaluate digital scholarship? What are your plans for dissemination, sustainability, and preservation?
+
+Once you have answered these questions, the AHA recommends the following:
+
+Before initiating a digital project and throughout the course of the project, you should be prepared to explain and document its development and progress and its contributions to scholarship. These statements should be discussed with chairs and committee heads to make sure everyone is operating with the same expectations.
+
+Seek support and guidance in preparing your promotion or tenure portfolio. Resources maintained by departments, the AHA, and scholars can provide important help in crafting your case for the scholarly value of your digital work.
+
+Bring colleagues into your project, taking advantage of opportunities to explain how your work contributes to the scholarly conversation in on-campus forums, professional meetings, and print or online publications. If you establish collaborations and alliances, make sure your department and institution are fully informed at each step.
+
+Consider how the processes and procedures by which your department and institution evaluate and support digital scholarship and teaching will have on your plans.
+
+You should be clear at each step about the expectations of deadlines, final products, and evaluation. Historians who are experimenting with new forms need to be especially clear about what they are doing, what opportunities it offers, what challenges their work presents to their colleagues, and the impact of their work on the intended audiences.
+
+The American Historical Association’s Role
+
+The AHA has long sought to advance the possibilities for scholarship in all forms. Over the last two decades, a series of presidents has focused on the opportunities afforded by digital tools and networks, the organization’s Perspectives on History has featured projects and overviews, the American Historical Review has experimented with articles that contain digital components and added reviews of digital scholarship, and the annual meeting has featured venues for the presentation and discussion of digital history.
+
+Building on this work, the AHA will increase its advocacy on several related fronts. The first step is this committee itself, which will work collaboratively with departments to help clarify just what needs to be done and why.
+
+The committee further recommends that:

@@ -1,0 +1,27 @@
+Examples of Voyant in Research
+
+A wealth of projects have applied Voyant Tools to a variety of research interests. The below list of blog post and articles begin to spell out a type of collective methodology of text analysis with Voyant.
+
+Critical Approaches to Digital Humanities and Voyant Tools
+
+Discussion surrounding the nature of Digital Humanities also engage with the computational tools that drive this emerging field. These blog posts introduce many different issues as well as implicate the tools, such as Voyant, in this discussion.
+
+Conferences and Workshops
+
+Voyant has been discussed in several workshops and conferences (including DH2012 at the University of Hamburg, ASECS THATCamp 2012 workshop, Stan Ruecker Workshop on DH Prototypes for Interpretation, Ryerson Mini-Workshop in conjunction with the CWRC2 Space/Place/Play Conference, ThatCamp2013 Digital Humanities Unconference at UNCC, ThatCamp Kansas, DH Summer School, University of Bern, Switzerland, Digital Humanities 2013, ISA Summer Institute) however these few entries display the reactions of certain individuals to the talks and workshops given on Voyant.
+
+Examples of Voyant in Teaching
+
+Voyant has also found a place among the pedagogical techniques that are becoming another defining aspect of the Digital Humanities. Among other places Voyant is listed as a resource on the library pages of at least 6 universities, including the University of Pennsylvania, Duke University, University of California- Los Angeles, Western Michigan University, University of Wisconsin- Green Bay, and Indiana University.
+
+Course Work
+
+This series of links shows the use of Voyant in coursework assigned to Digital Humanities students.
+
+Critical Approaches to Teaching with the Digital Humanities and Voyant
+
+Evaluating the use of the Digital Humanities toolkit in teaching has itself become a locus for discussion.
+
+Course Syllabuses
+
+While perhaps a bit dry these examples of course syllabuses provide a resource for teaching using Voyant.

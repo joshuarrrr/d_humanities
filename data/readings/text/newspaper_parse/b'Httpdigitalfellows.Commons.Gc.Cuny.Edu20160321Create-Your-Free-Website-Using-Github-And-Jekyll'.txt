@@ -1,0 +1,87 @@
+Tutorial Contents
+
+Introduction
+
+The Digital Fellows have led numerous workshops on, and written posts describing how to use Github for collaboration and sharing. One of the neat features of Github is that it also provides a means for users to host static websites for free within any repository. This means that for each project you host on Github, you can create an accompanying website within that repository with information about the project. You can also create a Github repository specifically for hosting a website, such as a personal website or a website for your organization or team.
+
+Websites hosted on Github can be created using raw HTML/CSS/Javascript, using Github Flavored Markdown, or using the more powerful Jekyll framework. If you’ve never heard of Jekyll, fear not. It’s pretty simple to get started using Jekyll, even if you have no experience with HTML/CSS/Javascript, and this tutorial will walk you through the process of creating a website and blog using Jekyll that you can host on Github.
+
+Examples
+
+Let’s start with some examples of what you can do with Github pages. The official Github showcase lists a bunch of projects that utilize Github Pages to host project websites; here are some screenshots of those sites.
+
+As you can see, pages built using Github Pages come in a variety of styles and can contain complex styles and scripts. Because all of these sites use various open source licenses and are hosted on Github, you could even fork them to your own Github account, tweak the code (within the limitations of their licenses) and create your own site that would mimic the original’s styles.
+
+Set up A Github Repository
+
+If you are not familiar with using Github, you should start by familiarizing yourself enough to push, pull, branch, and commit. Github has a bunch of resources for learning how to use git.
+
+There are two basic options for using Github Pages, you can create a repository specifically dedicated to your website, which is perfect for your personal website, or you can create a website attached to a project, which is useful as a public front-end for that project. The steps for each are similar, but with slight differences, as described on the Github website. In this tutorial, we will be creating your personal Github website, which will be located at https://yourusername.github.io.
+
+If you haven’t done so already, sign up for a Github account. Create a new repository named username.github.io, where username is your actual account username. If you don’t have a git client installed on your computer, follow these instructions. Clone your new repository to your computer, either in your home directory (e.g., /Users/kmiyake/kaymmm.github.io) or in a dedicated projects directory (e.g., /Users/kmiyake/projects/kaymmm.github.io). On Linux or a Mac, it might look something like this (you will obviously need to replace my username/login with your own): cd ~/projects git clone git@github.com:kaymmm/kaymmm.github.io cd kaymmm.github.io On Windows: cd C:\Users\kmiyake\projects git clone git@github.com:kaymmm/kaymmm.github.io cd kaymmm.github.io (optional) If you wanted to attach a page to an existing repository (like in all of the examples above), you would instead create a new branch in your Github repository called gh-pages and place all of your website/Jekyll files in that branch and delete everything else. If you wanted to go this route, go to an existing Github repository on your computer and enter the following terminal commands (don’t forget the last period in the second line): git checkout -b gh-pages git rm -rf . You should now be ready to proceed with the rest of this tutorial.
+
+Set up Jekyll
+
+Fair warning, getting everything set up and working correctly can sometimes be a PITA. That said, the majority of the time it’s easy peasey.
+
+Requirements
+
+Ruby v2 or above
+
+RubyGems
+
+Before you get started, make sure you have Ruby 2+ and RubyGems installed. You can do this by opening a terminal (Mac: /Applications/Utilities/Terminal.app ; Windows: Run > cmd.exe ; Linux: it depends on the version, but I shouldn’t need to tell you), and entering the following command:
+
+ruby -v gem -v
+
+Which should produce output something like:
+
+ruby -v >ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-darwin15] gem -v >2.6.2
+
+If you get an error like command not found: ruby , or if you get a ruby version lower than 2, then you need to follow the link provided above to install Ruby on your computer. Ditto that for gem . In general, I’m an advocate of installing with the help of package managers like homebrew or version managers like (chruby)[https://github.com/postmodern/chruby]. If you use the RubyInstaller on Windows, be sure to check the box to “Add Ruby executables to your PATH”.
+
+Now that you have the pre-requisites installed, let’s install Jekyll:
+
+Open your terminal and type the following, where githubusername is, obviously, your Github username. Also, you should already be in your username.github.io directory. If not, use cd to navigate there first. gem install jekyll jekyll new . --force jekyll serve Note that if you wanted to create a new Jekyll folder, you could use the command jekyll new newprojectname and it would create a new folder named “newprojectname”, however we want Jekyll to create the starter files in our existing Github project folder, so we use the . to indicate the current folder, and --force to tell it that it’s OK if the directory already contains files. After the commands above finish executing, you should see a message that ends with something like: Server address: http://127.0.0.1:4000/ Server running... press ctrl-c to stop. If you got an error, you’ll need to search the web for a solution (protip: search for the exact error message displayed in the output). Open a web browser and navigate to http://127.0.0.1:4000. If you’re on a Mac, you can try command-clicking the address shown in the terminal; on Linux try control-click; this should open the link for you automatically. You should see a page that looks something like this: Now edit the Jekyll configuration to add your URL and username. Open the file _config.yml in a text editor and change the values for “title”, “email”, “description”, “url”, “twitter_username” (or delete this line), and “github_username”. The URL should be “https://username.github.io” with your Github username. Save the file. If you don’t have a text editor other than Notepad.exe or Text Edit.app, I recommend installing something like Sublime Text or Atom. Go ahead and stop the Jekyll server by typing ctrl-c in the terminal window. Using git, add all the new files created by Jekyll, commit them, and push them to your repository: git add --all git commit -m "Add Jekyll starter files" git push Once your push completes, your new Github Page should be ready to go! Test it by opening a browser to http://username.github.io (where username is your Github username). Sometimes you need to give it a second before Github processes your files and updates the live site. But if your page loaded successfully, that means you just created and hosted your first Jekyll site on Github Pages! On to building your site.
+
+Build Your Site Using Jekyll
+
+This isn’t going to be a full tutorial on creating and customizing your Jekyll site. There are plenty of resources for that around the Web. The Jekyll documentation is a great starting point. Jekyll bootstrap is another. What we will do is add some content to your new site and publish it to Github. When Jekyll creates a new site, it automatically generates two pages: “about.md” and “index.html”. Let’s start by modifying the “About” page. Open “about.md” in your text editor. Change the contents of “about.md” to whatever you’d like! Note that this file is written using Markdown, so be sure you follow suit. Also, notice that at the top of the file there is what is referred to as “front matter”, surrounded by three dashes: --- layout: page title: About permalink: /about/ --- This is a Jekyll thing that lets Jekyll know how to interpret your page. Read more about it in the Jekyll documentation. Let’s add an image. Back in the terminal, create a new folder called “images”: mkdir images cd images Copy an image to your images folder. It is HIGHLY recommended that you rename the file so that it does not contain any spaces or non-ASCII characters or things like '"/\%&~ . In your “about.md”, add the image using Markdown syntax: ![Image description](images/imagefilename.png) Save your file, and if you kept your browser window open, you should be able to click on the “About” link in the upper right corner, and it should load your new page! Cool. Let’s create a new page. Create a new text file called “contact.md” and save it to your project’s root directory. Copy-paste the following into your new “contact.md” document, edit as you like, and save it: --- layout: page title: Contact Me --- You can contact me via email at [dummy@dummy.com](mailto:dummy@dummy.com) Check me out on [Facebook](http://facebook.com) and [Instagram](http://instagram.com). You should now be able to browse to http://127.0.0.1:4000/contact/ and see your new page! Every new Markdown/HTML page you create in the root Jekyll directory will correspond to a new page on your website, assuming your front matter is set up correctly. If you’d like to create nested pages, simply create a new folder containing all of the child pages. If you create a page called “index.html” (or .md ) within the folder, it will load as the parent page. It’s easier if I give an example: Create a new folder in your Jekyll project root directory called “projects”: mkdir projects cd projects Now create three new files, “index.md”, “project1.md”, and “project2.md”. Give them the appropriate front matter, including, at the least, a title. Now you can view these pages at the following addresses, respectively: index.md: http://127.0.0.1:4000/projects/
+
+project1.md: http://127.0.0.1:4000/projects/project1
+
+project2.md: http://127.0.0.1:4000/projects/project2 Now let’s create a blog post. You may have noticed that Jekyll created a _posts directory, containing a file whose name starts with the date. That’s the demo blog post. Create a copy of that file and give it a name similar to the existing file (starting with the date), but with your own title in place of “welcome-to-jekyll”. For example: cd _posts cp 2016-03-18-welcome-to-jekyll.markdown 2016-03-18-my-cool-title.md Note that I changed the file extension to .md . Jekyll understands that both .md and .markdown are valid extensions for Markdown files. It also will accept HTML files ending with .html . Open your new page in a text editor and change the content to create your first blog post. Once you save it, it should appear on the front page of your site once you reload the front page, assuming you still have the Jekyll server running. Cool feature: If you change the “date” variable in the front matter to some time in the future, your post will not show up until that date! Easy way to schedule posts for future publication. Caveat: Github Pages doesn’t support categories or tags by default. You have to add that functionality manually, like this, for example. You can delete the default “Welcome to Jekyll” blog post by simply deleting the file, or alternatively, move it to a _drafts folder in the root of your Jekyll project directory. Files in that folder won’t appear on your published website until they are moved into the _posts folder. Finally, let’s save everything and push it to Github (start by using cd to get back to the root directory for your Jekyll project if you’re not already there): cd .. git add --all git commit -m "add contact page and first blog post" git push Now reload your page on Github (e.g., https://kaymmm.github.io) and you should see all of your changes!
+
+Next Steps
+
+Obviously this is just the beginning of what you can do. The next obvious step is to start customizing things like the menus, layouts, header, and footer. The nice thing about Jekyll is that it makes creating content very simple, so you don’t have to worry about adding things like headers and navigation to every single page or post. In other words, it’s modular, with lots of reusable code.
+
+Jekyll Structure
+
+You may have noticed that Jekyll created a few other folders in your project directory, such as _includes , _layouts , and css (among others). Look through the files in those directories and see what happens as you make changes to them (note: the “main.scss” file in the css directory is written using the SASS CSS “language”). In a nutshell, _includes has reusable code chunks that get “included” in the layouts, which are stored in _layouts . You can modify the “header.html” file in the _includes directory to modify the way that the navigation menu is generated using the Jekyll liquid syntax; by default, the menu is automatically generated from the list of all the pages in your site.
+
+Templates
+
+There are a bunch of pre-made Jekyll templates on the Web that you can use to style and format your site. Check out this list of templates to get started. To use these templates, download the template .zip file, unzip the template, and copy the files to your project folder. You will need to edit the _config.yml file to your own site settings. Note that some of these templates may not work 100% with Github Pages since Github doesn’t support most Jekyll plugins, but hopefully the template you choose will have instructions for getting most of the functionality working with Github Pages.
+
+Styles and Scripts
+
+The best way to make your site shine is to use custom CSS and Javascript. You can integrate pre-made libraries, such as Bootstrap or Materialize by simply adding the appropriate code to _includes/head.html and _includes/footer.html to include the CSS and Javascript for those libraries from a CDN. For example, to use Bootstrap, modify _includes/head.html to the following:
+
+<head> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title> <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"> <!-- Latest compiled and minified CSS --> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> <!-- Optional theme --> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"> <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}"> <link rel="canonical" href="{{ page.url | replace:"index.html","" | prepend: site.baseurl | prepend: site.url }}"> <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}"> </head>
+
+And modify _includes/footer.html to include the Bootstrap Javascript (the last 2 lines):
+
+<footer class="site-footer"> <div class="wrapper"> <h2 class="footer-heading">{{ site.title }}</h2> <div class="footer-col-wrapper"> <div class="footer-col footer-col-1"> <ul class="contact-list"> <li>{{ site.title }}</li> <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li> </ul> </div> <div class="footer-col footer-col-2"> <ul class="social-media-list"> {% if site.github_username %} <li> {% include icon-github.html username=site.github_username %} </li> {% endif %} {% if site.twitter_username %} <li> {% include icon-twitter.html username=site.twitter_username %} </li> {% endif %} </ul> </div> <div class="footer-col footer-col-3"> {{ site.description }} </div> </div> </div> </footer> <!-- Latest compiled and minified JavaScript --> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+You could also create a scripts or js (short for Javascript) folder in your Jekyll project folder and add custom Javascript files, then include them in your _includes/footer.html like this (for a file named “myscripts.js”):
+
+<script src="{{ "js/myscripts.js" | prepend: site.baseurl }}"></script>
+
+Note that the above code uses Jekyll’s liquid syntax to automatically generate the correct URL by prepending the base URL for your site (see this for more information).
+
+The folks who make Jekyll created some cool tools for helping you quickly generate new pages and posts. Check out Jekyll Compose. There are also plugins with similar functionality for both the Sublime Text and Atom text editors.
+
+Another approach is to use a system like Jekyll Bootstrap, which uses the Ruby Rake tool to automate the generating of new posts/pages. It also comes pre-packaged with Bootstrap.
+
+Finally, I prefer using Node.js and Bower to automate the development/libraries/building/deployment process. But I’ll save that for the next blog post.

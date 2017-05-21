@@ -1,0 +1,8 @@
+Find maps and other imagery, upload, and rectify against a real map.
+You can then download and use the rectified map in your mapping applications.
+Just sign up and you can start uploading and get warping!
+Upload Map!
+What is it?
+It's a free to use, open source map warper / map georectifier, and image georeferencer tool. Developed, hosted and maintained by Tim Waters , this project is supported by Topomancy LLC and the New York Public Library .
+Mail me at tim@geothings.net for more information!
+Tags

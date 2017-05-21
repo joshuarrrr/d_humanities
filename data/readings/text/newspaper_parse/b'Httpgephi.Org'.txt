@@ -1,0 +1,17 @@
+Support us! We are non-profit . Help us to innovate and empower the community by donating only 8€:
+
+Customizable by plugins : layouts, metrics, data sources, manipulation tools, rendering presets and more.
+
+Centrality : used in sociology to indicate how well a node is connected. Available: degree (power-law), betweenness, closeness.
+
+Social Network Analysis : easy creation of social data connectors to map community organizations and small-world networks.
+
+Link Analysis : revealing the underlying structures of associations between objects.
+
+Papers
+
+Bastian M., Heymann S., Jacomy M. (2009). Gephi: an open source software for exploring and manipulating networks. International AAAI Conference on Weblogs and Social Media. From AAAI [PDF].
+
+Gephi 0.9.1 is here!
+
+The latest Gephi version just got released, let us know what you think on Twitter or Facebook.

@@ -1,0 +1,64 @@
+Create Your (FREE) Website Using Github and Jekyll
+Create Your (FREE) Website Using Github and Jekyll
+March 21, 2016
+Next Steps
+Introduction
+The Digital Fellows have led numerous workshops on, and written posts describing how to use Github for collaboration and sharing. One of the neat features of Github is that it also provides a means for users to host static websites for free within any repository. This means that for each project you host on Github, you can create an accompanying website within that repository with information about the project. You can also create a Github repository specifically for hosting a website, such as a personal website or a website for your organization or team.
+Websites hosted on Github can be created using raw HTML/CSS/Javascript, using Github Flavored Markdown , or using the more powerful Jekyll framework. If you’ve never heard of Jekyll, fear not. It’s pretty simple to get started using Jekyll, even if you have no experience with HTML/CSS/Javascript, and this tutorial will walk you through the process of creating a website and blog using Jekyll that you can host on Github.
+Examples
+Let’s start with some examples of what you can do with Github pages. The official Github showcase lists a bunch of projects that utilize Github Pages to host project websites; here are some screenshots of those sites.
+As you can see, pages built using Github Pages come in a variety of styles and can contain complex styles and scripts. Because all of these sites use various open source licenses and are hosted on Github, you could even fork them to your own Github account, tweak the code (within the limitations of their licenses) and create your own site that would mimic the original’s styles.
+Set up A Github Repository
+If you are not familiar with using Github, you should start by familiarizing yourself enough to push, pull, branch, and commit. Github has a bunch of resources for learning how to use git .
+There are two basic options for using Github Pages, you can create a repository specifically dedicated to your website, which is perfect for your personal website, or you can create a website attached to a project, which is useful as a public front-end for that project. The steps for each are similar, but with slight differences, as described on the Github website . In this tutorial, we will be creating your personal Github website, which will be located at https://yourusername.github.io .
+If you haven’t done so already, sign up for a Github account .
+Create a new repository named username.github.io, where username is your actual account username.
+If you don’t have a git client installed on your computer, follow these instructions .
+Clone your new repository to your computer, either in your home directory (e.g., /Users/kmiyake/kaymmm.github.io) or in a dedicated projects directory (e.g., /Users/kmiyake/projects/kaymmm.github.io).
+On Linux or a Mac, it might look something like this (you will obviously need to replace my username/login with your own):
+cd ~/projects git clone git@github.com:kaymmm/kaymmm.github.io cd kaymmm.github.io
+On Windows:
+cd C:\Users\kmiyake\projects git clone git@github.com:kaymmm/kaymmm.github.io cd kaymmm.github.io
+(optional) If you wanted to attach a page to an existing repository (like in all of the examples above), you would instead create a new branch in your Github repository called gh-pages and place all of your website/Jekyll files in that branch and delete everything else. If you wanted to go this route, go to an existing Github repository on your computer and enter the following terminal commands (don’t forget the last period in the second line):
+git checkout -b gh-pages git rm -rf .
+You should now be ready to proceed with the rest of this tutorial.
+Set up Jekyll
+Fair warning, getting everything set up and working correctly can sometimes be a PITA. That said, the majority of the time it’s easy peasey.
+Requirements
+RubyGems
+Before you get started, make sure you have Ruby 2+ and RubyGems installed. You can do this by opening a terminal (Mac: /Applications/Utilities/Terminal.app; Windows: Run > cmd.exe; Linux: it depends on the version, but I shouldn’t need to tell you), and entering the following command:
+ruby -v gem -v
+Which should produce output something like:
+ruby -v >ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-darwin15] gem -v >2.6.2
+If you get an error like command not found: ruby, or if you get a ruby version lower than 2, then you need to follow the link provided above to install Ruby on your computer. Ditto that for gem. In general, I’m an advocate of installing with the help of package managers like homebrew or version managers like (chruby)[ https://github.com/postmodern/chruby ]. If you use the RubyInstaller on Windows, be sure to check the box to “Add Ruby executables to your PATH”.
+Now that you have the pre-requisites installed, let’s install Jekyll:
+Open your terminal and type the following, where githubusername is, obviously, your Github username. Also, you should already be in your username.github.io directory. If not, use cd to navigate there first.
+gem install jekyll jekyll new . --force jekyll serve
+Note that if you wanted to create a new Jekyll folder, you could use the command jekyll new newprojectname and it would create a new folder named “newprojectname”, however we want Jekyll to create the starter files in our existing Github project folder, so we use the . to indicate the current folder, and --force to tell it that it’s OK if the directory already contains files.
+After the commands above finish executing, you should see a message that ends with something like:
+Server address: http://127.0.0.1:4000/ Server running... press ctrl-c to stop.
+If you got an error, you’ll need to search the web for a solution (protip: search for the exact error message displayed in the output).
+Open a web browser and navigate to http://127.0.0.1:4000 . If you’re on a Mac, you can try command-clicking the address shown in the terminal; on Linux try control-click; this should open the link for you automatically.
+You should see a page that looks something like this:
+Now edit the Jekyll configuration to add your URL and username. Open the file _config.yml in a text editor and change the values for “title”, “email”, “description”, “url”, “twitter_username” (or delete this line), and “github_username”. The URL should be “ https://username.github.io ” with your Github username. Save the file. If you don’t have a text editor other than Notepad.exe or Text Edit.app, I recommend installing something like Sublime Text or Atom .
+Go ahead and stop the Jekyll server by typing ctrl-c in the terminal window. Using git, add all the new files created by Jekyll, commit them, and push them to your repository:
+git add --all git commit -m "Add Jekyll starter files" git push
+Once your push completes, your new Github Page should be ready to go! Test it by opening a browser to http://username.github.io (where username is your Github username). Sometimes you need to give it a second before Github processes your files and updates the live site. But if your page loaded successfully, that means you just created and hosted your first Jekyll site on Github Pages! On to building your site.
+Build Your Site Using Jekyll
+This isn’t going to be a full tutorial on creating and customizing your Jekyll site. There are plenty of resources for that around the Web. The Jekyll documentation is a great starting point. Jekyll bootstrap is another. What we will do is add some content to your new site and publish it to Github.
+When Jekyll creates a new site, it automatically generates two pages: “about.md” and “index.html”. Let’s start by modifying the “About” page. Open “about.md” in your text editor.
+Change the contents of “about.md” to whatever you’d like! Note that this file is written using Markdown , so be sure you follow suit. Also, notice that at the top of the file there is what is referred to as “front matter”, surrounded by three dashes:
+--- layout: page title: About permalink: /about/ ---
+This is a Jekyll thing that lets Jekyll know how to interpret your page. Read more about it in the Jekyll documentation .
+Let’s add an image. Back in the terminal, create a new folder called “images”:
+mkdir images cd images
+Copy an image to your images folder. It is HIGHLY recommended that you rename the file so that it does not contain any spaces or non-ASCII characters or things like '"/\%&~. In your “about.md”, add the image using Markdown syntax:
+![Image description](images/imagefilename.png)
+Save your file, and if you kept your browser window open, you should be able to click on the “About” link in the upper right corner, and it should load your new page! Cool.
+Let’s create a new page. Create a new text file called “contact.md” and save it to your project’s root directory. Copy-paste the following into your new “contact.md” document, edit as you like, and save it:
+--- layout: page title: Contact Me --- You can contact me via email at [dummy@dummy.com](mailto:dummy@dummy.com) Check me out on [Facebook](http://facebook.com) and [Instagram](http://instagram.com).
+You should now be able to browse to http://127.0.0.1:4000/contact/ and see your new page!
+Every new Markdown/HTML page you create in the root Jekyll directory will correspond to a new page on your website, assuming your front matter is set up correctly. If you’d like to create nested pages, simply create a new folder containing all of the child pages. If you create a page called “index.html” (or .md) within the folder, it will load as the parent page. It’s easier if I give an example:
+Create a new folder in your Jekyll project root directory called “projects”:
+mkdir projects cd projects
+Now create three new files, “index.md”, “project1.md”, and “project2.md”. Give them the appropriate front matter, including, at the least, a title. Now you can view these pages at the following addresses, respectively:

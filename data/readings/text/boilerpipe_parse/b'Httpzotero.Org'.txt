@@ -1,0 +1,25 @@
+Grab your research with a single click.
+A personal research assistant.
+Zotero is the only research tool that automatically senses content in your web                 browser, allowing you to add it to your personal library with a single click.                 Whether you're searching for a preprint on arXiv.org, a journal article from JSTOR,                 a news story from the New York Times, or a book from your university                 library catalog, Zotero has you covered with support for thousands of sites.
+Store anything.
+Zotero collects all your research in a single, searchable interface. You can add                  PDFs, images, audio and video files, snapshots of web pages, and really anything                  else. Zotero automatically indexes the full-text content of your library, enabling                  you to find exactly what you're looking for with just a few keystrokes.
+It has never been easier to sort your research.
+Say goodbye to folders.
+Zotero organizes your research into collections that act like iTunes playlists.                  Research items can be added to any number of named collections and subcollections,                  which in turn can be organized however you like. With saved searches, you can                  create smart collections that automatically fill with relevant materials as you add                  them to your library.
+Tag it.
+Assign tags to your library items to organize your research using your own                  keywords. The tag selector enables you to filter your library instantly to view                  matching items. Zotero can even use database and library data to tag items                  automatically as you add them.
+You’re never more than a click away from a bibliography.
+Cite perfectly.
+Whether you need to create footnotes, endnotes, in-text citations, or                  bibliographies, Zotero will do all the dirty work for you, leaving you free to                  focus on your writing. Create citations in Word and OpenOffice without ever leaving                  your word processor and add references to an email, a Google Doc, or some other                  editor simply by dragging one or more references out of Zotero.
+Always in style.
+Ready to submit your manuscript to Tropical Doctor or French                  Historical Studies? We've got you covered: with native integration of the                  powerful and flexible Citation Style Language (CSL), Zotero supports thousands of                  publication formats with more styles added daily.
+Your data is always where you need it.
+Research everywhere.
+Zotero automatically synchronizes your data across as many devices as you                      choose. Add to your research library on your work PC, and organize your                      collections on your home laptop. All of your notes, files, and bibliographic                      data remain seamlessly and silently up to date. Returning from field work? Your                      data will be waiting for you when you get home.
+Painless data transfer.
+Upgrading to a new computer? Zotero will automatically pull down a complete                      copy of your research library from our server network. Even if you don't yet                      have Zotero installed, you can always access your research from any web browser                      in the world.
+Work together and share with the world.
+Works well with others.
+Create and join research groups to focus on any topic you choose. Each group can                  share its own research library, complete with files, bibliographic data, notes, and                  discussion threads. Tag and analyze your research together with others. Work with a                  single colleague or an entire class: Zotero groups can include as many members                  as you please.
+Share with the world. Or not.
+Zotero groups can be private or public, open or closed. You decide. For example,                  you and a few colleagues might initially work on a research project in private. After                  publication, why not share your research notes and library with the world?

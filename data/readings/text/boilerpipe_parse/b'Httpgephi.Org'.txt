@@ -1,0 +1,14 @@
+Download | Blog | Wiki | Forum | Support | Bug tracker
+The Open Graph Viz Platform
+Gephi is the leading visualization and exploration software for all kinds of graphs and networks. Gephi is open-source and free.
+Runs on Windows, Mac OS X and Linux.
+Support us! We are non-profit . Help us to innovate and empower the community by donating only 8€:
+Applications
+Exploratory Data Analysis: intuition-oriented analysis by networks manipulations in real time.
+Link Analysis: revealing the underlying structures of associations between objects.
+Social Network Analysis: easy creation of social data connectors to map community organizations and small-world networks.
+Biological Network analysis: representing patterns of biological data.
+Poster creation: scientific work promotion with hi-quality printable maps.
+Metrics ready
+Centrality: used in sociology to indicate how well a node is connected. Available: degree (power-law), betweenness, closeness.
+And more: density, path length, diameter, HITS, modularity, clustering coefficient.

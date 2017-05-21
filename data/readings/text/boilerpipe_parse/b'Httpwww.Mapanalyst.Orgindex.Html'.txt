@@ -1,0 +1,9 @@
+Site Map
+Welcome to MapAnalyst
+MapAnalyst is a software application for the accuracy analysis of old maps. Its main purpose is to compute distortion grids and other types of visualizations that illustrate the geometrical accuracy and distortion of old maps.
+MapAnalyst uses pairs of control points on an old map and on a new reference map. The control points are used to construct distortion grids, vectors of displacement, accuracy circles, and isolines of local scale and rotation. As a by-product, MapAnalyst also computes the old map's scale, rotation and statistical indicators.
+MapAnalyst is free and open-source software. When you publish scholarly articles that make use of MapAnalyst, you are kindly asked to cite our publications about MapAnalyst .
+Read more about the reasons for the development of MapAnalyst, its main characteristics and the authors. >>
+"Die Landschaft Basel und das Frickthal" by W. Haas, 1798, with a distortion grid with a mesh size of 5000 meters.
+© 2005-2017 Bernhard Jenny , Monash University, Clayton, Australia.
+Last site update: 15 May 2017

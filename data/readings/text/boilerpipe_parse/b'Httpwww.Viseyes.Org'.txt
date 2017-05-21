@@ -1,0 +1,7 @@
+SHANTI INTERACTIVE is a suite of tools that make it easy to create highly interactive web-based visualizations, videos, and maps. They are freely available from the University of Virginia's Sciences, Humanities & Arts Network of Technological Initiatives (SHANTI).
+Click on the logos below to learn more
+Qmedia provides new ways to use video for instructional and scholarly purposes. The viewer interacts with the whole screen and sees a wide array of web-based resources and offers an immersive experience that adds context.
+SHIVA takes a new approach that makes it easy to add graphical and data-driven visualizations to websites. Elements such as data, charts, network graphs, maps, image montages, and timelines are easily created.
+MapScholar is an online platform for geospatial visualization funded by the NEH. It enables humanities and social science scholars to create digital “atlases” featuring high-resolution images of historic maps.
+VisualEyes is web-based authoring tool for historic visualization funded by the NEH to weave images, maps, charts, video and data into highly interactive and compelling dynamic visualizations.
+VisualEyes5 is a HTML5 version of the VisualEyes authoring tool for historic visualization to weave images, maps, charts, video and data into highly interactive and compelling dynamic visualizations.

@@ -1,0 +1,13 @@
+Create a repository Head over to GitHub and create a new repository named username.github.io, where username is your username (or organization name) on GitHub. If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.
+
+Download GitHub for Windows GitHub for Windows is a great way to use git and GitHub on Windows. Download GitHub for Windows
+
+Download GitHub for Mac GitHub for Mac is a great way to use git and GitHub on Mac. Download GitHub for Mac
+
+Clone the repository Go to the folder where you want to store your project, and clone the new repository: ~$git clone https://github.com/username/username.github.io
+
+Clone the repository Click the "Set up in Desktop" button. When the GitHub desktop app opens, save the project. If the app doesn't open, launch it and clone the repository from the app.
+
+Clone the repository After finishing the installation, head back to GitHub.com and refresh the page. Click the "Set up in Desktop" button. When the GitHub desktop app opens, save the project. If the app doesn't open, launch it and clone the repository from the app.
+
+Hello World Enter the project folder and add an index.html file: ~$cd username.github.io ~$echo "Hello World" > index.html

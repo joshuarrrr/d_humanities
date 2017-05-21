@@ -1,0 +1,5 @@
+Visualize your data
+
+In the Map view, you can see any coordinates data as points on a map. Relationships between distinct points can be connected by lines, with the arc of the line representing the flow of the relationship.
+
+Points on the map can be sized to represent their relative magnitude within your data. With the map’s tooltip function you can select which information will be displayed when hovering over a specific point on the map. Zoom in and out using the + and – buttons. Export the nodes and links of Map visualizations (though not the Map background itself) as .svg files.
